@@ -1,0 +1,21 @@
+
+# maruska
+Name: e6440
+Suite: unstable
+# VerifyRelease: A70DAF536070D3A1
+VerifyRelease: blindtrust
+# Method: http://maruska.dyndns.org/~michal/reprepro
+Method: http://e6440/~michal/reprepro
+Architectures: amd64 i386 all source
+Components: main
+
+
+
+# maruska
+Name: e6440-gauche
+Suite: gauche-new
+# VerifyRelease: A70DAF536070D3A1
+VerifyRelease: blindtrust
+Method: http://e6440/~michal/reprepro
+Architectures: amd64 i386 all source
+Components: main

@@ -1,0 +1,21 @@
+#! /bin/zsh -f
+
+
+if ! gpg-connect-agent -q '/bye' || [ $(gpg-connect-agent '/echo  ahoj' '/bye') != "ahoj" ]
+then
+    echo "have to restart gpg"
+
+    ~/gnupg -r
+    source ~/gnupg-source
+fi
+
+
+
+export REPREPRO_BASE_DIR=/home/michal/reprepro/
+
+
+# if you need to remove, 
+# just   reprepro remove precise name 
+reprepro -v  -b /home/michal/reprepro --ignore=surprisingbinary --waitforlock 100 processincoming mybuilds
+
+reprepro export

@@ -1,0 +1,74 @@
+
+Codename: UNRELEASED
+Suite: UNRELEASED
+Components: main
+Architectures: amd64 i386 source x32
+Origin: maruska
+Version: 20.3
+Description: Development Snapshots from my sources in Git.
+
+
+
+Codename: release
+Suite: release
+Components: main
+Architectures: amd64 i386 source armhf x32
+Origin: maruska
+Version: 20.3
+Description: Development Snapshots from my sources in Git.
+# GNUPGHOME
+SignWith: D53CD2B1BB12439D373C66EB78AE221B91A7CD5F
+# EA6DC64FF1115E4D
+# Uploaders
+
+
+
+Codename: precise
+Suite: precise
+Components: main
+udebComponents: main
+Architectures: amd64 i386 source armhf
+Origin: maruska
+Version: 20.3
+Description: Ubuntu Precise
+SignWith: D53CD2B1BB12439D373C66EB78AE221B91A7CD5F
+
+
+Codename: quantal
+Suite: quantal
+Components: main
+udebComponents: main
+Architectures: amd64 i386 source armhf
+Origin: maruska
+Version: 20.3
+Description: Ubuntu quantal (11.10)
+SignWith: D53CD2B1BB12439D373C66EB78AE221B91A7CD5F
+
+
+Codename: sid
+Suite: unstable
+Components: main
+Architectures: amd64 i386 source armhf x32
+Origin: maruska
+Version: 20.3
+Description: My releases (improved & my own packages) for Sid.
+SignWith: D53CD2B1BB12439D373C66EB78AE221B91A7CD5F
+UDebComponents: main
+Update: e6440
+
+Codename: gauche-new
+Suite: gauche-0.9.4-rc2
+Components: main
+# uDebComponents: main
+Architectures: i386 amd64 x32
+#source
+Label: reprepro
+Origin: maruska
+Version: 5.0
+SignWith: D53CD2B1BB12439D373C66EB78AE221B91A7CD5F
+Description: release for SID, and Gauche C-api version 0.9.4-rc2
+Update: e6440-gauche
+# - debian security
+Log: logfile
+Pull: gauche-rule
+
