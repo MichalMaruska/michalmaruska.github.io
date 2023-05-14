@@ -56,6 +56,24 @@ SignWith: D53CD2B1BB12439D373C66EB78AE221B91A7CD5F
 UDebComponents: main
 Update: e6440
 
+
+# ubuntu: 20.04
+Suite: focal
+Codename: focal
+Components: main
+DDebComponents: main
+Architectures: amd64
+Origin: maruska
+Version: 20.3
+Description: My releases (improved & my own packages) for Ubuntu focal
+SignWith: D53CD2B1BB12439D373C66EB78AE221B91A7CD5F
+UDebComponents: main
+#
+#DebOverride: override
+#UDebOverride: override
+#DscOverride: srcoverride
+
+
 Codename: gauche-new
 Suite: gauche-0.9.4-rc2
 Components: main
@@ -71,4 +89,3 @@ Update: e6440-gauche
 # - debian security
 Log: logfile
 Pull: gauche-rule
-

@@ -2,8 +2,7 @@
 Name:          mybuilds
 IncomingDir:   incoming
 TempDir:       tmp
-Allow:       release precise quantal unstable gauche-new
-Default:       release
+Allow:       release precise quantal unstable gauche-new focal
 Permit:   unused_files
 Cleanup:
 
