@@ -1,3 +1,5 @@
+# this is used by dput --  see ~/.dput.cf
+# post_upload_command =  reprepro --waitforlock 100 processincoming mybuilds
 
 Name:          mybuilds
 IncomingDir:   incoming
