@@ -1,0 +1,935 @@
+Package: dircolors
+Version: 1.7
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 35
+Depends: emacs22 | emacsen, emacsen-common (>= 2.0.8)
+Priority: extra
+Section: editors
+Filename: pool/main/d/dircolors/dircolors_1.7_all.deb
+Size: 5908
+SHA256: c73719ced515be1f6daa85dcb334431db8645925be9d0ff86ab0c5efbca50d36
+SHA1: f0eaa7f2d7dd613523f3d86939a171186a317367
+MD5sum: afba612d2911f60cb07a6377581a2474
+Description: ls --color inside emacs
+Dgit: d380871952ca7f608ad024a8857836ab12e7088d
+
+Package: gauche-pg
+Version: 3.2~36.gbpdefeaa
+Architecture: amd64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 382
+Depends: libc6 (>= 2.4), libgauche0 (>= 0.9.11.1), libpq5, gauche
+Conflicts: gauche-pg (<= 1.15)
+Provides: gauche-pg
+Priority: extra
+Section: interpreters
+Filename: pool/main/g/gauche-pg/gauche-pg_3.2~36.gbpdefeaa_amd64.deb
+Size: 82932
+SHA256: d4d0402cae655aa504cd149a303f7f0b7ee687575a50805566b04ac590120eab
+SHA1: 5093b5a8e7f15b31edfd473652e31a3ebd7e10fe
+MD5sum: 75d7d7d0d57de2bfebc07f4e44cd6fd6
+Description: libpq binding for Gauche scheme interpreter
+Dgit: defeaa49396d693949d29bf6a955c73bd95b43df
+
+Package: gauche-pg-dbgsym
+Source: gauche-pg
+Version: 3.2~36.gbpdefeaa
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 69
+Depends: gauche-pg (= 3.2~36.gbpdefeaa)
+Priority: optional
+Section: debug
+Filename: pool/main/g/gauche-pg/gauche-pg-dbgsym_3.2~36.gbpdefeaa_amd64.deb
+Size: 48224
+SHA256: d2f5af2302362e1f02711e815b0610a4611dd14231250e620d7a55baa37374d7
+SHA1: ef4a8165982d740eeb74b7ac83f9ef1d0677d585
+MD5sum: 443d86efb642c7d4f2ed9d3c90c309cf
+Description: debug symbols for gauche-pg
+Build-Ids: be30c433b97f1568f4f893d30cf176b24e4f63be
+
+Package: git-hierarchy
+Version: 5.41
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 500
+Depends: git, gitk (>= 1:2.19.1-1-maruska2), zsh, mmc-shell (>= 3.47), graphviz, imagemagick, bsdmainutils, xdot (>= 1.2-2-maruska)
+Priority: extra
+Section: misc
+Filename: pool/main/g/git-hierarchy/git-hierarchy_5.41_all.deb
+Size: 110084
+SHA256: 876b9a45b5b87c96bc3ecda7b7f1ac6bac02cb12cdccc74b0d4e899c505d8389
+SHA1: c97423df90af5e7dcbf8c35b39006f3d07cb7454
+MD5sum: 56c686b16f863399e486878f441cb000
+Description: Tools to maintain extensions for upstream, in git
+Dgit: 54d7a95a36ee5f80a48e67183ecd9bb26cd8bd66
+
+Package: libecpg-compat3
+Source: postgresql-15
+Version: 15.0-1+b1-maruska~3.gbpfb6d2c
+Architecture: amd64
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Installed-Size: 66
+Depends: libc6 (>= 2.14), libecpg6 (>= 15.0-1+b1), libpgtypes3
+Multi-Arch: same
+Homepage: http://www.postgresql.org/
+Priority: optional
+Section: libs
+Filename: pool/main/p/postgresql-15/libecpg-compat3_15.0-1+b1-maruska~3.gbpfb6d2c_amd64.deb
+Size: 18732
+SHA256: 889a99a12d1e28e8059c0946f33debb33ebce4b9b0c04a8cfaa98924276234b4
+SHA1: 23f6efdbb2a238d4827ebf22c368a10a7d8a6e35
+MD5sum: e9bd32e9b3c8971b193f953ff73c1e49
+Description: older version of run-time library for ECPG programs
+ The libecpg_compat shared library is used by programs built with ecpg.
+ (Embedded PostgreSQL for C).
+ .
+ PostgreSQL is an object-relational SQL database management system.
+Dgit: fb6d2c1e03e05ed30a7b3278f8b585ebb6c48d82
+
+Package: libecpg-compat3-dbgsym
+Source: postgresql-15
+Version: 15.0-1+b1-maruska~3.gbpfb6d2c
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Installed-Size: 54
+Depends: libecpg-compat3 (= 15.0-1+b1-maruska~3.gbpfb6d2c)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/p/postgresql-15/libecpg-compat3-dbgsym_15.0-1+b1-maruska~3.gbpfb6d2c_amd64.deb
+Size: 38076
+SHA256: fb6bb8bdb9df0a1216b451583e9d8e67b0e12ad0cf3399927b7648af5a302ba7
+SHA1: 67a2a0d6f566bcb5c19606702bbb0bfa02cf712b
+MD5sum: 5e8ac352151d89641eecc2cf86b6ff15
+Description: debug symbols for libecpg-compat3
+Build-Ids: e90b3ea692dee20b710a43fd9a8f87fffb2f89f7
+
+Package: libecpg-dev
+Source: postgresql-15
+Version: 15.0-1+b1-maruska~3.gbpfb6d2c
+Architecture: amd64
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Installed-Size: 1636
+Depends: libecpg-compat3 (= 15.0-1+b1-maruska~3.gbpfb6d2c), libecpg6 (= 15.0-1+b1-maruska~3.gbpfb6d2c), libpgtypes3 (= 15.0-1+b1-maruska~3.gbpfb6d2c), libpq-dev, libc6 (>= 2.34)
+Homepage: http://www.postgresql.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/p/postgresql-15/libecpg-dev_15.0-1+b1-maruska~3.gbpfb6d2c_amd64.deb
+Size: 290988
+SHA256: 17dca8691aa6acf0f6fa6de43ae167d428791f5cf87852cac87cbad58c56e000
+SHA1: c33a76731100ac37cf2d7cb01d5256cc1d4dc56e
+MD5sum: 630d1b3549f7740ca6a8fe00399966f4
+Description: development files for ECPG (Embedded PostgreSQL for C)
+ This package contains the necessary files to build ECPG (Embedded
+ PostgreSQL for C) programs.  It includes the development libraries
+ and the preprocessor program ecpg.
+ .
+ PostgreSQL is an object-relational SQL database management system.
+ .
+ Install this package if you want to write C programs with SQL statements
+ embedded in them (rather than run by an external process).
+Dgit: fb6d2c1e03e05ed30a7b3278f8b585ebb6c48d82
+
+Package: libecpg-dev-dbgsym
+Source: postgresql-15
+Version: 15.0-1+b1-maruska~3.gbpfb6d2c
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Installed-Size: 316
+Depends: libecpg-dev (= 15.0-1+b1-maruska~3.gbpfb6d2c)
+Priority: optional
+Section: debug
+Filename: pool/main/p/postgresql-15/libecpg-dev-dbgsym_15.0-1+b1-maruska~3.gbpfb6d2c_amd64.deb
+Size: 278024
+SHA256: d325557c0ac7db5011db83909d43ee7862de1bb4e896bfc04d7eba8745e05fc8
+SHA1: d0655c3a224afa1f991327d8991542ce75cb350c
+MD5sum: e8f9fa7dafde5a2b9c7e8c052be53d12
+Description: debug symbols for libecpg-dev
+Build-Ids: 170c30eba17d2b539af3d9e1ce97d717f3a91f13
+
+Package: libecpg6
+Source: postgresql-15
+Version: 15.0-1+b1-maruska~3.gbpfb6d2c
+Architecture: amd64
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Installed-Size: 230
+Depends: libc6 (>= 2.34), libpgtypes3, libpq5 (>= 9.0~)
+Multi-Arch: same
+Homepage: http://www.postgresql.org/
+Priority: optional
+Section: libs
+Filename: pool/main/p/postgresql-15/libecpg6_15.0-1+b1-maruska~3.gbpfb6d2c_amd64.deb
+Size: 56520
+SHA256: c819db5ff4241d8a2ed2164f1764e4a650dc3c324c209402050bfce2ec5933d8
+SHA1: 9e961ef125bd34d5a7f99ff41a403c301c34f203
+MD5sum: 5c2a57a75adee6f4290939df60975b0e
+Description: run-time library for ECPG programs
+ The libecpg shared library is used by programs built with ECPG
+ (Embedded PostgreSQL for C).
+ .
+ PostgreSQL is an object-relational SQL database management system.
+Dgit: fb6d2c1e03e05ed30a7b3278f8b585ebb6c48d82
+
+Package: libecpg6-dbgsym
+Source: postgresql-15
+Version: 15.0-1+b1-maruska~3.gbpfb6d2c
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Installed-Size: 131
+Depends: libecpg6 (= 15.0-1+b1-maruska~3.gbpfb6d2c)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/p/postgresql-15/libecpg6-dbgsym_15.0-1+b1-maruska~3.gbpfb6d2c_amd64.deb
+Size: 112924
+SHA256: 4c15543cd3d3b4cc45d1015d0a7d226cacf28694531c56f91ff597aa1ee6dbcf
+SHA1: e8e2f7d62c615fda7eb7ddd25370516137890281
+MD5sum: ae8c300612bf33536361fd0d171bf8f1
+Description: debug symbols for libecpg6
+Build-Ids: bcac937068a1edc76ef2e4c15ffdef36ca1590f8
+
+Package: libpgtypes3
+Source: postgresql-15
+Version: 15.0-1+b1-maruska~3.gbpfb6d2c
+Architecture: amd64
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Installed-Size: 111
+Depends: libc6 (>= 2.14)
+Multi-Arch: same
+Homepage: http://www.postgresql.org/
+Priority: optional
+Section: libs
+Filename: pool/main/p/postgresql-15/libpgtypes3_15.0-1+b1-maruska~3.gbpfb6d2c_amd64.deb
+Size: 40436
+SHA256: df0f9e94e4b04bd685fdb61b0a4d8a71ba4618c4653e1a3481933ae92b835ccd
+SHA1: 7302d1716294a07ab9430989054729086a4d62ee
+MD5sum: a155d72eb7b73444a68c98ba2f072552
+Description: shared library libpgtypes for PostgreSQL 15
+ The libpgtypes shared library is used by programs built with ecpg.
+ (Embedded PostgreSQL for C).
+ .
+ PostgreSQL is an object-relational SQL database management system.
+Dgit: fb6d2c1e03e05ed30a7b3278f8b585ebb6c48d82
+
+Package: libpgtypes3-dbgsym
+Source: postgresql-15
+Version: 15.0-1+b1-maruska~3.gbpfb6d2c
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Installed-Size: 103
+Depends: libpgtypes3 (= 15.0-1+b1-maruska~3.gbpfb6d2c)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/p/postgresql-15/libpgtypes3-dbgsym_15.0-1+b1-maruska~3.gbpfb6d2c_amd64.deb
+Size: 88240
+SHA256: 32421c0af9a19a7bf1b866951b830e7887066948ac31b774eac82d353fae730d
+SHA1: 89da818e9e0ec60c5548c1a4a9e9e3aa4a71f4c0
+MD5sum: 75e84ba95c4cf212f602b83e13db10fd
+Description: debug symbols for libpgtypes3
+Build-Ids: fc4b50c7c371143c9bceef58e1d87dacd27b293b
+
+Package: libpq-dev
+Source: postgresql-15
+Version: 15.0-1+b1-maruska~3.gbpfb6d2c
+Architecture: amd64
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Installed-Size: 572
+Depends: libpq5 (= 15.0-1+b1-maruska~3.gbpfb6d2c), libssl-dev
+Suggests: postgresql-doc-15
+Homepage: http://www.postgresql.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/p/postgresql-15/libpq-dev_15.0-1+b1-maruska~3.gbpfb6d2c_amd64.deb
+Size: 139856
+SHA256: d7294d3ecd4b90f4e4a6426a5be422549f8ea444405bbd8d6632ef1a48442f52
+SHA1: 9dc9332f41e4b7224b3298eca05bd74ecce1ac57
+MD5sum: a41b18f97a52c1361d1356eb6b13dd10
+Description: header files for libpq5 (PostgreSQL library)
+ Header files and static library for compiling C programs to link
+ with the libpq library in order to communicate with a PostgreSQL
+ database backend.
+ .
+ PostgreSQL is an object-relational SQL database management system.
+Dgit: fb6d2c1e03e05ed30a7b3278f8b585ebb6c48d82
+
+Package: libpq5-dbgsym
+Source: postgresql-15
+Version: 15.0-1+b1-maruska~3.gbpfb6d2c
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Installed-Size: 309
+Depends: libpq5 (= 15.0-1+b1-maruska~3.gbpfb6d2c)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/p/postgresql-15/libpq5-dbgsym_15.0-1+b1-maruska~3.gbpfb6d2c_amd64.deb
+Size: 277692
+SHA256: a6a1e9583ede1f41022bcca869b26114d744ad68e31d8d58de62b5700ddab923
+SHA1: 9accffd95fe65e2b5a4b057bf30ac60f0334c575
+MD5sum: 32f6d4cb7c3a671c9723a0a7e9150433
+Description: debug symbols for libpq5
+Build-Ids: 246f0a882814a39bae1283fbbf14fc8a3246e38b
+
+Package: maruska-misc
+Version: 2.7.2
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 69
+Priority: extra
+Section: misc
+Filename: pool/main/m/maruska-misc/maruska-misc_2.7.2_all.deb
+Size: 8776
+SHA256: abaf6eab7124d72587308bd6a536c2182637b110a9ec1b1990174189e81d2d90
+SHA1: d757856144ff35bd6d297ed686b8ae55602665b8
+MD5sum: 59f30dfe8078949ca8500e34b56d5064
+Description: various data files (sed, awk, keymaps...)
+Dgit: e3dc845a2229c294a1137a0b73978c48b7e4e3fe
+
+Package: maruska-preference
+Version: 3.54
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 225
+Depends: zsh, mmc-zsh, mmc-shell (>= 3.28), file
+Recommends: gauche-eog, git-core, gitk, rlwrap, devscripts, mempeak, human, less, highlight, sudo, acpi-support-base, acpi-support, acpi-fakekey, brightnessctl, python3-docutils
+Priority: extra
+Section: shells
+Filename: pool/main/m/maruska-preference/maruska-preference_3.54_all.deb
+Size: 34340
+SHA256: b4e86f45758334b4188a89397bf1e740697a00e6a0a321d7410a249d5c109493
+SHA1: f1b722d87cd901d34d28ed2b0907ae3780a71e3e
+MD5sum: 5fbc5f891feb4d513195c7e802d83f93
+Description: some configs.
+Dgit: 86455985f4e5eedcda73ab646ba65b861acc9db8
+
+Package: maruska-top-android
+Source: maruska-top
+Version: 1.26
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 8
+Depends: maruska-top-developer, adb, fastboot, pidcat, heimdall-flash, mkbootimg, abootimg
+Priority: extra
+Section: shells
+Filename: pool/main/m/maruska-top/maruska-top-android_1.26_all.deb
+Size: 2568
+SHA256: 71c134bd09c843b20f26fdf7b373bcea4b519f1084da174ed66936a34df5dc0d
+SHA1: ba05f66e2be8e06e037b31746ab564b3a59bc80c
+MD5sum: 3b12d7f71702f40301fa81dc4c8d4a15
+Description: Things I use for development with Android gadgets
+Dgit: 8b9a8ad3d0defaeb06d4389c56701826b17bf523
+
+Package: maruska-top-base
+Source: maruska-top
+Version: 1.26
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 8
+Depends: maruska-preference, maruska-misc, mmc-emacs, dircolors, mmc-emacs-config, mmc-sawfish, mmc-zsh, elinks, xplugin, fork-plugin, libfork, lsof, xdelta, human, mempeak, rlwrap, rxvt-beta, lightdm, git-core, gitk, emacs, man, strace, xauth, zsh-syntax-highlighting, rep, highlight, python3-docutils, nocache, cron, xserver-xorg-input-evdev | xserver-xorg-input-libinput
+Recommends: plocate
+Conflicts: exim4-base
+Priority: extra
+Section: shells
+Filename: pool/main/m/maruska-top/maruska-top-base_1.26_all.deb
+Size: 2804
+SHA256: d732d8993e50abd2cbf99e69e6c751c94f177a64c7d4a88cacf5bf0c570ae9e1
+SHA1: ae46acaddeb6746e637978e1cba00aef6f1176c7
+MD5sum: 1755efadad402ae3ea8cdc9d8b5748e3
+Description: This should be enough to make maruska happy with the desktop.
+ A container package -- pulling in dependencies which I am accustomed to.
+Dgit: 8b9a8ad3d0defaeb06d4389c56701826b17bf523
+
+Package: maruska-top-commercial
+Source: maruska-top
+Version: 1.26
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 8
+Depends: google-chrome-stable | google-chrome-unstable
+Priority: extra
+Section: shells
+Filename: pool/main/m/maruska-top/maruska-top-commercial_1.26_all.deb
+Size: 2536
+SHA256: d09222043d368946a1a2f1f5dd2fc9714fdfbe24b09daa8ada5f0a61a3b27805
+SHA1: 946a32342d034f92a4a38050f3e2e55c585a42e5
+MD5sum: f070a7170fa3f8b37683b709f95f11a7
+Description: Commercial sw from external repositories
+Dgit: 8b9a8ad3d0defaeb06d4389c56701826b17bf523
+
+Package: maruska-top-corporate
+Source: maruska-top
+Version: 1.26
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 8
+Depends: maruska-top-desktop, telegram-desktop, slack-desktop, teams-insiders
+Priority: extra
+Section: shells
+Filename: pool/main/m/maruska-top/maruska-top-corporate_1.26_all.deb
+Size: 2548
+SHA256: 0ec0dd68b7f27db2d7c70889580b743921d50a92bc3bb8f680cb0d1e25d3f6d3
+SHA1: e20ee5e469729fa25c4b05ed5e5a1eb36f625ba9
+MD5sum: bc516750d2d557d05fcccc6e2e7bffdf
+Description: Things I need on GUI workstation.
+Dgit: 8b9a8ad3d0defaeb06d4389c56701826b17bf523
+
+Package: maruska-top-debian
+Source: maruska-top
+Version: 1.26
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 8
+Depends: equivs, packaging-dev, dlocate, mmc-build-system, pbuilder, cowdancer, devscripts, libdistro-info-perl
+Priority: extra
+Section: shells
+Filename: pool/main/m/maruska-top/maruska-top-debian_1.26_all.deb
+Size: 2576
+SHA256: e28ca99b511dbf2ddc0cbfcd5ab8afc0057f4ab64f3ce8ea5923d9bfeaeeb040
+SHA1: 5a2f9f466f6485dbd9d74fb0c946fa701283d6c5
+MD5sum: 9dc3f73c32a98d1a3a3df8a341c7a89d
+Description: Things I use for processing email.
+Dgit: 8b9a8ad3d0defaeb06d4389c56701826b17bf523
+
+Package: maruska-top-desktop
+Source: maruska-top
+Version: 1.26
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 8
+Depends: unclutter, powertop, lshw, maruska-top-base, x11-xserver-utils, xinput, gconf2, mate-panel, claws-mail, claws-mail-newmail-plugin, claws-mail-multi-notifier, network-manager-gnome, firefox, mplayer, evince, pavucontrol, pulseaudio, mpg123, pulsemixer, gnome-settings-daemon, gnome-keyring, xkb-reset, gst123
+Recommends: chromium, chromium-browser
+Priority: extra
+Section: shells
+Filename: pool/main/m/maruska-top/maruska-top-desktop_1.26_all.deb
+Size: 2712
+SHA256: 763c2c69154a4bbe440d955dc23b5f2c9ba853668779e7c9ad6c69aa024672db
+SHA1: 9163090b88c9bde23483de1cb423a7ae13cd742c
+MD5sum: 259a71f3ad23cd1282d83c966c6de302
+Description: Things I need on GUI workstation.
+Dgit: 8b9a8ad3d0defaeb06d4389c56701826b17bf523
+
+Package: maruska-top-developer
+Source: maruska-top
+Version: 1.26
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 8
+Depends: maruska-top-desktop, mmc-emacs-devel, emacs-goodies-el, debian-el, magit, zsh-doc, python-mode, elpa-paredit, git-hierarchy, gdb, colortail, manpages, manpages-dev, gawk-doc, gcc-doc, cmake-doc, cmake, gcc
+Priority: extra
+Section: shells
+Filename: pool/main/m/maruska-top/maruska-top-developer_1.26_all.deb
+Size: 2624
+SHA256: 1aa783cf010f6dbbc1eb86e0973024263a88383b6ff9b4dda397cf923c1204f6
+SHA1: e98d5589fa319f1cee91539a05d5c4f40af87e69
+MD5sum: 40c92fbd9e8245ae624be40444072a96
+Description: Things I use for development/work. Android gadgets
+Dgit: 8b9a8ad3d0defaeb06d4389c56701826b17bf523
+
+Package: maruska-top-mail-server
+Source: maruska-top
+Version: 1.26
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 8
+Depends: postfix, fetchmail, maildrop, mutt, dovecot, bsd-mailx
+Priority: extra
+Section: shells
+Filename: pool/main/m/maruska-top/maruska-top-mail-server_1.26_all.deb
+Size: 2556
+SHA256: e786a739a60a9da4b2ba4259882e801bc706d2795dd552a2ec63a383df79e429
+SHA1: 40cc6a9cddaa8cc10304d982e4fe175bdde21e29
+MD5sum: f30c56d0c456717914321353568e6cd0
+Description: Things I use for processing email.
+Dgit: 8b9a8ad3d0defaeb06d4389c56701826b17bf523
+
+Package: maruska-top-pg
+Source: maruska-top
+Version: 1.26
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 8
+Depends: pg-natural-sex, char-in-set, pg-human, thumbsize, sadd
+Priority: extra
+Section: shells
+Filename: pool/main/m/maruska-top/maruska-top-pg_1.26_all.deb
+Size: 2592
+SHA256: 36482648c5afe41f0c33ef6c9745330a2a37f1f986cc678765ecf4364937b4c3
+SHA1: 9d2eddda2c25389e0220886c5a916017b118da58
+MD5sum: 05a5cfca7d9031e8279dcdcf1f55c9b0
+Description: This should be enough to make maruska PG databse work.
+ A container package -- pulling in dependencies for database work.
+Dgit: 8b9a8ad3d0defaeb06d4389c56701826b17bf523
+
+Package: maruska-top-podman
+Source: maruska-top
+Version: 1.26
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 8
+Depends: runc, fuse-overlayfs, podman, slirp4netns, uidmap
+Priority: extra
+Section: shells
+Filename: pool/main/m/maruska-top/maruska-top-podman_1.26_all.deb
+Size: 2548
+SHA256: e756dd87f9c4bea1eda98bc9d18aae90f48f3bc8397aaa56389a4b40f17d82e2
+SHA1: 6805bf50600e3c4159e307cf05d58aff9081d16c
+MD5sum: 23d70b63a5975c288ebe5311c8dc2e42
+Description: Things I need on GUI workstation.
+Dgit: 8b9a8ad3d0defaeb06d4389c56701826b17bf523
+
+Package: maruska-top-scheme
+Source: maruska-top
+Version: 1.26
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 8
+Depends: gauche, gauche-mmc-apps, chezscheme
+Priority: extra
+Section: shells
+Filename: pool/main/m/maruska-top/maruska-top-scheme_1.26_all.deb
+Size: 2520
+SHA256: f7688ae50c8aa9605076b3f4652780b8506fa42cef8374113182d279d967bb88
+SHA1: fe3cc1370144a33e7279d9bbc054a104977cf1c1
+MD5sum: 0db5dbb14f1f206d4951d18e5b3c305b
+Description: My favourite scheme environments
+Dgit: 8b9a8ad3d0defaeb06d4389c56701826b17bf523
+
+Package: maruska-top-server
+Source: maruska-top
+Version: 1.26
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 8
+Depends: maruska-top-base, libapache2-mod-fastcgi | libapache2-mod-fcgid, postgresql-12, libpq5, reprepro, mod-languagesubdomain
+Priority: extra
+Section: shells
+Filename: pool/main/m/maruska-top/maruska-top-server_1.26_all.deb
+Size: 2636
+SHA256: 5fbd76951a43146db26dbea35378fa0a25e2b5db4304aeac20052979270ff043
+SHA1: 6ee5c249024a1495532f666c503aa2747cf50dd5
+MD5sum: 0966c9d5e3b832fe6acc1b0c0734d27f
+Description: This should be enough to make maruska happy with the Server.
+ A container package -- pulling in dependencies which I am accustomed to.
+Dgit: 8b9a8ad3d0defaeb06d4389c56701826b17bf523
+
+Package: maruska-top-techno
+Source: maruska-top
+Version: 1.26
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 8
+Depends: usbutils, pciutils, ddcutil, wakeonlan, bluez-firmware, pulseaudio-module-bluetooth, firmware-iwlwifi, firmware-realtek, brightnessctl, acpi-support-base, acpi-support, acpi-fakekey, sispmctl
+Priority: extra
+Section: shells
+Filename: pool/main/m/maruska-top/maruska-top-techno_1.26_all.deb
+Size: 2628
+SHA256: 2e265ed5225f4053cae1cf9d4fb2637a823e5e181e256f5544cb938f71eb990b
+SHA1: aff8ad7294f13c45591edb2a1b7e00615517c497
+MD5sum: add0e1e890fdb0e4362aeafab4e14beb
+Description: Things I need for hardware investigations.
+Dgit: 8b9a8ad3d0defaeb06d4389c56701826b17bf523
+
+Package: maruska-top-work
+Source: maruska-top
+Version: 1.26
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 8
+Depends: maruska-top-desktop, openvpn, dnsmasq
+Priority: extra
+Section: shells
+Filename: pool/main/m/maruska-top/maruska-top-work_1.26_all.deb
+Size: 2520
+SHA256: 9cd51478359920c5984c2cb31791b22cf6e860dae257889ee4200054f2704a1a
+SHA1: d76985d9be12c233c63595a18600c27d23759302
+MD5sum: e44137d1a2d2ae90f9eb3cb4b97fbfeb
+Description: Things I use for work from home.
+Dgit: 8b9a8ad3d0defaeb06d4389c56701826b17bf523
+
+Package: mmc-build-system
+Version: 4.10
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 88
+Depends: git-buildpackage, zsh, mmc-shell (>> 2.8), libapt-pkg-perl, libgetopt-long-descriptive-perl
+Conflicts: mmc-shell (= 2.8)
+Priority: extra
+Section: misc
+Filename: pool/main/m/mmc-build-system/mmc-build-system_4.10_all.deb
+Size: 21252
+SHA256: fd608b8be678d4935ba14d2887253e386ad749b0275414f7682f3ae792fbb7c6
+SHA1: ae9bc5f786a89a74986902088d82d1cd23bc3016
+MD5sum: 3648ab7e057ad3a166cc531b0db63c2e
+Description: collection of shell scripts
+Dgit: fd903da68dcabfadf99da20f022ecd8e91056205
+
+Package: mmc-emacs
+Version: 2.11~16.gbpa32e4c
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 532
+Depends: emacsen
+Enhances: gnuserv
+Priority: extra
+Section: editors
+Filename: pool/main/m/mmc-emacs/mmc-emacs_2.11~16.gbpa32e4c_all.deb
+Size: 118116
+SHA256: 3ab73074a006d44bf48c0ad696411d7152f4cb552b8f8bf4a5ca02777f0578c6
+SHA1: 7b2585d9c7fe9aebfbdd25ed59efa8e1e7889854
+MD5sum: 6a831fd2be9048456779fd99be8ba5fb
+Description: Michal Maruska handy elisp function (general utility)
+ This should probably be only generically useful code, without
+ anything strictly personal.
+Dgit: a32e4c2e0072127c164996f5f2cc17fdba807e56
+
+Package: mmc-emacs-config
+Version: 1.16~3.gbp1cd547
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 98
+Depends: emacsen
+Priority: extra
+Section: editors
+Filename: pool/main/m/mmc-emacs-config/mmc-emacs-config_1.16~3.gbp1cd547_all.deb
+Size: 21288
+SHA256: 555ef5659d35dbd42d70ac3c807fd86d58b81e9bd6e6ea4e225e0313011bb9a5
+SHA1: 2b0e4859e43bae8025bb1801ba637b5acc873e52
+MD5sum: 2544b4c549eea72bd80dd0b57ac40011
+Description: mmc's configuration. not for general use!?
+Dgit: 1cd5471882d3b26a5388779bbf45e3ba088f8909
+
+Package: mmc-emacs-devel
+Version: 2.15
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 228
+Depends: emacsen, mmc-shell, cscope-el | xcscope-el, mmc-emacs (>= 2.3), mmc-emacs-config, elpa-paredit, elpa-yaml-mode, cmake-data
+Recommends: pylint
+Enhances: python-mode
+Priority: extra
+Section: editors
+Filename: pool/main/m/mmc-emacs-devel/mmc-emacs-devel_2.15_all.deb
+Size: 45688
+SHA256: fc08ac6e0baf4a7bea59d02f57d7044f23ea7f8e45aa7aefd0fddcdbba5b3002
+SHA1: 4d4a8a148d8391f8884f909602e787ba0022157e
+MD5sum: fe4daf81170c92c561a5383387de4b1a
+Description: mmc's elisp, handy for "development", programming
+Dgit: 08cb74b7ad658a00f7d634bb26494a992c025b80
+
+Package: mmc-shell
+Version: 3.56
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 213
+Depends: zsh, gawk, git (>= 1:2.31.0), mp3info, mpg123
+Recommends: gst123, systemd-container, alsa-utils, tdb-tools
+Conflicts: tt-tools (<< 1.13)
+Priority: extra
+Section: misc
+Filename: pool/main/m/mmc-shell/mmc-shell_3.56_all.deb
+Size: 52940
+SHA256: 9340e14113a77867f262b08937a0b96d473fbf9b0bf0a6b873395521de43a292
+SHA1: de4dd39c1d5667b8748d308c00a087a284549f50
+MD5sum: 1d22f0acdd079818d80c3070e730b310
+Description: collection of shell scripts
+Dgit: 4b1214f1c0e70a813772f498e944650e94224073
+
+Package: mmc-zsh
+Version: 2.10
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 104
+Depends: zsh, zsh-syntax-highlighting, lsb-release
+Priority: extra
+Section: shells
+Filename: pool/main/m/mmc-zsh/mmc-zsh_2.10_all.deb
+Size: 28880
+SHA256: 718b8bf162accfd5a7e941ec8575c6d09d650b2243007dc8d90bf2d591e3396a
+SHA1: 56b27a43d4f05a4bafbdb5a78df3841fc6d01742
+MD5sum: f0771ba62908b9ad31d2126509ecee85
+Description: Michal Maruska's convenient zsh files
+ My site-wise configs for zsh (line editing widgets)...
+Dgit: b42c402ed85b2a35f4a04cf4dc1758d6cb3731b2
+
+Package: postgresql-15
+Version: 15.0-1+b1-maruska~3.gbpfb6d2c
+Architecture: amd64
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Installed-Size: 50441
+Depends: locales | locales-all, postgresql-client-15, postgresql-common (>= 241~), ssl-cert, tzdata, debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libgssapi-krb5-2 (>= 1.14+dfsg), libicu71 (>= 71.1-1~), libldap-2.5-0 (>= 2.5.4), libllvm14, liblz4-1 (>= 0.0~r130), libpam0g (>= 0.99.7.1), libpq5 (>= 14~beta2), libselinux1 (>= 3.1~), libssl3 (>= 3.0.0), libstdc++6 (>= 5.2), libsystemd0, libuuid1 (>= 2.16), libxml2 (>= 2.7.4), libxslt1.1 (>= 1.1.25), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.1.4)
+Recommends: sysstat
+Provides: postgresql-15-jit-llvm (= 14), postgresql-contrib-15
+Homepage: http://www.postgresql.org/
+Priority: optional
+Section: database
+Filename: pool/main/p/postgresql-15/postgresql-15_15.0-1+b1-maruska~3.gbpfb6d2c_amd64.deb
+Size: 16454628
+SHA256: f83403432154559b85187aa85faff7b6df8671919da9ad5647a5c0ff1d7c5a0c
+SHA1: e5839a43712ca3955611aa8e812089f639e5a286
+MD5sum: 9ccd354c61b4f290895bd8a21901e597
+Description: The World's Most Advanced Open Source Relational Database
+ PostgreSQL, also known as Postgres, is a free and open-source relational
+ database management system (RDBMS) emphasizing extensibility and SQL
+ compliance. It features transactions with Atomicity, Consistency, Isolation,
+ Durability (ACID) properties, automatically updatable views, materialized
+ views, triggers, foreign keys, and stored procedures. It is designed to handle
+ a range of workloads, from single machines to data warehouses or Web services
+ with many concurrent users.
+ .
+ This package provides the database server for PostgreSQL 15.
+Dgit: fb6d2c1e03e05ed30a7b3278f8b585ebb6c48d82
+Postgresql-Catversion: 202209061
+
+Package: postgresql-15-dbgsym
+Source: postgresql-15
+Version: 15.0-1+b1-maruska~3.gbpfb6d2c
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Installed-Size: 18466
+Depends: postgresql-15 (= 15.0-1+b1-maruska~3.gbpfb6d2c)
+Priority: optional
+Section: debug
+Filename: pool/main/p/postgresql-15/postgresql-15-dbgsym_15.0-1+b1-maruska~3.gbpfb6d2c_amd64.deb
+Size: 16705132
+SHA256: c3d4720b8447927fa8f80c9979de12e8e7a1c6fd736c0dd018b27f428effa64b
+SHA1: db0d47ce22b447b5cf314a4f4bcffb134b0ddc82
+MD5sum: 1151d585b6b36d449a04a4e6271ab15b
+Description: debug symbols for postgresql-15
+Build-Ids: 0177da0d6e8d1441a2c882560f28c24ad4140bc2 02e6e6302085e1d35d1813028aa32547295f2d28 03c624a9f8b9a3677d92c1a43cff4a0a5abb88d4 092f13567937c8ec5dad85c9748dd4313887a90d 0e1230779f96e65cc71c6fe58105edfe2af3061d 10606e9f654026b5c7e01ab935b74d977d4faa9a 12441df98ecb5293c302f8bca17c85bcd86ab9f3 184f7bd625c733ca797062a6e1dc45022927799a 189c3b15d2e2cc30e95e271c22f49a7f1175edfa 1ba231063b6f08af81b90336eedb24b616cc0494 1baed1e7c7af79bd82718ceeedcbc330a5f088b6 1f4826060afa1ce69ab359a6708e25c31f26dc83 21330be398118afe8dd5fc3ec58225c685da2155 2945bc8e87957c941208c62d1b203cfcce8ff1e2 2b4ea84b6f3d3ee61914e73ac891e18d707d60b0 2f61caff668c07d2aff1f55a8ea2cc79477546e8 301f5e07f4dfb830310e43080d65c023d2f70e02 31c8e052285f7f801c16050238d097868b9b8e67 35b05a7a92bffc715b2082e45fa8c1e46c392d60 36b63054c46d1829b47680482b190cfe710a797c 38030344318eaef2c6257957c746a128b1a7706c 38634787daa890b933521ed286f5e25f440eaa8e 3d9805b0e57d27f9105034e55718dc09a64cf55d 412c5fd5b78d075ca3a5648037af41666e63ce53 42ad0ca1b2e65ea77f492b3a09644d8db00c8a71 4c500a98991f786441bb6d64713a581e446d8d04 4e345ae195277d942d21a7ef2ca96adca16d0be1 513a75b324562facd5ef7cb79eb53483a0251778 52e19e4064178d4d28d39ac1f2d93cc48e2ff7ae 53538725caf3ec015bee81ba8c29461940092046 54544b969f8887bc4c298a07bade9f88a0fb8b15 59a875932dc6931185e320b4e3d536e617208019 5aeca26eb22bb70a30dd1739e02de3a7e5a4467e 6077c791ffe9d1c45909d41638407cfc984ab82d 616c05c15ed07588dea85634f641d5efa076e740 621c8be19796a4a6dcc3518e91961e0a364ee673 64bd2e442e00021bbf5288ff736f188426a209f4 692b66bc9c5730929a93291b1df1858caa2320d0 6d4bd6a6d848b30e15b28388d9596a0e844eaa32 6da19ab898746749c9528a098f1b2137a5521628 6eb2131b27d86bac778e26190e135045d43a7ec2 6f0095eac840a368b8b5c9de5a6243ed34ee87c6 7591293628a47f1a155b388ecd8df65668fb28fc 767c1e05fb3d52b3af06735e09dbe62feeadce29 7777df1f1a46d97452b4b376d2e784ac71ec8187 7aa9ec93c97484c02ec6b80095ae822d1d593c8a 7ae793bd0fe1fe21848b6fb72c775fac75603693 7e871077bf9d199993883d9bd7eb38c2ab77a2ab 81980c6f256233215ca218fed8a8d7a8e9700ae4 89bd9b1bd2a2fdb204b3c3ab86bba6d786ac377a 8b9b11ebd69e64fc00ef08e50ac836d247b13033 8e95f74c5182da4ac8bcf325920ce791c724fdea 90163fa67688c8a3c2127e54469ebd0b391b60fe 905a5a758cd94e19292091782685bcca88dfad33 9234baa140b6d58ea595e611aa66441579426e2e 923fbce822aee5758ccba3745149588b960e4bca 93a0374d63b49986c9bec03ff9759a9ce82551bb 93f2f1219ed8bad4c04924fb7be0fe3948b67ad5 98386addb06d1fe61ed0964073f936964abff0e7 98d178deece397e7e99d698922f149d7a6b52d3d 9974c7605d8b0ce4ab3e8d3cdb43ee3a5820d2e1 a30d32a00b375fa4ed88578056325fc70a9e09f1 a3186a3c3516e633cb09a119d93a84101fa7bdc3 a4f76f34135123da94bc410edca8baf8a5f490bd accc2421c5fedf19c29d581d8a2ef61a93912d4e adcb53fe1a7317b2e93a2ca6df408f86a76e4d23 adde4ce8f7d26d931483804027896d977fb60ec7 b2f44261606160e1dbfe482955a3f9dcb0af9dd3 b553f02852f09fef0c31adb5e42fdf858a02b274 b765206337ec13dbf6f2c7876888a692e2062d86 bd6dc22c7a4256fab8064808bdd9806adb915efe c013dd0e3872ba968ff822f0890bbb6175cae1c7 c4227c8717580ee25e93e94bfc797d597931fba8 c8bf2350a26a28b2cb90575db2cc605ef4e13670 cdee5d9cf9aa1dd9354a6de7ea65a3adc46802b6 d14b9e1863ebf3f59cbd77d3e57320731c5b92e6 d1fffae64df11acec2f56d79fb9d599cd412b5a6 d375852d7a46a4257f7c555e07073775a5b373fc d66a1d336eeac13c81f4eafb388878ce9c845f5f d9bf40f62e1922ff145e8c2c186b9f2e694a5817 da6aa1d03b68dd266411f3fcaba82e52731b08ec dab49f1ecdd14ae7d2a4f7ee89b0a700fc444a22 dca16c94d7732ae0e1cdcabb892235e76562cec4 dfd6d0e404ad7e3ee8ad8951db41beef247a7a05 e4ac9f54ee8b5803f84467b75f6bede6dd413b8b ec5112c3cb1695f66588b788ca14f68f4bb35bb7 edb5a7dafcbf4195905eb61a0399c35ffdfec180 ee7ee87051095d4a54405725ab4de05cc7a45d1c f07d04991972f73a7fc7a4f6870af99b881a8e99 f176db8047069b1ad81d77e32b35528f9211af3e f5a1369668e4278c0529b7d8fbd0c1cf60f3d867 fd3df62f9681e313d8bd2ce43aebabc6123b192a fdcd6c6ec085320707929249ba955174397e5b81 fea965c19d6087fbb043187950bcf8421b8928b5 ff114f483a8999bf0ddfd51003a6330c3d729853 ff1c6fea809d5fc15409c85daa940384dd958876
+Postgresql-Catversion: 202209061
+
+Package: postgresql-client-15
+Source: postgresql-15
+Version: 15.0-1+b1-maruska~3.gbpfb6d2c
+Architecture: amd64
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Installed-Size: 7492
+Depends: libpq5 (>= 15.0-1+b1), postgresql-client-common (>= 182~), sensible-utils, libc6 (>= 2.34), liblz4-1 (>= 0.0~r127), libreadline8 (>= 6.0), libssl3 (>= 3.0.0), libzstd1 (>= 1.5.2), zlib1g (>= 1:1.1.4)
+Suggests: postgresql-15, postgresql-doc-15
+Provides: postgresql-client
+Multi-Arch: foreign
+Homepage: http://www.postgresql.org/
+Priority: optional
+Section: database
+Filename: pool/main/p/postgresql-15/postgresql-client-15_15.0-1+b1-maruska~3.gbpfb6d2c_amd64.deb
+Size: 1657332
+SHA256: 04b1c06cc0ef3c4c01b19e5f27325217c232bef724771d5647631889d23f0b65
+SHA1: 128022a73a8cecf131a5cfaafa502665f5469c98
+MD5sum: 41b4fcfe06b7829c7257ca629321a06f
+Description: front-end programs for PostgreSQL 15
+ This package contains client and administrative programs for
+ PostgreSQL: these are the interactive terminal client psql and
+ programs for creating and removing users and databases.
+ .
+ This is the client package for PostgreSQL 15. If you install
+ PostgreSQL 15 on a standalone machine, you need the server package
+ postgresql-15, too. On a network, you can install this package on
+ many client machines, while the server package may be installed on
+ only one machine.
+ .
+ PostgreSQL is an object-relational SQL database management system.
+Dgit: fb6d2c1e03e05ed30a7b3278f8b585ebb6c48d82
+
+Package: postgresql-client-15-dbgsym
+Source: postgresql-15
+Version: 15.0-1+b1-maruska~3.gbpfb6d2c
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Installed-Size: 2799
+Depends: postgresql-client-15 (= 15.0-1+b1-maruska~3.gbpfb6d2c)
+Priority: optional
+Section: debug
+Filename: pool/main/p/postgresql-15/postgresql-client-15-dbgsym_15.0-1+b1-maruska~3.gbpfb6d2c_amd64.deb
+Size: 2413804
+SHA256: e2f15c759e818f45c3be8fb26af3bf548870280846607fda8e43dd380cdc90cf
+SHA1: 87c35a70d3f13d3b92f2adfb3a2830c7ecc86939
+MD5sum: 866201b0f8e74038ae007e0f20cf1e5a
+Description: debug symbols for postgresql-client-15
+Build-Ids: 0be1ba401ba1b48341d324b96af88cd3429e0a30 12b4bb96b4dde274de7f367d77f18e93cfe1f405 1b755b2e2453c3571544678855ea68015af5869e 2164c306d121e8c89e31f897593d2f7ebf833e91 3d9573d0bd7cd4e3d2e5064d001f8e5faaf34d3f 561d66ff1568ddaf642460149977231091c8e0bc 57f5f9d8fb1067bc481778c15f39f2dcd81417d8 5821321a6a7ab441c0df2ee945d3bc2ec4bf5600 5c3293f53b81a1683599c9f0e6f437ada986a3c9 7e465bd9a0543079dec35d39faf27ba572030832 82835ea768075fbd37c1b0cc2d5f49831e243406 8390ac1ed178b1bfbbcb7281cdcf3c25946b36c4 a53f23415bcb9f840bc2775f3f4fc6aacf58339c a5a3111c559b2558a4431cd9befefebb34e2aba6 c1e5b8dcad71febd536502e52047da3e630614bc c3974c915750e69d547d850b4f379a6a7a5bd688 cab2f2d58b25e1def287022c78e4c4a09fbcee25 cb6f41ae0b5c72d96c7f4f5c86e1b77a10c25736 d1ce99cae2af222e3e2d2a660e886b2422f96e7e df69961763b7789308660279b32fe0c657f56868 e729448ed8708685d8935929d45eaa55d817f53a
+
+Package: postgresql-doc-15
+Source: postgresql-15
+Version: 15.0-1+b1-maruska~3.gbpfb6d2c
+Architecture: all
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Installed-Size: 15854
+Breaks: postgresql-common (<< 158~)
+Multi-Arch: foreign
+Homepage: http://www.postgresql.org/
+Priority: optional
+Section: doc
+Filename: pool/main/p/postgresql-15/postgresql-doc-15_15.0-1+b1-maruska~3.gbpfb6d2c_all.deb
+Size: 1999436
+SHA256: 6f25ea33ee59f163bc9e6dfb0412c6c1c583e2de7d92005fb768eb4c996fc8ae
+SHA1: 87d832bcbab1abeee81f14fc8982dfd8781728bb
+MD5sum: b8eab870bae8917e072f1989c4708945
+Description: documentation for the PostgreSQL database management system
+ This package contains all README files, user manual, and examples for
+ PostgreSQL 15. The manual is in HTML format.
+ .
+ PostgreSQL is an object-relational SQL database management system.
+Dgit: fb6d2c1e03e05ed30a7b3278f8b585ebb6c48d82
+
+Package: postgresql-plperl-15
+Source: postgresql-15
+Version: 15.0-1+b1-maruska~3.gbpfb6d2c
+Architecture: amd64
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Installed-Size: 377
+Depends: perl, postgresql-15 (= 15.0-1+b1-maruska~3.gbpfb6d2c), libc6 (>= 2.34), libperl5.36 (>= 5.36.0)
+Provides: postgresql-plperl
+Homepage: http://www.postgresql.org/
+Priority: optional
+Section: database
+Filename: pool/main/p/postgresql-15/postgresql-plperl-15_15.0-1+b1-maruska~3.gbpfb6d2c_amd64.deb
+Size: 85656
+SHA256: d115cde1f290b3a286cb75174f285c3bd610295411a3b9aa5b8a02944095c735
+SHA1: d96e5855dd48878f965977194cd00d011070795c
+MD5sum: 6b5afbed363e8ef5cd5d76331e240a39
+Description: PL/Perl procedural language for PostgreSQL 15
+ PL/Perl enables an SQL developer to write procedural language functions
+ for PostgreSQL 15 in Perl.  You need this package if you have any
+ PostgreSQL 15 functions that use the languages plperl or plperlu.
+ .
+ PostgreSQL is an object-relational SQL database management system.
+Dgit: fb6d2c1e03e05ed30a7b3278f8b585ebb6c48d82
+
+Package: postgresql-plperl-15-dbgsym
+Source: postgresql-15
+Version: 15.0-1+b1-maruska~3.gbpfb6d2c
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Installed-Size: 228
+Depends: postgresql-plperl-15 (= 15.0-1+b1-maruska~3.gbpfb6d2c)
+Priority: optional
+Section: debug
+Filename: pool/main/p/postgresql-15/postgresql-plperl-15-dbgsym_15.0-1+b1-maruska~3.gbpfb6d2c_amd64.deb
+Size: 186728
+SHA256: a453ff32db08699178bfaf06a2cce3c46b23558d6c4d45d71bc7bc5ca1e2b60c
+SHA1: b7c2f3966bcc9c080a365ee7f25837feb250cf2a
+MD5sum: b0f8b606a1c16c41792a9c812dbfa933
+Description: debug symbols for postgresql-plperl-15
+Build-Ids: 3b95b8adf5aec7a9ecadd7d09467dff49edf1954 a230bda0f945b3a08f0f58b1667d28c4e86d586a acae7b7d5e20e803788c9825db02ec7364bec966 c28bcb03a69d7ccc77bdf6e52e2972b8a9f049e6
+
+Package: postgresql-plpython3-15
+Source: postgresql-15
+Version: 15.0-1+b1-maruska~3.gbpfb6d2c
+Architecture: amd64
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Installed-Size: 526
+Depends: postgresql-15 (= 15.0-1+b1-maruska~3.gbpfb6d2c), libc6 (>= 2.14), libpython3.10 (>= 3.10.0)
+Provides: postgresql-plpython3
+Homepage: http://www.postgresql.org/
+Priority: optional
+Section: database
+Filename: pool/main/p/postgresql-15/postgresql-plpython3-15_15.0-1+b1-maruska~3.gbpfb6d2c_amd64.deb
+Size: 107156
+SHA256: c67b2868a82ccaaaf7ffaf2ddc910872ef4e354033efebc67383917d80d6a74c
+SHA1: b434606b9cfc9dd1f3e7c8069933166cf544a072
+MD5sum: 5dcc699943736b8504186480cf1c27dd
+Description: PL/Python 3 procedural language for PostgreSQL 15
+ PL/Python 3 enables an SQL developer to write procedural language functions
+ for PostgreSQL 15 in Python 3.  You need this package if you have any
+ PostgreSQL 15 functions that use the languages plpython3 or plpython3u.
+ .
+ PostgreSQL is an object-relational SQL database management system.
+Dgit: fb6d2c1e03e05ed30a7b3278f8b585ebb6c48d82
+
+Package: postgresql-plpython3-15-dbgsym
+Source: postgresql-15
+Version: 15.0-1+b1-maruska~3.gbpfb6d2c
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Installed-Size: 223
+Depends: postgresql-plpython3-15 (= 15.0-1+b1-maruska~3.gbpfb6d2c)
+Priority: optional
+Section: debug
+Filename: pool/main/p/postgresql-15/postgresql-plpython3-15-dbgsym_15.0-1+b1-maruska~3.gbpfb6d2c_amd64.deb
+Size: 176960
+SHA256: be48f75cbff77e2790fadd9328597af45266a5b390fba00c47bc1eb6edc74054
+SHA1: b31cfed68d73f5328941824a848ba3ceb3bb1a42
+MD5sum: 5626026bd86f5b8d34cd20cf7f17e1a1
+Description: debug symbols for postgresql-plpython3-15
+Build-Ids: 00188ac3fc3254d8452762f2d6891e2f60a67807 041c257175faa0b42110a1a1c389f0fa3a9948c3 c0bb1600c48d83b4601d6802e5699e1c23d00c1a c11a82bd4364548796cc8afc58d3219262df2922
+
+Package: postgresql-pltcl-15
+Source: postgresql-15
+Version: 15.0-1+b1-maruska~3.gbpfb6d2c
+Architecture: amd64
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Installed-Size: 193
+Depends: postgresql-15 (= 15.0-1+b1-maruska~3.gbpfb6d2c), libc6 (>= 2.4), libtcl8.6 (>= 8.6.0)
+Provides: postgresql-pltcl
+Homepage: http://www.postgresql.org/
+Priority: optional
+Section: database
+Filename: pool/main/p/postgresql-15/postgresql-pltcl-15_15.0-1+b1-maruska~3.gbpfb6d2c_amd64.deb
+Size: 37396
+SHA256: 22cdea0c61fcb521b79144b66ed5ad3a2a2adcf57984915d1cc5750d88c55ed0
+SHA1: 1caa7cb933cd1f98d9235c3e727b6d918a7c071a
+MD5sum: 732d766a44b28b6911de43377fc35b67
+Description: PL/Tcl procedural language for PostgreSQL 15
+ PL/Tcl enables an SQL developer to write procedural language functions
+ for PostgreSQL 15 in Tcl.  You need this package if you have any
+ PostgreSQL 15 functions that use the languages pltcl or pltclu.
+ .
+ PostgreSQL is an object-relational SQL database management system.
+Dgit: fb6d2c1e03e05ed30a7b3278f8b585ebb6c48d82
+
+Package: postgresql-pltcl-15-dbgsym
+Source: postgresql-15
+Version: 15.0-1+b1-maruska~3.gbpfb6d2c
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Installed-Size: 96
+Depends: postgresql-pltcl-15 (= 15.0-1+b1-maruska~3.gbpfb6d2c)
+Priority: optional
+Section: debug
+Filename: pool/main/p/postgresql-15/postgresql-pltcl-15-dbgsym_15.0-1+b1-maruska~3.gbpfb6d2c_amd64.deb
+Size: 79424
+SHA256: d65649ebc3a7c1197e8399a02af3992b303f689ee2d9e66968ac4e5e160d0842
+SHA1: 50653d62c58c55183e9ce8b2755f9b29353359a2
+MD5sum: b48a0be088773aa4eb6c3badb936f868
+Description: debug symbols for postgresql-pltcl-15
+Build-Ids: 4bf567f497f0d0df575a35bc4c225563c2449232
+
+Package: postgresql-server-dev-15
+Source: postgresql-15
+Version: 15.0-1+b1-maruska~3.gbpfb6d2c
+Architecture: amd64
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Installed-Size: 6752
+Depends: clang-14, libpq-dev (>= 15~~), llvm-14-dev, postgresql-client-15, postgresql-common (>= 142~)
+Homepage: http://www.postgresql.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/p/postgresql-15/postgresql-server-dev-15_15.0-1+b1-maruska~3.gbpfb6d2c_amd64.deb
+Size: 1133580
+SHA256: b746298d347bb5fcd3709c25d0f49ceef36b044cbf636bf2b72018be94f19efb
+SHA1: 189d1a847dd0503eebb74f725b4ca8dae5225f1e
+MD5sum: 615fe711fc10fcd46741c65d74b84985
+Description: development files for PostgreSQL 15 server-side programming
+ Header files for compiling SSI code to link into PostgreSQL's backend; for
+ example, for C functions to be called from SQL.
+ .
+ This package also contains the Makefiles necessary for building add-on
+ modules of PostgreSQL, which would otherwise have to be built in the
+ PostgreSQL source-code tree.
+ .
+ PostgreSQL is an object-relational SQL database management system.
+Dgit: fb6d2c1e03e05ed30a7b3278f8b585ebb6c48d82
+

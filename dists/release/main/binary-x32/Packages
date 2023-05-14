@@ -1,0 +1,436 @@
+Package: dircolors
+Version: 1.7
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 35
+Depends: emacs22 | emacsen, emacsen-common (>= 2.0.8)
+Priority: extra
+Section: editors
+Filename: pool/main/d/dircolors/dircolors_1.7_all.deb
+Size: 5908
+SHA256: c73719ced515be1f6daa85dcb334431db8645925be9d0ff86ab0c5efbca50d36
+SHA1: f0eaa7f2d7dd613523f3d86939a171186a317367
+MD5sum: afba612d2911f60cb07a6377581a2474
+Description: ls --color inside emacs
+Dgit: d380871952ca7f608ad024a8857836ab12e7088d
+
+Package: git-hierarchy
+Version: 5.41
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 500
+Depends: git, gitk (>= 1:2.19.1-1-maruska2), zsh, mmc-shell (>= 3.47), graphviz, imagemagick, bsdmainutils, xdot (>= 1.2-2-maruska)
+Priority: extra
+Section: misc
+Filename: pool/main/g/git-hierarchy/git-hierarchy_5.41_all.deb
+Size: 110084
+SHA256: 876b9a45b5b87c96bc3ecda7b7f1ac6bac02cb12cdccc74b0d4e899c505d8389
+SHA1: c97423df90af5e7dcbf8c35b39006f3d07cb7454
+MD5sum: 56c686b16f863399e486878f441cb000
+Description: Tools to maintain extensions for upstream, in git
+Dgit: 54d7a95a36ee5f80a48e67183ecd9bb26cd8bd66
+
+Package: maruska-misc
+Version: 2.7.2
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 69
+Priority: extra
+Section: misc
+Filename: pool/main/m/maruska-misc/maruska-misc_2.7.2_all.deb
+Size: 8776
+SHA256: abaf6eab7124d72587308bd6a536c2182637b110a9ec1b1990174189e81d2d90
+SHA1: d757856144ff35bd6d297ed686b8ae55602665b8
+MD5sum: 59f30dfe8078949ca8500e34b56d5064
+Description: various data files (sed, awk, keymaps...)
+Dgit: e3dc845a2229c294a1137a0b73978c48b7e4e3fe
+
+Package: maruska-preference
+Version: 3.54
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 225
+Depends: zsh, mmc-zsh, mmc-shell (>= 3.28), file
+Recommends: gauche-eog, git-core, gitk, rlwrap, devscripts, mempeak, human, less, highlight, sudo, acpi-support-base, acpi-support, acpi-fakekey, brightnessctl, python3-docutils
+Priority: extra
+Section: shells
+Filename: pool/main/m/maruska-preference/maruska-preference_3.54_all.deb
+Size: 34340
+SHA256: b4e86f45758334b4188a89397bf1e740697a00e6a0a321d7410a249d5c109493
+SHA1: f1b722d87cd901d34d28ed2b0907ae3780a71e3e
+MD5sum: 5fbc5f891feb4d513195c7e802d83f93
+Description: some configs.
+Dgit: 86455985f4e5eedcda73ab646ba65b861acc9db8
+
+Package: maruska-top-android
+Source: maruska-top
+Version: 1.26
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 8
+Depends: maruska-top-developer, adb, fastboot, pidcat, heimdall-flash, mkbootimg, abootimg
+Priority: extra
+Section: shells
+Filename: pool/main/m/maruska-top/maruska-top-android_1.26_all.deb
+Size: 2568
+SHA256: 71c134bd09c843b20f26fdf7b373bcea4b519f1084da174ed66936a34df5dc0d
+SHA1: ba05f66e2be8e06e037b31746ab564b3a59bc80c
+MD5sum: 3b12d7f71702f40301fa81dc4c8d4a15
+Description: Things I use for development with Android gadgets
+Dgit: 8b9a8ad3d0defaeb06d4389c56701826b17bf523
+
+Package: maruska-top-base
+Source: maruska-top
+Version: 1.26
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 8
+Depends: maruska-preference, maruska-misc, mmc-emacs, dircolors, mmc-emacs-config, mmc-sawfish, mmc-zsh, elinks, xplugin, fork-plugin, libfork, lsof, xdelta, human, mempeak, rlwrap, rxvt-beta, lightdm, git-core, gitk, emacs, man, strace, xauth, zsh-syntax-highlighting, rep, highlight, python3-docutils, nocache, cron, xserver-xorg-input-evdev | xserver-xorg-input-libinput
+Recommends: plocate
+Conflicts: exim4-base
+Priority: extra
+Section: shells
+Filename: pool/main/m/maruska-top/maruska-top-base_1.26_all.deb
+Size: 2804
+SHA256: d732d8993e50abd2cbf99e69e6c751c94f177a64c7d4a88cacf5bf0c570ae9e1
+SHA1: ae46acaddeb6746e637978e1cba00aef6f1176c7
+MD5sum: 1755efadad402ae3ea8cdc9d8b5748e3
+Description: This should be enough to make maruska happy with the desktop.
+ A container package -- pulling in dependencies which I am accustomed to.
+Dgit: 8b9a8ad3d0defaeb06d4389c56701826b17bf523
+
+Package: maruska-top-commercial
+Source: maruska-top
+Version: 1.26
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 8
+Depends: google-chrome-stable | google-chrome-unstable
+Priority: extra
+Section: shells
+Filename: pool/main/m/maruska-top/maruska-top-commercial_1.26_all.deb
+Size: 2536
+SHA256: d09222043d368946a1a2f1f5dd2fc9714fdfbe24b09daa8ada5f0a61a3b27805
+SHA1: 946a32342d034f92a4a38050f3e2e55c585a42e5
+MD5sum: f070a7170fa3f8b37683b709f95f11a7
+Description: Commercial sw from external repositories
+Dgit: 8b9a8ad3d0defaeb06d4389c56701826b17bf523
+
+Package: maruska-top-corporate
+Source: maruska-top
+Version: 1.26
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 8
+Depends: maruska-top-desktop, telegram-desktop, slack-desktop, teams-insiders
+Priority: extra
+Section: shells
+Filename: pool/main/m/maruska-top/maruska-top-corporate_1.26_all.deb
+Size: 2548
+SHA256: 0ec0dd68b7f27db2d7c70889580b743921d50a92bc3bb8f680cb0d1e25d3f6d3
+SHA1: e20ee5e469729fa25c4b05ed5e5a1eb36f625ba9
+MD5sum: bc516750d2d557d05fcccc6e2e7bffdf
+Description: Things I need on GUI workstation.
+Dgit: 8b9a8ad3d0defaeb06d4389c56701826b17bf523
+
+Package: maruska-top-debian
+Source: maruska-top
+Version: 1.26
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 8
+Depends: equivs, packaging-dev, dlocate, mmc-build-system, pbuilder, cowdancer, devscripts, libdistro-info-perl
+Priority: extra
+Section: shells
+Filename: pool/main/m/maruska-top/maruska-top-debian_1.26_all.deb
+Size: 2576
+SHA256: e28ca99b511dbf2ddc0cbfcd5ab8afc0057f4ab64f3ce8ea5923d9bfeaeeb040
+SHA1: 5a2f9f466f6485dbd9d74fb0c946fa701283d6c5
+MD5sum: 9dc3f73c32a98d1a3a3df8a341c7a89d
+Description: Things I use for processing email.
+Dgit: 8b9a8ad3d0defaeb06d4389c56701826b17bf523
+
+Package: maruska-top-desktop
+Source: maruska-top
+Version: 1.26
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 8
+Depends: unclutter, powertop, lshw, maruska-top-base, x11-xserver-utils, xinput, gconf2, mate-panel, claws-mail, claws-mail-newmail-plugin, claws-mail-multi-notifier, network-manager-gnome, firefox, mplayer, evince, pavucontrol, pulseaudio, mpg123, pulsemixer, gnome-settings-daemon, gnome-keyring, xkb-reset, gst123
+Recommends: chromium, chromium-browser
+Priority: extra
+Section: shells
+Filename: pool/main/m/maruska-top/maruska-top-desktop_1.26_all.deb
+Size: 2712
+SHA256: 763c2c69154a4bbe440d955dc23b5f2c9ba853668779e7c9ad6c69aa024672db
+SHA1: 9163090b88c9bde23483de1cb423a7ae13cd742c
+MD5sum: 259a71f3ad23cd1282d83c966c6de302
+Description: Things I need on GUI workstation.
+Dgit: 8b9a8ad3d0defaeb06d4389c56701826b17bf523
+
+Package: maruska-top-developer
+Source: maruska-top
+Version: 1.26
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 8
+Depends: maruska-top-desktop, mmc-emacs-devel, emacs-goodies-el, debian-el, magit, zsh-doc, python-mode, elpa-paredit, git-hierarchy, gdb, colortail, manpages, manpages-dev, gawk-doc, gcc-doc, cmake-doc, cmake, gcc
+Priority: extra
+Section: shells
+Filename: pool/main/m/maruska-top/maruska-top-developer_1.26_all.deb
+Size: 2624
+SHA256: 1aa783cf010f6dbbc1eb86e0973024263a88383b6ff9b4dda397cf923c1204f6
+SHA1: e98d5589fa319f1cee91539a05d5c4f40af87e69
+MD5sum: 40c92fbd9e8245ae624be40444072a96
+Description: Things I use for development/work. Android gadgets
+Dgit: 8b9a8ad3d0defaeb06d4389c56701826b17bf523
+
+Package: maruska-top-mail-server
+Source: maruska-top
+Version: 1.26
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 8
+Depends: postfix, fetchmail, maildrop, mutt, dovecot, bsd-mailx
+Priority: extra
+Section: shells
+Filename: pool/main/m/maruska-top/maruska-top-mail-server_1.26_all.deb
+Size: 2556
+SHA256: e786a739a60a9da4b2ba4259882e801bc706d2795dd552a2ec63a383df79e429
+SHA1: 40cc6a9cddaa8cc10304d982e4fe175bdde21e29
+MD5sum: f30c56d0c456717914321353568e6cd0
+Description: Things I use for processing email.
+Dgit: 8b9a8ad3d0defaeb06d4389c56701826b17bf523
+
+Package: maruska-top-pg
+Source: maruska-top
+Version: 1.26
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 8
+Depends: pg-natural-sex, char-in-set, pg-human, thumbsize, sadd
+Priority: extra
+Section: shells
+Filename: pool/main/m/maruska-top/maruska-top-pg_1.26_all.deb
+Size: 2592
+SHA256: 36482648c5afe41f0c33ef6c9745330a2a37f1f986cc678765ecf4364937b4c3
+SHA1: 9d2eddda2c25389e0220886c5a916017b118da58
+MD5sum: 05a5cfca7d9031e8279dcdcf1f55c9b0
+Description: This should be enough to make maruska PG databse work.
+ A container package -- pulling in dependencies for database work.
+Dgit: 8b9a8ad3d0defaeb06d4389c56701826b17bf523
+
+Package: maruska-top-podman
+Source: maruska-top
+Version: 1.26
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 8
+Depends: runc, fuse-overlayfs, podman, slirp4netns, uidmap
+Priority: extra
+Section: shells
+Filename: pool/main/m/maruska-top/maruska-top-podman_1.26_all.deb
+Size: 2548
+SHA256: e756dd87f9c4bea1eda98bc9d18aae90f48f3bc8397aaa56389a4b40f17d82e2
+SHA1: 6805bf50600e3c4159e307cf05d58aff9081d16c
+MD5sum: 23d70b63a5975c288ebe5311c8dc2e42
+Description: Things I need on GUI workstation.
+Dgit: 8b9a8ad3d0defaeb06d4389c56701826b17bf523
+
+Package: maruska-top-scheme
+Source: maruska-top
+Version: 1.26
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 8
+Depends: gauche, gauche-mmc-apps, chezscheme
+Priority: extra
+Section: shells
+Filename: pool/main/m/maruska-top/maruska-top-scheme_1.26_all.deb
+Size: 2520
+SHA256: f7688ae50c8aa9605076b3f4652780b8506fa42cef8374113182d279d967bb88
+SHA1: fe3cc1370144a33e7279d9bbc054a104977cf1c1
+MD5sum: 0db5dbb14f1f206d4951d18e5b3c305b
+Description: My favourite scheme environments
+Dgit: 8b9a8ad3d0defaeb06d4389c56701826b17bf523
+
+Package: maruska-top-server
+Source: maruska-top
+Version: 1.26
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 8
+Depends: maruska-top-base, libapache2-mod-fastcgi | libapache2-mod-fcgid, postgresql-12, libpq5, reprepro, mod-languagesubdomain
+Priority: extra
+Section: shells
+Filename: pool/main/m/maruska-top/maruska-top-server_1.26_all.deb
+Size: 2636
+SHA256: 5fbd76951a43146db26dbea35378fa0a25e2b5db4304aeac20052979270ff043
+SHA1: 6ee5c249024a1495532f666c503aa2747cf50dd5
+MD5sum: 0966c9d5e3b832fe6acc1b0c0734d27f
+Description: This should be enough to make maruska happy with the Server.
+ A container package -- pulling in dependencies which I am accustomed to.
+Dgit: 8b9a8ad3d0defaeb06d4389c56701826b17bf523
+
+Package: maruska-top-techno
+Source: maruska-top
+Version: 1.26
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 8
+Depends: usbutils, pciutils, ddcutil, wakeonlan, bluez-firmware, pulseaudio-module-bluetooth, firmware-iwlwifi, firmware-realtek, brightnessctl, acpi-support-base, acpi-support, acpi-fakekey, sispmctl
+Priority: extra
+Section: shells
+Filename: pool/main/m/maruska-top/maruska-top-techno_1.26_all.deb
+Size: 2628
+SHA256: 2e265ed5225f4053cae1cf9d4fb2637a823e5e181e256f5544cb938f71eb990b
+SHA1: aff8ad7294f13c45591edb2a1b7e00615517c497
+MD5sum: add0e1e890fdb0e4362aeafab4e14beb
+Description: Things I need for hardware investigations.
+Dgit: 8b9a8ad3d0defaeb06d4389c56701826b17bf523
+
+Package: maruska-top-work
+Source: maruska-top
+Version: 1.26
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 8
+Depends: maruska-top-desktop, openvpn, dnsmasq
+Priority: extra
+Section: shells
+Filename: pool/main/m/maruska-top/maruska-top-work_1.26_all.deb
+Size: 2520
+SHA256: 9cd51478359920c5984c2cb31791b22cf6e860dae257889ee4200054f2704a1a
+SHA1: d76985d9be12c233c63595a18600c27d23759302
+MD5sum: e44137d1a2d2ae90f9eb3cb4b97fbfeb
+Description: Things I use for work from home.
+Dgit: 8b9a8ad3d0defaeb06d4389c56701826b17bf523
+
+Package: mmc-build-system
+Version: 4.10
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 88
+Depends: git-buildpackage, zsh, mmc-shell (>> 2.8), libapt-pkg-perl, libgetopt-long-descriptive-perl
+Conflicts: mmc-shell (= 2.8)
+Priority: extra
+Section: misc
+Filename: pool/main/m/mmc-build-system/mmc-build-system_4.10_all.deb
+Size: 21252
+SHA256: fd608b8be678d4935ba14d2887253e386ad749b0275414f7682f3ae792fbb7c6
+SHA1: ae9bc5f786a89a74986902088d82d1cd23bc3016
+MD5sum: 3648ab7e057ad3a166cc531b0db63c2e
+Description: collection of shell scripts
+Dgit: fd903da68dcabfadf99da20f022ecd8e91056205
+
+Package: mmc-emacs
+Version: 2.11~16.gbpa32e4c
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 532
+Depends: emacsen
+Enhances: gnuserv
+Priority: extra
+Section: editors
+Filename: pool/main/m/mmc-emacs/mmc-emacs_2.11~16.gbpa32e4c_all.deb
+Size: 118116
+SHA256: 3ab73074a006d44bf48c0ad696411d7152f4cb552b8f8bf4a5ca02777f0578c6
+SHA1: 7b2585d9c7fe9aebfbdd25ed59efa8e1e7889854
+MD5sum: 6a831fd2be9048456779fd99be8ba5fb
+Description: Michal Maruska handy elisp function (general utility)
+ This should probably be only generically useful code, without
+ anything strictly personal.
+Dgit: a32e4c2e0072127c164996f5f2cc17fdba807e56
+
+Package: mmc-emacs-config
+Version: 1.16~3.gbp1cd547
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 98
+Depends: emacsen
+Priority: extra
+Section: editors
+Filename: pool/main/m/mmc-emacs-config/mmc-emacs-config_1.16~3.gbp1cd547_all.deb
+Size: 21288
+SHA256: 555ef5659d35dbd42d70ac3c807fd86d58b81e9bd6e6ea4e225e0313011bb9a5
+SHA1: 2b0e4859e43bae8025bb1801ba637b5acc873e52
+MD5sum: 2544b4c549eea72bd80dd0b57ac40011
+Description: mmc's configuration. not for general use!?
+Dgit: 1cd5471882d3b26a5388779bbf45e3ba088f8909
+
+Package: mmc-emacs-devel
+Version: 2.15
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 228
+Depends: emacsen, mmc-shell, cscope-el | xcscope-el, mmc-emacs (>= 2.3), mmc-emacs-config, elpa-paredit, elpa-yaml-mode, cmake-data
+Recommends: pylint
+Enhances: python-mode
+Priority: extra
+Section: editors
+Filename: pool/main/m/mmc-emacs-devel/mmc-emacs-devel_2.15_all.deb
+Size: 45688
+SHA256: fc08ac6e0baf4a7bea59d02f57d7044f23ea7f8e45aa7aefd0fddcdbba5b3002
+SHA1: 4d4a8a148d8391f8884f909602e787ba0022157e
+MD5sum: fe4daf81170c92c561a5383387de4b1a
+Description: mmc's elisp, handy for "development", programming
+Dgit: 08cb74b7ad658a00f7d634bb26494a992c025b80
+
+Package: mmc-shell
+Version: 3.56
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 213
+Depends: zsh, gawk, git (>= 1:2.31.0), mp3info, mpg123
+Recommends: gst123, systemd-container, alsa-utils, tdb-tools
+Conflicts: tt-tools (<< 1.13)
+Priority: extra
+Section: misc
+Filename: pool/main/m/mmc-shell/mmc-shell_3.56_all.deb
+Size: 52940
+SHA256: 9340e14113a77867f262b08937a0b96d473fbf9b0bf0a6b873395521de43a292
+SHA1: de4dd39c1d5667b8748d308c00a087a284549f50
+MD5sum: 1d22f0acdd079818d80c3070e730b310
+Description: collection of shell scripts
+Dgit: 4b1214f1c0e70a813772f498e944650e94224073
+
+Package: mmc-zsh
+Version: 2.10
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 104
+Depends: zsh, zsh-syntax-highlighting, lsb-release
+Priority: extra
+Section: shells
+Filename: pool/main/m/mmc-zsh/mmc-zsh_2.10_all.deb
+Size: 28880
+SHA256: 718b8bf162accfd5a7e941ec8575c6d09d650b2243007dc8d90bf2d591e3396a
+SHA1: 56b27a43d4f05a4bafbdb5a78df3841fc6d01742
+MD5sum: f0771ba62908b9ad31d2126509ecee85
+Description: Michal Maruska's convenient zsh files
+ My site-wise configs for zsh (line editing widgets)...
+Dgit: b42c402ed85b2a35f4a04cf4dc1758d6cb3731b2
+
+Package: postgresql-doc-15
+Source: postgresql-15
+Version: 15.0-1+b1-maruska~3.gbpfb6d2c
+Architecture: all
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Installed-Size: 15854
+Breaks: postgresql-common (<< 158~)
+Multi-Arch: foreign
+Homepage: http://www.postgresql.org/
+Priority: optional
+Section: doc
+Filename: pool/main/p/postgresql-15/postgresql-doc-15_15.0-1+b1-maruska~3.gbpfb6d2c_all.deb
+Size: 1999436
+SHA256: 6f25ea33ee59f163bc9e6dfb0412c6c1c583e2de7d92005fb768eb4c996fc8ae
+SHA1: 87d832bcbab1abeee81f14fc8982dfd8781728bb
+MD5sum: b8eab870bae8917e072f1989c4708945
+Description: documentation for the PostgreSQL database management system
+ This package contains all README files, user manual, and examples for
+ PostgreSQL 15. The manual is in HTML format.
+ .
+ PostgreSQL is an object-relational SQL database management system.
+Dgit: fb6d2c1e03e05ed30a7b3278f8b585ebb6c48d82
+

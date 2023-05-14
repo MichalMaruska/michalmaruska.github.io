@@ -1,0 +1,2258 @@
+Package: apt
+Version: 2.1.10ubuntu0.3-maruska
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 4197
+Depends: adduser, gpgv | gpgv2 | gpgv1, libapt-pkg6.0 (>= 2.1.10ubuntu0.3-maruska), ubuntu-keyring, libc6 (>= 2.15), libgcc-s1 (>= 3.0), libgnutls30 (>= 3.6.12), libseccomp2 (>= 2.4.2), libstdc++6 (>= 9), libsystemd0
+Recommends: ca-certificates
+Suggests: apt-doc, aptitude | synaptic | wajig, dpkg-dev (>= 1.17.2), gnupg | gnupg2 | gnupg1, powermgmt-base
+Breaks: apt-transport-https (<< 1.5~alpha4~), apt-utils (<< 1.3~exp2~), aptitude (<< 0.8.10)
+Replaces: apt-transport-https (<< 1.5~alpha4~), apt-utils (<< 1.3~exp2~)
+Provides: apt-transport-https (= 2.1.10ubuntu0.3-maruska)
+Priority: important
+Section: admin
+Filename: pool/main/a/apt/apt_2.1.10ubuntu0.3-maruska_amd64.deb
+Size: 1449352
+SHA256: b6874b1fa951f73c2cca0a3e6c65370fa2be8611cf1e744f72c76a5bb22a827e
+SHA1: dc7e2ce3b44dd5850c8ea16846cba8bb43faf6cf
+MD5sum: 21f34ce48a5d565bc4a0c7bd112292f9
+Description: commandline package manager
+ This package provides commandline tools for searching and
+ managing as well as querying information about packages
+ as a low-level access to all features of the libapt-pkg library.
+ .
+ These include:
+  * apt-get for retrieval of packages and information about them
+    from authenticated sources and for installation, upgrade and
+    removal of packages together with their dependencies
+  * apt-cache for querying available information about installed
+    as well as installable packages
+  * apt-cdrom to use removable media as a source for packages
+  * apt-config as an interface to the configuration settings
+  * apt-key as an interface to manage authentication keys
+Original-Maintainer: APT Development Team <deity@lists.debian.org>
+
+Package: apt-doc
+Source: apt
+Version: 2.1.10ubuntu0.3-maruska
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 925
+Priority: optional
+Section: doc
+Filename: pool/main/a/apt/apt-doc_2.1.10ubuntu0.3-maruska_all.deb
+Size: 386204
+SHA256: 4dd758451d91c5ed7cfadd701d01e5d40aa00729bcc49b1ce4d13295294edf47
+SHA1: dd2e11c3a6bdf82e57ac9463d31ab170edf13a92
+MD5sum: c185e11702f76a0e976fbdf3fa739695
+Description: documentation for APT
+ This package contains the user guide and offline guide for various
+ APT tools which are provided in a html and a text-only version.
+Original-Maintainer: APT Development Team <deity@lists.debian.org>
+
+Package: apt-transport-https
+Source: apt
+Version: 2.1.10ubuntu0.3-maruska
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 160
+Depends: apt (>= 1.5~alpha4)
+Multi-Arch: foreign
+Priority: optional
+Section: oldlibs
+Filename: pool/main/a/apt/apt-transport-https_2.1.10ubuntu0.3-maruska_all.deb
+Size: 156640
+SHA256: 9cc75555f2abd9296ddd5106cb3aba44b8619bd7d04e36397e6579c6cae20d8c
+SHA1: 7736e62fa770fb78161cfc62bf9e9471f73b3d7c
+MD5sum: 7fc7baf3b0b08f15cabb23c0e83b0cb8
+Description: transitional package for https support
+ This is a dummy transitional package - https support has been moved into
+ the apt package in 1.5. It can be safely removed.
+Original-Maintainer: APT Development Team <deity@lists.debian.org>
+
+Package: apt-utils
+Source: apt
+Version: 2.1.10ubuntu0.3-maruska
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 1178
+Depends: apt (= 2.1.10ubuntu0.3-maruska), libapt-pkg6.0 (>= 1.9.11~), libc6 (>= 2.14), libdb5.3, libgcc-s1 (>= 3.0), libstdc++6 (>= 9)
+Priority: important
+Section: admin
+Filename: pool/main/a/apt/apt-utils_2.1.10ubuntu0.3-maruska_amd64.deb
+Size: 437272
+SHA256: 54b0cc66691e167058726eaf86e394ce46f891c41d0ae5917d163cc131d4df37
+SHA1: a4a9cedb1b9c951454fd5f5e584dc04515492917
+MD5sum: 2094aad937225fae217768a3f7a1579f
+Description: package management related utility programs
+ This package contains some less used commandline utilities related
+ to package management with APT.
+ .
+  * apt-extracttemplates is used by debconf to prompt for configuration
+    questions before installation.
+  * apt-ftparchive is used to create Packages and other index files
+    needed to publish an archive of Debian packages
+  * apt-sortpkgs is a Packages/Sources file normalizer.
+Original-Maintainer: APT Development Team <deity@lists.debian.org>
+
+Package: debhelper
+Version: 13.11.1-maruska-u
+Architecture: all
+Maintainer: Debhelper Maintainers <debhelper@packages.debian.org>
+Installed-Size: 1420
+Depends: autotools-dev, dh-autoreconf (>= 17~), dh-strip-nondeterminism (>= 0.028~), dpkg (>= 1.18.0~), dpkg-dev (>= 1.18.2~), dwz (>= 0.12.20190711), file (>= 3.23), libdebhelper-perl (= 13.11.1-maruska-u), libdpkg-perl (>= 1.17.14), man-db, po-debconf, perl:any
+Suggests: dh-make
+Breaks: cmake (<< 3.9~), meson (<< 0.40.0~)
+Provides: debhelper-compat (= 9), debhelper-compat (= 10), debhelper-compat (= 11), debhelper-compat (= 12), debhelper-compat (= 13), dh-sequence-dwz, dh-sequence-elf-tools, dh-sequence-installinitramfs, dh-sequence-installsysusers, dh-sequence-single-binary, dh-sequence-systemd
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Filename: pool/main/d/debhelper/debhelper_13.11.1-maruska-u_all.deb
+Size: 951192
+SHA256: 63a67b7c86e6abcd530d1e3b3e99dc7f8dfa3367ce1b3a937d27b235a1a62616
+SHA1: 6345dcc260787a45400c3e73d4bf61c6b893cb63
+MD5sum: 8ae4cc9b79d87102b8f332004039ffd1
+Description: helper programs for debian/rules
+ A collection of programs that can be used in a debian/rules file to
+ automate common tasks related to building Debian packages. Programs
+ are included to install various files into your package, compress
+ files, fix file permissions, integrate your package with the Debian
+ menu system, debconf, doc-base, etc. Most Debian packages use debhelper
+ as part of their build process.
+
+Package: fork-plugin
+Version: 2.13-ubuntu
+Architecture: amd64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 63
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 5), xserver-xorg-core (>= 2:1.12.1.902-1maruska1)
+Priority: optional
+Section: x11
+Filename: pool/main/f/fork-plugin/fork-plugin_2.13-ubuntu_amd64.deb
+Size: 19520
+SHA256: 23cfbccb7663446e6a682125580e6efa6b24f894ca0da3bf9a1d533ef4711602
+SHA1: 1e8a702c0291d8fa9cf39d789ff501cbebcef35d
+MD5sum: a02ff5bb941b930282ff7139a40acd32
+Description: A plugin for the input processing pipeline in Xorg server.
+ Keys can be changed to other keycodes (reasonable only modifiers), when certain pattern is detected:
+ parallelism, or the key is pressed for a long time, or mouse is moved.
+
+Package: fork-plugin-dbgsym
+Source: fork-plugin
+Version: 2.13-ubuntu
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 248
+Depends: fork-plugin (= 2.13-ubuntu)
+Priority: optional
+Section: debug
+Filename: pool/main/f/fork-plugin/fork-plugin-dbgsym_2.13-ubuntu_amd64.deb
+Size: 235520
+SHA256: 3639968e58d1cd30dbb00dab4df3a280310d5c43ed780b13a3046056f67add77
+SHA1: b0e9f56abacd47f4a73d520390d4e2155282adf3
+MD5sum: 73289f570e8aff7538541d5270c78725
+Description: debug symbols for fork-plugin
+Build-Ids: 476b02e687abb0528ef368dd3262a67a522272e7
+
+Package: git
+Version: 1:2.39.2-1-maruska1
+Architecture: amd64
+Maintainer: Jonathan Nieder <jrnieder@gmail.com>
+Installed-Size: 44340
+Depends: libc6 (>= 2.28), libcurl3-gnutls (>= 7.56.1), libexpat1 (>= 2.0.1), libpcre2-8-0 (>= 10.34), zlib1g (>= 1:1.2.2), perl, liberror-perl, git-man (>> 1:2.39.2-1), git-man (<< 1:2.39.2-1-.)
+Recommends: ca-certificates, patch, less, ssh-client
+Suggests: gettext-base, git-daemon-run | git-daemon-sysvinit, git-doc, git-email, git-gui, gitk, gitweb, git-cvs, git-mediawiki, git-svn
+Breaks: bash-completion (<< 1:1.90-1), cogito (<= 0.18.2+), dgit (<< 5.1~), git-buildpackage (<< 0.6.5), git-el (<< 1:2.32.0~rc2-1~), gitosis (<< 0.2+20090917-7), gitpkg (<< 0.15), guilt (<< 0.33), openssh-client (<< 1:6.8), stgit (<< 0.15), stgit-contrib (<< 0.15)
+Provides: git-completion, git-core
+Multi-Arch: foreign
+Homepage: https://git-scm.com/
+Priority: optional
+Section: vcs
+Filename: pool/main/g/git/git_2.39.2-1-maruska1_amd64.deb
+Size: 7102456
+SHA256: af386f65427bd0be43b7560668ce8858bcbe1b0bcd20b48b543abc2fe7859aaa
+SHA1: b588a7c5112676782deedc24d70d32c58e8fc8f1
+MD5sum: 978a60a087db1eeefa6d8f3bb024cf2d
+Description: fast, scalable, distributed revision control system
+ Git is popular version control system designed to handle very large
+ projects with speed and efficiency; it is used for many high profile
+ open source projects, most notably the Linux kernel.
+ .
+ Git falls in the category of distributed source code management tools.
+ Every Git working directory is a full-fledged repository with full
+ revision tracking capabilities, not dependent on network access or a
+ central server.
+ .
+ This package provides the git main components with minimal dependencies.
+ Additional functionality, e.g. a graphical user interface and revision
+ tree visualizer, tools for interoperating with other VCS's, or a web
+ interface, is provided as separate git* packages.
+
+Package: git-all
+Source: git
+Version: 1:2.39.2-1-maruska1
+Architecture: all
+Maintainer: Jonathan Nieder <jrnieder@gmail.com>
+Installed-Size: 974
+Depends: git (>> 1:2.39.2-1), git (<< 1:2.39.2-1-.), git-doc, git-cvs, git-mediawiki, git-svn, git-email, git-gui, gitk, gitweb
+Suggests: git-daemon-run | git-daemon-sysvinit
+Multi-Arch: foreign
+Homepage: https://git-scm.com/
+Priority: optional
+Section: vcs
+Filename: pool/main/g/git/git-all_2.39.2-1-maruska1_all.deb
+Size: 978692
+SHA256: fc68393ffd070ae514e268629027768593e0227927ad0184e253738c98763196
+SHA1: b9f0db2eb146d198c72c0778b6f03af9fad574e6
+MD5sum: 5f41b57671fcc7db935a923f9443fdd5
+Description: fast, scalable, distributed revision control system (all subpackages)
+ Git is popular version control system designed to handle very large
+ projects with speed and efficiency; it is used for many high profile
+ open source projects, most notably the Linux kernel.
+ .
+ Git falls in the category of distributed source code management tools.
+ Every Git working directory is a full-fledged repository with full
+ revision tracking capabilities, not dependent on network access or a
+ central server.
+ .
+ This is a dummy package which brings in all subpackages.
+
+Package: git-daemon-run
+Source: git
+Version: 1:2.39.2-1-maruska1
+Architecture: all
+Maintainer: Jonathan Nieder <jrnieder@gmail.com>
+Installed-Size: 986
+Depends: git (>> 1:2.39.2-1), git (<< 1:2.39.2-1-.), runit, adduser
+Conflicts: git-daemon-sysvinit
+Multi-Arch: foreign
+Homepage: https://git-scm.com/
+Priority: optional
+Section: vcs
+Filename: pool/main/g/git/git-daemon-run_2.39.2-1-maruska1_all.deb
+Size: 980212
+SHA256: d5496f53ce3147a3e71e30be772184483a04c818a8f96f736f45b153742a2022
+SHA1: e3e5eec136d4b78df1c93ce0c120095e763f11e1
+MD5sum: 089e57882b015e268b7571a8c949fb53
+Description: fast, scalable, distributed revision control system (git-daemon service)
+ Git is popular version control system designed to handle very large
+ projects with speed and efficiency; it is used for many high profile
+ open source projects, most notably the Linux kernel.
+ .
+ Git falls in the category of distributed source code management tools.
+ Every Git working directory is a full-fledged repository with full
+ revision tracking capabilities, not dependent on network access or a
+ central server.
+ .
+ git-daemon, as provided by the git package, is a simple server for git
+ repositories, ideally suited for read-only updates, i.e. pulling from git
+ repositories through the network.  This package provides a runit service
+ for running git-daemon permanently.  This configuration is simpler and
+ more reliable than git-daemon-sysvinit, at a cost of being less
+ familiar for administrators accustomed to sysvinit.
+
+Package: git-daemon-sysvinit
+Source: git
+Version: 1:2.39.2-1-maruska1
+Architecture: all
+Maintainer: Jonathan Nieder <jrnieder@gmail.com>
+Installed-Size: 990
+Depends: git (>> 1:2.39.2-1), git (<< 1:2.39.2-1-.), adduser, lsb-base (>= 3.0-6)
+Conflicts: git-daemon-run
+Multi-Arch: foreign
+Homepage: https://git-scm.com/
+Priority: optional
+Section: vcs
+Filename: pool/main/g/git/git-daemon-sysvinit_2.39.2-1-maruska1_all.deb
+Size: 981464
+SHA256: 107aefcd91b2144746762a70d45d5211541eb9e605ffdbc5b2fb0f6f70ffc5da
+SHA1: df218c06bc0bbce8bb7104b8756f67b59b69f080
+MD5sum: 41c800e171bfb9a65b595d33d179a509
+Description: fast, scalable, distributed revision control system (git-daemon service)
+ Git is popular version control system designed to handle very large
+ projects with speed and efficiency; it is used for many high profile
+ open source projects, most notably the Linux kernel.
+ .
+ Git falls in the category of distributed source code management tools.
+ Every Git working directory is a full-fledged repository with full
+ revision tracking capabilities, not dependent on network access or a
+ central server.
+ .
+ git-daemon, as provided by the git package, is a simple server for git
+ repositories, ideally suited for read-only updates, i.e. pulling from git
+ repositories through the network.  This package provides a sysvinit service
+ for running git-daemon permanently.  Unlike git-daemon-run, this
+ package provides the usual sysvinit service management commands
+ ("service git-daemon start/stop") for git-daemon.
+
+Package: git-dbgsym
+Source: git
+Version: 1:2.39.2-1-maruska1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Jonathan Nieder <jrnieder@gmail.com>
+Installed-Size: 48805
+Depends: git (= 1:2.39.2-1-maruska1)
+Priority: optional
+Section: debug
+Filename: pool/main/g/git/git-dbgsym_2.39.2-1-maruska1_amd64.deb
+Size: 46926040
+SHA256: dadb5f13c7b7e5c5a64af576d38b2297436f89158497d3a33f0a58421da3df43
+SHA1: 6a8b390150f990a156e9a3bf5d6a108226508555
+MD5sum: 4e7f1b6e0453b51a8436f8e7227345a1
+Description: debug symbols for git
+Build-Ids: 134dcaf5c21678f1947676e654fc6a5616b00f9b 165163950c2f6f42c6da7a3e4857d61678dd8152 4f652c129a1c70e4c6465ae4869bf6c34aa91d93 64d98f521cea36c04969402cc482987742f98e61 6c6680b9c3414d8a2f52cf9829f2312e4adca8be 8383b5314fe8663b95e49e27322dd6a0b6ac0f97 88499f31f79fc1ac69b8cb26524ecdce133c5c18 b5e4e036cb6a8e248b84f99390d64352c69da213 d2372260aa902e40c3e3918e1223fbe33e0079e8 db97a78e91eae383c8939aa828bf2275e15364e9
+
+Package: git-doc
+Source: git
+Version: 1:2.39.2-1-maruska1
+Architecture: all
+Maintainer: Jonathan Nieder <jrnieder@gmail.com>
+Installed-Size: 12998
+Suggests: git, git-cvs, git-svn, git-email, gitk, gitweb
+Multi-Arch: foreign
+Homepage: https://git-scm.com/
+Priority: optional
+Section: doc
+Filename: pool/main/g/git/git-doc_2.39.2-1-maruska1_all.deb
+Size: 2149976
+SHA256: 9d194d4ed7b5fb92bb317fd929837d04acfd2f580f6ec9af8e5a601f798211e6
+SHA1: ab46b599fc822667904c17fd992091bc0ab72726
+MD5sum: 9e5fd0bc0471416e1f64f9701aa27363
+Description: fast, scalable, distributed revision control system (documentation)
+ Git is popular version control system designed to handle very large
+ projects with speed and efficiency; it is used for many high profile
+ open source projects, most notably the Linux kernel.
+ .
+ Git falls in the category of distributed source code management tools.
+ Every Git working directory is a full-fledged repository with full
+ revision tracking capabilities, not dependent on network access or a
+ central server.
+ .
+ This package provides the documentation.
+
+Package: git-email
+Source: git
+Version: 1:2.39.2-1-maruska1
+Architecture: all
+Maintainer: Jonathan Nieder <jrnieder@gmail.com>
+Installed-Size: 1049
+Depends: git (>> 1:2.39.2-1), git (<< 1:2.39.2-1-.)
+Recommends: libemail-valid-perl, libmailtools-perl, perl (>> 5.21.5) | libnet-smtp-ssl-perl, libauthen-sasl-perl, libio-socket-ssl-perl (>= 1.951)
+Suggests: git-doc
+Multi-Arch: foreign
+Homepage: https://git-scm.com/
+Priority: optional
+Section: vcs
+Filename: pool/main/g/git/git-email_2.39.2-1-maruska1_all.deb
+Size: 1006364
+SHA256: cba51e46cc22bfa54902f10855654d27e822d508245141aab19973bab45f95ed
+SHA1: cc0d289abafa4c590b39e30f4e00a1b9975344d4
+MD5sum: 7492e5f0df062028d3919efc8c171a81
+Description: fast, scalable, distributed revision control system (email add-on)
+ Git is popular version control system designed to handle very large
+ projects with speed and efficiency; it is used for many high profile
+ open source projects, most notably the Linux kernel.
+ .
+ Git falls in the category of distributed source code management tools.
+ Every Git working directory is a full-fledged repository with full
+ revision tracking capabilities, not dependent on network access or a
+ central server.
+ .
+ This package provides the git-send-email program for sending series of
+ patch emails.
+
+Package: git-gui
+Source: git
+Version: 1:2.39.2-1-maruska1
+Architecture: all
+Maintainer: Jonathan Nieder <jrnieder@gmail.com>
+Installed-Size: 2498
+Depends: git (>> 1:2.39.2-1), git (<< 1:2.39.2-1-.), tk
+Recommends: gitk
+Suggests: git-doc, aspell, meld
+Multi-Arch: foreign
+Homepage: https://git-scm.com/
+Priority: optional
+Section: vcs
+Filename: pool/main/g/git/git-gui_2.39.2-1-maruska1_all.deb
+Size: 1197376
+SHA256: b42a30654ff08fe4c6d02bb9af6cd4ebbcd973644aa765cf3d1936df7b7dae83
+SHA1: 4c84ebbbbba66c3535e2b0392607ab837e25d8ca
+MD5sum: 42b97d17c376c96598dee6ba69350f9d
+Description: fast, scalable, distributed revision control system (GUI)
+ Git is popular version control system designed to handle very large
+ projects with speed and efficiency; it is used for many high profile
+ open source projects, most notably the Linux kernel.
+ .
+ Git falls in the category of distributed source code management tools.
+ Every Git working directory is a full-fledged repository with full
+ revision tracking capabilities, not dependent on network access or a
+ central server.
+ .
+ This package provides the git graphical user interface.
+ .
+ If aspell is installed, it can check the spelling of commit messages
+ as the user types.
+ .
+ If meld is installed, it can be used for displaying diffs and for
+ interactive merge conflict resolution.
+
+Package: git-man
+Source: git
+Version: 1:2.39.2-1-maruska1
+Architecture: all
+Maintainer: Jonathan Nieder <jrnieder@gmail.com>
+Installed-Size: 2101
+Multi-Arch: foreign
+Homepage: https://git-scm.com/
+Priority: optional
+Section: doc
+Filename: pool/main/g/git/git-man_2.39.2-1-maruska1_all.deb
+Size: 2047900
+SHA256: 9a1aef591189ac0207fdab53629ff3b39d22f931498a77a6f197a3895130f126
+SHA1: 750b20f65ebc9a37fb85da56cc252293107cd366
+MD5sum: 8c4adcc4a0f83ba088ec019f16ef6f7b
+Description: fast, scalable, distributed revision control system (manual pages)
+ Git is popular version control system designed to handle very large
+ projects with speed and efficiency; it is used for many high profile
+ open source projects, most notably the Linux kernel.
+ .
+ Git falls in the category of distributed source code management tools.
+ Every Git working directory is a full-fledged repository with full
+ revision tracking capabilities, not dependent on network access or a
+ central server.
+ .
+ This package provides reference documentation for use by the 'man'
+ utility and the 'git help' command.
+
+Package: git-mediawiki
+Source: git
+Version: 1:2.39.2-1-maruska1
+Architecture: all
+Maintainer: Jonathan Nieder <jrnieder@gmail.com>
+Installed-Size: 1034
+Depends: git (>> 1:2.39.2-1), git (<< 1:2.39.2-1-.), libmediawiki-api-perl (>= 0.39), liblwp-protocol-https-perl, libdatetime-format-iso8601-perl
+Suggests: mediawiki
+Multi-Arch: foreign
+Homepage: https://git-scm.com/
+Priority: optional
+Section: vcs
+Filename: pool/main/g/git/git-mediawiki_2.39.2-1-maruska1_all.deb
+Size: 994860
+SHA256: 4284ee697b9d291212563b7f7e8893e9927ff8fecc72af953530bc60b5024e72
+SHA1: 3d7e51e1174fde92f194f5354fad6c001c2e6f93
+MD5sum: 25a50927c74fcc993b252b238859b77d
+Description: fast, scalable, distributed revision control system (MediaWiki remote helper)
+ Git is popular version control system designed to handle very large
+ projects with speed and efficiency; it is used for many high profile
+ open source projects, most notably the Linux kernel.
+ .
+ Git falls in the category of distributed source code management tools.
+ Every Git working directory is a full-fledged repository with full
+ revision tracking capabilities, not dependent on network access or a
+ central server.
+ .
+ This package provides the mediawiki remote helper, which allows Git to
+ read from and write to a wiki such as Wikipedia as though it were a
+ remote Git repository, and a 'git mw' command that can show a preview
+ of how wiki markup will be rendered before pushing.
+
+Package: git-svn
+Source: git
+Version: 1:2.39.2-1-maruska1
+Architecture: all
+Maintainer: Jonathan Nieder <jrnieder@gmail.com>
+Installed-Size: 1223
+Depends: git (>> 1:2.39.2-1), git (<< 1:2.39.2-1-.), libsvn-perl, libyaml-perl, libterm-readkey-perl
+Suggests: git-doc, subversion
+Breaks: git (<< 1:1.8.3~rc1-1.)
+Replaces: git (<< 1:1.8.3~rc1-1.)
+Multi-Arch: foreign
+Homepage: https://git-scm.com/
+Priority: optional
+Section: vcs
+Filename: pool/main/g/git/git-svn_2.39.2-1-maruska1_all.deb
+Size: 1054324
+SHA256: 53b2a7234140fb118337cb2b30a2ecce21f4b4299c7efde5a04d5873bf1e2134
+SHA1: 090c88423be67e51548d95ec1e8ea594bd355abb
+MD5sum: 0a08ce5a876d6ab905c0f14543cf0e92
+Description: fast, scalable, distributed revision control system (svn interoperability)
+ Git is popular version control system designed to handle very large
+ projects with speed and efficiency; it is used for many high profile
+ open source projects, most notably the Linux kernel.
+ .
+ Git falls in the category of distributed source code management tools.
+ Every Git working directory is a full-fledged repository with full
+ revision tracking capabilities, not dependent on network access or a
+ central server.
+ .
+ This package provides tools for interoperating with Subversion repositories,
+ and importing SVN development history.
+
+Package: gitk
+Source: git
+Version: 1:2.39.2-1-maruska1
+Architecture: all
+Maintainer: Jonathan Nieder <jrnieder@gmail.com>
+Installed-Size: 1816
+Depends: git (>> 1:2.39.2-1), git (<< 1:2.39.2-1-.), tk
+Suggests: git-doc
+Multi-Arch: foreign
+Homepage: https://git-scm.com/
+Priority: optional
+Section: vcs
+Filename: pool/main/g/git/gitk_2.39.2-1-maruska1_all.deb
+Size: 1118028
+SHA256: e7f39bf58563d4430dc86463cdafd4193d1cf06c0048e5bebd617230dcd5ce60
+SHA1: bceadd75e1cdf95cbf3562d2dfed7e548bf5347b
+MD5sum: 08208dd3962a3498053b10cb6950028c
+Description: fast, scalable, distributed revision control system (revision tree visualizer)
+ Git is popular version control system designed to handle very large
+ projects with speed and efficiency; it is used for many high profile
+ open source projects, most notably the Linux kernel.
+ .
+ Git falls in the category of distributed source code management tools.
+ Every Git working directory is a full-fledged repository with full
+ revision tracking capabilities, not dependent on network access or a
+ central server.
+ .
+ This package provides the gitk program, a tcl/tk revision tree visualizer.
+
+Package: gitweb
+Source: git
+Version: 1:2.39.2-1-maruska1
+Architecture: all
+Maintainer: Jonathan Nieder <jrnieder@gmail.com>
+Installed-Size: 995
+Depends: git (>> 1:2.39.2-1), git (<< 1:2.39.2-1-.), perl, libcgi-pm-perl
+Recommends: apache2 (>= 2.4.6-4~) | lynx | httpd, libhttp-date-perl | libtime-parsedate-perl
+Suggests: httpd-cgi | libcgi-fast-perl, git-doc
+Breaks: apache2.2-common (<< 2.3~)
+Multi-Arch: foreign
+Homepage: https://git-scm.com/
+Priority: optional
+Section: vcs
+Filename: pool/main/g/git/gitweb_2.39.2-1-maruska1_all.deb
+Size: 982236
+SHA256: 636b53a3d0fd9a7b1015f332aca4fe1220ca786eb59351b67faf360b1d79a553
+SHA1: d6dd542e35cdfb90865e32adef257928b5caa49d
+MD5sum: 55915b700d99974239354db5285ab879
+Description: fast, scalable, distributed revision control system (web interface)
+ Git is popular version control system designed to handle very large
+ projects with speed and efficiency; it is used for many high profile
+ open source projects, most notably the Linux kernel.
+ .
+ Git falls in the category of distributed source code management tools.
+ Every Git working directory is a full-fledged repository with full
+ revision tracking capabilities, not dependent on network access or a
+ central server.
+ .
+ This package configures a web interface for browsing git repositories.
+ .
+ If apache2 is installed, the web interface is automatically made
+ available at http://localhost/gitweb.  Other servers that support CGI
+ or mod_perl are supported through manual configuration.
+ .
+ If libcgi-fast-perl is installed, gitweb can also be run over FastCGI
+ (and served by nginx, for example).
+
+Package: human
+Version: 1.5
+Architecture: amd64
+Maintainer: Michal Maruska <maruska@gmail.com>
+Installed-Size: 23
+Depends: libc6 (>= 2.4)
+Priority: extra
+Section: utils
+Filename: pool/main/h/human/human_1.5_amd64.deb
+Size: 4716
+SHA256: 65b4a1a13b5c520208eec86bf1e9d397e4837f50490a510ed9d2475ff37bd500
+SHA1: e18d7d4758d73c20f8deb797f7db177d5d789947
+MD5sum: 1c1efb783469410d68ac54e90d84c3e5
+Description: filter - replace numbers on each line with human notation
+ stolen from some GNU utility  ls(1) maybe
+
+Package: human-dbgsym
+Source: human
+Version: 1.5
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Michal Maruska <maruska@gmail.com>
+Installed-Size: 24
+Depends: human (= 1.5)
+Priority: optional
+Section: debug
+Filename: pool/main/h/human/human-dbgsym_1.5_amd64.deb
+Size: 9556
+SHA256: c89bf83723b3c00a59403af78e154025605eec2a2c24bf2bf58609cf937e22a0
+SHA1: ce474a4a4392f34436a4ec80945dbe18ac0b4a91
+MD5sum: 480fa73eaa9f7e44d96cc4ba8a276a0b
+Description: debug symbols for human
+Build-Ids: a7b043cde00fa3633a69a5f67f9dae2f0805fae3
+
+Package: libapt-pkg-dev
+Source: apt
+Version: 2.1.10ubuntu0.3-maruska
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 632
+Depends: libapt-pkg (= 2.1.10ubuntu0.3-maruska), zlib1g-dev
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Filename: pool/main/a/apt/libapt-pkg-dev_2.1.10ubuntu0.3-maruska_amd64.deb
+Size: 246340
+SHA256: f3b85dd0fc3d6482cd45ce7c9084ea0d7735a721d10bfbf65037ef74f95a6b0d
+SHA1: cfb9501537c382044c5ba3a89c599d20d1dff430
+MD5sum: 9fda712852b31a286b1aa403db2cb787
+Description: development files for APT's libapt-pkg and libapt-inst
+ This package contains the header files and libraries for
+ developing with APT's libapt-pkg Debian package manipulation
+ library and the libapt-inst deb/tar/ar library.
+Original-Maintainer: APT Development Team <deity@lists.debian.org>
+
+Package: libapt-pkg-doc
+Source: apt
+Version: 2.1.10ubuntu0.3-maruska
+Architecture: all
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 14976
+Priority: optional
+Section: doc
+Filename: pool/main/a/apt/libapt-pkg-doc_2.1.10ubuntu0.3-maruska_all.deb
+Size: 958336
+SHA256: 3c341a664619865df0b7b2eaf9072d2df6526c83c3c97eeb0ea36f36b88c692c
+SHA1: bf19991adf1fd0417fb716d28912a2a543fc2057
+MD5sum: eb1a6564686b3b71731245cd0411c8c6
+Description: documentation for APT development
+ This package contains documentation for development of the APT
+ Debian package manipulation program and its libraries.
+ .
+ This includes the source code documentation generated by doxygen
+ in html format.
+Original-Maintainer: APT Development Team <deity@lists.debian.org>
+
+Package: libapt-pkg6.0
+Source: apt
+Version: 2.1.10ubuntu0.3-maruska
+Architecture: amd64
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Installed-Size: 3356
+Depends: libbz2-1.0, libc6 (>= 2.27), libgcc-s1 (>= 3.0), libgcrypt20 (>= 1.8.0), liblz4-1 (>= 0.0~r127), liblzma5 (>= 5.1.1alpha+20120614), libstdc++6 (>= 9), libsystemd0 (>= 221), libudev1 (>= 183), libzstd1 (>= 1.3.2), zlib1g (>= 1:1.2.2.3)
+Recommends: apt (>= 2.1.10ubuntu0.3-maruska)
+Breaks: appstream (<< 0.9.0-3~), apt (<< 1.6~), aptitude (<< 0.8.9), libapt-inst1.5 (<< 0.9.9~)
+Provides: libapt-pkg (= 2.1.10ubuntu0.3-maruska)
+Multi-Arch: same
+Priority: optional
+Section: libs
+Filename: pool/main/a/apt/libapt-pkg6.0_2.1.10ubuntu0.3-maruska_amd64.deb
+Size: 997812
+SHA256: 0dd60df7e46ad725ed1fc7307414a793e232195678044f4055bb444360c950cf
+SHA1: 08f44fe933099c6a85a6a2b4919c062da74ddfd3
+MD5sum: e0761384df0d8a040587996aa772b4e4
+Description: package management runtime library
+ This library provides the common functionality for searching and
+ managing packages as well as information about packages.
+ Higher-level package managers can depend upon this library.
+ .
+ This includes:
+  * retrieval of information about packages from multiple sources
+  * retrieval of packages and all dependent packages
+    needed to satisfy a request either through an internal
+    solver or by interfacing with an external one
+  * authenticating the sources and validating the retrieved data
+  * installation and removal of packages in the system
+  * providing different transports to retrieve data over cdrom, ftp,
+    http(s), rsh as well as an interface to add more transports like
+    tor+http(s) (apt-transport-tor).
+Original-Maintainer: APT Development Team <deity@lists.debian.org>
+
+Package: libdebhelper-perl
+Source: debhelper
+Version: 13.11.1-maruska-u
+Architecture: all
+Maintainer: Debhelper Maintainers <debhelper@packages.debian.org>
+Installed-Size: 311
+Depends: perl:any
+Breaks: debhelper (<< 12.6~)
+Replaces: debhelper (<< 12.6~)
+Multi-Arch: foreign
+Priority: optional
+Section: perl
+Filename: pool/main/d/debhelper/libdebhelper-perl_13.11.1-maruska-u_all.deb
+Size: 80952
+SHA256: f36b5c3549f28621168be4b69b1c4784409544343d5bfb281eb42544e914995d
+SHA1: 2d37a000027ca4da2ce710a09dcd8924ab371a98
+MD5sum: 4afb9e78bce897da9c5a97b58c9cf12e
+Description: debhelper perl modules
+ A collection of programs that can be used in a debian/rules file to
+ automate common tasks related to building Debian packages.
+ .
+ This package provides the perl modules used by the scripts in debhelper.
+
+Package: libfork
+Version: 1.7.4-ubuntu
+Architecture: amd64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 42
+Depends: libc6 (>= 2.14), libx11-6 (>= 2:1.5.0-1maruska1), fork-plugin
+Priority: optional
+Section: x11
+Filename: pool/main/libf/libfork/libfork_1.7.4-ubuntu_amd64.deb
+Size: 6404
+SHA256: 0c8c5c412dd11f9772714d5de218ee53c99b3a03c482661e073b1885746cc526
+SHA1: f5865920447b075d49281dd0c849ebc652df3a81
+MD5sum: ba177866d5537e59f30bde64db835677
+Description: library with calls specific to commanding
+ (configuring and getting information) the Fork plugin.
+
+Package: libfork-dbgsym
+Source: libfork
+Version: 1.7.4-ubuntu
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 54
+Depends: libfork (= 1.7.4-ubuntu)
+Priority: optional
+Section: debug
+Filename: pool/main/libf/libfork/libfork-dbgsym_1.7.4-ubuntu_amd64.deb
+Size: 32728
+SHA256: 1ed8b04ef73aee445f02efe2264de75a77f9d1487de1cb56e242dbdb14e29d68
+SHA1: d0ca7a7aa82a386bdac4e5202d986c3d92ada8fd
+MD5sum: 6fa89210020d3bac172b6f7fbf243483
+Description: debug symbols for libfork
+Build-Ids: 4ed68bcdc7e233145e3440930f1e4def5312df6f ff23770f63916f873784fd0e6f1c68ed34ec71a2
+
+Package: libx11-6
+Source: libx11
+Version: 2:1.6.12-1-maruska
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 1550
+Depends: libc6 (>= 2.26), libxcb1 (>= 1.11.1), libx11-data
+Multi-Arch: same
+Priority: optional
+Section: libs
+Filename: pool/main/libx/libx11/libx11-6_1.6.12-1-maruska_amd64.deb
+Size: 759748
+SHA256: dbbb5c94009c702140f627e4d544016bd37877733723ae2f93425a05384d592f
+SHA1: 6d1ec4d1bbeb30656ad2b4ba393fe07c5be1d692
+MD5sum: 691c4f5c66eb92f9e0ff9d52f7660415
+Description: X11 client-side library
+ This package provides a client interface to the X Window System, otherwise
+ known as 'Xlib'.  It provides a complete API for the basic functions of the
+ window system.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libX11
+
+Package: libx11-6-dbgsym
+Source: libx11
+Version: 2:1.6.12-1-maruska
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 1186
+Depends: libx11-6 (= 2:1.6.12-1-maruska)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libx/libx11/libx11-6-dbgsym_1.6.12-1-maruska_amd64.deb
+Size: 1096500
+SHA256: 1c328466e21825efcdcb80b7dc80e46014cb08f0de4421b4b0c026594e25eaf8
+SHA1: 3a24660408868cd1ae01104d930088c289de9272
+MD5sum: 7826d231be6317d11fd2cd0c4c6b785f
+Description: debug symbols for libx11-6
+Build-Ids: 1955c23cc9cd7b0e85b4230105414ca4339efad8
+
+Package: libx11-data
+Source: libx11
+Version: 2:1.6.12-1-maruska
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 1675
+Breaks: libx11-6 (<< 2:1.4.1)
+Multi-Arch: foreign
+Priority: optional
+Section: x11
+Filename: pool/main/libx/libx11/libx11-data_1.6.12-1-maruska_all.deb
+Size: 295840
+SHA256: f3bc26b2b045ec5244e94bcf2c0839a26d335b9d9c9ffb02a79dd7c3a7ca9816
+SHA1: 1dbc0e5330e0f68e74e410ac617a5120b72b3405
+MD5sum: cb1a0c71e3b6cdec71b67ba9ec0b57f2
+Description: X11 client-side library
+ This package provides the locale data files for libx11.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libX11
+
+Package: libx11-dev
+Source: libx11
+Version: 2:1.6.12-1-maruska
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 2702
+Depends: libx11-6 (= 2:1.6.12-1-maruska), libxau-dev (>= 1:1.0.0-1), libxdmcp-dev (>= 1:1.0.0-1), x11proto-dev (>= 2019.2-1), xtrans-dev, libxcb1-dev
+Suggests: libx11-doc
+Replaces: x11proto-dev (<< 2019.2)
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Filename: pool/main/libx/libx11/libx11-dev_1.6.12-1-maruska_amd64.deb
+Size: 829612
+SHA256: 3a2abf5c3cb501cb4a92c56df75e8afad9be4da9844673f428bf1958078f58e5
+SHA1: 95ae3d03f96d14e458d175f6271f24d7db10afb1
+MD5sum: 1820e7c88d9f11e19193c8afce842be8
+Description: X11 client-side library (development headers)
+ This package provides a client interface to the X Window System, otherwise
+ known as 'Xlib'.  It provides a complete API for the basic functions of the
+ window system.
+ .
+ This package contains the development headers for the library found in
+ libx11-6. Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libX11
+
+Package: libx11-doc
+Source: libx11
+Version: 2:1.6.12-1-maruska
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 10360
+Breaks: libx11-dev (<< 2:1.4.4-3)
+Replaces: libx11-dev (<< 2:1.4.4-3)
+Multi-Arch: foreign
+Priority: optional
+Section: doc
+Filename: pool/main/libx/libx11/libx11-doc_1.6.12-1-maruska_all.deb
+Size: 2222072
+SHA256: 9a2c2140ab1554a724a758b10a8db00a1142420409f5c71ce5c6b09312e742f4
+SHA1: 79d5e57d399b9105485f48567634a50fb428692b
+MD5sum: aabed397af01246fc234cdab9c5e3ba5
+Description: X11 client-side library (development documentation)
+ This package provides a client interface to the X Window System, otherwise
+ known as 'Xlib'.  It provides a complete API for the basic functions of the
+ window system.
+ .
+ This package contains supplemental documentation for the library found in
+ libx11-6. Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.X.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libX11
+
+Package: libx11-xcb-dev
+Source: libx11
+Version: 2:1.6.12-1-maruska
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 248
+Depends: libx11-xcb1 (= 2:1.6.12-1-maruska), libxcb1-dev (>= 1.11.1), libx11-dev
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Filename: pool/main/libx/libx11/libx11-xcb-dev_1.6.12-1-maruska_amd64.deb
+Size: 193616
+SHA256: 0239b613182e0080f4296aac595f9a1bee2733654f6d60fdf7aeb25572faf503
+SHA1: c7552e8aece06e0e59741eb49faa05b86c21d846
+MD5sum: 5e01ed2979eb890facade5555265eb02
+Description: Xlib/XCB interface library (development headers)
+ libX11-xcb provides functions needed by clients which take advantage of
+ Xlib/XCB to mix calls to both Xlib and XCB over the same X connection.
+ .
+ This package contains the development headers for the library found in
+ libx11-xcb1. Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.X.org>
+ .
+ More information about XCB can be found at:
+ <URL:https://xcb.freedesktop.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libX11
+
+Package: libx11-xcb1
+Source: libx11
+Version: 2:1.6.12-1-maruska
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 251
+Multi-Arch: same
+Priority: optional
+Section: libs
+Filename: pool/main/libx/libx11/libx11-xcb1_1.6.12-1-maruska_amd64.deb
+Size: 191376
+SHA256: 2be82b711c9f5bc9d7f80e0383ad0eecaadd1f84efd7fec693c6eff46cc17f1c
+SHA1: cf29438796b4e302767c12ed8f6d5ddc682f5515
+MD5sum: 5c2c870397bcf4ac73102b337378d3c8
+Description: Xlib/XCB interface library
+ libX11-xcb provides functions needed by clients which take advantage of
+ Xlib/XCB to mix calls to both Xlib and XCB over the same X connection.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.X.org>
+ .
+ More information about XCB can be found at:
+ <URL:https://xcb.freedesktop.org>
+ .
+ This module can be found at
+ git://anongit.freedesktop.org/git/xorg/lib/libX11
+
+Package: libx11-xcb1-dbgsym
+Source: libx11
+Version: 2:1.6.12-1-maruska
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 30
+Depends: libx11-xcb1 (= 2:1.6.12-1-maruska)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libx/libx11/libx11-xcb1-dbgsym_1.6.12-1-maruska_amd64.deb
+Size: 17060
+SHA256: b58791a47f512eae5c794ec9b0f9bce6648c746912f1e053e0bab8be322ea889
+SHA1: 6cd16381260043e71d787c5111e461f0e1143fe9
+MD5sum: 43b43928c8e67c92e9854bfd164abd88
+Description: debug symbols for libx11-xcb1
+Build-Ids: 314668178f7bb5bb61b0a4c019b1054d5b521f5f
+
+Package: mempeak
+Version: 0.29
+Architecture: amd64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 53
+Depends: libc6 (>= 2.7)
+Priority: extra
+Section: utils
+Filename: pool/main/m/mempeak/mempeak_0.29_amd64.deb
+Size: 13460
+SHA256: 284b0493b8b25fb70d7e313fe1903a8a1417da977641178af0b4149f0f9fce2c
+SHA1: aa524f4b27899c41a66ae8f7c08c97bf205e000b
+MD5sum: 161affda4806d4e13abe1cfc88dd04eb
+Description: memory usage monitor
+ colorful, text-terminal based.
+
+Package: mmc-sawfish
+Version: 1.6.10
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 207
+Depends: sawfish
+Priority: extra
+Section: x11
+Filename: pool/main/m/mmc-sawfish/mmc-sawfish_1.6.10_all.deb
+Size: 40316
+SHA256: c062e2fb79e00f5e073c9cd30f755b8405dca6358f616a9a673c715e7b0ce77a
+SHA1: 6594a3b5ab1efe799d584fc40129c270d8f505d1
+MD5sum: fbdf25562c03a2cc822fb5808ee4125e
+Description: collection of Lisp add-ons for the window manager.
+
+Package: rxvt-beta
+Version: 2.7.10-7-maruska
+Architecture: amd64
+Maintainer: Jan Christoph Nordholz <hesso@pool.math.tu-berlin.de>
+Installed-Size: 863
+Depends: libc6 (>= 2.15), libx11-6
+Conflicts: rxvt, rxvt-ml
+Provides: x-terminal-emulator
+Priority: extra
+Section: x11
+Filename: pool/main/r/rxvt-beta/rxvt-beta_2.7.10-7-maruska_amd64.deb
+Size: 297312
+SHA256: 3a80cfafb1124df3fb7b46e167c9fd6541fc828f9e39451d3678fbf9198fbb03
+SHA1: 1898601059db6cff04783a2e63d1e8b0de8c4aa8
+MD5sum: 7069b01f3c79d66b1915098baed95a7e
+Description: VT102 terminal emulator for the X Window System
+ Rxvt is an 8-bit clean, color xterm replacement that uses significantly
+ less memory than a conventional xterm, mostly since it doesn't support
+ toolkit configurability or Tek graphics, but also since features can
+ be removed at compile-time to reflect your needs.
+ .
+ The distribution also includes rclock, the smaller/better xclock
+ replacement with appointment scheduling and xbiff functionality.
+ .
+ This package contains the developer (beta) version of rxvt.  See the
+ rxvt package for the current stable version of rxvt.
+
+Package: sawfish
+Version: 1:1.9.0-maruska~230328-1nano
+Architecture: amd64
+Maintainer: Christopher Roy Bratusek <zanghar@freenet.de>
+Installed-Size: 1398
+Depends: libc6 (>= 2.14), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.12.0), libgtk2.0-0 (>= 2.12.0), libice6 (>= 1:1.0.0), libpango-1.0-0 (>= 1.14.0), libpangoxft-1.0-0 (>= 1.14.0), librep16 (>= 0.92.5), libsm6, libx11-6, libxext6, libxft2 (>> 2.1.1), libxinerama1, libxrandr2, sawfish-data (= 1:1.9.0-maruska~230328-1nano)
+Provides: x-window-manager
+Homepage: http://sawfish.wikia.com/
+Priority: optional
+Section: x11
+Filename: pool/main/s/sawfish/sawfish_1.9.0-maruska~230328-1nano_amd64.deb
+Size: 300012
+SHA256: 996a3005e73c72ac2449ccfe1e7fd367f56c3d6191a7c874c78cc8038c94718c
+SHA1: 51468c8104905dce74cc7812de9625b870314d7b
+MD5sum: a4ac501289f18322cbf331d3b499dddf
+Description: a window manager for X11
+ Sawfish is an extensible window manager using an Emacs Lisp-like scripting
+ language. All window decorations are configurable, the basic idea is to
+ have as much user-interface policy as possible controlled through the Lisp
+ language.
+
+Package: sawfish-data
+Source: sawfish
+Version: 1:1.9.0-maruska~230328-1nano
+Architecture: all
+Maintainer: Christopher Roy Bratusek <zanghar@freenet.de>
+Installed-Size: 8037
+Homepage: http://sawfish.wikia.com/
+Priority: optional
+Section: x11
+Filename: pool/main/s/sawfish/sawfish-data_1.9.0-maruska~230328-1nano_all.deb
+Size: 2127268
+SHA256: ade5d38eb089e8443cd8f06822bdf21711e44544055f7428fdf4183232d3a303
+SHA1: 8975b725226b981183733bfd488134cb51f7d7a7
+MD5sum: 64df00da210b11ac95c43adbeed15ebd
+Description: sawfish architecture independent data
+ This package contains the architecture independent lisp compiled files
+ and other data, such as theme pixmaps. It is unlikely to be of any
+ use without the sawfish window manager.
+ .
+ The lisp source files are in the sawfish-lisp-source package.
+
+Package: sawfish-dbg
+Source: sawfish
+Version: 1:1.9.0-maruska~230328-1nano
+Architecture: amd64
+Maintainer: Christopher Roy Bratusek <zanghar@freenet.de>
+Installed-Size: 1335
+Depends: sawfish (= 1:1.9.0-maruska~230328-1nano), sawfish-data (= 1:1.9.0-maruska~230328-1nano)
+Recommends: sawfish-lisp-source
+Homepage: http://sawfish.wikia.com/
+Priority: extra
+Section: debug
+Filename: pool/main/s/sawfish/sawfish-dbg_1.9.0-maruska~230328-1nano_amd64.deb
+Size: 318640
+SHA256: 7ce9bd03fbb7ea2ae67807efb4d330be6382d87df46589593d48abff5d502b62
+SHA1: a67f5b1aa809c74b0fc0721ee073e9e550f2097e
+MD5sum: 2ba77448b4a5957149964c3b092c28c7
+Description: sawfish debugging symbols
+ This package contains the debugging symbols from the sawfish window manager.
+ It is not needed for normal operation of the package.
+ .
+ Install it if you need to debug problems in sawfish. You will also almost
+ certainly need sawfish-lisp-source in that case.
+
+Package: sawfish-lisp-source
+Source: sawfish
+Version: 1:1.9.0-maruska~230328-1nano
+Architecture: all
+Maintainer: Christopher Roy Bratusek <zanghar@freenet.de>
+Installed-Size: 1007
+Depends: sawfish-data (= 1:1.9.0-maruska~230328-1nano)
+Recommends: sawfish
+Homepage: http://sawfish.wikia.com/
+Priority: optional
+Section: x11
+Filename: pool/main/s/sawfish/sawfish-lisp-source_1.9.0-maruska~230328-1nano_all.deb
+Size: 161476
+SHA256: 5d944098924120c326cd3c465ffb582205677dae0e3f182f78a10689308456a8
+SHA1: 41745e7b0de214539569db5ca277780dcd4da874
+MD5sum: 2438a543ed103bb3088645bed854f759
+Description: sawfish lisp files
+ This package contains the lisp source files in case you want to modify,
+ study or debug the behaviour of the window manager.
+ .
+ It is not required for normal use of sawfish and not installing it will save
+ space in small systems.
+
+Package: x11proto-bigreqs-dev
+Source: xorgproto (2019.2-1-maruska)
+Version: 1:2019.2-1-maruska
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Multi-Arch: foreign
+Homepage: https://www.x.org/
+Priority: optional
+Section: oldlibs
+Filename: pool/main/x/xorgproto/x11proto-bigreqs-dev_2019.2-1-maruska_all.deb
+Size: 3404
+SHA256: 8c81027022e03cabdb5e7e4834a6d8e191d4360d9bea4ffb29b42cdb6ddd4dd9
+SHA1: e58d1811b834170389a5fc9de347fdb886917d6c
+MD5sum: 3aaab452d19cb2b0a12d7b2224422996
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-composite-dev
+Source: xorgproto (2019.2-1-maruska)
+Version: 1:2019.2-1-maruska
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Multi-Arch: foreign
+Homepage: https://www.x.org/
+Priority: optional
+Section: oldlibs
+Filename: pool/main/x/xorgproto/x11proto-composite-dev_2019.2-1-maruska_all.deb
+Size: 3404
+SHA256: 3b4bec9df62de806740cce904c87c71c21979bc4c283c53a75be9d8b08afeb6a
+SHA1: 4e01e840e902036f97afc29c5a7d14feaa08dd81
+MD5sum: 96eb9aee0583d27bb1990548b57c2735
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-core-dev
+Source: xorgproto
+Version: 2019.2-1-maruska
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Multi-Arch: foreign
+Homepage: https://www.x.org/
+Priority: optional
+Section: oldlibs
+Filename: pool/main/x/xorgproto/x11proto-core-dev_2019.2-1-maruska_all.deb
+Size: 3392
+SHA256: 21ec95b8452ea2efaa4223f569aff36bf9411b9f04426473482909cb1316e6de
+SHA1: 08fa9685af69204e3a2e9158b95560ae7c08234d
+MD5sum: a59bd3bf3f569f384c0c0131c79e1986
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-damage-dev
+Source: xorgproto (2019.2-1-maruska)
+Version: 1:2019.2-1-maruska
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Multi-Arch: foreign
+Homepage: https://www.x.org/
+Priority: optional
+Section: oldlibs
+Filename: pool/main/x/xorgproto/x11proto-damage-dev_2019.2-1-maruska_all.deb
+Size: 3404
+SHA256: 3165032fb6343e4b92bbc0b15baf16d1367dd9cb13277efd07f6753d98ea7684
+SHA1: 324513484fbbfe53c59d72c013b56e58b5c751d3
+MD5sum: 3d9d6f65ebe972b8993a5ce066b88c31
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-dev
+Source: xorgproto
+Version: 2019.2-1-maruska
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 1301
+Depends: xorg-sgml-doctools (>= 1:1.5)
+Breaks: x11proto-bigreqs-dev (<< 1:2018.3), x11proto-composite-dev (<< 1:2018.3), x11proto-core-dev (<< 2018.3), x11proto-damage-dev (<< 1:2018.3), x11proto-dmx-dev (<< 1:2018.3), x11proto-dri2-dev (<< 2018.3), x11proto-dri3-dev (<< 2018.3), x11proto-fixes-dev (<< 1:2018.3), x11proto-fonts-dev (<< 2018.3), x11proto-gl-dev (<< 2018.3), x11proto-input-dev (<< 2018.3), x11proto-kb-dev (<< 2018.3), x11proto-present-dev (<< 2018.3), x11proto-randr-dev (<< 2018.3), x11proto-record-dev (<< 2018.3), x11proto-render-dev (<< 2:2018.3), x11proto-resource-dev (<< 2018.3), x11proto-scrnsaver-dev (<< 2018.3), x11proto-video-dev (<< 2018.3), x11proto-xcmisc-dev (<< 2018.3), x11proto-xext-dev (<< 2018.3), x11proto-xf86bigfont-dev (<< 2018.3), x11proto-xf86dga-dev (<< 2018.3), x11proto-xf86dri-dev (<< 2018.3), x11proto-xf86vidmode-dev (<< 2018.3), x11proto-xinerama-dev (<< 2018.3)
+Replaces: x11proto-bigreqs-dev (<< 1:2018.3), x11proto-composite-dev (<< 1:2018.3), x11proto-core-dev (<< 2018.3), x11proto-damage-dev (<< 1:2018.3), x11proto-dmx-dev (<< 1:2018.3), x11proto-dri2-dev (<< 2018.3), x11proto-dri3-dev (<< 2018.3), x11proto-fixes-dev (<< 1:2018.3), x11proto-fonts-dev (<< 2018.3), x11proto-gl-dev (<< 2018.3), x11proto-input-dev (<< 2018.3), x11proto-kb-dev (<< 2018.3), x11proto-present-dev (<< 2018.3), x11proto-randr-dev (<< 2018.3), x11proto-record-dev (<< 2018.3), x11proto-render-dev (<< 2:2018.3), x11proto-resource-dev (<< 2018.3), x11proto-scrnsaver-dev (<< 2018.3), x11proto-video-dev (<< 2018.3), x11proto-xcmisc-dev (<< 2018.3), x11proto-xext-dev (<< 2018.3), x11proto-xf86bigfont-dev (<< 2018.3), x11proto-xf86dga-dev (<< 2018.3), x11proto-xf86dri-dev (<< 2018.3), x11proto-xf86vidmode-dev (<< 2018.3), x11proto-xinerama-dev (<< 2018.3)
+Provides: x11proto-bigreqs-dev, x11proto-composite-dev, x11proto-core-dev, x11proto-damage-dev, x11proto-dmx-dev, x11proto-dri2-dev, x11proto-dri3-dev, x11proto-fixes-dev, x11proto-fonts-dev, x11proto-gl-dev, x11proto-input-dev, x11proto-kb-dev, x11proto-present-dev, x11proto-randr-dev, x11proto-record-dev, x11proto-render-dev, x11proto-resource-dev, x11proto-scrnsaver-dev, x11proto-video-dev, x11proto-xcmisc-dev, x11proto-xext-dev, x11proto-xf86bigfont-dev, x11proto-xf86dga-dev, x11proto-xf86dri-dev, x11proto-xf86vidmode-dev, x11proto-xinerama-dev
+Multi-Arch: foreign
+Homepage: https://www.x.org/
+Priority: optional
+Section: x11
+Filename: pool/main/x/xorgproto/x11proto-dev_2019.2-1-maruska_all.deb
+Size: 245240
+SHA256: c51365c47b735ffa1e61061c31c236557dce7658affa745ecf77a54262116b84
+SHA1: 82384174e0bc5a86b320871100a568b739412412
+MD5sum: 963d562a8c554cd8a3e73188dbe571a5
+Description: X11 extension protocols and auxiliary headers
+ This package provides development headers describing the wire protocol
+ for the X11 core and extension protocols, and also provides a number of
+ utility headers, used to abstract OS-specific functions.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.X.org>
+ .
+ This package is built from the X.org xorgproto module.
+
+Package: x11proto-dmx-dev
+Source: xorgproto (2019.2-1-maruska)
+Version: 1:2019.2-1-maruska
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Multi-Arch: foreign
+Homepage: https://www.x.org/
+Priority: optional
+Section: oldlibs
+Filename: pool/main/x/xorgproto/x11proto-dmx-dev_2019.2-1-maruska_all.deb
+Size: 3404
+SHA256: 83e9ab9569b1eaa9b3476966d575882696bd0857636cfc1ac5304193810180e8
+SHA1: b4125a8591fcadda381ff1d0927ca0e0fe1a58af
+MD5sum: 78241f106de0f72ff136fed4224289c6
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-dri2-dev
+Source: xorgproto
+Version: 2019.2-1-maruska
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Multi-Arch: foreign
+Homepage: https://www.x.org/
+Priority: optional
+Section: oldlibs
+Filename: pool/main/x/xorgproto/x11proto-dri2-dev_2019.2-1-maruska_all.deb
+Size: 3396
+SHA256: 918c3b467f72bedfe873d285342ab5b558a727f660f45250905c0eb10ecd45fa
+SHA1: b89b407741497352e091da2ccd5dcc936a0142e1
+MD5sum: 71835b24d3d34d0eff926fe3ea288231
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-dri3-dev
+Source: xorgproto
+Version: 2019.2-1-maruska
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Multi-Arch: foreign
+Homepage: https://www.x.org/
+Priority: optional
+Section: oldlibs
+Filename: pool/main/x/xorgproto/x11proto-dri3-dev_2019.2-1-maruska_all.deb
+Size: 3392
+SHA256: d2667e895163c7ea29aa6517f4a070388b6671e4ab7a5e0a73d9100aee7326d8
+SHA1: c76fb2606a6feda35093f6ab9564cba2cb637768
+MD5sum: 9e3c69942957838d425c70cffe8b6490
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-fixes-dev
+Source: xorgproto (2019.2-1-maruska)
+Version: 1:2019.2-1-maruska
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Multi-Arch: foreign
+Homepage: https://www.x.org/
+Priority: optional
+Section: oldlibs
+Filename: pool/main/x/xorgproto/x11proto-fixes-dev_2019.2-1-maruska_all.deb
+Size: 3404
+SHA256: 151a12f5ed4ec0955a80d2d6ded7487c43b63cbd24a18fa56beeee73f91171d6
+SHA1: 895b77e6e8858ac12bc1d9e2eefeead8dc6e513b
+MD5sum: d26c2770d6300e899f9e16d23847170c
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-fonts-dev
+Source: xorgproto
+Version: 2019.2-1-maruska
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Multi-Arch: foreign
+Homepage: https://www.x.org/
+Priority: optional
+Section: oldlibs
+Filename: pool/main/x/xorgproto/x11proto-fonts-dev_2019.2-1-maruska_all.deb
+Size: 3400
+SHA256: 1c4f56fc7a335eb76bf29c68203cf5fbbd085f534aed8bd2d2286d7ea18c991b
+SHA1: 07dae734460c564f75c769c036b2beeb0cb234aa
+MD5sum: 2dc2f4ddd508f4199e2e44f76666b252
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-gl-dev
+Source: xorgproto
+Version: 2019.2-1-maruska
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Multi-Arch: foreign
+Homepage: https://www.x.org/
+Priority: optional
+Section: oldlibs
+Filename: pool/main/x/xorgproto/x11proto-gl-dev_2019.2-1-maruska_all.deb
+Size: 3392
+SHA256: 5dff3cdfd2b42b52f49518def19cd0e8d52169a60d186476145a0c0df0bbfa73
+SHA1: d29ab1093e507528be540e1ca74dec6ed50c761a
+MD5sum: 7bdd0f0b54bc193d006f858b406fc12b
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-input-dev
+Source: xorgproto
+Version: 2019.2-1-maruska
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Multi-Arch: foreign
+Homepage: https://www.x.org/
+Priority: optional
+Section: oldlibs
+Filename: pool/main/x/xorgproto/x11proto-input-dev_2019.2-1-maruska_all.deb
+Size: 3396
+SHA256: 9431811c5cb9fe668391f54d216c6dc1a8170b5aac8feb0fcae43a20a48f2390
+SHA1: 90a79688100f3503f4c02eee321280413dbbc46c
+MD5sum: 30c47fb0d4c08ade8c276ad71302f717
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-kb-dev
+Source: xorgproto
+Version: 2019.2-1-maruska
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Multi-Arch: foreign
+Homepage: https://www.x.org/
+Priority: optional
+Section: oldlibs
+Filename: pool/main/x/xorgproto/x11proto-kb-dev_2019.2-1-maruska_all.deb
+Size: 3396
+SHA256: 450d1cb8ff643716dd6b5992ca30b1cf2a2fbb3a99f18c78786d9ac03ce7d1a0
+SHA1: 6fbaefc377e527ba303ebcccc9cc319d12f727f9
+MD5sum: 43370dad313619647360d7c84f55f009
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-present-dev
+Source: xorgproto
+Version: 2019.2-1-maruska
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Multi-Arch: foreign
+Homepage: https://www.x.org/
+Priority: optional
+Section: oldlibs
+Filename: pool/main/x/xorgproto/x11proto-present-dev_2019.2-1-maruska_all.deb
+Size: 3400
+SHA256: a52eb6baf8de136f63df52fc852a8cf31f7e950b81bc7b451bc7b839d4df1255
+SHA1: 5677425195430d8cbde03cbb412ac7992eb54057
+MD5sum: a9202c2590be7c1ab811ea9c849d0622
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-randr-dev
+Source: xorgproto
+Version: 2019.2-1-maruska
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Multi-Arch: foreign
+Homepage: https://www.x.org/
+Priority: optional
+Section: oldlibs
+Filename: pool/main/x/xorgproto/x11proto-randr-dev_2019.2-1-maruska_all.deb
+Size: 3396
+SHA256: fb9bd2bdbc828ef08f28564a4f4ee9e161e2c34fabfb74e6d3d217c33c653b4d
+SHA1: 204287bb22bb166233fdefa05b14169d30b9c49c
+MD5sum: ccde988ade0f10713a51898ac968acaf
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-record-dev
+Source: xorgproto
+Version: 2019.2-1-maruska
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Multi-Arch: foreign
+Homepage: https://www.x.org/
+Priority: optional
+Section: oldlibs
+Filename: pool/main/x/xorgproto/x11proto-record-dev_2019.2-1-maruska_all.deb
+Size: 3392
+SHA256: 3d72a9ee53fc49a83f3690542ec7015dbac78878be2df76b296160dbaaa8ffbc
+SHA1: 8eec2b5fbaff0f9ab68c91ba4fd50724ad546308
+MD5sum: 4fd591c17babf8f9cd5291fd4b9ec6b3
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-render-dev
+Source: xorgproto (2019.2-1-maruska)
+Version: 2:2019.2-1-maruska
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Multi-Arch: foreign
+Homepage: https://www.x.org/
+Priority: optional
+Section: oldlibs
+Filename: pool/main/x/xorgproto/x11proto-render-dev_2019.2-1-maruska_all.deb
+Size: 3404
+SHA256: c9c3904e7edc92b1e79f3968cfdcdaaab84fec8ea9e2a08c19a0ac69d54667b9
+SHA1: facc6c2e12367c29e2e7f6e328735d1290a9032f
+MD5sum: 2ef5319fd6cb83c9f5b998f7878aecef
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-resource-dev
+Source: xorgproto
+Version: 2019.2-1-maruska
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Multi-Arch: foreign
+Homepage: https://www.x.org/
+Priority: optional
+Section: oldlibs
+Filename: pool/main/x/xorgproto/x11proto-resource-dev_2019.2-1-maruska_all.deb
+Size: 3396
+SHA256: bf926d6cd9b083473162b7bbac4f5d801d60b4e70238831014c6b39578db22c6
+SHA1: 579fa0cab40efe53430445faf197c1022bf9fbe6
+MD5sum: eeba7356056e31364e50eca5ae2e0f1d
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-scrnsaver-dev
+Source: xorgproto
+Version: 2019.2-1-maruska
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Multi-Arch: foreign
+Homepage: https://www.x.org/
+Priority: optional
+Section: oldlibs
+Filename: pool/main/x/xorgproto/x11proto-scrnsaver-dev_2019.2-1-maruska_all.deb
+Size: 3400
+SHA256: 17bb826f9a79a6e8bc4ca66ab04704600820653534cc1e3bc23e89a41f44dd8a
+SHA1: 61a5e04c800dcfc8ba094ff33d62cc428a5ae09a
+MD5sum: 38cac1f3594f31424b4aa5fa7f81e4ce
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-video-dev
+Source: xorgproto
+Version: 2019.2-1-maruska
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Multi-Arch: foreign
+Homepage: https://www.x.org/
+Priority: optional
+Section: oldlibs
+Filename: pool/main/x/xorgproto/x11proto-video-dev_2019.2-1-maruska_all.deb
+Size: 3396
+SHA256: 0732da40bf255da4a0ed50b4723e4540321983b808b25c3b4af6835137efe750
+SHA1: cfbb6b39549a781b28b43aa0161ed9709ea5da4b
+MD5sum: 36816f19e5fe3e5f79418206fd220c8a
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-xcmisc-dev
+Source: xorgproto
+Version: 2019.2-1-maruska
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Multi-Arch: foreign
+Homepage: https://www.x.org/
+Priority: optional
+Section: oldlibs
+Filename: pool/main/x/xorgproto/x11proto-xcmisc-dev_2019.2-1-maruska_all.deb
+Size: 3396
+SHA256: 6777e778e93a9ee9c93eeb0bc34aeb648519ff3078c670e8fefdd3d9e58a412f
+SHA1: 701b4d590a47a4bb0ce297469a5c17053ac6f7e8
+MD5sum: ef3439f9178f2a4378b2494c534c7b86
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-xext-dev
+Source: xorgproto
+Version: 2019.2-1-maruska
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Multi-Arch: foreign
+Homepage: https://www.x.org/
+Priority: optional
+Section: oldlibs
+Filename: pool/main/x/xorgproto/x11proto-xext-dev_2019.2-1-maruska_all.deb
+Size: 3396
+SHA256: dc4ca0ee592f0a096c3a4df8849ff559962d26715e716bde3d431684812cea25
+SHA1: 0240b8dda77dc0d087fbee6893577a12bf6184f5
+MD5sum: 7461e3308cd5aca49a6e6fcd483fbc8a
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-xf86bigfont-dev
+Source: xorgproto
+Version: 2019.2-1-maruska
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Multi-Arch: foreign
+Homepage: https://www.x.org/
+Priority: optional
+Section: oldlibs
+Filename: pool/main/x/xorgproto/x11proto-xf86bigfont-dev_2019.2-1-maruska_all.deb
+Size: 3404
+SHA256: 99e59ca42bd39d02bc83f58541b276609d38d0b56871268f6534f7da2bebafe1
+SHA1: 64a93e3de74966e1ebaac91acba8602a875bce8e
+MD5sum: b3010e940e9ef94d2a780cd0381f47ce
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-xf86dga-dev
+Source: xorgproto
+Version: 2019.2-1-maruska
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Multi-Arch: foreign
+Homepage: https://www.x.org/
+Priority: optional
+Section: oldlibs
+Filename: pool/main/x/xorgproto/x11proto-xf86dga-dev_2019.2-1-maruska_all.deb
+Size: 3400
+SHA256: 67246d34a47bf2875f602e0ce83a46d8d97b85bdd7dadfb68ab74c3eab00ec95
+SHA1: 395f21ac687df8884f65fbed48af93529955ff55
+MD5sum: e349944a9574343360055a70f6ee0669
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-xf86dri-dev
+Source: xorgproto
+Version: 2019.2-1-maruska
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Multi-Arch: foreign
+Homepage: https://www.x.org/
+Priority: optional
+Section: oldlibs
+Filename: pool/main/x/xorgproto/x11proto-xf86dri-dev_2019.2-1-maruska_all.deb
+Size: 3400
+SHA256: d8e2fe2f3761aef3ece3f31ad230e20d0068780b0d6ce60c856508706d81bf8d
+SHA1: 184a367b37b9dcb5f512ad5a7380350ea89cfcaf
+MD5sum: a290d960609e6806ac773c80d340bcbd
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-xf86vidmode-dev
+Source: xorgproto
+Version: 2019.2-1-maruska
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Multi-Arch: foreign
+Homepage: https://www.x.org/
+Priority: optional
+Section: oldlibs
+Filename: pool/main/x/xorgproto/x11proto-xf86vidmode-dev_2019.2-1-maruska_all.deb
+Size: 3408
+SHA256: e63ae6f2f93bfedf25dd6ce054d97d9e6aa09a7deb1280c54f1e820244c3eaef
+SHA1: c5696d6a33ada1954e0d8fe442b6d255a2d7602e
+MD5sum: e16cbdf90ca8bb79d2da95288bc5d2b2
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-xinerama-dev
+Source: xorgproto
+Version: 2019.2-1-maruska
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Multi-Arch: foreign
+Homepage: https://www.x.org/
+Priority: optional
+Section: oldlibs
+Filename: pool/main/x/xorgproto/x11proto-xinerama-dev_2019.2-1-maruska_all.deb
+Size: 3396
+SHA256: 938f832ccf6d14c44967c7e86b6d1edbbdf9d03d1bbed960442b31adb9027be5
+SHA1: 38dc66fd3c136e2ef7d6e5a8910e8234f349043e
+MD5sum: 6b864fca2b7bed92c67588cd6937a911
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: xdot
+Version: 1.3-maruska-ubuntu
+Architecture: all
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Installed-Size: 172
+Depends: gir1.2-gtk-3.0, graphviz, python3-gi, python3-gi-cairo, python3-numpy, python3:any
+Homepage: https://github.com/jrfonseca/xdot.py
+Priority: optional
+Section: python
+Filename: pool/main/x/xdot/xdot_1.3-maruska-ubuntu_all.deb
+Size: 34572
+SHA256: cbb89d5a99c4c9518d3341f17462f90d686ac2ae0d2a8f2e805cd78e141790ea
+SHA1: 0be8feaf3f2461c19f86fe7f3338d26641225888
+MD5sum: b58f17c7ff58cb802590b77176aebd05
+Description: interactive viewer for Graphviz dot files
+ xdot is an interactive viewer for graphs written in Graphviz's dot language.
+ It uses internally the graphviz's xdot output format as an intermediate
+ format, and PyGTK and Cairo for rendering. xdot can be used either as a
+ standalone application from command line, or as a library embedded in your
+ Python 3 application.
+ .
+ Features:
+  * Since it doesn't use bitmaps it is fast and has a small memory footprint.
+  * Arbitrary zoom.
+  * Keyboard/mouse navigation.
+  * Supports events on the nodes with URLs.
+  * Animated jumping between nodes.
+  * Highlights node/edge under mouse.
+
+Package: xkb-reset
+Version: 1.1.3
+Architecture: amd64
+Maintainer: Michal Maruska <michal@ruska.it>
+Installed-Size: 23
+Depends: libc6 (>= 2.2.5), libx11-6
+Priority: extra
+Section: x11
+Filename: pool/main/x/xkb-reset/xkb-reset_1.1.3_amd64.deb
+Size: 3108
+SHA256: a0bf9f3b366dce22f5a94f05a1553d7e1bf175d7aa5ad537fc5d5e5b90767a72
+SHA1: 070f9063e406f3a050823eee0e0f14500afd7302
+MD5sum: dd6af6399ded1e026c291523c864d47c
+Description: command to reset the X keyboard state (shift, group, mouse emulation)
+
+Package: xkb-reset-dbgsym
+Source: xkb-reset
+Version: 1.1.3
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Michal Maruska <michal@ruska.it>
+Installed-Size: 16
+Depends: xkb-reset (= 1.1.3)
+Priority: optional
+Section: debug
+Filename: pool/main/x/xkb-reset/xkb-reset-dbgsym_1.1.3_amd64.deb
+Size: 2336
+SHA256: 30b92fbfc39a9b4bcd67d1ab51e849bcef3e56769351c92461e9a71e32d521b7
+SHA1: 967d697f382b4ba7dca29528b7ba15f644cbc4cf
+MD5sum: 177086eb884913d807eab2d0059b9660
+Description: debug symbols for xkb-reset
+Build-Ids: d2f31ad9420e82a68285eeeb8ef1c0ea4edfb487
+
+Package: xnest
+Source: xorg-server
+Version: 2:1.20.14-1-maruska
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 1700
+Depends: xserver-common (>= 2:1.20.14-1-maruska), libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.7.0), libc6 (>= 2.29), libgcrypt20 (>= 1.8.0), libpixman-1-0 (>= 0.13.2), libselinux1 (>= 2.0.82), libsystemd0, libunwind8, libx11-6, libxau6, libxdmcp6, libxext6, libxfont2 (>= 1:2.0.1)
+Recommends: libgl1-mesa-dri (>= 7.1~rc1)
+Provides: xserver
+Homepage: https://www.x.org/
+Priority: optional
+Section: x11
+Filename: pool/main/x/xorg-server/xnest_1.20.14-1-maruska_amd64.deb
+Size: 654764
+SHA256: 8d2291b3deba03a70cbe2a81eea4587cce6b3a39d13a4d727715e0f98f0ca319
+SHA1: b07bb92ebd5010e480eeb03a318aea501c2e3297
+MD5sum: ee092a5aa86eafae43eb4f0e60aa5651
+Description: Nested X server
+ Xnest is a nested X server that simply relays all its requests to another
+ X server, where it runs as a client.  This means that it appears as another
+ window in your current X session.  Xnest relies upon its parent X server
+ for font services.
+ .
+ Use of the Xephyr X server instead of Xnest is recommended.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.x.org>
+ .
+ This package is built from the X.org xserver module.
+
+Package: xnest-dbgsym
+Source: xorg-server
+Version: 2:1.20.14-1-maruska
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 2920
+Depends: xnest (= 2:1.20.14-1-maruska)
+Priority: optional
+Section: debug
+Filename: pool/main/x/xorg-server/xnest-dbgsym_1.20.14-1-maruska_amd64.deb
+Size: 2778492
+SHA256: 79c220d5609bb3b7acce30b7d92380c908738598f9138f57cea84c6bd2acb937
+SHA1: 33752df20cc00854938ca1106a7c425831c402da
+MD5sum: 0edb426395607b70ccd81baccbe97c48
+Description: debug symbols for xnest
+Build-Ids: 622fb9eb7b76d989ae50c450d5995d95a4ba5f6c
+
+Package: xorg-server-source
+Source: xorg-server
+Version: 2:1.20.14-1-maruska
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 104
+Homepage: https://www.x.org/
+Priority: optional
+Section: x11
+Filename: pool/main/x/xorg-server/xorg-server-source_1.20.14-1-maruska_all.deb
+Size: 14720
+SHA256: ba2f9c7bf782274cd1ae9e8e911c631e881f0799e6e54507fb2c2916aa82f455
+SHA1: 0826c497eb60b553dadb1810be20be55c961dea4
+MD5sum: 61376950f27acc2505e63f46dcbce2a2
+Description: Xorg X server - source files
+ This package provides original Debian (with Debian patches already
+ applied, and autotools files updated) sources for the X.Org ('Xorg')
+ X server shipped in a tarball.  This enables other projects re-using
+ X server codebase (e.g. VNC servers) to (re-)use officially
+ Debian-supported version of the X xserver for their builds.
+ .
+ Unless you are building a software product using X server sources,
+ you probably want xserver-xorg and/or xserver-xorg-core instead.
+
+Package: xplugin
+Version: 1.5
+Architecture: amd64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 23
+Depends: libc6 (>= 2.3.4), libx11-6 (>= 2:1.6.6-1-maruska)
+Priority: optional
+Section: x11
+Filename: pool/main/x/xplugin/xplugin_1.5_amd64.deb
+Size: 4132
+SHA256: 4bda7ca319649a2f74d567937a9938001dd2de96a1bc6c237f0f60c994cdce84
+SHA1: 16ec6d52a83ff52ffff2da2b2aef79b0ae22a314
+MD5sum: befaaf1ba4c7a5a83fee4b4ebe7ce51b
+Description: Command to load the input event processing plugin in Xorg server.
+
+Package: xplugin-dbgsym
+Source: xplugin
+Version: 1.5
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 21
+Depends: xplugin (= 1.5)
+Priority: optional
+Section: debug
+Filename: pool/main/x/xplugin/xplugin-dbgsym_1.5_amd64.deb
+Size: 6460
+SHA256: 96e92e9b489fb77414ad4599fc5787d7bd929fc5418efc86cbe3cc44f41d18e1
+SHA1: de98227852282a37da465456668a887dacd0769f
+MD5sum: e64f2cc9660a4faad27cb7a360a45d4d
+Description: debug symbols for xplugin
+Build-Ids: 1f094490b22fa04367243107c21996b7dd72e2bd
+
+Package: xserver-common
+Source: xorg-server
+Version: 2:1.20.14-1-maruska
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 147
+Depends: x11-common, xkb-data, x11-xkb-utils
+Recommends: xfonts-base, xauth
+Replaces: xserver-xorg-core (<< 2:1.5.2)
+Multi-Arch: foreign
+Homepage: https://www.x.org/
+Priority: optional
+Section: x11
+Filename: pool/main/x/xorg-server/xserver-common_1.20.14-1-maruska_all.deb
+Size: 30476
+SHA256: ff4ebf40a02a8aad596abf35a27aa3acde9347e22050cc5eff1d1d5be3001b2c
+SHA1: acd4f1c753ac9db423e910706d288e00b27a05ee
+MD5sum: d2d7615ea3b2a2e74ec2dee074167290
+Description: common files used by various X servers
+ This package provides files necessary for all X.Org based X servers.
+
+Package: xserver-xephyr
+Source: xorg-server
+Version: 2:1.20.14-1-maruska
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 2502
+Depends: xserver-common (>= 2:1.20.14-1-maruska), libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.7.0), libc6 (>= 2.29), libepoxy0 (>= 1.0), libgcrypt20 (>= 1.8.0), libgl1, libpixman-1-0 (>= 0.30.0), libselinux1 (>= 2.0.82), libsystemd0, libudev1 (>= 183), libunwind8, libx11-6, libx11-xcb1 (>= 2:1.8.1-1-maruska), libxau6, libxcb-icccm4 (>= 0.4.1), libxcb-image0 (>= 0.2.1), libxcb-keysyms1 (>= 0.4.0), libxcb-randr0 (>= 1.1), libxcb-render-util0, libxcb-render0, libxcb-shape0, libxcb-shm0 (>= 1.10), libxcb-util1 (>= 0.4.0), libxcb-xkb1, libxcb-xv0 (>= 1.2), libxcb1 (>= 1.8), libxdmcp6, libxfont2 (>= 1:2.0.1), libxshmfence1
+Recommends: libgl1-mesa-dri (>= 7.1~rc1)
+Provides: xserver
+Homepage: https://www.x.org/
+Priority: optional
+Section: x11
+Filename: pool/main/x/xorg-server/xserver-xephyr_1.20.14-1-maruska_amd64.deb
+Size: 926620
+SHA256: 38546b822c4a9ae39636ebe5f11c258879909a04d492b39b61ec1c1fd43bd0ad
+SHA1: a354f27cac3177bb5cc6573e6bffda4feea3463c
+MD5sum: 0e5de2cbde98ca09d58b356891d856f2
+Description: nested X server
+ Xephyr is an X server that can be run inside another X server,
+ much like Xnest. It is based on the kdrive X server, and as a
+ result it supports newer extensions than Xnest, including render and
+ composite.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.x.org>
+ .
+ This package is built from the X.org xserver module.
+
+Package: xserver-xephyr-dbgsym
+Source: xorg-server
+Version: 2:1.20.14-1-maruska
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 4327
+Depends: xserver-xephyr (= 2:1.20.14-1-maruska)
+Priority: optional
+Section: debug
+Filename: pool/main/x/xorg-server/xserver-xephyr-dbgsym_1.20.14-1-maruska_amd64.deb
+Size: 4099888
+SHA256: d9f1922c9e65d6f39a5f6b5d491582d9a09f7aca1ebd4d36f9f706002d768a0b
+SHA1: 51853b3fdfad8661eecaf50b8d3665981c61d0c9
+MD5sum: 55143e820db874bcb37de7cec5e9a246
+Description: debug symbols for xserver-xephyr
+Build-Ids: 6c276917cec21f33a0f03849ce2366f1cafe8c3c
+
+Package: xserver-xorg-core
+Source: xorg-server
+Version: 2:1.20.14-1-maruska
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 3885
+Depends: xserver-common (>= 2:1.20.14-1-maruska), keyboard-configuration, udev (>= 149), libegl1, libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.7.0), libc6 (>= 2.29), libdbus-1-3 (>= 1.9.14), libdrm2 (>= 2.4.66), libepoxy0 (>= 1.5.4), libgbm1 (>= 17.1.0~rc2), libgcrypt20 (>= 1.8.0), libgl1, libpciaccess0 (>= 0.12.902), libpixman-1-0 (>= 0.30.0), libselinux1 (>= 2.0.82), libsystemd0, libudev1 (>= 183), libunwind8, libxau6, libxdmcp6, libxfont2 (>= 1:2.0.1), libxshmfence1
+Recommends: libgl1-mesa-dri (>= 7.10.2-4), default-logind | logind
+Suggests: xfonts-100dpi | xfonts-75dpi, xfonts-scalable
+Conflicts: xserver-xorg-input-evtouch, xserver-xorg-video-modesetting
+Breaks: libgl1-mesa-dri (<< 18.0.5), systemd (<< 226-4~), xserver-xorg (<< 1:7.7+10~)
+Replaces: xserver-xorg (<< 1:7.7+10~), xserver-xorg-video-modesetting
+Provides: xorg-input-abi-24, xorg-video-abi-24, xserver-xorg-video-modesetting
+Homepage: https://www.x.org/
+Priority: optional
+Section: x11
+Filename: pool/main/x/xorg-server/xserver-xorg-core_1.20.14-1-maruska_amd64.deb
+Size: 1349524
+SHA256: 44d7337946f22e0d0f665b969b3a1001487998873cf9675f8034f33fe8f653d4
+SHA1: 8186306d66d82c6147b641a33e85d6a09cf4c1ed
+MD5sum: f94607a079a29f7b4e8076148495ce34
+Description: Xorg X server - core server
+ The Xorg X server is an X server for several architectures and operating
+ systems, which is derived from the XFree86 4.x series of X servers.
+ .
+ The Xorg server supports most modern graphics hardware from most vendors,
+ and supersedes all XFree86 X servers.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.x.org>
+ .
+ This package is built from the X.org xserver module.
+
+Package: xserver-xorg-core-dbgsym
+Source: xorg-server
+Version: 2:1.20.14-1-maruska
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 6337
+Depends: xserver-xorg-core (= 2:1.20.14-1-maruska)
+Priority: optional
+Section: debug
+Filename: pool/main/x/xorg-server/xserver-xorg-core-dbgsym_1.20.14-1-maruska_amd64.deb
+Size: 5919596
+SHA256: 215815e98e97d229b73c0bf97678649074c41e4f4764a66b8094b045480afa93
+SHA1: 8be21df2c7bd1c2364db3c8fb5b695665521045b
+MD5sum: 4bb27032b730bf083b9a17a436662d27
+Description: debug symbols for xserver-xorg-core
+Build-Ids: 0376067fe2d6923b6c00808fb1672db21c3749cb 37ac9e5b2e73c85cfb4a9d91616ebcae5f289906 5edc68bce058141d31177fe5fc41b1a67a0425a9 897e1837fdebb240b93b99e3f97d0d919cea858a 8f2927f3c424b1d1d5b0b042eb68e5fc6e9581cb afb64a8a88f2b6262f6fcb30c94d198db26ecbb0 b049e08501e2f758126eeabde4448cabdb4bd5c0 be72bdd999306cb859de0e62b1fe09e2a0a4f1cc cf4cbabd71293b4a4521618b59bf1093859f14d2 ddfd9c744e1e46e30fda03a1ba15198277edb193 e65f8accc0441eccd45e560b2d7cbd3216991d8d ebbf2263410f747f852301d445bf8c9ce99ab575 ee4663c7dc040b35915ad7bf5fe38d291bce3da7 fd52b0b55df1165222803615012ba5b92d56913e fdf8c6fe9f961a0eb653a82ea898f5bc662351cd
+
+Package: xserver-xorg-dev
+Source: xorg-server
+Version: 2:1.20.14-1-maruska
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 1366
+Depends: libpixman-1-dev (>= 0.27.2), x11proto-dev (>= 2018.4), libxfont-dev, libxkbfile-dev, libpciaccess-dev, mesa-common-dev
+Homepage: https://www.x.org/
+Priority: optional
+Section: x11
+Filename: pool/main/x/xorg-server/xserver-xorg-dev_1.20.14-1-maruska_amd64.deb
+Size: 207996
+SHA256: 379db5a856fda33a78c6844aa85213ed6a67c83a3ad772f1e7fff765860a7be3
+SHA1: eb49e2ca0834c2af4a4a8a63e9cd1c85f9592b7d
+MD5sum: 149db608a3e65b9d494aab0bf244aa8b
+Description: Xorg X server - development files
+ This package provides development files for the X.Org ('Xorg') X server.
+ This is not quite the same as the DDK (Driver Development Kit) from the
+ XFree86 4.x and X.Org 6.7, 6.8 and 6.9 series of servers; it provides
+ headers and a pkg-config file for drivers using autotools to build
+ against.
+ .
+ Unless you are developing or building a driver, you probably want
+ xserver-xorg and/or xserver-xorg-core instead.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.x.org>
+ .
+ This package is built from the X.org xserver module.
+
+Package: xserver-xorg-input-libinput
+Version: 1.1.0-1
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 141
+Depends: libc6 (>= 2.7), libinput10 (>= 1.15.1), xorg-input-abi-24, xserver-xorg-core (>= 2:1.18.99.901)
+Provides: xorg-driver-input
+Homepage: https://www.x.org
+Priority: optional
+Section: x11
+Filename: pool/main/x/xserver-xorg-input-libinput/xserver-xorg-input-libinput_1.1.0-1_amd64.deb
+Size: 62008
+SHA256: 99146f69fd934e895f9725e128d187d451e85b125418f1ddca04868b6321d940
+SHA1: 8aeb895913dd0a3baf646e43b2acf78342eab28c
+MD5sum: 37eb964c9deb14c966450fababd7348e
+Description: X.Org X server -- libinput input driver
+ This package provides the driver for input devices using libinput library.
+ It can handle keyboards, mice and touchpads, and essentially replaces the
+ separate -evdev and -synaptics drivers.
+ .
+ This package is built from the X.org xf86-input-libinput driver module.
+
+Package: xserver-xorg-input-libinput-dbgsym
+Source: xserver-xorg-input-libinput
+Version: 1.1.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 141
+Depends: xserver-xorg-input-libinput (= 1.1.0-1)
+Priority: optional
+Section: debug
+Filename: pool/main/x/xserver-xorg-input-libinput/xserver-xorg-input-libinput-dbgsym_1.1.0-1_amd64.deb
+Size: 113616
+SHA256: aff32cc11770ac3b02215fcc8ce0bda9e60c69b6f3a95fb1a630e873f20b7ea5
+SHA1: 9bab063549b0101e10d3a6baf49f31f157f7eea2
+MD5sum: f58001b49390c5122a22683dc2614c35
+Description: debug symbols for xserver-xorg-input-libinput
+Build-Ids: f98fcde18ace73bcc6a65548ef4ab06c04801fe5
+
+Package: xserver-xorg-input-libinput-dev
+Source: xserver-xorg-input-libinput
+Version: 1.1.0-1
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 52
+Homepage: https://www.x.org
+Priority: optional
+Section: libdevel
+Filename: pool/main/x/xserver-xorg-input-libinput/xserver-xorg-input-libinput-dev_1.1.0-1_all.deb
+Size: 32420
+SHA256: 32a36fd3a2198c27afde173c62cfc48acaf19aca4aeebf78ec10cc44e0562148
+SHA1: 9fa0dc61e6eec1361c150cadd48eea41bc1e9a75
+MD5sum: 87c90b99f8224f5bf583ad7e3bbeb634
+Description: X.Org X server -- libinput input driver (development headers)
+ This package provides the development headers for the libinput input driver
+ found in xserver-xorg-input-libinput. Non-developers likely have little use
+ for this package.
+ .
+ This package is built from the X.org xf86-input-libinput driver module.
+
+Package: xserver-xorg-legacy
+Source: xorg-server
+Version: 2:1.20.14-1-maruska
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 178
+Depends: xserver-common (>= 2:1.20.14-1-maruska), libc6 (>= 2.3.4), debconf (>= 0.5) | debconf-2.0
+Breaks: x11-common (<< 1:7.7+10~), xserver-xorg-core (<< 2:1.17.2-3~)
+Replaces: x11-common (<< 1:7.7+10~), xserver-xorg-core (<< 2:1.17.2-3~)
+Homepage: https://www.x.org/
+Priority: optional
+Section: x11
+Filename: pool/main/x/xorg-server/xserver-xorg-legacy_1.20.14-1-maruska_amd64.deb
+Size: 36112
+SHA256: 3b9e2dc2722459bcee3b24291d290543c27d158e692c6ae8160024de14d7ebd5
+SHA1: 33e61139479b17e113dfd753d0eb160679fafc7d
+MD5sum: 747e5f65757f013bc23b3ea3bf0bca74
+Description: setuid root Xorg server wrapper
+ This package provides a wrapper for the Xorg X server, which is
+ necessary for legacy drivers and non-Linux kernels.
+
+Package: xserver-xorg-legacy-dbgsym
+Source: xorg-server
+Version: 2:1.20.14-1-maruska
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 24
+Depends: xserver-xorg-legacy (= 2:1.20.14-1-maruska)
+Priority: optional
+Section: debug
+Filename: pool/main/x/xorg-server/xserver-xorg-legacy-dbgsym_1.20.14-1-maruska_amd64.deb
+Size: 9272
+SHA256: 45ca50352e7543769e94d47ab3aad99a026a48968c10e3fdc5253949ec16e394
+SHA1: 7a9bd248cd7912c8898430826bb8a61a5fb5101b
+MD5sum: 652a5403cef42416c8d44bbefd9b6f90
+Description: debug symbols for xserver-xorg-legacy
+Build-Ids: 169694926c01d37ad5d2b3e6f3d20c23a4f614c6
+
+Package: xvfb
+Source: xorg-server
+Version: 2:1.20.14-1-maruska
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 2137
+Depends: xserver-common (>= 2:1.20.14-1-maruska), libaudit1 (>= 1:2.2.1), libbsd0 (>= 0.7.0), libc6 (>= 2.29), libgcrypt20 (>= 1.8.0), libgl1, libpixman-1-0 (>= 0.30.0), libselinux1 (>= 2.0.82), libsystemd0, libunwind8, libxau6, libxdmcp6, libxfont2 (>= 1:2.0.1)
+Recommends: xauth
+Provides: xserver
+Multi-Arch: foreign
+Homepage: https://www.x.org/
+Priority: optional
+Section: x11
+Filename: pool/main/x/xorg-server/xvfb_1.20.14-1-maruska_amd64.deb
+Size: 789292
+SHA256: 2c773d0a82ed068f03255b7e737c57bf63b3450f1008a5ab04cd0c488e330138
+SHA1: 88a4d4c9166b045adc25c79c3e8ab5962a31db68
+MD5sum: 5f7f4af125074d8398498bdc7b7b46f2
+Description: Virtual Framebuffer 'fake' X server
+ Xvfb provides an X server that can run on machines with no display hardware
+ and no physical input devices. It emulates a dumb framebuffer using virtual
+ memory. The primary use of this server was intended to be server testing,
+ but other novel uses for it have been found, including testing clients
+ against unusual depths and screen configurations, doing batch processing with
+ Xvfb as a background rendering engine, load testing, as an aid to porting the
+ X server to a new platform, and providing an unobtrusive way to run
+ applications that don't really need an X server but insist on having one
+ anyway.
+ .
+ This package also contains a convenience script called xvfb-run which
+ simplifies the automated execution of X clients in a virtual server
+ environment. This convenience script requires the use of the xauth
+ program.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.x.org>
+ .
+ This package is built from the X.org xserver module.
+
+Package: xvfb-dbgsym
+Source: xorg-server
+Version: 2:1.20.14-1-maruska
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 3565
+Depends: xvfb (= 2:1.20.14-1-maruska)
+Priority: optional
+Section: debug
+Filename: pool/main/x/xorg-server/xvfb-dbgsym_1.20.14-1-maruska_amd64.deb
+Size: 3372332
+SHA256: accde47164947c77cc62bc6533fb09adeba58990b7ed420ad9bda357479f614e
+SHA1: 89b95b3d069bf06cb3bf4e49b5596d9c87a873bb
+MD5sum: c8a7a5d9de6b714b611eaad884e097da
+Description: debug symbols for xvfb
+Build-Ids: 49b1e8f9a5711d39bd400cb577a4789472515f9d
+
+Package: zsh
+Version: 5.9-1-maruska-u
+Architecture: amd64
+Maintainer: Debian Zsh Maintainers <pkg-zsh-devel@lists.alioth.debian.org>
+Installed-Size: 2479
+Depends: zsh-common (= 5.9-1-maruska-u), libc6 (>= 2.29), libcap2 (>= 1:2.10), libtinfo6 (>= 6)
+Recommends: libncursesw6 (>= 6), libpcre3
+Suggests: zsh-doc
+Homepage: https://www.zsh.org/
+Priority: optional
+Section: shells
+Filename: pool/main/z/zsh/zsh_5.9-1-maruska-u_amd64.deb
+Size: 893488
+SHA256: 167acb10a975963685730c8b5529be88973d9493f224547c42353324ec30a2e1
+SHA1: 9bdb82908ba801c879472ffad5b9726a71a1c878
+MD5sum: ddcbaee79678ef3b09dedd47e5b08166
+Description: shell with lots of features
+ Zsh is a UNIX command interpreter (shell) usable as an
+ interactive login shell and as a shell script command
+ processor. Of the standard shells, zsh most closely resembles
+ ksh but includes many enhancements. Zsh has command-line editing,
+ built-in spelling correction, programmable command completion,
+ shell functions (with autoloading), a history mechanism, and a
+ host of other features.
+
+Package: zsh-common
+Source: zsh
+Version: 5.9-1-maruska-u
+Architecture: all
+Maintainer: Debian Zsh Maintainers <pkg-zsh-devel@lists.alioth.debian.org>
+Installed-Size: 16428
+Recommends: zsh
+Suggests: zsh-doc
+Breaks: zsh-doc (<= 5.8-7~)
+Replaces: zsh (<= 5.0.2-1), zsh-doc (<= 5.8-7~)
+Multi-Arch: foreign
+Homepage: https://www.zsh.org/
+Priority: optional
+Section: shells
+Filename: pool/main/z/zsh/zsh-common_5.9-1-maruska-u_all.deb
+Size: 4148188
+SHA256: d1d11430776641424ac9d3035cc6a6c66676865876822b0ac04081bb4a52fe1b
+SHA1: b069762ce0ee8e3826a73d9031250a69edf432c2
+MD5sum: 7bcc1c3750a518281d80a573e2234403
+Description: architecture independent files for Zsh
+ Zsh is a UNIX command interpreter (shell) usable as an
+ interactive login shell and as a shell script command
+ processor. Of the standard shells, zsh most closely resembles
+ ksh but includes many enhancements. Zsh has command-line editing,
+ built-in spelling correction, programmable command completion,
+ shell functions (with autoloading), a history mechanism, and a
+ host of other features.
+ .
+ This package contains the common zsh files shared by all
+ architectures.
+
+Package: zsh-dbgsym
+Source: zsh
+Version: 5.9-1-maruska-u
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Zsh Maintainers <pkg-zsh-devel@lists.alioth.debian.org>
+Installed-Size: 2040
+Depends: zsh (= 5.9-1-maruska-u)
+Priority: optional
+Section: debug
+Filename: pool/main/z/zsh/zsh-dbgsym_5.9-1-maruska-u_amd64.deb
+Size: 1660024
+SHA256: 924da5638df5870b113774f9097f77b42545042f8bf3ae2a724be72c3ab098b6
+SHA1: e113e914215433faeda60828ba9efeacc4a9c517
+MD5sum: 030258022fc64e0f558feea8174a906d
+Description: debug symbols for zsh
+Build-Ids: 011d1a67813e65bd7b0bae6febcdb4c7f4a38967 04c4eb15c376038d6f45a8f80672cf41a53d1d6f 071d19c4e92e015fd06a85aa4a3608b3a93df03a 0b8a23cb1d9dff6ab2de1432610ce9b01b764c03 0d5bf9dab51dda06d3ab294889c12cb28241de0c 0d6a7b35e8ef1e92c81820a05e6ebdcc4feca36a 1ecc178f971baecefdb887ab899ddeced61a1576 23ab26ddf67c082fc0cbb9ce91ebe984635b049a 3c5007361493cad9e03307c6fe7e7cfa897f1784 4267e09f0dfbb26fbebedb4a008eecd5aa21804b 428d74a57a03eb0acc8bd507382047713ac6fd37 43e70949b20323c10428da2deb416be920ea0a45 44ae2309931d145f58e75be56f25253f43723b30 4abe63236d015992697220ad79b4abb57d9ab091 4bacc76a46338b73f2025d92fc93382cbc804e38 509a33e63df2900473ee46f9d085b4434da8d7f9 50dbee58543dec86719e0d64de986e7f33e954ef 5711cf71b86a5e6b642d34e1b19ea22ab34f0217 5df0450ad53b533a0f3db61ede34b75f6759b8c5 620bbe61b7f3b3dee5c79019010b1707f7dc4f1f 637a79cf993809102cb6b13f092cef88ea9f3e78 65d334b28b3f3d9ec83e7c32c336f1a0b1e49616 8339b318b9bbc7c203e5dbb08a49cbb61fa2b873 85066e70a372966617176afb65de714ff331432a 8988c484b836b39341ef905264760b3effd5a6ff 8f6754a93d441bb6634e7ba9ea1a06cff7c711c7 962d4b8ed266cad2c061c3cf9581eaeb6a027d07 995410f04d6d6347c8a651b96b9dd79254018e34 a343ee9676bc94ed7017c8605c6319445fa0bb94 c5e7a1a6e215cc0c2714f68589b02874f7cbb4a6 ce14cab483c6f6d00454dc85c1e63c6a2de28db4 cee7a8aa63a7630100535eaf36c1af0a5bac1168 d0a7cbc9583f44d59ff07e89fe826245de3661c9 d42032be7a276b0e65769c48ddec542dd587ab9d d8360136cc376fc865721d46bcc755f70a990b13 eb0b224cce9ec9895a6c7ed063c5bce3711024e9 f8a986295edbbfebfca77f7761bb329131ef56af fe26976acad5f29762f281c75066cd334bcdecb3
+
+Package: zsh-dev
+Source: zsh
+Version: 5.9-1-maruska-u
+Architecture: amd64
+Maintainer: Debian Zsh Maintainers <pkg-zsh-devel@lists.alioth.debian.org>
+Installed-Size: 684
+Depends: zsh-common (= 5.9-1-maruska-u)
+Homepage: https://www.zsh.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/z/zsh/zsh-dev_5.9-1-maruska-u_amd64.deb
+Size: 274176
+SHA256: 82d53ca1a160725e14ebd413e5724c0795652f63bc7f8673ae8162e8a2f582d9
+SHA1: b4e58b952daee9f9817dc35788853b6302b28d36
+MD5sum: 1dd9d94c73333827a5df637d405ad55c
+Description: shell with lots of features (development files)
+ Zsh is a UNIX command interpreter (shell) usable as an
+ interactive login shell and as a shell script command
+ processor. Of the standard shells, zsh most closely resembles
+ ksh but includes many enhancements. Zsh has command-line editing,
+ built-in spelling correction, programmable command completion,
+ shell functions (with autoloading), a history mechanism, and a
+ host of other features.
+ .
+ This package contains headers and scripts necessary to compile
+ third-party modules.
+
+Package: zsh-doc
+Source: zsh
+Version: 5.9-1-maruska-u
+Architecture: all
+Maintainer: Debian Zsh Maintainers <pkg-zsh-devel@lists.alioth.debian.org>
+Installed-Size: 5810
+Depends: zsh-common (= 5.9-1-maruska-u)
+Multi-Arch: foreign
+Homepage: https://www.zsh.org/
+Priority: optional
+Section: doc
+Filename: pool/main/z/zsh/zsh-doc_5.9-1-maruska-u_all.deb
+Size: 2783000
+SHA256: c53a9480a6067300e885d5be1b9a9b473807ef4d5b608c2513ff98de386e6af5
+SHA1: 3c9531f308484ec21059b00e10f4f20c35972ef9
+MD5sum: 8941c9972002683c81e3198894553497
+Description: zsh documentation - info/HTML format
+ Zsh is a UNIX command interpreter (shell) usable as an
+ interactive login shell and as a shell script command
+ processor. Of the standard shells, zsh most closely resembles
+ ksh but includes many enhancements. Zsh has command-line editing,
+ built-in spelling correction, programmable command completion,
+ shell functions (with autoloading), a history mechanism, and a
+ host of other features.
+ .
+ This contains the documentation in GNU info and HTML formats.
+
+Package: zsh-static
+Source: zsh
+Version: 5.9-1-maruska-u
+Architecture: amd64
+Maintainer: Debian Zsh Maintainers <pkg-zsh-devel@lists.alioth.debian.org>
+Installed-Size: 2681
+Recommends: zsh-common
+Suggests: zsh-doc
+Built-Using: glibc (= 2.31-0ubuntu9), libcap2 (= 1:2.32-1), ncurses (= 6.2-0ubuntu2), pcre3 (= 2:8.39-12build1)
+Homepage: https://www.zsh.org/
+Priority: optional
+Section: shells
+Filename: pool/main/z/zsh/zsh-static_5.9-1-maruska-u_amd64.deb
+Size: 1134800
+SHA256: e6f8aac91b0ba7dc3861f6bd0a290b17a2e0c074f8106effbcb1675f0e341577
+SHA1: 155386b7dafa623390624adc214281304e06e9ff
+MD5sum: 69cbd00e14c29c5767c8b7e587319850
+Description: shell with lots of features (static link)
+ Zsh is a UNIX command interpreter (shell) usable as an
+ interactive login shell and as a shell script command
+ processor. Of the standard shells, zsh most closely resembles
+ ksh but includes many enhancements. Zsh has command-line editing,
+ built-in spelling correction, programmable command completion,
+ shell functions (with autoloading), a history mechanism, and a
+ host of other features.
+ .
+ This is the statically-compiled version of the shell, i.e. it doesn't
+ require any dynamically loaded libraries to be present and will work
+ even if libraries zsh (in general) needs are broken on the system. So
+ it's more robust in case of a broken system.
+ .
+ It though also has a few limitations compared to the normal,
+ dynamically linked, e.g. it can't use NSS related functionality which
+ might result in minor imperfections like e.g. user names being shown
+ in the prompt.
+
+Package: zsh-static-dbgsym
+Source: zsh
+Version: 5.9-1-maruska-u
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Zsh Maintainers <pkg-zsh-devel@lists.alioth.debian.org>
+Installed-Size: 1597
+Depends: zsh-static (= 5.9-1-maruska-u)
+Priority: optional
+Section: debug
+Filename: pool/main/z/zsh/zsh-static-dbgsym_5.9-1-maruska-u_amd64.deb
+Size: 1449396
+SHA256: 50030d6e7b4e4a3fa3c28aa014c6a1f7f9f52e1799cb069ff23a81ea84bb527b
+SHA1: de8a0989b91347a1f3dba166d45dbfa541105b4e
+MD5sum: 8de011615caa2b97bfa08b7aa0f5d757
+Description: debug symbols for zsh-static
+Build-Ids: d015413524ec682dda60191d93a608070cede2f1
+

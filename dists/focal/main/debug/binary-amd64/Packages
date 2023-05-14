@@ -1,0 +1,19 @@
+Package: mempeak-dbgsym
+Package-Type: ddeb
+Source: mempeak
+Version: 0.29
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 31
+Depends: mempeak (= 0.29)
+Priority: extra
+Section: debug
+Filename: pool/main/m/mempeak/mempeak-dbgsym_0.29_amd64.ddeb
+Size: 13876
+SHA256: 9fea56a21c404fd3f45696660bfcede47efe0c425a85b0933ce87b305f77b334
+SHA1: 37b7b72a9eb088289ada8ac9ed2a899ced91c7cf
+MD5sum: a9b581c161622ab36c38135e01f65dda
+Description: debug symbols for mempeak
+Build-Ids: 107f9f34816b73baa5ad21caffc25e9eeaf2548c
+

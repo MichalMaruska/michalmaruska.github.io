@@ -1,0 +1,53 @@
+Package: libx11-6-udeb
+Source: libx11
+Version: 2:1.6.12-1-maruska
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 1321
+Depends: libc6-udeb (>= 2.31), libxcb1-udeb (>= 1.12)
+Priority: optional
+Section: debian-installer
+Filename: pool/main/libx/libx11/libx11-6-udeb_1.6.12-1-maruska_amd64.udeb
+Size: 564504
+SHA256: 303036fdedb82515771183cabfbb5b09875eeabea92c1c44d17242b2bf0f02e0
+SHA1: a31f31ca838c5ad149ea553a291278762ceb08aa
+MD5sum: 24ca828d5afdcb62c15c7ec6714d7408
+Description: X11 client-side library
+ This is a udeb, or a microdeb, for the debian-installer.
+
+Package: xserver-xorg-core-udeb
+Source: xorg-server
+Version: 2:1.20.14-1-maruska
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 2567
+Depends: xkb-data-udeb, x11-xkb-utils-udeb, udev-udeb (>= 149), libbsd0-udeb (>= 0.10.0), libc6-udeb (>= 2.31), libdrm2-udeb (>= 2.4.89), libpciaccess0-udeb (>= 0.12.902), libpixman-1-0-udeb (>= 0.25.2), libudev1-udeb, libxau6-udeb, libxfont2-udeb (>= 1:2.0.1), libxshmfence1-udeb
+Provides: xorg-input-abi-24, xorg-video-abi-24
+Priority: optional
+Section: debian-installer
+Filename: pool/main/x/xorg-server/xserver-xorg-core-udeb_1.20.14-1-maruska_amd64.udeb
+Size: 945588
+SHA256: 877e4366a2fc0a890f1b69d52597b4751cd17c85fd5cdc781f41b9b310ca54b6
+SHA1: 433913565a3e61af194e8225a04c5eaa42d10649
+MD5sum: c8270e111b2af94147ab15c5c72938fd
+Description: Xorg X server - core server
+ This is a udeb, or a microdeb, for the debian-installer.
+
+Package: xserver-xorg-input-libinput-udeb
+Source: xserver-xorg-input-libinput
+Version: 1.1.0-1
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 97
+Depends: libc6-udeb (>= 2.31), libinput10-udeb (>= 1.15.5), xorg-input-abi-24, xserver-xorg-core-udeb (>= 2:1.18.99.901), udev-udeb
+Provides: xorg-driver-input
+Priority: optional
+Section: debian-installer
+Filename: pool/main/x/xserver-xorg-input-libinput/xserver-xorg-input-libinput-udeb_1.1.0-1_amd64.udeb
+Size: 26144
+SHA256: 7227aba7c4e26e6d84d010661769ed1e61be5560648f0dbc0cca11afd14590ee
+SHA1: 2b27a8f042279fdda8634f6c22ad1c8986510de6
+MD5sum: 09ce06c36fa4d4ce8402fc5c5d181308
+Description: X.Org X server -- libinput input driver
+ This is a udeb, or a microdeb, for the debian-installer.
+
