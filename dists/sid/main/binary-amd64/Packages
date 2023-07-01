@@ -1,21 +1,21 @@
 Package: apt
-Version: 2.6.0-maruska
+Version: 2.6.1-maruska
 Architecture: amd64
 Maintainer: APT Development Team <deity@lists.debian.org>
 Installed-Size: 4284
-Depends: base-passwd (>= 3.6.1) | adduser, gpgv | gpgv2 | gpgv1, libapt-pkg6.0 (>= 2.6.0-maruska), debian-archive-keyring, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libgnutls30 (>= 3.7.5), libseccomp2 (>= 2.4.2), libstdc++6 (>= 11), libsystemd0
+Depends: adduser, gpgv | gpgv2 | gpgv1, libapt-pkg6.0 (>= 2.6.1-maruska), debian-archive-keyring, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libgnutls30 (>= 3.7.5), libseccomp2 (>= 2.4.2), libstdc++6 (>= 11), libsystemd0
 Recommends: ca-certificates
 Suggests: apt-doc, aptitude | synaptic | wajig, dpkg-dev (>= 1.17.2), gnupg | gnupg2 | gnupg1, powermgmt-base
 Breaks: apt-transport-https (<< 1.5~alpha4~), apt-utils (<< 1.3~exp2~), aptitude (<< 0.8.10)
 Replaces: apt-transport-https (<< 1.5~alpha4~), apt-utils (<< 1.3~exp2~)
-Provides: apt-transport-https (= 2.6.0-maruska)
+Provides: apt-transport-https (= 2.6.1-maruska)
 Priority: important
 Section: admin
-Filename: pool/main/a/apt/apt_2.6.0-maruska_amd64.deb
-Size: 1385688
-SHA256: 4f6ae2c9dde91dc77cdaf6f5ceedf68cabec54da11ffd6561582e6d3b75ae8a7
-SHA1: e57ef5a7a653d6a36d81834d5d7ddb3053d352f5
-MD5sum: 5cd4743bb7dab7c14ad76d67dabffcb5
+Filename: pool/main/a/apt/apt_2.6.1-maruska_amd64.deb
+Size: 1385680
+SHA256: b6ba0527e0de7ad47f107fec865a2fa88b6796e2816a53279eee44aad35a89c4
+SHA1: 9aeb6219863113c8267d387bf3e89d825eb31ffe
+MD5sum: f3fc0d86c32ffbed36fc6172cb7b1705
 Description: commandline package manager
  This package provides commandline tools for searching and
  managing as well as querying information about packages
@@ -33,43 +33,43 @@ Description: commandline package manager
 
 Package: apt-dbgsym
 Source: apt
-Version: 2.6.0-maruska
+Version: 2.6.1-maruska
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: APT Development Team <deity@lists.debian.org>
 Installed-Size: 7698
-Depends: apt (= 2.6.0-maruska)
+Depends: apt (= 2.6.1-maruska)
 Priority: optional
 Section: debug
-Filename: pool/main/a/apt/apt-dbgsym_2.6.0-maruska_amd64.deb
-Size: 7424656
-SHA256: e5ef0570c8eeb962c87194f20b4d63a9ec97f6a75e1adac42ceba8c534cce869
-SHA1: 91b989c4445a8054712a3fcdef0949e40a39b479
-MD5sum: 9e92e207f80b5a27d29f7adcea6bc453
+Filename: pool/main/a/apt/apt-dbgsym_2.6.1-maruska_amd64.deb
+Size: 7423476
+SHA256: 24aa4bdfb4900cf30f58ebc1600f0493eb7e50dde8e45ca73668b536bfa63fe1
+SHA1: 9d65b35b91e87f703246902312a834bb60c84080
+MD5sum: 790ae5c0e002e5c638ae51db7c98fb58
 Description: debug symbols for apt
-Build-Ids: 103e3382fe1882c7c7b4ac15e9cef14cb8b7e502 27f0a983d86e2956448fc7578185a3db3684e97c 311760f0d49fe171944f93ff6305048249af5730 39285d04e4653303cf9b8dbcd6f5b9290e2fff52 397474645d63470bd6fff5e297254b15ace80ff0 3d124c08fab67fee404e0e4eb8c22b6f0ab2530d 40b11875ea0c6e54492a9e266218f7cc81523ad6 475b8310c9d92869a8d5476cfe86f5f6b59312c8 5c5638a0fcfda26af4e5f0185c887e0e42afaf54 5f34b728b0ae08d118e08f8e998437df470f8c95 62365a7fce4cbee1c8e6e68a2069b0d37677d674 6d8b78be698c75a1d5568f2865f67a6d3a73461a 724134b73c459fca5fd8ed6be161467e2d8cfded 8b4dd418b80ef3e14f593f972494d3172397b886 9fb98c9d973e306a9747648c8147a4b1da993ec5 a2dea19e946a2907ad9359aee536e2a881a07832 bcadfe2f7bf273d726dcbd9cb05a39fe8676b332 d6eea579424912b8d882c2ad47ac80f53e9eed7d ed833d98313103cacfd64b9bfcecf64bbebd5576
+Build-Ids: 0e3290d8ddf571735ed75aef569375b6ef6c5f6b 103e3382fe1882c7c7b4ac15e9cef14cb8b7e502 27f0a983d86e2956448fc7578185a3db3684e97c 311760f0d49fe171944f93ff6305048249af5730 39285d04e4653303cf9b8dbcd6f5b9290e2fff52 397474645d63470bd6fff5e297254b15ace80ff0 3d124c08fab67fee404e0e4eb8c22b6f0ab2530d 475b8310c9d92869a8d5476cfe86f5f6b59312c8 5c5638a0fcfda26af4e5f0185c887e0e42afaf54 5f34b728b0ae08d118e08f8e998437df470f8c95 62365a7fce4cbee1c8e6e68a2069b0d37677d674 6d8b78be698c75a1d5568f2865f67a6d3a73461a 7c90c807f7a00f49825982315e231148dfef6a96 8b4dd418b80ef3e14f593f972494d3172397b886 9fb98c9d973e306a9747648c8147a4b1da993ec5 a2dea19e946a2907ad9359aee536e2a881a07832 bcadfe2f7bf273d726dcbd9cb05a39fe8676b332 d6eea579424912b8d882c2ad47ac80f53e9eed7d ed833d98313103cacfd64b9bfcecf64bbebd5576
 
 Package: apt-doc
 Source: apt
-Version: 2.6.0-maruska
+Version: 2.6.1-maruska
 Architecture: all
 Maintainer: APT Development Team <deity@lists.debian.org>
 Installed-Size: 802
 Multi-Arch: foreign
 Priority: optional
 Section: doc
-Filename: pool/main/a/apt/apt-doc_2.6.0-maruska_all.deb
-Size: 255044
-SHA256: fb636a30aca52ad83621f96c88fe436b6b3ccac1817276612921d5fbb5b35072
-SHA1: c5c980daaa45c09aa9e9fddc0ec61343d2a042da
-MD5sum: db4d81012184199f739f5a96b11f846b
+Filename: pool/main/a/apt/apt-doc_2.6.1-maruska_all.deb
+Size: 255152
+SHA256: 5adf2bac085a6ae79d2534e260b8a097ad2e4abfa1cb9a6e9295bd42b8f50439
+SHA1: 36ab41271f31bd6b50215db78e0909349b38b795
+MD5sum: b6e864414ff4a592471c9ff0ad23ad83
 Description: documentation for APT
  This package contains the user guide and offline guide for various
  APT tools which are provided in a html and a text-only version.
 
 Package: apt-transport-https
 Source: apt
-Version: 2.6.0-maruska
+Version: 2.6.1-maruska
 Architecture: all
 Maintainer: APT Development Team <deity@lists.debian.org>
 Installed-Size: 35
@@ -77,29 +77,29 @@ Depends: apt (>= 1.5~alpha4)
 Multi-Arch: foreign
 Priority: optional
 Section: oldlibs
-Filename: pool/main/a/apt/apt-transport-https_2.6.0-maruska_all.deb
-Size: 25456
-SHA256: 570478850f5e6f472eac79ec3676e80a7eca1c8be6c4ef406866f7ea4b9d5f1d
-SHA1: 2d815a0bc696f754f8b58ba1eef5e7295d0f81df
-MD5sum: 1cb4db0a06085e2ef0b3de661b312105
+Filename: pool/main/a/apt/apt-transport-https_2.6.1-maruska_all.deb
+Size: 25604
+SHA256: 54f94585f1974b11befb76be2c5eb3994b2ddeb7184bf804649932c2d8d690ea
+SHA1: a6201c62b5b0b5d49e4e597a61005c71c1d07c1b
+MD5sum: f67200c9019f2168018bc7bbd4f6b8e5
 Description: transitional package for https support
  This is a dummy transitional package - https support has been moved into
  the apt package in 1.5. It can be safely removed.
 
 Package: apt-utils
 Source: apt
-Version: 2.6.0-maruska
+Version: 2.6.1-maruska
 Architecture: amd64
 Maintainer: APT Development Team <deity@lists.debian.org>
 Installed-Size: 1057
-Depends: apt (= 2.6.0-maruska), libapt-pkg6.0 (>= 2.6.0-maruska), libc6 (>= 2.34), libdb5.3, libgcc-s1 (>= 3.0), libstdc++6 (>= 11)
+Depends: apt (= 2.6.1-maruska), libapt-pkg6.0 (>= 2.6.1-maruska), libc6 (>= 2.34), libdb5.3, libgcc-s1 (>= 3.0), libstdc++6 (>= 11)
 Priority: important
 Section: admin
-Filename: pool/main/a/apt/apt-utils_2.6.0-maruska_amd64.deb
-Size: 314616
-SHA256: 81c16d760540bf7595399284bb2b82fd9561dd1b7771ae1930737b87f8b61999
-SHA1: 65b329715af9e768b0506c14de7a5e696950e32c
-MD5sum: b16dbf9e67c4f266b9476c0f01ff26ce
+Filename: pool/main/a/apt/apt-utils_2.6.1-maruska_amd64.deb
+Size: 314920
+SHA256: 4c0e7d6224bee792ba63aaf965f701294c1513c342e0b992e39be78d829c977e
+SHA1: b7fcb51d2a01a58d437b1e6f13fc22b3cb54a86c
+MD5sum: 490bdd0305ee28950644b83565b67683
 Description: package management related utility programs
  This package contains some less used commandline utilities related
  to package management with APT.
@@ -112,19 +112,19 @@ Description: package management related utility programs
 
 Package: apt-utils-dbgsym
 Source: apt
-Version: 2.6.0-maruska
+Version: 2.6.1-maruska
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: APT Development Team <deity@lists.debian.org>
 Installed-Size: 1763
-Depends: apt-utils (= 2.6.0-maruska)
+Depends: apt-utils (= 2.6.1-maruska)
 Priority: optional
 Section: debug
-Filename: pool/main/a/apt/apt-utils-dbgsym_2.6.0-maruska_amd64.deb
-Size: 1693224
-SHA256: f7b448e581716b7a00a78fb79858c548987b534b4bbfe407098f97b131893eb5
-SHA1: 78ae380892826d40793ba7c172484eea32f83aa3
-MD5sum: dffcc0df87d841e5b7360cc793d303bf
+Filename: pool/main/a/apt/apt-utils-dbgsym_2.6.1-maruska_amd64.deb
+Size: 1693212
+SHA256: 849d15ecc0b1ac4bf4951e4e29b293903efef5b48ef2d8d9b465761ecb40d393
+SHA1: 7ad8f5ad62bd7ef2cdbc6365077443d2ff518e16
+MD5sum: d80c0904fc8c13ac7a66d6710b6a8d9d
 Description: debug symbols for apt-utils
 Build-Ids: 22eb366e91ae8bca6695aecb0a9804037ef23438 3ac95e2ce112c0953fb0f0687c5a8d8d0347a50a 53ac5137d8c5b9d692140d3c41d6214bcfdf89eb b0bc9f4b3917ad8fdbd645614475a073ed4f1aa2 b18509242fa45185fc2b9f4f87eb13ceb17bbc8e
 
@@ -577,19 +577,19 @@ Build-Ids: 2df219fca8ce182083e7a28a033557427276134b 3f49af9eef674375824ede018e5e
 
 Package: libapt-pkg-dev
 Source: apt
-Version: 2.6.0-maruska
+Version: 2.6.1-maruska
 Architecture: amd64
 Maintainer: APT Development Team <deity@lists.debian.org>
 Installed-Size: 513
-Depends: libapt-pkg (= 2.6.0-maruska)
+Depends: libapt-pkg (= 2.6.1-maruska)
 Multi-Arch: same
 Priority: optional
 Section: libdevel
-Filename: pool/main/a/apt/libapt-pkg-dev_2.6.0-maruska_amd64.deb
-Size: 116132
-SHA256: 442be278f2b18d204f7056582d65c16fb481e1464e6786076ec30e2ae6c29bc1
-SHA1: 6f604e86ab580ff7c21817f42d40257f85051396
-MD5sum: f0722fed9a9dc3771542145d50ce0641
+Filename: pool/main/a/apt/libapt-pkg-dev_2.6.1-maruska_amd64.deb
+Size: 116248
+SHA256: f6fb258da593b8b8214d1c7d44774ba79e43ab288902b39a5fde9a21248aba7c
+SHA1: 6218c76e249675fe22ac1246538ca17210527436
+MD5sum: 4250145d49f555bf23a8bce6ea14e84c
 Description: development files for APT's libapt-pkg and libapt-inst
  This package contains the header files and libraries for
  developing with APT's libapt-pkg Debian package manipulation
@@ -597,18 +597,18 @@ Description: development files for APT's libapt-pkg and libapt-inst
 
 Package: libapt-pkg-doc
 Source: apt
-Version: 2.6.0-maruska
+Version: 2.6.1-maruska
 Architecture: all
 Maintainer: APT Development Team <deity@lists.debian.org>
 Installed-Size: 16076
 Multi-Arch: foreign
 Priority: optional
 Section: doc
-Filename: pool/main/a/apt/libapt-pkg-doc_2.6.0-maruska_all.deb
-Size: 868356
-SHA256: f0020ab642f32863159ca58fa3653b647b52188a3e1fb9247331efb4f7e8f8cc
-SHA1: 517ba9d05383dbc4ee6a4401d045d65277a17784
-MD5sum: b6d6a5ad23bd866e05548917bccffb9d
+Filename: pool/main/a/apt/libapt-pkg-doc_2.6.1-maruska_all.deb
+Size: 868672
+SHA256: ddc5d0da46ef9c4b6c3273697d5b2e569ec00f5b41f196515af0664b497ed423
+SHA1: fef09d338deb26a18d349fb65ffa0072760a45d1
+MD5sum: 14da2cf23e8ab71c2b0a9e155b0e258a
 Description: documentation for APT development
  This package contains documentation for development of the APT
  Debian package manipulation program and its libraries.
@@ -618,22 +618,22 @@ Description: documentation for APT development
 
 Package: libapt-pkg6.0
 Source: apt
-Version: 2.6.0-maruska
+Version: 2.6.1-maruska
 Architecture: amd64
 Maintainer: APT Development Team <deity@lists.debian.org>
 Installed-Size: 3341
 Depends: libbz2-1.0, libc6 (>= 2.34), libgcc-s1 (>= 3.0), libgcrypt20 (>= 1.10.0), liblz4-1 (>= 0.0~r127), liblzma5 (>= 5.1.1alpha+20120614), libstdc++6 (>= 11), libsystemd0 (>= 221), libudev1 (>= 183), libxxhash0 (>= 0.7.1), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.2.3)
-Recommends: apt (>= 2.6.0-maruska)
+Recommends: apt (>= 2.6.1-maruska)
 Breaks: appstream (<< 0.9.0-3~), apt (<< 1.6~), aptitude (<< 0.8.9), dpkg (<< 1.20.8), libapt-inst1.5 (<< 0.9.9~)
-Provides: libapt-pkg (= 2.6.0-maruska)
+Provides: libapt-pkg (= 2.6.1-maruska)
 Multi-Arch: same
 Priority: optional
 Section: libs
-Filename: pool/main/a/apt/libapt-pkg6.0_2.6.0-maruska_amd64.deb
-Size: 920884
-SHA256: 7abc6881d01beab023fe0ce806fef7f079c922310459150f228614c43278a475
-SHA1: d14fea1421efe520b32ef33b37e2177ea6ad9157
-MD5sum: 999dd938b617717cae4d50e5fc64713d
+Filename: pool/main/a/apt/libapt-pkg6.0_2.6.1-maruska_amd64.deb
+Size: 921396
+SHA256: b6686307e15e93658bf20502d4fa8861425d3c56c359b4edc620e9062e5c5c1b
+SHA1: e88a991ae4d46f4069c80ace011a55f3152b3700
+MD5sum: adb08424988dcd1972afcc35878c9c0f
 Description: package management runtime library
  This library provides the common functionality for searching and
  managing packages as well as information about packages.
@@ -652,22 +652,22 @@ Description: package management runtime library
 
 Package: libapt-pkg6.0-dbgsym
 Source: apt
-Version: 2.6.0-maruska
+Version: 2.6.1-maruska
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: APT Development Team <deity@lists.debian.org>
 Installed-Size: 10371
-Depends: libapt-pkg6.0 (= 2.6.0-maruska)
+Depends: libapt-pkg6.0 (= 2.6.1-maruska)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/a/apt/libapt-pkg6.0-dbgsym_2.6.0-maruska_amd64.deb
+Filename: pool/main/a/apt/libapt-pkg6.0-dbgsym_2.6.1-maruska_amd64.deb
 Size: 10225168
-SHA256: e52e8afc23755263e5426f1548224eb9cfef296dd18e7ece99089b4d786080dd
-SHA1: 79045d275b1a068492cce935db25e141389cab8c
-MD5sum: 95ca5b9a3e7c6763938bf8c91aae6419
+SHA256: 64c387b1dfaf722fc653ed026691f9e996bd847c61948196361815994cad9f32
+SHA1: 1351b1763c8db5b5176d0d3bf143ea537a4fe61b
+MD5sum: 75ee3fafcd91ec618c8f2630175bfb83
 Description: debug symbols for libapt-pkg6.0
-Build-Ids: f97e697c96d1917ea1e24e63d825df2678f5c509
+Build-Ids: 6cdedccc2ce91918dd47a982062b9db28ff321e3
 
 Package: libx11-6
 Source: libx11
@@ -875,6 +875,73 @@ MD5sum: 5b8073da415083703e2a88898a4e4094
 Description: debug symbols for libx11-xcb1
 Build-Ids: 0104657f9e92c923475797a1ac29fa924d3d5743
 
+Package: x11proto-core-dev
+Source: xorgproto
+Version: 2022.1-1-maruska
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Multi-Arch: foreign
+Homepage: https://www.x.org/
+Priority: optional
+Section: oldlibs
+Filename: pool/main/x/xorgproto/x11proto-core-dev_2022.1-1-maruska_all.deb
+Size: 3372
+SHA256: e0a4d35aa26da204392a2c7c9cbf60926cf81488168c42bdde25c3fed9a5ba2d
+SHA1: b654947d655b998f84c648d426bd8200349fc2e0
+MD5sum: 780d689984eb69de97cd17327a04ee9e
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
+Package: x11proto-dev
+Source: xorgproto
+Version: 2022.1-1-maruska
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 1327
+Depends: xorg-sgml-doctools (>= 1:1.5)
+Breaks: x11proto-core-dev (<< 2018.3), x11proto-dri2-dev (<< 2018.3), x11proto-fonts-dev (<< 2018.3), x11proto-gl-dev (<< 2018.3), x11proto-input-dev (<< 2018.3), x11proto-kb-dev (<< 2018.3), x11proto-present-dev (<< 2018.3), x11proto-randr-dev (<< 2018.3), x11proto-record-dev (<< 2018.3), x11proto-render-dev (<< 2:2018.3), x11proto-scrnsaver-dev (<< 2018.3), x11proto-video-dev (<< 2018.3), x11proto-xext-dev (<< 2018.3), x11proto-xf86dga-dev (<< 2018.3), x11proto-xf86dri-dev (<< 2018.3), x11proto-xf86vidmode-dev (<< 2018.3), x11proto-xinerama-dev (<< 2018.3)
+Replaces: x11proto-core-dev (<< 2018.3), x11proto-dri2-dev (<< 2018.3), x11proto-fonts-dev (<< 2018.3), x11proto-gl-dev (<< 2018.3), x11proto-input-dev (<< 2018.3), x11proto-kb-dev (<< 2018.3), x11proto-present-dev (<< 2018.3), x11proto-randr-dev (<< 2018.3), x11proto-record-dev (<< 2018.3), x11proto-render-dev (<< 2:2018.3), x11proto-scrnsaver-dev (<< 2018.3), x11proto-video-dev (<< 2018.3), x11proto-xext-dev (<< 2018.3), x11proto-xf86dga-dev (<< 2018.3), x11proto-xf86dri-dev (<< 2018.3), x11proto-xf86vidmode-dev (<< 2018.3), x11proto-xinerama-dev (<< 2018.3)
+Provides: x11proto-core-dev (= 2022.1-1-maruska), x11proto-dri2-dev (= 2022.1-1-maruska), x11proto-fonts-dev (= 2022.1-1-maruska), x11proto-gl-dev (= 2022.1-1-maruska), x11proto-input-dev (= 2022.1-1-maruska), x11proto-kb-dev (= 2022.1-1-maruska), x11proto-present-dev (= 2022.1-1-maruska), x11proto-randr-dev (= 2022.1-1-maruska), x11proto-record-dev (= 2022.1-1-maruska), x11proto-render-dev (= 2022.1-1-maruska), x11proto-scrnsaver-dev (= 2022.1-1-maruska), x11proto-video-dev (= 2022.1-1-maruska), x11proto-xext-dev (= 2022.1-1-maruska), x11proto-xf86dga-dev (= 2022.1-1-maruska), x11proto-xf86dri-dev (= 2022.1-1-maruska), x11proto-xf86vidmode-dev (= 2022.1-1-maruska), x11proto-xinerama-dev (= 2022.1-1-maruska)
+Multi-Arch: foreign
+Homepage: https://www.x.org/
+Priority: optional
+Section: x11
+Filename: pool/main/x/xorgproto/x11proto-dev_2022.1-1-maruska_all.deb
+Size: 249536
+SHA256: db0af6e54bd928d04d47b91d99dd20f40b69d894cae7c9b560de0248ff50297b
+SHA1: daf5cb0db83233228c3feef44ea60004bf094057
+MD5sum: 687ec284d89f19f223172ef0fb221ed9
+Description: X11 extension protocols and auxiliary headers
+ This package provides development headers describing the wire protocol
+ for the X11 core and extension protocols, and also provides a number of
+ utility headers, used to abstract OS-specific functions.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.X.org>
+ .
+ This package is built from the X.org xorgproto module.
+
+Package: x11proto-dri2-dev
+Source: xorgproto
+Version: 2022.1-1-maruska
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 11
+Depends: x11proto-dev
+Multi-Arch: foreign
+Homepage: https://www.x.org/
+Priority: optional
+Section: oldlibs
+Filename: pool/main/x/xorgproto/x11proto-dri2-dev_2022.1-1-maruska_all.deb
+Size: 3376
+SHA256: dc49babf1150d82a7e1c9903fb069b5ed9fa88ad9749aa973f93dca075b0c48b
+SHA1: 8dae166bbfcc471bc9719e2eb3277ac950b4fa9e
+MD5sum: fc7968e91fa27f3d502ec844157b7eea
+Description: transitional dummy package
+ This is a transitional dummy package, it can be safely removed.
+
 Package: x11proto-fonts-dev
 Source: xorgproto
 Version: 2022.1-1-maruska
@@ -887,13 +954,12 @@ Homepage: https://www.x.org/
 Priority: optional
 Section: oldlibs
 Filename: pool/main/x/xorgproto/x11proto-fonts-dev_2022.1-1-maruska_all.deb
-Size: 3412
-SHA256: 80eaa7ac76c8adc8059821b01033abf13bbaefd64f9210086ef48389b30c9dfe
-SHA1: dc28addda3edbcb181bbb2d6b8053790827ac553
-MD5sum: 0de51c0f48559d1d78301db851333e07
+Size: 3376
+SHA256: 6a6391f9bcddc1b09f5b9b622742b4b3ec74e3d5b340247025143fbb087a2cfd
+SHA1: 93f1d18fd4bc86018776f8714b9abf5585e6c53d
+MD5sum: da4ab83af8fc9a7be87bbfa98da946ad
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
-Dgit: 4d356372777ede4b8d22475ebe122fe484fe56b9
 
 Package: x11proto-gl-dev
 Source: xorgproto
@@ -907,13 +973,12 @@ Homepage: https://www.x.org/
 Priority: optional
 Section: oldlibs
 Filename: pool/main/x/xorgproto/x11proto-gl-dev_2022.1-1-maruska_all.deb
-Size: 3408
-SHA256: 01733b65585d7f0f2b5bd90a926fdb07c6d3300ba7c361b69a9a80864b7b60c5
-SHA1: 90642108b85ba36ffa073795888432a1ff133e3c
-MD5sum: 16aedabbc36d9afaf10d13361844ca3d
+Size: 3372
+SHA256: be8a3c3197a745c5577a363faea4bf14098d903eb0cce60fac665869f82b4b01
+SHA1: 6eac4edd212b5c94be2bedfbbcc4712666b9d10f
+MD5sum: bdb05fe04364357ec645fdd6fba3a87f
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
-Dgit: 4d356372777ede4b8d22475ebe122fe484fe56b9
 
 Package: x11proto-input-dev
 Source: xorgproto
@@ -927,13 +992,12 @@ Homepage: https://www.x.org/
 Priority: optional
 Section: oldlibs
 Filename: pool/main/x/xorgproto/x11proto-input-dev_2022.1-1-maruska_all.deb
-Size: 3412
-SHA256: 67dac1b771b8b798ad4dae7a7d70b76c33f22f47eb0fbd35fd1467db58fde109
-SHA1: 37291b46102eef0675dbbf9123d9003d320c2857
-MD5sum: 310c28bc899401c690d80721fdb22048
+Size: 3376
+SHA256: ec7f82ed2ec5ef65da4f5137ca49c0714a41825f41975616676b1034a7298f6c
+SHA1: a1cb4544cc8503d9c27351ac848755971469a970
+MD5sum: 1a6ade70436dbcd030384f21b1aa660e
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
-Dgit: 4d356372777ede4b8d22475ebe122fe484fe56b9
 
 Package: x11proto-kb-dev
 Source: xorgproto
@@ -947,13 +1011,12 @@ Homepage: https://www.x.org/
 Priority: optional
 Section: oldlibs
 Filename: pool/main/x/xorgproto/x11proto-kb-dev_2022.1-1-maruska_all.deb
-Size: 3412
-SHA256: 543d8adbb18002f8383d19f89cfe1f0a54a72393601c71c5e31d61306a73652c
-SHA1: 647f9b9ff7578b0fede7afe5663886adb1b779cd
-MD5sum: d0ac5906ff0b365bb9f98369e18a6165
+Size: 3376
+SHA256: b469de1069de14c468c3b313c895d2bd262d5f75ca6627326fa0ec46abbc4653
+SHA1: 084207c3cc0811bde25489bd22449fef5d2de38a
+MD5sum: abf55f110af364670f3363bed62ca288
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
-Dgit: 4d356372777ede4b8d22475ebe122fe484fe56b9
 
 Package: x11proto-present-dev
 Source: xorgproto
@@ -967,13 +1030,12 @@ Homepage: https://www.x.org/
 Priority: optional
 Section: oldlibs
 Filename: pool/main/x/xorgproto/x11proto-present-dev_2022.1-1-maruska_all.deb
-Size: 3416
-SHA256: 096d1df6c5003a4946a10515c1b6a0be0768e48d22adf00adc14ca4a8e192733
-SHA1: 5d716fdd26ccb6b5e033ae7d5da159a64ba717e3
-MD5sum: db824f71aeb0ad1a71e9899f81f317ac
+Size: 3380
+SHA256: eaba5eeb0af16c6869041de0ba28c64c290cff975ca756f16a42f9aea6c3aae0
+SHA1: 2b96773c1ef74fa15a2bebc53fea55492450b63a
+MD5sum: b898b40c061e480c97ee12e1722a6d71
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
-Dgit: 4d356372777ede4b8d22475ebe122fe484fe56b9
 
 Package: x11proto-randr-dev
 Source: xorgproto
@@ -987,13 +1049,12 @@ Homepage: https://www.x.org/
 Priority: optional
 Section: oldlibs
 Filename: pool/main/x/xorgproto/x11proto-randr-dev_2022.1-1-maruska_all.deb
-Size: 3416
-SHA256: bd2168cfb7a077db11ad0b87263dad2a0e500ffcb9fdff9f81d8d6ce2e84be49
-SHA1: b86e99290c1e92a82a13bba10e0832338a861cd8
-MD5sum: bca8ba47116d2e9165ee1879b72bdc4d
+Size: 3380
+SHA256: 2eaea9c5c28fa56350e3c471abb6d36f5f41395b2ef240937c52267f7ae63c3d
+SHA1: d7cb949f4a551530efe3e83b60b375305216303e
+MD5sum: c6d518453a7124dbd64a178b3115b7aa
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
-Dgit: 4d356372777ede4b8d22475ebe122fe484fe56b9
 
 Package: x11proto-record-dev
 Source: xorgproto
@@ -1007,13 +1068,12 @@ Homepage: https://www.x.org/
 Priority: optional
 Section: oldlibs
 Filename: pool/main/x/xorgproto/x11proto-record-dev_2022.1-1-maruska_all.deb
-Size: 3412
-SHA256: b9dd9adc9754380173223ef69ad76740c6754db54aaa13ea51870a930682d309
-SHA1: 6e3bac436070645eb8a73a1f1ac36b12fcdd9c7a
-MD5sum: 5df73a6296e3eb8c734aaeaf3932ae61
+Size: 3376
+SHA256: add60dfd29629d321f9d0def490a3dad721918edb804ce0f74977188533fcab7
+SHA1: ec75b151286d018f429dd4e31f88be42df7ab43d
+MD5sum: bb925b26a9fc75011348e8b42fb5529e
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
-Dgit: 4d356372777ede4b8d22475ebe122fe484fe56b9
 
 Package: x11proto-render-dev
 Source: xorgproto (2022.1-1-maruska)
@@ -1027,13 +1087,12 @@ Homepage: https://www.x.org/
 Priority: optional
 Section: oldlibs
 Filename: pool/main/x/xorgproto/x11proto-render-dev_2022.1-1-maruska_all.deb
-Size: 3420
-SHA256: 38e7a2252b52540ac51fce08ba28d9772e5f5eadb0f31964a6dd88b96250bccd
-SHA1: a028c235837579cdbe4560137910046884bcc16b
-MD5sum: f69fb070905b2441e1db54bd3a0f1996
+Size: 3388
+SHA256: 96b8996361199225491de55470466878e10ba53289eb8e8809005130c7eea341
+SHA1: 1228dc5a1d01a410e5d9c20728f7d6c5b63f2dd3
+MD5sum: 237441acce22ad7b5650561aa4f379cd
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
-Dgit: 4d356372777ede4b8d22475ebe122fe484fe56b9
 
 Package: x11proto-scrnsaver-dev
 Source: xorgproto
@@ -1047,13 +1106,12 @@ Homepage: https://www.x.org/
 Priority: optional
 Section: oldlibs
 Filename: pool/main/x/xorgproto/x11proto-scrnsaver-dev_2022.1-1-maruska_all.deb
-Size: 3420
-SHA256: 2d944a8b571f71b9ce0fac0169eebb6cdea51d3e4e3636ee005053c5eac489fb
-SHA1: c26cb7417ba3c8ae7502995e265e48c279afb218
-MD5sum: e5c4c2d96c8cd6c6cafd19e37854644b
+Size: 3388
+SHA256: ea740a6aecb42acadf617a5088538d5e6a588022576474cce164e807fb1836ea
+SHA1: d96c05d30dc18f4132e39f938fae87a3feee722f
+MD5sum: 5a4391ae7c0688ce114941b4b5f29e2f
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
-Dgit: 4d356372777ede4b8d22475ebe122fe484fe56b9
 
 Package: x11proto-video-dev
 Source: xorgproto
@@ -1067,13 +1125,12 @@ Homepage: https://www.x.org/
 Priority: optional
 Section: oldlibs
 Filename: pool/main/x/xorgproto/x11proto-video-dev_2022.1-1-maruska_all.deb
-Size: 3420
-SHA256: cf5fc963be360f85e9da4461c8fafcf1735e472fc6252922065568a398afcb97
-SHA1: 4b510cae45bd51bc0224efc0fb6f2c1059874e9b
-MD5sum: a40a522494a9e63a6c8991226219cee1
+Size: 3384
+SHA256: f8cc09213a9a7ad7338aaacdceb175733af1e2978a8b3f3975b678d996aab397
+SHA1: 90d012ce7d442e808b108a8ee853493a9bd5a99a
+MD5sum: 882d5742e89d07a7990c9e92229f0c79
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
-Dgit: 4d356372777ede4b8d22475ebe122fe484fe56b9
 
 Package: x11proto-xext-dev
 Source: xorgproto
@@ -1087,13 +1144,12 @@ Homepage: https://www.x.org/
 Priority: optional
 Section: oldlibs
 Filename: pool/main/x/xorgproto/x11proto-xext-dev_2022.1-1-maruska_all.deb
-Size: 3408
-SHA256: 94a1701611650036d205e13b094c10c7a4c8a09994c2b2b3e89a507319759f29
-SHA1: d793f0ac0020e8e00d4b89c082bf1508b0f81f48
-MD5sum: 4043ccb27ed7e9791b27916b61096585
+Size: 3376
+SHA256: 3cc5671f98714878a3cf4741b5be8fe2d062392208f89b0e79787e137146b031
+SHA1: b3a0f30903b4ce5f92d2f4ac4415c43c27dcb8f1
+MD5sum: a3f681493471e4873b8f334c5aca10e9
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
-Dgit: 4d356372777ede4b8d22475ebe122fe484fe56b9
 
 Package: x11proto-xf86dga-dev
 Source: xorgproto
@@ -1107,13 +1163,12 @@ Homepage: https://www.x.org/
 Priority: optional
 Section: oldlibs
 Filename: pool/main/x/xorgproto/x11proto-xf86dga-dev_2022.1-1-maruska_all.deb
-Size: 3416
-SHA256: 7e9c01f86865901d418de97a3793afd9e06b098ac157157fd3a2acb0bd0dc31c
-SHA1: 1af94a65b398d39e210aeb6f260d92e3c6d1142f
-MD5sum: da1503d98e8ecafa4df15df0c0e0ed82
+Size: 3380
+SHA256: 4513d5a32177ceb794e9f1c3372f1757877355c0b5db4a65475ca91161a7f005
+SHA1: cfc3024c428fb319ec8bcd16fb7376ba70e5d369
+MD5sum: cce003c7aa3e2554c888d9f547da90ea
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
-Dgit: 4d356372777ede4b8d22475ebe122fe484fe56b9
 
 Package: x11proto-xf86dri-dev
 Source: xorgproto
@@ -1127,13 +1182,12 @@ Homepage: https://www.x.org/
 Priority: optional
 Section: oldlibs
 Filename: pool/main/x/xorgproto/x11proto-xf86dri-dev_2022.1-1-maruska_all.deb
-Size: 3416
-SHA256: 8708c2f1e6e2350fc4992d4f8a67f9b635816be002131113e9d65330fef4652e
-SHA1: 92cff3f43ee36823d0207fec5d15774d7ec33d3f
-MD5sum: 07a36f6152aae9e5afaed58edb2a6965
+Size: 3380
+SHA256: 1744355820e77701ddd15889fbc9667cf1eed85436eb2e832d201acf3dfd9592
+SHA1: 5940f7077337be642de144376a58442efbb5a4b4
+MD5sum: 0a3dc72a98d9b03c9e4bd616a6993416
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
-Dgit: 4d356372777ede4b8d22475ebe122fe484fe56b9
 
 Package: x11proto-xf86vidmode-dev
 Source: xorgproto
@@ -1147,13 +1201,12 @@ Homepage: https://www.x.org/
 Priority: optional
 Section: oldlibs
 Filename: pool/main/x/xorgproto/x11proto-xf86vidmode-dev_2022.1-1-maruska_all.deb
-Size: 3424
-SHA256: 32eb26fad5a4bb2541f79905267b2bfa4d25756a05abba06be167ee77b9fee46
-SHA1: 5fe8aa98f76e85e2918008f416fc13f36b8ef813
-MD5sum: 42d3653affd36cdadcfec0df01364d67
+Size: 3388
+SHA256: 5d2bb8dae894ba0c9511affca820190b6493d2756da935e9a6aa389409a85791
+SHA1: d0f78e85d5173e1f31c7cf6be8d0352b1dca544b
+MD5sum: e3bc0f2907b1e1b563ff68876f17f68a
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
-Dgit: 4d356372777ede4b8d22475ebe122fe484fe56b9
 
 Package: x11proto-xinerama-dev
 Source: xorgproto
@@ -1167,13 +1220,12 @@ Homepage: https://www.x.org/
 Priority: optional
 Section: oldlibs
 Filename: pool/main/x/xorgproto/x11proto-xinerama-dev_2022.1-1-maruska_all.deb
-Size: 3420
-SHA256: 9c9b8368ac8b760e6319c5cde6aa6cf57dd963f74625781dcb9aad219813cc34
-SHA1: eef7abafa358826e0d99495cf5346d5f0b3821a0
-MD5sum: 68fe8e7479ab80ba4a90baaa623bfff1
+Size: 3384
+SHA256: 399c89421b20c1d658b9c60f50b75a63430e73b6fcf7ff8ce366f4bd00f9bc51
+SHA1: db4785ae9e64e87339fde5c6d39beda75713fee7
+MD5sum: 31a0caefed4ad0c111b1a39206210155
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
-Dgit: 4d356372777ede4b8d22475ebe122fe484fe56b9
 
 Package: xnest
 Source: xorg-server
