@@ -128,6 +128,32 @@ MD5sum: d80c0904fc8c13ac7a66d6710b6a8d9d
 Description: debug symbols for apt-utils
 Build-Ids: 22eb366e91ae8bca6695aecb0a9804037ef23438 3ac95e2ce112c0953fb0f0687c5a8d8d0347a50a 53ac5137d8c5b9d692140d3c41d6214bcfdf89eb b0bc9f4b3917ad8fdbd645614475a073ed4f1aa2 b18509242fa45185fc2b9f4f87eb13ceb17bbc8e
 
+Package: debhelper
+Version: 13.11.3-maruska
+Architecture: all
+Maintainer: Debhelper Maintainers <debhelper@packages.debian.org>
+Installed-Size: 1413
+Depends: autotools-dev, dh-autoreconf (>= 17~), dh-strip-nondeterminism (>= 0.028~), dpkg (>= 1.18.0~), dpkg-dev (>= 1.18.2~), dwz (>= 0.12.20190711), file (>= 3.23), libdebhelper-perl (= 13.11.3-maruska), libdpkg-perl (>= 1.17.14), man-db, po-debconf, perl:any
+Suggests: dh-make
+Breaks: cmake (<< 3.9~), meson (<< 0.40.0~)
+Provides: debhelper-compat (= 9), debhelper-compat (= 10), debhelper-compat (= 11), debhelper-compat (= 12), debhelper-compat (= 13), dh-sequence-dwz, dh-sequence-elf-tools, dh-sequence-installinitramfs, dh-sequence-installsysusers, dh-sequence-single-binary, dh-sequence-systemd
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Filename: pool/main/d/debhelper/debhelper_13.11.3-maruska_all.deb
+Size: 942604
+SHA256: 4db47d28920bd236ed2a85f58a7fb68a940fa10ca5c54072891e42c6eb8b9e18
+SHA1: 3966706418cb88c7b9d04d2c8f20dbbc5487fb8f
+MD5sum: e95677e3b504ee605e3612bc5e134caf
+Description: helper programs for debian/rules
+ A collection of programs that can be used in a debian/rules file to
+ automate common tasks related to building Debian packages. Programs
+ are included to install various files into your package, compress
+ files, fix file permissions, integrate your package with the Debian
+ menu system, debconf, doc-base, etc. Most Debian packages use debhelper
+ as part of their build process.
+Dgit: f32d13a66a6d8af82286abd3c999dfa1f2820976
+
 Package: git
 Version: 1:2.40.1-1-maruska
 Architecture: amd64
@@ -668,6 +694,30 @@ SHA1: 1351b1763c8db5b5176d0d3bf143ea537a4fe61b
 MD5sum: 75ee3fafcd91ec618c8f2630175bfb83
 Description: debug symbols for libapt-pkg6.0
 Build-Ids: 6cdedccc2ce91918dd47a982062b9db28ff321e3
+
+Package: libdebhelper-perl
+Source: debhelper
+Version: 13.11.3-maruska
+Architecture: all
+Maintainer: Debhelper Maintainers <debhelper@packages.debian.org>
+Installed-Size: 312
+Depends: perl:any
+Breaks: debhelper (<< 12.6~)
+Replaces: debhelper (<< 12.6~)
+Multi-Arch: foreign
+Priority: optional
+Section: perl
+Filename: pool/main/d/debhelper/libdebhelper-perl_13.11.3-maruska_all.deb
+Size: 81200
+SHA256: 421cda608857b962b2abb98ba1398de59ea34ed7cf30952b0120fb680f2bcb7a
+SHA1: 2852bd8415052ef2d4c60cd49b0e72742a90e0e9
+MD5sum: 858e8ddeb1a16edacd37c71571aa220e
+Description: debhelper perl modules
+ A collection of programs that can be used in a debian/rules file to
+ automate common tasks related to building Debian packages.
+ .
+ This package provides the perl modules used by the scripts in debhelper.
+Dgit: f32d13a66a6d8af82286abd3c999dfa1f2820976
 
 Package: libx11-6
 Source: libx11
