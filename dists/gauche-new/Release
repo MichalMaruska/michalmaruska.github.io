@@ -1,0 +1,39 @@
+Origin: maruska
+Label: reprepro
+Suite: gauche-0.9.4-rc2
+Codename: gauche-new
+Version: 5.0
+Date: Sun, 11 Jun 2023 22:34:11 UTC
+Architectures: i386 amd64 x32
+Components: main
+Description: release for SID, and Gauche C-api version 0.9.4-rc2
+MD5Sum:
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-i386/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-i386/Packages.gz
+ bec2e541d46ea0a3852254fb79ba12d6 171 main/binary-i386/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-amd64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-amd64/Packages.gz
+ a4923e96eb72b60f8e79a15199a063f4 172 main/binary-amd64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-x32/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-x32/Packages.gz
+ 0ac30e0c483f316f2a7233b77c32d9e9 170 main/binary-x32/Release
+SHA1:
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-i386/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-i386/Packages.gz
+ 661a4bdad92ff542a42198fa00f836113a90a578 171 main/binary-i386/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-amd64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-amd64/Packages.gz
+ 73428627cfab0d56b4df617b2cbde29def12bedd 172 main/binary-amd64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-x32/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-x32/Packages.gz
+ b8b76ee10547db0c8999c5987ddce8cef9204794 170 main/binary-x32/Release
+SHA256:
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-i386/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-i386/Packages.gz
+ db8e49a41cde768b05613ae950bec95bab52824c9bd9c7faec4c93665e62ba7b 171 main/binary-i386/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-amd64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-amd64/Packages.gz
+ 9350922c644e72f350200946a51a804a58cd2f82009abf255f760876da223362 172 main/binary-amd64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-x32/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-x32/Packages.gz
+ e64a8158ad0df05ab2635c8f43dcf42d450a5bbf762f244313cd4055f87d9ffb 170 main/binary-x32/Release

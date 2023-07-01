@@ -2,34 +2,34 @@ Origin: maruska
 Suite: focal
 Codename: focal
 Version: 20.3
-Date: Wed, 29 Mar 2023 23:18:34 UTC
+Date: Sun, 11 Jun 2023 22:34:10 UTC
 Architectures: amd64
 Components: main
 Description: My releases (improved & my own packages) for Ubuntu focal
 MD5Sum:
- addf135b091f0630c40718e9420b8420 92139 main/binary-amd64/Packages
- 9e35fb3130a3ad9fe79d7656b901b5dd 24135 main/binary-amd64/Packages.gz
+ bc6e1e09c4f68a2fee97a153d0daee50 1105 main/binary-amd64/Packages
+ 7a9347124d2b30ac89433dcac4a73945 713 main/binary-amd64/Packages.gz
  904b1d078aa86172b972ddb8d5a110c4 152 main/binary-amd64/Release
- 02f5feeab126576b87ccd914a0f6b44f 2317 main/debian-installer/binary-amd64/Packages
- c977bc3b01795b8ed568874c4de5e3f0 916 main/debian-installer/binary-amd64/Packages.gz
- 6bad602811de40adbc864787e5cc0ba3 577 main/debug/binary-amd64/Packages
- 6a0122a4cbd3b278fda5ca6e0e1c7b5b 409 main/debug/binary-amd64/Packages.gz
+ d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-amd64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-amd64/Packages.gz
+ d41d8cd98f00b204e9800998ecf8427e 0 main/debug/binary-amd64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/debug/binary-amd64/Packages.gz
  904b1d078aa86172b972ddb8d5a110c4 152 main/debug/binary-amd64/Release
 SHA1:
- 59cf54fcb8fdd35237b83b0c93245be9f60c4353 92139 main/binary-amd64/Packages
- 69549b46b4d8d42af761cab98caadf2f55de826e 24135 main/binary-amd64/Packages.gz
+ 903e1fc9d299b339e525191fe4f35d609d8fa473 1105 main/binary-amd64/Packages
+ 802838c86efeccc332f1ac8e9b264e9e79c0809f 713 main/binary-amd64/Packages.gz
  9c9cc9b476825d3cdefb6fe34a58510766ef2dfa 152 main/binary-amd64/Release
- f1023b63464bb3d84c94ccfcf9cacceb88a27830 2317 main/debian-installer/binary-amd64/Packages
- 8f11b625403d943f06866fe074a1a7fa17ced915 916 main/debian-installer/binary-amd64/Packages.gz
- 9d6cec8fe8ba1acb270711499e2e6da3a0be5be2 577 main/debug/binary-amd64/Packages
- 45fb048daedd2301d1cb90ef342dec03183ef623 409 main/debug/binary-amd64/Packages.gz
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-amd64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-amd64/Packages.gz
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debug/binary-amd64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debug/binary-amd64/Packages.gz
  9c9cc9b476825d3cdefb6fe34a58510766ef2dfa 152 main/debug/binary-amd64/Release
 SHA256:
- 16e19f75b068fca407ca77ccb8415d7f56efbb29d2eb0f4bfcd8828915c07809 92139 main/binary-amd64/Packages
- 98b3ede90a8d98a63073fb590bd5db9753e3a5671fe9d2ea8189391469a6df42 24135 main/binary-amd64/Packages.gz
+ 770457875f3fb5f1cb57847860c9143feeb22275194d298ffe84080bcfd6112d 1105 main/binary-amd64/Packages
+ 794a3fc9c7314c6bfe5f4066bc243c26ff87d1137a2526ad45dc70afac442b50 713 main/binary-amd64/Packages.gz
  0692f318dc280ebc9e9f6be05506ac629b69d8e964e565e351b0fcc9d0a4baff 152 main/binary-amd64/Release
- 9a9813948fb1875dec45fb34535f61a1484764753fa80fc0a8034f84ad5284fd 2317 main/debian-installer/binary-amd64/Packages
- 941e8a2b19c4f91d5315a2776d6f1cbea7c010ad5712426f6b830ea3d7b12067 916 main/debian-installer/binary-amd64/Packages.gz
- c455ab7e05fa588d0fdbc00741a70419bd387f51bb2f5fe477599a5bc3000b61 577 main/debug/binary-amd64/Packages
- f3e2449c27bc62993439b7c1a2ac69f089c3bc8695d2d0b7c4e98e07cdcc53ba 409 main/debug/binary-amd64/Packages.gz
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-amd64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-amd64/Packages.gz
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debug/binary-amd64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debug/binary-amd64/Packages.gz
  0692f318dc280ebc9e9f6be05506ac629b69d8e964e565e351b0fcc9d0a4baff 152 main/debug/binary-amd64/Release

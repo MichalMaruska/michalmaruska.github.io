@@ -1,0 +1,7 @@
+Archive: gauche-0.9.4-rc2
+Version: 5.0
+Component: main
+Origin: maruska
+Label: reprepro
+Architecture: amd64
+Description: release for SID, and Gauche C-api version 0.9.4-rc2
