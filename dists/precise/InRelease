@@ -5,7 +5,7 @@ Origin: maruska
 Suite: precise
 Codename: precise
 Version: 20.3
-Date: Sun, 11 Jun 2023 22:34:08 UTC
+Date: Sat, 01 Jul 2023 17:36:27 UTC
 Architectures: amd64 i386 armhf
 Components: main
 Description: Ubuntu Precise
@@ -68,15 +68,15 @@ SHA256:
  8ad8208b4989d72af3eb77d9285bfcce20be05a1aa79129e0d2375b535a07cbc 112 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEj5ld3379Nuk8fyGZPAkJW65/ICgFAmSGS+AACgkQPAkJW65/
-ICiiiQv/cA9rxfYKSk/25LFib9Xzmr3DxnOQwL/Cnohn+SOYocmzyBQex6BZTt3v
-X2o2ukgB1hW24Lor3GJeWFnhAe9dPr36rjGo/f5Kbr8RqGJj6li1hMMtVR11NA4N
-KVitZKc/vTDMGPOsbmIpFAGE3lBY/fTPvjH1Fk87IyBqvKVLIRA/OSK6iRS69avL
-ubwRNkoHB5dsITjdwt1dBaRM6qB2ueg1WbZTooeYZrfLF4TN19Ii6+AruRcSwD2y
-vASkKgIbeLVwSs+rlLA+9RcaiRZdgataZhu8Epmhzqy9twpaBQkPYCto4TbwIiWu
-SlbqR7EBuD/6QhweJqZt232UtvU1/G/mROI9JHNWT8tmdWOrfN9SspaTaiNP0sSu
-w0TDzRr8gDJ1xqKmHGIMSz1t312IM5/o2JWrX9nC1RqaSdVTA27llqtmRcX3hgkQ
-QEEiucUfIKQh61X6iEuNkDS4+F7oY5t/T8hmInkJEdAyiYEDyOh+B78ffywJNeBk
-RFRnKU/c
-=uzf5
+iQGzBAEBCgAdFiEEj5ld3379Nuk8fyGZPAkJW65/ICgFAmSgZBsACgkQPAkJW65/
+ICgtbQv+IKIfnLnFZDJvLrVm8Rzwu5CeOQ1DrQNzXrjT45bwmocrfHPpO/LbSP3I
+HB5eGAj/Eyp49UHov+7ZiIg1HfQcsXBnnZuK5QWkNuGhlexdgvuT43OaNa340amU
+Fv+6G4Quy09LdGHQ60NYO+XVl4bFLySwsrQT0OjqIgBGmq4fHKN3w4vFguaJmYxm
+svEWpaYYgGDgRqgxP5n3760+tvWaxG9dCr1rMIDr8dhA4PfjLHlfe9/ycDGVXxIx
+s1flz8BRnNe1r9Gdtok3DL0UzxVAJDMZn8ANntJWl1mA5Pc+QbkhBQZkO7Qb9EFG
++zXaAlg5f3a58dXBdQigFimLKQtaCrdwGv6t2aBpXzxIP3Sas7Klj+NivN+0Brk0
+m61SQKGXchsqiji0UF/g9GTISMcKm7QJuteuEyFrv3W0a1PPl5LnzPP1tiFjlNpt
+2/DHzeNp9I/3/8niTnVc8Qe6onJIO6vFZaYzB9JBvrkctBX2E8ijWiaCxLzBVZaI
+07BAmPBG
+=1t4X
 -----END PGP SIGNATURE-----

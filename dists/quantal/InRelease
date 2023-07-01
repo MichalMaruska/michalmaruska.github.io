@@ -5,7 +5,7 @@ Origin: maruska
 Suite: quantal
 Codename: quantal
 Version: 20.3
-Date: Sun, 11 Jun 2023 22:34:09 UTC
+Date: Sat, 01 Jul 2023 17:36:28 UTC
 Architectures: amd64 i386 armhf
 Components: main
 Description: Ubuntu quantal (11.10)
@@ -68,15 +68,15 @@ SHA256:
  d68d2d6d6427c866ede8b222016e7aacfca03cc70fef19238c7f185532f10ab3 120 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEj5ld3379Nuk8fyGZPAkJW65/ICgFAmSGS+EACgkQPAkJW65/
-ICg9ygv+PXsU37JCIgVV3RST1gXIF3sRDIRjcwHe+7Qc105MSHC19Htw/5N+YYdh
-ObFeJGtAHY2B9S9Bfn5cynR7eI4p1NXu1bGaqxxDdSVfNcMZObhadtL/qrkvUOBw
-qSNQi7q1HI/xyUt+UlyFS/saYKhrhnT3Q2aHSkmdf+Qn6vdA96kOdPvXjTqXEh1L
-iyKbcis+/JvHab1S+gMI2eT2MkPo91j7LQW05qUHSpelnIOAp5QEpow3L56ee+o8
-OMljzuXfmmEayP0OBXtqpNBvIQjU+pmE6PSDxYQBZ0bxAMQY92A7DK15RKp1Eo80
-Z73ns+BqQtZyn2zg1xZYo6toGShvNGz81we/yNHMuCcfEwzFnE10clNl3LjB1FSB
-qwM8Ys4UoGUBbGejRLIkSr6q7rpzez3i1gaor6vm1P5GZXel5G9Lrcy2GV5xLx4y
-sPYBvJ9NbkJh6iBdZ7l1GI1vQ8CmA6RrbbPTg2vujV/+T4i38c/eugeEvFsJflmI
-PWXn2tWc
-=M8bi
+iQGzBAEBCgAdFiEEj5ld3379Nuk8fyGZPAkJW65/ICgFAmSgZBwACgkQPAkJW65/
+ICjXPgv/RzhMTiU+viuluw9Ifx5CZgq8cLDShA8e/4QBTKlLP3hdS1RvGjZMml7J
+7qkNvli62zW5NzcrtRmRM5aU+qEhBu2NDZ/TfytZ6kpmR8IOC51DgGtyOrSPdJv6
+EdW8DIy2utNcg8aJA5fI+zOZhsl8UKG8FraDLSfjKyp8lOWaKBg2A30970uGFYTE
+a4b/e1GFWbjYckxOY5+Mw7sCBeszjO3uAKpzXxzQcAfT49MAS9uvpZhZz+X7Jcv7
+sgTBRFvu1OSd54oWyXtBlVF3g/465V+tPkP3iSxKVgn+u6EcJoXeQOFtvPjO6IS3
+3naiWuFd4tNlAhqph4DhnPzEAIAP/0eOD2ul3jc/mk3Wop7DvBqrCMACsw3iva4w
+w27P23b0LRQrUyNafYkrlg0aa0L9AVZO5kr5O+vGcDu0T2RcA3T/y7M4jdck9Vvh
+MYTSUmNo1dxkFBC55KR+gP3MMKUH+ikV1vCo5spk5CUgjcsTYepPPNXnNb+F4qxM
+zPF/N53f
+=0+9/
 -----END PGP SIGNATURE-----

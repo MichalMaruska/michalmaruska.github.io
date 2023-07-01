@@ -875,76 +875,6 @@ MD5sum: 5b8073da415083703e2a88898a4e4094
 Description: debug symbols for libx11-xcb1
 Build-Ids: 0104657f9e92c923475797a1ac29fa924d3d5743
 
-Package: x11proto-core-dev
-Source: xorgproto
-Version: 2022.1-1-maruska
-Architecture: all
-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 11
-Depends: x11proto-dev
-Multi-Arch: foreign
-Homepage: https://www.x.org/
-Priority: optional
-Section: oldlibs
-Filename: pool/main/x/xorgproto/x11proto-core-dev_2022.1-1-maruska_all.deb
-Size: 3408
-SHA256: e51e5430c0a6b19621e73722ba68b31b01d93e4d7ca3f571b2e62376d71258bc
-SHA1: 449afcc0bd4e723f65c6962d26161a82c43f4788
-MD5sum: 11439a646ef6a58d77774dd236f3680d
-Description: transitional dummy package
- This is a transitional dummy package, it can be safely removed.
-Dgit: 4d356372777ede4b8d22475ebe122fe484fe56b9
-
-Package: x11proto-dev
-Source: xorgproto
-Version: 2022.1-1-maruska
-Architecture: all
-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 1327
-Depends: xorg-sgml-doctools (>= 1:1.5)
-Breaks: x11proto-core-dev (<< 2018.3), x11proto-dri2-dev (<< 2018.3), x11proto-fonts-dev (<< 2018.3), x11proto-gl-dev (<< 2018.3), x11proto-input-dev (<< 2018.3), x11proto-kb-dev (<< 2018.3), x11proto-present-dev (<< 2018.3), x11proto-randr-dev (<< 2018.3), x11proto-record-dev (<< 2018.3), x11proto-render-dev (<< 2:2018.3), x11proto-scrnsaver-dev (<< 2018.3), x11proto-video-dev (<< 2018.3), x11proto-xext-dev (<< 2018.3), x11proto-xf86dga-dev (<< 2018.3), x11proto-xf86dri-dev (<< 2018.3), x11proto-xf86vidmode-dev (<< 2018.3), x11proto-xinerama-dev (<< 2018.3)
-Replaces: x11proto-core-dev (<< 2018.3), x11proto-dri2-dev (<< 2018.3), x11proto-fonts-dev (<< 2018.3), x11proto-gl-dev (<< 2018.3), x11proto-input-dev (<< 2018.3), x11proto-kb-dev (<< 2018.3), x11proto-present-dev (<< 2018.3), x11proto-randr-dev (<< 2018.3), x11proto-record-dev (<< 2018.3), x11proto-render-dev (<< 2:2018.3), x11proto-scrnsaver-dev (<< 2018.3), x11proto-video-dev (<< 2018.3), x11proto-xext-dev (<< 2018.3), x11proto-xf86dga-dev (<< 2018.3), x11proto-xf86dri-dev (<< 2018.3), x11proto-xf86vidmode-dev (<< 2018.3), x11proto-xinerama-dev (<< 2018.3)
-Provides: x11proto-core-dev (= 2022.1-1-maruska), x11proto-dri2-dev (= 2022.1-1-maruska), x11proto-fonts-dev (= 2022.1-1-maruska), x11proto-gl-dev (= 2022.1-1-maruska), x11proto-input-dev (= 2022.1-1-maruska), x11proto-kb-dev (= 2022.1-1-maruska), x11proto-present-dev (= 2022.1-1-maruska), x11proto-randr-dev (= 2022.1-1-maruska), x11proto-record-dev (= 2022.1-1-maruska), x11proto-render-dev (= 2022.1-1-maruska), x11proto-scrnsaver-dev (= 2022.1-1-maruska), x11proto-video-dev (= 2022.1-1-maruska), x11proto-xext-dev (= 2022.1-1-maruska), x11proto-xf86dga-dev (= 2022.1-1-maruska), x11proto-xf86dri-dev (= 2022.1-1-maruska), x11proto-xf86vidmode-dev (= 2022.1-1-maruska), x11proto-xinerama-dev (= 2022.1-1-maruska)
-Multi-Arch: foreign
-Homepage: https://www.x.org/
-Priority: optional
-Section: x11
-Filename: pool/main/x/xorgproto/x11proto-dev_2022.1-1-maruska_all.deb
-Size: 249572
-SHA256: ce223f0375a17e98eed844d167c0a7a70cbb98d88634b755025a9325de68f912
-SHA1: cfc19b99004ae55ee33e91ae4225908555042a54
-MD5sum: 61fcc98723ee496fcbc66d0f34da363a
-Description: X11 extension protocols and auxiliary headers
- This package provides development headers describing the wire protocol
- for the X11 core and extension protocols, and also provides a number of
- utility headers, used to abstract OS-specific functions.
- .
- More information about X.Org can be found at:
- <URL:https://www.X.org>
- .
- This package is built from the X.org xorgproto module.
-Dgit: 4d356372777ede4b8d22475ebe122fe484fe56b9
-
-Package: x11proto-dri2-dev
-Source: xorgproto
-Version: 2022.1-1-maruska
-Architecture: all
-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 11
-Depends: x11proto-dev
-Multi-Arch: foreign
-Homepage: https://www.x.org/
-Priority: optional
-Section: oldlibs
-Filename: pool/main/x/xorgproto/x11proto-dri2-dev_2022.1-1-maruska_all.deb
-Size: 3412
-SHA256: dada25126d51074adb79c5a459534bb646a04d92348ca249cd21b491c332dea9
-SHA1: 6ad95872a35bb4633f4ae670f637b3df5bc95de3
-MD5sum: a04c3d4b2e22131b4aa884128622c880
-Description: transitional dummy package
- This is a transitional dummy package, it can be safely removed.
-Dgit: 4d356372777ede4b8d22475ebe122fe484fe56b9
-
 Package: x11proto-fonts-dev
 Source: xorgproto
 Version: 2022.1-1-maruska
@@ -1568,4 +1498,187 @@ SHA1: e2000f3192f55697fe30543dd8b2fe98005b48b5
 MD5sum: e878e3ea4d9f9b09e0e8d3a378bb0cbc
 Description: debug symbols for xvfb
 Build-Ids: e6cc1f63c4714a94bdceb5e727a1d0412e3885c1
+
+Package: zsh
+Version: 5.9-4-maruska
+Architecture: amd64
+Maintainer: Debian Zsh Maintainers <pkg-zsh-devel@lists.alioth.debian.org>
+Installed-Size: 2461
+Depends: zsh-common (= 5.9-4-maruska), libc6 (>= 2.34), libcap2 (>= 1:2.10), libtinfo6 (>= 6), debianutils (>= 5.3-1~)
+Recommends: libc6 (>= 2.35), libgdbm6 (>= 1.16), libncursesw6 (>= 6), libpcre3
+Suggests: zsh-doc
+Homepage: https://www.zsh.org/
+Priority: optional
+Section: shells
+Filename: pool/main/z/zsh/zsh_5.9-4-maruska_amd64.deb
+Size: 907096
+SHA256: 11645cf11934a72f366fb1ab908236d071912af4c51da6aa5c25067f55da74e2
+SHA1: e600634f1e81e71d395b1654f1673ab918e5a281
+MD5sum: 9a9316c9fa80e3d4ce6e0f53120d2b3e
+Description: shell with lots of features
+ Zsh is a UNIX command interpreter (shell) usable as an
+ interactive login shell and as a shell script command
+ processor. Of the standard shells, zsh most closely resembles
+ ksh but includes many enhancements. Zsh has command-line editing,
+ built-in spelling correction, programmable command completion,
+ shell functions (with autoloading), a history mechanism, and a
+ host of other features.
+
+Package: zsh-common
+Source: zsh
+Version: 5.9-4-maruska
+Architecture: all
+Maintainer: Debian Zsh Maintainers <pkg-zsh-devel@lists.alioth.debian.org>
+Installed-Size: 16425
+Recommends: zsh
+Suggests: zsh-doc
+Breaks: zsh-doc (<= 5.8-7~)
+Replaces: zsh (<= 5.0.2-1), zsh-doc (<= 5.8-7~)
+Multi-Arch: foreign
+Homepage: https://www.zsh.org/
+Priority: optional
+Section: shells
+Filename: pool/main/z/zsh/zsh-common_5.9-4-maruska_all.deb
+Size: 4148020
+SHA256: 4abf14756f4083741f07697b0b0f6fe7922b90a578a0304f34017e1dd89b0e06
+SHA1: 8bb4e9199fee25128f5cfcaf1c83b8b80f6716c6
+MD5sum: 080d397f0cd722ec2c5910659c263e3c
+Description: architecture independent files for Zsh
+ Zsh is a UNIX command interpreter (shell) usable as an
+ interactive login shell and as a shell script command
+ processor. Of the standard shells, zsh most closely resembles
+ ksh but includes many enhancements. Zsh has command-line editing,
+ built-in spelling correction, programmable command completion,
+ shell functions (with autoloading), a history mechanism, and a
+ host of other features.
+ .
+ This package contains the common zsh files shared by all
+ architectures.
+
+Package: zsh-dbgsym
+Source: zsh
+Version: 5.9-4-maruska
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Zsh Maintainers <pkg-zsh-devel@lists.alioth.debian.org>
+Installed-Size: 2188
+Depends: zsh (= 5.9-4-maruska)
+Priority: optional
+Section: debug
+Filename: pool/main/z/zsh/zsh-dbgsym_5.9-4-maruska_amd64.deb
+Size: 1843804
+SHA256: 959861fb5392a653b2265a7590b230187de1ef3a18ca98c13c74124e2c877fd0
+SHA1: 8a1dba24148f6bc6b4978df42bd2b7fc28a478e9
+MD5sum: 8adb0f8af24661291eaa540a4d13e6f6
+Description: debug symbols for zsh
+Build-Ids: 034141be3d249aab3f92f9ce324a44dbf8043536 082d5e65f183de9ef827ef96d7232414c7e5e95a 0ceab1dd3f1e518db0a26b0d08a8a1d119aaab10 19d3f69a08516af5d3fe1d12b25380153eea7193 1d22a259dc8c6c330edfad99c16bd6b91052b85f 2393b618c4d24bc6a5fdfd7051949e923934f545 2b6a56d5c98fc0f169f2418cf67cdee4d4ce19cf 331be94de07986aaa372e5f428bffc02d1a142bd 41347b046f32646470fb15ac0af94b59f71b309d 4db3454252d1ab524fed810c7a492358149ea58a 5381386eb15df6a0e183bd2e68187e7ce41c9dd8 5956d52dd08d9ec99103dd8f16767fd4bdae0cf5 5c5455a89f54dc8e5b0104bbc79da97e6a520f33 7c01604ea209d9ef4b65361054ca9d1427abf019 85031c403d499950a4f064c0220f674ee5049dab 901ec04ac0331a0a6e4f747cd58eaaafc07e3d54 a5ab9d83125f43c91eadb8623b7effcac132af25 a827ec9561eb8298124e0e69f20489292cefb4a3 ac16f85acbf51e2ad4e78cc25b6cf02eacac8295 ac2db80f3394c14b3b9f1ca69a3464f6a1c83540 ae088ab5965b92da72020972b624f7d63b634f00 ae319761198b2438fa52b5bb3fd84f4e9da8b839 ae3d9671339725fdf759d3660e2f240868b4383e b8467121819ebe3ac2347302d13d95276e57a5bb bcefc8011f0b90901df00fbd7e0b9909f677f3d1 c8460cc60aa456e2f693dba181b55e97d0307fd4 cfd9e89a2130c485ec1774f24ec0f5ecec3bb373 da362a8aad159f55a79a504d8af20ee5d3532f6b dcb187aaa88c13327cb6a61e6723abb5285d82fd e6a87a3aac4f085567ac2a364cc27116c59c3b87 e75a0d55e337f9dd09acbea528ba549901714029 e9cee9c3f1fd57da41687fc0a209452f948a6cec f33672307bc7cc3a99d98442c84ceff83bbf36dd f57485f9a14aace5b3cae796273ab4db02fa4f71 f581fd5077c0cbe13fd0d66b537e34ef2d18459a f6cd8f07ebe9ed000342dad7e34821e0b34d09eb f983084fef82f00e8b58c10e70b29455a0355d3b fcafa457209c5c185b6022cda5f3536e21c4f181 fe3a321d73bc3e0bbbfdcf976484156a36d369ef
+
+Package: zsh-dev
+Source: zsh
+Version: 5.9-4-maruska
+Architecture: amd64
+Maintainer: Debian Zsh Maintainers <pkg-zsh-devel@lists.alioth.debian.org>
+Installed-Size: 685
+Depends: zsh-common (= 5.9-4-maruska)
+Homepage: https://www.zsh.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/z/zsh/zsh-dev_5.9-4-maruska_amd64.deb
+Size: 274492
+SHA256: 1c8dd30b5336eef380ff700fb4c232e9fac175cc62404c6b59eaab9ade47d071
+SHA1: 16edfad124d6449fd32a54f6acebcd53bed3566d
+MD5sum: 227acb26498bd89fa244f33bb352fa28
+Description: shell with lots of features (development files)
+ Zsh is a UNIX command interpreter (shell) usable as an
+ interactive login shell and as a shell script command
+ processor. Of the standard shells, zsh most closely resembles
+ ksh but includes many enhancements. Zsh has command-line editing,
+ built-in spelling correction, programmable command completion,
+ shell functions (with autoloading), a history mechanism, and a
+ host of other features.
+ .
+ This package contains headers and scripts necessary to compile
+ third-party modules.
+
+Package: zsh-doc
+Source: zsh
+Version: 5.9-4-maruska
+Architecture: all
+Maintainer: Debian Zsh Maintainers <pkg-zsh-devel@lists.alioth.debian.org>
+Installed-Size: 5852
+Depends: zsh-common (= 5.9-4-maruska)
+Multi-Arch: foreign
+Homepage: https://www.zsh.org/
+Priority: optional
+Section: doc
+Filename: pool/main/z/zsh/zsh-doc_5.9-4-maruska_all.deb
+Size: 2785264
+SHA256: 3f3acc1495a6da3f23f3f1e789feead2427f530e25671df7c5dfbbeeb083b8e4
+SHA1: fa468c6ec1192af9c0480ab1c342924dd831363d
+MD5sum: 3ebd0b1784d3b26fad56ebf728ae20b5
+Description: zsh documentation - info/HTML format
+ Zsh is a UNIX command interpreter (shell) usable as an
+ interactive login shell and as a shell script command
+ processor. Of the standard shells, zsh most closely resembles
+ ksh but includes many enhancements. Zsh has command-line editing,
+ built-in spelling correction, programmable command completion,
+ shell functions (with autoloading), a history mechanism, and a
+ host of other features.
+ .
+ This contains the documentation in GNU info and HTML formats.
+
+Package: zsh-static
+Source: zsh
+Version: 5.9-4-maruska
+Architecture: amd64
+Maintainer: Debian Zsh Maintainers <pkg-zsh-devel@lists.alioth.debian.org>
+Installed-Size: 2662
+Depends: debianutils (>= 5.3-1~)
+Recommends: zsh-common
+Suggests: zsh-doc
+Built-Using: glibc (= 2.36-9), libcap2 (= 1:2.66-4), ncurses (= 6.4-4), pcre3 (= 2:8.39-15)
+Homepage: https://www.zsh.org/
+Priority: optional
+Section: shells
+Filename: pool/main/z/zsh/zsh-static_5.9-4-maruska_amd64.deb
+Size: 1183888
+SHA256: 5aa35a4f9b7f2075396698db8efe44af1c87399aafedb57ae551423fb310d098
+SHA1: 77c11d17048b66c45affe869f16481194de5434b
+MD5sum: db028e8262b0e168022b625152349290
+Description: shell with lots of features (static link)
+ Zsh is a UNIX command interpreter (shell) usable as an
+ interactive login shell and as a shell script command
+ processor. Of the standard shells, zsh most closely resembles
+ ksh but includes many enhancements. Zsh has command-line editing,
+ built-in spelling correction, programmable command completion,
+ shell functions (with autoloading), a history mechanism, and a
+ host of other features.
+ .
+ This is the statically-compiled version of the shell, i.e. it doesn't
+ require any dynamically loaded libraries to be present and will work
+ even if libraries zsh (in general) needs are broken on the system. So
+ it's more robust in case of a broken system.
+ .
+ It though also has a few limitations compared to the normal,
+ dynamically linked, e.g. it can't use NSS related functionality which
+ might result in minor imperfections like e.g. user names being shown
+ in the prompt.
+
+Package: zsh-static-dbgsym
+Source: zsh
+Version: 5.9-4-maruska
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Zsh Maintainers <pkg-zsh-devel@lists.alioth.debian.org>
+Installed-Size: 1656
+Depends: zsh-static (= 5.9-4-maruska)
+Priority: optional
+Section: debug
+Filename: pool/main/z/zsh/zsh-static-dbgsym_5.9-4-maruska_amd64.deb
+Size: 1498688
+SHA256: d695b81e3b391d3f2588985b95c95f21e870a54cb10839c9e9dc1c825dc76031
+SHA1: 9ece08238b9533434275a49657729deb175fe3a7
+MD5sum: ffb226ed66f4b210e09b8f1f88b193fa
+Description: debug symbols for zsh-static
+Build-Ids: cd9f5ab465d7f2ccc6a2e12220602dd52407a5a0
 

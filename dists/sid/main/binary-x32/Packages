@@ -458,76 +458,6 @@ Description: X11 client-side library (development documentation)
  This module can be found at
  https://gitlab.freedesktop.org/xorg/lib/libX11
 
-Package: x11proto-core-dev
-Source: xorgproto
-Version: 2022.1-1-maruska
-Architecture: all
-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 11
-Depends: x11proto-dev
-Multi-Arch: foreign
-Homepage: https://www.x.org/
-Priority: optional
-Section: oldlibs
-Filename: pool/main/x/xorgproto/x11proto-core-dev_2022.1-1-maruska_all.deb
-Size: 3408
-SHA256: e51e5430c0a6b19621e73722ba68b31b01d93e4d7ca3f571b2e62376d71258bc
-SHA1: 449afcc0bd4e723f65c6962d26161a82c43f4788
-MD5sum: 11439a646ef6a58d77774dd236f3680d
-Description: transitional dummy package
- This is a transitional dummy package, it can be safely removed.
-Dgit: 4d356372777ede4b8d22475ebe122fe484fe56b9
-
-Package: x11proto-dev
-Source: xorgproto
-Version: 2022.1-1-maruska
-Architecture: all
-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 1327
-Depends: xorg-sgml-doctools (>= 1:1.5)
-Breaks: x11proto-core-dev (<< 2018.3), x11proto-dri2-dev (<< 2018.3), x11proto-fonts-dev (<< 2018.3), x11proto-gl-dev (<< 2018.3), x11proto-input-dev (<< 2018.3), x11proto-kb-dev (<< 2018.3), x11proto-present-dev (<< 2018.3), x11proto-randr-dev (<< 2018.3), x11proto-record-dev (<< 2018.3), x11proto-render-dev (<< 2:2018.3), x11proto-scrnsaver-dev (<< 2018.3), x11proto-video-dev (<< 2018.3), x11proto-xext-dev (<< 2018.3), x11proto-xf86dga-dev (<< 2018.3), x11proto-xf86dri-dev (<< 2018.3), x11proto-xf86vidmode-dev (<< 2018.3), x11proto-xinerama-dev (<< 2018.3)
-Replaces: x11proto-core-dev (<< 2018.3), x11proto-dri2-dev (<< 2018.3), x11proto-fonts-dev (<< 2018.3), x11proto-gl-dev (<< 2018.3), x11proto-input-dev (<< 2018.3), x11proto-kb-dev (<< 2018.3), x11proto-present-dev (<< 2018.3), x11proto-randr-dev (<< 2018.3), x11proto-record-dev (<< 2018.3), x11proto-render-dev (<< 2:2018.3), x11proto-scrnsaver-dev (<< 2018.3), x11proto-video-dev (<< 2018.3), x11proto-xext-dev (<< 2018.3), x11proto-xf86dga-dev (<< 2018.3), x11proto-xf86dri-dev (<< 2018.3), x11proto-xf86vidmode-dev (<< 2018.3), x11proto-xinerama-dev (<< 2018.3)
-Provides: x11proto-core-dev (= 2022.1-1-maruska), x11proto-dri2-dev (= 2022.1-1-maruska), x11proto-fonts-dev (= 2022.1-1-maruska), x11proto-gl-dev (= 2022.1-1-maruska), x11proto-input-dev (= 2022.1-1-maruska), x11proto-kb-dev (= 2022.1-1-maruska), x11proto-present-dev (= 2022.1-1-maruska), x11proto-randr-dev (= 2022.1-1-maruska), x11proto-record-dev (= 2022.1-1-maruska), x11proto-render-dev (= 2022.1-1-maruska), x11proto-scrnsaver-dev (= 2022.1-1-maruska), x11proto-video-dev (= 2022.1-1-maruska), x11proto-xext-dev (= 2022.1-1-maruska), x11proto-xf86dga-dev (= 2022.1-1-maruska), x11proto-xf86dri-dev (= 2022.1-1-maruska), x11proto-xf86vidmode-dev (= 2022.1-1-maruska), x11proto-xinerama-dev (= 2022.1-1-maruska)
-Multi-Arch: foreign
-Homepage: https://www.x.org/
-Priority: optional
-Section: x11
-Filename: pool/main/x/xorgproto/x11proto-dev_2022.1-1-maruska_all.deb
-Size: 249572
-SHA256: ce223f0375a17e98eed844d167c0a7a70cbb98d88634b755025a9325de68f912
-SHA1: cfc19b99004ae55ee33e91ae4225908555042a54
-MD5sum: 61fcc98723ee496fcbc66d0f34da363a
-Description: X11 extension protocols and auxiliary headers
- This package provides development headers describing the wire protocol
- for the X11 core and extension protocols, and also provides a number of
- utility headers, used to abstract OS-specific functions.
- .
- More information about X.Org can be found at:
- <URL:https://www.X.org>
- .
- This package is built from the X.org xorgproto module.
-Dgit: 4d356372777ede4b8d22475ebe122fe484fe56b9
-
-Package: x11proto-dri2-dev
-Source: xorgproto
-Version: 2022.1-1-maruska
-Architecture: all
-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 11
-Depends: x11proto-dev
-Multi-Arch: foreign
-Homepage: https://www.x.org/
-Priority: optional
-Section: oldlibs
-Filename: pool/main/x/xorgproto/x11proto-dri2-dev_2022.1-1-maruska_all.deb
-Size: 3412
-SHA256: dada25126d51074adb79c5a459534bb646a04d92348ca249cd21b491c332dea9
-SHA1: 6ad95872a35bb4633f4ae670f637b3df5bc95de3
-MD5sum: a04c3d4b2e22131b4aa884128622c880
-Description: transitional dummy package
- This is a transitional dummy package, it can be safely removed.
-Dgit: 4d356372777ede4b8d22475ebe122fe484fe56b9
-
 Package: x11proto-fonts-dev
 Source: xorgproto
 Version: 2022.1-1-maruska
@@ -874,4 +804,62 @@ MD5sum: 08e392549d728f08bff7a079d8ccc025
 Description: common files used by various X servers
  This package provides files necessary for all X.Org based X servers.
 Dgit: 7dcbee7142721ffd47222c6f7baba1e3a1b7157b
+
+Package: zsh-common
+Source: zsh
+Version: 5.9-4-maruska
+Architecture: all
+Maintainer: Debian Zsh Maintainers <pkg-zsh-devel@lists.alioth.debian.org>
+Installed-Size: 16425
+Recommends: zsh
+Suggests: zsh-doc
+Breaks: zsh-doc (<= 5.8-7~)
+Replaces: zsh (<= 5.0.2-1), zsh-doc (<= 5.8-7~)
+Multi-Arch: foreign
+Homepage: https://www.zsh.org/
+Priority: optional
+Section: shells
+Filename: pool/main/z/zsh/zsh-common_5.9-4-maruska_all.deb
+Size: 4148020
+SHA256: 4abf14756f4083741f07697b0b0f6fe7922b90a578a0304f34017e1dd89b0e06
+SHA1: 8bb4e9199fee25128f5cfcaf1c83b8b80f6716c6
+MD5sum: 080d397f0cd722ec2c5910659c263e3c
+Description: architecture independent files for Zsh
+ Zsh is a UNIX command interpreter (shell) usable as an
+ interactive login shell and as a shell script command
+ processor. Of the standard shells, zsh most closely resembles
+ ksh but includes many enhancements. Zsh has command-line editing,
+ built-in spelling correction, programmable command completion,
+ shell functions (with autoloading), a history mechanism, and a
+ host of other features.
+ .
+ This package contains the common zsh files shared by all
+ architectures.
+
+Package: zsh-doc
+Source: zsh
+Version: 5.9-4-maruska
+Architecture: all
+Maintainer: Debian Zsh Maintainers <pkg-zsh-devel@lists.alioth.debian.org>
+Installed-Size: 5852
+Depends: zsh-common (= 5.9-4-maruska)
+Multi-Arch: foreign
+Homepage: https://www.zsh.org/
+Priority: optional
+Section: doc
+Filename: pool/main/z/zsh/zsh-doc_5.9-4-maruska_all.deb
+Size: 2785264
+SHA256: 3f3acc1495a6da3f23f3f1e789feead2427f530e25671df7c5dfbbeeb083b8e4
+SHA1: fa468c6ec1192af9c0480ab1c342924dd831363d
+MD5sum: 3ebd0b1784d3b26fad56ebf728ae20b5
+Description: zsh documentation - info/HTML format
+ Zsh is a UNIX command interpreter (shell) usable as an
+ interactive login shell and as a shell script command
+ processor. Of the standard shells, zsh most closely resembles
+ ksh but includes many enhancements. Zsh has command-line editing,
+ built-in spelling correction, programmable command completion,
+ shell functions (with autoloading), a history mechanism, and a
+ host of other features.
+ .
+ This contains the documentation in GNU info and HTML formats.
 
