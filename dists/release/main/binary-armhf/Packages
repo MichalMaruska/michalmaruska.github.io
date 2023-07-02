@@ -46,3 +46,21 @@ MD5sum: baef26459c9c83c71df963163388db3d
 Description: collection of shell scripts
 Dgit: cb56bff475e154303a45e729744e73ed7c599781
 
+Package: mmc-shell
+Version: 3.52
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 211
+Depends: zsh, gawk, git (>= 1:2.31.0), mp3info, mpg123
+Recommends: gst123, systemd-container, alsa-utils, tdb-tools
+Conflicts: tt-tools (<< 1.13)
+Priority: extra
+Section: misc
+Filename: pool/main/m/mmc-shell/mmc-shell_3.52_all.deb
+Size: 52592
+SHA256: c7d1cd02f8543bf93a0c0a594263c1b2dca07ad961ed65a2e7195b458fbf03cb
+SHA1: f94fe4cef67bcc779243a3ef78d04b0d2f846550
+MD5sum: 4e8d3c11e07a3a890b40c9478ea7b506
+Description: collection of shell scripts
+Dgit: 3567c80e1c95944db052d72a9cb93f53b2eaedb5
+
