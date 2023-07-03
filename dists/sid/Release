@@ -2,13 +2,13 @@ Origin: maruska
 Suite: unstable
 Codename: sid
 Version: 20.3
-Date: Sat, 01 Jul 2023 20:24:06 UTC
+Date: Mon, 03 Jul 2023 11:08:27 UTC
 Architectures: amd64 i386 armhf x32
 Components: main
 Description: My releases (improved & my own packages) for Sid.
 MD5Sum:
- 0c2b578f5d13e257aaa9386687aa7493 78630 main/binary-amd64/Packages
- f783cb812361de1998880ba5a524b5fd 20985 main/binary-amd64/Packages.gz
+ d9ee9eb9de18b43ca058eab2b56394db 80593 main/binary-amd64/Packages
+ 7efe21b5c821efce2b548fc68a7c5c86 21745 main/binary-amd64/Packages.gz
  7427a5aff00e1b23ae1ebf32523f67a5 147 main/binary-amd64/Release
  2a5614ae93c2f1f749b1a55c67f62ab9 1646 main/debian-installer/binary-amd64/Packages
  b1df50598bbf56b1eae72a2829b95bc7 784 main/debian-installer/binary-amd64/Packages.gz
@@ -31,8 +31,8 @@ MD5Sum:
  6e0cfa42625dc8dd32f92f6647f8ecea 3653 main/source/Sources.gz
  65e50afc1915bce582cee71f49a3c620 148 main/source/Release
 SHA1:
- 2bee3399cc06b9fd7c3ece78eb824334d8f96939 78630 main/binary-amd64/Packages
- 254d5f7824217528e450e935f68265c437618f7a 20985 main/binary-amd64/Packages.gz
+ 741b231087b399b0d8076222c00454bd017573d3 80593 main/binary-amd64/Packages
+ c126b51c029af1da99cb3064021d877ef3d51f44 21745 main/binary-amd64/Packages.gz
  7f00f7abb4899d87b4f12901c94f91f98d562345 147 main/binary-amd64/Release
  0bf6272cfa2f651f829609a0ddce43ff22551178 1646 main/debian-installer/binary-amd64/Packages
  fd22bca0a8fc273f2471dc59669d57673c32def2 784 main/debian-installer/binary-amd64/Packages.gz
@@ -55,8 +55,8 @@ SHA1:
  38d8bbd3283a074e7160e2b37b6d673f04506d00 3653 main/source/Sources.gz
  16fd1d7386337a11ec1d4b7d1158b4d420e33286 148 main/source/Release
 SHA256:
- cde3b25978328477331726a00c765b5567a5d1c80b90df8b78d3e6bfe086b521 78630 main/binary-amd64/Packages
- f6e805aa493b35084a08bca4cb89e86790f2c8f1264afd00ec2133286a2318cf 20985 main/binary-amd64/Packages.gz
+ c29aa1b08b0c41b04a6c7fa3b4def96a334ecebf8b02b6fdc1a8fdd1485fd14c 80593 main/binary-amd64/Packages
+ 0eb041b2f51cfefbddf13511d4227538dc4955ed495c01d1ed07535d8c313426 21745 main/binary-amd64/Packages.gz
  dcf53c362ed76856f8c2dfabc9b56e97baabf378318ff620d025854139424a09 147 main/binary-amd64/Release
  42b5f58689ee96be3a44cb8ba38c427ec13acbf51da721b4aba2f1fcc6de856c 1646 main/debian-installer/binary-amd64/Packages
  5e10ef0e6afb14583680a68507254103938908e9012d093652be933571323cc1 784 main/debian-installer/binary-amd64/Packages.gz

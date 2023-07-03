@@ -925,6 +925,52 @@ MD5sum: 5b8073da415083703e2a88898a4e4094
 Description: debug symbols for libx11-xcb1
 Build-Ids: 0104657f9e92c923475797a1ac29fa924d3d5743
 
+Package: reprepro
+Version: 5.4.1-1maruska
+Architecture: amd64
+Maintainer: Bastian Germann <bage@debian.org>
+Installed-Size: 1222
+Depends: libarchive13 (>= 3.0.4), libbz2-1.0, libc6 (>= 2.34), libdb5.3, libgpg-error0 (>= 1.14), libgpgme11 (>= 1.2.0), liblzma5 (>= 5.1.1alpha+20120614), zlib1g (>= 1:1.2.0.2), zstd
+Recommends: apt (>= 0.9.4)
+Suggests: pinentry-curses, gnupg-agent, inoticoming, lzip (>= 1.11-2)
+Priority: optional
+Section: utils
+Filename: pool/main/r/reprepro/reprepro_5.4.1-1maruska_amd64.deb
+Size: 459372
+SHA256: b83fd81b537cb2af60bb09ce08dceabc8a0df813430836dd049ebab651872349
+SHA1: 66f0533c0d8f407ce760b1312227302e6f2e185d
+MD5sum: 9a7b1aaca73d522b2312d4afe3ff3674
+Description: Debian package repository producer
+ reprepro is a tool to manage a repository of Debian packages
+ (.deb, .udeb, .dsc, ...). It stores files either being
+ injected manually or downloaded from some other repository
+ (partially) mirrored into one pool/ hierarchy.
+ Managed packages and files are stored in a Berkeley DB,
+ so no database server is needed.
+ Checking signatures of mirrored repositories and creating
+ signatures of the generated Package indices is supported.
+ .
+ This package also contains the changestool and rredtool helpers.
+Dgit: 0580842dfa8849ef718ff572039a1fa0ba71af62
+
+Package: reprepro-dbgsym
+Source: reprepro
+Version: 5.4.1-1maruska
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Bastian Germann <bage@debian.org>
+Installed-Size: 1174
+Depends: reprepro (= 5.4.1-1maruska)
+Priority: optional
+Section: debug
+Filename: pool/main/r/reprepro/reprepro-dbgsym_5.4.1-1maruska_amd64.deb
+Size: 1100412
+SHA256: 358ed66164552ddaf386849f6d5d54950d9dac8792fd190c10780b74751069ab
+SHA1: 4a9e01c153cd4325c1173a0b0bd4062eba4c9e5f
+MD5sum: 165294d30e4e77b093e4ef35849d1292
+Description: debug symbols for reprepro
+Build-Ids: 28508f03cf1be61fe0817c04952779e328a80f14 8167e1222534d207fba421a6000719e4ef3f3a8b e6a0eb55d0f44a537265e963b3907ae1414eb9b8
+
 Package: sawfish
 Version: 1:1.12.0-maruska
 Architecture: amd64
