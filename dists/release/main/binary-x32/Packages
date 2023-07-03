@@ -1,66 +1,17 @@
-Package: gauche-mmc
-Version: 4.2.1
-Architecture: all
-Maintainer: Michal Maruska <mmaruska@gmail.com>
-Installed-Size: 644
-Depends: gauche
-Conflicts: gauche-mmc
-Priority: optional
-Section: interpreters
-Filename: pool/main/g/gauche-mmc/gauche-mmc_4.2.1_all.deb
-Size: 133628
-SHA256: 534a2912664eeab7fdbb46a2e238a50a27aa59185c4fa27e417ca38a8e214bdd
-SHA1: e47d98b3eab527807c59faa8b4034dfddfc697b4
-MD5sum: 01be672a4d24ac5b08adaf99e3dad84c
-Description: Scheme code, common to M. Maruska's GAUCHE packages.
-
-Package: gauche-mmc-apps
-Version: 1.10
-Architecture: all
-Maintainer: Michal Maruska <mmaruska@gmail.com>
-Installed-Size: 42
-Depends: gauche, gauche-mmc
-Priority: extra
-Section: interpreters
-Filename: pool/main/g/gauche-mmc-apps/gauche-mmc-apps_1.10_all.deb
-Size: 10092
-SHA256: ecade54b7e06956878d6e641de04bd831fd436bc56eafbb7c1d9ab301e774418
-SHA1: cc9f825cbaed3dba9992bd5dcc138c56449cdcb6
-MD5sum: e8414b95a2d9226f7ca99276831bc14d
-Description: mmc's (simple) applications in Gauche
-
 Package: mmc-build-system
-Version: 4.11
+Version: 4.12
 Architecture: all
 Maintainer: Michal Maruska <mmaruska@gmail.com>
-Installed-Size: 87
+Installed-Size: 90
 Depends: git-buildpackage, zsh, mmc-shell (>> 2.8), libapt-pkg-perl, libgetopt-long-descriptive-perl
 Conflicts: mmc-shell (= 2.8)
 Priority: extra
 Section: misc
-Filename: pool/main/m/mmc-build-system/mmc-build-system_4.11_all.deb
-Size: 21276
-SHA256: a529b3f5f6a9e20d43dfa6c398e227031e756b8bf860a881b6501f61147e68ee
-SHA1: 4e9d9d3f10da9afe77ad32e636bb6e06d2e9dc62
-MD5sum: baef26459c9c83c71df963163388db3d
+Filename: pool/main/m/mmc-build-system/mmc-build-system_4.12_all.deb
+Size: 21884
+SHA256: 3c9185092f8451aa470c21aa00e9ee1e55f2d78065dbb8856e1635af26999f28
+SHA1: 8f8558a734a9d898ad0012bba468e90f3564e9bb
+MD5sum: aea46166a8f4a961639621408725f58b
 Description: collection of shell scripts
-Dgit: cb56bff475e154303a45e729744e73ed7c599781
-
-Package: mmc-shell
-Version: 3.52
-Architecture: all
-Maintainer: Michal Maruska <mmaruska@gmail.com>
-Installed-Size: 211
-Depends: zsh, gawk, git (>= 1:2.31.0), mp3info, mpg123
-Recommends: gst123, systemd-container, alsa-utils, tdb-tools
-Conflicts: tt-tools (<< 1.13)
-Priority: extra
-Section: misc
-Filename: pool/main/m/mmc-shell/mmc-shell_3.52_all.deb
-Size: 52592
-SHA256: c7d1cd02f8543bf93a0c0a594263c1b2dca07ad961ed65a2e7195b458fbf03cb
-SHA1: f94fe4cef67bcc779243a3ef78d04b0d2f846550
-MD5sum: 4e8d3c11e07a3a890b40c9478ea7b506
-Description: collection of shell scripts
-Dgit: 3567c80e1c95944db052d72a9cb93f53b2eaedb5
+Dgit: d16b60b4c6ae35f03aaf3a90279bc4b35db2bd1c
 
