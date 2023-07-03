@@ -15,3 +15,19 @@ MD5sum: aea46166a8f4a961639621408725f58b
 Description: collection of shell scripts
 Dgit: d16b60b4c6ae35f03aaf3a90279bc4b35db2bd1c
 
+Package: mmc-sawfish
+Version: 1.6.11
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 207
+Depends: sawfish
+Priority: extra
+Section: x11
+Filename: pool/main/m/mmc-sawfish/mmc-sawfish_1.6.11_all.deb
+Size: 40568
+SHA256: 14baf45b3a49319032ad5ff99cb5c7951c60f94dfe1668e2aebe75ee70042380
+SHA1: 571bce6f196858eb237c98d3604da4c040705360
+MD5sum: 9512f42cb1e8dda0623b574363de00c0
+Description: collection of Lisp add-ons for the window manager.
+Dgit: f8e8d1fcb8edba3fad7b756f4fc2b12b2d7974dd
+
