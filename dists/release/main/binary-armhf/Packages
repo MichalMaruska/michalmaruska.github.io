@@ -1,19 +1,35 @@
-Package: mmc-build-system
-Version: 4.12
+Package: git-hierarchy
+Version: 5.42
 Architecture: all
 Maintainer: Michal Maruska <mmaruska@gmail.com>
-Installed-Size: 90
+Installed-Size: 501
+Depends: git, gitk (>= 1:2.19.1-1-maruska2), zsh, mmc-shell (>= 3.47), graphviz, imagemagick, bsdmainutils, xdot (>= 1.2-2-maruska)
+Priority: extra
+Section: misc
+Filename: pool/main/g/git-hierarchy/git-hierarchy_5.42_all.deb
+Size: 110248
+SHA256: 6d766ccdf5b71c6a82548b838af72bbc350e7b968f0b6bbdea2c2560531625b4
+SHA1: 77acd5c1320cbecda757dfa694a52c07eb613fc0
+MD5sum: 48c5972f46336c0990e721eb91f57bc9
+Description: Tools to maintain extensions for upstream, in git
+Dgit: 7153752e2081918a07b9c71dbab9b265e9d5727b
+
+Package: mmc-build-system
+Version: 4.13
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 89
 Depends: git-buildpackage, zsh, mmc-shell (>> 2.8), libapt-pkg-perl, libgetopt-long-descriptive-perl
 Conflicts: mmc-shell (= 2.8)
 Priority: extra
 Section: misc
-Filename: pool/main/m/mmc-build-system/mmc-build-system_4.12_all.deb
-Size: 21884
-SHA256: 3c9185092f8451aa470c21aa00e9ee1e55f2d78065dbb8856e1635af26999f28
-SHA1: 8f8558a734a9d898ad0012bba468e90f3564e9bb
-MD5sum: aea46166a8f4a961639621408725f58b
+Filename: pool/main/m/mmc-build-system/mmc-build-system_4.13_all.deb
+Size: 21896
+SHA256: 7165612bcdbf1fa3bd57c85a0263e704bbb3f20c8a16038294dc5fe4ead673cf
+SHA1: a22450902f650f2fcc84a2f400cb0488dba3c6c7
+MD5sum: b11392c8c28dde577277eea02aeee0a7
 Description: collection of shell scripts
-Dgit: d16b60b4c6ae35f03aaf3a90279bc4b35db2bd1c
+Dgit: 876ead90d4475a15a096e9c7704f9d1c4d031e81
 
 Package: mmc-sawfish
 Version: 1.6.11
