@@ -290,20 +290,20 @@ Description: collection of Lisp add-ons for the window manager.
 Dgit: f8e8d1fcb8edba3fad7b756f4fc2b12b2d7974dd
 
 Package: mmc-shell
-Version: 3.44
+Version: 3.53
 Architecture: all
 Maintainer: Michal Maruska <mmaruska@gmail.com>
-Installed-Size: 208
-Depends: zsh, gawk, git (>= 1:2.31.0)
-Recommends: mp3info, mpg123, gst123, systemd-container, alsa-utils, tdb-tools
+Installed-Size: 211
+Depends: zsh, gawk, git (>= 1:2.31.0), mp3info, mpg123
+Recommends: gst123, systemd-container, alsa-utils, tdb-tools
 Conflicts: tt-tools (<< 1.13)
 Priority: extra
 Section: misc
-Filename: pool/main/m/mmc-shell/mmc-shell_3.44_all.deb
-Size: 58512
-SHA256: 5864646d47167021c3d3416c2931f85881a9c37fc969090bb3184180f692cf27
-SHA1: b4809fcf82107bda2e4ea9b49550e71550cb1c2d
-MD5sum: 982765b0ca044faef96eefd9b371077f
+Filename: pool/main/m/mmc-shell/mmc-shell_3.53_all.deb
+Size: 52716
+SHA256: c6a78fed12dc06176b1d8ecaaf49b9b9232b6cfc01a9b78e1e1eb294a0c3525a
+SHA1: efe5aea0aa79e8c8d60190c8b1fccf89519c02ae
+MD5sum: 98c2b241f1b3c4c83a83ea758366bdeb
 Description: collection of shell scripts
-Dgit: a342d4b96d13ad19980b9dcc166bc5961fe7044f
+Dgit: 1d25f2de966f55d3573b4a13047b28cc8119e495
 
