@@ -1,3 +1,39 @@
+Package: fork-plugin
+Version: 2.13.1
+Architecture: amd64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 68
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 11), xserver-xorg-core (>= 2:1.12.1.902-1maruska1)
+Priority: optional
+Section: x11
+Filename: pool/main/f/fork-plugin/fork-plugin_2.13.1_amd64.deb
+Size: 20244
+SHA256: bb6e9878d766123e3491efefbab3b76856e43d91e5bb8d20c65f08be43740957
+SHA1: 994675f090134b2ff68d18769652656e088bbe3d
+MD5sum: 8e081b6f6af257a2faf65cefd810ddf0
+Description: A plugin for the input processing pipeline in Xorg server.
+ Keys can be changed to other keycodes (reasonable only modifiers), when certain pattern is detected:
+ parallelism, or the key is pressed for a long time, or mouse is moved.
+Dgit: 06f165caa4aae3efed9018c8df3bbf3d7eaf5627
+
+Package: fork-plugin-dbgsym
+Source: fork-plugin
+Version: 2.13.1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 235
+Depends: fork-plugin (= 2.13.1)
+Priority: optional
+Section: debug
+Filename: pool/main/f/fork-plugin/fork-plugin-dbgsym_2.13.1_amd64.deb
+Size: 222592
+SHA256: 5b1f391f1a1120fcd0df3943fd40f10854ba99795e826879e93208b77486caba
+SHA1: b66717cfaa16751c1b53032fc061ff7e2c861a33
+MD5sum: a350aa717141b433ffd9594f4dc93f64
+Description: debug symbols for fork-plugin
+Build-Ids: ac003123fd08978bbb1829ed66b46aed7d5739f6
+
 Package: human
 Version: 1.5
 Architecture: amd64
