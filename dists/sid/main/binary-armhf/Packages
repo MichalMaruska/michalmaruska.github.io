@@ -81,3 +81,25 @@ Description: interactive viewer for Graphviz dot files
   * Highlights node/edge under mouse.
 Dgit: 46637cb85db80b208cd36d32ba384eca57f55ecd
 
+Package: xserver-common
+Source: xorg-server
+Version: 2:21.1.7-3-maruska
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 148
+Depends: x11-common, xkb-data, x11-xkb-utils
+Recommends: xfonts-base, xauth
+Replaces: xserver-xorg-core (<< 2:1.5.2)
+Multi-Arch: foreign
+Homepage: https://www.x.org/
+Priority: optional
+Section: x11
+Filename: pool/main/x/xorg-server/xserver-common_21.1.7-3-maruska_all.deb
+Size: 30868
+SHA256: 6b61367565dc3f885ab635789bc2970161c2fa1d41ba50a5ed80154a8ca458c4
+SHA1: d1ea7dc2258602a0d75802a900d980015c87c379
+MD5sum: c843cb0dcbd8779ce02ee8d25ef644b6
+Description: common files used by various X servers
+ This package provides files necessary for all X.Org based X servers.
+Dgit: 036c9923cb231fe5383da1ac22eecf95facf2e48
+
