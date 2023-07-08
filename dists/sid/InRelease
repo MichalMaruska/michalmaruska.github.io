@@ -5,13 +5,13 @@ Origin: maruska
 Suite: unstable
 Codename: sid
 Version: 20.3
-Date: Sat, 08 Jul 2023 21:45:00 UTC
+Date: Sat, 08 Jul 2023 23:02:09 UTC
 Architectures: amd64 i386 armhf x32
 Components: main
 Description: My releases (improved & my own packages) for Sid.
 MD5Sum:
- 28d9440763d1d9876db957f23bdb8317 29040 main/binary-amd64/Packages
- 882aeffe5b174597bf8886d836c13bd4 8895 main/binary-amd64/Packages.gz
+ 22dffbf3c66532ffa0bcab93ed404c34 30160 main/binary-amd64/Packages
+ 3ff5021d333b8745831d7a498589796c 9248 main/binary-amd64/Packages.gz
  7427a5aff00e1b23ae1ebf32523f67a5 147 main/binary-amd64/Release
  3aab023194b148f60b4fdec92875a7ea 1692 main/debian-installer/binary-amd64/Packages
  4bfca09f5a7de9b7350d80f3ae011959 813 main/debian-installer/binary-amd64/Packages.gz
@@ -34,8 +34,8 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
  65e50afc1915bce582cee71f49a3c620 148 main/source/Release
 SHA1:
- 441d8b02a983916811a3af0a7d6abd16cdd95bd4 29040 main/binary-amd64/Packages
- bf021dd6da820a50b9cbe23835a1849ae2c743fd 8895 main/binary-amd64/Packages.gz
+ e63ff442844e962d7a7af368b0689449b9cf2a6c 30160 main/binary-amd64/Packages
+ cee61de607b4a6408a4a8b39fc5168373e516c53 9248 main/binary-amd64/Packages.gz
  7f00f7abb4899d87b4f12901c94f91f98d562345 147 main/binary-amd64/Release
  6f80d945704a04ffb1bae87423d4ae21321c5d4c 1692 main/debian-installer/binary-amd64/Packages
  5820b2835a475d1ef31beaa714abf90288e829ea 813 main/debian-installer/binary-amd64/Packages.gz
@@ -58,8 +58,8 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
  16fd1d7386337a11ec1d4b7d1158b4d420e33286 148 main/source/Release
 SHA256:
- d3d1031da3c1ad885d54338418ddb745e09d245dc92e79e39ff6894bf884e71f 29040 main/binary-amd64/Packages
- 2f470a4f00db721f6486373eae71a2c568d5d5aba08f31bcb157c94356dbc795 8895 main/binary-amd64/Packages.gz
+ 6e9ed2111ef0d6c3731fe8d62e943dcb3fec08c0c1a71fcc07cfcc1a9857a2a9 30160 main/binary-amd64/Packages
+ d05d6c1c90081cc131562208459e809202f39aa6a1fc5bda78e1198cfde535b2 9248 main/binary-amd64/Packages.gz
  dcf53c362ed76856f8c2dfabc9b56e97baabf378318ff620d025854139424a09 147 main/binary-amd64/Release
  16e0645aba6ec66e7b36bf210891bae12364429eb03b80a4e675f45628903be4 1692 main/debian-installer/binary-amd64/Packages
  97ddaa7d07cec11b3bb18b22b765eb1df92beff76ed7faa80347a059817c275c 813 main/debian-installer/binary-amd64/Packages.gz
@@ -83,15 +83,15 @@ SHA256:
  beb3ce8d28e5a86a77829602a63a28ff56b581abb02adf826b6c9bce5ee0250a 148 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCAAdFiEEj5ld3379Nuk8fyGZPAkJW65/ICgFAmSp2N0ACgkQPAkJW65/
-IChadAwAwdE2BIRy6OowucPpz+hUMat++7ZcI6/6Fnish91HCTbmRTODRC297wmm
-hRaugSeZaTG9gx8Saz/xzeGtz9COPvHxLEB/Q/GvN0pAasPducRickXwRfFuT6oB
-JK7uSm8HcjDOR0aybQNIJ/kf/4nd72MB7/xq6qtrzFlZc5l5u8JkoHKZ4UPvgNnC
-+AO+nOi8Tj4H+LInK7O+xW56TRUDyxOjp8ix1a5LcHQC1z2nPWCBaSyQLgltxqVd
-EuLSTSxyXj+sdBuug7wBMN6A/0vausDAXhVuy7W+fUA3hp31xYzGKgvZmQf9cFpl
-2mEn2wHeXkTzFoTeUtRViLiPgLbD+EQLf1MCPXQ2PysA2mcmX80ypmnNARhiRS2y
-GWiVAR6GTNUcxVAtEO4fNNJwd4iGsirSnzK+p0zDveOHKXuTJ0TQK6rB2DZViSrJ
-TCJfPir8r7gf2QhbPN6ibljFGem/a6433A5Iy3NLju6TZ3z5Fvwz33KEdKunugHl
-34wLsu3I
-=jRAs
+iQGzBAEBCAAdFiEEj5ld3379Nuk8fyGZPAkJW65/ICgFAmSp6vIACgkQPAkJW65/
+IChnnwv8ClPjiuCuigKDvO6332DA62wq3Pnoj4YdTXxBWQ5erC0sp3ifBk0jC5fz
+2MqBGBBHeCg3Mxmsz12Tc9zq7spZBKDNBYXHFiJPWHoTC+c0gjg/iqTFvw6CFiCv
+h7gD+eBRANrJNdBh43Q3ui2ix70Y1tfl3Y7BvBpMAzHpHKufiCbkdxhhjNWjvuCi
+W6i0MPYlyyt0B8l3wUXj5gqYeVRBON2c4x1mkPsT1ILiTnP22tKsptEb7loBbqXn
+RlcGFWLw52y7TAz+FZId//mw0E7D7mLkUuHQ5cdB1ZhF571BicW52KrF/20Es9SF
+du1e+o9FsfSKKD5zJnQLIi8bUm/YtgrdtHe1CcaC8+vvRm3g+7idG9vw7BfqR32d
+fj4NVSlQNhaU+vNhNJbRi6ogR8hMxDb50pOGGkx1K1ZhtPYprBwZDfRLuUKki1mZ
+MkIGf79in5vVTqAjEXrNMa4drDdxCPqLBb+EsdVwPd/CTzJ/cvSBYuS0C1EHXNf3
+TIummjKH
+=xxWm
 -----END PGP SIGNATURE-----
