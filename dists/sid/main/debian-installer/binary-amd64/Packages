@@ -1,0 +1,18 @@
+Package: libx11-6-udeb
+Source: libx11
+Version: 2:1.8.6-1-maruska
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 1341
+Depends: libc6-udeb (>= 2.37), libxcb1-udeb (>= 1.12)
+Priority: optional
+Section: debian-installer
+Filename: pool/main/libx/libx11/libx11-6-udeb_1.8.6-1-maruska_amd64.udeb
+Size: 569836
+SHA256: 95b9e3a216baa609b4b17f269e4f7bea35f6b9025db71329b022cda246ac8615
+SHA1: b9eccd980e18ba5e4d415fd3aae3c8a2e37732b1
+MD5sum: dc4583f9afe952a9d4857aa92c4c15ce
+Description: X11 client-side library
+ This is a udeb, or a microdeb, for the debian-installer.
+Dgit: 73ca0e21e3bd1cfa46f66ef89905cd5b2bbfad7e
+

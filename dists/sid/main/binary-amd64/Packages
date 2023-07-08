@@ -33,6 +33,218 @@ MD5sum: 114b75dfba5804cfabde0a72d2bec147
 Description: debug symbols for human
 Build-Ids: 8b9c1738620dd8296ee1610ee790595bbef680a8
 
+Package: libx11-6
+Source: libx11
+Version: 2:1.8.6-1-maruska
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 1389
+Depends: libc6 (>= 2.34), libxcb1 (>= 1.11.1), libx11-data
+Breaks: libx11-xcb1 (<< 2:1.7.0-2)
+Multi-Arch: same
+Priority: optional
+Section: libs
+Filename: pool/main/libx/libx11/libx11-6_1.8.6-1-maruska_amd64.deb
+Size: 581252
+SHA256: 76e3cafd1a82f1ec8085107d8894609a3002f97c5f55ebf68859c5bcabee4da6
+SHA1: b9e6d3d2bcf163a5bb0bf1347ae881beef1a7d8c
+MD5sum: 44c764e25c6ab888f999a3cd8f2271fc
+Description: X11 client-side library
+ This package provides a client interface to the X Window System, otherwise
+ known as 'Xlib'.  It provides a complete API for the basic functions of the
+ window system.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.X.org>
+ .
+ This module can be found at
+ https://gitlab.freedesktop.org/xorg/lib/libX11
+Dgit: 73ca0e21e3bd1cfa46f66ef89905cd5b2bbfad7e
+
+Package: libx11-6-dbgsym
+Source: libx11
+Version: 2:1.8.6-1-maruska
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 1214
+Depends: libx11-6 (= 2:1.8.6-1-maruska)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libx/libx11/libx11-6-dbgsym_1.8.6-1-maruska_amd64.deb
+Size: 1130452
+SHA256: 83f982ab9d712aa100214058b5114546f2e41692f9fc2c49b726190cfa7278ad
+SHA1: ec6d3bb53188503ff654854d6ffb3a0524a467fb
+MD5sum: 81d27a591e76682f04f5fa580fab3e80
+Description: debug symbols for libx11-6
+Build-Ids: 281257c204d94134653cd872a16d98e201b499c6
+
+Package: libx11-data
+Source: libx11
+Version: 2:1.8.6-1-maruska
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 1349
+Multi-Arch: foreign
+Priority: optional
+Section: x11
+Filename: pool/main/libx/libx11/libx11-data_1.8.6-1-maruska_all.deb
+Size: 106776
+SHA256: cca9146098e347ac75d312b477aa0d504caa7fad12e01b49cb6fac3d43185391
+SHA1: 20285461ec84e094c824d3ff87cb3671153c5c28
+MD5sum: 0a6e26272133b15ce07721c5ccfe42b5
+Description: X11 client-side library
+ This package provides the locale data files for libx11.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.X.org>
+ .
+ This module can be found at
+ https://gitlab.freedesktop.org/xorg/lib/libX11
+Dgit: 73ca0e21e3bd1cfa46f66ef89905cd5b2bbfad7e
+
+Package: libx11-dev
+Source: libx11
+Version: 2:1.8.6-1-maruska
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 2430
+Depends: libx11-6 (= 2:1.8.6-1-maruska), libxau-dev, libxdmcp-dev, x11proto-dev (>= 2019.2-1), xtrans-dev, libxcb1-dev
+Suggests: libx11-doc
+Replaces: x11proto-dev (<< 2019.2)
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Filename: pool/main/libx/libx11/libx11-dev_1.8.6-1-maruska_amd64.deb
+Size: 656524
+SHA256: e1ef90f5b811d56330df6b40aa4e994dc7e7fc21c4a79ea81da5d5bbedeb6c88
+SHA1: 92386fa8d758af3ab568848b1e46fb4482d1364c
+MD5sum: 44a9a641be30aa68b5a6396cb86e394f
+Description: X11 client-side library (development headers)
+ This package provides a client interface to the X Window System, otherwise
+ known as 'Xlib'.  It provides a complete API for the basic functions of the
+ window system.
+ .
+ This package contains the development headers for the library found in
+ libx11-6. Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.X.org>
+ .
+ This module can be found at
+ https://gitlab.freedesktop.org/xorg/lib/libX11
+Dgit: 73ca0e21e3bd1cfa46f66ef89905cd5b2bbfad7e
+
+Package: libx11-doc
+Source: libx11
+Version: 2:1.8.6-1-maruska
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 9994
+Multi-Arch: foreign
+Priority: optional
+Section: doc
+Filename: pool/main/libx/libx11/libx11-doc_1.8.6-1-maruska_all.deb
+Size: 2023580
+SHA256: 87f713dea531d9a659170e933302c57e2afe522039ab218cdc7ec1e147da2cb2
+SHA1: 506c2ceb82b524aa1773179b4d06ec6300a588e2
+MD5sum: 443f32531d2d4721e7a221da633f6100
+Description: X11 client-side library (development documentation)
+ This package provides a client interface to the X Window System, otherwise
+ known as 'Xlib'.  It provides a complete API for the basic functions of the
+ window system.
+ .
+ This package contains supplemental documentation for the library found in
+ libx11-6. Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.X.org>
+ .
+ This module can be found at
+ https://gitlab.freedesktop.org/xorg/lib/libX11
+Dgit: 73ca0e21e3bd1cfa46f66ef89905cd5b2bbfad7e
+
+Package: libx11-xcb-dev
+Source: libx11
+Version: 2:1.8.6-1-maruska
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 71
+Depends: libx11-xcb1 (= 2:1.8.6-1-maruska), libxcb1-dev, libx11-dev
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Filename: pool/main/libx/libx11/libx11-xcb-dev_1.8.6-1-maruska_amd64.deb
+Size: 12092
+SHA256: 1e212fc21179322b6b78042b2da09d71b05051b0f25f94d714f2f74f2b513db5
+SHA1: a3299f67cb028ef7aa78e81122a9797ba6e5625f
+MD5sum: 19ec80252e0f6aa82efe7acde7f9d1d3
+Description: Xlib/XCB interface library (development headers)
+ libX11-xcb provides functions needed by clients which take advantage of
+ Xlib/XCB to mix calls to both Xlib and XCB over the same X connection.
+ .
+ This package contains the development headers for the library found in
+ libx11-xcb1. Non-developers likely have little use for this package.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.X.org>
+ .
+ More information about XCB can be found at:
+ <URL:https://xcb.freedesktop.org>
+ .
+ This module can be found at
+ https://gitlab.freedesktop.org/xorg/lib/libX11
+Dgit: 73ca0e21e3bd1cfa46f66ef89905cd5b2bbfad7e
+
+Package: libx11-xcb1
+Source: libx11
+Version: 2:1.8.6-1-maruska
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 74
+Depends: libx11-6 (= 2:1.8.6-1-maruska)
+Multi-Arch: same
+Priority: optional
+Section: libs
+Filename: pool/main/libx/libx11/libx11-xcb1_1.8.6-1-maruska_amd64.deb
+Size: 9920
+SHA256: 26b67cd80e7d627665c42461c187a157e2c11b930a51d078373c04ebcb784bf1
+SHA1: 63a60a7337d247d879bd6235125c39288c79021a
+MD5sum: c374c25d66b0c90acd1f666f9c1a781e
+Description: Xlib/XCB interface library
+ libX11-xcb provides functions needed by clients which take advantage of
+ Xlib/XCB to mix calls to both Xlib and XCB over the same X connection.
+ .
+ More information about X.Org can be found at:
+ <URL:https://www.X.org>
+ .
+ More information about XCB can be found at:
+ <URL:https://xcb.freedesktop.org>
+ .
+ This module can be found at
+ https://gitlab.freedesktop.org/xorg/lib/libX11
+Dgit: 73ca0e21e3bd1cfa46f66ef89905cd5b2bbfad7e
+
+Package: libx11-xcb1-dbgsym
+Source: libx11
+Version: 2:1.8.6-1-maruska
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 29
+Depends: libx11-xcb1 (= 2:1.8.6-1-maruska)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libx/libx11/libx11-xcb1-dbgsym_1.8.6-1-maruska_amd64.deb
+Size: 16712
+SHA256: ddbc017541524d712840dfe76599ce34dd1f0a3b5616b64914028f55f02b3678
+SHA1: ea546f469fb90f210b2fb7f76e5f2cd007afe87d
+MD5sum: 8a05aa29b441664f9a6d50699070f2bf
+Description: debug symbols for libx11-xcb1
+Build-Ids: 27bca1aecba57fa334b051d1426ec6c34e723c76
+
 Package: rxvt-beta
 Version: 2.7.20-maruska
 Architecture: amd64
@@ -90,4 +302,38 @@ Description: interactive viewer for Graphviz dot files
   * Animated jumping between nodes.
   * Highlights node/edge under mouse.
 Dgit: 46637cb85db80b208cd36d32ba384eca57f55ecd
+
+Package: xplugin
+Version: 1.5
+Architecture: amd64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 23
+Depends: libc6 (>= 2.34), libx11-6 (>= 2:1.6.6-1-maruska)
+Priority: optional
+Section: x11
+Filename: pool/main/x/xplugin/xplugin_1.5_amd64.deb
+Size: 4076
+SHA256: 743447cfe7b7ccf846f0e97f4db2ef75dfeefcf06c7bed8fdd796516d81944b3
+SHA1: 6dcaf36f8513146168e676116745a970b768dc7c
+MD5sum: 027ec985deaeacf20002735ffb3aa431
+Description: Command to load the input event processing plugin in Xorg server.
+Dgit: b083bc2e73fca27a9d0c4d0a1d29fcc8e2e31d97
+
+Package: xplugin-dbgsym
+Source: xplugin
+Version: 1.5
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 20
+Depends: xplugin (= 1.5)
+Priority: optional
+Section: debug
+Filename: pool/main/x/xplugin/xplugin-dbgsym_1.5_amd64.deb
+Size: 6284
+SHA256: a9e2a35b460a4d0467a938d8df071a63082fd6019bc01fd4b8cc0af80278c1dd
+SHA1: eefc49f8fd2751130042afa32e52077dfebcc705
+MD5sum: d81fde97feb035a64ce2a44f60a20d2d
+Description: debug symbols for xplugin
+Build-Ids: 789fffbe3ee9d87809af7a6ce8df7b9317160811
 
