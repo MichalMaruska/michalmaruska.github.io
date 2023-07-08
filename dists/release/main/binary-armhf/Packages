@@ -1,3 +1,19 @@
+Package: dircolors
+Version: 1.7
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 35
+Depends: emacs22 | emacsen, emacsen-common (>= 2.0.8)
+Priority: extra
+Section: editors
+Filename: pool/main/d/dircolors/dircolors_1.7_all.deb
+Size: 5736
+SHA256: 665ae349c6b43b63b605d1f21f0cdb99272d5cb82db5462b972a970091d94258
+SHA1: d766749bf8be94e1336b5c1b70c7e23017d77e7c
+MD5sum: 9f84a96dd4237a318fcf76387661ea46
+Description: ls --color inside emacs
+Dgit: d380871952ca7f608ad024a8857836ab12e7088d
+
 Package: git-hierarchy
 Version: 5.42
 Architecture: all
@@ -13,6 +29,38 @@ SHA1: 77acd5c1320cbecda757dfa694a52c07eb613fc0
 MD5sum: 48c5972f46336c0990e721eb91f57bc9
 Description: Tools to maintain extensions for upstream, in git
 Dgit: 7153752e2081918a07b9c71dbab9b265e9d5727b
+
+Package: maruska-misc
+Version: 2.7.2
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 69
+Priority: extra
+Section: misc
+Filename: pool/main/m/maruska-misc/maruska-misc_2.7.2_all.deb
+Size: 8776
+SHA256: abaf6eab7124d72587308bd6a536c2182637b110a9ec1b1990174189e81d2d90
+SHA1: d757856144ff35bd6d297ed686b8ae55602665b8
+MD5sum: 59f30dfe8078949ca8500e34b56d5064
+Description: various data files (sed, awk, keymaps...)
+Dgit: e3dc845a2229c294a1137a0b73978c48b7e4e3fe
+
+Package: maruska-preference
+Version: 3.54
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 225
+Depends: zsh, mmc-zsh, mmc-shell (>= 3.28), file
+Recommends: gauche-eog, git-core, gitk, rlwrap, devscripts, mempeak, human, less, highlight, sudo, acpi-support-base, acpi-support, acpi-fakekey, brightnessctl, python3-docutils
+Priority: extra
+Section: shells
+Filename: pool/main/m/maruska-preference/maruska-preference_3.54_all.deb
+Size: 34340
+SHA256: b4e86f45758334b4188a89397bf1e740697a00e6a0a321d7410a249d5c109493
+SHA1: f1b722d87cd901d34d28ed2b0907ae3780a71e3e
+MD5sum: 5fbc5f891feb4d513195c7e802d83f93
+Description: some configs.
+Dgit: 86455985f4e5eedcda73ab646ba65b861acc9db8
 
 Package: mmc-build-system
 Version: 4.13
@@ -31,6 +79,41 @@ MD5sum: b11392c8c28dde577277eea02aeee0a7
 Description: collection of shell scripts
 Dgit: 876ead90d4475a15a096e9c7704f9d1c4d031e81
 
+Package: mmc-emacs
+Version: 2.11
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 527
+Depends: emacsen
+Enhances: gnuserv
+Priority: extra
+Section: editors
+Filename: pool/main/m/mmc-emacs/mmc-emacs_2.11_all.deb
+Size: 113144
+SHA256: 33489c080024f3fbf362b5353d8d3fabaaa5da74dcfaa6a2150077d2df7b061e
+SHA1: 060bb26376c8d08c770a9a9b4eba88ed9216f740
+MD5sum: bf653a34eb34ccdb187aacd4411b75d7
+Description: Michal Maruska handy elisp function (general utility)
+ This should probably be only generically useful code, without
+ anything strictly personal.
+Dgit: 9eb3db22bb27965c89f4ad1e3d271676214a9478
+
+Package: mmc-emacs-config
+Version: 1.16
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 97
+Depends: emacsen
+Priority: extra
+Section: editors
+Filename: pool/main/m/mmc-emacs-config/mmc-emacs-config_1.16_all.deb
+Size: 20472
+SHA256: 66c046817b04dfbeacd193eb4e60c2cc58332e1e069a096d9db3670147098633
+SHA1: 6cc1c191a00745bf1801af88b556b5a2a900a610
+MD5sum: 68428d3203047978ee1f8b05d8d27d5b
+Description: mmc's configuration. not for general use!?
+Dgit: beb7a806c5f7c4717f3f5dfe72fc05b666d5580e
+
 Package: mmc-sawfish
 Version: 1.6.11
 Architecture: all
@@ -48,7 +131,7 @@ Description: collection of Lisp add-ons for the window manager.
 Dgit: f8e8d1fcb8edba3fad7b756f4fc2b12b2d7974dd
 
 Package: mmc-shell
-Version: 3.53
+Version: 3.54
 Architecture: all
 Maintainer: Michal Maruska <mmaruska@gmail.com>
 Installed-Size: 211
@@ -57,11 +140,28 @@ Recommends: gst123, systemd-container, alsa-utils, tdb-tools
 Conflicts: tt-tools (<< 1.13)
 Priority: extra
 Section: misc
-Filename: pool/main/m/mmc-shell/mmc-shell_3.53_all.deb
-Size: 52716
-SHA256: c6a78fed12dc06176b1d8ecaaf49b9b9232b6cfc01a9b78e1e1eb294a0c3525a
-SHA1: efe5aea0aa79e8c8d60190c8b1fccf89519c02ae
-MD5sum: 98c2b241f1b3c4c83a83ea758366bdeb
+Filename: pool/main/m/mmc-shell/mmc-shell_3.54_all.deb
+Size: 52748
+SHA256: 97e06f6f35a7ff5a5154d90ab370967b3c58dda3ee2d1e9fe4799166025ef086
+SHA1: e5ced1272458ddf16c0875ee9b69eae38bd63dd3
+MD5sum: 5659afb7570d09cd3cd1e6a0202a9ccb
 Description: collection of shell scripts
-Dgit: 1d25f2de966f55d3573b4a13047b28cc8119e495
+Dgit: d512a03799422a8814e435fae778477c65ca61dc
+
+Package: mmc-zsh
+Version: 2.10
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 104
+Depends: zsh, zsh-syntax-highlighting, lsb-release
+Priority: extra
+Section: shells
+Filename: pool/main/m/mmc-zsh/mmc-zsh_2.10_all.deb
+Size: 28736
+SHA256: 5f4d90ca59dc08fb07bf7cd4fee89560bfa0cb7cf8f0ac81d2028321d077100e
+SHA1: bb476ac1fc64843a582d122d25c01b89571b3147
+MD5sum: b5cdaefd8284384e655d6f4e9e0bcf0b
+Description: Michal Maruska's convenient zsh files
+ My site-wise configs for zsh (line editing widgets)...
+Dgit: ce6feee43ac1383065216e5f7cc513e3a30f4271
 

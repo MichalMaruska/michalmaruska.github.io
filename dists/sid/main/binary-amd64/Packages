@@ -1,3 +1,38 @@
+Package: human
+Version: 1.5
+Architecture: amd64
+Maintainer: Michal Maruska <maruska@gmail.com>
+Installed-Size: 23
+Depends: libc6 (>= 2.34)
+Priority: extra
+Section: utils
+Filename: pool/main/h/human/human_1.5_amd64.deb
+Size: 4796
+SHA256: 7d9f877d6740c2302eecc970ba1cd28782faa7f8017316467849f997a454f11f
+SHA1: 1c08d3db53101381e0708efbe23ddc1759df396a
+MD5sum: 152e4008c596ac17ef61b6a56090a433
+Description: filter - replace numbers on each line with human notation
+ stolen from some GNU utility  ls(1) maybe
+Dgit: 355cca667f0f44b0563f8776ccadfb1e1bda7d47
+
+Package: human-dbgsym
+Source: human
+Version: 1.5
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Michal Maruska <maruska@gmail.com>
+Installed-Size: 24
+Depends: human (= 1.5)
+Priority: optional
+Section: debug
+Filename: pool/main/h/human/human-dbgsym_1.5_amd64.deb
+Size: 10280
+SHA256: 7400fc078674b2ce2c781da51ac3b19de1592547fec77f203146ccdf715fda5a
+SHA1: 65374f9358d97976bb40ca6c35cb1417b717aaa0
+MD5sum: 114b75dfba5804cfabde0a72d2bec147
+Description: debug symbols for human
+Build-Ids: 8b9c1738620dd8296ee1610ee790595bbef680a8
+
 Package: rxvt-beta
 Version: 2.7.20-maruska
 Architecture: amd64
