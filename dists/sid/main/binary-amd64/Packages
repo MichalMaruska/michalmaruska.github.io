@@ -69,6 +69,41 @@ MD5sum: 114b75dfba5804cfabde0a72d2bec147
 Description: debug symbols for human
 Build-Ids: 8b9c1738620dd8296ee1610ee790595bbef680a8
 
+Package: libfork
+Version: 1.7.4
+Architecture: amd64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 42
+Depends: libc6 (>= 2.34), libx11-6 (>= 2:1.5.0-1maruska1), fork-plugin
+Priority: optional
+Section: x11
+Filename: pool/main/libf/libfork/libfork_1.7.4_amd64.deb
+Size: 6200
+SHA256: 1a8cb7007b8ba5704b1deec7325ba11a87ca1aac8e941b979dd5ac190690a1af
+SHA1: 6bfffd2f63f3dbd5307122a2969735104d55d7b6
+MD5sum: 9ebbf29c33d4f2199d36a06e2e6e6795
+Description: library with calls specific to commanding
+ (configuring and getting information) the Fork plugin.
+Dgit: 7c4eb842c1997d0ce2fa2eaabde57bb29f365a55
+
+Package: libfork-dbgsym
+Source: libfork
+Version: 1.7.4
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 32
+Depends: libfork (= 1.7.4)
+Priority: optional
+Section: debug
+Filename: pool/main/libf/libfork/libfork-dbgsym_1.7.4_amd64.deb
+Size: 11988
+SHA256: 4382c546ae519d7c92e45492869b3582c945937313794afc3f297e2ae6eb8e5a
+SHA1: 67fa5b6288b960a2f49e438d55692fdbdc339270
+MD5sum: b99da10f87897cc3c3be2ab1b01f6f8e
+Description: debug symbols for libfork
+Build-Ids: 7c5350859fe2146711190c1e3f0620956ae4e7ce a99357ca9dceac0314d30526bf66d3bc3c0061ca
+
 Package: libx11-6
 Source: libx11
 Version: 2:1.8.6-1-maruska
