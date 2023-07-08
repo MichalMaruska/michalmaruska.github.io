@@ -316,6 +316,41 @@ MD5sum: 8a05aa29b441664f9a6d50699070f2bf
 Description: debug symbols for libx11-xcb1
 Build-Ids: 27bca1aecba57fa334b051d1426ec6c34e723c76
 
+Package: mempeak
+Version: 0.29
+Architecture: amd64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 53
+Depends: libc6 (>= 2.34)
+Priority: extra
+Section: utils
+Filename: pool/main/m/mempeak/mempeak_0.29_amd64.deb
+Size: 13052
+SHA256: f81459e3722a657b20f214dd398ec675abaec23b70f85e6b375795ad930baa4d
+SHA1: 3b3847fa25337afb318ff646964fa55a8affebdb
+MD5sum: f082f4548e3d1187501528c8022dd028
+Description: memory usage monitor
+ colorful, text-terminal based.
+Dgit: fb2f226824e90a59484bb8fdd9aa915367a3c40a
+
+Package: mempeak-dbgsym
+Source: mempeak
+Version: 0.29
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 31
+Depends: mempeak (= 0.29)
+Priority: optional
+Section: debug
+Filename: pool/main/m/mempeak/mempeak-dbgsym_0.29_amd64.deb
+Size: 15104
+SHA256: 83c6c585a1778043694e548f4f8681dd20dfaa879878b2c01dbeaf5206567baf
+SHA1: 16d02d48082067341b078f199638fc0b576f7b81
+MD5sum: 4006d8223b8c359a118aa0b5abf064cc
+Description: debug symbols for mempeak
+Build-Ids: b6a83c672400f1c6320e14a3bd862148a646cd70
+
 Package: rxvt-beta
 Version: 2.7.20-maruska
 Architecture: amd64
