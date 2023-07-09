@@ -15,20 +15,20 @@ Description: ls --color inside emacs
 Dgit: d380871952ca7f608ad024a8857836ab12e7088d
 
 Package: git-hierarchy
-Version: 5.42
+Version: 5.43
 Architecture: all
 Maintainer: Michal Maruska <mmaruska@gmail.com>
-Installed-Size: 501
+Installed-Size: 505
 Depends: git, gitk (>= 1:2.19.1-1-maruska2), zsh, mmc-shell (>= 3.47), graphviz, imagemagick, bsdmainutils, xdot (>= 1.2-2-maruska)
 Priority: extra
 Section: misc
-Filename: pool/main/g/git-hierarchy/git-hierarchy_5.42_all.deb
-Size: 110248
-SHA256: 6d766ccdf5b71c6a82548b838af72bbc350e7b968f0b6bbdea2c2560531625b4
-SHA1: 77acd5c1320cbecda757dfa694a52c07eb613fc0
-MD5sum: 48c5972f46336c0990e721eb91f57bc9
+Filename: pool/main/g/git-hierarchy/git-hierarchy_5.43_all.deb
+Size: 111812
+SHA256: 8e045a3c9cfc1ff67dafaa15b84e71f795f5552d51853641f392dc6fe9d8c3df
+SHA1: 0c6f148778957d00e2b362e601a05fffc0b969eb
+MD5sum: 7ccddb534fc70439321dae396e875f1c
 Description: Tools to maintain extensions for upstream, in git
-Dgit: 7153752e2081918a07b9c71dbab9b265e9d5727b
+Dgit: ab19b564b0f62fea4a7be7333e27c2b8d82078f7
 
 Package: maruska-misc
 Version: 2.7.2
