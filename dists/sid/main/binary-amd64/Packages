@@ -34,6 +34,421 @@ MD5sum: a350aa717141b433ffd9594f4dc93f64
 Description: debug symbols for fork-plugin
 Build-Ids: ac003123fd08978bbb1829ed66b46aed7d5739f6
 
+Package: git
+Version: 1:2.40.1-1-maruska
+Architecture: amd64
+Maintainer: Jonathan Nieder <jrnieder@gmail.com>
+Installed-Size: 44972
+Depends: libc6 (>= 2.34), libcurl3-gnutls (>= 7.56.1), libexpat1 (>= 2.0.1), libpcre2-8-0 (>= 10.34), zlib1g (>= 1:1.2.2), perl, liberror-perl, git-man (>> 1:2.40.1-1), git-man (<< 1:2.40.1-1-.)
+Recommends: ca-certificates, patch, less, ssh-client
+Suggests: gettext-base, git-daemon-run | git-daemon-sysvinit, git-doc, git-email, git-gui, gitk, gitweb, git-cvs, git-mediawiki, git-svn
+Breaks: bash-completion (<< 1:1.90-1), cogito (<= 0.18.2+), dgit (<< 5.1~), git-buildpackage (<< 0.6.5), git-el (<< 1:2.32.0~rc2-1~), gitosis (<< 0.2+20090917-7), gitpkg (<< 0.15), guilt (<< 0.33), openssh-client (<< 1:6.8), stgit (<< 0.15), stgit-contrib (<< 0.15)
+Provides: git-completion, git-core
+Multi-Arch: foreign
+Homepage: https://git-scm.com/
+Priority: optional
+Section: vcs
+Filename: pool/main/g/git/git_2.40.1-1-maruska_amd64.deb
+Size: 7289420
+SHA256: c5c42658b8308399302fb7b5bffe8a1d9ec9102c88852929c5443a69328206bc
+SHA1: ce83d85d402e62b4d04842a476ef1b64971b3bc9
+MD5sum: c5bf6411a3dd67f0a467d782c0040cc3
+Description: fast, scalable, distributed revision control system
+ Git is popular version control system designed to handle very large
+ projects with speed and efficiency; it is used for many high profile
+ open source projects, most notably the Linux kernel.
+ .
+ Git falls in the category of distributed source code management tools.
+ Every Git working directory is a full-fledged repository with full
+ revision tracking capabilities, not dependent on network access or a
+ central server.
+ .
+ This package provides the git main components with minimal dependencies.
+ Additional functionality, e.g. a graphical user interface and revision
+ tree visualizer, tools for interoperating with other VCS's, or a web
+ interface, is provided as separate git* packages.
+Dgit: 014d439edd530e04a8e714dbe48df91895b358e6
+
+Package: git-all
+Source: git
+Version: 1:2.40.1-1-maruska
+Architecture: all
+Maintainer: Jonathan Nieder <jrnieder@gmail.com>
+Installed-Size: 988
+Depends: git (>> 1:2.40.1-1), git (<< 1:2.40.1-1-.), git-doc, git-cvs, git-mediawiki, git-svn, git-email, git-gui, gitk, gitweb
+Suggests: git-daemon-run | git-daemon-sysvinit
+Multi-Arch: foreign
+Homepage: https://git-scm.com/
+Priority: optional
+Section: vcs
+Filename: pool/main/g/git/git-all_2.40.1-1-maruska_all.deb
+Size: 992384
+SHA256: ba7ba3e13c91097270719cd70651994dc89a9b2e7f62ff5c52081e1bbcaf4f86
+SHA1: 5335e6c874dffdfd0c8d14b1db48942137851ff4
+MD5sum: 916545e2af67c50d252d103d754a7a78
+Description: fast, scalable, distributed revision control system (all subpackages)
+ Git is popular version control system designed to handle very large
+ projects with speed and efficiency; it is used for many high profile
+ open source projects, most notably the Linux kernel.
+ .
+ Git falls in the category of distributed source code management tools.
+ Every Git working directory is a full-fledged repository with full
+ revision tracking capabilities, not dependent on network access or a
+ central server.
+ .
+ This is a dummy package which brings in all subpackages.
+Dgit: 014d439edd530e04a8e714dbe48df91895b358e6
+
+Package: git-daemon-run
+Source: git
+Version: 1:2.40.1-1-maruska
+Architecture: all
+Maintainer: Jonathan Nieder <jrnieder@gmail.com>
+Installed-Size: 1000
+Depends: git (>> 1:2.40.1-1), git (<< 1:2.40.1-1-.), runit, adduser
+Conflicts: git-daemon-sysvinit
+Multi-Arch: foreign
+Homepage: https://git-scm.com/
+Priority: optional
+Section: vcs
+Filename: pool/main/g/git/git-daemon-run_2.40.1-1-maruska_all.deb
+Size: 993952
+SHA256: 627a7a8790b32f5662defcb47246cc24c1e8b39786b8ab43dd2ab0613c0278c2
+SHA1: 2985e3c0ef8fa38824a4ab9721be2c02b0846f51
+MD5sum: bb1f8396650e1ac9a61205d09b8242a4
+Description: fast, scalable, distributed revision control system (git-daemon service)
+ Git is popular version control system designed to handle very large
+ projects with speed and efficiency; it is used for many high profile
+ open source projects, most notably the Linux kernel.
+ .
+ Git falls in the category of distributed source code management tools.
+ Every Git working directory is a full-fledged repository with full
+ revision tracking capabilities, not dependent on network access or a
+ central server.
+ .
+ git-daemon, as provided by the git package, is a simple server for git
+ repositories, ideally suited for read-only updates, i.e. pulling from git
+ repositories through the network.  This package provides a runit service
+ for running git-daemon permanently.  This configuration is simpler and
+ more reliable than git-daemon-sysvinit, at a cost of being less
+ familiar for administrators accustomed to sysvinit.
+Dgit: 014d439edd530e04a8e714dbe48df91895b358e6
+
+Package: git-daemon-sysvinit
+Source: git
+Version: 1:2.40.1-1-maruska
+Architecture: all
+Maintainer: Jonathan Nieder <jrnieder@gmail.com>
+Installed-Size: 1004
+Depends: git (>> 1:2.40.1-1), git (<< 1:2.40.1-1-.), adduser, lsb-base (>= 3.0-6)
+Conflicts: git-daemon-run
+Multi-Arch: foreign
+Homepage: https://git-scm.com/
+Priority: optional
+Section: vcs
+Filename: pool/main/g/git/git-daemon-sysvinit_2.40.1-1-maruska_all.deb
+Size: 995180
+SHA256: 82e9b1afad45d051678a17c4e8e3fc9baa275bcda3d898489198ae112c14b268
+SHA1: 32876cb989a5cc422d077e362e4d8d69d535f1bb
+MD5sum: bb30a5e9b448a38e6217309eb79e8123
+Description: fast, scalable, distributed revision control system (git-daemon service)
+ Git is popular version control system designed to handle very large
+ projects with speed and efficiency; it is used for many high profile
+ open source projects, most notably the Linux kernel.
+ .
+ Git falls in the category of distributed source code management tools.
+ Every Git working directory is a full-fledged repository with full
+ revision tracking capabilities, not dependent on network access or a
+ central server.
+ .
+ git-daemon, as provided by the git package, is a simple server for git
+ repositories, ideally suited for read-only updates, i.e. pulling from git
+ repositories through the network.  This package provides a sysvinit service
+ for running git-daemon permanently.  Unlike git-daemon-run, this
+ package provides the usual sysvinit service management commands
+ ("service git-daemon start/stop") for git-daemon.
+Dgit: 014d439edd530e04a8e714dbe48df91895b358e6
+
+Package: git-dbgsym
+Source: git
+Version: 1:2.40.1-1-maruska
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Jonathan Nieder <jrnieder@gmail.com>
+Installed-Size: 45733
+Depends: git (= 1:2.40.1-1-maruska)
+Priority: optional
+Section: debug
+Filename: pool/main/g/git/git-dbgsym_2.40.1-1-maruska_amd64.deb
+Size: 44548420
+SHA256: 620a3505fb1c92663b991230c25fcf570b977c933ed31fffa826879bb80b897d
+SHA1: 7cb6e6ae301340d7b3d38ec19e3bf7bd8a912393
+MD5sum: 2815db0fb9311b3391cbef8ee8fb209e
+Description: debug symbols for git
+Build-Ids: 17b4ce8fe97537b30f7431bbcff20f2e38ae72af 1a3263b414e76b8508fab7bd6ce4bfd9e7078e33 566c6d2504a8299432d0b39f6bd560cf3796039c 5bd44f3d1c9eac8c0063cec5a5fc2c8d85747da9 75b7c9ffc0e86047eab55f15e2ab12b676d7b9db 8a2e96d6559e0954b4eca22b127ad146b92842a1 dca30429d591ec12436f8eada42406d5c42a1a46 e101b2b210954320025ed8b93279e4676e292615 e451293fdc77e891ab67bf0eb39dcf1483c05230 fce7e37c96d1202636ac9006650e15113e380d10
+
+Package: git-doc
+Source: git
+Version: 1:2.40.1-1-maruska
+Architecture: all
+Maintainer: Jonathan Nieder <jrnieder@gmail.com>
+Installed-Size: 13068
+Suggests: git, git-cvs, git-svn, git-email, gitk, gitweb
+Multi-Arch: foreign
+Homepage: https://git-scm.com/
+Priority: optional
+Section: doc
+Filename: pool/main/g/git/git-doc_2.40.1-1-maruska_all.deb
+Size: 2171160
+SHA256: e62042b1907ed61feb2d9b352acfc9a4a4f5fe1b1c1edd3283134fd074c2bbed
+SHA1: 78eec88372ec6dbffe01ea986a89e309f524c0a8
+MD5sum: 0248e93539ad8ff8a2a489f5ab0499bd
+Description: fast, scalable, distributed revision control system (documentation)
+ Git is popular version control system designed to handle very large
+ projects with speed and efficiency; it is used for many high profile
+ open source projects, most notably the Linux kernel.
+ .
+ Git falls in the category of distributed source code management tools.
+ Every Git working directory is a full-fledged repository with full
+ revision tracking capabilities, not dependent on network access or a
+ central server.
+ .
+ This package provides the documentation.
+Dgit: 014d439edd530e04a8e714dbe48df91895b358e6
+
+Package: git-email
+Source: git
+Version: 1:2.40.1-1-maruska
+Architecture: all
+Maintainer: Jonathan Nieder <jrnieder@gmail.com>
+Installed-Size: 1063
+Depends: git (>> 1:2.40.1-1), git (<< 1:2.40.1-1-.)
+Recommends: libemail-valid-perl, libmailtools-perl, perl (>> 5.21.5) | libnet-smtp-ssl-perl, libauthen-sasl-perl, libio-socket-ssl-perl (>= 1.951)
+Suggests: git-doc
+Multi-Arch: foreign
+Homepage: https://git-scm.com/
+Priority: optional
+Section: vcs
+Filename: pool/main/g/git/git-email_2.40.1-1-maruska_all.deb
+Size: 1020200
+SHA256: 8c0524944cb83d959783ff897aeff131c174dcbe36e115941af3c1c958faf197
+SHA1: aea15d3e1ebe9e83fb8f7d2c3e6d654b2a04b9bc
+MD5sum: 01dea0e5f9d6faa73caa429ee5caefb2
+Description: fast, scalable, distributed revision control system (email add-on)
+ Git is popular version control system designed to handle very large
+ projects with speed and efficiency; it is used for many high profile
+ open source projects, most notably the Linux kernel.
+ .
+ Git falls in the category of distributed source code management tools.
+ Every Git working directory is a full-fledged repository with full
+ revision tracking capabilities, not dependent on network access or a
+ central server.
+ .
+ This package provides the git-send-email program for sending series of
+ patch emails.
+Dgit: 014d439edd530e04a8e714dbe48df91895b358e6
+
+Package: git-gui
+Source: git
+Version: 1:2.40.1-1-maruska
+Architecture: all
+Maintainer: Jonathan Nieder <jrnieder@gmail.com>
+Installed-Size: 2409
+Depends: git (>> 1:2.40.1-1), git (<< 1:2.40.1-1-.), tk
+Recommends: gitk
+Suggests: git-doc, aspell, meld
+Multi-Arch: foreign
+Homepage: https://git-scm.com/
+Priority: optional
+Section: vcs
+Filename: pool/main/g/git/git-gui_2.40.1-1-maruska_all.deb
+Size: 1211192
+SHA256: f22b4e8ea5a8f6bcca69600567b9e56624f4a392468de72b4cfb7879019db680
+SHA1: 06712995c69246f1c64252764d33da2d2cdce155
+MD5sum: de9d1e52009457ce1fd5b745a5e6ecf5
+Description: fast, scalable, distributed revision control system (GUI)
+ Git is popular version control system designed to handle very large
+ projects with speed and efficiency; it is used for many high profile
+ open source projects, most notably the Linux kernel.
+ .
+ Git falls in the category of distributed source code management tools.
+ Every Git working directory is a full-fledged repository with full
+ revision tracking capabilities, not dependent on network access or a
+ central server.
+ .
+ This package provides the git graphical user interface.
+ .
+ If aspell is installed, it can check the spelling of commit messages
+ as the user types.
+ .
+ If meld is installed, it can be used for displaying diffs and for
+ interactive merge conflict resolution.
+Dgit: 014d439edd530e04a8e714dbe48df91895b358e6
+
+Package: git-man
+Source: git
+Version: 1:2.40.1-1-maruska
+Architecture: all
+Maintainer: Jonathan Nieder <jrnieder@gmail.com>
+Installed-Size: 2124
+Multi-Arch: foreign
+Homepage: https://git-scm.com/
+Priority: optional
+Section: doc
+Filename: pool/main/g/git/git-man_2.40.1-1-maruska_all.deb
+Size: 2073508
+SHA256: 895ac6d336b136429bf8b43c79f8412e00df9fe1c7b439cbe6c683fdf6ca5dcc
+SHA1: 9e6dc6c82b96c5cbdb756294faf720c00345d4b1
+MD5sum: 44c7c65733b051db2d7f51a70f5bb1a8
+Description: fast, scalable, distributed revision control system (manual pages)
+ Git is popular version control system designed to handle very large
+ projects with speed and efficiency; it is used for many high profile
+ open source projects, most notably the Linux kernel.
+ .
+ Git falls in the category of distributed source code management tools.
+ Every Git working directory is a full-fledged repository with full
+ revision tracking capabilities, not dependent on network access or a
+ central server.
+ .
+ This package provides reference documentation for use by the 'man'
+ utility and the 'git help' command.
+Dgit: 014d439edd530e04a8e714dbe48df91895b358e6
+
+Package: git-mediawiki
+Source: git
+Version: 1:2.40.1-1-maruska
+Architecture: all
+Maintainer: Jonathan Nieder <jrnieder@gmail.com>
+Installed-Size: 1048
+Depends: git (>> 1:2.40.1-1), git (<< 1:2.40.1-1-.), libmediawiki-api-perl (>= 0.39), liblwp-protocol-https-perl, libdatetime-format-iso8601-perl
+Suggests: mediawiki
+Multi-Arch: foreign
+Homepage: https://git-scm.com/
+Priority: optional
+Section: vcs
+Filename: pool/main/g/git/git-mediawiki_2.40.1-1-maruska_all.deb
+Size: 1008640
+SHA256: e4f0406cfca3c28cb643d643c0d1d48468e18ff54cffbee01e0a6102d6ec57a6
+SHA1: e5382f4ab768c3e6801d59bfb246486e55bb2421
+MD5sum: bb233eb5aef3fd92e0c40bdd2e85ada7
+Description: fast, scalable, distributed revision control system (MediaWiki remote helper)
+ Git is popular version control system designed to handle very large
+ projects with speed and efficiency; it is used for many high profile
+ open source projects, most notably the Linux kernel.
+ .
+ Git falls in the category of distributed source code management tools.
+ Every Git working directory is a full-fledged repository with full
+ revision tracking capabilities, not dependent on network access or a
+ central server.
+ .
+ This package provides the mediawiki remote helper, which allows Git to
+ read from and write to a wiki such as Wikipedia as though it were a
+ remote Git repository, and a 'git mw' command that can show a preview
+ of how wiki markup will be rendered before pushing.
+Dgit: 014d439edd530e04a8e714dbe48df91895b358e6
+
+Package: git-svn
+Source: git
+Version: 1:2.40.1-1-maruska
+Architecture: all
+Maintainer: Jonathan Nieder <jrnieder@gmail.com>
+Installed-Size: 1237
+Depends: git (>> 1:2.40.1-1), git (<< 1:2.40.1-1-.), libsvn-perl, libyaml-perl, libterm-readkey-perl
+Suggests: git-doc, subversion
+Breaks: git (<< 1:1.8.3~rc1-1.)
+Replaces: git (<< 1:1.8.3~rc1-1.)
+Multi-Arch: foreign
+Homepage: https://git-scm.com/
+Priority: optional
+Section: vcs
+Filename: pool/main/g/git/git-svn_2.40.1-1-maruska_all.deb
+Size: 1068164
+SHA256: 009e4f249636c267186093f9c219d8674f29955f167c889548cbf3560e40c97c
+SHA1: 1feb32ed79cf4aaa5093aa78c8d597b0955ae0a3
+MD5sum: bd3162bbc3cab45769d23ea2221a26f7
+Description: fast, scalable, distributed revision control system (svn interoperability)
+ Git is popular version control system designed to handle very large
+ projects with speed and efficiency; it is used for many high profile
+ open source projects, most notably the Linux kernel.
+ .
+ Git falls in the category of distributed source code management tools.
+ Every Git working directory is a full-fledged repository with full
+ revision tracking capabilities, not dependent on network access or a
+ central server.
+ .
+ This package provides tools for interoperating with Subversion repositories,
+ and importing SVN development history.
+Dgit: 014d439edd530e04a8e714dbe48df91895b358e6
+
+Package: gitk
+Source: git
+Version: 1:2.40.1-1-maruska
+Architecture: all
+Maintainer: Jonathan Nieder <jrnieder@gmail.com>
+Installed-Size: 1831
+Depends: git (>> 1:2.40.1-1), git (<< 1:2.40.1-1-.), tk
+Suggests: git-doc
+Multi-Arch: foreign
+Homepage: https://git-scm.com/
+Priority: optional
+Section: vcs
+Filename: pool/main/g/git/gitk_2.40.1-1-maruska_all.deb
+Size: 1131920
+SHA256: 3bc13364c99dc02b1d4dbffdc2e3f2e1db1fced30dc49cf705889997b992db56
+SHA1: 18f405257d2185a02bcfc212c5b23b7778efa868
+MD5sum: 30b745b2cef4184aa39d97fcbbd3ccfc
+Description: fast, scalable, distributed revision control system (revision tree visualizer)
+ Git is popular version control system designed to handle very large
+ projects with speed and efficiency; it is used for many high profile
+ open source projects, most notably the Linux kernel.
+ .
+ Git falls in the category of distributed source code management tools.
+ Every Git working directory is a full-fledged repository with full
+ revision tracking capabilities, not dependent on network access or a
+ central server.
+ .
+ This package provides the gitk program, a tcl/tk revision tree visualizer.
+Dgit: 014d439edd530e04a8e714dbe48df91895b358e6
+
+Package: gitweb
+Source: git
+Version: 1:2.40.1-1-maruska
+Architecture: all
+Maintainer: Jonathan Nieder <jrnieder@gmail.com>
+Installed-Size: 1009
+Depends: git (>> 1:2.40.1-1), git (<< 1:2.40.1-1-.), perl, libcgi-pm-perl
+Recommends: apache2 (>= 2.4.6-4~) | lynx | httpd, libhttp-date-perl | libtime-parsedate-perl
+Suggests: httpd-cgi | libcgi-fast-perl, git-doc
+Breaks: apache2.2-common (<< 2.3~)
+Multi-Arch: foreign
+Homepage: https://git-scm.com/
+Priority: optional
+Section: vcs
+Filename: pool/main/g/git/gitweb_2.40.1-1-maruska_all.deb
+Size: 995944
+SHA256: 61bf2428cb3646f92f412624b0a68fa7735d88c457474e4519eea608ff26a948
+SHA1: e585181dc4672a3e763e09bf2a565e68f98937d8
+MD5sum: 5a3903773d9d7d714455fc7b0f88ffbe
+Description: fast, scalable, distributed revision control system (web interface)
+ Git is popular version control system designed to handle very large
+ projects with speed and efficiency; it is used for many high profile
+ open source projects, most notably the Linux kernel.
+ .
+ Git falls in the category of distributed source code management tools.
+ Every Git working directory is a full-fledged repository with full
+ revision tracking capabilities, not dependent on network access or a
+ central server.
+ .
+ This package configures a web interface for browsing git repositories.
+ .
+ If apache2 is installed, the web interface is automatically made
+ available at http://localhost/gitweb.  Other servers that support CGI
+ or mod_perl are supported through manual configuration.
+ .
+ If libcgi-fast-perl is installed, gitweb can also be run over FastCGI
+ (and served by nginx, for example).
+Dgit: 014d439edd530e04a8e714dbe48df91895b358e6
+
 Package: human
 Version: 1.5
 Architecture: amd64
