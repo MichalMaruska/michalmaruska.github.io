@@ -794,6 +794,98 @@ Description: VT102 terminal emulator for the X Window System
  rxvt package for the current stable version of rxvt.
 Dgit: 8418dcbaf6714b2c33b56643c9ae6b81dff5c582
 
+Package: sawfish
+Version: 1:1.12.0-maruska
+Architecture: amd64
+Maintainer: Christopher Roy Bratusek <zanghar@freenet.de>
+Installed-Size: 1170
+Depends: libc6 (>= 2.34), libgdk-pixbuf-2.0-0 (>= 2.22.0), libgdk-pixbuf-xlib-2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.12.0), libgtk2.0-0 (>= 2.12.0), libice6 (>= 1:1.0.0), libpango-1.0-0 (>= 1.14.0), libpangoxft-1.0-0 (>= 1.14.0), librep16 (>= 0.92.5), libsm6, libx11-6, libxext6, libxft2 (>> 2.1.1), libxinerama1 (>= 2:1.1.4), libxrandr2, sawfish-data (= 1:1.12.0-maruska), rep
+Provides: x-window-manager
+Homepage: http://sawfish.wikia.com/
+Priority: optional
+Section: x11
+Filename: pool/main/s/sawfish/sawfish_1.12.0-maruska_amd64.deb
+Size: 272512
+SHA256: 0c081b1a5d16ac400a303e8f826bf3615266e63cc2dff28e8f3a0c410943d73f
+SHA1: 53f5186a8463f2cf1a17f841244dffea4702525e
+MD5sum: 3adedba96535fbcb589f624e8c04bf56
+Description: a window manager for X11
+ Sawfish is an extensible window manager using an Emacs Lisp-like scripting
+ language. All window decorations are configurable, the basic idea is to
+ have as much user-interface policy as possible controlled through the Lisp
+ language.
+Dgit: 62070677b0f810bff12d43aa6c269af0332e9597
+
+Package: sawfish-data
+Source: sawfish
+Version: 1:1.12.0-maruska
+Architecture: all
+Maintainer: Christopher Roy Bratusek <zanghar@freenet.de>
+Installed-Size: 8042
+Homepage: http://sawfish.wikia.com/
+Priority: optional
+Section: x11
+Filename: pool/main/s/sawfish/sawfish-data_1.12.0-maruska_all.deb
+Size: 2131632
+SHA256: 36a7de66cb681674c9802fb6bb9243f303ed2a7bf5513dc0d81b2c2f25437640
+SHA1: 8f78f76a4b28480461ed0722a881c07901393881
+MD5sum: d6d9d9e7f33565eb6851e010986e2eeb
+Description: sawfish architecture independent data
+ This package contains the architecture independent lisp compiled files
+ and other data, such as theme pixmaps. It is unlikely to be of any
+ use without the sawfish window manager.
+ .
+ The lisp source files are in the sawfish-lisp-source package.
+Dgit: 62070677b0f810bff12d43aa6c269af0332e9597
+
+Package: sawfish-dbg
+Source: sawfish
+Version: 1:1.12.0-maruska
+Architecture: amd64
+Maintainer: Christopher Roy Bratusek <zanghar@freenet.de>
+Installed-Size: 830
+Depends: sawfish (= 1:1.12.0-maruska), sawfish-data (= 1:1.12.0-maruska)
+Recommends: sawfish-lisp-source
+Homepage: http://sawfish.wikia.com/
+Priority: extra
+Section: debug
+Filename: pool/main/s/sawfish/sawfish-dbg_1.12.0-maruska_amd64.deb
+Size: 263764
+SHA256: 52100bbba7e314809531c72b650beaa5480db39d3b03476e84170a1e8abb89fc
+SHA1: 306017a885f8068ff23adb250fb3db36da5dd10c
+MD5sum: a1db56fd986a71e6edce55ce4131d943
+Description: sawfish debugging symbols
+ This package contains the debugging symbols from the sawfish window manager.
+ It is not needed for normal operation of the package.
+ .
+ Install it if you need to debug problems in sawfish. You will also almost
+ certainly need sawfish-lisp-source in that case.
+Dgit: 62070677b0f810bff12d43aa6c269af0332e9597
+
+Package: sawfish-lisp-source
+Source: sawfish
+Version: 1:1.12.0-maruska
+Architecture: all
+Maintainer: Christopher Roy Bratusek <zanghar@freenet.de>
+Installed-Size: 1007
+Depends: sawfish-data (= 1:1.12.0-maruska)
+Recommends: sawfish
+Homepage: http://sawfish.wikia.com/
+Priority: optional
+Section: x11
+Filename: pool/main/s/sawfish/sawfish-lisp-source_1.12.0-maruska_all.deb
+Size: 161464
+SHA256: 1f73e34a1d39fc623ffde797372736773c56e61fb89d9e69c6d76e31137f7a53
+SHA1: 3bef897407516bcdc2e7497f3c01b413faef7dd7
+MD5sum: 519a446d1c1cb2461c1142320665da76
+Description: sawfish lisp files
+ This package contains the lisp source files in case you want to modify,
+ study or debug the behaviour of the window manager.
+ .
+ It is not required for normal use of sawfish and not installing it will save
+ space in small systems.
+Dgit: 62070677b0f810bff12d43aa6c269af0332e9597
+
 Package: xdot
 Version: 1.3-maruska
 Architecture: all
