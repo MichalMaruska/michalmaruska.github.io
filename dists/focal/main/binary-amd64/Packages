@@ -469,3 +469,91 @@ MD5sum: f61cca9e2adcd26f5e203a0707209935
 Description: debug symbols for libfork
 Build-Ids: 7c5350859fe2146711190c1e3f0620956ae4e7ce a99357ca9dceac0314d30526bf66d3bc3c0061ca
 
+Package: sawfish
+Version: 1:1.12.0-maruska2
+Architecture: amd64
+Maintainer: Christopher Roy Bratusek <zanghar@freenet.de>
+Installed-Size: 1398
+Depends: libc6 (>= 2.14), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.12.0), libgtk2.0-0 (>= 2.12.0), libice6 (>= 1:1.0.0), libpango-1.0-0 (>= 1.14.0), libpangoxft-1.0-0 (>= 1.14.0), librep16 (>= 0.92.5), libsm6, libx11-6, libxext6, libxft2 (>> 2.1.1), libxinerama1, libxrandr2, sawfish-data (= 1:1.12.0-maruska2), rep
+Provides: x-window-manager
+Homepage: http://sawfish.wikia.com/
+Priority: optional
+Section: x11
+Filename: pool/main/s/sawfish/sawfish_1.12.0-maruska2_amd64.deb
+Size: 300472
+SHA256: 1af2cbf72703e45baa9d1c0b4d6095c2e0b0bf018e529388b5e78ae83df9b9a0
+SHA1: 31e0515f98d818e55f2b2f0ea3d4ba89545e63e2
+MD5sum: 1ab6d026e28af16eb7dfa2cfcc4bf85b
+Description: a window manager for X11
+ Sawfish is an extensible window manager using an Emacs Lisp-like scripting
+ language. All window decorations are configurable, the basic idea is to
+ have as much user-interface policy as possible controlled through the Lisp
+ language.
+
+Package: sawfish-data
+Source: sawfish
+Version: 1:1.12.0-maruska2
+Architecture: all
+Maintainer: Christopher Roy Bratusek <zanghar@freenet.de>
+Installed-Size: 8000
+Homepage: http://sawfish.wikia.com/
+Priority: optional
+Section: x11
+Filename: pool/main/s/sawfish/sawfish-data_1.12.0-maruska2_all.deb
+Size: 2092436
+SHA256: 17248e744ec53f2eca95dd16d9ed98d0dadf6a1e4cfe30b125f5f53a64a16e19
+SHA1: d9760ab07dda001161eb32a0a72cb75a0edf99f1
+MD5sum: c730f622972bfe4ce19cc6b2279e48b4
+Description: sawfish architecture independent data
+ This package contains the architecture independent lisp compiled files
+ and other data, such as theme pixmaps. It is unlikely to be of any
+ use without the sawfish window manager.
+ .
+ The lisp source files are in the sawfish-lisp-source package.
+
+Package: sawfish-dbg
+Source: sawfish
+Version: 1:1.12.0-maruska2
+Architecture: amd64
+Maintainer: Christopher Roy Bratusek <zanghar@freenet.de>
+Installed-Size: 1335
+Depends: sawfish (= 1:1.12.0-maruska2), sawfish-data (= 1:1.12.0-maruska2)
+Recommends: sawfish-lisp-source
+Homepage: http://sawfish.wikia.com/
+Priority: extra
+Section: debug
+Filename: pool/main/s/sawfish/sawfish-dbg_1.12.0-maruska2_amd64.deb
+Size: 318940
+SHA256: beab82a3fe6e57b048346ada05bbf0c6dfc361e911108b932b7df8083cf7f364
+SHA1: 108a57b601575ee8b7e063a71d9dfa982d885f81
+MD5sum: ff85fd35e71a238c9ef77cca9c3a40b8
+Description: sawfish debugging symbols
+ This package contains the debugging symbols from the sawfish window manager.
+ It is not needed for normal operation of the package.
+ .
+ Install it if you need to debug problems in sawfish. You will also almost
+ certainly need sawfish-lisp-source in that case.
+
+Package: sawfish-lisp-source
+Source: sawfish
+Version: 1:1.12.0-maruska2
+Architecture: all
+Maintainer: Christopher Roy Bratusek <zanghar@freenet.de>
+Installed-Size: 1007
+Depends: sawfish-data (= 1:1.12.0-maruska2)
+Recommends: sawfish
+Homepage: http://sawfish.wikia.com/
+Priority: optional
+Section: x11
+Filename: pool/main/s/sawfish/sawfish-lisp-source_1.12.0-maruska2_all.deb
+Size: 161412
+SHA256: 95fc8ef0894db36dc4ccfad48984d49743b58d6d1d6cf1db299da9574e4ee418
+SHA1: bd59efd2585fed6bd4a67f1452851af0e8ce7f25
+MD5sum: be891154517f4b09d151d27761fc9c42
+Description: sawfish lisp files
+ This package contains the lisp source files in case you want to modify,
+ study or debug the behaviour of the window manager.
+ .
+ It is not required for normal use of sawfish and not installing it will save
+ space in small systems.
+

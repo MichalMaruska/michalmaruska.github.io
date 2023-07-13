@@ -5,13 +5,13 @@ Origin: maruska
 Suite: focal
 Codename: focal
 Version: 20.3
-Date: Sat, 08 Jul 2023 21:03:32 UTC
+Date: Thu, 13 Jul 2023 07:26:13 UTC
 Architectures: amd64
 Components: main
 Description: My releases (improved & my own packages) for Ubuntu focal
 MD5Sum:
- 0047d50c963032e26f75672f5d2c11d6 19776 main/binary-amd64/Packages
- 9fc9e7c3aa7c7e2640fc000cfbe08fd4 4921 main/binary-amd64/Packages.gz
+ 9f304084c71f015af8d2f3bce89098e2 23318 main/binary-amd64/Packages
+ 520062729aa2b270287701d123d8ed5d 6082 main/binary-amd64/Packages.gz
  904b1d078aa86172b972ddb8d5a110c4 152 main/binary-amd64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-amd64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-amd64/Packages.gz
@@ -19,8 +19,8 @@ MD5Sum:
  069cc142030899d071cb24a2569d96fd 623 main/debug/binary-amd64/Packages.gz
  904b1d078aa86172b972ddb8d5a110c4 152 main/debug/binary-amd64/Release
 SHA1:
- 3747dc82d617fe3585a3248595eac853ad203c22 19776 main/binary-amd64/Packages
- 712d8ef4466f273396c14451379d0af6cb82945c 4921 main/binary-amd64/Packages.gz
+ f4c08dcd2d648e1988c025a1aa7281ff13cd104d 23318 main/binary-amd64/Packages
+ c73cc82f23e6d815af4011670e5d553d43ab12a2 6082 main/binary-amd64/Packages.gz
  9c9cc9b476825d3cdefb6fe34a58510766ef2dfa 152 main/binary-amd64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-amd64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-amd64/Packages.gz
@@ -28,8 +28,8 @@ SHA1:
  8fbed9d1f7899669ce7736a4d022223a47d6003a 623 main/debug/binary-amd64/Packages.gz
  9c9cc9b476825d3cdefb6fe34a58510766ef2dfa 152 main/debug/binary-amd64/Release
 SHA256:
- 8f30c47ee94384942f6f4c981997ef35c29eb4626ae7f8795a71d15868dffa69 19776 main/binary-amd64/Packages
- f8fd3a605e1c4f98e23916580a167cd927ed477a6f6ece67d23d4763f2b451a3 4921 main/binary-amd64/Packages.gz
+ 8f7b8332ff7011fc3a7d5acbcbd4f315b83992aa3efaece93e21e44a60ce0273 23318 main/binary-amd64/Packages
+ e554dd7049561be63f9d421a9f1a96a322ac1d44ac44a56cef015b612598fa7a 6082 main/binary-amd64/Packages.gz
  0692f318dc280ebc9e9f6be05506ac629b69d8e964e565e351b0fcc9d0a4baff 152 main/binary-amd64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-amd64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-amd64/Packages.gz
@@ -38,15 +38,15 @@ SHA256:
  0692f318dc280ebc9e9f6be05506ac629b69d8e964e565e351b0fcc9d0a4baff 152 main/debug/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCAAdFiEEj5ld3379Nuk8fyGZPAkJW65/ICgFAmSpzyQACgkQPAkJW65/
-ICjfGgv+NLoLG8wADnmACMs+p+4MO0MawKhcRfJnkOFOglYUCfAAku2oYy68Facp
-mPKMfjDqD6WqV4qEKU0NTCi6fRObcTpWILUWKEdfn0RorMmzh6BMzmnzd97szAxy
-ZU/GCBoqoHsK0XNB1No5nPMquB2RJ0It7hUzWxbWsY2IGl7r0BNSpMAfTM3EKR/I
-Pwi42AJlDjjue8ZhqmKgmBNgdpOrWRBRx5IDKjzi1t+4N9/L4qhbbSL1tUgpeY0M
-md/lQhJXDI2QTJmYzYvc6DxDrUoMOjlXlPYl/f/MhqY80eQfs9WMeRc4BMIVbp0S
-Zf3qhRCdk/R2TTg+7gFKsGvZ7zBnOdOP6ewHF8IMR8FAUwaedGTV2qJ20/gYa3v1
-zs9HWRkmyI+nKdX1YSSJ9N+HPexx7rMScU9TGO37XhGLmQvHUb6P9XUiPl4OEQT6
-zocDTwW8xWQXiwro8g9hrU77onBKNpXay1rLeeEKtEWBFF99Du7PnqHHFBFqOcJB
-iWWqdpxz
-=jAa8
+iQGzBAEBCAAdFiEEj5ld3379Nuk8fyGZPAkJW65/ICgFAmSvpxUACgkQPAkJW65/
+ICj9egv+NddWToe4i6H3VqDpS88VQ66bMQ1T+CvBYUaYv8UswVKZjnwwrS0d3b2H
+leZfKbQ4mho2Fw2AOsKeYP6HsVwYVqvOQDqL9i1f/sH9958lwpZQGg9ewU2ZPFT6
+W9cEaOOabCXfAklc9LDCkJsZbWL+Dw+Vb+1xWclbjQkfGbG7fZtyZZM2uOGOF8Xq
+VETgyLBh1RUEZaac/ZwUntHHN96vgXMJMn8ydCoe2udMSvTbM56xfuAzq4YN2Ktd
+uBthOFu9oYcjwBadJlfGzofiusQDZgJWEEc6xrTf2pWVvum8M9ysCUc7t0sHvDm3
+GF/XJzIqPqI1Bl8mi3GsOPM5p35tVMgLD7JfBzpTvBE+sfQtcWWVYxwY1ktbLRxS
+UisC92BiBdEn5DDGyiIURo5z8p9j6Blen9yzVw6DQZ4nVYkfZUwW6sVqJ5LD6oM6
+GPJlGqy1lS/W4E272SMPB3t/CoyrxFAZTCHEfq1jv/bIk+5Q3yhxLX6vJe2t6Aw/
+Xq7eaRDH
+=+PGq
 -----END PGP SIGNATURE-----
