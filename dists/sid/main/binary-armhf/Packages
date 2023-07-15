@@ -572,3 +572,25 @@ Description: common files used by various X servers
  This package provides files necessary for all X.Org based X servers.
 Dgit: 036c9923cb231fe5383da1ac22eecf95facf2e48
 
+Package: xserver-xorg-input-evdev-dev
+Source: xserver-xorg-input-evdev
+Version: 1:2.10.6-3maruska
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 103
+Homepage: https://www.x.org
+Priority: optional
+Section: libdevel
+Filename: pool/main/x/xserver-xorg-input-evdev/xserver-xorg-input-evdev-dev_2.10.6-3maruska_all.deb
+Size: 89080
+SHA256: 219d12931d9855d13f8108ba2056c06528847b3776ea68695c44ba8c66196c64
+SHA1: 30212bc203dd99568b74ae1b46aa2cc321f1b809
+MD5sum: ab11cee21ac1225ae70f43e4865b93ee
+Description: X.Org X server -- evdev input driver (development headers)
+ This package provides the development headers for the evdev input driver
+ found in xserver-xorg-input-evdev. Non-developers likely have little use
+ for this package.
+ .
+ This package is built from the X.org xf86-input-evdev driver module.
+Dgit: 14d3c269673ef0efc7513594d4eeb597b87674bc
+

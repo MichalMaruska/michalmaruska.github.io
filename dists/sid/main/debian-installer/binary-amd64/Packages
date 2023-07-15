@@ -35,3 +35,22 @@ Description: Xorg X server - core server
  This is a udeb, or a microdeb, for the debian-installer.
 Dgit: 036c9923cb231fe5383da1ac22eecf95facf2e48
 
+Package: xserver-xorg-input-evdev-udeb
+Source: xserver-xorg-input-evdev
+Version: 1:2.10.6-3maruska
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 245
+Depends: libc6-udeb (>= 2.37), libevdev2-udeb (>= 1.13.1+dfsg), libmtdev1-udeb, libudev1-udeb (>= 253.5), xorg-input-abi-24, xserver-xorg-core-udeb (>= 2:21.1.1), udev-udeb
+Provides: xorg-driver-input
+Priority: optional
+Section: debian-installer
+Filename: pool/main/x/xserver-xorg-input-evdev/xserver-xorg-input-evdev-udeb_2.10.6-3maruska_amd64.udeb
+Size: 94452
+SHA256: c2d93c78e0e50b4eb00b0b7447225dcdf86cbcadc6591268928b71e461679f70
+SHA1: 3f704ddb3ebcdb7f37ef584455e5db63643ba155
+MD5sum: f607e92473264269295d763563837c1c
+Description: X.Org X server -- evdev input driver
+ This is a udeb, or a microdeb, for the debian-installer.
+Dgit: 14d3c269673ef0efc7513594d4eeb597b87674bc
+
