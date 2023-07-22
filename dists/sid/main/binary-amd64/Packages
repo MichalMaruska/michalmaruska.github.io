@@ -962,6 +962,50 @@ MD5sum: 8a05aa29b441664f9a6d50699070f2bf
 Description: debug symbols for libx11-xcb1
 Build-Ids: 27bca1aecba57fa334b051d1426ec6c34e723c76
 
+Package: make
+Source: make-color
+Version: 4.3-4.1maruska1
+Architecture: amd64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 1491
+Depends: libc6 (>= 2.34)
+Suggests: make-doc
+Priority: standard
+Section: devel
+Filename: pool/main/m/make-color/make_4.3-4.1maruska1_amd64.deb
+Size: 293192
+SHA256: fd63e0d7fad0fae57ee12be73ef777c01ae38d2aede52b7ae2b242af67565cba
+SHA1: 93939cc53361aa08ea303c8419f71a7591f3b803
+MD5sum: 236ca59bee123000eea9e059cea50a69
+Description: Utility for Directing compilation.
+ GNU Make is an utility which controls the generation of executables and
+ other target files of a program from the program's source files. It
+ determines automatically which pieces of a large program need to be
+ (re)created, and issues the commands to (re)create them. Make is not
+ limited to programs and executable, it can be applied to any task
+ where a set of target files must be created based on a set of input
+ files, based on dependency and processing rules. Indeed, Make is a
+ general purpose dependency solver.
+Dgit: 982657e976689e11cf3fa03b75e841d78ae934fb
+
+Package: make-dbgsym
+Source: make-color
+Version: 4.3-4.1maruska1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 325
+Depends: make (= 4.3-4.1maruska1)
+Priority: optional
+Section: debug
+Filename: pool/main/m/make-color/make-dbgsym_4.3-4.1maruska1_amd64.deb
+Size: 297248
+SHA256: 1c48c156acd1789767677b9c9f41e4efba25e87fd557ef68c9d2033b676c7428
+SHA1: 9c7ede7c2624a6c85eadabb4b955294a414c370e
+MD5sum: ad34985e4ebe1827c4365dd4d3652c23
+Description: debug symbols for make
+Build-Ids: be52d445cd97199c5aac2bf932415484d012e32e
+
 Package: mempeak
 Version: 0.29
 Architecture: amd64
