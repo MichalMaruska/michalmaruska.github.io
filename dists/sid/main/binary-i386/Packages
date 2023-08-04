@@ -550,9 +550,34 @@ Description: interactive viewer for Graphviz dot files
   * Highlights node/edge under mouse.
 Dgit: 46637cb85db80b208cd36d32ba384eca57f55ecd
 
+Package: xorg-server-source
+Source: xorg-server
+Version: 2:21.1.8-1-maruska
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 105
+Homepage: https://www.x.org/
+Priority: optional
+Section: x11
+Filename: pool/main/x/xorg-server/xorg-server-source_21.1.8-1-maruska_all.deb
+Size: 15284
+SHA256: 9e0a6b52546e9ef822dd0d898f6da3e4d99e244b1e557ee3d1f331422abcd8b0
+SHA1: 0a0d4df83d95344163072864f00c99e591318fb5
+MD5sum: 880e1ecb186a47cbbfdd3325a4d46c10
+Description: Xorg X server - source files
+ This package provides original Debian (with Debian patches already
+ applied, and autotools files updated) sources for the X.Org ('Xorg')
+ X server shipped in a tarball.  This enables other projects re-using
+ X server codebase (e.g. VNC servers) to (re-)use officially
+ Debian-supported version of the X xserver for their builds.
+ .
+ Unless you are building a software product using X server sources,
+ you probably want xserver-xorg and/or xserver-xorg-core instead.
+Dgit: ba63a128a3fee535da2f376033e47e78737e49f4
+
 Package: xserver-common
 Source: xorg-server
-Version: 2:21.1.7-3-maruska
+Version: 2:21.1.8-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 148
@@ -563,14 +588,14 @@ Multi-Arch: foreign
 Homepage: https://www.x.org/
 Priority: optional
 Section: x11
-Filename: pool/main/x/xorg-server/xserver-common_21.1.7-3-maruska_all.deb
-Size: 30868
-SHA256: 6b61367565dc3f885ab635789bc2970161c2fa1d41ba50a5ed80154a8ca458c4
-SHA1: d1ea7dc2258602a0d75802a900d980015c87c379
-MD5sum: c843cb0dcbd8779ce02ee8d25ef644b6
+Filename: pool/main/x/xorg-server/xserver-common_21.1.8-1-maruska_all.deb
+Size: 30904
+SHA256: 1b065f7609ac4dcbe68c96ddd74205d6c8b0b6753983e82936d8c97929cfba42
+SHA1: 09d338ee5277e3dde065f957f0b77072f2fac7f5
+MD5sum: 059e2708fdbd1dc08c7719956727460b
 Description: common files used by various X servers
  This package provides files necessary for all X.Org based X servers.
-Dgit: 036c9923cb231fe5383da1ac22eecf95facf2e48
+Dgit: ba63a128a3fee535da2f376033e47e78737e49f4
 
 Package: xserver-xorg-input-evdev-dev
 Source: xserver-xorg-input-evdev
