@@ -621,21 +621,21 @@ Dgit: 14d3c269673ef0efc7513594d4eeb597b87674bc
 
 Package: xserver-xorg-input-synaptics-dev
 Source: xserver-xorg-input-synaptics
-Version: 1.9.2-1
+Version: 1.9.2-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 171
 Depends: x11proto-dev | x11proto-core-dev
 Priority: optional
 Section: libdevel
-Filename: pool/main/x/xserver-xorg-input-synaptics/xserver-xorg-input-synaptics-dev_1.9.2-1_all.deb
-Size: 159416
-SHA256: 8c8ad51837734f1b09ddaf44cad8b4f88fa6dfd70798366a66c6f73db9d46858
-SHA1: 1989d01bdc9433a3450282a3efe6f415a918ee77
-MD5sum: 328fe9b127f2e2208ab4581d4139b39a
+Filename: pool/main/x/xserver-xorg-input-synaptics/xserver-xorg-input-synaptics-dev_1.9.2-1-maruska_all.deb
+Size: 159384
+SHA256: 4cfae2d33eed580d9f4144d410808ef6a388be92a3fe240ff8be7f7c61dd49b7
+SHA1: 0b7ba8fd7d391af52b6f3f01b4a488c8f64894c8
+MD5sum: b4d4a42220fb4601a07ff60d269499dd
 Description: Synaptics TouchPad driver for X.Org server (development headers)
  This package contains the development headers for the Synaptics input
  driver found in xserver-xorg-input-synaptics. Non-developers likely have
  little use for this package.
-Dgit: 860ed5582392d0d221c99bc0d9f381be3dde88a7
+Dgit: 5942ba10e4603f0b8efb934b83f5d472f00df415
 
