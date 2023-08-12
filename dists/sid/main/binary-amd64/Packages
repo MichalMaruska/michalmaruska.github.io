@@ -1552,6 +1552,88 @@ Description: X.Org X server -- evdev input driver (development headers)
  This package is built from the X.org xf86-input-evdev driver module.
 Dgit: 14d3c269673ef0efc7513594d4eeb597b87674bc
 
+Package: xserver-xorg-input-synaptics
+Version: 1.9.2-1
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 322
+Depends: libc6 (>= 2.34), libevdev2 (>= 1.3), libx11-6, libxi6 (>= 2:1.2.0), libxtst6, xorg-input-abi-24, xserver-xorg-core (>= 2:21.1.1)
+Suggests: gpointing-device-settings, touchfreeze
+Conflicts: xorg-driver-synaptics
+Breaks: kde-config-touchpad (<< 0.8.1-2~)
+Replaces: xorg-driver-synaptics
+Provides: xorg-driver-input, xorg-driver-synaptics
+Priority: optional
+Section: x11
+Filename: pool/main/x/xserver-xorg-input-synaptics/xserver-xorg-input-synaptics_1.9.2-1_amd64.deb
+Size: 214736
+SHA256: be86b9ba241dbcf37628aa67ce57784d717d3af621f203e2e4f1ca9ca04232a2
+SHA1: aeae39b7e96806e914172a7f7652b3540120747a
+MD5sum: b65b359747e0ecf2fc8a6438821422d6
+Description: Synaptics TouchPad driver for X.Org server
+ This package provides an input driver for the X.Org X server to enable
+ advanced features of the Synaptics Touchpad including:
+ .
+  * Movement with adjustable, non-linear acceleration and speed
+  * Button events through short touching of the touchpad
+  * Double-Button events through double short touching of the touchpad
+  * Dragging through short touching and holding down the finger on the touchpad
+  * Middle and right button events on the upper and lower corner of the touchpad
+  * Vertical scrolling (button four and five events) through moving the finger
+    on the right side of the touchpad
+  * The up/down button sends button four/five events
+  * Horizontal scrolling (button six and seven events) through moving the finger
+    on the lower side of the touchpad
+  * The multi-buttons send button four/five events, and six/seven events for
+    horizontal scrolling
+  * Adjustable finger detection
+  * Multifinger taps: two finger for middle button and three finger for right
+    button events. (Needs hardware support. Not all models implement this
+    feature.)
+  * Run-time configuration using shared memory. This means you can change
+    parameter settings without restarting the X server (see synclient(1)).
+  * It also provides a daemon to disable touchpad while typing at the keyboard
+    and thus avoid unwanted mouse movements (see syndaemon(1)).
+Dgit: 860ed5582392d0d221c99bc0d9f381be3dde88a7
+
+Package: xserver-xorg-input-synaptics-dbgsym
+Source: xserver-xorg-input-synaptics
+Version: 1.9.2-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 189
+Depends: xserver-xorg-input-synaptics (= 1.9.2-1)
+Priority: optional
+Section: debug
+Filename: pool/main/x/xserver-xorg-input-synaptics/xserver-xorg-input-synaptics-dbgsym_1.9.2-1_amd64.deb
+Size: 155032
+SHA256: 04f7cd121a2a7411267b5e40fe2c02fae8ab423e863504b445037f02dd67b287
+SHA1: e842d4787f5b0f6b812ffd6ce05bf9f367447826
+MD5sum: 4e39670bf11f8a7df4f7dd3209fb2cbd
+Description: debug symbols for xserver-xorg-input-synaptics
+Build-Ids: 62ce0f16ad21d4a8f330b198ca4dfc1a25a72a6b be113d30fae984d528f0dbb94a24d7666d27248d c555432dea1e71febc9f357471825743e13c035e
+
+Package: xserver-xorg-input-synaptics-dev
+Source: xserver-xorg-input-synaptics
+Version: 1.9.2-1
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 171
+Depends: x11proto-dev | x11proto-core-dev
+Priority: optional
+Section: libdevel
+Filename: pool/main/x/xserver-xorg-input-synaptics/xserver-xorg-input-synaptics-dev_1.9.2-1_all.deb
+Size: 159416
+SHA256: 8c8ad51837734f1b09ddaf44cad8b4f88fa6dfd70798366a66c6f73db9d46858
+SHA1: 1989d01bdc9433a3450282a3efe6f415a918ee77
+MD5sum: 328fe9b127f2e2208ab4581d4139b39a
+Description: Synaptics TouchPad driver for X.Org server (development headers)
+ This package contains the development headers for the Synaptics input
+ driver found in xserver-xorg-input-synaptics. Non-developers likely have
+ little use for this package.
+Dgit: 860ed5582392d0d221c99bc0d9f381be3dde88a7
+
 Package: xserver-xorg-legacy
 Source: xorg-server
 Version: 2:21.1.8-1-maruska
