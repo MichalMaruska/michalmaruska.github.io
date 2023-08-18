@@ -1,3 +1,29 @@
+Package: debhelper
+Version: 13.11.4-maruska
+Architecture: all
+Maintainer: Debhelper Maintainers <debhelper@packages.debian.org>
+Installed-Size: 1413
+Depends: autotools-dev, dh-autoreconf (>= 17~), dh-strip-nondeterminism (>= 0.028~), dpkg (>= 1.18.0~), dpkg-dev (>= 1.18.2~), dwz (>= 0.12.20190711), file (>= 3.23), libdebhelper-perl (= 13.11.4-maruska), libdpkg-perl (>= 1.17.14), man-db, po-debconf, perl:any
+Suggests: dh-make
+Breaks: cmake (<< 3.9~), meson (<< 0.40.0~)
+Provides: debhelper-compat (= 9), debhelper-compat (= 10), debhelper-compat (= 11), debhelper-compat (= 12), debhelper-compat (= 13), dh-sequence-dwz, dh-sequence-elf-tools, dh-sequence-installinitramfs, dh-sequence-installsysusers, dh-sequence-single-binary, dh-sequence-systemd
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Filename: pool/main/d/debhelper/debhelper_13.11.4-maruska_all.deb
+Size: 942988
+SHA256: f3bf276eba4fe5e79aff65ecf31d7f87fafb2918b5904995ad738b5316d7ef1a
+SHA1: e863094439a074da0638954c7cbba2095bd41e26
+MD5sum: 07c947368f9c0283cdcdf68e02b6e084
+Description: helper programs for debian/rules
+ A collection of programs that can be used in a debian/rules file to
+ automate common tasks related to building Debian packages. Programs
+ are included to install various files into your package, compress
+ files, fix file permissions, integrate your package with the Debian
+ menu system, debconf, doc-base, etc. Most Debian packages use debhelper
+ as part of their build process.
+Dgit: 0468a9403abc307b2634a33208ec75f6e0990ee7
+
 Package: dircolors
 Version: 1.7
 Architecture: all
@@ -29,6 +55,30 @@ SHA1: 7f0865b7e30d5daed4b93357db80001ef60ede94
 MD5sum: b8d9eaa8a858a683baeee7d5f9e82e2a
 Description: Tools to maintain extensions for upstream, in git
 Dgit: 072a9eb0ac12cd6e976f0aa958bf50ec32e7514b
+
+Package: libdebhelper-perl
+Source: debhelper
+Version: 13.11.4-maruska
+Architecture: all
+Maintainer: Debhelper Maintainers <debhelper@packages.debian.org>
+Installed-Size: 312
+Depends: perl:any
+Breaks: debhelper (<< 12.6~)
+Replaces: debhelper (<< 12.6~)
+Multi-Arch: foreign
+Priority: optional
+Section: perl
+Filename: pool/main/d/debhelper/libdebhelper-perl_13.11.4-maruska_all.deb
+Size: 81264
+SHA256: 88e9905d59fe1bb325b2dba6f0f1645efa2bb8f121b95ac509fbe947adcb7487
+SHA1: 8bf825a2a56ca69933fcb2ef58b4dadff033dbcb
+MD5sum: 0c249d42d3e04241f00f544eed8ffe59
+Description: debhelper perl modules
+ A collection of programs that can be used in a debian/rules file to
+ automate common tasks related to building Debian packages.
+ .
+ This package provides the perl modules used by the scripts in debhelper.
+Dgit: 0468a9403abc307b2634a33208ec75f6e0990ee7
 
 Package: maruska-misc
 Version: 2.7.2
