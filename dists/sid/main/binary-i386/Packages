@@ -1039,3 +1039,63 @@ Description: Synaptics TouchPad driver for X.Org server (development headers)
  little use for this package.
 Dgit: 5942ba10e4603f0b8efb934b83f5d472f00df415
 
+Package: zsh-common
+Source: zsh
+Version: 5.9-4-maruska
+Architecture: all
+Maintainer: Debian Zsh Maintainers <pkg-zsh-devel@lists.alioth.debian.org>
+Installed-Size: 16427
+Recommends: zsh
+Suggests: zsh-doc
+Breaks: zsh-doc (<= 5.8-7~)
+Replaces: zsh (<= 5.0.2-1), zsh-doc (<= 5.8-7~)
+Multi-Arch: foreign
+Homepage: https://www.zsh.org/
+Priority: optional
+Section: shells
+Filename: pool/main/z/zsh/zsh-common_5.9-4-maruska_all.deb
+Size: 4148404
+SHA256: 880529c5748b2ccac19785d2a4a8923fefbd4b601cbff188edd4812226e00c81
+SHA1: c131c7e3556f8c07bd3aeb5c6ffb2725baee3b03
+MD5sum: 948a7184558cab960b5f677b3c99597d
+Description: architecture independent files for Zsh
+ Zsh is a UNIX command interpreter (shell) usable as an
+ interactive login shell and as a shell script command
+ processor. Of the standard shells, zsh most closely resembles
+ ksh but includes many enhancements. Zsh has command-line editing,
+ built-in spelling correction, programmable command completion,
+ shell functions (with autoloading), a history mechanism, and a
+ host of other features.
+ .
+ This package contains the common zsh files shared by all
+ architectures.
+Dgit: 823e58ea8329b910b8f0d5f61540c484361b4b68
+
+Package: zsh-doc
+Source: zsh
+Version: 5.9-4-maruska
+Architecture: all
+Maintainer: Debian Zsh Maintainers <pkg-zsh-devel@lists.alioth.debian.org>
+Installed-Size: 6076
+Depends: zsh-common (= 5.9-4-maruska)
+Multi-Arch: foreign
+Homepage: https://www.zsh.org/
+Priority: optional
+Section: doc
+Filename: pool/main/z/zsh/zsh-doc_5.9-4-maruska_all.deb
+Size: 2914856
+SHA256: 39719ecdd4b0508b5f33921954bf945f93ed522673c2a59156abdb5787734caa
+SHA1: 61f8c5e445403f71ca4afd0d258809d20ab4a6e0
+MD5sum: cd4687e39f220972f97e292997659cbc
+Description: zsh documentation - info/HTML format
+ Zsh is a UNIX command interpreter (shell) usable as an
+ interactive login shell and as a shell script command
+ processor. Of the standard shells, zsh most closely resembles
+ ksh but includes many enhancements. Zsh has command-line editing,
+ built-in spelling correction, programmable command completion,
+ shell functions (with autoloading), a history mechanism, and a
+ host of other features.
+ .
+ This contains the documentation in GNU info and HTML formats.
+Dgit: 823e58ea8329b910b8f0d5f61540c484361b4b68
+

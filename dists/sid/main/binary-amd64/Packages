@@ -2132,3 +2132,191 @@ MD5sum: 97961058146a7ecc5b7ce09ee1a86029
 Description: debug symbols for xvfb
 Build-Ids: 42faa40beb4cc8bd22bc080b765993592f07430a
 
+Package: zsh
+Version: 5.9-4-maruska
+Architecture: amd64
+Maintainer: Debian Zsh Maintainers <pkg-zsh-devel@lists.alioth.debian.org>
+Installed-Size: 2461
+Depends: zsh-common (= 5.9-4-maruska), libc6 (>= 2.34), libcap2 (>= 1:2.10), libtinfo6 (>= 6), debianutils (>= 5.3-1~)
+Recommends: libc6 (>= 2.35), libgdbm6 (>= 1.16), libncursesw6 (>= 6), libpcre3
+Suggests: zsh-doc
+Homepage: https://www.zsh.org/
+Priority: optional
+Section: shells
+Filename: pool/main/z/zsh/zsh_5.9-4-maruska_amd64.deb
+Size: 907396
+SHA256: 49bcffae25c6bb66ae7f6fe4e730506d7fe2b417a2920d1dd4809ff42e484eac
+SHA1: bca2b0fe786590312b3c5a608199a797127e4a09
+MD5sum: 0eafcf9244bd9e270d0c2b63425b4416
+Description: shell with lots of features
+ Zsh is a UNIX command interpreter (shell) usable as an
+ interactive login shell and as a shell script command
+ processor. Of the standard shells, zsh most closely resembles
+ ksh but includes many enhancements. Zsh has command-line editing,
+ built-in spelling correction, programmable command completion,
+ shell functions (with autoloading), a history mechanism, and a
+ host of other features.
+Dgit: 823e58ea8329b910b8f0d5f61540c484361b4b68
+
+Package: zsh-common
+Source: zsh
+Version: 5.9-4-maruska
+Architecture: all
+Maintainer: Debian Zsh Maintainers <pkg-zsh-devel@lists.alioth.debian.org>
+Installed-Size: 16427
+Recommends: zsh
+Suggests: zsh-doc
+Breaks: zsh-doc (<= 5.8-7~)
+Replaces: zsh (<= 5.0.2-1), zsh-doc (<= 5.8-7~)
+Multi-Arch: foreign
+Homepage: https://www.zsh.org/
+Priority: optional
+Section: shells
+Filename: pool/main/z/zsh/zsh-common_5.9-4-maruska_all.deb
+Size: 4148404
+SHA256: 880529c5748b2ccac19785d2a4a8923fefbd4b601cbff188edd4812226e00c81
+SHA1: c131c7e3556f8c07bd3aeb5c6ffb2725baee3b03
+MD5sum: 948a7184558cab960b5f677b3c99597d
+Description: architecture independent files for Zsh
+ Zsh is a UNIX command interpreter (shell) usable as an
+ interactive login shell and as a shell script command
+ processor. Of the standard shells, zsh most closely resembles
+ ksh but includes many enhancements. Zsh has command-line editing,
+ built-in spelling correction, programmable command completion,
+ shell functions (with autoloading), a history mechanism, and a
+ host of other features.
+ .
+ This package contains the common zsh files shared by all
+ architectures.
+Dgit: 823e58ea8329b910b8f0d5f61540c484361b4b68
+
+Package: zsh-dbgsym
+Source: zsh
+Version: 5.9-4-maruska
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Zsh Maintainers <pkg-zsh-devel@lists.alioth.debian.org>
+Installed-Size: 2193
+Depends: zsh (= 5.9-4-maruska)
+Priority: optional
+Section: debug
+Filename: pool/main/z/zsh/zsh-dbgsym_5.9-4-maruska_amd64.deb
+Size: 1845712
+SHA256: 6d3fe25e8ad91c971cf8f6e1d1ede4d3b42d560ee1c5a2829b7107779a54da7c
+SHA1: 6a312592876e3acde2de5028e1ec31748e527326
+MD5sum: 51b40f363d4a852238a6e126e59e64d9
+Description: debug symbols for zsh
+Build-Ids: 012dbcf17a3ff925c0ae1e3c77f1c5c0d726d474 11a6d45f05d2a4e70c265bff9998cdba11c19794 13f4be661cf7ac3cc6ca71450e72ae4bd6a98617 14d67671bcddeb1f5fa583579c65cc8a2a3b913b 19b7839b23a96ac25a2b230f5117e522da9e3730 21396d537fdb7dbeff7fa956fa371ca70e0afccb 332ef1c1a1d2f32bf7ca2a9695d38ad42e27fedd 3536544007036cf45f5f75ce0300a9870a9374bb 3c399b559d45c69ce7a699592d116a5132cca90b 49ed7e1e9a7e8f4039161278771274df357ac7d3 4b50144731091f65b44aa3f734a348ee1813dc03 57d8629cb92dcf220ac5b66877d5908651ac374c 580458dfdbd68456e6fb79505d90d373b667d33e 60bddf7aa6a6f4397077b35b7fc6ad8bb065e561 69dd5244aae20ea38e50b67bce6156a3014521ec 6a4b5a520133f8315cb7d5fc0ced8fb873636e0c 6e3ff94c51437830ddda1899928244d103165c84 6f451d5acc7c75946b7206202b79238132de10c4 6f6c0f5ee8497eb0b3775727857f1f3b522d00be 732450d125f7de3edd920401117e330f8793ccf0 78c88524bf9876d3d8a5ed3045ed0f6ab619165b 7a4c327fc19f28b2afb75edc2550c4c81da22159 7b0518dad841bbb24c66e3bf5fc318422a27e75a 7c505ce938f61e906bb2c93a0fd2cb3e2922f382 7d71f2a90f8ef3c3f5eec76e7aad020fa1ec5f3e 7f7d2534fd1fabaf938cbe39d5db9618d602ad8e 82b83b2b458b2a9af731b5d8a53080fe3a91bde7 861847b1c2b4184a3b9b9e9abe220ccd72c2431c 885ae5ddfddba057197b8537ed26f48357dcf9d7 90ddcc309f0faf6b1c24d7210a6822f154de42aa 9695f54d60d75b4092931ab5453d944f37856cac 9a29b3501545e9bef93674a06d102977f1dfba7f c1c8ef77cccf9b953f44587b93da83af0133eafc d4cdb05c849c96d9a286b6268ed70dc59e73d92a d6bacf30f83860c02eab5342cab031f12b78f93e e42f701623ce1f1ee0d6ef5416b16b4a6e9bdfa6 ef85a9566abb4632946e715b513cb4943da22921 f0585025d747287c7901073f2ac7f44b76997080 f39fe6d447de378ce6aff72d8bf626713ba9971b
+
+Package: zsh-dev
+Source: zsh
+Version: 5.9-4-maruska
+Architecture: amd64
+Maintainer: Debian Zsh Maintainers <pkg-zsh-devel@lists.alioth.debian.org>
+Installed-Size: 685
+Depends: zsh-common (= 5.9-4-maruska)
+Homepage: https://www.zsh.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/z/zsh/zsh-dev_5.9-4-maruska_amd64.deb
+Size: 274496
+SHA256: acd543d75e8c0b21075db0bb0f04768e6eb864ef626ee79ed7c39f7efe487800
+SHA1: 8ca64ef28be4ffed0437ab9f0d93a620ea9a1496
+MD5sum: 19a4622b855db4ba6a93cfff0beecc0a
+Description: shell with lots of features (development files)
+ Zsh is a UNIX command interpreter (shell) usable as an
+ interactive login shell and as a shell script command
+ processor. Of the standard shells, zsh most closely resembles
+ ksh but includes many enhancements. Zsh has command-line editing,
+ built-in spelling correction, programmable command completion,
+ shell functions (with autoloading), a history mechanism, and a
+ host of other features.
+ .
+ This package contains headers and scripts necessary to compile
+ third-party modules.
+Dgit: 823e58ea8329b910b8f0d5f61540c484361b4b68
+
+Package: zsh-doc
+Source: zsh
+Version: 5.9-4-maruska
+Architecture: all
+Maintainer: Debian Zsh Maintainers <pkg-zsh-devel@lists.alioth.debian.org>
+Installed-Size: 6076
+Depends: zsh-common (= 5.9-4-maruska)
+Multi-Arch: foreign
+Homepage: https://www.zsh.org/
+Priority: optional
+Section: doc
+Filename: pool/main/z/zsh/zsh-doc_5.9-4-maruska_all.deb
+Size: 2914856
+SHA256: 39719ecdd4b0508b5f33921954bf945f93ed522673c2a59156abdb5787734caa
+SHA1: 61f8c5e445403f71ca4afd0d258809d20ab4a6e0
+MD5sum: cd4687e39f220972f97e292997659cbc
+Description: zsh documentation - info/HTML format
+ Zsh is a UNIX command interpreter (shell) usable as an
+ interactive login shell and as a shell script command
+ processor. Of the standard shells, zsh most closely resembles
+ ksh but includes many enhancements. Zsh has command-line editing,
+ built-in spelling correction, programmable command completion,
+ shell functions (with autoloading), a history mechanism, and a
+ host of other features.
+ .
+ This contains the documentation in GNU info and HTML formats.
+Dgit: 823e58ea8329b910b8f0d5f61540c484361b4b68
+
+Package: zsh-static
+Source: zsh
+Version: 5.9-4-maruska
+Architecture: amd64
+Maintainer: Debian Zsh Maintainers <pkg-zsh-devel@lists.alioth.debian.org>
+Installed-Size: 2661
+Depends: debianutils (>= 5.3-1~)
+Recommends: zsh-common
+Suggests: zsh-doc
+Built-Using: glibc (= 2.37-7), libcap2 (= 1:2.66-4), ncurses (= 6.4+20230625-2), pcre3 (= 2:8.39-15)
+Homepage: https://www.zsh.org/
+Priority: optional
+Section: shells
+Filename: pool/main/z/zsh/zsh-static_5.9-4-maruska_amd64.deb
+Size: 1187652
+SHA256: 14ec4b82bcbb668e3c512ffad048b4b0a62e90378499c8e31a2c79fa2f8e0bd0
+SHA1: 198cdb5fe3ac2be4b4326b6cc032b92e4e8ed437
+MD5sum: d3d19cf95fae169bcd239624a7f22551
+Description: shell with lots of features (static link)
+ Zsh is a UNIX command interpreter (shell) usable as an
+ interactive login shell and as a shell script command
+ processor. Of the standard shells, zsh most closely resembles
+ ksh but includes many enhancements. Zsh has command-line editing,
+ built-in spelling correction, programmable command completion,
+ shell functions (with autoloading), a history mechanism, and a
+ host of other features.
+ .
+ This is the statically-compiled version of the shell, i.e. it doesn't
+ require any dynamically loaded libraries to be present and will work
+ even if libraries zsh (in general) needs are broken on the system. So
+ it's more robust in case of a broken system.
+ .
+ It though also has a few limitations compared to the normal,
+ dynamically linked, e.g. it can't use NSS related functionality which
+ might result in minor imperfections like e.g. user names being shown
+ in the prompt.
+Dgit: 823e58ea8329b910b8f0d5f61540c484361b4b68
+
+Package: zsh-static-dbgsym
+Source: zsh
+Version: 5.9-4-maruska
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian Zsh Maintainers <pkg-zsh-devel@lists.alioth.debian.org>
+Installed-Size: 1661
+Depends: zsh-static (= 5.9-4-maruska)
+Priority: optional
+Section: debug
+Filename: pool/main/z/zsh/zsh-static-dbgsym_5.9-4-maruska_amd64.deb
+Size: 1500672
+SHA256: 5e0a40892fdd13b56d93d3e9e3bfc13babd4a469baaef3ac4b816f5f9e71ee5f
+SHA1: 1e15ce263f255ef1525afa5016b77d1f914ccd6f
+MD5sum: 0c9edd3976c72ed2aefd7e26a94073aa
+Description: debug symbols for zsh-static
+Build-Ids: 2157aad93bba3272157872568b0c96ca4c3761ad
+
