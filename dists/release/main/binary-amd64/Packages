@@ -408,6 +408,24 @@ MD5sum: 68428d3203047978ee1f8b05d8d27d5b
 Description: mmc's configuration. not for general use!?
 Dgit: beb7a806c5f7c4717f3f5dfe72fc05b666d5580e
 
+Package: mmc-emacs-devel
+Version: 2.16
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 228
+Depends: emacsen, mmc-shell, cscope-el | xcscope-el, mmc-emacs (>= 2.3), mmc-emacs-config, elpa-paredit, elpa-yaml-mode, cmake-data
+Recommends: pylint
+Enhances: python-mode
+Priority: extra
+Section: editors
+Filename: pool/main/m/mmc-emacs-devel/mmc-emacs-devel_2.16_all.deb
+Size: 45752
+SHA256: 6ef8c5163bb5ba7e8d1ef4d8788de958e1fc6dafc324ca0c4e166b35f6ac8f20
+SHA1: d4f88e005252707fc47ac0a4d8787e40fe159f7d
+MD5sum: 9dcbb3d71d9ab4b2faf3e2fe6c74e127
+Description: mmc's elisp, handy for "development", programming
+Dgit: def47101a50a0122d6c81f6c3f11749e83b44cd5
+
 Package: mmc-sawfish
 Version: 1.6.11
 Architecture: all
