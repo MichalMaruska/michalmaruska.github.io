@@ -96,21 +96,21 @@ Description: various data files (sed, awk, keymaps...)
 Dgit: e3dc845a2229c294a1137a0b73978c48b7e4e3fe
 
 Package: maruska-preference
-Version: 3.55
+Version: 3.56
 Architecture: all
 Maintainer: Michal Maruska <mmaruska@gmail.com>
-Installed-Size: 226
+Installed-Size: 227
 Depends: zsh, mmc-zsh, mmc-shell (>= 3.28), file
 Recommends: gauche-eog, git-core, gitk, rlwrap, devscripts, mempeak, human, less, highlight, sudo, acpi-support-base, acpi-support, acpi-fakekey, brightnessctl, python3-docutils
 Priority: extra
 Section: shells
-Filename: pool/main/m/maruska-preference/maruska-preference_3.55_all.deb
-Size: 34624
-SHA256: 67254509548ec89e5ad9d69cbb241e184b878d5be0e4ad35d4521d772c6e8798
-SHA1: a6dcaefdf16bd845696104a8641b33a9cd38cc55
-MD5sum: e15e269a2b2dde60c378b8b3c8cd7bf3
+Filename: pool/main/m/maruska-preference/maruska-preference_3.56_all.deb
+Size: 34708
+SHA256: d07c637d656072600eabb3de54309245a4c7bfe61fcc1527c51ba487bb289ee1
+SHA1: 29d0aeec85b9952bc07e4dd3e63847ea49e33dee
+MD5sum: 179fbaefd833b0e63b5a7df03f171c6a
 Description: some configs.
-Dgit: acdafc3ebf97e6abed357fa4f803a6ab3e80a0f9
+Dgit: 0e3c9d1de5df323214c6da1f94db0173e5770f0d
 
 Package: maruska-top-android
 Source: maruska-top
