@@ -24,6 +24,32 @@ Description: helper programs for debian/rules
  as part of their build process.
 Dgit: 0468a9403abc307b2634a33208ec75f6e0990ee7
 
+Package: debspawn
+Version: 0.6.2-1-maruska
+Architecture: all
+Maintainer: Matthias Klumpp <mak@debian.org>
+Installed-Size: 239
+Depends: debootstrap, systemd-container, zstd, python3-tomlkit (>= 0.8.0), python3:any
+Recommends: devscripts, dpkg-dev
+Suggests: build-essential, sudo
+Homepage: https://github.com/lkhq/debspawn
+Priority: optional
+Section: utils
+Filename: pool/main/d/debspawn/debspawn_0.6.2-1-maruska_all.deb
+Size: 58548
+SHA256: 0eba3d011b4cc0f59f52537c82c6d43eaeb3584a3df9aba3a2231d3b7ea266fb
+SHA1: 182e8aca8b0625ace0e733f3d12bddef03dcfc19
+MD5sum: f2c21b441fa4c0f7b36830ef32dfbb21
+Description: Build in nspawn containers
+ Debspawn is a tool to build Debian packages in an isolated environment,
+ using systemd-nspawn containers.
+ By using containers, Debspawn can isolate builds from the host system
+ much better than traditional chroot-based build environments could.
+ .
+ Debspawn is designed to be both easy to use by humans, as well as easy
+ to integrate into an automated package build workflow.
+Dgit: 5f29249f23f951445651038a2e7d9b90f69f986c
+
 Package: dircolors
 Version: 1.7
 Architecture: all
