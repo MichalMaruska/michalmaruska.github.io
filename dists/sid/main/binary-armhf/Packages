@@ -530,7 +530,7 @@ Dgit: 73ca0e21e3bd1cfa46f66ef89905cd5b2bbfad7e
 
 Package: postgresql-doc-15
 Source: postgresql-15
-Version: 15.4-3-maruska
+Version: 15.4-3-maruska2
 Architecture: all
 Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
 Installed-Size: 15962
@@ -539,11 +539,11 @@ Multi-Arch: foreign
 Homepage: http://www.postgresql.org/
 Priority: optional
 Section: doc
-Filename: pool/main/p/postgresql-15/postgresql-doc-15_15.4-3-maruska_all.deb
-Size: 2020236
-SHA256: a22769ed23a33fd64177f55372478cd160c6dd6ee5171a4cf99d124a11c247b6
-SHA1: 0decdb07d2e68efaafe2a6552a8b7b699faa27d8
-MD5sum: 0e46b402c8a4444d04c3860bb17cf9b4
+Filename: pool/main/p/postgresql-15/postgresql-doc-15_15.4-3-maruska2_all.deb
+Size: 2020140
+SHA256: addd17240d064ec11328735aa8cd0639991bdc65fa90b29ad121d84303d25588
+SHA1: 9cc8a9fe2a2136c23390ddfe7de68070e45c22d6
+MD5sum: 09a9f59d32b092ffe65595092a30bbf2
 Description: documentation for the PostgreSQL database management system
  This package contains all README files, user manual, and examples for
  PostgreSQL 15. The manual is in HTML format.
