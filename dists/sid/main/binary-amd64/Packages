@@ -438,6 +438,21 @@ Description: fast, scalable, distributed revision control system (GUI)
  If meld is installed, it can be used for displaying diffs and for
  interactive merge conflict resolution.
 
+Package: git-hierarchy
+Version: 5.46
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 511
+Depends: git, gitk (>= 1:2.19.1-1-maruska2), zsh, mmc-shell (>= 3.47), graphviz, imagemagick, bsdmainutils, xdot (>= 1.2-2-maruska)
+Priority: extra
+Section: misc
+Filename: pool/main/g/git-hierarchy/git-hierarchy_5.46_all.deb
+Size: 113000
+SHA256: c134249536e168ab2e91f8a39c8c50ed1361df3b4891d8ff4e001f36ae9781ec
+SHA1: 37e835b75fe1d34428349741622c8ade9b66fb38
+MD5sum: 6179d0ed0a89dc872863f685bc1a4fb3
+Description: Tools to maintain extensions for upstream, in git
+
 Package: git-man
 Source: git
 Version: 1:2.42.0-1-maruska
