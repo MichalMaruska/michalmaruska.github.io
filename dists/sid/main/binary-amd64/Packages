@@ -1163,6 +1163,22 @@ MD5sum: 4006d8223b8c359a118aa0b5abf064cc
 Description: debug symbols for mempeak
 Build-Ids: b6a83c672400f1c6320e14a3bd862148a646cd70
 
+Package: mmc-build-system
+Version: 4.20
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 93
+Depends: git-buildpackage, zsh, mmc-shell (>> 2.8), libapt-pkg-perl, libgetopt-long-descriptive-perl
+Conflicts: mmc-shell (= 2.8)
+Priority: extra
+Section: misc
+Filename: pool/main/m/mmc-build-system/mmc-build-system_4.20_all.deb
+Size: 23096
+SHA256: 7b4839a079725504ccfc751e7efbe4ba96def15584754945fd8334148402ec00
+SHA1: 797338ec130c2e80dce5c4e888c58c17d52fe8ef
+MD5sum: 48b8d715faf0743d880bcadb0a59fb44
+Description: collection of shell scripts
+
 Package: postgresql-15
 Version: 15.4-3-maruska2
 Architecture: amd64
