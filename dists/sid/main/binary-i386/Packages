@@ -566,6 +566,27 @@ Description: documentation for the PostgreSQL database management system
  .
  PostgreSQL is an object-relational SQL database management system.
 
+Package: postgresql-doc-16
+Source: postgresql-16
+Version: 16.0-2-maruska
+Architecture: all
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Installed-Size: 16481
+Multi-Arch: foreign
+Homepage: http://www.postgresql.org/
+Priority: optional
+Section: doc
+Filename: pool/main/p/postgresql-16/postgresql-doc-16_16.0-2-maruska_all.deb
+Size: 2066808
+SHA256: 4c2b9d1aaa087756ff9380928088d5678165ec68ec6db19818cff730bd9f77a5
+SHA1: f01644958983383e65e0691059b33912ae25daf3
+MD5sum: 8d6d39fc5d92c37ceb236b5cc53b3501
+Description: documentation for the PostgreSQL database management system
+ This package contains all README files, user manual, and examples for
+ PostgreSQL 16. The manual is in HTML format.
+ .
+ PostgreSQL is an object-relational SQL database management system.
+
 Package: sawfish-data
 Source: sawfish
 Version: 1:1.12.0-maruska
