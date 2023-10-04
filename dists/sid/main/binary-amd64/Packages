@@ -1345,6 +1345,316 @@ SHA1: 797338ec130c2e80dce5c4e888c58c17d52fe8ef
 MD5sum: 48b8d715faf0743d880bcadb0a59fb44
 Description: collection of shell scripts
 
+Package: pg-15-char-in-set
+Source: maruska-pg-modules
+Version: 3.2
+Architecture: amd64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 33
+Depends: libc6 (>= 2.2.5), postgresql-15
+Conflicts: char-in-set
+Provides: pg-char-in-set
+Priority: extra
+Section: database
+Filename: pool/main/m/maruska-pg-modules/pg-15-char-in-set_3.2_amd64.deb
+Size: 3708
+SHA256: 18300302ce0409a295496e15b6d49eca596c60bec65ec1d94dcf5e97b58a1a94
+SHA1: 209b6dc672b5b7ea2f2c89edb64e28f038c125e5
+MD5sum: 79e4b3ca42fc36bd35027f8586e3fdb9
+Description: Function to check a char in a string.
+
+Package: pg-15-char-in-set-dbgsym
+Source: maruska-pg-modules
+Version: 3.2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 17
+Depends: pg-15-char-in-set (= 3.2)
+Priority: optional
+Section: debug
+Filename: pool/main/m/maruska-pg-modules/pg-15-char-in-set-dbgsym_3.2_amd64.deb
+Size: 4388
+SHA256: 2debc52714a6bb78a14ed57e75ad1943b6f835b18a41361aa25b1ea833acc1f9
+SHA1: 5d2397fb9b8f55ccd4f6914cab0defff74dfbd5b
+MD5sum: 622293012b6de9ad1b14bafeca75c3be
+Description: debug symbols for pg-15-char-in-set
+Build-Ids: 5ee1952f4f4ec91c278b91a77bdb83a725eaf140
+
+Package: pg-15-coding
+Source: maruska-pg-modules
+Version: 3.2
+Architecture: amd64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 36
+Depends: libc6 (>= 2.14), postgresql-15
+Conflicts: pg-coding (<= 1.4)
+Provides: pg-coding
+Priority: extra
+Section: database
+Filename: pool/main/m/maruska-pg-modules/pg-15-coding_3.2_amd64.deb
+Size: 4852
+SHA256: 97307002812e7854db328c721c9f6b51ea6bddf06a8bd4e3356d72b8b7417dfd
+SHA1: 09853afe40cdb4fc115fd197259df33670f622e0
+MD5sum: c4df81c0039c76a47f234c32146d922b
+Description: f5: latinization of Cyrilic text.
+
+Package: pg-15-coding-dbgsym
+Source: maruska-pg-modules
+Version: 3.2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 19
+Depends: pg-15-coding (= 3.2)
+Priority: optional
+Section: debug
+Filename: pool/main/m/maruska-pg-modules/pg-15-coding-dbgsym_3.2_amd64.deb
+Size: 6048
+SHA256: 7828db4d086b5a0d61a962dc4b64e01aa33136b8d1d88364cc8fe5048ceca966
+SHA1: 2dcac92f44c1fa88233736a2f6b8760584a287e0
+MD5sum: bcfb3feebad33bac380eac2e6c2c437a
+Description: debug symbols for pg-15-coding
+Build-Ids: eb1637c7453034cb0e2bf7b91b48f88217634d30
+
+Package: pg-15-human
+Source: maruska-pg-modules
+Version: 3.2
+Architecture: amd64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 32
+Depends: libc6 (>= 2.14), postgresql-15
+Priority: extra
+Section: database
+Filename: pool/main/m/maruska-pg-modules/pg-15-human_3.2_amd64.deb
+Size: 5004
+SHA256: eabd959f0a1c495544fbb650c3a22c4479089ab9b09117e306f2710ecbae0f5e
+SHA1: 4ef4ef4b937d7c8ca9fa82f01cc6ec4bd145a537
+MD5sum: d81fb8381af06e20a64c59d088f8d2e7
+Description: human-readable printing of numbers in PG
+
+Package: pg-15-human-dbgsym
+Source: maruska-pg-modules
+Version: 3.2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 22
+Depends: pg-15-human (= 3.2)
+Priority: optional
+Section: debug
+Filename: pool/main/m/maruska-pg-modules/pg-15-human-dbgsym_3.2_amd64.deb
+Size: 9384
+SHA256: 3a26b5cc559e7e5c198babfcc4fd9a43e483d6bac9fb2a81b6a7728d7515b955
+SHA1: 4b3e8ed3580419a1df2b4a55599f6d3b83e389ea
+MD5sum: 91f18cdb4c38f8c989b896c3547d91ba
+Description: debug symbols for pg-15-human
+Build-Ids: 14c3cde383a3bac7d02c288de29fbcd1325f0bcf
+
+Package: pg-15-max
+Source: maruska-pg-modules
+Version: 3.2
+Architecture: amd64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 32
+Depends: postgresql-15
+Priority: extra
+Section: database
+Filename: pool/main/m/maruska-pg-modules/pg-15-max_3.2_amd64.deb
+Size: 3312
+SHA256: 19fe928e28204a0df2d8187516d6574df0c54ce84b057e781ed6483885274792
+SHA1: 25ef8986f31c55a8ca98463b15e6f1890f1209c9
+MD5sum: 33ab24bfe2345da0610861a7529902a7
+Description: fixme!
+
+Package: pg-15-max-dbgsym
+Source: maruska-pg-modules
+Version: 3.2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 17
+Depends: pg-15-max (= 3.2)
+Priority: optional
+Section: debug
+Filename: pool/main/m/maruska-pg-modules/pg-15-max-dbgsym_3.2_amd64.deb
+Size: 4020
+SHA256: 78b49bbda21ea3645f3341ab55cc2f095c548001d12fe163eaf5b9e7b07acf4f
+SHA1: 58ce717ea60adc290bf64de6dba414bd4a8d0ab1
+MD5sum: 8c7b007512603b6ee546b94e59af5264
+Description: debug symbols for pg-15-max
+Build-Ids: d87c1da1aac80203dc99aa1375dcc96dc18da9df
+
+Package: pg-15-mule
+Source: maruska-pg-modules
+Version: 3.2
+Architecture: amd64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 36
+Depends: libc6 (>= 2.14), postgresql-15
+Priority: extra
+Section: database
+Filename: pool/main/m/maruska-pg-modules/pg-15-mule_3.2_amd64.deb
+Size: 6916
+SHA256: 693d3c8c9e7b2e1a70eea95556a96eea164024d3f4b21a0469184b13e6c2d6fe
+SHA1: b7a776b29f45506f910a414213ae6e9dbaf84983
+MD5sum: f1e8ec04b78a6433304e4f2fcb23acf9
+Description: f5: latinization of Cyrilic text.
+
+Package: pg-15-mule-dbgsym
+Source: maruska-pg-modules
+Version: 3.2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 27
+Depends: pg-15-mule (= 3.2)
+Priority: optional
+Section: debug
+Filename: pool/main/m/maruska-pg-modules/pg-15-mule-dbgsym_3.2_amd64.deb
+Size: 13612
+SHA256: 99703dccf9e98e7c880d1043b75c61098a7d88802dc079ac42c1e83b7553526e
+SHA1: 074f2826c0448a328c3ea395f2e86a8df678ffdd
+MD5sum: d9c14130013e1a42a9251dd4c30da802
+Description: debug symbols for pg-15-mule
+Build-Ids: fd3d96ac23f4199c21770532be06d5c37fed21d6
+
+Package: pg-15-natural-sex
+Source: maruska-pg-modules
+Version: 3.2
+Architecture: amd64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 32
+Depends: libc6 (>= 2.2.5), postgresql-15
+Priority: extra
+Section: database
+Filename: pool/main/m/maruska-pg-modules/pg-15-natural-sex_3.2_amd64.deb
+Size: 3496
+SHA256: b227e3d4b4fb5cacc21f5161b82a2757777efbd1f207cac800c9a6a3084f2afb
+SHA1: 51dfc2db064da58204f75ee6a63b66dbce9cacbb
+MD5sum: c1a990d85257b84cbe20152f673157c7
+Description: pg: map "sex" to natural
+
+Package: pg-15-natural-sex-dbgsym
+Source: maruska-pg-modules
+Version: 3.2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 21
+Depends: pg-15-natural-sex (= 3.2)
+Priority: optional
+Section: debug
+Filename: pool/main/m/maruska-pg-modules/pg-15-natural-sex-dbgsym_3.2_amd64.deb
+Size: 8864
+SHA256: ee0752838b8a24dc0c1ed5d5eac2cbc3103ff1cc5e246297de93972a5c5ef945
+SHA1: c88d2d39590e052f42e068f9ed0ce16c3a52595c
+MD5sum: b6817e36d126287f265305f85271559a
+Description: debug symbols for pg-15-natural-sex
+Build-Ids: eeb78ed06bfb369621a7326203f15a8f7be37dff
+
+Package: pg-15-sadd
+Source: maruska-pg-modules
+Version: 3.2
+Architecture: amd64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 32
+Depends: libc6 (>= 2.14), postgresql-15
+Priority: extra
+Section: database
+Filename: pool/main/m/maruska-pg-modules/pg-15-sadd_3.2_amd64.deb
+Size: 4924
+SHA256: 4f614462a77ba00d407053fc0df006cb1afa6ab1c31bf771d943ec92a402ddca
+SHA1: cbd2c767e2b71a2c3ea5079511b579b3a629bc60
+MD5sum: beb3e84d33ed19d2a6b55108259a3b81
+Description: sadd: adding sets through another table
+
+Package: pg-15-sadd-dbgsym
+Source: maruska-pg-modules
+Version: 3.2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 26
+Depends: pg-15-sadd (= 3.2)
+Priority: optional
+Section: debug
+Filename: pool/main/m/maruska-pg-modules/pg-15-sadd-dbgsym_3.2_amd64.deb
+Size: 12600
+SHA256: eb15fd81fc10e85a9ce0880857e1a386534cbf185041976cb1884c56be5e6d56
+SHA1: f2feee067485703b000faeaf96aa298ae636379b
+MD5sum: d5fc026c4e41469360ae0485a7a905c8
+Description: debug symbols for pg-15-sadd
+Build-Ids: 357712097a609b627befb0b6dd652d254d71481e
+
+Package: pg-15-texify
+Source: maruska-pg-modules
+Version: 3.2
+Architecture: amd64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 32
+Depends: libc6 (>= 2.14), postgresql-15
+Priority: extra
+Section: database
+Filename: pool/main/m/maruska-pg-modules/pg-15-texify_3.2_amd64.deb
+Size: 3740
+SHA256: ad682ccc4f5d91e2cd1baaf334246044f9fdaf46cd4855ab921cebb26c2ce96e
+SHA1: 966e324f945da02d80a95eebda61d1cb36a23fb2
+MD5sum: d3c4359b12357de7fae4e31328c36dd6
+Description: PG: output (my) TeX encoding of UTF-8 (Cyrilic & latin2) text.
+
+Package: pg-15-texify-dbgsym
+Source: maruska-pg-modules
+Version: 3.2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 18
+Depends: pg-15-texify (= 3.2)
+Priority: optional
+Section: debug
+Filename: pool/main/m/maruska-pg-modules/pg-15-texify-dbgsym_3.2_amd64.deb
+Size: 5208
+SHA256: 9c0186baa2d23a693ad25a972d2cad6db6e7084136e5de4c65d2c39653a80ee8
+SHA1: ecf07c0d165a478b6af2737d2c64327acd2c2aae
+MD5sum: 6fa69a7fb0441cac0e56bfeff68a551e
+Description: debug symbols for pg-15-texify
+Build-Ids: 9fac2d2ee4597aca725fb008224f31137eb44d2b
+
+Package: pg-15-thumbsize
+Source: maruska-pg-modules
+Version: 3.2
+Architecture: amd64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 32
+Depends: libc6 (>= 2.14), postgresql-15
+Priority: extra
+Section: database
+Filename: pool/main/m/maruska-pg-modules/pg-15-thumbsize_3.2_amd64.deb
+Size: 4648
+SHA256: ab7d464c3174a145ddaffbde1d683859481c3c21631507f3010135769c2e7508
+SHA1: a2804bc0174e6dd0b30d4ad9ad4b33568a09b722
+MD5sum: f8ac147aba8c0023bec7dbb3770ed9e8
+Description: compute simple rectangle sizes
+
+Package: pg-15-thumbsize-dbgsym
+Source: maruska-pg-modules
+Version: 3.2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 19
+Depends: pg-15-thumbsize (= 3.2)
+Priority: optional
+Section: debug
+Filename: pool/main/m/maruska-pg-modules/pg-15-thumbsize-dbgsym_3.2_amd64.deb
+Size: 6324
+SHA256: 57fcac941ef21279ff1107c32dd101bbc423d685e00359e212cc6be5ac04618c
+SHA1: 5a1fdbbaf4117158617b621c8e66b62266f46d6c
+MD5sum: b92213fa2972e4a18696de5b84c0c2e5
+Description: debug symbols for pg-15-thumbsize
+Build-Ids: 95cb71475b3583e86b123f22d2a13e154261d941
+
 Package: postgresql-15
 Version: 15.4-3-maruska2
 Architecture: amd64
