@@ -477,18 +477,18 @@ Dgit: a112c9dad1ce1fbdaaccdceb7688efabd6727794
 
 Package: libx11-data
 Source: libx11
-Version: 2:1.8.6-1-maruska
+Version: 2:1.8.7-2-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 1349
+Installed-Size: 1343
 Multi-Arch: foreign
 Priority: optional
 Section: x11
-Filename: pool/main/libx/libx11/libx11-data_1.8.6-1-maruska_all.deb
-Size: 106776
-SHA256: cca9146098e347ac75d312b477aa0d504caa7fad12e01b49cb6fac3d43185391
-SHA1: 20285461ec84e094c824d3ff87cb3671153c5c28
-MD5sum: 0a6e26272133b15ce07721c5ccfe42b5
+Filename: pool/main/libx/libx11/libx11-data_1.8.7-2-maruska_all.deb
+Size: 106620
+SHA256: c95e15182e7000ab9401b470aee6422d834be42ccc1182196f71825e262f2c0a
+SHA1: bf4cc51a32fd0a2ae5e3f5a3ffbaffed296c4e95
+MD5sum: 902290cfbba5e6d7467a67c3ebe1858b
 Description: X11 client-side library
  This package provides the locale data files for libx11.
  .
@@ -497,22 +497,21 @@ Description: X11 client-side library
  .
  This module can be found at
  https://gitlab.freedesktop.org/xorg/lib/libX11
-Dgit: 73ca0e21e3bd1cfa46f66ef89905cd5b2bbfad7e
 
 Package: libx11-doc
 Source: libx11
-Version: 2:1.8.6-1-maruska
+Version: 2:1.8.7-2-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 9994
+Installed-Size: 9911
 Multi-Arch: foreign
 Priority: optional
 Section: doc
-Filename: pool/main/libx/libx11/libx11-doc_1.8.6-1-maruska_all.deb
-Size: 2023580
-SHA256: 87f713dea531d9a659170e933302c57e2afe522039ab218cdc7ec1e147da2cb2
-SHA1: 506c2ceb82b524aa1773179b4d06ec6300a588e2
-MD5sum: 443f32531d2d4721e7a221da633f6100
+Filename: pool/main/libx/libx11/libx11-doc_1.8.7-2-maruska_all.deb
+Size: 1995268
+SHA256: 135805a5b58f03deb2dc3df3f028b0e6416f56fdf4da80dbd9290f06ff46664d
+SHA1: 6d18a2074497ab1a3071fe4ed65759268330ea50
+MD5sum: 1fd3a9b2c78eebdc2206da504e203e1c
 Description: X11 client-side library (development documentation)
  This package provides a client interface to the X Window System, otherwise
  known as 'Xlib'.  It provides a complete API for the basic functions of the
@@ -526,7 +525,6 @@ Description: X11 client-side library (development documentation)
  .
  This module can be found at
  https://gitlab.freedesktop.org/xorg/lib/libX11
-Dgit: 73ca0e21e3bd1cfa46f66ef89905cd5b2bbfad7e
 
 Package: mmc-build-system
 Version: 4.20
