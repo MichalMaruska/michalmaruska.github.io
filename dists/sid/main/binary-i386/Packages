@@ -556,6 +556,23 @@ SHA1: 797338ec130c2e80dce5c4e888c58c17d52fe8ef
 MD5sum: 48b8d715faf0743d880bcadb0a59fb44
 Description: collection of shell scripts
 
+Package: mmc-emacs-devel
+Version: 2.17
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 229
+Depends: emacsen, mmc-shell, cscope-el | xcscope-el, mmc-emacs (>= 2.3), mmc-emacs-config, elpa-paredit, elpa-yaml-mode, cmake-data
+Recommends: pylint
+Enhances: python-mode
+Priority: extra
+Section: editors
+Filename: pool/main/m/mmc-emacs-devel/mmc-emacs-devel_2.17_all.deb
+Size: 45844
+SHA256: 5a064e2a34e79a59a7b50951b6ae2ee82299e06376de92563fd3cf647aaf4cf9
+SHA1: fdc9d6526f561718e1c000b5199042b24d4c4df8
+MD5sum: db3894c5d2092c988f23d6d65081abc8
+Description: mmc's elisp, handy for "development", programming
+
 Package: postgresql-doc-15
 Source: postgresql-15
 Version: 15.4-3-maruska2
