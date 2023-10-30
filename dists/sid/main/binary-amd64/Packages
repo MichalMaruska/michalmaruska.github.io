@@ -3225,6 +3225,76 @@ MD5sum: b7145f8eea80024bb5197e6bcf202a32
 Description: debug symbols for xserver-xorg-legacy
 Build-Ids: a0b1fc338718d3da612a086ffef7e2ceadbcffc3
 
+Package: xv
+Version: 3.10a-28maruska5
+Architecture: amd64
+Maintainer: Klaus Ethgen <Klaus@Ethgen.de>
+Installed-Size: 1172
+Depends: libc6 (>= 2.34), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2), libtiff6 (>= 4.0.3), libx11-6
+Suggests: xv-doc
+Conflicts: xvdoc
+Priority: optional
+Section: non-free/graphics
+Filename: pool/main/x/xv/xv_3.10a-28maruska5_amd64.deb
+Size: 476384
+SHA256: 19c598dc5b767859a3de3597fdd949f60ff846956edb6e8e7320084cc60b9deb
+SHA1: d5de4efed9f39d3c8756b5a98088e783aa1810b1
+MD5sum: 4dfce14e8b928eb37332adfd8f70afbc
+Description: An image viewer and manipulator for the X Window System
+ The xv program displays images in the GIF, JPEG, TIFF, PBM, PGM, PPM,
+ X11 bitmap, Utah Raster Toolkit RLE, PDS/VICAR, Sun Rasterfile, BMP,
+ PCX, PNG, IRIS RGB, XPM, Targa, XWD, possibly PostScript, and PM formats
+ on workstations and terminals running the X11 Window System.
+ .
+ The creators of the GIF format require the following
+ acknowledgement:
+ .
+  The Graphics Interchange Format(c) is the Copyright property of
+  CompuServe Incorporated. GIF(sm) is a Service Mark property of
+  CompuServe Incorporated.
+
+Package: xv-dbgsym
+Source: xv
+Version: 3.10a-28maruska5
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Klaus Ethgen <Klaus@Ethgen.de>
+Installed-Size: 865
+Depends: xv (= 3.10a-28maruska5)
+Priority: optional
+Section: non-free/debug
+Filename: pool/main/x/xv/xv-dbgsym_3.10a-28maruska5_amd64.deb
+Size: 793936
+SHA256: 3be74e5da03b04bfa80899345e5c91e4be8df84b83124ecac632543d8d5c232b
+SHA1: 3c27d7f6e591753c707a8243c2860a22dff18731
+MD5sum: 74836c6fb9f2b8c557341b048930b426
+Description: debug symbols for xv
+Build-Ids: 1e8122dfddea3a2d530590d71f8592f5b801dd75 2548dfa6a3881e3e59c8d3388720bce81b0146fb 2c99b8383c897ef1b91bded5342d86cd41161130 39feec9f0cb1b0916c91df918153ae267d767c72 ad8cfd3e58645af32db02262d43cb4552850ee4e
+
+Package: xv-doc
+Source: xv
+Version: 3.10a-28maruska5
+Architecture: all
+Maintainer: Klaus Ethgen <Klaus@Ethgen.de>
+Installed-Size: 1749
+Suggests: xv
+Conflicts: xv (<< 3.10a-17), xvdoc
+Replaces: xvdoc
+Priority: optional
+Section: non-free/graphics
+Filename: pool/main/x/xv/xv-doc_3.10a-28maruska5_all.deb
+Size: 1199232
+SHA256: 9275cd6e53dfcb96b23186efb27588e57babf36aa07c1e0b5dd44dc1cbc14de3
+SHA1: 79b41154367c0e11222314a41e70266af6e6b706
+MD5sum: 41de7cb3ef545fb850d3cde56ba354e6
+Description: XV Documentation in Postscript and HTML formats
+ The xv program displays images in the GIF, JPEG, TIFF, PBM, PGM, PPM,
+ X11 bitmap, Utah Raster Toolkit RLE, PDS/VICAR, Sun Rasterfile, BMP,
+ PCX, PNG, IRIS RGB, XPM, Targa, XWD, possibly PostScript, and PM formats
+ on workstations and terminals running the X11 Window System.
+ .
+ This package contains the xv documentation in postscript and HTML formats.
+
 Package: xvfb
 Source: xorg-server
 Version: 2:21.1.8-1-maruska

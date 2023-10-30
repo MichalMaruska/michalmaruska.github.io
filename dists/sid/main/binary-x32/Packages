@@ -1114,6 +1114,30 @@ Description: Synaptics TouchPad driver for X.Org server (development headers)
  little use for this package.
 Dgit: 5942ba10e4603f0b8efb934b83f5d472f00df415
 
+Package: xv-doc
+Source: xv
+Version: 3.10a-28maruska5
+Architecture: all
+Maintainer: Klaus Ethgen <Klaus@Ethgen.de>
+Installed-Size: 1749
+Suggests: xv
+Conflicts: xv (<< 3.10a-17), xvdoc
+Replaces: xvdoc
+Priority: optional
+Section: non-free/graphics
+Filename: pool/main/x/xv/xv-doc_3.10a-28maruska5_all.deb
+Size: 1199232
+SHA256: 9275cd6e53dfcb96b23186efb27588e57babf36aa07c1e0b5dd44dc1cbc14de3
+SHA1: 79b41154367c0e11222314a41e70266af6e6b706
+MD5sum: 41de7cb3ef545fb850d3cde56ba354e6
+Description: XV Documentation in Postscript and HTML formats
+ The xv program displays images in the GIF, JPEG, TIFF, PBM, PGM, PPM,
+ X11 bitmap, Utah Raster Toolkit RLE, PDS/VICAR, Sun Rasterfile, BMP,
+ PCX, PNG, IRIS RGB, XPM, Targa, XWD, possibly PostScript, and PM formats
+ on workstations and terminals running the X11 Window System.
+ .
+ This package contains the xv documentation in postscript and HTML formats.
+
 Package: zsh-common
 Source: zsh
 Version: 5.9-4-maruska
