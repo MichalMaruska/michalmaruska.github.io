@@ -525,7 +525,7 @@ Description: X11 client-side library (development documentation)
  https://gitlab.freedesktop.org/xorg/lib/libX11
 
 Package: maruska-preference
-Version: 3.57
+Version: 3.58
 Architecture: all
 Maintainer: Michal Maruska <mmaruska@gmail.com>
 Installed-Size: 227
@@ -533,11 +533,11 @@ Depends: zsh, mmc-zsh, mmc-shell (>= 3.28), file
 Recommends: gauche-eog, git-core, gitk, rlwrap, devscripts, mempeak, human, less, highlight, sudo, acpi-support-base, acpi-support, acpi-fakekey, brightnessctl, python3-docutils
 Priority: extra
 Section: shells
-Filename: pool/main/m/maruska-preference/maruska-preference_3.57_all.deb
-Size: 34904
-SHA256: 803b6e8199b8c52d06d7a67943f4f6e852b1c9cc0faf3759b006513e138777c1
-SHA1: 6045ad73669a2da969d0e7830ce442f05ad9668c
-MD5sum: 1b6ba2003d855b42efc8c7fa202846b3
+Filename: pool/main/m/maruska-preference/maruska-preference_3.58_all.deb
+Size: 34932
+SHA256: b9b7be1b4cd40572aa27ab1dcac6813ca877f9bcacfc132343a0fbd82a623e26
+SHA1: d2a62263e0b997377dc79715de375f30bd9d5c37
+MD5sum: 898ebfdc0c3c54c83b4497078d253e1c
 Description: some configs.
 
 Package: mmc-build-system
