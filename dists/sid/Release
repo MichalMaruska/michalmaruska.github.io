@@ -2,28 +2,28 @@ Origin: maruska
 Suite: unstable
 Codename: sid
 Version: 20.3
-Date: Sun, 26 Nov 2023 11:24:44 UTC
+Date: Mon, 27 Nov 2023 11:05:29 UTC
 Architectures: amd64 i386 armhf x32
 Components: main
 Description: My releases (improved & my own packages) for Sid.
 MD5Sum:
- c9cdf092bd06992c009627d9a8122852 153545 main/binary-amd64/Packages
- e6356ecd071e7f84a233aec78fcb137e 44643 main/binary-amd64/Packages.gz
+ add48f85d1a1415674f113ee14030683 153545 main/binary-amd64/Packages
+ 712f9ca1205b0bedfacb95a0d0fc95bd 44647 main/binary-amd64/Packages.gz
  7427a5aff00e1b23ae1ebf32523f67a5 147 main/binary-amd64/Release
  e3690fc86ec43fbd23d2188c789d3312 2452 main/debian-installer/binary-amd64/Packages
  fcb92aab815aeca524367d3e75f1b5ce 980 main/debian-installer/binary-amd64/Packages.gz
- 695c1fa9c9df37d6f79e022141496af8 47703 main/binary-i386/Packages
- 30591c995dcf9eaa058b59679e5214ac 12128 main/binary-i386/Packages.gz
+ c31b6aae0f7cc20cf63f6552fe9fae1c 47703 main/binary-i386/Packages
+ 033228867434d63bbe41875981795493 12140 main/binary-i386/Packages.gz
  23c8275a799895b7ac90cb9a614a6b71 146 main/binary-i386/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-i386/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-i386/Packages.gz
- 695c1fa9c9df37d6f79e022141496af8 47703 main/binary-armhf/Packages
- 30591c995dcf9eaa058b59679e5214ac 12128 main/binary-armhf/Packages.gz
+ c31b6aae0f7cc20cf63f6552fe9fae1c 47703 main/binary-armhf/Packages
+ 033228867434d63bbe41875981795493 12140 main/binary-armhf/Packages.gz
  c459d38eb0a58531cfb37d3c0ba193f4 147 main/binary-armhf/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-armhf/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-armhf/Packages.gz
- 695c1fa9c9df37d6f79e022141496af8 47703 main/binary-x32/Packages
- 30591c995dcf9eaa058b59679e5214ac 12128 main/binary-x32/Packages.gz
+ c31b6aae0f7cc20cf63f6552fe9fae1c 47703 main/binary-x32/Packages
+ 033228867434d63bbe41875981795493 12140 main/binary-x32/Packages.gz
  7bebc092bb5a2d59858fa226db47e369 145 main/binary-x32/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-x32/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-x32/Packages.gz
@@ -31,23 +31,23 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
  65e50afc1915bce582cee71f49a3c620 148 main/source/Release
 SHA1:
- 404e089567e10ee9cfa96923edf98e011f2ba070 153545 main/binary-amd64/Packages
- e053e55e697d48b9d3b42ddff6013d62313c54d7 44643 main/binary-amd64/Packages.gz
+ 932225c876a6d9c313d3befb1981b8c809915f8b 153545 main/binary-amd64/Packages
+ 3b4884be1edee373a0354c9e17b87a1a7e23948e 44647 main/binary-amd64/Packages.gz
  7f00f7abb4899d87b4f12901c94f91f98d562345 147 main/binary-amd64/Release
  f31857265cc9a630e1d7c436e1acca453ed865c4 2452 main/debian-installer/binary-amd64/Packages
  bb9673faf2c87ccae1a3a2dad47a4a68f53f8b01 980 main/debian-installer/binary-amd64/Packages.gz
- 53da94ffaa20cb07bdb773cb0e17dcf00c125a54 47703 main/binary-i386/Packages
- c015aca9537ffad16bf19793bcdfd2cdece33fcf 12128 main/binary-i386/Packages.gz
+ 5e0bd08d3c598f358f11abed5f49c2801996aaa0 47703 main/binary-i386/Packages
+ d0857542e499d180013c5c1ed8581685e87b8bb1 12140 main/binary-i386/Packages.gz
  7892213411c2f066fb14660523e1b67ff7d56078 146 main/binary-i386/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-i386/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-i386/Packages.gz
- 53da94ffaa20cb07bdb773cb0e17dcf00c125a54 47703 main/binary-armhf/Packages
- c015aca9537ffad16bf19793bcdfd2cdece33fcf 12128 main/binary-armhf/Packages.gz
+ 5e0bd08d3c598f358f11abed5f49c2801996aaa0 47703 main/binary-armhf/Packages
+ d0857542e499d180013c5c1ed8581685e87b8bb1 12140 main/binary-armhf/Packages.gz
  e83abe7231713f8c1ea67892b25b15ee0d973d77 147 main/binary-armhf/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-armhf/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-armhf/Packages.gz
- 53da94ffaa20cb07bdb773cb0e17dcf00c125a54 47703 main/binary-x32/Packages
- c015aca9537ffad16bf19793bcdfd2cdece33fcf 12128 main/binary-x32/Packages.gz
+ 5e0bd08d3c598f358f11abed5f49c2801996aaa0 47703 main/binary-x32/Packages
+ d0857542e499d180013c5c1ed8581685e87b8bb1 12140 main/binary-x32/Packages.gz
  99d70aaf695636d88ffd58cd9c259a170098c56f 145 main/binary-x32/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-x32/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-x32/Packages.gz
@@ -55,23 +55,23 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
  16fd1d7386337a11ec1d4b7d1158b4d420e33286 148 main/source/Release
 SHA256:
- df13de6244a191d8913a9339b744b311917965c8afb21c71767e779c9bbe0595 153545 main/binary-amd64/Packages
- 7c08be0b20a4dec14cd92ba936252bd13acb9a700daf2af3fc5560ecdf1cf46c 44643 main/binary-amd64/Packages.gz
+ 17898e6cb056ee5c9aec7eb68d34da0714d250a0874942d0a0e42f52b2a6986b 153545 main/binary-amd64/Packages
+ 6f177d89eff045b1be4363e075a0e92df1b40c7864c3899d76166b82fd9f69a2 44647 main/binary-amd64/Packages.gz
  dcf53c362ed76856f8c2dfabc9b56e97baabf378318ff620d025854139424a09 147 main/binary-amd64/Release
  88a0c27f14546a5cbe84359b27585c0be8f1ad3d674e5f1c725ab87b4a7f7ece 2452 main/debian-installer/binary-amd64/Packages
  14af55feabaa44d58418a36708424ce6a866165e94eb9175864b0f9092bae416 980 main/debian-installer/binary-amd64/Packages.gz
- 40659f0aab98bcecc7b71c07d3419f75b2e6e4ceb7ca446cf6705c094ae96027 47703 main/binary-i386/Packages
- 66503d4b0e94cfb0779c0b44085851658f5dc09c65df1340fad8afe84205ab25 12128 main/binary-i386/Packages.gz
+ 39a2f9b9a6fbe024a8e5e6354bf6093477a7fc877403ab2a7884a3c7cb6b6b98 47703 main/binary-i386/Packages
+ fe9b517c70ee0263330834c2cc6a9e070d72f87b426a3bb57e9683b714bb92a9 12140 main/binary-i386/Packages.gz
  35282e55389958a713eddc8746d0b3a426f41ba18b266e2a368ec7ce9f7a8be0 146 main/binary-i386/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-i386/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-i386/Packages.gz
- 40659f0aab98bcecc7b71c07d3419f75b2e6e4ceb7ca446cf6705c094ae96027 47703 main/binary-armhf/Packages
- 66503d4b0e94cfb0779c0b44085851658f5dc09c65df1340fad8afe84205ab25 12128 main/binary-armhf/Packages.gz
+ 39a2f9b9a6fbe024a8e5e6354bf6093477a7fc877403ab2a7884a3c7cb6b6b98 47703 main/binary-armhf/Packages
+ fe9b517c70ee0263330834c2cc6a9e070d72f87b426a3bb57e9683b714bb92a9 12140 main/binary-armhf/Packages.gz
  781e2f2976ea8e7a0f5c8c987a31a3b677e83755514651aecdf832230dc27885 147 main/binary-armhf/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-armhf/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-armhf/Packages.gz
- 40659f0aab98bcecc7b71c07d3419f75b2e6e4ceb7ca446cf6705c094ae96027 47703 main/binary-x32/Packages
- 66503d4b0e94cfb0779c0b44085851658f5dc09c65df1340fad8afe84205ab25 12128 main/binary-x32/Packages.gz
+ 39a2f9b9a6fbe024a8e5e6354bf6093477a7fc877403ab2a7884a3c7cb6b6b98 47703 main/binary-x32/Packages
+ fe9b517c70ee0263330834c2cc6a9e070d72f87b426a3bb57e9683b714bb92a9 12140 main/binary-x32/Packages.gz
  05dddf54c3cea930ad99b14292c38849698933744cfaece55f5b56dcf0c532ee 145 main/binary-x32/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-x32/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-x32/Packages.gz
