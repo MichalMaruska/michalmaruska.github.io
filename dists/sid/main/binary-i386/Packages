@@ -538,7 +538,7 @@ MD5sum: 898ebfdc0c3c54c83b4497078d253e1c
 Description: some configs.
 
 Package: mmc-build-system
-Version: 4.21
+Version: 4.22
 Architecture: all
 Maintainer: Michal Maruska <mmaruska@gmail.com>
 Installed-Size: 92
@@ -546,11 +546,11 @@ Depends: git-buildpackage, zsh, mmc-shell (>> 2.8), libapt-pkg-perl, libgetopt-l
 Conflicts: mmc-shell (= 2.8)
 Priority: extra
 Section: misc
-Filename: pool/main/m/mmc-build-system/mmc-build-system_4.21_all.deb
-Size: 22776
-SHA256: fbc52e566418fb4502de771034acfdd5da7b9bc653aab5033c6e93411ee0d2d4
-SHA1: 9ee5d49ce930ce14820f354ca4434bfd7290498e
-MD5sum: 0cd9d62be56d39231c0e04ca53296d6d
+Filename: pool/main/m/mmc-build-system/mmc-build-system_4.22_all.deb
+Size: 22844
+SHA256: b9b1592dc33da42b08c02a42db9e68cac20e48e06de40a5fea1ee264ec4713c1
+SHA1: 4c1be8aa8e99816d104c332a806d89001d149777
+MD5sum: a7ff282424fe2f628cf523ea8ddfdd39
 Description: collection of shell scripts
 
 Package: mmc-emacs-devel
