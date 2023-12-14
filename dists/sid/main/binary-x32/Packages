@@ -538,7 +538,7 @@ MD5sum: 898ebfdc0c3c54c83b4497078d253e1c
 Description: some configs.
 
 Package: mmc-build-system
-Version: 4.22
+Version: 4.23
 Architecture: all
 Maintainer: Michal Maruska <mmaruska@gmail.com>
 Installed-Size: 92
@@ -546,11 +546,11 @@ Depends: git-buildpackage, zsh, mmc-shell (>> 2.8), libapt-pkg-perl, libgetopt-l
 Conflicts: mmc-shell (= 2.8)
 Priority: extra
 Section: misc
-Filename: pool/main/m/mmc-build-system/mmc-build-system_4.22_all.deb
-Size: 22844
-SHA256: b9b1592dc33da42b08c02a42db9e68cac20e48e06de40a5fea1ee264ec4713c1
-SHA1: 4c1be8aa8e99816d104c332a806d89001d149777
-MD5sum: a7ff282424fe2f628cf523ea8ddfdd39
+Filename: pool/main/m/mmc-build-system/mmc-build-system_4.23_all.deb
+Size: 22892
+SHA256: ec9134b3eef69e98edf447c4a4d3f20e376bcc077ba3857bd51189ae3c2cd2d4
+SHA1: 301370f7e81fa1f3a6e3a87924f120f782fa7ab2
+MD5sum: 879bff9867ea479e3c9506fa057c5bdd
 Description: collection of shell scripts
 
 Package: mmc-emacs-devel
@@ -1058,18 +1058,18 @@ Dgit: 46637cb85db80b208cd36d32ba384eca57f55ecd
 
 Package: xorg-server-source
 Source: xorg-server
-Version: 2:21.1.9-1-maruska
+Version: 2:21.1.10-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 105
 Homepage: https://www.x.org/
 Priority: optional
 Section: x11
-Filename: pool/main/x/xorg-server/xorg-server-source_21.1.9-1-maruska_all.deb
-Size: 15280
-SHA256: 82937c39c024cd5b33984a674982ad38f9f34a74326fc586dc457a58aab3836a
-SHA1: 69a08eb1321071563d8bea6c66f7d869e1c7d8c2
-MD5sum: 94b8181bd536873f18736614813c139c
+Filename: pool/main/x/xorg-server/xorg-server-source_21.1.10-1-maruska_all.deb
+Size: 15352
+SHA256: f09bc596ae33f374fb7ce303e7c6e8a831d62b0174618b2f476008916b773cba
+SHA1: da4af73860a1d9e813c3edc613312d410427ef17
+MD5sum: 77be4d00f177fe57b983834daab5bc8e
 Description: Xorg X server - source files
  This package provides original Debian (with Debian patches already
  applied, and autotools files updated) sources for the X.Org ('Xorg')
@@ -1082,7 +1082,7 @@ Description: Xorg X server - source files
 
 Package: xserver-common
 Source: xorg-server
-Version: 2:21.1.9-1-maruska
+Version: 2:21.1.10-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 148
@@ -1093,11 +1093,11 @@ Multi-Arch: foreign
 Homepage: https://www.x.org/
 Priority: optional
 Section: x11
-Filename: pool/main/x/xorg-server/xserver-common_21.1.9-1-maruska_all.deb
-Size: 30908
-SHA256: d9513bdedf03f50960aa3f5ec5ad6801d8a7deeb45732981fe361b7d3a889265
-SHA1: c7ce39120d109dfb35cd87cdca7f180424cad83a
-MD5sum: f7df7cf614f22f93a87ade2a20545086
+Filename: pool/main/x/xorg-server/xserver-common_21.1.10-1-maruska_all.deb
+Size: 30976
+SHA256: d6c333c4862301395d255f36a3854ebc5974f97dfa0b75f442b2365de8ed7b2f
+SHA1: 4c6318e672d888263d50c154093cc3af6e663432
+MD5sum: 076c4ab1231e36e8ae8153bb66718efb
 Description: common files used by various X servers
  This package provides files necessary for all X.Org based X servers.
 
