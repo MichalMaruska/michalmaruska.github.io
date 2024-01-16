@@ -1058,18 +1058,18 @@ Dgit: 46637cb85db80b208cd36d32ba384eca57f55ecd
 
 Package: xorg-server-source
 Source: xorg-server
-Version: 2:21.1.10-1-maruska
+Version: 2:21.1.11-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 105
 Homepage: https://www.x.org/
 Priority: optional
 Section: x11
-Filename: pool/main/x/xorg-server/xorg-server-source_21.1.10-1-maruska_all.deb
-Size: 15352
-SHA256: f09bc596ae33f374fb7ce303e7c6e8a831d62b0174618b2f476008916b773cba
-SHA1: da4af73860a1d9e813c3edc613312d410427ef17
-MD5sum: 77be4d00f177fe57b983834daab5bc8e
+Filename: pool/main/x/xorg-server/xorg-server-source_21.1.11-1-maruska_all.deb
+Size: 15420
+SHA256: b79631171c129e6a601401a6977d8b802fa8e677e188506544c7b12e94bee99a
+SHA1: b73df22cfb5b64157051b536db6087a40117efa1
+MD5sum: ccea1d91faa74ec01b759adc8967ac16
 Description: Xorg X server - source files
  This package provides original Debian (with Debian patches already
  applied, and autotools files updated) sources for the X.Org ('Xorg')
@@ -1082,7 +1082,7 @@ Description: Xorg X server - source files
 
 Package: xserver-common
 Source: xorg-server
-Version: 2:21.1.10-1-maruska
+Version: 2:21.1.11-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 148
@@ -1093,11 +1093,11 @@ Multi-Arch: foreign
 Homepage: https://www.x.org/
 Priority: optional
 Section: x11
-Filename: pool/main/x/xorg-server/xserver-common_21.1.10-1-maruska_all.deb
-Size: 30976
-SHA256: d6c333c4862301395d255f36a3854ebc5974f97dfa0b75f442b2365de8ed7b2f
-SHA1: 4c6318e672d888263d50c154093cc3af6e663432
-MD5sum: 076c4ab1231e36e8ae8153bb66718efb
+Filename: pool/main/x/xorg-server/xserver-common_21.1.11-1-maruska_all.deb
+Size: 31028
+SHA256: 092c28ad8c1d76f118d1689891ad1569f5927b1eaa15350a653686598f2bd01c
+SHA1: ac4148bf48e5a6ff78b9d13ca4a006adbf1a1334
+MD5sum: 120f29729b7ee40589f7a297355ce296
 Description: common files used by various X servers
  This package provides files necessary for all X.Org based X servers.
 
