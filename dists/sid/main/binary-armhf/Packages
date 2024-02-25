@@ -60,6 +60,31 @@ Description: helper programs for debian/rules
  menu system, debconf, doc-base, etc. Most Debian packages use debhelper
  as part of their build process.
 
+Package: debspawn
+Version: 0.6.4-maruska
+Architecture: all
+Maintainer: Matthias Klumpp <mak@debian.org>
+Installed-Size: 242
+Depends: debootstrap, systemd-container, zstd, python3-tomlkit (>= 0.8.0), python3:any
+Recommends: devscripts, dpkg-dev
+Suggests: build-essential, sudo
+Homepage: https://github.com/lkhq/debspawn
+Priority: optional
+Section: utils
+Filename: pool/main/d/debspawn/debspawn_0.6.4-maruska_all.deb
+Size: 59496
+SHA256: 1b1e933fb78ceffb64b0ce3979aa74f05b8011bfb4ebd97bd708795ac539e9a0
+SHA1: 20beb0d4d0bc4aecf2e5b5fab3cdf7cf51a29549
+MD5sum: 8bd41937714bd79e5fd726b886164b4f
+Description: Build in nspawn containers
+ Debspawn is a tool to build Debian packages in an isolated environment,
+ using systemd-nspawn containers.
+ By using containers, Debspawn can isolate builds from the host system
+ much better than traditional chroot-based build environments could.
+ .
+ Debspawn is designed to be both easy to use by humans, as well as easy
+ to integrate into an automated package build workflow.
+
 Package: git-all
 Source: git
 Version: 1:2.43.0-1-maruska2
