@@ -1,57 +1,57 @@
 Package: apt-doc
 Source: apt
-Version: 2.7.11-maruska
+Version: 2.7.12-maruska
 Architecture: all
 Maintainer: APT Development Team <deity@lists.debian.org>
-Installed-Size: 801
+Installed-Size: 802
 Multi-Arch: foreign
 Priority: optional
 Section: doc
-Filename: pool/main/a/apt/apt-doc_2.7.11-maruska_all.deb
-Size: 253928
-SHA256: f40d6bc8ab10100740489502e970d1aaf98cb941a3c5bcb6a275d4e37ac22427
-SHA1: 71f644d230c40f3c445d2876c3de95ed230591ab
-MD5sum: b8b378438f42f614ac1ffb361fa599ac
+Filename: pool/main/a/apt/apt-doc_2.7.12-maruska_all.deb
+Size: 254256
+SHA256: 53e5538114f967e5e45a0ccd96347319dc37e108a6ca760b31961c0f0704575d
+SHA1: 6a5fe9209edc6f65a1f9c62318e5a993fd8c4265
+MD5sum: 64ba942cb7aca43cc5a991e991709779
 Description: documentation for APT
  This package contains the user guide and offline guide for various
  APT tools which are provided in a html and a text-only version.
 
 Package: apt-transport-https
 Source: apt
-Version: 2.7.11-maruska
+Version: 2.7.12-maruska
 Architecture: all
 Maintainer: APT Development Team <deity@lists.debian.org>
-Installed-Size: 34
+Installed-Size: 35
 Depends: apt (>= 1.5~alpha4)
 Multi-Arch: foreign
 Priority: optional
 Section: oldlibs
-Filename: pool/main/a/apt/apt-transport-https_2.7.11-maruska_all.deb
-Size: 24272
-SHA256: 6800f20d1b022c1ade8bf82461b1997d5083c1730bb9a2947c1742c1efe310bd
-SHA1: 8db89819805f95b9cd6e640a1d409f5bdfeab939
-MD5sum: 82f47f6af57b8fcbebacab05506f3aab
+Filename: pool/main/a/apt/apt-transport-https_2.7.12-maruska_all.deb
+Size: 24636
+SHA256: 791975a35aeb380327e50e9643b404eb1becebefdeafcb51f9375490abdcd895
+SHA1: 8cab2861016b0370cfe5089daf8b7ea90add7aa5
+MD5sum: 657e65dc17988f20846a6ab3d61d108c
 Description: transitional package for https support
  This is a dummy transitional package - https support has been moved into
  the apt package in 1.5. It can be safely removed.
 
 Package: debhelper
-Version: 13.13-maruska
+Version: 13.14.1-maruska
 Architecture: all
 Maintainer: Debhelper Maintainers <debhelper@packages.debian.org>
-Installed-Size: 1403
-Depends: autotools-dev, dh-autoreconf (>= 17~), dh-strip-nondeterminism (>= 0.028~), dpkg (>= 1.18.0~), dpkg-dev (>= 1.18.2~), dwz (>= 0.12.20190711), file (>= 3.23), libdebhelper-perl (= 13.13-maruska), libdpkg-perl (>= 1.17.14), man-db, po-debconf, perl:any
+Installed-Size: 1405
+Depends: autotools-dev, dh-autoreconf (>= 17~), dh-strip-nondeterminism (>= 0.028~), dpkg (>= 1.18.0~), dpkg-dev (>= 1.18.2~), dwz (>= 0.12.20190711), file (>= 3.23), libdebhelper-perl (= 13.14.1-maruska), libdpkg-perl (>= 1.17.14), man-db, po-debconf, perl:any
 Suggests: dh-make
 Breaks: cmake (<< 3.9~), dh-debputy (<< 0.1.18~), meson (<< 0.40.0~)
 Provides: debhelper-compat (= 9), debhelper-compat (= 10), debhelper-compat (= 11), debhelper-compat (= 12), debhelper-compat (= 13), dh-sequence-dwz, dh-sequence-elf-tools, dh-sequence-installinitramfs, dh-sequence-installsysusers, dh-sequence-movetousr, dh-sequence-single-binary, dh-sequence-systemd
 Multi-Arch: foreign
 Priority: optional
 Section: devel
-Filename: pool/main/d/debhelper/debhelper_13.13-maruska_all.deb
-Size: 889996
-SHA256: 5df95e9c7ab178bd95550f12db25e49f9027ea289187d9f0b054624653879faf
-SHA1: 4483cecb46cedbd9e6d187b28fd63ce8be20a62b
-MD5sum: 4aec9a86eefd5f58e0bb204dd9ff442a
+Filename: pool/main/d/debhelper/debhelper_13.14.1-maruska_all.deb
+Size: 890704
+SHA256: 8e78ae1d45c6b47f271dd6e427ad9393ab06b5378b8b5c2e0f406b7d739db0b8
+SHA1: 6601b9ceaf6846b6b7a8e48f6fdbc61694afa831
+MD5sum: 5592a5e84ff86b8270dd4c446d66a786
 Description: helper programs for debian/rules
  A collection of programs that can be used in a debian/rules file to
  automate common tasks related to building Debian packages. Programs
@@ -428,18 +428,18 @@ Description: fast, scalable, distributed revision control system (web interface)
 
 Package: libapt-pkg-doc
 Source: apt
-Version: 2.7.11-maruska
+Version: 2.7.12-maruska
 Architecture: all
 Maintainer: APT Development Team <deity@lists.debian.org>
 Installed-Size: 18174
 Multi-Arch: foreign
 Priority: optional
 Section: doc
-Filename: pool/main/a/apt/libapt-pkg-doc_2.7.11-maruska_all.deb
-Size: 930940
-SHA256: eddb37c8e050090f143eeccd3ab2717d0202b6c0964a747ec3e5e31ca036f081
-SHA1: 22e84cf4d1f1b178dbdb4d16ea9b44e4c19c412c
-MD5sum: d06f5ada2d329de980e11299be0b20b5
+Filename: pool/main/a/apt/libapt-pkg-doc_2.7.12-maruska_all.deb
+Size: 931768
+SHA256: 1bacf580de17ffb8310bdf77229f8273fa53f0df2c195b6a4c521813d3f448da
+SHA1: 8c06c26c1845f1eefc337707fb158742261c2100
+MD5sum: 1df33665a5ab081f8cdf6ef8773dadfe
 Description: documentation for APT development
  This package contains documentation for development of the APT
  Debian package manipulation program and its libraries.
@@ -449,21 +449,21 @@ Description: documentation for APT development
 
 Package: libdebhelper-perl
 Source: debhelper
-Version: 13.13-maruska
+Version: 13.14.1-maruska
 Architecture: all
 Maintainer: Debhelper Maintainers <debhelper@packages.debian.org>
-Installed-Size: 333
+Installed-Size: 339
 Depends: perl:any
 Breaks: debhelper (<< 12.6~)
 Replaces: debhelper (<< 12.6~)
 Multi-Arch: foreign
 Priority: optional
 Section: perl
-Filename: pool/main/d/debhelper/libdebhelper-perl_13.13-maruska_all.deb
-Size: 85112
-SHA256: 5d02da85347192c0a94841faa55056577aba6b2fee9188aff5be63629ec0e3f1
-SHA1: f5faef96f329f3dd5fad2cb0caeb6d4c6c4b12be
-MD5sum: 536c2b84c4a04d21a683b37e1278dd23
+Filename: pool/main/d/debhelper/libdebhelper-perl_13.14.1-maruska_all.deb
+Size: 85940
+SHA256: e309c4892c6d40e396dcd87ef402bd6aa62d1fade80a537490d5a5cbe1a8f685
+SHA1: 6ff22f448b3890cc1b0d709cede65646601717a2
+MD5sum: 2d2d9840377b0ca838b6e7ef5e9f04da
 Description: debhelper perl modules
  A collection of programs that can be used in a debian/rules file to
  automate common tasks related to building Debian packages.
