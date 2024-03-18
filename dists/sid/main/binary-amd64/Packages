@@ -460,18 +460,18 @@ Description: fast, scalable, distributed revision control system (GUI)
  interactive merge conflict resolution.
 
 Package: git-hierarchy
-Version: 5.46
+Version: 5.47
 Architecture: all
 Maintainer: Michal Maruska <mmaruska@gmail.com>
-Installed-Size: 511
+Installed-Size: 512
 Depends: git, gitk (>= 1:2.19.1-1-maruska2), zsh, mmc-shell (>= 3.47), graphviz, imagemagick, bsdmainutils, xdot (>= 1.2-2-maruska)
 Priority: extra
 Section: misc
-Filename: pool/main/g/git-hierarchy/git-hierarchy_5.46_all.deb
-Size: 113000
-SHA256: c134249536e168ab2e91f8a39c8c50ed1361df3b4891d8ff4e001f36ae9781ec
-SHA1: 37e835b75fe1d34428349741622c8ade9b66fb38
-MD5sum: 6179d0ed0a89dc872863f685bc1a4fb3
+Filename: pool/main/g/git-hierarchy/git-hierarchy_5.47_all.deb
+Size: 113392
+SHA256: 6e56a83501c7b7c3702927afe028d53e1a2fac8e8f2295df97868dceabfb412d
+SHA1: 1324313b660d63efe29665744607bd0197756926
+MD5sum: a6525c491aca9e3488e07d761a4c9916
 Description: Tools to maintain extensions for upstream, in git
 
 Package: git-man
