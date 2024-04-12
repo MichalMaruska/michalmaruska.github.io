@@ -5,7 +5,7 @@ Origin: maruska
 Suite: focal
 Codename: focal
 Version: 20.3
-Date: Thu, 13 Jul 2023 07:26:13 UTC
+Date: Fri, 12 Apr 2024 11:20:19 UTC
 Architectures: amd64
 Components: main
 Description: My releases (improved & my own packages) for Ubuntu focal
@@ -38,15 +38,15 @@ SHA256:
  0692f318dc280ebc9e9f6be05506ac629b69d8e964e565e351b0fcc9d0a4baff 152 main/debug/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCAAdFiEEj5ld3379Nuk8fyGZPAkJW65/ICgFAmSvpxUACgkQPAkJW65/
-ICj9egv+NddWToe4i6H3VqDpS88VQ66bMQ1T+CvBYUaYv8UswVKZjnwwrS0d3b2H
-leZfKbQ4mho2Fw2AOsKeYP6HsVwYVqvOQDqL9i1f/sH9958lwpZQGg9ewU2ZPFT6
-W9cEaOOabCXfAklc9LDCkJsZbWL+Dw+Vb+1xWclbjQkfGbG7fZtyZZM2uOGOF8Xq
-VETgyLBh1RUEZaac/ZwUntHHN96vgXMJMn8ydCoe2udMSvTbM56xfuAzq4YN2Ktd
-uBthOFu9oYcjwBadJlfGzofiusQDZgJWEEc6xrTf2pWVvum8M9ysCUc7t0sHvDm3
-GF/XJzIqPqI1Bl8mi3GsOPM5p35tVMgLD7JfBzpTvBE+sfQtcWWVYxwY1ktbLRxS
-UisC92BiBdEn5DDGyiIURo5z8p9j6Blen9yzVw6DQZ4nVYkfZUwW6sVqJ5LD6oM6
-GPJlGqy1lS/W4E272SMPB3t/CoyrxFAZTCHEfq1jv/bIk+5Q3yhxLX6vJe2t6Aw/
-Xq7eaRDH
-=+PGq
+iQGzBAEBCAAdFiEEj5ld3379Nuk8fyGZPAkJW65/ICgFAmYZGPMACgkQPAkJW65/
+ICgWQgwAvXmQgzR0bKJRsjEdX8H/+syPpZBsbOgbZ7AtjC7Mffld36dEHJ0VtRTz
+L30oPMO8pbzB4u+5nID1+ZVFunzh5xPfJXzuAvyQY893jfNS2C7uRRz9T0CxJUwp
+tI3uIk7jxjA9D0LW66btS1izwIdKZ5Gj3zDH0V3GDwvW+sxnOURBiwjVDYsb4Esx
+vLywi55cdaVbDxd24xLjT+WRgJzVA/DLbX7QiUd51U+KrJPBRHMUIDb3tYG42Q4U
+UTilYMyNwIVqNcvZyoNJZl8U/U+MB/ZAAivaffd0obaz8Qg+9wqEQcpB5E1+mPQc
+Cov2xkXdNvJlEafK9WqfafIOYJNtogL9/4N0Z1IntPJitzlsCvN5Pi339Tz7R4gn
+FIl8D5d1LRRW/bUD0t/M7TsGqnfno7sc/+PjdqSYgIPuZ32+fz+m3M1SM4XCoPYy
+EJA9dIhi3XlMCn87YHkvYOFfNQV8INiAYN5SM8r8P/FxyqjhEhJs+OxaLzJ7ljNi
+NLx3hfhZ
+=+6YT
 -----END PGP SIGNATURE-----
