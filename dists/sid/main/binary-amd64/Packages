@@ -423,6 +423,22 @@ MD5sum: 4e05d5a6f606f73138b3eacb984097e3
 Description: debug symbols for gauche-0.9.14-zlib
 Build-Ids: 8883f71bff563daf66d7fe71855b26dab332b145
 
+Package: gauche-mmc
+Version: 4.2.1
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 644
+Depends: gauche
+Conflicts: gauche-mmc
+Priority: optional
+Section: interpreters
+Filename: pool/main/g/gauche-mmc/gauche-mmc_4.2.1_all.deb
+Size: 133620
+SHA256: f2d09f51668b5f3e162332e484462acae3ac3815b93513c5fb805033ced09a63
+SHA1: ee7adac1f799b331cef2dcf29600977613281426
+MD5sum: 92577e57acdc7dfa83a35055d3588b08
+Description: Scheme code, common to M. Maruska's GAUCHE packages.
+
 Package: git
 Version: 1:2.43.0-1-maruska2
 Architecture: amd64
