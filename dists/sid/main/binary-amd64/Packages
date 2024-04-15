@@ -423,6 +423,23 @@ MD5sum: 4e05d5a6f606f73138b3eacb984097e3
 Description: debug symbols for gauche-0.9.14-zlib
 Build-Ids: 8883f71bff563daf66d7fe71855b26dab332b145
 
+Package: gauche-bdb
+Version: 3.1
+Architecture: amd64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 7
+Depends: gauche, gauche-mmc
+Provides: gauche-bdb
+Priority: extra
+Section: interpreters
+Filename: pool/main/g/gauche-bdb/gauche-bdb_3.1_amd64.deb
+Size: 1628
+SHA256: 7d97f63f58e25a2b0de8da9d3e5c73798a29536b2fcaeaed9af3a4ce0b8bea5b
+SHA1: 5d4db93d0f45c536e728c7dd0733f91252d5ad25
+MD5sum: f98bd24ef94c17496ce9ca438841af36
+Description: binding to Berkeley DB for the Gauche interpreter
+Srcpkg: gauche-bdb
+
 Package: gauche-mmc
 Version: 4.2.1
 Architecture: all
