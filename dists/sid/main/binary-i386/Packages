@@ -1,24 +1,24 @@
 Package: apt-doc
 Source: apt
-Version: 2.9.0-maruska
+Version: 2.9.0-maruska1
 Architecture: all
 Maintainer: APT Development Team <deity@lists.debian.org>
 Installed-Size: 803
 Multi-Arch: foreign
 Priority: optional
 Section: doc
-Filename: pool/main/a/apt/apt-doc_2.9.0-maruska_all.deb
-Size: 255420
-SHA256: 0c3650ff54eb3e99f488a000dceb131d80cfefb040e87bbc1b052e2973d0f078
-SHA1: 9c6f30243fc3368a5e3034f144dfddaa43224f27
-MD5sum: 67faf24d9e7199bd0e37055a75013f08
+Filename: pool/main/a/apt/apt-doc_2.9.0-maruska1_all.deb
+Size: 255500
+SHA256: af1d8ec973a243feb422911b5c84dcc7e894dc3c07a053304dbd47c73d7fc6db
+SHA1: 72f286b6d94fc65a4d4c0dcecb0b5871114b0a68
+MD5sum: 0a3165b2f1f3c34c33c9a1b5a3249476
 Description: documentation for APT
  This package contains the user guide and offline guide for various
  APT tools which are provided in a html and a text-only version.
 
 Package: apt-transport-https
 Source: apt
-Version: 2.9.0-maruska
+Version: 2.9.0-maruska1
 Architecture: all
 Maintainer: APT Development Team <deity@lists.debian.org>
 Installed-Size: 36
@@ -26,11 +26,11 @@ Depends: apt (>= 1.5~alpha4)
 Multi-Arch: foreign
 Priority: optional
 Section: oldlibs
-Filename: pool/main/a/apt/apt-transport-https_2.9.0-maruska_all.deb
-Size: 25844
-SHA256: 6f96cb29b08cc512cbf06e0f34cdfff7ad1dd89fba6331dad2146ac72f855c8e
-SHA1: 7751f1032928da8e531fe84c58fb0c478bee26e0
-MD5sum: 0cee64f83577a9e47af777d016dbf100
+Filename: pool/main/a/apt/apt-transport-https_2.9.0-maruska1_all.deb
+Size: 25880
+SHA256: 4fc976fd2ba68c1ad9dedd9830272b026f4865ae453341a0d8409cba02942c8f
+SHA1: 205d432ec9503563482b37545a9fed6905f77b6c
+MD5sum: e6d2192ded0d86aff213c3d1b907c93d
 Description: transitional package for https support
  This is a dummy transitional package - https support has been moved into
  the apt package in 1.5. It can be safely removed.
@@ -84,6 +84,32 @@ Description: Build in nspawn containers
  .
  Debspawn is designed to be both easy to use by humans, as well as easy
  to integrate into an automated package build workflow.
+
+Package: gauche-0.9.14-doc
+Source: gauche
+Version: 0.9.14-maruska
+Architecture: all
+Maintainer: Debian Gauche Maintainers <pkg-gauche-devel@lists.alioth.debian.org>
+Installed-Size: 2471
+Conflicts: gauche-doc (<< 0.9.4~pre3maruska1)
+Provides: gauche-doc
+Homepage: http://practical-scheme.net/gauche/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gauche/gauche-0.9.14-doc_0.9.14-maruska_all.deb
+Size: 2519588
+SHA256: 0463abb70d2937f843d7798e1680ff47e4a25cc55759edbfc4ad93d39ab54800
+SHA1: 89b5d8798efb651343a350bc72ffd79d18ba4e0f
+MD5sum: 03e8f9ce635fa189cc95e02931ad3e30
+Description: Reference manual of Gauche
+ Gauche is a Scheme implementation developed to be a handy script
+ interpreter, which allows programmers and system administrators to
+ write small to large scripts for their daily chores. Quick startup,
+ built-in system interface, native multilingual support are some of
+ the author's goals.
+ .
+ This package contains info documents of the reference manual of Gauche
+ (English, Japanese).
 
 Package: git-all
 Source: git
@@ -453,18 +479,18 @@ Description: fast, scalable, distributed revision control system (web interface)
 
 Package: libapt-pkg-doc
 Source: apt
-Version: 2.9.0-maruska
+Version: 2.9.0-maruska1
 Architecture: all
 Maintainer: APT Development Team <deity@lists.debian.org>
-Installed-Size: 18176
+Installed-Size: 18178
 Multi-Arch: foreign
 Priority: optional
 Section: doc
-Filename: pool/main/a/apt/libapt-pkg-doc_2.9.0-maruska_all.deb
-Size: 933068
-SHA256: 0cfd7f5f0abf7831c775f3836a5be45ae68902c8e3d14844e7a1ffd6098bef02
-SHA1: 066bce9c9fcfa3589a065e6eeaa944773ee362d3
-MD5sum: 78624777fe0f93cfba91423cd2caee37
+Filename: pool/main/a/apt/libapt-pkg-doc_2.9.0-maruska1_all.deb
+Size: 932536
+SHA256: fdb2bf3ad92b64241901acd9b3c9a0f0d46116e9423148eeab8a618aab04b503
+SHA1: f5d4748564fb6bbaef08e3813c393943ea0869c7
+MD5sum: b4a503ed5520fcee07a9f53dddca7684
 Description: documentation for APT development
  This package contains documentation for development of the APT
  Debian package manipulation program and its libraries.
