@@ -456,6 +456,23 @@ SHA1: ee7adac1f799b331cef2dcf29600977613281426
 MD5sum: 92577e57acdc7dfa83a35055d3588b08
 Description: Scheme code, common to M. Maruska's GAUCHE packages.
 
+Package: gauche-pg
+Version: 4.0
+Architecture: amd64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 10
+Depends: gauche, libpq5
+Conflicts: gauche-pg (<= 1.15)
+Provides: gauche-pg
+Priority: extra
+Section: interpreters
+Filename: pool/main/g/gauche-pg/gauche-pg_4.0_amd64.deb
+Size: 4272
+SHA256: e2fb8499448a381a51f74e4d639c3d8bec6f83a5ffd20d0937bc7931ba59b922
+SHA1: 0c2a87c171a574c7f04be84d3fbab23f9ba82e8f
+MD5sum: 89205d7c8f8d296fa558814927fcf34d
+Description: libpq binding for Gauche scheme interpreter
+
 Package: git
 Version: 1:2.43.0-1-maruska2
 Architecture: amd64
