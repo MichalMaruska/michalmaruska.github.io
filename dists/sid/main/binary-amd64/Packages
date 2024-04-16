@@ -457,21 +457,39 @@ MD5sum: 92577e57acdc7dfa83a35055d3588b08
 Description: Scheme code, common to M. Maruska's GAUCHE packages.
 
 Package: gauche-pg
-Version: 4.0
+Version: 4.1
 Architecture: amd64
 Maintainer: Michal Maruska <mmaruska@gmail.com>
-Installed-Size: 10
-Depends: gauche, libpq5
+Installed-Size: 382
+Depends: libc6 (>= 2.4), libgauche-0.98-0 (>= 0.9.10), libpq5, gauche
 Conflicts: gauche-pg (<= 1.15)
 Provides: gauche-pg
 Priority: extra
 Section: interpreters
-Filename: pool/main/g/gauche-pg/gauche-pg_4.0_amd64.deb
-Size: 4272
-SHA256: e2fb8499448a381a51f74e4d639c3d8bec6f83a5ffd20d0937bc7931ba59b922
-SHA1: 0c2a87c171a574c7f04be84d3fbab23f9ba82e8f
-MD5sum: 89205d7c8f8d296fa558814927fcf34d
+Filename: pool/main/g/gauche-pg/gauche-pg_4.1_amd64.deb
+Size: 84100
+SHA256: eaf7757c70db4533698f9dc605699fd2b1d1935c98663a8111a458a153b217f8
+SHA1: 6db9a2b27155482795161fda09fbc7f0dcd9beab
+MD5sum: f7aef3cfd8f702b8a5c1ef23e1530e6a
 Description: libpq binding for Gauche scheme interpreter
+
+Package: gauche-pg-dbgsym
+Source: gauche-pg
+Version: 4.1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 69
+Depends: gauche-pg (= 4.1)
+Priority: optional
+Section: debug
+Filename: pool/main/g/gauche-pg/gauche-pg-dbgsym_4.1_amd64.deb
+Size: 48520
+SHA256: 7a4b959f2a0384617475e1e4ced647fd4814844a409eb95a27d7b45fb8a91972
+SHA1: aeb021b276dd7fe2105503136eda6ad7761e9c12
+MD5sum: d4420bd321e373d3901215dc4afa0cac
+Description: debug symbols for gauche-pg
+Build-Ids: 1d4673c5942ebfb3eb2b1ce98f2ae0a8199eb55f
 
 Package: git
 Version: 1:2.43.0-1-maruska2
