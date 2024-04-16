@@ -427,17 +427,36 @@ Package: gauche-bdb
 Version: 3.1
 Architecture: amd64
 Maintainer: Michal Maruska <mmaruska@gmail.com>
-Installed-Size: 7
-Depends: gauche, gauche-mmc
+Installed-Size: 169
+Depends: libc6 (>= 2.14), libdb5.3t64, gauche, gauche-mmc
 Provides: gauche-bdb
 Priority: extra
 Section: interpreters
 Filename: pool/main/g/gauche-bdb/gauche-bdb_3.1_amd64.deb
-Size: 1628
-SHA256: 7d97f63f58e25a2b0de8da9d3e5c73798a29536b2fcaeaed9af3a4ce0b8bea5b
-SHA1: 5d4db93d0f45c536e728c7dd0733f91252d5ad25
-MD5sum: f98bd24ef94c17496ce9ca438841af36
+Size: 35252
+SHA256: da4a61356d94f1e483c05f7f497ddeebb2be42cf53d27bc664ae6b57f9096cd0
+SHA1: cf41fe398190990fb2133445cb894b39c922dd9f
+MD5sum: 1ecf24add453d22f712ce64b2f0f1b05
 Description: binding to Berkeley DB for the Gauche interpreter
+Srcpkg: gauche-bdb
+
+Package: gauche-bdb-dbgsym
+Source: gauche-bdb
+Version: 3.1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 194
+Depends: gauche-bdb (= 3.1)
+Priority: optional
+Section: debug
+Filename: pool/main/g/gauche-bdb/gauche-bdb-dbgsym_3.1_amd64.deb
+Size: 172768
+SHA256: f7ab82f47266b39063a1fe31bf30d72cb73fc88734b1d0e83ed180787423fd35
+SHA1: b57fa0b12fd8a0266c095d671ef6f091f720c72c
+MD5sum: 952fce0eef311caf7d3d3d75471497ec
+Description: debug symbols for gauche-bdb
+Build-Ids: 9650fb321d79eea0852ae00b1f2c64e56428dd1d
 Srcpkg: gauche-bdb
 
 Package: gauche-mmc
