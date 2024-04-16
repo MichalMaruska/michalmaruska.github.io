@@ -475,6 +475,21 @@ SHA1: ee7adac1f799b331cef2dcf29600977613281426
 MD5sum: 92577e57acdc7dfa83a35055d3588b08
 Description: Scheme code, common to M. Maruska's GAUCHE packages.
 
+Package: gauche-mmc-apps
+Version: 1.10
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 42
+Depends: gauche, gauche-mmc
+Priority: extra
+Section: interpreters
+Filename: pool/main/g/gauche-mmc-apps/gauche-mmc-apps_1.10_all.deb
+Size: 10092
+SHA256: ecade54b7e06956878d6e641de04bd831fd436bc56eafbb7c1d9ab301e774418
+SHA1: cc9f825cbaed3dba9992bd5dcc138c56449cdcb6
+MD5sum: e8414b95a2d9226f7ca99276831bc14d
+Description: mmc's (simple) applications in Gauche
+
 Package: gauche-pg
 Version: 4.1
 Architecture: amd64
