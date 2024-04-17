@@ -424,39 +424,39 @@ Description: debug symbols for gauche-0.9.14-zlib
 Build-Ids: 8883f71bff563daf66d7fe71855b26dab332b145
 
 Package: gauche-bdb
-Version: 3.1
+Version: 3.2
 Architecture: amd64
 Maintainer: Michal Maruska <mmaruska@gmail.com>
-Installed-Size: 169
-Depends: libc6 (>= 2.14), libdb5.3t64, gauche, gauche-mmc
+Installed-Size: 163
+Depends: libc6 (>= 2.14), libdb5.3t64, libgauche-0.98-0 (>= 0.9.10), gauche, gauche-mmc
 Provides: gauche-bdb
 Priority: extra
 Section: interpreters
-Filename: pool/main/g/gauche-bdb/gauche-bdb_3.1_amd64.deb
-Size: 35252
-SHA256: da4a61356d94f1e483c05f7f497ddeebb2be42cf53d27bc664ae6b57f9096cd0
-SHA1: cf41fe398190990fb2133445cb894b39c922dd9f
-MD5sum: 1ecf24add453d22f712ce64b2f0f1b05
+Filename: pool/main/g/gauche-bdb/gauche-bdb_3.2_amd64.deb
+Size: 34912
+SHA256: 46e575e50608e68b2e44100a6a310ccd0b4d204f02f733dbd97f36e66f73c86e
+SHA1: 365430771bc23bdb1692e5ebc5eabb572bddfb32
+MD5sum: a32acf5ded64189a754570bb8fe716ec
 Description: binding to Berkeley DB for the Gauche interpreter
 Srcpkg: gauche-bdb
 
 Package: gauche-bdb-dbgsym
 Source: gauche-bdb
-Version: 3.1
+Version: 3.2
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Michal Maruska <mmaruska@gmail.com>
-Installed-Size: 194
-Depends: gauche-bdb (= 3.1)
+Installed-Size: 118
+Depends: gauche-bdb (= 3.2)
 Priority: optional
 Section: debug
-Filename: pool/main/g/gauche-bdb/gauche-bdb-dbgsym_3.1_amd64.deb
-Size: 172768
-SHA256: f7ab82f47266b39063a1fe31bf30d72cb73fc88734b1d0e83ed180787423fd35
-SHA1: b57fa0b12fd8a0266c095d671ef6f091f720c72c
-MD5sum: 952fce0eef311caf7d3d3d75471497ec
+Filename: pool/main/g/gauche-bdb/gauche-bdb-dbgsym_3.2_amd64.deb
+Size: 93444
+SHA256: 652019a06706fb0ccfbdfd39c05639f561db6d85a1119b40aca7cac181e79d84
+SHA1: 6c312f2279ada2053f8b2c9d3fbb852486137bcc
+MD5sum: 8726f2828aa69dfe9d7260f4bd7e5117
 Description: debug symbols for gauche-bdb
-Build-Ids: 9650fb321d79eea0852ae00b1f2c64e56428dd1d
+Build-Ids: 08d73e039bff213f981fd2b3b87d7411668d4a85
 Srcpkg: gauche-bdb
 
 Package: gauche-mmc
