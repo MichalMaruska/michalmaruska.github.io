@@ -85,32 +85,6 @@ Description: Build in nspawn containers
  Debspawn is designed to be both easy to use by humans, as well as easy
  to integrate into an automated package build workflow.
 
-Package: gauche-0.9.14-doc
-Source: gauche
-Version: 0.9.14-maruska
-Architecture: all
-Maintainer: Debian Gauche Maintainers <pkg-gauche-devel@lists.alioth.debian.org>
-Installed-Size: 2471
-Conflicts: gauche-doc (<< 0.9.4~pre3maruska1)
-Provides: gauche-doc
-Homepage: http://practical-scheme.net/gauche/
-Priority: optional
-Section: doc
-Filename: pool/main/g/gauche/gauche-0.9.14-doc_0.9.14-maruska_all.deb
-Size: 2519588
-SHA256: 0463abb70d2937f843d7798e1680ff47e4a25cc55759edbfc4ad93d39ab54800
-SHA1: 89b5d8798efb651343a350bc72ffd79d18ba4e0f
-MD5sum: 03e8f9ce635fa189cc95e02931ad3e30
-Description: Reference manual of Gauche
- Gauche is a Scheme implementation developed to be a handy script
- interpreter, which allows programmers and system administrators to
- write small to large scripts for their daily chores. Quick startup,
- built-in system interface, native multilingual support are some of
- the author's goals.
- .
- This package contains info documents of the reference manual of Gauche
- (English, Japanese).
-
 Package: gauche-doc
 Source: gauche
 Version: 0.9.14-maruska2
