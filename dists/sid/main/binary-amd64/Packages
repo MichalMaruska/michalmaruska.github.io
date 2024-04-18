@@ -368,6 +368,40 @@ Description: Reference manual of Gauche
  This package contains info documents of the reference manual of Gauche
  (English, Japanese).
 
+Package: gauche-exif
+Version: 4.1.0
+Architecture: amd64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 58
+Depends: libc6 (>= 2.4), libexif12 (>= 0.6.21-1~), libgauche0 (>= 0.9.14-maruska3)
+Priority: extra
+Section: interpreters
+Filename: pool/main/g/gauche-exif/gauche-exif_4.1.0_amd64.deb
+Size: 9780
+SHA256: 01662a382d0224d7a0885c945e046722a34e0633f5c7d2672c7917502aad1962
+SHA1: c84335837d270f34b39b3928f02420e8bd996e7f
+MD5sum: e2e1366179ffa06ec91e5ff6207c2826
+Description: access libExif from Gauche.
+ Bindings.
+
+Package: gauche-exif-dbgsym
+Source: gauche-exif
+Version: 4.1.0
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 40
+Depends: gauche-exif (= 4.1.0)
+Priority: optional
+Section: debug
+Filename: pool/main/g/gauche-exif/gauche-exif-dbgsym_4.1.0_amd64.deb
+Size: 24336
+SHA256: bc732e84ad34568d7d902cfa085749b881af0e2a2f7d8d0cabb4b75adcce44dd
+SHA1: 208f09ee6813a47ac0cec7a0bca4f7f5c8df1e5a
+MD5sum: 8859f05d76a4f3fac7312e6032eb679d
+Description: debug symbols for gauche-exif
+Build-Ids: d47872dc5811da24eff076ec4bcb64b989e83cdf
+
 Package: gauche-fastcgi
 Version: 1.5
 Architecture: amd64
