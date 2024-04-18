@@ -215,33 +215,6 @@ MD5sum: a350aa717141b433ffd9594f4dc93f64
 Description: debug symbols for fork-plugin
 Build-Ids: ac003123fd08978bbb1829ed66b46aed7d5739f6
 
-Package: gauche
-Version: 0.9.14-maruska2
-Architecture: amd64
-Maintainer: Debian Gauche Maintainers <pkg-gauche-devel@lists.alioth.debian.org>
-Installed-Size: 29026
-Depends: libc6 (>= 2.35), libcrypt1 (>= 1:4.1.0), libgdbm6t64 (>= 1.16), zlib1g (>= 1:1.1.4), libgauche0
-Recommends: slib
-Suggests: r5rs-doc, gauche-doc, gauche-zlib, gauche-gdbm
-Conflicts: gauche (<< 0.9.4~pre3maruska1), wiliki (<< 0.5.1)
-Breaks: gauche-dev (<= 0.9-11)
-Replaces: gauche-dev (<= 0.9-11)
-Provides: gauche
-Homepage: http://practical-scheme.net/gauche/
-Priority: optional
-Section: lisp
-Filename: pool/main/g/gauche/gauche_0.9.14-maruska2_amd64.deb
-Size: 5348192
-SHA256: 2a530d236ce4b220814489133633f96cae3438ecca1ebbb20354c231ae8c5bc1
-SHA1: d15d28136f3197700a20798a1d525c177070a086
-MD5sum: dc00d314f86d66a16c579a54da809b9a
-Description: A Scheme implementation designed for script writing
- Gauche is a Scheme implementation developed to be a handy script
- interpreter, which allows programmers and system administrators to
- write small to large scripts for their daily chores. Quick startup,
- built-in system interface, native multilingual support are some of
- the author's goals.
-
 Package: gauche-bdb
 Version: 3.2
 Architecture: amd64
@@ -1308,30 +1281,6 @@ SHA1: 67fa5b6288b960a2f49e438d55692fdbdc339270
 MD5sum: b99da10f87897cc3c3be2ab1b01f6f8e
 Description: debug symbols for libfork
 Build-Ids: 7c5350859fe2146711190c1e3f0620956ae4e7ce a99357ca9dceac0314d30526bf66d3bc3c0061ca
-
-Package: libgauche0
-Source: gauche
-Version: 0.9.14-maruska2
-Architecture: amd64
-Maintainer: Debian Gauche Maintainers <pkg-gauche-devel@lists.alioth.debian.org>
-Installed-Size: 10280
-Depends: libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0)
-Breaks: gauche (<= 0.9-11)
-Replaces: gauche (<= 0.9-11)
-Provides: libgauche0
-Homepage: http://practical-scheme.net/gauche/
-Priority: optional
-Section: libs
-Filename: pool/main/g/gauche/libgauche0_0.9.14-maruska2_amd64.deb
-Size: 2263328
-SHA256: 25342ef9274c94ab892ade8221bc27fd2e218ab0efa4119f8b6e7dbb2aa7e9db
-SHA1: a51b9920078f2c92fabac4b243121c0f2031ea52
-MD5sum: b1191463b3429358c5bc991969f036ca
-Description: Gauche runtime shared library
- Gauche is a Scheme implementation developed to be a handy script
- interpreter.
- .
- This package contains Gauche runtime shared library.
 
 Package: libgauche0-dbgsym
 Source: gauche
