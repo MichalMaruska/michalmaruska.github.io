@@ -1333,48 +1333,6 @@ Description: Gauche runtime shared library
  .
  This package contains Gauche runtime shared library.
 
-Package: libgauche0-0.9.14
-Source: gauche
-Version: 0.9.14-maruska
-Architecture: amd64
-Maintainer: Debian Gauche Maintainers <pkg-gauche-devel@lists.alioth.debian.org>
-Installed-Size: 10280
-Depends: libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0)
-Breaks: gauche (<= 0.9-11)
-Replaces: gauche (<= 0.9-11)
-Provides: libgauche0
-Homepage: http://practical-scheme.net/gauche/
-Priority: optional
-Section: libs
-Filename: pool/main/g/gauche/libgauche0-0.9.14_0.9.14-maruska_amd64.deb
-Size: 2240468
-SHA256: 278f3adf4471d37642a528fb95dc0b5e9af2c110d607e742bd6a6d47700c8deb
-SHA1: 762e15229f0fb863513454e34c35cb8d43727e43
-MD5sum: 4f03c6aa8efc3761cec3525addda99a0
-Description: Gauche runtime shared library
- Gauche is a Scheme implementation developed to be a handy script
- interpreter.
- .
- This package contains Gauche runtime shared library.
-
-Package: libgauche0-0.9.14-dbgsym
-Source: gauche
-Version: 0.9.14-maruska
-Auto-Built-Package: debug-symbols
-Architecture: amd64
-Maintainer: Debian Gauche Maintainers <pkg-gauche-devel@lists.alioth.debian.org>
-Installed-Size: 2582
-Depends: libgauche0-0.9.14 (= 0.9.14-maruska)
-Priority: optional
-Section: debug
-Filename: pool/main/g/gauche/libgauche0-0.9.14-dbgsym_0.9.14-maruska_amd64.deb
-Size: 2300020
-SHA256: bee64129b7f43dc620790b331e9ec6ce64ff8a6147b2daaee02d2c66248c9c1b
-SHA1: ec3f27255190a3656cac5857734c36f445f8bac0
-MD5sum: 17c6f9859722c51cf7fef1f4a3aef600
-Description: debug symbols for libgauche0-0.9.14
-Build-Ids: de7a62459ef4da204962a3c56669c972810247f0
-
 Package: libgauche0-dbgsym
 Source: gauche
 Version: 0.9.14-maruska2
