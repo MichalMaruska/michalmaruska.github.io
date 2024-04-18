@@ -111,6 +111,32 @@ Description: Reference manual of Gauche
  This package contains info documents of the reference manual of Gauche
  (English, Japanese).
 
+Package: gauche-doc
+Source: gauche
+Version: 0.9.14-maruska2
+Architecture: all
+Maintainer: Debian Gauche Maintainers <pkg-gauche-devel@lists.alioth.debian.org>
+Installed-Size: 2471
+Conflicts: gauche-doc (<< 0.9.4~pre3maruska1)
+Provides: gauche-doc
+Homepage: http://practical-scheme.net/gauche/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gauche/gauche-doc_0.9.14-maruska2_all.deb
+Size: 2519624
+SHA256: d9016eaea971b3d923966557a4333acf1f58482bf1e76ff89089c4d6c92badc4
+SHA1: 815a5c0d2da2a68aa452731bbe15a4c8c5d087fe
+MD5sum: f33bed1242604b1678340b8a4d4c1e5c
+Description: Reference manual of Gauche
+ Gauche is a Scheme implementation developed to be a handy script
+ interpreter, which allows programmers and system administrators to
+ write small to large scripts for their daily chores. Quick startup,
+ built-in system interface, native multilingual support are some of
+ the author's goals.
+ .
+ This package contains info documents of the reference manual of Gauche
+ (English, Japanese).
+
 Package: gauche-mmc
 Version: 4.2.1
 Architecture: all
