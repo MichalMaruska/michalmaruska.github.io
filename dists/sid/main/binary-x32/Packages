@@ -87,7 +87,7 @@ Description: Build in nspawn containers
 
 Package: gauche-doc
 Source: gauche
-Version: 0.9.14-maruska2
+Version: 0.9.14-maruska3-maruska
 Architecture: all
 Maintainer: Debian Gauche Maintainers <pkg-gauche-devel@lists.alioth.debian.org>
 Installed-Size: 2471
@@ -96,11 +96,11 @@ Provides: gauche-doc
 Homepage: http://practical-scheme.net/gauche/
 Priority: optional
 Section: doc
-Filename: pool/main/g/gauche/gauche-doc_0.9.14-maruska2_all.deb
-Size: 2519624
-SHA256: d9016eaea971b3d923966557a4333acf1f58482bf1e76ff89089c4d6c92badc4
-SHA1: 815a5c0d2da2a68aa452731bbe15a4c8c5d087fe
-MD5sum: f33bed1242604b1678340b8a4d4c1e5c
+Filename: pool/main/g/gauche/gauche-doc_0.9.14-maruska3-maruska_all.deb
+Size: 2519308
+SHA256: ef4663fe984374f5fd6371c185293340b5e8921b92841ea1e55c9b552e291eda
+SHA1: ab833db89af2dbfd1d4885cedaffec6705c49b07
+MD5sum: 0ce314a63ed288f164fa3ea5cb01c1df
 Description: Reference manual of Gauche
  Gauche is a Scheme implementation developed to be a handy script
  interpreter, which allows programmers and system administrators to

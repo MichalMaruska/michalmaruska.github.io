@@ -215,6 +215,33 @@ MD5sum: a350aa717141b433ffd9594f4dc93f64
 Description: debug symbols for fork-plugin
 Build-Ids: ac003123fd08978bbb1829ed66b46aed7d5739f6
 
+Package: gauche
+Version: 0.9.14-maruska3-maruska
+Architecture: amd64
+Maintainer: Debian Gauche Maintainers <pkg-gauche-devel@lists.alioth.debian.org>
+Installed-Size: 19047
+Depends: libc6 (>= 2.35), libgauche0 (>= 0.9.14-maruska3), libgdbm6t64 (>= 1.16), zlib1g (>= 1:1.1.4)
+Recommends: slib
+Suggests: r5rs-doc, gauche-doc, gauche-zlib, gauche-gdbm
+Conflicts: gauche (<< 0.9.4~pre3maruska1), wiliki (<< 0.5.1)
+Breaks: gauche-dev (<= 0.9-11)
+Replaces: gauche-dev (<= 0.9-11)
+Provides: gauche
+Homepage: http://practical-scheme.net/gauche/
+Priority: optional
+Section: lisp
+Filename: pool/main/g/gauche/gauche_0.9.14-maruska3-maruska_amd64.deb
+Size: 3400884
+SHA256: f3180edeefcbc7b8c1e95cee49e933c01e1f203a02e997e7313dd5a1b2ceb151
+SHA1: 616edf52382eaae7331c526a6d2b826f2c9f9afe
+MD5sum: cc8e67392b0c60bed64af45b7965856c
+Description: A Scheme implementation designed for script writing
+ Gauche is a Scheme implementation developed to be a handy script
+ interpreter, which allows programmers and system administrators to
+ write small to large scripts for their daily chores. Quick startup,
+ built-in system interface, native multilingual support are some of
+ the author's goals.
+
 Package: gauche-bdb
 Version: 3.2
 Architecture: amd64
@@ -253,28 +280,28 @@ Srcpkg: gauche-bdb
 
 Package: gauche-dbgsym
 Source: gauche
-Version: 0.9.14-maruska2
+Version: 0.9.14-maruska3-maruska
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian Gauche Maintainers <pkg-gauche-devel@lists.alioth.debian.org>
-Installed-Size: 5452
-Depends: gauche (= 0.9.14-maruska2)
+Installed-Size: 2878
+Depends: gauche (= 0.9.14-maruska3-maruska)
 Priority: optional
 Section: debug
-Filename: pool/main/g/gauche/gauche-dbgsym_0.9.14-maruska2_amd64.deb
-Size: 4463072
-SHA256: d8423619fe210d235a12992d80df186d25530460aa76f9eb1422eedfe247129c
-SHA1: 12d660989ed1b40b60592d7f76af2f9f52cbc9e2
-MD5sum: 1ff0fbdb0e17fbd924311e59aab99b61
+Filename: pool/main/g/gauche/gauche-dbgsym_0.9.14-maruska3-maruska_amd64.deb
+Size: 2162948
+SHA256: 4d33fa3bdcf99570f5d76a0afd03a8f749bcb01d634d9622b8e2b91c559802a4
+SHA1: 759a76a3f3e3391819fd6314ff517d2de4648f30
+MD5sum: dd5d3c7686b237c481bd7387fb5bebab
 Description: debug symbols for gauche
-Build-Ids: 0b7b587b2533b8d7698f965c08be5e2cd2ef4b90 100e46428a44c3dd3de117728f8e5b49ddf3e0e1 191c82fd4bdb97f3c6513514adafcc10c06edd9c 1c09ea2a7801f440366bb20c4c3020603a016f2c 1e97acb238e5aa18010ff5c08dec6515fcee7b36 203c18e3b381b66219c3bd5171530cd962cac547 304a4ff05feb9a6a887b0706a7bedec86f0842aa 3134ec12a123b58e510d0f5fec210230fab75de0 316aa4d6275e30dbe7a8e1bb00570df206d838fa 3232cc0db9144296374d2584f5a77e109269d779 382cb7ba3a56fceee05b045c5ddc0d9f17420903 39992ef7e92d5a907d73218e68f4b62e17bb6a3e 3e11c2f97d331097e66439504052ca4fd4100a48 4abbc91d713b5a846755120b2b3983c9540067a0 519af23e3fb8a78af7068a01a278765d46d86d8e 543912fbd77e2027e0cad610f2d5cbebee891235 54c04be64e9ba7f4ed88a01ce9c586c835410391 5c116d364b949582b74483d69154a22e99c63834 5cf798ddd8636fb81d8f2f4445ed14fe213fbd9a 5e0e658b43d76ebe67988b38ded478b886ea0504 64013c67aa72fc4d09dba7d771a2a1ecd7dc2906 64d81fb201e7abb4a570d3e66117fd2c5774bb2b 6551c558dbc756e18667816d7f93cd76cc07950d 726fe96c6a198924b40704c13f55e67399c96167 785d35749e09a48c8fdd55acd9fa06a0e2d6a5f7 79233ee0ccd27df834d999419618c0b0447d90b4 7b9f652b3f67fa3b785924731fc54380224626d6 7e8238c4270a4ccfc1a074907efbe3f0fa509c3f 84669a005bc7b4a3ce7cd752a604e6d5bdec8bef 8883f71bff563daf66d7fe71855b26dab332b145 8c2782693505ff3444105dc82feeea0813b4aa90 8d630b568d61adc5893ca0562fa1b15a4113d5e1 90f54e20c7772b421a5a5856b947bcdfd4ac0f70 975f911f715c27ffa4629d778f8baea09b1a5d3b 9e6176cfb22d139621d2290d3e0b9a80ad6ae07f b23bb377b300cf2d0bfa4fd90367d374e9357577 b468ca600602c0f8acd235115ec8bf24fd509623 b4db8e3f1fd38a9f661b618b96e9a8df318f5980 b60ae9e6d954e480dc9c6958b77276bff9105fe5 b61314eb502e13ea1f6608fcf80417217786a1af b7dd9f9b559e6216858dfcd349b8b3d3d6939151 b9c5f85c045772402d4c68cb1bdedcd3aa176f7f bd030f9c2b218ab8f43ff8daf8338cd3aa85022f c303fd4dfcc3a654a783d3c70a16714c71ad83cf caa3dc22255a9da5811fcc7cda5b887a38c93892 d82af2c280891066f9290f1c342d7a026a810d91 d889a7f2b185e2ac99b5be42af341ede6dfb2cf7 de7a62459ef4da204962a3c56669c972810247f0 e3809c8fe997c841be9afeeab1099d0d391f2467 e8d2ff7d97d0e1a56c732d78cdb5140fffab6de5 ea41c58eb9242ec19d85165af8ab82ba440d3650 ed20e5e575e457d5d739dd6ff35510555d136184 f21bd89029ef95e5f03d8d4a38017d172bf36f1f fa13c0945c3b2bba660ff0d7a2dbfcd7049e369e
+Build-Ids: 053f9529de1d5860b518eb3d4e408c1ecf027c4e 0b7b587b2533b8d7698f965c08be5e2cd2ef4b90 100e46428a44c3dd3de117728f8e5b49ddf3e0e1 13b41ef2980481d24bd622b99f5a5f6978a687dc 191c82fd4bdb97f3c6513514adafcc10c06edd9c 1c09ea2a7801f440366bb20c4c3020603a016f2c 1e97acb238e5aa18010ff5c08dec6515fcee7b36 203c18e3b381b66219c3bd5171530cd962cac547 304a4ff05feb9a6a887b0706a7bedec86f0842aa 3134ec12a123b58e510d0f5fec210230fab75de0 3232cc0db9144296374d2584f5a77e109269d779 382cb7ba3a56fceee05b045c5ddc0d9f17420903 3e11c2f97d331097e66439504052ca4fd4100a48 4a4ebe63cbcf150feeb08916cc7408e32b7057b6 4abbc91d713b5a846755120b2b3983c9540067a0 5078747c014509329b04cf3f5122a62b324db1c8 520354b553e02160a0fcdfda1d0255b135808a68 54c04be64e9ba7f4ed88a01ce9c586c835410391 5c116d364b949582b74483d69154a22e99c63834 5cf798ddd8636fb81d8f2f4445ed14fe213fbd9a 5e0e658b43d76ebe67988b38ded478b886ea0504 64013c67aa72fc4d09dba7d771a2a1ecd7dc2906 64d81fb201e7abb4a570d3e66117fd2c5774bb2b 6551c558dbc756e18667816d7f93cd76cc07950d 697a97351c83802b0e4b8893ca9cb75bde99b4d6 726fe96c6a198924b40704c13f55e67399c96167 785d35749e09a48c8fdd55acd9fa06a0e2d6a5f7 79233ee0ccd27df834d999419618c0b0447d90b4 7b9f652b3f67fa3b785924731fc54380224626d6 7e8238c4270a4ccfc1a074907efbe3f0fa509c3f 83843d11dd0831277da24e15a5fddfaae846cab0 84669a005bc7b4a3ce7cd752a604e6d5bdec8bef 8883f71bff563daf66d7fe71855b26dab332b145 8c2782693505ff3444105dc82feeea0813b4aa90 8d630b568d61adc5893ca0562fa1b15a4113d5e1 975f911f715c27ffa4629d778f8baea09b1a5d3b 9e6176cfb22d139621d2290d3e0b9a80ad6ae07f b23bb377b300cf2d0bfa4fd90367d374e9357577 b468ca600602c0f8acd235115ec8bf24fd509623 b4db8e3f1fd38a9f661b618b96e9a8df318f5980 b50165b97f0dd38cfc698d16d727525f5135c362 b9c5f85c045772402d4c68cb1bdedcd3aa176f7f bd030f9c2b218ab8f43ff8daf8338cd3aa85022f c303fd4dfcc3a654a783d3c70a16714c71ad83cf caa3dc22255a9da5811fcc7cda5b887a38c93892 d82af2c280891066f9290f1c342d7a026a810d91 d889a7f2b185e2ac99b5be42af341ede6dfb2cf7 e3809c8fe997c841be9afeeab1099d0d391f2467 e8d2ff7d97d0e1a56c732d78cdb5140fffab6de5 ea41c58eb9242ec19d85165af8ab82ba440d3650 ed20e5e575e457d5d739dd6ff35510555d136184 f21bd89029ef95e5f03d8d4a38017d172bf36f1f fa13c0945c3b2bba660ff0d7a2dbfcd7049e369e
 
 Package: gauche-dev
 Source: gauche
-Version: 0.9.14-maruska2
+Version: 0.9.14-maruska3-maruska
 Architecture: amd64
 Maintainer: Debian Gauche Maintainers <pkg-gauche-devel@lists.alioth.debian.org>
-Installed-Size: 80668
+Installed-Size: 80664
 Depends: gauche, libc6 (>= 2.34)
 Conflicts: gauche-dev (<< 0.9.4~pre3maruska1)
 Breaks: gauche (<= 0.9-11)
@@ -283,11 +310,11 @@ Provides: gauche-dev
 Homepage: http://practical-scheme.net/gauche/
 Priority: optional
 Section: lisp
-Filename: pool/main/g/gauche/gauche-dev_0.9.14-maruska2_amd64.deb
-Size: 10113304
-SHA256: 263411d86efb3401adcad32016af7bd505de30c855a109e9ec4318522e14f993
-SHA1: eab57e1382549f1b254899a2778a7a754f17cb4c
-MD5sum: e3ef0cd475452c23291fd9419ba05325
+Filename: pool/main/g/gauche/gauche-dev_0.9.14-maruska3-maruska_amd64.deb
+Size: 10109424
+SHA256: 8f751fb46da5b527c8b84c7f7d025fb3050d509dd33985a8e808d29129df9d8e
+SHA1: 9de71d9d0b2d49210525a336986d51a42a043633
+MD5sum: c9924c404d142d9044623ec274d49a50
 Description: Development files for Gauche
  Gauche is a Scheme implementation developed to be a handy script
  interpreter, which allows programmers and system administrators to
@@ -299,25 +326,25 @@ Description: Development files for Gauche
 
 Package: gauche-dev-dbgsym
 Source: gauche
-Version: 0.9.14-maruska2
+Version: 0.9.14-maruska3-maruska
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian Gauche Maintainers <pkg-gauche-devel@lists.alioth.debian.org>
 Installed-Size: 28
-Depends: gauche-dev (= 0.9.14-maruska2)
+Depends: gauche-dev (= 0.9.14-maruska3-maruska)
 Priority: optional
 Section: debug
-Filename: pool/main/g/gauche/gauche-dev-dbgsym_0.9.14-maruska2_amd64.deb
-Size: 10676
-SHA256: 68b55629612963ad2f8b1b61b7d79458e3317d59ed77eb762606d548578a56d6
-SHA1: 93ea1b5a8ae7cee783f4d41239f5ff7cd85a91ea
-MD5sum: beec89f8e40c2f221c008196cf416378
+Filename: pool/main/g/gauche/gauche-dev-dbgsym_0.9.14-maruska3-maruska_amd64.deb
+Size: 10680
+SHA256: 0fb8d50ef5db1aeba57369a1e25b1be565f3927edffc66a38115a1101ac7805d
+SHA1: 1c68540d78595a6aabb770bcb73a8b2c4483b7c7
+MD5sum: 261657a7c8cbf76f90dda9dde1d6ba92
 Description: debug symbols for gauche-dev
 Build-Ids: abac2d1b24acd218f4dc5f7885a9d218817998d1
 
 Package: gauche-doc
 Source: gauche
-Version: 0.9.14-maruska2
+Version: 0.9.14-maruska3-maruska
 Architecture: all
 Maintainer: Debian Gauche Maintainers <pkg-gauche-devel@lists.alioth.debian.org>
 Installed-Size: 2471
@@ -326,11 +353,11 @@ Provides: gauche-doc
 Homepage: http://practical-scheme.net/gauche/
 Priority: optional
 Section: doc
-Filename: pool/main/g/gauche/gauche-doc_0.9.14-maruska2_all.deb
-Size: 2519624
-SHA256: d9016eaea971b3d923966557a4333acf1f58482bf1e76ff89089c4d6c92badc4
-SHA1: 815a5c0d2da2a68aa452731bbe15a4c8c5d087fe
-MD5sum: f33bed1242604b1678340b8a4d4c1e5c
+Filename: pool/main/g/gauche/gauche-doc_0.9.14-maruska3-maruska_all.deb
+Size: 2519308
+SHA256: ef4663fe984374f5fd6371c185293340b5e8921b92841ea1e55c9b552e291eda
+SHA1: ab833db89af2dbfd1d4885cedaffec6705c49b07
+MD5sum: 0ce314a63ed288f164fa3ea5cb01c1df
 Description: Reference manual of Gauche
  Gauche is a Scheme implementation developed to be a handy script
  interpreter, which allows programmers and system administrators to
@@ -343,7 +370,7 @@ Description: Reference manual of Gauche
 
 Package: gauche-gdbm
 Source: gauche
-Version: 0.9.14-maruska2
+Version: 0.9.14-maruska3-maruska
 Architecture: amd64
 Maintainer: Debian Gauche Maintainers <pkg-gauche-devel@lists.alioth.debian.org>
 Installed-Size: 442
@@ -353,11 +380,11 @@ Provides: gauche-gdbm
 Homepage: http://practical-scheme.net/gauche/
 Priority: optional
 Section: lisp
-Filename: pool/main/g/gauche/gauche-gdbm_0.9.14-maruska2_amd64.deb
-Size: 327876
-SHA256: 78fe6422e74cf7ea83aed6fe144a28fc31aeaba5c035924328b6a041ef7e55db
-SHA1: 55c12e8baa642b0a73006b9aabcdc84f5188228e
-MD5sum: 1e804dd234e1c69602e683d81a06676c
+Filename: pool/main/g/gauche/gauche-gdbm_0.9.14-maruska3-maruska_amd64.deb
+Size: 327532
+SHA256: 66108ad80cd6c46b1f19e5349263bbf6477936ac1b39b473222da20a777aefd0
+SHA1: 74570df036f347c88e1ff11c1930a6c10f5c0fa6
+MD5sum: 049b00273a2470cf02f990a568fb2802
 Description: gdbm binding for Gauche
  Gauche is a Scheme implementation developed to be a handy script
  interpreter, which allows programmers and system administrators to
@@ -369,19 +396,19 @@ Description: gdbm binding for Gauche
 
 Package: gauche-gdbm-dbgsym
 Source: gauche
-Version: 0.9.14-maruska2
+Version: 0.9.14-maruska3-maruska
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian Gauche Maintainers <pkg-gauche-devel@lists.alioth.debian.org>
 Installed-Size: 41
-Depends: gauche-gdbm (= 0.9.14-maruska2)
+Depends: gauche-gdbm (= 0.9.14-maruska3-maruska)
 Priority: optional
 Section: debug
-Filename: pool/main/g/gauche/gauche-gdbm-dbgsym_0.9.14-maruska2_amd64.deb
+Filename: pool/main/g/gauche/gauche-gdbm-dbgsym_0.9.14-maruska3-maruska_amd64.deb
 Size: 25292
-SHA256: 33bdcc6f84ebb691c3f752292829cfa9d1be8320ef3c484c755fff3c21533212
-SHA1: b95bf97f60e9b1ea99fcee8328d6a92c7f34ec2d
-MD5sum: 9c45bf39957dba4a68a9c6ba8353b02a
+SHA256: caff2ed1b371f9dd748d4a3cc9d545f40e4aefe1f9f7cb5c1907b5f7babbc812
+SHA1: 602197e8438dbc0470cf17df516575b9a53011a4
+MD5sum: 92f720d4b020feb58bc85036cb0335d4
 Description: debug symbols for gauche-gdbm
 Build-Ids: 5e0e658b43d76ebe67988b38ded478b886ea0504
 
@@ -453,7 +480,7 @@ Build-Ids: 1d4673c5942ebfb3eb2b1ce98f2ae0a8199eb55f
 
 Package: gauche-zlib
 Source: gauche
-Version: 0.9.14-maruska2
+Version: 0.9.14-maruska3-maruska
 Architecture: amd64
 Maintainer: Debian Gauche Maintainers <pkg-gauche-devel@lists.alioth.debian.org>
 Installed-Size: 381
@@ -465,11 +492,11 @@ Provides: gauche-zlib
 Homepage: http://practical-scheme.net/gauche/
 Priority: optional
 Section: lisp
-Filename: pool/main/g/gauche/gauche-zlib_0.9.14-maruska2_amd64.deb
-Size: 315980
-SHA256: 2188ac033052d30a3ced917ee3358d1d07e32d6ed4e7dbbf1860ed5287f92fae
-SHA1: b218eb84a3b9b4f36f18f6c9230f5c69a6439c5f
-MD5sum: b8a28858a8066445092331d89ea626fc
+Filename: pool/main/g/gauche/gauche-zlib_0.9.14-maruska3-maruska_amd64.deb
+Size: 315848
+SHA256: 62022b1014d30b4feb82d3ce5fc00e67f8d56631c0ae26ae9f8aaf983ce5b0ff
+SHA1: 6979e95ee714fea6a3e7de57248c763c31752d04
+MD5sum: b16532a021caf75a9c7cf59a789591dd
 Description: zlib binding for Gauche
  Gauche is a Scheme implementation developed to be a handy script
  interpreter, which allows programmers and system administrators to
@@ -481,19 +508,19 @@ Description: zlib binding for Gauche
 
 Package: gauche-zlib-dbgsym
 Source: gauche
-Version: 0.9.14-maruska2
+Version: 0.9.14-maruska3-maruska
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian Gauche Maintainers <pkg-gauche-devel@lists.alioth.debian.org>
 Installed-Size: 51
-Depends: gauche-zlib (= 0.9.14-maruska2)
+Depends: gauche-zlib (= 0.9.14-maruska3-maruska)
 Priority: optional
 Section: debug
-Filename: pool/main/g/gauche/gauche-zlib-dbgsym_0.9.14-maruska2_amd64.deb
+Filename: pool/main/g/gauche/gauche-zlib-dbgsym_0.9.14-maruska3-maruska_amd64.deb
 Size: 34408
-SHA256: 8fd5db8c9307ff4654b17828b8a85e89968295d75b8462c83f5e1f5c25ccaf11
-SHA1: ca60a66a87015ace66b08a152271ed5f7592bb8c
-MD5sum: fc2acf0107277f4339bd2ad22125e42a
+SHA256: c41fca5794c8f7da0386e8a662252c8f66a2c0d0af0769885775b1a7aae429f2
+SHA1: 6a130bd606132476850470ee9fc2a8420dab4571
+MD5sum: 0bad07ba27dc3b53e2f522e240a5e19c
 Description: debug symbols for gauche-zlib
 Build-Ids: 8883f71bff563daf66d7fe71855b26dab332b145
 
@@ -1282,21 +1309,45 @@ MD5sum: b99da10f87897cc3c3be2ab1b01f6f8e
 Description: debug symbols for libfork
 Build-Ids: 7c5350859fe2146711190c1e3f0620956ae4e7ce a99357ca9dceac0314d30526bf66d3bc3c0061ca
 
+Package: libgauche0
+Source: gauche
+Version: 0.9.14-maruska3-maruska
+Architecture: amd64
+Maintainer: Debian Gauche Maintainers <pkg-gauche-devel@lists.alioth.debian.org>
+Installed-Size: 20258
+Depends: libc6 (>= 2.34), libcrypt1 (>= 1:4.1.0)
+Breaks: gauche (<= 0.9-11)
+Replaces: gauche (<= 0.9-11)
+Provides: libgauche0
+Homepage: http://practical-scheme.net/gauche/
+Priority: optional
+Section: libs
+Filename: pool/main/g/gauche/libgauche0_0.9.14-maruska3-maruska_amd64.deb
+Size: 4190780
+SHA256: 3a62806d2fab1b0696c8c46f2711ed6d7aad665ed77d71c7049bc3f6c195d6e9
+SHA1: f73a2b58dc409ca49bcc9872bd8ed75415a88d45
+MD5sum: b82f99beeeea8255d9f5d89937b6573c
+Description: Gauche runtime shared library
+ Gauche is a Scheme implementation developed to be a handy script
+ interpreter.
+ .
+ This package contains Gauche runtime shared library.
+
 Package: libgauche0-dbgsym
 Source: gauche
-Version: 0.9.14-maruska2
+Version: 0.9.14-maruska3-maruska
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian Gauche Maintainers <pkg-gauche-devel@lists.alioth.debian.org>
-Installed-Size: 2582
-Depends: libgauche0 (= 0.9.14-maruska2)
+Installed-Size: 2687
+Depends: libgauche0 (= 0.9.14-maruska3-maruska)
 Priority: optional
 Section: debug
-Filename: pool/main/g/gauche/libgauche0-dbgsym_0.9.14-maruska2_amd64.deb
-Size: 2300140
-SHA256: 1878938566cd14e2c5747a95c4cb0ce01a9a88cfcbd9f5f473c603c22d8e46ce
-SHA1: 1154be93c5c86bab72030156f4de049e6f89ed6c
-MD5sum: 05a765e8f4d1d833f9e47bb6a1a1bd12
+Filename: pool/main/g/gauche/libgauche0-dbgsym_0.9.14-maruska3-maruska_amd64.deb
+Size: 2403196
+SHA256: de01b79e024b8de38aa14c344481b9fd53f25674b7dc31238cb73a3ac9c1e482
+SHA1: ddb30b5fb2d6bae66bdeb7f8072b9c04d0ab6d09
+MD5sum: 3da87f40971498b523fe173a26c950ab
 Description: debug symbols for libgauche0
 Build-Ids: de7a62459ef4da204962a3c56669c972810247f0
 
