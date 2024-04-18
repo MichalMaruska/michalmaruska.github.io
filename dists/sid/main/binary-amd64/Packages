@@ -368,6 +368,40 @@ Description: Reference manual of Gauche
  This package contains info documents of the reference manual of Gauche
  (English, Japanese).
 
+Package: gauche-fastcgi
+Version: 1.5
+Architecture: amd64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 63
+Depends: libc6 (>= 2.4), libfcgi0t64 (>= 2.4.2), libgauche0 (>= 0.9.14-maruska3), libfcgi0ldbl, gauche
+Provides: gauche-fastcgi
+Priority: extra
+Section: interpreters
+Filename: pool/main/g/gauche-fastcgi/gauche-fastcgi_1.5_amd64.deb
+Size: 11816
+SHA256: e6fbd48285b2457f8663fcd1dc60beb101d6af2074675d04c7ec0aee9a0ddfba
+SHA1: 5aec571de8b90cf0793fb0cbe11b5bd3ef3f2b5e
+MD5sum: 34bf49a0224e0ca5ad04a114f034f2f7
+Description: bindings to fastcgi, for Gauche (scheme interpreter)
+
+Package: gauche-fastcgi-dbgsym
+Source: gauche-fastcgi
+Version: 1.5
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 34
+Depends: gauche-fastcgi (= 1.5)
+Priority: optional
+Section: debug
+Filename: pool/main/g/gauche-fastcgi/gauche-fastcgi-dbgsym_1.5_amd64.deb
+Size: 18548
+SHA256: 51b77141da5010d549117ea56ab7b663a5b6f8b3a8098cde42990876153287fb
+SHA1: ec249c838d6c35c1a8746d85b2a004ea80870307
+MD5sum: 76d456d1c40d5f49403a18d4a6c56443
+Description: debug symbols for gauche-fastcgi
+Build-Ids: b6198699d26b795638e80226032a172c75efe112
+
 Package: gauche-gdbm
 Source: gauche
 Version: 0.9.14-maruska3-maruska
