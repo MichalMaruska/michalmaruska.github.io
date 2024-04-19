@@ -242,6 +242,21 @@ Description: A Scheme implementation designed for script writing
  built-in system interface, native multilingual support are some of
  the author's goals.
 
+Package: gauche-agenzia
+Version: 1.4
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 56
+Depends: gauche, gauche-mmc, gauche-pg
+Priority: extra
+Section: interpreters
+Filename: pool/main/g/gauche-agenzia/gauche-agenzia_1.4_all.deb
+Size: 11448
+SHA256: 2f72af1eea23796fd9e4a084a941496456af9ae6b65c22fb654e299037dc8bdf
+SHA1: b15860e308870b8123af578fd58b04fecd6d60af
+MD5sum: 75e7be2cb302cf76b35fb6e67dcb1cd6
+Description: code specific to the "agenzia matrimoniale Maruska"
+
 Package: gauche-bdb
 Version: 3.2
 Architecture: amd64
