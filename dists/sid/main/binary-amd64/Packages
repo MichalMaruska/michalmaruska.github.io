@@ -480,6 +480,40 @@ MD5sum: 92f720d4b020feb58bc85036cb0335d4
 Description: debug symbols for gauche-gdbm
 Build-Ids: 5e0e658b43d76ebe67988b38ded478b886ea0504
 
+Package: gauche-imagemagick
+Version: 1.16
+Architecture: amd64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 92
+Depends: libc6 (>= 2.4), libgauche0 (>= 0.9.14-maruska3), libmagickcore-6.q16-7t64 (>= 8:6.9.10.2), gauche, gauche-mmc
+Provides: gauche-imagemagick
+Priority: extra
+Section: interpreters
+Filename: pool/main/g/gauche-imagemagick/gauche-imagemagick_1.16_amd64.deb
+Size: 20072
+SHA256: 99c7526c10eb8fc296afc559a65f3631bc75295ae0a3c5e7048fe5879e49032f
+SHA1: 3ed8f3b01b45679ac36645ce2554b58d9fcc7d0f
+MD5sum: 9f1ff6a7e5eb3326a6291190af7910e6
+Description: binding to Imagemagick
+
+Package: gauche-imagemagick-dbgsym
+Source: gauche-imagemagick
+Version: 1.16
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 71
+Depends: gauche-imagemagick (= 1.16)
+Priority: optional
+Section: debug
+Filename: pool/main/g/gauche-imagemagick/gauche-imagemagick-dbgsym_1.16_amd64.deb
+Size: 50848
+SHA256: 88f851672368a1e07c0e4f1514dddb8527ebb91a0320cf076836ca2a3e008508
+SHA1: 3ea0bded747849a181899d86ff492b34d754ffc6
+MD5sum: fb23e41097bb1a0c66786630984c3210
+Description: debug symbols for gauche-imagemagick
+Build-Ids: e21386042973b6ac5e8f51599055114d90571ba4
+
 Package: gauche-mmc
 Version: 4.2.1
 Architecture: all
