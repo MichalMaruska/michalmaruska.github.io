@@ -1844,6 +1844,236 @@ SHA1: d2a62263e0b997377dc79715de375f30bd9d5c37
 MD5sum: 898ebfdc0c3c54c83b4497078d253e1c
 Description: some configs.
 
+Package: maruska-top-android
+Source: maruska-top
+Version: 1.30
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 8
+Depends: maruska-top-developer, adb, fastboot, pidcat, heimdall-flash, mkbootimg, abootimg
+Priority: extra
+Section: shells
+Filename: pool/main/m/maruska-top/maruska-top-android_1.30_all.deb
+Size: 2684
+SHA256: 5ae4837f2e8b26a53c9317dbfd6898a03c45a00b60f7ca549aa794a68f7cdef1
+SHA1: 0581cac2cc42dfded78f29d1db55c5c7034d16de
+MD5sum: abf85c5b4cec56f6887bdff0ba6af884
+Description: Things I use for development with Android gadgets
+
+Package: maruska-top-base
+Source: maruska-top
+Version: 1.30
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 8
+Depends: maruska-preference, maruska-misc, mmc-emacs, dircolors, mmc-emacs-config, mmc-sawfish, mmc-zsh, elinks, xplugin, fork-plugin, libfork, lsof, xdelta, human, mempeak, rlwrap, rxvt-beta, lightdm, git-core, gitk, emacs, man, strace, xauth, zsh-syntax-highlighting, rep, highlight, python3-docutils, nocache, cron, xserver-xorg-input-evdev | xserver-xorg-input-libinput, fwupd
+Recommends: plocate
+Conflicts: exim4-base
+Priority: extra
+Section: shells
+Filename: pool/main/m/maruska-top/maruska-top-base_1.30_all.deb
+Size: 2916
+SHA256: bc275e3a5c17f41f7f3cdd454b53398d4d9227b4ff7a98c65c0cf796b69aa873
+SHA1: 2ba38c18b05206ab030075bf11235a4664870287
+MD5sum: 618af5688972cbb823d7948c2feefde5
+Description: This should be enough to make maruska happy with the desktop.
+ A container package -- pulling in dependencies which I am accustomed to.
+
+Package: maruska-top-commercial
+Source: maruska-top
+Version: 1.30
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 8
+Depends: google-chrome-stable | google-chrome-unstable
+Priority: extra
+Section: shells
+Filename: pool/main/m/maruska-top/maruska-top-commercial_1.30_all.deb
+Size: 2652
+SHA256: 942125fa3c107567056484a12e255b56eb53623f3cf7e21c50cfc8b18237567b
+SHA1: abbb2e4414876ee2404932d1961051231c731633
+MD5sum: 49621afa494532efcb74ebf9f13585d4
+Description: Commercial sw from external repositories
+
+Package: maruska-top-corporate
+Source: maruska-top
+Version: 1.30
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 8
+Depends: maruska-top-desktop, slack-desktop, teams-insiders
+Priority: extra
+Section: shells
+Filename: pool/main/m/maruska-top/maruska-top-corporate_1.30_all.deb
+Size: 2656
+SHA256: 2c1e6830097466ca0945c8f9f19f9d947ceda918d148e1a9d020789550e7bd17
+SHA1: f0537a2b915dd6f29779b6d313db0bb7747786fc
+MD5sum: 82a0f0a5f8f35c003d0af8cf27872fc5
+Description: Things I need on GUI workstation.
+
+Package: maruska-top-debian
+Source: maruska-top
+Version: 1.30
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 8
+Depends: equivs, packaging-dev, dlocate, mmc-build-system, devscripts, libdistro-info-perl, debspawn
+Priority: extra
+Section: shells
+Filename: pool/main/m/maruska-top/maruska-top-debian_1.30_all.deb
+Size: 2688
+SHA256: 12bd3fe197d79ea95ecaf849ef1fefcb367d8b0ac28d96a7804ca2cfe3a25eb4
+SHA1: cf8264307d3bb6ab20b1e9bf4454785442722caa
+MD5sum: 8ab3784e7fc0e3b336b2760d2e412499
+Description: Things I use for processing email.
+
+Package: maruska-top-desktop
+Source: maruska-top
+Version: 1.30
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 8
+Depends: unclutter, powertop, lshw, maruska-top-base, x11-xserver-utils, xinput, mate-panel, claws-mail, claws-mail-newmail-plugin, claws-mail-multi-notifier, network-manager-gnome, firefox, mplayer, evince, pavucontrol, pulseaudio, mpg123, pulsemixer, gnome-settings-daemon, gnome-keyring, xkb-reset, gst123
+Recommends: chromium, chromium-browser
+Priority: extra
+Section: shells
+Filename: pool/main/m/maruska-top/maruska-top-desktop_1.30_all.deb
+Size: 2820
+SHA256: 80ea52773d225406bbed67e6feaace75ab7b36a4ec33c9772bcb39d20da8aa8e
+SHA1: 604c271857be2044fccab5bde4feb5613b9f1a4f
+MD5sum: 880427cca861aa4b53c3b964d36b6cb3
+Description: Things I need on GUI workstation.
+
+Package: maruska-top-developer
+Source: maruska-top
+Version: 1.30
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 8
+Depends: maruska-top-desktop, mmc-emacs-devel, emacs-goodies-el, debian-el, magit, zsh-doc, elpa-paredit, git-hierarchy, gdb, colortail, manpages, manpages-dev, gawk-doc, gcc-doc, cmake-doc, cmake, gcc
+Priority: extra
+Section: shells
+Filename: pool/main/m/maruska-top/maruska-top-developer_1.30_all.deb
+Size: 2736
+SHA256: f443a42d4fe6824c4dfb6b8109b1f0f557e1f90cb4e93c0eeafe092358891f8f
+SHA1: 76d1c23d3db1d9a084853cdbc91bbc2f581e2e26
+MD5sum: 5a7056da1351b6245deaecfaa30c799b
+Description: Things I use for development/work. Android gadgets
+
+Package: maruska-top-mail-server
+Source: maruska-top
+Version: 1.30
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 8
+Depends: postfix, fetchmail, maildrop, mutt, dovecot, bsd-mailx
+Priority: extra
+Section: shells
+Filename: pool/main/m/maruska-top/maruska-top-mail-server_1.30_all.deb
+Size: 2664
+SHA256: fbaeed8ca46b27152b5f53101ee95b4d34853f4f3c08feb903879a4725e54488
+SHA1: 8b37422c3742d84c60031436f108592f547e3867
+MD5sum: 011bd11b66872521671abb8346910e1d
+Description: Things I use for processing email.
+
+Package: maruska-top-pg
+Source: maruska-top
+Version: 1.30
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 8
+Depends: pg-natural-sex, char-in-set, pg-human, thumbsize, sadd
+Priority: extra
+Section: shells
+Filename: pool/main/m/maruska-top/maruska-top-pg_1.30_all.deb
+Size: 2708
+SHA256: 4d3c934175635a03ffea49559fd10210ad6391f767dbb79ec3637a63e9241bdc
+SHA1: d4f8cf08f216ff04080156ae2f519b31c036743a
+MD5sum: 35e9fed666bcc818feabf1811d887143
+Description: This should be enough to make maruska PG databse work.
+ A container package -- pulling in dependencies for database work.
+
+Package: maruska-top-podman
+Source: maruska-top
+Version: 1.30
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 8
+Depends: runc, fuse-overlayfs, podman, slirp4netns, uidmap
+Priority: extra
+Section: shells
+Filename: pool/main/m/maruska-top/maruska-top-podman_1.30_all.deb
+Size: 2656
+SHA256: 89350022e5c856116defcbc31a2fc9ad2638008fdf6ab12febc1502e8d0ce3d7
+SHA1: 3772a79685f1f8dd8192593d94c8dd66c0abdbbd
+MD5sum: fb44e759e23c1f72c40cc37b6d853777
+Description: Things I need on GUI workstation.
+
+Package: maruska-top-scheme
+Source: maruska-top
+Version: 1.30
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 8
+Depends: gauche, gauche-mmc-apps, chezscheme
+Priority: extra
+Section: shells
+Filename: pool/main/m/maruska-top/maruska-top-scheme_1.30_all.deb
+Size: 2636
+SHA256: e7ff5a82c2d73afbc7b46fe9f4c3672e7f14513e975ca36b9b25ffe8b516fd1a
+SHA1: aa422a6d47010c963eb327b25f7e0df59784ef12
+MD5sum: 48f9710f78c20d5ffc08d1d1e0717843
+Description: My favourite scheme environments
+
+Package: maruska-top-server
+Source: maruska-top
+Version: 1.30
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 8
+Depends: maruska-top-base, libapache2-mod-fastcgi | libapache2-mod-fcgid, postgresql-12, libpq5, reprepro, mod-languagesubdomain
+Priority: extra
+Section: shells
+Filename: pool/main/m/maruska-top/maruska-top-server_1.30_all.deb
+Size: 2756
+SHA256: 50b1f2c33dc6e217167320f19cd4d83cd379b5c0e0d1843debd14d4a2326bbce
+SHA1: 774e3cb7eb82ca27262341095085325fe018cdc9
+MD5sum: e01cb1d8eef84a7342052b1d8561e3fb
+Description: This should be enough to make maruska happy with the Server.
+ A container package -- pulling in dependencies which I am accustomed to.
+
+Package: maruska-top-techno
+Source: maruska-top
+Version: 1.30
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 8
+Depends: usbutils, pciutils, ddcutil, wakeonlan, bluez-firmware, pulseaudio-module-bluetooth, firmware-iwlwifi, firmware-realtek, brightnessctl, acpi-support-base, acpi-support, acpi-fakekey, sispmctl
+Priority: extra
+Section: shells
+Filename: pool/main/m/maruska-top/maruska-top-techno_1.30_all.deb
+Size: 2744
+SHA256: 57423f2c2a3cefe9fcde6f0ad866f72081e1fd338618adc1019fcaef8904f53d
+SHA1: 0549cef754039d01d7d8028de9cff6933804c4d9
+MD5sum: 9d6ef0c09170d4ad2f24e942aa90f3f2
+Description: Things I need for hardware investigations.
+
+Package: maruska-top-work
+Source: maruska-top
+Version: 1.30
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 8
+Depends: maruska-top-desktop, openvpn, dnsmasq
+Priority: extra
+Section: shells
+Filename: pool/main/m/maruska-top/maruska-top-work_1.30_all.deb
+Size: 2640
+SHA256: 874c89debae0d1856e500ddd8528674c84680c0ed24664689715862c2a1b8c98
+SHA1: 7e6f750f2455829eb22239dac3ba979e0d7617ca
+MD5sum: 598603e11480c2a13b54731e63fbbaa4
+Description: Things I use for work from home.
+
 Package: mempeak
 Version: 0.29
 Architecture: amd64
