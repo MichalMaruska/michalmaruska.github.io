@@ -1,24 +1,24 @@
 Package: apt-doc
 Source: apt
-Version: 2.9.4-maruska
+Version: 2.9.5-maruska
 Architecture: all
 Maintainer: APT Development Team <deity@lists.debian.org>
 Installed-Size: 805
 Multi-Arch: foreign
 Priority: optional
 Section: doc
-Filename: pool/main/a/apt/apt-doc_2.9.4-maruska_all.deb
-Size: 257608
-SHA256: 955051090d8fd2a1ef72c4fd3313f22c893011b2d0805630be08b7d8033d128c
-SHA1: 05592d37840009b4ed5b767f694334bc280774f0
-MD5sum: 4bee21a27968692468b61e608ebe001d
+Filename: pool/main/a/apt/apt-doc_2.9.5-maruska_all.deb
+Size: 257880
+SHA256: 620ebe9c5074b27be64868d21eb15a4f67783904d8c21b988ce8926e46136b59
+SHA1: 1ea3c2e93c0313af84006f4c58ec8bed98e6cc29
+MD5sum: c08ceecdb399839a72c4d191a4d4e30a
 Description: documentation for APT
  This package contains the user guide and offline guide for various
  APT tools which are provided in a html and a text-only version.
 
 Package: apt-transport-https
 Source: apt
-Version: 2.9.4-maruska
+Version: 2.9.5-maruska
 Architecture: all
 Maintainer: APT Development Team <deity@lists.debian.org>
 Installed-Size: 38
@@ -26,11 +26,11 @@ Depends: apt (>= 1.5~alpha4)
 Multi-Arch: foreign
 Priority: optional
 Section: oldlibs
-Filename: pool/main/a/apt/apt-transport-https_2.9.4-maruska_all.deb
-Size: 27992
-SHA256: d79d329d73dd07ed3578c31cf35713c8912ee57ff698768858d4f58fc0679f1e
-SHA1: bb23f274f38e358271403f7fac8640e0085e6fa4
-MD5sum: 2da1674ef9d09243b72fb329b007988d
+Filename: pool/main/a/apt/apt-transport-https_2.9.5-maruska_all.deb
+Size: 28264
+SHA256: f20cb40217c936db302612ffc8e48265d9e48f5584bbad893c7b45cb6444527c
+SHA1: 2f0734d4dc33c5b5294501cc3c68036eac34ff4a
+MD5sum: 36c21dcc2962ddaa2b9ab158923bee1d
 Description: transitional package for https support
  This is a dummy transitional package - https support has been moved into
  the apt package in 1.5. It can be safely removed.
@@ -159,21 +159,21 @@ Description: mmc's (simple) applications in Gauche
 
 Package: git-all
 Source: git
-Version: 1:2.45.1-1-maruska
+Version: 1:2.45.2-1-maruska
 Architecture: all
 Maintainer: Jonathan Nieder <jrnieder@gmail.com>
-Installed-Size: 1034
-Depends: git (>> 1:2.45.1-1), git (<< 1:2.45.1-1-.), git-doc, git-cvs, git-mediawiki, git-svn, git-email, git-gui, gitk, gitweb
+Installed-Size: 1036
+Depends: git (>> 1:2.45.2-1), git (<< 1:2.45.2-1-.), git-doc, git-cvs, git-mediawiki, git-svn, git-email, git-gui, gitk, gitweb
 Suggests: git-daemon-run | git-daemon-sysvinit
 Multi-Arch: foreign
 Homepage: https://git-scm.com/
 Priority: optional
 Section: vcs
-Filename: pool/main/g/git/git-all_2.45.1-1-maruska_all.deb
-Size: 1039568
-SHA256: 33e1a958ad0718715dad6cfcfecf1f6c5bf5b924219e86ce9d479fa853e916c3
-SHA1: c7cc0b629e668ca9193d65c2733f4901f132cd5c
-MD5sum: 0dd3fa5486e5a934858381ba3aebf4c9
+Filename: pool/main/g/git/git-all_2.45.2-1-maruska_all.deb
+Size: 1041808
+SHA256: 6f95045f414af92bd10fc339d53bd47088c99702f2afad0ec118f14d57f3252d
+SHA1: b5c9617b7146afde9d23160dc049526e828e760c
+MD5sum: ba2e93a39bec1cfe3d30825088d1d8ee
 Description: fast, scalable, distributed revision control system (all subpackages)
  Git is popular version control system designed to handle very large
  projects with speed and efficiency; it is used for many high profile
@@ -188,21 +188,21 @@ Description: fast, scalable, distributed revision control system (all subpackage
 
 Package: git-daemon-run
 Source: git
-Version: 1:2.45.1-1-maruska
+Version: 1:2.45.2-1-maruska
 Architecture: all
 Maintainer: Jonathan Nieder <jrnieder@gmail.com>
-Installed-Size: 1046
-Depends: git (>> 1:2.45.1-1), git (<< 1:2.45.1-1-.), runit, adduser
+Installed-Size: 1048
+Depends: git (>> 1:2.45.2-1), git (<< 1:2.45.2-1-.), runit, adduser
 Conflicts: git-daemon-sysvinit
 Multi-Arch: foreign
 Homepage: https://git-scm.com/
 Priority: optional
 Section: vcs
-Filename: pool/main/g/git/git-daemon-run_2.45.1-1-maruska_all.deb
-Size: 1041124
-SHA256: 32317c5382c37ef1801be238c31828dab4b3a50cf9f4108d4f1d91e9e289b488
-SHA1: e864f534acaff10c1d5833dd54e9549bb9124132
-MD5sum: 3a7316024acd360dfb7d7160df280fc6
+Filename: pool/main/g/git/git-daemon-run_2.45.2-1-maruska_all.deb
+Size: 1043336
+SHA256: f6240812b0a879e9e7f5645f81cda11c90fff918a6cac886ed724c55666d7975
+SHA1: 3c26ebc8180a2f0d4c3f0b628af2ea4fb23992d3
+MD5sum: 81a30acf5020db0533245f61128db7ca
 Description: fast, scalable, distributed revision control system (git-daemon service)
  Git is popular version control system designed to handle very large
  projects with speed and efficiency; it is used for many high profile
@@ -222,21 +222,21 @@ Description: fast, scalable, distributed revision control system (git-daemon ser
 
 Package: git-daemon-sysvinit
 Source: git
-Version: 1:2.45.1-1-maruska
+Version: 1:2.45.2-1-maruska
 Architecture: all
 Maintainer: Jonathan Nieder <jrnieder@gmail.com>
-Installed-Size: 1050
-Depends: git (>> 1:2.45.1-1), git (<< 1:2.45.1-1-.), adduser, lsb-base (>= 3.0-6)
+Installed-Size: 1052
+Depends: git (>> 1:2.45.2-1), git (<< 1:2.45.2-1-.), adduser, lsb-base (>= 3.0-6)
 Conflicts: git-daemon-run
 Multi-Arch: foreign
 Homepage: https://git-scm.com/
 Priority: optional
 Section: vcs
-Filename: pool/main/g/git/git-daemon-sysvinit_2.45.1-1-maruska_all.deb
-Size: 1042364
-SHA256: e651650a14ed86e63bd095ed3585dc83e99c51ded6019c3e3bc0aa8ff7abc75b
-SHA1: 1570ee5c1d91a7875ed730f50172b3eca03c523a
-MD5sum: d285bfc80d8b9f91bb5a8eac66b205c0
+Filename: pool/main/g/git/git-daemon-sysvinit_2.45.2-1-maruska_all.deb
+Size: 1044604
+SHA256: 2ed826ecd2e51cee9173f674427c5324619f100a7313e914148e34c5c82ba399
+SHA1: 5cc67b965b671894cc9e18a882ff253e6a0103c3
+MD5sum: 7a6ac28d439f3ca203c47a029ca96c65
 Description: fast, scalable, distributed revision control system (git-daemon service)
  Git is popular version control system designed to handle very large
  projects with speed and efficiency; it is used for many high profile
@@ -256,20 +256,20 @@ Description: fast, scalable, distributed revision control system (git-daemon ser
 
 Package: git-doc
 Source: git
-Version: 1:2.45.1-1-maruska
+Version: 1:2.45.2-1-maruska
 Architecture: all
 Maintainer: Jonathan Nieder <jrnieder@gmail.com>
-Installed-Size: 13422
+Installed-Size: 13424
 Suggests: git, git-cvs, git-svn, git-email, gitk, gitweb
 Multi-Arch: foreign
 Homepage: https://git-scm.com/
 Priority: optional
 Section: doc
-Filename: pool/main/g/git/git-doc_2.45.1-1-maruska_all.deb
-Size: 2248280
-SHA256: 0e80f601ef51863b25bc5e4fce19a596d4dc9d90748fa85c395b3c55308b3e66
-SHA1: 0ca9881d52034b677ce6aea6aca328a77fc55ddf
-MD5sum: 3ded4af3b95bf3805b72c7a90d95376e
+Filename: pool/main/g/git/git-doc_2.45.2-1-maruska_all.deb
+Size: 2250060
+SHA256: cac1f6e669b30e01d8f02aa15311e0aff57e0cae00a995ad9fd9a9ac35a1f0b8
+SHA1: 8d8ca3cc7edc0804a87c4a1174d6d1d4ce57cbb0
+MD5sum: 483b5b0b6d3a2f3610afd0cc64947341
 Description: fast, scalable, distributed revision control system (documentation)
  Git is popular version control system designed to handle very large
  projects with speed and efficiency; it is used for many high profile
@@ -284,22 +284,22 @@ Description: fast, scalable, distributed revision control system (documentation)
 
 Package: git-email
 Source: git
-Version: 1:2.45.1-1-maruska
+Version: 1:2.45.2-1-maruska
 Architecture: all
 Maintainer: Jonathan Nieder <jrnieder@gmail.com>
-Installed-Size: 1111
-Depends: git (>> 1:2.45.1-1), git (<< 1:2.45.1-1-.)
+Installed-Size: 1113
+Depends: git (>> 1:2.45.2-1), git (<< 1:2.45.2-1-.)
 Recommends: libemail-valid-perl, libmailtools-perl, perl (>> 5.21.5) | libnet-smtp-ssl-perl, libauthen-sasl-perl, libio-socket-ssl-perl (>= 1.951)
 Suggests: git-doc
 Multi-Arch: foreign
 Homepage: https://git-scm.com/
 Priority: optional
 Section: vcs
-Filename: pool/main/g/git/git-email_2.45.1-1-maruska_all.deb
-Size: 1067916
-SHA256: 5c2298b3ea4deca4616aaceab2ffe1481b6970d361dd7395de8fa409242673ba
-SHA1: eccc243fafe375b5bcb184a58c0e8b7f60c5c88b
-MD5sum: 3788a8e3bf3f88791323943a7904edb4
+Filename: pool/main/g/git/git-email_2.45.2-1-maruska_all.deb
+Size: 1070168
+SHA256: 160fac74480882513a242d1e3f98244c078a6796b6cc32e3e2caaa72b62de771
+SHA1: a1e2ad4755b95b8ba188c09dde480d2f5dbdaeb3
+MD5sum: 1b5ccbed4370e4d73e3a1e1664aa820c
 Description: fast, scalable, distributed revision control system (email add-on)
  Git is popular version control system designed to handle very large
  projects with speed and efficiency; it is used for many high profile
@@ -315,22 +315,22 @@ Description: fast, scalable, distributed revision control system (email add-on)
 
 Package: git-gui
 Source: git
-Version: 1:2.45.1-1-maruska
+Version: 1:2.45.2-1-maruska
 Architecture: all
 Maintainer: Jonathan Nieder <jrnieder@gmail.com>
-Installed-Size: 2453
-Depends: git (>> 1:2.45.1-1), git (<< 1:2.45.1-1-.), tk
+Installed-Size: 2455
+Depends: git (>> 1:2.45.2-1), git (<< 1:2.45.2-1-.), tk
 Recommends: gitk
 Suggests: git-doc, aspell, meld
 Multi-Arch: foreign
 Homepage: https://git-scm.com/
 Priority: optional
 Section: vcs
-Filename: pool/main/g/git/git-gui_2.45.1-1-maruska_all.deb
-Size: 1257720
-SHA256: 219c9176039161bba3e22a396825c24249ef7d666391b15a1cee7f53fe1d2375
-SHA1: 713e3cc39c1e3d5d12f026faee1394fac3138ff2
-MD5sum: 33a2a3d0c8c896a74f81f80e0ee6d211
+Filename: pool/main/g/git/git-gui_2.45.2-1-maruska_all.deb
+Size: 1259952
+SHA256: 668c4dbef4af6bf9df91e3d9b71389f5c252686c9ff4f950efb5941751a0144a
+SHA1: 13565321508a67529c8f11300e376bfe696b8908
+MD5sum: 5feb932fbf6af1f11ca6de22242dacfe
 Description: fast, scalable, distributed revision control system (GUI)
  Git is popular version control system designed to handle very large
  projects with speed and efficiency; it is used for many high profile
@@ -366,19 +366,19 @@ Description: Tools to maintain extensions for upstream, in git
 
 Package: git-man
 Source: git
-Version: 1:2.45.1-1-maruska
+Version: 1:2.45.2-1-maruska
 Architecture: all
 Maintainer: Jonathan Nieder <jrnieder@gmail.com>
-Installed-Size: 2205
+Installed-Size: 2208
 Multi-Arch: foreign
 Homepage: https://git-scm.com/
 Priority: optional
 Section: doc
-Filename: pool/main/g/git/git-man_2.45.1-1-maruska_all.deb
-Size: 2156944
-SHA256: a5da0c77f7b8699fdda2d3f638a95ad342f8773c843e65de83a30aa7894db99a
-SHA1: 74c63bc6017ef377d538ed76f4e5f17e085dcfd7
-MD5sum: 9cfc177682f479d53df772360fb142c3
+Filename: pool/main/g/git/git-man_2.45.2-1-maruska_all.deb
+Size: 2159316
+SHA256: f6d795ab75cb378f89749faea81ce2706c8a53b8203773793ff0d6da08dfca58
+SHA1: 7363d0ea9247b4c1bec335966c012c16d0d4f270
+MD5sum: 4a51639f81a626344e1919c260acaee6
 Description: fast, scalable, distributed revision control system (manual pages)
  Git is popular version control system designed to handle very large
  projects with speed and efficiency; it is used for many high profile
@@ -394,21 +394,21 @@ Description: fast, scalable, distributed revision control system (manual pages)
 
 Package: git-mediawiki
 Source: git
-Version: 1:2.45.1-1-maruska
+Version: 1:2.45.2-1-maruska
 Architecture: all
 Maintainer: Jonathan Nieder <jrnieder@gmail.com>
-Installed-Size: 1094
-Depends: git (>> 1:2.45.1-1), git (<< 1:2.45.1-1-.), libmediawiki-api-perl (>= 0.39), liblwp-protocol-https-perl, libdatetime-format-iso8601-perl
+Installed-Size: 1096
+Depends: git (>> 1:2.45.2-1), git (<< 1:2.45.2-1-.), libmediawiki-api-perl (>= 0.39), liblwp-protocol-https-perl, libdatetime-format-iso8601-perl
 Suggests: mediawiki
 Multi-Arch: foreign
 Homepage: https://git-scm.com/
 Priority: optional
 Section: vcs
-Filename: pool/main/g/git/git-mediawiki_2.45.1-1-maruska_all.deb
-Size: 1055740
-SHA256: 4b842ad8cc1adc072d6f6fe5f5773a3b603b2b25d6f54dff6cac51820ea82acf
-SHA1: f0e3d80ea52282665fb03470bd9a2a8213a07f4b
-MD5sum: dbc845e7e6e3aefccb0f9d0479f657ac
+Filename: pool/main/g/git/git-mediawiki_2.45.2-1-maruska_all.deb
+Size: 1058016
+SHA256: 1b479026b37bbf5f9ae89c907d9883a32dd54407f1f2627b5a7e9bc8f371c716
+SHA1: eab73bf05217a82bf941d6f32e066f45d0dc772e
+MD5sum: dc1a6a6bfc79dc59f2498e4f0bf82845
 Description: fast, scalable, distributed revision control system (MediaWiki remote helper)
  Git is popular version control system designed to handle very large
  projects with speed and efficiency; it is used for many high profile
@@ -426,11 +426,11 @@ Description: fast, scalable, distributed revision control system (MediaWiki remo
 
 Package: git-svn
 Source: git
-Version: 1:2.45.1-1-maruska
+Version: 1:2.45.2-1-maruska
 Architecture: all
 Maintainer: Jonathan Nieder <jrnieder@gmail.com>
-Installed-Size: 1282
-Depends: git (>> 1:2.45.1-1), git (<< 1:2.45.1-1-.), libsvn-perl, libyaml-perl, libterm-readkey-perl
+Installed-Size: 1284
+Depends: git (>> 1:2.45.2-1), git (<< 1:2.45.2-1-.), libsvn-perl, libyaml-perl, libterm-readkey-perl
 Suggests: git-doc, subversion
 Breaks: git (<< 1:1.8.3~rc1-1.)
 Replaces: git (<< 1:1.8.3~rc1-1.)
@@ -438,11 +438,11 @@ Multi-Arch: foreign
 Homepage: https://git-scm.com/
 Priority: optional
 Section: vcs
-Filename: pool/main/g/git/git-svn_2.45.1-1-maruska_all.deb
-Size: 1115108
-SHA256: 2adb4b8189c060616a1f918f5d23c2f1622e508a439fb8e28b30bd1e010e838b
-SHA1: 19ef320685b002ff852b373a25bd64dfaec65b62
-MD5sum: de8d58b24f374e675210d127751d67b5
+Filename: pool/main/g/git/git-svn_2.45.2-1-maruska_all.deb
+Size: 1117376
+SHA256: 627705920adb5a608228e35afc42b4cbe1e8ba6c52f0efb51b13faa383e9d3e7
+SHA1: 81530482b0e444fd253a83e495b5e07c38da4476
+MD5sum: 2379799a353cdb8799b833fdff4c7f53
 Description: fast, scalable, distributed revision control system (svn interoperability)
  Git is popular version control system designed to handle very large
  projects with speed and efficiency; it is used for many high profile
@@ -458,21 +458,21 @@ Description: fast, scalable, distributed revision control system (svn interopera
 
 Package: gitk
 Source: git
-Version: 1:2.45.1-1-maruska
+Version: 1:2.45.2-1-maruska
 Architecture: all
 Maintainer: Jonathan Nieder <jrnieder@gmail.com>
-Installed-Size: 1877
-Depends: git (>> 1:2.45.1-1), git (<< 1:2.45.1-1-.), tk
+Installed-Size: 1879
+Depends: git (>> 1:2.45.2-1), git (<< 1:2.45.2-1-.), tk
 Suggests: git-doc
 Multi-Arch: foreign
 Homepage: https://git-scm.com/
 Priority: optional
 Section: vcs
-Filename: pool/main/g/git/gitk_2.45.1-1-maruska_all.deb
-Size: 1179164
-SHA256: d3cd4e8d63690401ae49d4ef415f2a7ef5e0cb750963c3a4c7c49bd66d35106b
-SHA1: f16bdd79b76b4f6e9e677d6efdc0b2082dfe4660
-MD5sum: e477fbb145d80047619edb17bcfb7765
+Filename: pool/main/g/git/gitk_2.45.2-1-maruska_all.deb
+Size: 1181408
+SHA256: a24d869e7554a6139c8e1b02701132b8df90297a9b55b1485642aa52cc79036a
+SHA1: 152a121a9253c6e26f65a548f393643f6a97651e
+MD5sum: e7c4ef3279ed4630a8c9e7641b03d25d
 Description: fast, scalable, distributed revision control system (revision tree visualizer)
  Git is popular version control system designed to handle very large
  projects with speed and efficiency; it is used for many high profile
@@ -487,11 +487,11 @@ Description: fast, scalable, distributed revision control system (revision tree 
 
 Package: gitweb
 Source: git
-Version: 1:2.45.1-1-maruska
+Version: 1:2.45.2-1-maruska
 Architecture: all
 Maintainer: Jonathan Nieder <jrnieder@gmail.com>
-Installed-Size: 1055
-Depends: git (>> 1:2.45.1-1), git (<< 1:2.45.1-1-.), perl, libcgi-pm-perl
+Installed-Size: 1057
+Depends: git (>> 1:2.45.2-1), git (<< 1:2.45.2-1-.), perl, libcgi-pm-perl
 Recommends: apache2 (>= 2.4.6-4~) | lynx | httpd, libhttp-date-perl | libtime-parsedate-perl
 Suggests: httpd-cgi | libcgi-fast-perl, git-doc
 Breaks: apache2.2-common (<< 2.3~)
@@ -499,11 +499,11 @@ Multi-Arch: foreign
 Homepage: https://git-scm.com/
 Priority: optional
 Section: vcs
-Filename: pool/main/g/git/gitweb_2.45.1-1-maruska_all.deb
-Size: 1043120
-SHA256: 60aa208880276bb3cf6bd0171f2f6c602b0ed14546e050d46fc7c0584bb95372
-SHA1: 33f7dc9b0f6f9dcf1e735068cf0288260809970f
-MD5sum: 25cdaebca9af2d6f47d8b99983ae8d29
+Filename: pool/main/g/git/gitweb_2.45.2-1-maruska_all.deb
+Size: 1045368
+SHA256: 4e2efa613ad151a8278ad521473d905ef1d253d3c07e0ba7a278f8ad4dbb23d8
+SHA1: cfea9b0f781fbfb4dfe557fc9757634d866030a6
+MD5sum: b20277a799c27c9505d0a8f515a85297
 Description: fast, scalable, distributed revision control system (web interface)
  Git is popular version control system designed to handle very large
  projects with speed and efficiency; it is used for many high profile
@@ -525,18 +525,18 @@ Description: fast, scalable, distributed revision control system (web interface)
 
 Package: libapt-pkg-doc
 Source: apt
-Version: 2.9.4-maruska
+Version: 2.9.5-maruska
 Architecture: all
 Maintainer: APT Development Team <deity@lists.debian.org>
-Installed-Size: 18505
+Installed-Size: 18516
 Multi-Arch: foreign
 Priority: optional
 Section: doc
-Filename: pool/main/a/apt/libapt-pkg-doc_2.9.4-maruska_all.deb
-Size: 947356
-SHA256: 0fdcba3179b2de5a37b0daa675657c3f30304bc40c8a1c5eac6e98701502ef58
-SHA1: ad9eab8f171ead18b5f2247666ab3be3422581e7
-MD5sum: 4999f492a20ade02b27014d13b20a7cc
+Filename: pool/main/a/apt/libapt-pkg-doc_2.9.5-maruska_all.deb
+Size: 948632
+SHA256: bc1109d62163924155bc2b1893d0f31a44909c5d9243eb94347bcf06f6a4bd91
+SHA1: cb37142fb14a30752edd60a1cb13857f143c5a80
+MD5sum: 11613a83b6a5147e82cef19cc6d41ae6
 Description: documentation for APT development
  This package contains documentation for development of the APT
  Debian package manipulation program and its libraries.

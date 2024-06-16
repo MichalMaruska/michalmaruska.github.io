@@ -1,22 +1,22 @@
 Package: apt
-Version: 2.9.4-maruska
+Version: 2.9.5-maruska
 Architecture: amd64
 Maintainer: APT Development Team <deity@lists.debian.org>
 Installed-Size: 4395
-Depends: base-passwd (>= 3.6.1) | adduser, gpgv, libapt-pkg6.0t64 (>= 2.9.4-maruska), debian-archive-keyring, libc6 (>= 2.38), libgcc-s1 (>= 3.0), libgnutls30t64 (>= 3.8.1), libseccomp2 (>= 2.4.2), libstdc++6 (>= 13.1), libsystemd0
+Depends: base-passwd (>= 3.6.1) | adduser, gpgv, libapt-pkg6.0t64 (>= 2.9.5-maruska), debian-archive-keyring, libc6 (>= 2.38), libgcc-s1 (>= 3.0), libgnutls30t64 (>= 3.8.1), libseccomp2 (>= 2.4.2), libstdc++6 (>= 13.1), libsystemd0
 Recommends: ca-certificates
 Suggests: apt-doc, aptitude | synaptic | wajig, dpkg-dev (>= 1.17.2), gnupg | gnupg2 | gnupg1, powermgmt-base
 Conflicts: apt-verify, libnettle8 (<< 3.9.1-2.2~)
 Breaks: apt-transport-https (<< 1.5~alpha4~), apt-utils (<< 1.3~exp2~), aptitude (<< 0.8.10)
 Replaces: apt-transport-https (<< 1.5~alpha4~), apt-utils (<< 1.3~exp2~)
-Provides: apt-transport-https (= 2.9.4-maruska)
+Provides: apt-transport-https (= 2.9.5-maruska)
 Priority: required
 Section: admin
-Filename: pool/main/a/apt/apt_2.9.4-maruska_amd64.deb
-Size: 1401268
-SHA256: f7e45f754f27269861626944f03b6a541f5e175e15783627c50d5e12ab1ac22b
-SHA1: 0e24bc759ff84bef5693da093ccf32b925b9f226
-MD5sum: f8f0345a0764ec852773ae522c353245
+Filename: pool/main/a/apt/apt_2.9.5-maruska_amd64.deb
+Size: 1401624
+SHA256: 0dd3383223a0a423e27913c16d4b5bbdeb419e93b01227f0d9fbc42f7941dcf6
+SHA1: 92feaf46c8b9cabb0f69adafceaaf8c4404cf4bf
+MD5sum: 9589f92c8481597cd630aba86986fda6
 Description: commandline package manager
  This package provides commandline tools for searching and
  managing as well as querying information about packages
@@ -34,43 +34,43 @@ Description: commandline package manager
 
 Package: apt-dbgsym
 Source: apt
-Version: 2.9.4-maruska
+Version: 2.9.5-maruska
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: APT Development Team <deity@lists.debian.org>
-Installed-Size: 7976
-Depends: apt (= 2.9.4-maruska)
+Installed-Size: 7977
+Depends: apt (= 2.9.5-maruska)
 Priority: optional
 Section: debug
-Filename: pool/main/a/apt/apt-dbgsym_2.9.4-maruska_amd64.deb
-Size: 7703032
-SHA256: 8dffbcc17c1f9030416566495437ee7dd92d3790ca8ac66f031f17c08c18182e
-SHA1: 80cb88705916fd6a43228bc662846b95ae9d235e
-MD5sum: b23ad16bef3c7862f619be4fb9e65a00
+Filename: pool/main/a/apt/apt-dbgsym_2.9.5-maruska_amd64.deb
+Size: 7702964
+SHA256: 84d9260ec219db9183a504f659c5f9354e9f8e2cabcc82dd3aeaf178ab217d59
+SHA1: 6d6017872390560db0b069a43dac13d2194e9ff2
+MD5sum: b80a373299f55795811f9b1d44b87276
 Description: debug symbols for apt
-Build-Ids: 0b6f8e1a680cc46dd3172f1f702ad13c527a7297 2c4a45813839f2f0263dab342f847062869976c6 4201f4ac465d243e09aaa201f36402ac3d0d76e3 493fce0b3105ab81a6dd3bb3a17b95fb20e6b7c1 4d7365a3f23d1d437d5b5a4ba9c67c8e666aca6b 4fb2f4c76e6261291c7af937b954cadd0c96d003 52e1904de650cba3da520c193a365ff9791fecaa 723eba8710a3e3a9048f9848496e229cfe487088 7e78dae8248bf6858c0fb94134781b9a88dd987d 853004be72ff2c31039560dcf06916cc98f937d6 8d42e15ac82f7941a7f4fd5293deec853bc06c54 8d83ce7800e66986b0d429a9310153e1a24b94f4 91ba41dda9ed74d95fe1e5278ad15d3e8b7adb5f bd098abb666d4247c9ba23b5693478911b13a96f c164892fb1f37850a74ad7d678a845aac334deac c6acd621f512457127c71ebce96940df446e599e e5559be62fe28a38e5f07926dd9e4517aa0b143c e9f073c1340711c07ac11d93a6648a75e00b5528 f80edfa9f22f76f10ab76c49e46b32324373ad2f
+Build-Ids: 05314083c93a44cdf19e0a14ff20589c1ae9f4f2 0b6f8e1a680cc46dd3172f1f702ad13c527a7297 178b381ed3cec8d47f96e039a4ac762c2e4d3f06 1ab402774d5fc1fd6352b4711a7646d88694edd1 2b5fec9f5a14b0067a223c0e956943a22d04cb17 2eb43839cb24ded0d0d327e0ee749ec8710b4656 493fce0b3105ab81a6dd3bb3a17b95fb20e6b7c1 723eba8710a3e3a9048f9848496e229cfe487088 7e78dae8248bf6858c0fb94134781b9a88dd987d 816a0c53ec4bdf82dffb0cd930e52767aad582df 853004be72ff2c31039560dcf06916cc98f937d6 8d83ce7800e66986b0d429a9310153e1a24b94f4 91ba41dda9ed74d95fe1e5278ad15d3e8b7adb5f 94a1e35b886d9d7bcc2d500252eaa4c296092f0f bd098abb666d4247c9ba23b5693478911b13a96f c2f3c73313e8b54535cc423a1566420d1f24a2de e5559be62fe28a38e5f07926dd9e4517aa0b143c e9f073c1340711c07ac11d93a6648a75e00b5528 f80edfa9f22f76f10ab76c49e46b32324373ad2f
 
 Package: apt-doc
 Source: apt
-Version: 2.9.4-maruska
+Version: 2.9.5-maruska
 Architecture: all
 Maintainer: APT Development Team <deity@lists.debian.org>
 Installed-Size: 805
 Multi-Arch: foreign
 Priority: optional
 Section: doc
-Filename: pool/main/a/apt/apt-doc_2.9.4-maruska_all.deb
-Size: 257608
-SHA256: 955051090d8fd2a1ef72c4fd3313f22c893011b2d0805630be08b7d8033d128c
-SHA1: 05592d37840009b4ed5b767f694334bc280774f0
-MD5sum: 4bee21a27968692468b61e608ebe001d
+Filename: pool/main/a/apt/apt-doc_2.9.5-maruska_all.deb
+Size: 257880
+SHA256: 620ebe9c5074b27be64868d21eb15a4f67783904d8c21b988ce8926e46136b59
+SHA1: 1ea3c2e93c0313af84006f4c58ec8bed98e6cc29
+MD5sum: c08ceecdb399839a72c4d191a4d4e30a
 Description: documentation for APT
  This package contains the user guide and offline guide for various
  APT tools which are provided in a html and a text-only version.
 
 Package: apt-transport-https
 Source: apt
-Version: 2.9.4-maruska
+Version: 2.9.5-maruska
 Architecture: all
 Maintainer: APT Development Team <deity@lists.debian.org>
 Installed-Size: 38
@@ -78,29 +78,29 @@ Depends: apt (>= 1.5~alpha4)
 Multi-Arch: foreign
 Priority: optional
 Section: oldlibs
-Filename: pool/main/a/apt/apt-transport-https_2.9.4-maruska_all.deb
-Size: 27992
-SHA256: d79d329d73dd07ed3578c31cf35713c8912ee57ff698768858d4f58fc0679f1e
-SHA1: bb23f274f38e358271403f7fac8640e0085e6fa4
-MD5sum: 2da1674ef9d09243b72fb329b007988d
+Filename: pool/main/a/apt/apt-transport-https_2.9.5-maruska_all.deb
+Size: 28264
+SHA256: f20cb40217c936db302612ffc8e48265d9e48f5584bbad893c7b45cb6444527c
+SHA1: 2f0734d4dc33c5b5294501cc3c68036eac34ff4a
+MD5sum: 36c21dcc2962ddaa2b9ab158923bee1d
 Description: transitional package for https support
  This is a dummy transitional package - https support has been moved into
  the apt package in 1.5. It can be safely removed.
 
 Package: apt-utils
 Source: apt
-Version: 2.9.4-maruska
+Version: 2.9.5-maruska
 Architecture: amd64
 Maintainer: APT Development Team <deity@lists.debian.org>
-Installed-Size: 1087
-Depends: apt (= 2.9.4-maruska), libapt-pkg6.0t64 (>= 2.9.4-maruska), libc6 (>= 2.34), libdb5.3t64, libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
+Installed-Size: 1086
+Depends: apt (= 2.9.5-maruska), libapt-pkg6.0t64 (>= 2.9.5-maruska), libc6 (>= 2.34), libdb5.3t64, libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
 Priority: required
 Section: admin
-Filename: pool/main/a/apt/apt-utils_2.9.4-maruska_amd64.deb
-Size: 328256
-SHA256: 2e79ea8507473a6a5c8bf89a98d293298dca3f34e3908c6f672db6b0ac1740a2
-SHA1: 5b411def20017252a5d2d92502971677b0fc0611
-MD5sum: 20e8d0eac1df4459d92d8f97c8c666af
+Filename: pool/main/a/apt/apt-utils_2.9.5-maruska_amd64.deb
+Size: 328624
+SHA256: 4e1fbf62f4f600f575f262987bd63a8f870aa78df355edefbc777426be28f49d
+SHA1: 629b599faa802e7c17b4d3cf27b6ac337100bd8d
+MD5sum: 9f5cf63ea97a3a5839c9415fabc98bf2
 Description: package management related utility programs
  This package contains some less used commandline utilities related
  to package management with APT.
@@ -113,21 +113,21 @@ Description: package management related utility programs
 
 Package: apt-utils-dbgsym
 Source: apt
-Version: 2.9.4-maruska
+Version: 2.9.5-maruska
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: APT Development Team <deity@lists.debian.org>
 Installed-Size: 1754
-Depends: apt-utils (= 2.9.4-maruska)
+Depends: apt-utils (= 2.9.5-maruska)
 Priority: optional
 Section: debug
-Filename: pool/main/a/apt/apt-utils-dbgsym_2.9.4-maruska_amd64.deb
-Size: 1686736
-SHA256: 93dad7d560d67ef96c1b2b49586c36dc77487bbc146967e5a20075f7a6bfbc53
-SHA1: 9aec64cacf1382da7648c242cc874a47abdfdee2
-MD5sum: 858fa1ee6dd7fd44dddf4a3d34bf4fd7
+Filename: pool/main/a/apt/apt-utils-dbgsym_2.9.5-maruska_amd64.deb
+Size: 1686176
+SHA256: a50184d8066370eacd680c9524e1abf67c79997d7a36bd8f921b4fba45a8f3fd
+SHA1: decd2ab52616475d1c77dafabba1f0b42dec3779
+MD5sum: c5e07a11d035cc94b8c8bba950ac5d82
 Description: debug symbols for apt-utils
-Build-Ids: 10bc35dd9c2a5f957e9fb76e5dcdf61bee9817f9 37ff3526e84814de5c32f11b2d396b4e4e2b73f3 3f87f14a9bd121cb1ca03c12d5859908858d3a4d 6505aab49a48c55492d7c9c926fe6e0de3f0acd3 c920856153c40d5143bd5695f68bc5449444311c
+Build-Ids: 3f87f14a9bd121cb1ca03c12d5859908858d3a4d 5a97e8a024959876b5cf1fcb2501a8d40712d9d8 6505aab49a48c55492d7c9c926fe6e0de3f0acd3 821e7ac7c559c287d9ac427afeaf5c427ff5f599 d1a95d5be85c6dac10ba8948d2d6a27cbbbe0d71
 
 Package: debhelper
 Version: 13.15.3-maruska
@@ -642,11 +642,11 @@ Description: debug symbols for gauche-zlib
 Build-Ids: 8883f71bff563daf66d7fe71855b26dab332b145
 
 Package: git
-Version: 1:2.45.1-1-maruska
+Version: 1:2.45.2-1-maruska
 Architecture: amd64
 Maintainer: Jonathan Nieder <jrnieder@gmail.com>
-Installed-Size: 47941
-Depends: libc6 (>= 2.38), libcurl3t64-gnutls (>= 7.56.1), libexpat1 (>= 2.0.1), libpcre2-8-0 (>= 10.34), zlib1g (>= 1:1.2.2), perl, liberror-perl, git-man (>> 1:2.45.1-1), git-man (<< 1:2.45.1-1-.)
+Installed-Size: 47927
+Depends: libc6 (>= 2.38), libcurl3t64-gnutls (>= 7.56.1), libexpat1 (>= 2.0.1), libpcre2-8-0 (>= 10.34), zlib1g (>= 1:1.2.2), perl, liberror-perl, git-man (>> 1:2.45.2-1), git-man (<< 1:2.45.2-1-.)
 Recommends: ca-certificates, patch, less, ssh-client
 Suggests: gettext-base, git-daemon-run | git-daemon-sysvinit, git-doc, git-email, git-gui, gitk, gitweb, git-cvs, git-mediawiki, git-svn
 Breaks: bash-completion (<< 1:1.90-1), cogito (<= 0.18.2+), dgit (<< 5.1~), git-buildpackage (<< 0.6.5), git-el (<< 1:2.32.0~rc2-1~), gitosis (<< 0.2+20090917-7), gitpkg (<< 0.15), guilt (<< 0.33), openssh-client (<< 1:6.8), stgit (<< 0.15), stgit-contrib (<< 0.15)
@@ -655,11 +655,11 @@ Multi-Arch: foreign
 Homepage: https://git-scm.com/
 Priority: optional
 Section: vcs
-Filename: pool/main/g/git/git_2.45.1-1-maruska_amd64.deb
-Size: 8653776
-SHA256: 09c5bd99e4fc66f6f63345b1b581ef193419efd2f4c311ca57c732ac4930c3b2
-SHA1: c882b5f7ac0fcfadb9e3b08edfa949b25de74680
-MD5sum: 9f388f68fa8d218bb34c47b692ccd3d3
+Filename: pool/main/g/git/git_2.45.2-1-maruska_amd64.deb
+Size: 8653492
+SHA256: 37fc3b7c72ea9c9fe03f2e527c57bdad6bf5e1ba94c633afd01f6b78dce702ef
+SHA1: b45a43902f33ef7d96f0e2a6a1f06f3ea9120797
+MD5sum: 1b6645c0b60707aa64baad694f9e3f6c
 Description: fast, scalable, distributed revision control system
  Git is popular version control system designed to handle very large
  projects with speed and efficiency; it is used for many high profile
@@ -677,21 +677,21 @@ Description: fast, scalable, distributed revision control system
 
 Package: git-all
 Source: git
-Version: 1:2.45.1-1-maruska
+Version: 1:2.45.2-1-maruska
 Architecture: all
 Maintainer: Jonathan Nieder <jrnieder@gmail.com>
-Installed-Size: 1034
-Depends: git (>> 1:2.45.1-1), git (<< 1:2.45.1-1-.), git-doc, git-cvs, git-mediawiki, git-svn, git-email, git-gui, gitk, gitweb
+Installed-Size: 1036
+Depends: git (>> 1:2.45.2-1), git (<< 1:2.45.2-1-.), git-doc, git-cvs, git-mediawiki, git-svn, git-email, git-gui, gitk, gitweb
 Suggests: git-daemon-run | git-daemon-sysvinit
 Multi-Arch: foreign
 Homepage: https://git-scm.com/
 Priority: optional
 Section: vcs
-Filename: pool/main/g/git/git-all_2.45.1-1-maruska_all.deb
-Size: 1039568
-SHA256: 33e1a958ad0718715dad6cfcfecf1f6c5bf5b924219e86ce9d479fa853e916c3
-SHA1: c7cc0b629e668ca9193d65c2733f4901f132cd5c
-MD5sum: 0dd3fa5486e5a934858381ba3aebf4c9
+Filename: pool/main/g/git/git-all_2.45.2-1-maruska_all.deb
+Size: 1041808
+SHA256: 6f95045f414af92bd10fc339d53bd47088c99702f2afad0ec118f14d57f3252d
+SHA1: b5c9617b7146afde9d23160dc049526e828e760c
+MD5sum: ba2e93a39bec1cfe3d30825088d1d8ee
 Description: fast, scalable, distributed revision control system (all subpackages)
  Git is popular version control system designed to handle very large
  projects with speed and efficiency; it is used for many high profile
@@ -706,21 +706,21 @@ Description: fast, scalable, distributed revision control system (all subpackage
 
 Package: git-daemon-run
 Source: git
-Version: 1:2.45.1-1-maruska
+Version: 1:2.45.2-1-maruska
 Architecture: all
 Maintainer: Jonathan Nieder <jrnieder@gmail.com>
-Installed-Size: 1046
-Depends: git (>> 1:2.45.1-1), git (<< 1:2.45.1-1-.), runit, adduser
+Installed-Size: 1048
+Depends: git (>> 1:2.45.2-1), git (<< 1:2.45.2-1-.), runit, adduser
 Conflicts: git-daemon-sysvinit
 Multi-Arch: foreign
 Homepage: https://git-scm.com/
 Priority: optional
 Section: vcs
-Filename: pool/main/g/git/git-daemon-run_2.45.1-1-maruska_all.deb
-Size: 1041124
-SHA256: 32317c5382c37ef1801be238c31828dab4b3a50cf9f4108d4f1d91e9e289b488
-SHA1: e864f534acaff10c1d5833dd54e9549bb9124132
-MD5sum: 3a7316024acd360dfb7d7160df280fc6
+Filename: pool/main/g/git/git-daemon-run_2.45.2-1-maruska_all.deb
+Size: 1043336
+SHA256: f6240812b0a879e9e7f5645f81cda11c90fff918a6cac886ed724c55666d7975
+SHA1: 3c26ebc8180a2f0d4c3f0b628af2ea4fb23992d3
+MD5sum: 81a30acf5020db0533245f61128db7ca
 Description: fast, scalable, distributed revision control system (git-daemon service)
  Git is popular version control system designed to handle very large
  projects with speed and efficiency; it is used for many high profile
@@ -740,21 +740,21 @@ Description: fast, scalable, distributed revision control system (git-daemon ser
 
 Package: git-daemon-sysvinit
 Source: git
-Version: 1:2.45.1-1-maruska
+Version: 1:2.45.2-1-maruska
 Architecture: all
 Maintainer: Jonathan Nieder <jrnieder@gmail.com>
-Installed-Size: 1050
-Depends: git (>> 1:2.45.1-1), git (<< 1:2.45.1-1-.), adduser, lsb-base (>= 3.0-6)
+Installed-Size: 1052
+Depends: git (>> 1:2.45.2-1), git (<< 1:2.45.2-1-.), adduser, lsb-base (>= 3.0-6)
 Conflicts: git-daemon-run
 Multi-Arch: foreign
 Homepage: https://git-scm.com/
 Priority: optional
 Section: vcs
-Filename: pool/main/g/git/git-daemon-sysvinit_2.45.1-1-maruska_all.deb
-Size: 1042364
-SHA256: e651650a14ed86e63bd095ed3585dc83e99c51ded6019c3e3bc0aa8ff7abc75b
-SHA1: 1570ee5c1d91a7875ed730f50172b3eca03c523a
-MD5sum: d285bfc80d8b9f91bb5a8eac66b205c0
+Filename: pool/main/g/git/git-daemon-sysvinit_2.45.2-1-maruska_all.deb
+Size: 1044604
+SHA256: 2ed826ecd2e51cee9173f674427c5324619f100a7313e914148e34c5c82ba399
+SHA1: 5cc67b965b671894cc9e18a882ff253e6a0103c3
+MD5sum: 7a6ac28d439f3ca203c47a029ca96c65
 Description: fast, scalable, distributed revision control system (git-daemon service)
  Git is popular version control system designed to handle very large
  projects with speed and efficiency; it is used for many high profile
@@ -774,38 +774,38 @@ Description: fast, scalable, distributed revision control system (git-daemon ser
 
 Package: git-dbgsym
 Source: git
-Version: 1:2.45.1-1-maruska
+Version: 1:2.45.2-1-maruska
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Jonathan Nieder <jrnieder@gmail.com>
-Installed-Size: 45524
-Depends: git (= 1:2.45.1-1-maruska)
+Installed-Size: 45480
+Depends: git (= 1:2.45.2-1-maruska)
 Priority: optional
 Section: debug
-Filename: pool/main/g/git/git-dbgsym_2.45.1-1-maruska_amd64.deb
-Size: 44068356
-SHA256: 0db0a6907be909bed4a8dbd0d38657660242ef302b1c4517866b5c8c9b63104a
-SHA1: 33470fcf132480bbdfcea19e5a9d48cda8ab746c
-MD5sum: 593580868f984a684c240b0ab9a3aff2
+Filename: pool/main/g/git/git-dbgsym_2.45.2-1-maruska_amd64.deb
+Size: 44112404
+SHA256: 41e24049a8148458d17293c61186f9cc8766ce2930cfb418fcfc400e8bd782e8
+SHA1: 99cfff483b5846b1a70ec5bb74a677adc30e191a
+MD5sum: f56c89d86d62b39c4ce55d95e0273846
 Description: debug symbols for git
-Build-Ids: 23e37f2a72add0a39e2195a713ce2b27ad4dbb85 4673a1cf2560f0193dc4a85aac20d7afa4e24909 602c845b309d8998f3de3c0dc3f28791787cfeb5 7ab9d65d95d1787c468908626a512b20702e2f31 987a4f05901d23a05d203d2424f68f650db7c66e a4c15e1724e2006be30b07495caadaad9cb93a56 ddd090c8216e459e675f19dacece9a5e2a1fe458 e528268a0ca23d6a8b6aca18107c9c6b95960e3d eafc9b3367d7cf06361026712f3a3b9983190daa f85193e0745d976a5ea305f9964cb451b9fc0081
+Build-Ids: 13cbba282f2e17fe2fbe617fb051f0e13fe9af9e 4095fbadefcd477840a39df0491531d05fce604f 522fdf58ce3a329ae2585d73f845353f4e939381 5714f96971d4fa630cb3dd6133130d66682bad0c 7f051f8504219c4275fa03978264d266eec1d2d9 88634645ef91ff9411e2de6a7dd5b61db4878c4e aed34f43278c97adbe920b4608a1068ba1e24c3b cc828140e54818e22ce9286314ce0533ca337578 ccf0ec216580dc719c71da6b5e007d868ee36b8c fc7f924866b65746cba40e67e9b838da6f055c4b
 
 Package: git-doc
 Source: git
-Version: 1:2.45.1-1-maruska
+Version: 1:2.45.2-1-maruska
 Architecture: all
 Maintainer: Jonathan Nieder <jrnieder@gmail.com>
-Installed-Size: 13422
+Installed-Size: 13424
 Suggests: git, git-cvs, git-svn, git-email, gitk, gitweb
 Multi-Arch: foreign
 Homepage: https://git-scm.com/
 Priority: optional
 Section: doc
-Filename: pool/main/g/git/git-doc_2.45.1-1-maruska_all.deb
-Size: 2248280
-SHA256: 0e80f601ef51863b25bc5e4fce19a596d4dc9d90748fa85c395b3c55308b3e66
-SHA1: 0ca9881d52034b677ce6aea6aca328a77fc55ddf
-MD5sum: 3ded4af3b95bf3805b72c7a90d95376e
+Filename: pool/main/g/git/git-doc_2.45.2-1-maruska_all.deb
+Size: 2250060
+SHA256: cac1f6e669b30e01d8f02aa15311e0aff57e0cae00a995ad9fd9a9ac35a1f0b8
+SHA1: 8d8ca3cc7edc0804a87c4a1174d6d1d4ce57cbb0
+MD5sum: 483b5b0b6d3a2f3610afd0cc64947341
 Description: fast, scalable, distributed revision control system (documentation)
  Git is popular version control system designed to handle very large
  projects with speed and efficiency; it is used for many high profile
@@ -820,22 +820,22 @@ Description: fast, scalable, distributed revision control system (documentation)
 
 Package: git-email
 Source: git
-Version: 1:2.45.1-1-maruska
+Version: 1:2.45.2-1-maruska
 Architecture: all
 Maintainer: Jonathan Nieder <jrnieder@gmail.com>
-Installed-Size: 1111
-Depends: git (>> 1:2.45.1-1), git (<< 1:2.45.1-1-.)
+Installed-Size: 1113
+Depends: git (>> 1:2.45.2-1), git (<< 1:2.45.2-1-.)
 Recommends: libemail-valid-perl, libmailtools-perl, perl (>> 5.21.5) | libnet-smtp-ssl-perl, libauthen-sasl-perl, libio-socket-ssl-perl (>= 1.951)
 Suggests: git-doc
 Multi-Arch: foreign
 Homepage: https://git-scm.com/
 Priority: optional
 Section: vcs
-Filename: pool/main/g/git/git-email_2.45.1-1-maruska_all.deb
-Size: 1067916
-SHA256: 5c2298b3ea4deca4616aaceab2ffe1481b6970d361dd7395de8fa409242673ba
-SHA1: eccc243fafe375b5bcb184a58c0e8b7f60c5c88b
-MD5sum: 3788a8e3bf3f88791323943a7904edb4
+Filename: pool/main/g/git/git-email_2.45.2-1-maruska_all.deb
+Size: 1070168
+SHA256: 160fac74480882513a242d1e3f98244c078a6796b6cc32e3e2caaa72b62de771
+SHA1: a1e2ad4755b95b8ba188c09dde480d2f5dbdaeb3
+MD5sum: 1b5ccbed4370e4d73e3a1e1664aa820c
 Description: fast, scalable, distributed revision control system (email add-on)
  Git is popular version control system designed to handle very large
  projects with speed and efficiency; it is used for many high profile
@@ -851,22 +851,22 @@ Description: fast, scalable, distributed revision control system (email add-on)
 
 Package: git-gui
 Source: git
-Version: 1:2.45.1-1-maruska
+Version: 1:2.45.2-1-maruska
 Architecture: all
 Maintainer: Jonathan Nieder <jrnieder@gmail.com>
-Installed-Size: 2453
-Depends: git (>> 1:2.45.1-1), git (<< 1:2.45.1-1-.), tk
+Installed-Size: 2455
+Depends: git (>> 1:2.45.2-1), git (<< 1:2.45.2-1-.), tk
 Recommends: gitk
 Suggests: git-doc, aspell, meld
 Multi-Arch: foreign
 Homepage: https://git-scm.com/
 Priority: optional
 Section: vcs
-Filename: pool/main/g/git/git-gui_2.45.1-1-maruska_all.deb
-Size: 1257720
-SHA256: 219c9176039161bba3e22a396825c24249ef7d666391b15a1cee7f53fe1d2375
-SHA1: 713e3cc39c1e3d5d12f026faee1394fac3138ff2
-MD5sum: 33a2a3d0c8c896a74f81f80e0ee6d211
+Filename: pool/main/g/git/git-gui_2.45.2-1-maruska_all.deb
+Size: 1259952
+SHA256: 668c4dbef4af6bf9df91e3d9b71389f5c252686c9ff4f950efb5941751a0144a
+SHA1: 13565321508a67529c8f11300e376bfe696b8908
+MD5sum: 5feb932fbf6af1f11ca6de22242dacfe
 Description: fast, scalable, distributed revision control system (GUI)
  Git is popular version control system designed to handle very large
  projects with speed and efficiency; it is used for many high profile
@@ -902,19 +902,19 @@ Description: Tools to maintain extensions for upstream, in git
 
 Package: git-man
 Source: git
-Version: 1:2.45.1-1-maruska
+Version: 1:2.45.2-1-maruska
 Architecture: all
 Maintainer: Jonathan Nieder <jrnieder@gmail.com>
-Installed-Size: 2205
+Installed-Size: 2208
 Multi-Arch: foreign
 Homepage: https://git-scm.com/
 Priority: optional
 Section: doc
-Filename: pool/main/g/git/git-man_2.45.1-1-maruska_all.deb
-Size: 2156944
-SHA256: a5da0c77f7b8699fdda2d3f638a95ad342f8773c843e65de83a30aa7894db99a
-SHA1: 74c63bc6017ef377d538ed76f4e5f17e085dcfd7
-MD5sum: 9cfc177682f479d53df772360fb142c3
+Filename: pool/main/g/git/git-man_2.45.2-1-maruska_all.deb
+Size: 2159316
+SHA256: f6d795ab75cb378f89749faea81ce2706c8a53b8203773793ff0d6da08dfca58
+SHA1: 7363d0ea9247b4c1bec335966c012c16d0d4f270
+MD5sum: 4a51639f81a626344e1919c260acaee6
 Description: fast, scalable, distributed revision control system (manual pages)
  Git is popular version control system designed to handle very large
  projects with speed and efficiency; it is used for many high profile
@@ -930,21 +930,21 @@ Description: fast, scalable, distributed revision control system (manual pages)
 
 Package: git-mediawiki
 Source: git
-Version: 1:2.45.1-1-maruska
+Version: 1:2.45.2-1-maruska
 Architecture: all
 Maintainer: Jonathan Nieder <jrnieder@gmail.com>
-Installed-Size: 1094
-Depends: git (>> 1:2.45.1-1), git (<< 1:2.45.1-1-.), libmediawiki-api-perl (>= 0.39), liblwp-protocol-https-perl, libdatetime-format-iso8601-perl
+Installed-Size: 1096
+Depends: git (>> 1:2.45.2-1), git (<< 1:2.45.2-1-.), libmediawiki-api-perl (>= 0.39), liblwp-protocol-https-perl, libdatetime-format-iso8601-perl
 Suggests: mediawiki
 Multi-Arch: foreign
 Homepage: https://git-scm.com/
 Priority: optional
 Section: vcs
-Filename: pool/main/g/git/git-mediawiki_2.45.1-1-maruska_all.deb
-Size: 1055740
-SHA256: 4b842ad8cc1adc072d6f6fe5f5773a3b603b2b25d6f54dff6cac51820ea82acf
-SHA1: f0e3d80ea52282665fb03470bd9a2a8213a07f4b
-MD5sum: dbc845e7e6e3aefccb0f9d0479f657ac
+Filename: pool/main/g/git/git-mediawiki_2.45.2-1-maruska_all.deb
+Size: 1058016
+SHA256: 1b479026b37bbf5f9ae89c907d9883a32dd54407f1f2627b5a7e9bc8f371c716
+SHA1: eab73bf05217a82bf941d6f32e066f45d0dc772e
+MD5sum: dc1a6a6bfc79dc59f2498e4f0bf82845
 Description: fast, scalable, distributed revision control system (MediaWiki remote helper)
  Git is popular version control system designed to handle very large
  projects with speed and efficiency; it is used for many high profile
@@ -962,11 +962,11 @@ Description: fast, scalable, distributed revision control system (MediaWiki remo
 
 Package: git-svn
 Source: git
-Version: 1:2.45.1-1-maruska
+Version: 1:2.45.2-1-maruska
 Architecture: all
 Maintainer: Jonathan Nieder <jrnieder@gmail.com>
-Installed-Size: 1282
-Depends: git (>> 1:2.45.1-1), git (<< 1:2.45.1-1-.), libsvn-perl, libyaml-perl, libterm-readkey-perl
+Installed-Size: 1284
+Depends: git (>> 1:2.45.2-1), git (<< 1:2.45.2-1-.), libsvn-perl, libyaml-perl, libterm-readkey-perl
 Suggests: git-doc, subversion
 Breaks: git (<< 1:1.8.3~rc1-1.)
 Replaces: git (<< 1:1.8.3~rc1-1.)
@@ -974,11 +974,11 @@ Multi-Arch: foreign
 Homepage: https://git-scm.com/
 Priority: optional
 Section: vcs
-Filename: pool/main/g/git/git-svn_2.45.1-1-maruska_all.deb
-Size: 1115108
-SHA256: 2adb4b8189c060616a1f918f5d23c2f1622e508a439fb8e28b30bd1e010e838b
-SHA1: 19ef320685b002ff852b373a25bd64dfaec65b62
-MD5sum: de8d58b24f374e675210d127751d67b5
+Filename: pool/main/g/git/git-svn_2.45.2-1-maruska_all.deb
+Size: 1117376
+SHA256: 627705920adb5a608228e35afc42b4cbe1e8ba6c52f0efb51b13faa383e9d3e7
+SHA1: 81530482b0e444fd253a83e495b5e07c38da4476
+MD5sum: 2379799a353cdb8799b833fdff4c7f53
 Description: fast, scalable, distributed revision control system (svn interoperability)
  Git is popular version control system designed to handle very large
  projects with speed and efficiency; it is used for many high profile
@@ -994,21 +994,21 @@ Description: fast, scalable, distributed revision control system (svn interopera
 
 Package: gitk
 Source: git
-Version: 1:2.45.1-1-maruska
+Version: 1:2.45.2-1-maruska
 Architecture: all
 Maintainer: Jonathan Nieder <jrnieder@gmail.com>
-Installed-Size: 1877
-Depends: git (>> 1:2.45.1-1), git (<< 1:2.45.1-1-.), tk
+Installed-Size: 1879
+Depends: git (>> 1:2.45.2-1), git (<< 1:2.45.2-1-.), tk
 Suggests: git-doc
 Multi-Arch: foreign
 Homepage: https://git-scm.com/
 Priority: optional
 Section: vcs
-Filename: pool/main/g/git/gitk_2.45.1-1-maruska_all.deb
-Size: 1179164
-SHA256: d3cd4e8d63690401ae49d4ef415f2a7ef5e0cb750963c3a4c7c49bd66d35106b
-SHA1: f16bdd79b76b4f6e9e677d6efdc0b2082dfe4660
-MD5sum: e477fbb145d80047619edb17bcfb7765
+Filename: pool/main/g/git/gitk_2.45.2-1-maruska_all.deb
+Size: 1181408
+SHA256: a24d869e7554a6139c8e1b02701132b8df90297a9b55b1485642aa52cc79036a
+SHA1: 152a121a9253c6e26f65a548f393643f6a97651e
+MD5sum: e7c4ef3279ed4630a8c9e7641b03d25d
 Description: fast, scalable, distributed revision control system (revision tree visualizer)
  Git is popular version control system designed to handle very large
  projects with speed and efficiency; it is used for many high profile
@@ -1023,11 +1023,11 @@ Description: fast, scalable, distributed revision control system (revision tree 
 
 Package: gitweb
 Source: git
-Version: 1:2.45.1-1-maruska
+Version: 1:2.45.2-1-maruska
 Architecture: all
 Maintainer: Jonathan Nieder <jrnieder@gmail.com>
-Installed-Size: 1055
-Depends: git (>> 1:2.45.1-1), git (<< 1:2.45.1-1-.), perl, libcgi-pm-perl
+Installed-Size: 1057
+Depends: git (>> 1:2.45.2-1), git (<< 1:2.45.2-1-.), perl, libcgi-pm-perl
 Recommends: apache2 (>= 2.4.6-4~) | lynx | httpd, libhttp-date-perl | libtime-parsedate-perl
 Suggests: httpd-cgi | libcgi-fast-perl, git-doc
 Breaks: apache2.2-common (<< 2.3~)
@@ -1035,11 +1035,11 @@ Multi-Arch: foreign
 Homepage: https://git-scm.com/
 Priority: optional
 Section: vcs
-Filename: pool/main/g/git/gitweb_2.45.1-1-maruska_all.deb
-Size: 1043120
-SHA256: 60aa208880276bb3cf6bd0171f2f6c602b0ed14546e050d46fc7c0584bb95372
-SHA1: 33f7dc9b0f6f9dcf1e735068cf0288260809970f
-MD5sum: 25cdaebca9af2d6f47d8b99983ae8d29
+Filename: pool/main/g/git/gitweb_2.45.2-1-maruska_all.deb
+Size: 1045368
+SHA256: 4e2efa613ad151a8278ad521473d905ef1d253d3c07e0ba7a278f8ad4dbb23d8
+SHA1: cfea9b0f781fbfb4dfe557fc9757634d866030a6
+MD5sum: b20277a799c27c9505d0a8f515a85297
 Description: fast, scalable, distributed revision control system (web interface)
  Git is popular version control system designed to handle very large
  projects with speed and efficiency; it is used for many high profile
@@ -1096,19 +1096,19 @@ Build-Ids: 8b9c1738620dd8296ee1610ee790595bbef680a8
 
 Package: libapt-pkg-dev
 Source: apt
-Version: 2.9.4-maruska
+Version: 2.9.5-maruska
 Architecture: amd64
 Maintainer: APT Development Team <deity@lists.debian.org>
-Installed-Size: 529
-Depends: libapt-pkg (= 2.9.4-maruska)
+Installed-Size: 530
+Depends: libapt-pkg (= 2.9.5-maruska)
 Multi-Arch: same
 Priority: optional
 Section: libdevel
-Filename: pool/main/a/apt/libapt-pkg-dev_2.9.4-maruska_amd64.deb
-Size: 121712
-SHA256: 6bbdc5282034c13dc23691e1513fc588131b9407bccf3007c3256e2dc58a1ec5
-SHA1: 7003fd6a93da504bab40e3aa56d91d9c511bdae6
-MD5sum: cf9107fa958f937f453a7de26cf26168
+Filename: pool/main/a/apt/libapt-pkg-dev_2.9.5-maruska_amd64.deb
+Size: 122492
+SHA256: 9cd039477e8fac97422004a917b154f109094fa31dc611a2edae6c170de3c802
+SHA1: aea5d6e064e911a42ca69145cf8ff63ceccb5615
+MD5sum: 1ce37befd205b41aa419a93b1fbac0b2
 Description: development files for APT's libapt-pkg and libapt-inst
  This package contains the header files and libraries for
  developing with APT's libapt-pkg Debian package manipulation
@@ -1116,18 +1116,18 @@ Description: development files for APT's libapt-pkg and libapt-inst
 
 Package: libapt-pkg-doc
 Source: apt
-Version: 2.9.4-maruska
+Version: 2.9.5-maruska
 Architecture: all
 Maintainer: APT Development Team <deity@lists.debian.org>
-Installed-Size: 18505
+Installed-Size: 18516
 Multi-Arch: foreign
 Priority: optional
 Section: doc
-Filename: pool/main/a/apt/libapt-pkg-doc_2.9.4-maruska_all.deb
-Size: 947356
-SHA256: 0fdcba3179b2de5a37b0daa675657c3f30304bc40c8a1c5eac6e98701502ef58
-SHA1: ad9eab8f171ead18b5f2247666ab3be3422581e7
-MD5sum: 4999f492a20ade02b27014d13b20a7cc
+Filename: pool/main/a/apt/libapt-pkg-doc_2.9.5-maruska_all.deb
+Size: 948632
+SHA256: bc1109d62163924155bc2b1893d0f31a44909c5d9243eb94347bcf06f6a4bd91
+SHA1: cb37142fb14a30752edd60a1cb13857f143c5a80
+MD5sum: 11613a83b6a5147e82cef19cc6d41ae6
 Description: documentation for APT development
  This package contains documentation for development of the APT
  Debian package manipulation program and its libraries.
@@ -1190,24 +1190,24 @@ Build-Ids: aae15c69e9b8a4d249fa465ea3470ee5408b9573
 
 Package: libapt-pkg6.0t64
 Source: apt
-Version: 2.9.4-maruska
+Version: 2.9.5-maruska
 Architecture: amd64
 Maintainer: APT Development Team <deity@lists.debian.org>
-Installed-Size: 3682
+Installed-Size: 3683
 Depends: libbz2-1.0, libc6 (>= 2.38), libgcc-s1 (>= 3.0), libgcrypt20 (>= 1.10.0), liblz4-1 (>= 0.0~r127), liblzma5 (>= 5.1.1alpha+20120614), libstdc++6 (>= 13.1), libsystemd0 (>= 221), libudev1 (>= 183), libxxhash0 (>= 0.7.1), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.2.3)
-Recommends: apt (>= 2.9.4-maruska)
+Recommends: apt (>= 2.9.5-maruska)
 Conflicts: libnettle8 (<< 3.9.1-2.2~)
-Breaks: appstream (<< 0.9.0-3~), apt (<< 1.6~), aptitude (<< 0.8.9), dpkg (<< 1.20.8), libapt-inst1.5 (<< 0.9.9~), libapt-pkg6.0 (<< 2.9.4-maruska)
+Breaks: appstream (<< 0.9.0-3~), apt (<< 1.6~), aptitude (<< 0.8.9), dpkg (<< 1.20.8), libapt-inst1.5 (<< 0.9.9~), libapt-pkg6.0 (<< 2.9.5-maruska)
 Replaces: libapt-pkg6.0
-Provides: libapt-pkg (= 2.9.4-maruska), libapt-pkg6.0 (= 2.9.4-maruska)
+Provides: libapt-pkg (= 2.9.5-maruska), libapt-pkg6.0 (= 2.9.5-maruska)
 Multi-Arch: same
 Priority: optional
 Section: libs
-Filename: pool/main/a/apt/libapt-pkg6.0t64_2.9.4-maruska_amd64.deb
-Size: 1019180
-SHA256: f066a3fa00e8b24994140176320cbbe374d4875f204fad91833513136119ad56
-SHA1: 2e2265a7912036705d3d4b2986872082adff789b
-MD5sum: 05c52e121b4c34d0209669601b096467
+Filename: pool/main/a/apt/libapt-pkg6.0t64_2.9.5-maruska_amd64.deb
+Size: 1019960
+SHA256: 3c2c35687b0668ad0dc7b0dbfce4441fa9148c286bbef4990db50ca8b119ffac
+SHA1: 5166b339d17397849d083a75eac1c5fa0e0f38f7
+MD5sum: e6da7cef42fb1aae17282710f9177c93
 Description: package management runtime library
  This library provides the common functionality for searching and
  managing packages as well as information about packages.
@@ -1226,22 +1226,22 @@ Description: package management runtime library
 
 Package: libapt-pkg6.0t64-dbgsym
 Source: apt
-Version: 2.9.4-maruska
+Version: 2.9.5-maruska
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: APT Development Team <deity@lists.debian.org>
-Installed-Size: 11396
-Depends: libapt-pkg6.0t64 (= 2.9.4-maruska)
+Installed-Size: 11393
+Depends: libapt-pkg6.0t64 (= 2.9.5-maruska)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/a/apt/libapt-pkg6.0t64-dbgsym_2.9.4-maruska_amd64.deb
-Size: 11249076
-SHA256: 9899fc11949ee3cc43e84f677446ec57986e8b796bdb6474443b5c62cd683463
-SHA1: 6ba695f1dc72abe001d32a82f4123689ea2ad524
-MD5sum: aafeb7bf6d936db2829a59af1e5ed852
+Filename: pool/main/a/apt/libapt-pkg6.0t64-dbgsym_2.9.5-maruska_amd64.deb
+Size: 11246344
+SHA256: e1919efb99b1b2fc84788eebd09b13b66f0ae6452754267d85e3945c4837d602
+SHA1: 1fc7f668f6b52726571980ac5b1d330e8461fd68
+MD5sum: 4977f974398b581f3219a30d440c13b4
 Description: debug symbols for libapt-pkg6.0t64
-Build-Ids: d8fe6f86931cba4bf3ef720c4e871e9b5421faff
+Build-Ids: 60a41e48b4f4bcdc575f7758074a710d29da63b3
 
 Package: libdebhelper-perl
 Source: debhelper
