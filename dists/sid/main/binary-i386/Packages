@@ -1367,18 +1367,18 @@ Description: interactive viewer for Graphviz dot files
 
 Package: xorg-server-source
 Source: xorg-server
-Version: 2:21.1.12-1-maruska
+Version: 2:21.1.13-2-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 105
+Installed-Size: 106
 Homepage: https://www.x.org/
 Priority: optional
 Section: x11
-Filename: pool/main/x/xorg-server/xorg-server-source_21.1.12-1-maruska_all.deb
-Size: 15900
-SHA256: 6915d3c43d6e3cf9c6ed302b1d75f980e99eda874c9e794cdab39b8997ede378
-SHA1: 089d9877889b5497d60dfc6ac6ca6ccef9e2147c
-MD5sum: f998e57b1fdef3c1ee8daaa2875f1772
+Filename: pool/main/x/xorg-server/xorg-server-source_21.1.13-2-maruska_all.deb
+Size: 16024
+SHA256: 1ec8bb7a776fea55de421b14309a35d959090587cfd05acf5160b4a90e93f0ef
+SHA1: c0925e10ba1a1ea663f79a4a2b2f239974a63c0d
+MD5sum: dd3136fdae278887127f619c5dab998c
 Description: Xorg X server - source files
  This package provides original Debian (with Debian patches already
  applied, and autotools files updated) sources for the X.Org ('Xorg')
@@ -1391,10 +1391,10 @@ Description: Xorg X server - source files
 
 Package: xserver-common
 Source: xorg-server
-Version: 2:21.1.12-1-maruska
+Version: 2:21.1.13-2-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 148
+Installed-Size: 149
 Depends: x11-common, xkb-data, x11-xkb-utils
 Recommends: xfonts-base, xauth
 Replaces: xserver-xorg-core (<< 2:1.5.2)
@@ -1402,11 +1402,11 @@ Multi-Arch: foreign
 Homepage: https://www.x.org/
 Priority: optional
 Section: x11
-Filename: pool/main/x/xorg-server/xserver-common_21.1.12-1-maruska_all.deb
-Size: 31596
-SHA256: 21b485820c907ebfba77f88a46026cb4cbdaff54fed9d2cc6c6903162d213bf7
-SHA1: e00b9aebd77601f75c341af7697e161aa175b77b
-MD5sum: 8290ffddde74ed2369d6299baddef627
+Filename: pool/main/x/xorg-server/xserver-common_21.1.13-2-maruska_all.deb
+Size: 31716
+SHA256: 202efc2b78e82b13b8304ec8f5ae3ebf5656261ab5dd86da6e48af1faf2fced9
+SHA1: 953f6ea6284f8c6db0e6007a8ff7cf2a0d08ffc5
+MD5sum: c4abc52b1cf9ce46974c5f83935968f7
 Description: common files used by various X servers
  This package provides files necessary for all X.Org based X servers.
 
