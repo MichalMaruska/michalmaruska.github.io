@@ -899,7 +899,7 @@ Description: Michal Maruska handy elisp function (general utility)
  anything strictly personal.
 
 Package: mmc-emacs-devel
-Version: 2.17
+Version: 2.18
 Architecture: all
 Maintainer: Michal Maruska <mmaruska@gmail.com>
 Installed-Size: 229
@@ -908,11 +908,11 @@ Recommends: pylint
 Enhances: python-mode
 Priority: extra
 Section: editors
-Filename: pool/main/m/mmc-emacs-devel/mmc-emacs-devel_2.17_all.deb
-Size: 45844
-SHA256: 5a064e2a34e79a59a7b50951b6ae2ee82299e06376de92563fd3cf647aaf4cf9
-SHA1: fdc9d6526f561718e1c000b5199042b24d4c4df8
-MD5sum: db3894c5d2092c988f23d6d65081abc8
+Filename: pool/main/m/mmc-emacs-devel/mmc-emacs-devel_2.18_all.deb
+Size: 45964
+SHA256: a40b7a5183e06fcbd3e82875c19828190f38b70bc8987aee3c96e3a2a2621a85
+SHA1: c06cd54bd500c6db7a348dcd2084d6036a4ecfec
+MD5sum: 8f8e80856a1f2cca786838551e53681e
 Description: mmc's elisp, handy for "development", programming
 
 Package: mmc-shell
