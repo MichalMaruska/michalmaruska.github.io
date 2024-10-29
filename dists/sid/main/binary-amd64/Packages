@@ -1468,6 +1468,169 @@ MD5sum: 3da87f40971498b523fe173a26c950ab
 Description: debug symbols for libgauche0
 Build-Ids: de7a62459ef4da204962a3c56669c972810247f0
 
+Package: libinput-bin
+Source: libinput
+Version: 1.26.2-1-maruska
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 158
+Depends: libc6 (>= 2.38), libevdev2 (>= 1.10.0), libudev1 (>= 183), libwacom9 (>= 2.0.0)
+Multi-Arch: foreign
+Homepage: https://www.freedesktop.org/wiki/Software/libinput/
+Priority: optional
+Section: libs
+Filename: pool/main/libi/libinput/libinput-bin_1.26.2-1-maruska_amd64.deb
+Size: 25320
+SHA256: 3ddf6b3fa9557a5f27b5aa9c67ef381de5a575871a84923d437f3a9057a9c58c
+SHA1: cbfeccfebf28ade493b86ad14adc4d746b0d893e
+MD5sum: c56ac0f2b793a2407ab60403bb2cac47
+Description: input device management and event handling library - udev quirks
+ libinput is a library that handles input devices for display servers and
+ other applications that need to directly deal with input devices.
+ .
+ It provides device detection, device handling, input device event
+ processing and abstraction to minimize the amount of custom input
+ code the user of libinput needs to provide the common set of
+ functionality that users expect.
+ .
+ This package includes the udev quirks database and helpers.
+
+Package: libinput-bin-dbgsym
+Source: libinput
+Version: 1.26.2-1-maruska
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 63
+Depends: libinput-bin (= 1.26.2-1-maruska)
+Priority: optional
+Section: debug
+Filename: pool/main/libi/libinput/libinput-bin-dbgsym_1.26.2-1-maruska_amd64.deb
+Size: 29640
+SHA256: 9f1bb0a491989197ebbd5053051e5068c90f8869c2344917a339e29d5613d587
+SHA1: 7391f5c8578b0541f2c622b85a4b898545f1f201
+MD5sum: 17847a7693784d927d35c0b99c0ee5e8
+Description: debug symbols for libinput-bin
+Build-Ids: 307c2a0ad991ebb79f6a751d42c2a957c3d06569 e954aeebc7d06fe81b81977525c6e3d394ff1774 f9056661094c9ed4b6b6125998bf5dc468389997
+
+Package: libinput-dev
+Source: libinput
+Version: 1.26.2-1-maruska
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 233
+Depends: libinput10 (= 1.26.2-1-maruska), libmtdev-dev (>= 1.1.0), libudev-dev, libevdev-dev (>= 1.10.0), libwacom-dev (>= 0.20)
+Multi-Arch: same
+Homepage: https://www.freedesktop.org/wiki/Software/libinput/
+Priority: optional
+Section: libdevel
+Filename: pool/main/libi/libinput/libinput-dev_1.26.2-1-maruska_amd64.deb
+Size: 34968
+SHA256: 6c24dbf970777cfc76e663d6f118b7e435d7d7b08fc3a91baa482d7f86d11fb3
+SHA1: 2e6188429bb6b6d4decd7d098f008bf27a794489
+MD5sum: 58ad0aca9463c9192263c5d38fa170b9
+Description: input device management and event handling library - development files
+ libinput is a library that handles input devices for display servers and
+ other applications that need to directly deal with input devices.
+ .
+ It provides device detection, device handling, input device event
+ processing and abstraction to minimize the amount of custom input
+ code the user of libinput needs to provide the common set of
+ functionality that users expect.
+ .
+ This package includes the development headers.
+
+Package: libinput-tools
+Source: libinput
+Version: 1.26.2-1-maruska
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 909
+Depends: libinput10 (= 1.26.2-1-maruska), libc6 (>= 2.38), libcairo2 (>= 1.2.4), libevdev2 (>= 1.10.0), libglib2.0-0t64 (>= 2.30.0), libgtk-3-0t64 (>= 3.19.12), libudev1 (>= 183), libwayland-client0 (>= 1.20.0), libx11-6, python3, python3-libevdev, python3-pyudev
+Multi-Arch: allowed
+Homepage: https://www.freedesktop.org/wiki/Software/libinput/
+Priority: optional
+Section: libdevel
+Filename: pool/main/libi/libinput/libinput-tools_1.26.2-1-maruska_amd64.deb
+Size: 146096
+SHA256: 2f8fb1a792c779e4e25f619bfb8d3290ef3377b67dfe16ef7fe21fc078728565
+SHA1: 9e12d573fba224a35d9a0b30f326754a91cd5841
+MD5sum: 790c161ff04e107a5df1c79542d8b238
+Description: input device management and event handling library - command line tools
+ libinput is a library that handles input devices for display servers and
+ other applications that need to directly deal with input devices.
+ .
+ It provides device detection, device handling, input device event
+ processing and abstraction to minimize the amount of custom input
+ code the user of libinput needs to provide the common set of
+ functionality that users expect.
+ .
+ This package includes the command line tools.
+
+Package: libinput-tools-dbgsym
+Source: libinput
+Version: 1.26.2-1-maruska
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 909
+Depends: libinput-tools (= 1.26.2-1-maruska)
+Priority: optional
+Section: debug
+Filename: pool/main/libi/libinput/libinput-tools-dbgsym_1.26.2-1-maruska_amd64.deb
+Size: 703804
+SHA256: d608ab988145605a6d9612217562919ec8341c43120c63c17c79036cf5ebfadd
+SHA1: 8b45a0e7bdf5b7de7355031c459c1b08188293f4
+MD5sum: 04722f91f891cffbf3cade0436ace892
+Description: debug symbols for libinput-tools
+Build-Ids: 2baf248b22adf911e759887b2214ad8d49ebe315 6fce0aa36aa21d106a31e0a716a403533c1f16bf 96bd39287c6c80f9d2b8fe978d9e9099bcddc8db 99462b8ae530f80c3994256aa9f58b89aa12bf45 9d149654a3e7205e7d98bc3c4a0c1df24c2b2163 b8b69ab4537ab4746b1aa97dd92aa1bf19ad1b7c cce598252669791f0bd38802986fd95bb8d2626c d8140ec443e56092fa6802b3b53ef6d68c964ba9 da4321683e2d63734952cb7c7e0012d57a17bcae e2d1da08a91704dd2cd2d2c559a2f330778e52c1
+
+Package: libinput10
+Source: libinput
+Version: 1.26.2-1-maruska
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 396
+Depends: libc6 (>= 2.38), libevdev2 (>= 1.10.0), libmtdev1t64 (>= 1.1.0), libudev1 (>= 183), libwacom9 (>= 2.0.0), libinput-bin (>= 1.26.2-1-maruska)
+Multi-Arch: same
+Homepage: https://www.freedesktop.org/wiki/Software/libinput/
+Priority: optional
+Section: libs
+Filename: pool/main/libi/libinput/libinput10_1.26.2-1-maruska_amd64.deb
+Size: 131336
+SHA256: bb0f3a3571c151c5c78194df68f0981f1d36f06d47afc028f9cc1d96969e6296
+SHA1: cd744926d2c88e9ebbc2ac59ca3d3b3de3781b58
+MD5sum: a757b8d5cf8a05a98e37bc0a7a6edac1
+Description: input device management and event handling library - shared library
+ libinput is a library that handles input devices for display servers and
+ other applications that need to directly deal with input devices.
+ .
+ It provides device detection, device handling, input device event
+ processing and abstraction to minimize the amount of custom input
+ code the user of libinput needs to provide the common set of
+ functionality that users expect.
+ .
+ This package includes the shared library.
+
+Package: libinput10-dbgsym
+Source: libinput
+Version: 1.26.2-1-maruska
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 560
+Depends: libinput10 (= 1.26.2-1-maruska)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/libi/libinput/libinput10-dbgsym_1.26.2-1-maruska_amd64.deb
+Size: 493456
+SHA256: 0817d8087265d8092e230dbe8bc41c67926ef7220d3e7a506968e261a8c6f10b
+SHA1: c0f3cc84eee1641dcf4b5adfb94ed070a0169dd4
+MD5sum: 539fcd4c2b56ee5fdbd17b12701658c4
+Description: debug symbols for libinput10
+Build-Ids: 9a65f51cd88ee3003d4f38fe5cdfbd34fcd331c1
+
 Package: libpgtypes3
 Source: postgresql-16
 Version: 16.2-2+maruska
