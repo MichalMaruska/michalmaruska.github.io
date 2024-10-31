@@ -1385,18 +1385,18 @@ Description: interactive viewer for Graphviz dot files
 
 Package: xorg-server-source
 Source: xorg-server
-Version: 2:21.1.13-2-maruska
+Version: 2:21.1.14-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 106
 Homepage: https://www.x.org/
 Priority: optional
 Section: x11
-Filename: pool/main/x/xorg-server/xorg-server-source_21.1.13-2-maruska_all.deb
-Size: 16024
-SHA256: 1ec8bb7a776fea55de421b14309a35d959090587cfd05acf5160b4a90e93f0ef
-SHA1: c0925e10ba1a1ea663f79a4a2b2f239974a63c0d
-MD5sum: dd3136fdae278887127f619c5dab998c
+Filename: pool/main/x/xorg-server/xorg-server-source_21.1.14-1-maruska_all.deb
+Size: 16228
+SHA256: fec48ccb385a2771fa559545e88651dae8eb4fa2cd46ec68e931ddcc9f16d654
+SHA1: 282c379fc7e04f4f46f23f4e1f691dfaa4e77c50
+MD5sum: 5a5bdf05533a6b5db842d1a8626a9639
 Description: Xorg X server - source files
  This package provides original Debian (with Debian patches already
  applied, and autotools files updated) sources for the X.Org ('Xorg')
@@ -1409,7 +1409,7 @@ Description: Xorg X server - source files
 
 Package: xserver-common
 Source: xorg-server
-Version: 2:21.1.13-2-maruska
+Version: 2:21.1.14-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 149
@@ -1420,11 +1420,11 @@ Multi-Arch: foreign
 Homepage: https://www.x.org/
 Priority: optional
 Section: x11
-Filename: pool/main/x/xorg-server/xserver-common_21.1.13-2-maruska_all.deb
-Size: 31716
-SHA256: 202efc2b78e82b13b8304ec8f5ae3ebf5656261ab5dd86da6e48af1faf2fced9
-SHA1: 953f6ea6284f8c6db0e6007a8ff7cf2a0d08ffc5
-MD5sum: c4abc52b1cf9ce46974c5f83935968f7
+Filename: pool/main/x/xorg-server/xserver-common_21.1.14-1-maruska_all.deb
+Size: 31912
+SHA256: c124625ad63233c8d368b85c8b0cffb35d87b445506ec92d4b960035afd91e00
+SHA1: f23edd56830413dde93b93eb6f5b8155d8860cc8
+MD5sum: 5b2b519e6d656d18c9f527779f9596e4
 Description: common files used by various X servers
  This package provides files necessary for all X.Org based X servers.
 

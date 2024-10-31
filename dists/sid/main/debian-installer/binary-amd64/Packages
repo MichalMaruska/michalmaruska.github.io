@@ -34,19 +34,19 @@ Description: X11 client-side library
 
 Package: xserver-xorg-core-udeb
 Source: xorg-server
-Version: 2:21.1.13-2-maruska
+Version: 2:21.1.14-1-maruska
 Architecture: amd64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 2618
-Depends: xkb-data-udeb, x11-xkb-utils-udeb, udev-udeb (>= 149), libc6-udeb (>= 2.40), libdrm2-udeb (>= 2.4.89), libnettle8t64 (>= 3.10), libpciaccess0-udeb (>= 0.12.902), libpixman-1-0-udeb (>= 0.40.0), libudev1-udeb (>= 256.5), libxau6-udeb (>= 1:1.0.9), libxcvt0-udeb (>= 0.1.2), libxfont2-udeb (>= 1:2.0.1), libxshmfence1-udeb
+Depends: xkb-data-udeb, x11-xkb-utils-udeb, udev-udeb (>= 149), libc6-udeb (>= 2.40), libdrm2-udeb (>= 2.4.89), libnettle8t64 (>= 3.10), libpciaccess0-udeb (>= 0.12.902), libpixman-1-0-udeb (>= 0.40.0), libudev1-udeb (>= 256.7), libxau6-udeb (>= 1:1.0.9), libxcvt0-udeb (>= 0.1.2), libxfont2-udeb (>= 1:2.0.1), libxshmfence1-udeb
 Provides: xorg-input-abi-24, xorg-video-abi-25
 Priority: optional
 Section: debian-installer
-Filename: pool/main/x/xorg-server/xserver-xorg-core-udeb_21.1.13-2-maruska_amd64.udeb
-Size: 977496
-SHA256: 4a52a6389bb30369fbbb1918608b906072daa069cd741fe2beacb49cf16e0de6
-SHA1: 47190e5672fa9d47fb7e57f77f2002446893d5d0
-MD5sum: c2005ca0444ce569c5a22e2ca0cb0712
+Filename: pool/main/x/xorg-server/xserver-xorg-core-udeb_21.1.14-1-maruska_amd64.udeb
+Size: 976868
+SHA256: bc5ee5681ed35de85052c8688b498e7936bb57b6f1626cd32947e545e153634f
+SHA1: f5cd3838d95c439041e26766fb81f9e63a568ecc
+MD5sum: 7cfb63378bd183fdda8db22f3ff44ffd
 Description: Xorg X server - core server
  This is a udeb, or a microdeb, for the debian-installer.
 
