@@ -1741,6 +1741,75 @@ MD5sum: ce72633832f3dd4cc9a6af4aafe9ab1d
 Description: debug symbols for libpq5
 Build-Ids: d613a3279da8742208c588e901b1ea92fea4dddd
 
+Package: libweston-14-0
+Source: weston
+Version: 14.0.1-1-maruska
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 1472
+Depends: libaml0t64 (>= 0.3.0), libc6 (>= 2.38), libcairo2 (>= 1.10.0), libdisplay-info2 (>= 0.2.0), libdrm2 (>= 2.4.108), libegl1, libfontconfig1 (>= 2.12.6), libfreerdp-server3-3 (>= 3.0.0), libfreerdp3-3 (>= 3.0.0), libgbm1 (>= 21.3.0~rc1), libgles2, libglib2.0-0t64 (>= 2.12.0), libgstreamer-plugins-base1.0-0 (>= 1.2.0), libgstreamer1.0-0 (>= 1.4.0), libinput10 (>= 1.26.0), libjpeg62-turbo (>= 1:2.0.2), liblcms2-2 (>= 2.16), libneatvnc0 (>= 0.8.0+dfsg), libpam0g (>= 0.99.7.1), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.22.0), libpipewire-0.3-0t64 (>= 0.3.1), libpixman-1-0 (>= 0.30.0), libpng16-16t64 (>= 1.6.2), libseat1 (>= 0.5.0), libudev1 (>= 183), libva-drm2 (>= 1.1.0), libva2 (>= 1.7.3), libwayland-client0 (>= 1.22.0), libwayland-cursor0 (>= 1.22.0), libwayland-egl1 (>= 1.22.0), libwayland-server0 (>= 1.22.0), libwebp7 (>= 1.4.0), libwinpr3-3 (>= 3.0.0), libx11-6, libx11-xcb1, libxcb-composite0, libxcb-render0, libxcb-shm0, libxcb-xfixes0, libxcb-xkb1, libxcb1 (>= 1.8), libxcursor1 (>> 1.1.2), libxkbcommon0 (>= 0.5.0)
+Multi-Arch: same
+Homepage: https://wayland.pages.freedesktop.org/weston/
+Priority: optional
+Section: libs
+Filename: pool/main/w/weston/libweston-14-0_14.0.1-1-maruska_amd64.deb
+Size: 411656
+SHA256: 5d8ba66ac4bde3436a8427f430c69a2a7e209ff3374e8f1f50737487c2566efd
+SHA1: a32178400ac3c5dfe4b0974a362751f8dc057c99
+MD5sum: 3b07b41af32570ec31e64c9190a949f2
+Description: reference implementation of a wayland compositor (shared libs)
+ Part of the Wayland project is also the Weston reference implementation
+ of a Wayland compositor. Weston can run as an X client or under Linux
+ KMS and ships with a few demo clients. The Weston compositor is a minimal
+ and fast compositor and is suitable for many embedded and mobile use
+ cases.
+ .
+ This package includes the libweston shared libraries.
+
+Package: libweston-14-0-dbgsym
+Source: weston
+Version: 14.0.1-1-maruska
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 2060
+Depends: libweston-14-0 (= 14.0.1-1-maruska)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/w/weston/libweston-14-0-dbgsym_14.0.1-1-maruska_amd64.deb
+Size: 1792548
+SHA256: bd34ae4717b8efe6a6ad2abb3b46f804065ce55daa50f99632a51d772515d851
+SHA1: d8cb825b3562ba77f3135cf49837416aa5eac501
+MD5sum: 419efd9001c0b628b430dcf20e83a1bb
+Description: debug symbols for libweston-14-0
+Build-Ids: 00118a5b6e111df903c59a7ef65f344c80649390 00f7d2b2a09233b31b728a7bb9079affbc9f189f 0cd1f6dc544835e3c8b25d21b1aa2c962a7a2d1b 0fa9f83364f0dc73cdc5e1cce53e934a214af312 26fa0e485f1c00bf57def2ebb619d1e39bca337c 4486a3a310a1e0ca55cb3ba2d4cce546c6c84123 569cec7e03c5a8c091c013f966946f79d3d32968 5c87ed53e71701782ec0b0f5a6667007db346354 8fb223b9e119c4f8183d3808bb8c852588c83593 a9e37725cca1207dd394587f433dff16936bc1ac c461e86f171900620ff364d841bb805ab0e1af89 c77a573a0ce52e4eb322522f39e7083bc18a57dd f926350c4cb16c3537a1e1f74d35c59bf08e7e1b
+
+Package: libweston-14-dev
+Source: weston
+Version: 14.0.1-1-maruska
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 237
+Depends: libpixman-1-dev, libwayland-dev, libweston-14-0 (= 14.0.1-1-maruska), libxkbcommon-dev
+Multi-Arch: same
+Homepage: https://wayland.pages.freedesktop.org/weston/
+Priority: optional
+Section: libdevel
+Filename: pool/main/w/weston/libweston-14-dev_14.0.1-1-maruska_amd64.deb
+Size: 46004
+SHA256: c7a7da60bdf57642a5853fdc19c653d1c748c060929a55ce3442a07476a4cae5
+SHA1: 73f9ea0ee9762cbe7f6f8b43a55131a869a7070a
+MD5sum: a53f48ecf1636e79e364c32b5d14fef9
+Description: reference implementation of a wayland compositor (headers)
+ Part of the Wayland project is also the Weston reference implementation
+ of a Wayland compositor. Weston can run as an X client or under Linux
+ KMS and ships with a few demo clients. The Weston compositor is a minimal
+ and fast compositor and is suitable for many embedded and mobile use
+ cases.
+ .
+ This package includes the libweston headers.
+
 Package: libx11-6
 Source: libx11
 Version: 2:1.8.7-2-maruska
@@ -3348,6 +3417,73 @@ Description: sawfish lisp files
  It is not required for normal use of sawfish and not installing it will save
  space in small systems.
 Dgit: 62070677b0f810bff12d43aa6c269af0332e9597
+
+Package: weston
+Version: 14.0.1-1-maruska
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 4991
+Depends: libc6 (>= 2.38), libcairo2 (>= 1.10.0), libdrm2 (>= 2.4.108), libegl1, libevdev2 (>= 0.9.1), libfontconfig1 (>= 2.12.6), libgbm1 (>= 21.3.0~rc1), libgles2, libglib2.0-0t64 (>= 2.12.0), libinput10 (>= 1.4.0), libjpeg62-turbo (>= 1:2.0.2), libpango-1.0-0 (>= 1.22.0), libpangocairo-1.0-0 (>= 1.22.0), libpixman-1-0 (>= 0.30.0), libpng16-16t64 (>= 1.6.2), libsystemd0, libudev1 (>= 183), libwayland-client0 (>= 1.22.0), libwayland-cursor0 (>= 1.22.0), libwayland-egl1 (>= 1.22.0), libwayland-server0 (>= 1.22.0), libwebp7 (>= 1.4.0), libweston-14-0 (>= 14.0.0), libxkbcommon0 (>= 0.5.0)
+Recommends: libgl1-mesa-dri
+Suggests: wayland-utils
+Homepage: https://wayland.pages.freedesktop.org/weston/
+Priority: optional
+Section: x11
+Filename: pool/main/w/weston/weston_14.0.1-1-maruska_amd64.deb
+Size: 928020
+SHA256: c7d665beac57c9aed78103f04b8b04a7deadafe539e53d417f60b04ca7d66253
+SHA1: b8ec996468e0df19c0209f8917f05810bcf70107
+MD5sum: 9684d3852a1528194310abc3d96b2ac7
+Description: reference implementation of a wayland compositor
+ Part of the Wayland project is also the Weston reference implementation
+ of a Wayland compositor. Weston can run as an X client or under Linux
+ KMS and ships with a few demo clients. The Weston compositor is a minimal
+ and fast compositor and is suitable for many embedded and mobile use
+ cases.
+
+Package: weston-dbgsym
+Source: weston
+Version: 14.0.1-1-maruska
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 5776
+Depends: weston (= 14.0.1-1-maruska)
+Priority: optional
+Section: debug
+Filename: pool/main/w/weston/weston-dbgsym_14.0.1-1-maruska_amd64.deb
+Size: 4540980
+SHA256: a06902c944709dc63df3dc441b15cbaf1e2d95483c1be328282268d39bfc906a
+SHA1: b9757c713eda258d58cb875a0a4d60808d6ceb67
+MD5sum: cc7f66dc170a3193021c6d73d03e71ce
+Description: debug symbols for weston
+Build-Ids: 0bba1cac822fe67ba8b7283a04f93e715885cf6c 108be06234f3e39dd9032a456987f479a434d825 111f0cf988f18d67e9d865b0da0b010733e5c04e 1b156523f68bcb29c069c31bd668fbe78249df46 1c0e678a04f6f8410c676925f0856ec0c98d19c3 258f31c9283a25a00aaa0bb9aa856b14055b3d05 298ea0964db2189bbd0406f3d24dfc0e25c9ad8b 2a424114a14e9c2b2483aceb669aec84f50d70d4 2b290192542646a77eafca076c913b71e9e0b345 356bb80dff8f6725af8bac01316e53efe9e15c57 4300b68d293324388d15f2b80c56eb28283a56b6 469db6956e8f55a2d338b5ef3bee6db4399ff64a 5401d020619b2560f86c2ee48c75010d59da6b0e 594db207fc894bb42c158566c8197b8fa695a8af 6de9ac743baf6f368849a6fd5b8d9fcb2bf906c2 70c0d10c2ec5916c1b1bdb759032769d8cb76756 71f2f54ba036922640f7f2c450a87f0d752f8812 78b890b09bf0f09146d54b9db136de22604075f6 7a4c934df2a046e4e0138ff8f3dc83910deea54a 7dbba999c379f185cbb0f9e1060c9a1108398984 7deda6c7b14fa2d05aba388bc30e2284c6d92676 8a30ade52ba4d958542c9b29bc1e93def115d133 91b07eaa4e58a1931f952623314fad35c8099e3b 93b372a0367dafb652d0f3ea196a82c1077e25a9 97616778af11f7df9397204e3af64d4ff2d265eb a2048026d7e36eb5489de9e984cd419cbee17cab a66a4c968675f4cbc3a283e75b27d85a02913a25 a965c485b74373ed7188685da0fb6a0e42d14638 adc3d8c092e85c156c6dbd9c8b8453e25abeaf6a b3533d5ae9922bc83e117c66d65b7fe40bbdb392 b44dd9a46d11a9cdffb72abe8e393e136f61080e b521aff7943a9c21e5c333359f4dca0039353ba3 ba9acc58173e64258e7bd9c4da3c187f5b5ebdd6 bad43f26d15ab8b74bc1d8764fe0bd3cdaad0886 c41932b1af04c0d1ef2147c6a9251578abc2e564 ca23ef1f001a68a70ac2af92a82da11c881e0c27 ca2686770ffcb8e54327b52fb47449f8784bc443 caba390ff0f2960d14ad64ee1370b9ab913035e2 d42cc3fbe50df847b2af31e3db0db57f25c22a5b db3310bd91249805be72de7315b037389cd2dc7a e6d7730319cc2d5ccdd3de177ac9b014799ff358 eaa8e2c01e94c687c1913f601a54adc1fe48d7c0 eb670a4f0f06746dc56eded7fd7ae856a5f6517e fb648d5a88c05c78331d8fd22ac19d9736d47a01 fcf98b0ecf1354dba97d1ac0c6daf76f2bdba21e
+
+Package: weston-dev
+Source: weston
+Version: 14.0.1-1-maruska
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 65
+Depends: weston, libweston-14-dev
+Breaks: weston (<< 14.0.0-3)
+Replaces: weston (<< 14.0.0-3)
+Homepage: https://wayland.pages.freedesktop.org/weston/
+Priority: optional
+Section: x11
+Filename: pool/main/w/weston/weston-dev_14.0.1-1-maruska_amd64.deb
+Size: 16572
+SHA256: 0fe7f33e4c36376d2ec6017b65f5047f80c0f3a37d14c4c2c14b541b14ef594b
+SHA1: 9f170a08bc31be56d4381744bb23da52df3e4130
+MD5sum: 4634d92c23d93f3b9a33ab9ed2ca4123
+Description: reference implementation of a wayland compositor (headers)
+ Part of the Wayland project is also the Weston reference implementation
+ of a Wayland compositor. Weston can run as an X client or under Linux
+ KMS and ships with a few demo clients. The Weston compositor is a minimal
+ and fast compositor and is suitable for many embedded and mobile use
+ cases.
+ .
+ This package includes the weston headers for plugin development.
 
 Package: x11proto-core-dev
 Source: xorgproto
