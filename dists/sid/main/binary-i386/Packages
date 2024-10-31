@@ -1385,18 +1385,18 @@ Description: interactive viewer for Graphviz dot files
 
 Package: xorg-server-source
 Source: xorg-server
-Version: 2:21.1.14-1-maruska
+Version: 2:21.1.14-1-maruska2
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 106
 Homepage: https://www.x.org/
 Priority: optional
 Section: x11
-Filename: pool/main/x/xorg-server/xorg-server-source_21.1.14-1-maruska_all.deb
-Size: 16228
-SHA256: fec48ccb385a2771fa559545e88651dae8eb4fa2cd46ec68e931ddcc9f16d654
-SHA1: 282c379fc7e04f4f46f23f4e1f691dfaa4e77c50
-MD5sum: 5a5bdf05533a6b5db842d1a8626a9639
+Filename: pool/main/x/xorg-server/xorg-server-source_21.1.14-1-maruska2_all.deb
+Size: 16252
+SHA256: 160f8a63f2309476924e941764873943c1cc6cb68f2ba0bdfa0b0fbed4956fc7
+SHA1: 16d1fe04878df7a4b080429ce20d7054759004d1
+MD5sum: 2a4a6e7b6ce3036dddca179d3c52e9f0
 Description: Xorg X server - source files
  This package provides original Debian (with Debian patches already
  applied, and autotools files updated) sources for the X.Org ('Xorg')
@@ -1409,7 +1409,7 @@ Description: Xorg X server - source files
 
 Package: xserver-common
 Source: xorg-server
-Version: 2:21.1.14-1-maruska
+Version: 2:21.1.14-1-maruska2
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 149
@@ -1420,11 +1420,11 @@ Multi-Arch: foreign
 Homepage: https://www.x.org/
 Priority: optional
 Section: x11
-Filename: pool/main/x/xorg-server/xserver-common_21.1.14-1-maruska_all.deb
-Size: 31912
-SHA256: c124625ad63233c8d368b85c8b0cffb35d87b445506ec92d4b960035afd91e00
-SHA1: f23edd56830413dde93b93eb6f5b8155d8860cc8
-MD5sum: 5b2b519e6d656d18c9f527779f9596e4
+Filename: pool/main/x/xorg-server/xserver-common_21.1.14-1-maruska2_all.deb
+Size: 31964
+SHA256: 07c4e0af5545b903cfbf7a13083886208ace7d679c8367f85244e568164b475b
+SHA1: ffeb623776aaadcdc6f067797353a56bfd6cde60
+MD5sum: fed3d26010e5787703b20851996ac005
 Description: common files used by various X servers
  This package provides files necessary for all X.Org based X servers.
 
