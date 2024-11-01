@@ -180,39 +180,39 @@ Description: Build in nspawn containers
  to integrate into an automated package build workflow.
 
 Package: fork-plugin
-Version: 3.0.0
+Version: 3.0.1
 Architecture: amd64
 Maintainer: Michal Maruska <mmaruska@gmail.com>
 Installed-Size: 119
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libinput10 (>= 1.26.0), libstdc++6 (>= 5.2), xserver-xorg-core (>= 2:1.12.1.902-1maruska1)
 Priority: optional
 Section: x11
-Filename: pool/main/f/fork-plugin/fork-plugin_3.0.0_amd64.deb
-Size: 32484
-SHA256: c6f158756e6424486bd2f45fcdd0db79cdcffc04ffaa7eae1a195eea3afa82bd
-SHA1: 20b41dc8b7464d4e71f7040d83d49e119b8a4948
-MD5sum: db572fb67bfb68dc05bf8c18583ade90
+Filename: pool/main/f/fork-plugin/fork-plugin_3.0.1_amd64.deb
+Size: 32464
+SHA256: d6ca8303ebe148604d3b8b2be0716548f406095e171dc1d173fc5b9bf809c212
+SHA1: 34d815e1618120eedba255405c40fc21698181f5
+MD5sum: f5941d6e1de72398ba477ea7f1612641
 Description: A plugin for the input processing pipeline in Xorg server.
  Keys can be changed to other keycodes (reasonable only modifiers), when certain pattern is detected:
  parallelism, or the key is pressed for a long time, or mouse is moved.
 
 Package: fork-plugin-dbgsym
 Source: fork-plugin
-Version: 3.0.0
+Version: 3.0.1
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Michal Maruska <mmaruska@gmail.com>
 Installed-Size: 449
-Depends: fork-plugin (= 3.0.0)
+Depends: fork-plugin (= 3.0.1)
 Priority: optional
 Section: debug
-Filename: pool/main/f/fork-plugin/fork-plugin-dbgsym_3.0.0_amd64.deb
-Size: 422828
-SHA256: 751ac288c6b0286583fbd278d1e476c26f6dd3c5b38b41609df5c524091c45d6
-SHA1: 8244110323c05f45a42a9848245649f9896f2e44
-MD5sum: 048360299c3eb34bb643fc193299e009
+Filename: pool/main/f/fork-plugin/fork-plugin-dbgsym_3.0.1_amd64.deb
+Size: 423196
+SHA256: 4b18a1f03de53395ddeef4a4dc1ea96008e89ab1130579a2f1a0372577fe70de
+SHA1: 19db78d85ea631166e2f15e352e10eef758f0e45
+MD5sum: fb66f30785ec3bd52ecac5c8373cd672
 Description: debug symbols for fork-plugin
-Build-Ids: 9681f6cb98c18086a6d69068312c5618c84743ad bc5ca3b16822abadf287795637e85862e6583d83
+Build-Ids: bc5ca3b16822abadf287795637e85862e6583d83 f1982efc3bb852a5f3411f3c5912650a829c58cb
 
 Package: gauche
 Version: 0.9.14-maruska3-maruska
