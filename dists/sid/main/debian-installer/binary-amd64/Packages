@@ -17,18 +17,18 @@ Description: input device management and event handling library - shared library
 
 Package: libx11-6-udeb
 Source: libx11
-Version: 2:1.8.7-2-maruska
+Version: 2:1.8.10-1-maruska
 Architecture: amd64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 1349
-Depends: libc6-udeb (>= 2.37), libxcb1-udeb (>= 1.12)
+Installed-Size: 1365
+Depends: libc6-udeb (>= 2.40), libxcb1-udeb (>= 1.12)
 Priority: optional
 Section: debian-installer
-Filename: pool/main/libx/libx11/libx11-6-udeb_1.8.7-2-maruska_amd64.udeb
-Size: 573592
-SHA256: 00a39d374bee8bd70293da12e5b926f2128bc2d2d6831a46ac36f4d928969a28
-SHA1: c0d62fc062055b174a6bcc6260591e0256d18f32
-MD5sum: 2be590f26d3edf60e9ea8e0ba93d0649
+Filename: pool/main/libx/libx11/libx11-6-udeb_1.8.10-1-maruska_amd64.udeb
+Size: 577240
+SHA256: c73624e60a457cb242dcab53f578593e2ca67972fdf6dfb4feb5ed32b64ace8e
+SHA1: e580d5f2d8a9916abf2989ac13a88075218ff4a7
+MD5sum: 93f5b3369711e627892db7d1acf5d671
 Description: X11 client-side library
  This is a udeb, or a microdeb, for the debian-installer.
 

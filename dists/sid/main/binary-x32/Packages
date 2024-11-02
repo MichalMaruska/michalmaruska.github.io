@@ -569,18 +569,18 @@ Description: debhelper perl modules
 
 Package: libx11-data
 Source: libx11
-Version: 2:1.8.7-2-maruska
+Version: 2:1.8.10-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 1343
+Installed-Size: 1345
 Multi-Arch: foreign
 Priority: optional
 Section: x11
-Filename: pool/main/libx/libx11/libx11-data_1.8.7-2-maruska_all.deb
-Size: 106620
-SHA256: c95e15182e7000ab9401b470aee6422d834be42ccc1182196f71825e262f2c0a
-SHA1: bf4cc51a32fd0a2ae5e3f5a3ffbaffed296c4e95
-MD5sum: 902290cfbba5e6d7467a67c3ebe1858b
+Filename: pool/main/libx/libx11/libx11-data_1.8.10-1-maruska_all.deb
+Size: 106956
+SHA256: 4248f110c09677d12fa82056cbfcdcbc914cc55e699f54da5cf17aed4b2672a3
+SHA1: bac78409d124798cef45d84f4037a5d23d381944
+MD5sum: dcd26a9374b753fec1ef53e60d6ce768
 Description: X11 client-side library
  This package provides the locale data files for libx11.
  .
@@ -592,18 +592,18 @@ Description: X11 client-side library
 
 Package: libx11-doc
 Source: libx11
-Version: 2:1.8.7-2-maruska
+Version: 2:1.8.10-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 9911
+Installed-Size: 9914
 Multi-Arch: foreign
 Priority: optional
 Section: doc
-Filename: pool/main/libx/libx11/libx11-doc_1.8.7-2-maruska_all.deb
-Size: 1995268
-SHA256: 135805a5b58f03deb2dc3df3f028b0e6416f56fdf4da80dbd9290f06ff46664d
-SHA1: 6d18a2074497ab1a3071fe4ed65759268330ea50
-MD5sum: 1fd3a9b2c78eebdc2206da504e203e1c
+Filename: pool/main/libx/libx11/libx11-doc_1.8.10-1-maruska_all.deb
+Size: 1995356
+SHA256: e996f9da71a2cc56477f0d203544df9a0782389e780804d52df7be0b498bb661
+SHA1: 3224b036326ab4265e74476ae22ac2c4915a268f
+MD5sum: 750315a2652000e5484871953fe351de
 Description: X11 client-side library (development documentation)
  This package provides a client interface to the X Window System, otherwise
  known as 'Xlib'.  It provides a complete API for the basic functions of the
