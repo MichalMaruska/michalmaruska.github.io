@@ -5,7 +5,7 @@ Origin: maruska
 Suite: release
 Codename: release
 Version: 20.3
-Date: Mon, 28 Oct 2024 13:12:05 UTC
+Date: Thu, 21 Nov 2024 17:32:32 UTC
 Architectures: amd64 i386 armhf x32
 Components: main
 Description: Development Snapshots from my sources in Git.
@@ -59,15 +59,15 @@ SHA256:
  babb58e2d211d70d907a75eedae33c31b341ae8ac9332866e37650ac523b07f7 143 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCAAdFiEEj5ld3379Nuk8fyGZPAkJW65/ICgFAmcfjaUACgkQPAkJW65/
-ICjJ6gv/XO5lDc1rlpJX9kKCuYW8ZDn+/Jwyo6V9rIOgPrLlU/3GgWb4oa0c7D++
-JoMLfLd56wjQRrLFPv/b2RLgMdNzAu3WwSfb33Xk/z//WTScTkDYNZ2GkT3dKfpi
-IFTTls3sC3WxDEjrs5ewkggNybsyEw5QUFKUHvBmenHiijQXB9IdH3NuCGGwjpif
-cpZO/keYvtiq3XrVl+HnYpefvqCqgywTDcJIgpFk/NfFs8Se0+L7VVLvj0t4TA2U
-U6XWNNYGXBFpVwMobLwT/F9r9WagYnOKKMDQLnSAECzZeYIy/IGiuC28DDlXHUIf
-LK/eGadLVrwstJ53B74Le/S3SF8VXJVudUiCxbiPmHC53hetqxEYu/YtXQuX1SAM
-Wszw7r7KxP/Xz8xJ2jwQUUGU/v4zbKIDVO+jiLScGXGVRwwksQ8ZUg6I5ZE8Zyog
-v9N+8q2gIiAkPn3dOvYn3Yl1bnKNnC7QyXYSCUciWEjZ/PKZMnX11WmVSQq/t394
-ngPq2/VV
-=XT4M
+iQGzBAEBCAAdFiEEj5ld3379Nuk8fyGZPAkJW65/ICgFAmc/brAACgkQPAkJW65/
+ICiwEwv/Vo6k+mLgMJU24HKVHEjlyF+luKuexUMvf98mKaNQEoyQbwsFlzxigi4R
+5WEseIGc7MpmNQNrcUxri5GyQLx9zmzxd19yYs7OaZRNSmbyhZ+ewHLNTcrslz6D
+98gEhbDHgm6H+joydLcwFkPRDipu1Ej44/OzM70AAecRmqFktW0CcxumOZF1GzN9
+It0l7mj8xwe7hp1j0ow69upyJeNbrIb8zQK1QgOt7kDMha/xUh+lA3nBy/UCMR6n
+hlVf0FLJM3zuBDFGNMsBf0+VJCdrGiBjpGFrWzFTFVya9jv69zAmEXAmF1u4Ni5c
+81LHIuYdtxyhvQFc4q8VcZ8wYtD7vhyEYcBPx+Qx8HglKq49OQrcDtOHba2wkuKu
+yUpetjmNHStAJJdsG2mXTpYp9XfaZr1ZDsZGi/SX1Bs57jD7xLWsM+okh68WfkQd
+pwyypDSt9Z8KPM1P75n8K6TTUY64Cgj4WLKCLZtfoyjPY9vPOPgwMQk48WX+XpIJ
+EShWKUP7
+=90d9
 -----END PGP SIGNATURE-----
