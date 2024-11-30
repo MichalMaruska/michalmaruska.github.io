@@ -1,36 +1,36 @@
 Package: apt-doc
 Source: apt
-Version: 2.9.15-maruska
+Version: 2.9.16-maruska
 Architecture: all
 Maintainer: APT Development Team <deity@lists.debian.org>
-Installed-Size: 808
+Installed-Size: 809
 Multi-Arch: foreign
 Priority: optional
 Section: doc
-Filename: pool/main/a/apt/apt-doc_2.9.15-maruska_all.deb
-Size: 261900
-SHA256: e6a47e42558bc19ee0e51e8523115cbcb0d34bbceb6486440c73a0716a955071
-SHA1: eef1a0168683959a92c49088c251447a092de3c2
-MD5sum: 8210a512ed87901d83439aa75cc6aebf
+Filename: pool/main/a/apt/apt-doc_2.9.16-maruska_all.deb
+Size: 262076
+SHA256: a43aa2840852f778dcb3eff3748f690a9e66a4407e8c962debe90e237c3be8a0
+SHA1: 867577f0c1730622693fc0a835d4d4a9a8591dfa
+MD5sum: 625c406c9db238f1430b4419281dea6e
 Description: documentation for APT
  This package contains the user guide and offline guide for various
  APT tools which are provided in a html and a text-only version.
 
 Package: apt-transport-https
 Source: apt
-Version: 2.9.15-maruska
+Version: 2.9.16-maruska
 Architecture: all
 Maintainer: APT Development Team <deity@lists.debian.org>
-Installed-Size: 41
+Installed-Size: 42
 Depends: apt (>= 1.5~alpha4)
 Multi-Arch: foreign
 Priority: optional
 Section: oldlibs
-Filename: pool/main/a/apt/apt-transport-https_2.9.15-maruska_all.deb
-Size: 31852
-SHA256: 8ada77250a8d81d52440dabe320ad099e5a1b93376b20f09df80d20098f7fd4c
-SHA1: c3327e324181b3b997a56c018c93895f9f2749c6
-MD5sum: 708cb9ca4e8d08f5a7ab0ee2775bfbac
+Filename: pool/main/a/apt/apt-transport-https_2.9.16-maruska_all.deb
+Size: 31960
+SHA256: 022d4aa308414cbb7d6e2c6819ba19f4b0eda432a35f14e7a79a1d86d71eb964
+SHA1: b44247900eb29977dfe297420d6e35c2003b8d11
+MD5sum: 603063abfeeddb1e59ceb8a28a9f5fc6
 Description: transitional package for https support
  This is a dummy transitional package - https support has been moved into
  the apt package in 1.5. It can be safely removed.
@@ -525,18 +525,18 @@ Description: fast, scalable, distributed revision control system (web interface)
 
 Package: libapt-pkg-doc
 Source: apt
-Version: 2.9.15-maruska
+Version: 2.9.16-maruska
 Architecture: all
 Maintainer: APT Development Team <deity@lists.debian.org>
-Installed-Size: 18601
+Installed-Size: 18602
 Multi-Arch: foreign
 Priority: optional
 Section: doc
-Filename: pool/main/a/apt/libapt-pkg-doc_2.9.15-maruska_all.deb
-Size: 957820
-SHA256: f02c60ca6a2e4d353ac0557e20016b4f2b62c21af0407ba18cc106e520bc23cd
-SHA1: b8f4b17e071d4e7f6b5f47c2db22407baeab8115
-MD5sum: ca013cd5e6a5800d830b67b566ab9aa7
+Filename: pool/main/a/apt/libapt-pkg-doc_2.9.16-maruska_all.deb
+Size: 957828
+SHA256: 97c8054bc2761f1546b24bedfcab6a337b84170e0ae0cd8f9b224444698ca05e
+SHA1: 948a587a16d401980e8499cda4c5b7bbb8f3ce85
+MD5sum: c2b130549a2b8101076b569074ae16cc
 Description: documentation for APT development
  This package contains documentation for development of the APT
  Debian package manipulation program and its libraries.
