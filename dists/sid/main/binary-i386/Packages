@@ -102,20 +102,20 @@ Description: code specific to the "agenzia matrimoniale Maruska"
 
 Package: gauche-doc
 Source: gauche
-Version: 0.9.14-maruska3-maruska
+Version: 0.9.15-p2-maruska
 Architecture: all
 Maintainer: Debian Gauche Maintainers <pkg-gauche-devel@lists.alioth.debian.org>
-Installed-Size: 2471
+Installed-Size: 2541
 Conflicts: gauche-doc (<< 0.9.4~pre3maruska1)
 Provides: gauche-doc
 Homepage: http://practical-scheme.net/gauche/
 Priority: optional
 Section: doc
-Filename: pool/main/g/gauche/gauche-doc_0.9.14-maruska3-maruska_all.deb
-Size: 2519308
-SHA256: ef4663fe984374f5fd6371c185293340b5e8921b92841ea1e55c9b552e291eda
-SHA1: ab833db89af2dbfd1d4885cedaffec6705c49b07
-MD5sum: 0ce314a63ed288f164fa3ea5cb01c1df
+Filename: pool/main/g/gauche/gauche-doc_0.9.15-p2-maruska_all.deb
+Size: 2590740
+SHA256: a66c5f4a219aa3b64603c4ac52ee0d99453bcef11965d56ce13408ab22b5125e
+SHA1: ad59d82ace6780c11c0c192895d6b9656f24f48e
+MD5sum: c522c546ca6cc616a79c756917f1fd45
 Description: Reference manual of Gauche
  Gauche is a Scheme implementation developed to be a handy script
  interpreter, which allows programmers and system administrators to
