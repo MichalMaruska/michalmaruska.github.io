@@ -916,20 +916,20 @@ MD5sum: 8f8e80856a1f2cca786838551e53681e
 Description: mmc's elisp, handy for "development", programming
 
 Package: mmc-shell
-Version: 3.64
+Version: 3.65
 Architecture: all
 Maintainer: Michal Maruska <mmaruska@gmail.com>
-Installed-Size: 214
+Installed-Size: 215
 Depends: zsh, gawk, git, mp3info, mpg123
 Recommends: gst123, systemd-container, alsa-utils, tdb-tools
 Conflicts: tt-tools (<< 1.13)
 Priority: extra
 Section: misc
-Filename: pool/main/m/mmc-shell/mmc-shell_3.64_all.deb
-Size: 53716
-SHA256: b3cd6379b68d1990a579697d7b9f4296eca8cf427332e54a49646b7264057636
-SHA1: 7a5f6027da0e7e381b77083b24080019ae2d3739
-MD5sum: 6276724f32968f03555030f4c7558fbc
+Filename: pool/main/m/mmc-shell/mmc-shell_3.65_all.deb
+Size: 54044
+SHA256: ff27972e8352b4b344e50bdb4188435a87fa01af5bef84a297f589dd6b39ee81
+SHA1: 2ad921fc630f284a934ca65aced2e7119eaa8f6a
+MD5sum: 4e1c83c09200255d0daf3b8f59be3aa5
 Description: collection of shell scripts
 
 Package: postgresql-doc-15
