@@ -2392,7 +2392,7 @@ MD5sum: 8f8e80856a1f2cca786838551e53681e
 Description: mmc's elisp, handy for "development", programming
 
 Package: mmc-shell
-Version: 3.65
+Version: 3.66
 Architecture: all
 Maintainer: Michal Maruska <mmaruska@gmail.com>
 Installed-Size: 215
@@ -2401,11 +2401,11 @@ Recommends: gst123, systemd-container, alsa-utils, tdb-tools
 Conflicts: tt-tools (<< 1.13)
 Priority: extra
 Section: misc
-Filename: pool/main/m/mmc-shell/mmc-shell_3.65_all.deb
-Size: 54044
-SHA256: ff27972e8352b4b344e50bdb4188435a87fa01af5bef84a297f589dd6b39ee81
-SHA1: 2ad921fc630f284a934ca65aced2e7119eaa8f6a
-MD5sum: 4e1c83c09200255d0daf3b8f59be3aa5
+Filename: pool/main/m/mmc-shell/mmc-shell_3.66_all.deb
+Size: 54052
+SHA256: c0364bb4ad5625594ca13b924531085c7a0ad52dd7b3484ea8ccc4ba805f7e4d
+SHA1: 9e17fae88484ed916cec0869bbf506025a07be22
+MD5sum: 2c69d3cada7a09bd0c97248f2a844c22
 Description: collection of shell scripts
 
 Package: pg-15-char-in-set
