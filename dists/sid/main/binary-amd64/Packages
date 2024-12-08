@@ -1,22 +1,22 @@
 Package: apt
-Version: 2.9.16-maruska
+Version: 2.9.17-maruska
 Architecture: amd64
 Maintainer: APT Development Team <deity@lists.debian.org>
-Installed-Size: 4226
-Depends: base-passwd (>= 3.6.1) | adduser, gpgv, libapt-pkg6.0t64 (>= 2.9.16-maruska), debian-archive-keyring, libc6 (>= 2.38), libgcc-s1 (>= 3.0), libgnutls30t64 (>= 3.8.1), libseccomp2 (>= 2.4.2), libstdc++6 (>= 13.1), libsystemd0
+Installed-Size: 4162
+Depends: base-passwd (>= 3.6.1) | adduser, gpgv, libapt-pkg6.0t64 (>= 2.9.17-maruska), debian-archive-keyring, libc6 (>= 2.38), libgcc-s1 (>= 3.0), libgnutls30t64 (>= 3.8.1), libseccomp2 (>= 2.4.2), libstdc++6 (>= 13.1), libsystemd0
 Recommends: ca-certificates
 Suggests: apt-doc, aptitude | synaptic | wajig, dpkg-dev (>= 1.17.2), gnupg | gnupg2 | gnupg1, powermgmt-base
 Conflicts: apt-verify, libnettle8 (<< 3.9.1-2.2~)
 Breaks: apt-transport-https (<< 1.5~alpha4~), apt-utils (<< 1.3~exp2~), aptitude (<< 0.8.10)
 Replaces: apt-transport-https (<< 1.5~alpha4~), apt-utils (<< 1.3~exp2~)
-Provides: apt-transport-https (= 2.9.16-maruska)
+Provides: apt-transport-https (= 2.9.17-maruska)
 Priority: required
 Section: admin
-Filename: pool/main/a/apt/apt_2.9.16-maruska_amd64.deb
-Size: 1400192
-SHA256: a280e96a71792df47e3678c174af22961eebc9389ddaa5d9087fa6e580743a2a
-SHA1: 7e5e39608f1a8fbd6aeb1c2f48373351ca74180b
-MD5sum: ee03744d57aceee76e83bdd70a34befe
+Filename: pool/main/a/apt/apt_2.9.17-maruska_amd64.deb
+Size: 1371184
+SHA256: b0dc4e12732a4c7676614144b4f5e2f71df9449091f55556fb3956c33b6980f6
+SHA1: a45e2e34f80bd5241db362cf7d4931e335a6eaf7
+MD5sum: 4696330bde21cd3d538df75e7939348a
 Description: commandline package manager
  This package provides commandline tools for searching and
  managing as well as querying information about packages
@@ -34,43 +34,43 @@ Description: commandline package manager
 
 Package: apt-dbgsym
 Source: apt
-Version: 2.9.16-maruska
+Version: 2.9.17-maruska
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: APT Development Team <deity@lists.debian.org>
 Installed-Size: 8435
-Depends: apt (= 2.9.16-maruska)
+Depends: apt (= 2.9.17-maruska)
 Priority: optional
 Section: debug
-Filename: pool/main/a/apt/apt-dbgsym_2.9.16-maruska_amd64.deb
-Size: 8011844
-SHA256: 65a378e851a450e9997cc0eecf080d443e54a2e6bb2d153f9f70e16865c29e67
-SHA1: d809a8186d7a9d981ff2e774a69c05333096c196
-MD5sum: 02d655253a234695e6a7361a8741c0dd
+Filename: pool/main/a/apt/apt-dbgsym_2.9.17-maruska_amd64.deb
+Size: 8010908
+SHA256: 713d0abfd831fac75a098be4a345326b80d4d555d8fffda2dd4194660b18c9ce
+SHA1: 4ea5b01dd2a28e2242b1cc6807eedefe92d8965d
+MD5sum: ccea48188a726a3235058184325db8c1
 Description: debug symbols for apt
-Build-Ids: 098fce5abb5b889803de90d9ff56dbf6807e37be 1d2acb762fd9e9dc94869f76320a3c8db965f668 3caa2a646250f7eb02a1a9b9138b6308b29ade1f 480aa7990901eb85c86d56bd53798d7e49688824 4beb5eab1486bfeadd150f94ee7477aa5bd5cc31 648e0c4ec1d79785611d3f6c9fd03289c03be003 73db69fc01140608267a96284ae7961d820dc18e 7c6c4bc520ed39b894220c035b7ed37d8e101ffa 83402732d876cf4e889c91f5664deae4aefd9f93 9435ebd5970b7a2bfbe1446d1578d3707f11a45e a6cb7176b4999ec73b3847dc498b7a5299a35a19 abfa9e5b7a0125046cf2eb7c7623792b3704ea78 c81db1653ded2215c513c77b25afdcb6bdad2b76 c82f35a422a70251582c303d566866d950404b23 da2839b425e4d53dd914cd521b737475cd8cfffa dfb1d7cd1082b9d88e720eb2047b9f31ca3c291b e76e8362c10fa01a1acb43ea4074892608168681 fe4a2c8c6c492eb946923693223de2f0f392817c
+Build-Ids: 098fce5abb5b889803de90d9ff56dbf6807e37be 0bac363606329ec64c8d65455caf4ac7093eb7ea 1d2acb762fd9e9dc94869f76320a3c8db965f668 480aa7990901eb85c86d56bd53798d7e49688824 4beb5eab1486bfeadd150f94ee7477aa5bd5cc31 5a3ad7d5716ab63dbcffcce5947aa906f98864f4 648e0c4ec1d79785611d3f6c9fd03289c03be003 72482d6982435c257f6dba6a75858850f3a24b16 73db69fc01140608267a96284ae7961d820dc18e 9435ebd5970b7a2bfbe1446d1578d3707f11a45e a6cb7176b4999ec73b3847dc498b7a5299a35a19 abfa9e5b7a0125046cf2eb7c7623792b3704ea78 c81db1653ded2215c513c77b25afdcb6bdad2b76 c82f35a422a70251582c303d566866d950404b23 da2839b425e4d53dd914cd521b737475cd8cfffa dfb1d7cd1082b9d88e720eb2047b9f31ca3c291b e76e8362c10fa01a1acb43ea4074892608168681 fe4a2c8c6c492eb946923693223de2f0f392817c
 
 Package: apt-doc
 Source: apt
-Version: 2.9.16-maruska
+Version: 2.9.17-maruska
 Architecture: all
 Maintainer: APT Development Team <deity@lists.debian.org>
 Installed-Size: 809
 Multi-Arch: foreign
 Priority: optional
 Section: doc
-Filename: pool/main/a/apt/apt-doc_2.9.16-maruska_all.deb
-Size: 262076
-SHA256: a43aa2840852f778dcb3eff3748f690a9e66a4407e8c962debe90e237c3be8a0
-SHA1: 867577f0c1730622693fc0a835d4d4a9a8591dfa
-MD5sum: 625c406c9db238f1430b4419281dea6e
+Filename: pool/main/a/apt/apt-doc_2.9.17-maruska_all.deb
+Size: 262312
+SHA256: fa64d53d8cdc45af60551eb8195fa5aeab0f131e3da9c438b9ce2cba9b3a66c2
+SHA1: 447c9eca2d7995a9f553d819ddfca771dca4e0cf
+MD5sum: 4a9fd6c5fa8aee12fc11831058009199
 Description: documentation for APT
  This package contains the user guide and offline guide for various
  APT tools which are provided in a html and a text-only version.
 
 Package: apt-transport-https
 Source: apt
-Version: 2.9.16-maruska
+Version: 2.9.17-maruska
 Architecture: all
 Maintainer: APT Development Team <deity@lists.debian.org>
 Installed-Size: 42
@@ -78,29 +78,29 @@ Depends: apt (>= 1.5~alpha4)
 Multi-Arch: foreign
 Priority: optional
 Section: oldlibs
-Filename: pool/main/a/apt/apt-transport-https_2.9.16-maruska_all.deb
-Size: 31960
-SHA256: 022d4aa308414cbb7d6e2c6819ba19f4b0eda432a35f14e7a79a1d86d71eb964
-SHA1: b44247900eb29977dfe297420d6e35c2003b8d11
-MD5sum: 603063abfeeddb1e59ceb8a28a9f5fc6
+Filename: pool/main/a/apt/apt-transport-https_2.9.17-maruska_all.deb
+Size: 32172
+SHA256: 9357ab4a5e28c06044a279fc689130a054b40a7979981da0480e96e4e562bc52
+SHA1: 26fcb72fdcefce6fc69e57919fe9e98a6e20b175
+MD5sum: 822f90ee3653832b918ee5a4caf801ca
 Description: transitional package for https support
  This is a dummy transitional package - https support has been moved into
  the apt package in 1.5. It can be safely removed.
 
 Package: apt-utils
 Source: apt
-Version: 2.9.16-maruska
+Version: 2.9.17-maruska
 Architecture: amd64
 Maintainer: APT Development Team <deity@lists.debian.org>
 Installed-Size: 1072
-Depends: apt (= 2.9.16-maruska), libapt-pkg6.0t64 (>= 2.9.16-maruska), libc6 (>= 2.34), libdb5.3t64, libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
+Depends: apt (= 2.9.17-maruska), libapt-pkg6.0t64 (>= 2.9.17-maruska), libc6 (>= 2.34), libdb5.3t64, libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
 Priority: required
 Section: admin
-Filename: pool/main/a/apt/apt-utils_2.9.16-maruska_amd64.deb
-Size: 327728
-SHA256: 90b92704abcd264d244043beeee9b48c6cf3231850e24220f0865cdb7cdef38f
-SHA1: 0019034fb02bfcb62bf890d9da7d9f9c2deb2000
-MD5sum: 2b57f0fdceabb1094c3d839c04dcf0d6
+Filename: pool/main/a/apt/apt-utils_2.9.17-maruska_amd64.deb
+Size: 328024
+SHA256: c9dc4ae240a40a9c5fb8a4c966763a7e1ab78aac965d12d76f3943bc2586acb5
+SHA1: 4a24c458b89b935e7f54b5aa9ea1058712c428d9
+MD5sum: 7310f556b5a7b84acc94d88b4d586516
 Description: package management related utility programs
  This package contains some less used commandline utilities related
  to package management with APT.
@@ -113,19 +113,19 @@ Description: package management related utility programs
 
 Package: apt-utils-dbgsym
 Source: apt
-Version: 2.9.16-maruska
+Version: 2.9.17-maruska
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: APT Development Team <deity@lists.debian.org>
 Installed-Size: 1865
-Depends: apt-utils (= 2.9.16-maruska)
+Depends: apt-utils (= 2.9.17-maruska)
 Priority: optional
 Section: debug
-Filename: pool/main/a/apt/apt-utils-dbgsym_2.9.16-maruska_amd64.deb
-Size: 1754588
-SHA256: 6309d74508b2b8966a81f3eb9f4878f57ea80d06a386f993b8f369ce6fbfca20
-SHA1: 68a4cae6914a58608c83e496879957b759b6d18d
-MD5sum: 18c0d0c8c4a34c5f533edfdc580ea46a
+Filename: pool/main/a/apt/apt-utils-dbgsym_2.9.17-maruska_amd64.deb
+Size: 1754560
+SHA256: 5c9081659e40a84ced3f3dac6e93bd580bf93c054b4e633f83bd11cff6061a2c
+SHA1: 7d3c0bb5e34ae678e3e87e07d546bc8678562b8b
+MD5sum: b4d8c4950eb92a520d61966b79b9e43b
 Description: debug symbols for apt-utils
 Build-Ids: 01f86a8305828c4329f892cda3bf0ecd7b71adb2 0befb9fbdc8a216fd5c950099b32acc8c2012c92 59725eda8325adaea00dff462ae66829324ae53e c5c3366486111087556dc525ea5e20b721c81945
 
@@ -1095,19 +1095,19 @@ Build-Ids: 8b9c1738620dd8296ee1610ee790595bbef680a8
 
 Package: libapt-pkg-dev
 Source: apt
-Version: 2.9.16-maruska
+Version: 2.9.17-maruska
 Architecture: amd64
 Maintainer: APT Development Team <deity@lists.debian.org>
 Installed-Size: 541
-Depends: libapt-pkg (= 2.9.16-maruska)
+Depends: libapt-pkg (= 2.9.17-maruska)
 Multi-Arch: same
 Priority: optional
 Section: libdevel
-Filename: pool/main/a/apt/libapt-pkg-dev_2.9.16-maruska_amd64.deb
-Size: 127460
-SHA256: 6ca10c6ba37c1bf6f7242765bf467c75f626c0d3e5747662403b8bbe1258596b
-SHA1: f8a6f8811a5ebcd76cb481543937de61d4ddd81a
-MD5sum: 499fdc51d0055f492687d209a8ede82b
+Filename: pool/main/a/apt/libapt-pkg-dev_2.9.17-maruska_amd64.deb
+Size: 127668
+SHA256: ab109e9253d3efe60131c9cfad2fa7b16e8a5ee7b8bba5950f86165bb846c422
+SHA1: 14b795e6721e3e5e3a533c2fbaa8ffb46a448fff
+MD5sum: 2d3d6f47ea185eff81f9062ca1079776
 Description: development files for APT's libapt-pkg and libapt-inst
  This package contains the header files and libraries for
  developing with APT's libapt-pkg Debian package manipulation
@@ -1115,18 +1115,18 @@ Description: development files for APT's libapt-pkg and libapt-inst
 
 Package: libapt-pkg-doc
 Source: apt
-Version: 2.9.16-maruska
+Version: 2.9.17-maruska
 Architecture: all
 Maintainer: APT Development Team <deity@lists.debian.org>
-Installed-Size: 18602
+Installed-Size: 18601
 Multi-Arch: foreign
 Priority: optional
 Section: doc
-Filename: pool/main/a/apt/libapt-pkg-doc_2.9.16-maruska_all.deb
-Size: 957828
-SHA256: 97c8054bc2761f1546b24bedfcab6a337b84170e0ae0cd8f9b224444698ca05e
-SHA1: 948a587a16d401980e8499cda4c5b7bbb8f3ce85
-MD5sum: c2b130549a2b8101076b569074ae16cc
+Filename: pool/main/a/apt/libapt-pkg-doc_2.9.17-maruska_all.deb
+Size: 958392
+SHA256: aacb1157af212e796c811bb6929e6d3f5fef40e3f4b21a9eafa3a758ad43c8be
+SHA1: 33df97e9ee0e118ff74c1073b38e7fb9f143f9d5
+MD5sum: 1e8b774706152da66a09c7099b39af39
 Description: documentation for APT development
  This package contains documentation for development of the APT
  Debian package manipulation program and its libraries.
@@ -1189,24 +1189,24 @@ Build-Ids: aae15c69e9b8a4d249fa465ea3470ee5408b9573
 
 Package: libapt-pkg6.0t64
 Source: apt
-Version: 2.9.16-maruska
+Version: 2.9.17-maruska
 Architecture: amd64
 Maintainer: APT Development Team <deity@lists.debian.org>
-Installed-Size: 3903
+Installed-Size: 3899
 Depends: libbz2-1.0, libc6 (>= 2.38), libgcc-s1 (>= 3.0), libgcrypt20 (>= 1.11.0), liblz4-1 (>= 0.0~r127), liblzma5 (>= 5.1.1alpha+20120614), libstdc++6 (>= 14), libsystemd0 (>= 221), libudev1 (>= 183), libxxhash0 (>= 0.7.1), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.2.3)
-Recommends: apt (>= 2.9.16-maruska)
+Recommends: apt (>= 2.9.17-maruska)
 Conflicts: libnettle8 (<< 3.9.1-2.2~)
-Breaks: appstream (<< 0.9.0-3~), apt (<< 1.6~), aptitude (<< 0.8.9), dpkg (<< 1.20.8), libapt-inst1.5 (<< 0.9.9~), libapt-pkg6.0 (<< 2.9.16-maruska)
+Breaks: appstream (<< 0.9.0-3~), apt (<< 1.6~), aptitude (<< 0.8.9), dpkg (<< 1.20.8), libapt-inst1.5 (<< 0.9.9~), libapt-pkg6.0 (<< 2.9.17-maruska)
 Replaces: libapt-pkg6.0
-Provides: libapt-pkg (= 2.9.16-maruska), libapt-pkg6.0 (= 2.9.16-maruska)
+Provides: libapt-pkg (= 2.9.17-maruska), libapt-pkg6.0 (= 2.9.17-maruska)
 Multi-Arch: same
 Priority: optional
 Section: libs
-Filename: pool/main/a/apt/libapt-pkg6.0t64_2.9.16-maruska_amd64.deb
-Size: 1114300
-SHA256: ee1559305c0f41fcbdd8631e78d19426dd2e3e013747db24202da1a2587a172a
-SHA1: 2a785a6ecdbf7f98248067269c1e6ff0024d76aa
-MD5sum: e442166476bd082b972787c8fa9a54bf
+Filename: pool/main/a/apt/libapt-pkg6.0t64_2.9.17-maruska_amd64.deb
+Size: 1112536
+SHA256: 9a502ead90d94677f1519ec38e8346c41e649c389ec67577e69777c22ca8d0ff
+SHA1: db4fc129de75d0e3931c981c5d9615f7d06c296b
+MD5sum: f19af9ec6639d99e1da101f2ef92f845
 Description: package management runtime library
  This library provides the common functionality for searching and
  managing packages as well as information about packages.
@@ -1225,22 +1225,22 @@ Description: package management runtime library
 
 Package: libapt-pkg6.0t64-dbgsym
 Source: apt
-Version: 2.9.16-maruska
+Version: 2.9.17-maruska
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: APT Development Team <deity@lists.debian.org>
-Installed-Size: 12916
-Depends: libapt-pkg6.0t64 (= 2.9.16-maruska)
+Installed-Size: 12895
+Depends: libapt-pkg6.0t64 (= 2.9.17-maruska)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/a/apt/libapt-pkg6.0t64-dbgsym_2.9.16-maruska_amd64.deb
-Size: 12794276
-SHA256: 0189658e943c675b4bf2643c6971d2a048ebabdb571b2a86c8a5f5b31eaa233f
-SHA1: a96813223791135baeadb9ba432f9e8adea6eba6
-MD5sum: c69cc9a1ba7523a73389ab9749f4695e
+Filename: pool/main/a/apt/libapt-pkg6.0t64-dbgsym_2.9.17-maruska_amd64.deb
+Size: 12771772
+SHA256: 839703843ec9bb1e8e6119f916b8c95541046a175efa4f4eee7332497b3e274d
+SHA1: c95e9358adc42dae80372cf72d8b64c033720969
+MD5sum: 61255d72bd68c5aa15294c80de29bee1
 Description: debug symbols for libapt-pkg6.0t64
-Build-Ids: 595b5f355c314cd0a8b966a46a0089f693ca1d81
+Build-Ids: 543b5aa010342d96113bd40c6d1dcd520be0911f
 
 Package: libdebhelper-perl
 Source: debhelper
