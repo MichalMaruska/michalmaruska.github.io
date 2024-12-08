@@ -61,21 +61,21 @@ Description: helper programs for debian/rules
  as part of their build process.
 
 Package: debspawn
-Version: 0.6.4-maruska
+Version: 0.6.4-maruska1
 Architecture: all
 Maintainer: Matthias Klumpp <mak@debian.org>
 Installed-Size: 242
-Depends: debootstrap, systemd-container, zstd, python3-tomlkit (>= 0.8.0), python3:any
+Depends: debootstrap, systemd-container, zstd, python3:any
 Recommends: devscripts, dpkg-dev
 Suggests: build-essential, sudo
 Homepage: https://github.com/lkhq/debspawn
 Priority: optional
 Section: utils
-Filename: pool/main/d/debspawn/debspawn_0.6.4-maruska_all.deb
-Size: 59496
-SHA256: 1b1e933fb78ceffb64b0ce3979aa74f05b8011bfb4ebd97bd708795ac539e9a0
-SHA1: 20beb0d4d0bc4aecf2e5b5fab3cdf7cf51a29549
-MD5sum: 8bd41937714bd79e5fd726b886164b4f
+Filename: pool/main/d/debspawn/debspawn_0.6.4-maruska1_all.deb
+Size: 59468
+SHA256: c892b79fe70f885a227b2f15691de280e8c740ab30346a7f70ceb12b9c05ab26
+SHA1: 3a3216346ccef1f71494b7ee7fdf2176c8274ecf
+MD5sum: 590347239397058ba0de0cfbb1f0c26f
 Description: Build in nspawn containers
  Debspawn is a tool to build Debian packages in an isolated environment,
  using systemd-nspawn containers.
