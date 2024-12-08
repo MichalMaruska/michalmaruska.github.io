@@ -1496,10 +1496,10 @@ Description: XV Documentation in Postscript and HTML formats
 
 Package: zsh-common
 Source: zsh
-Version: 5.9-4-maruska
+Version: 5.9-8-maruska
 Architecture: all
 Maintainer: Debian Zsh Maintainers <pkg-zsh-devel@lists.alioth.debian.org>
-Installed-Size: 16427
+Installed-Size: 16426
 Recommends: zsh
 Suggests: zsh-doc
 Breaks: zsh-doc (<= 5.8-7~)
@@ -1508,11 +1508,11 @@ Multi-Arch: foreign
 Homepage: https://www.zsh.org/
 Priority: optional
 Section: shells
-Filename: pool/main/z/zsh/zsh-common_5.9-4-maruska_all.deb
-Size: 4148404
-SHA256: 880529c5748b2ccac19785d2a4a8923fefbd4b601cbff188edd4812226e00c81
-SHA1: c131c7e3556f8c07bd3aeb5c6ffb2725baee3b03
-MD5sum: 948a7184558cab960b5f677b3c99597d
+Filename: pool/main/z/zsh/zsh-common_5.9-8-maruska_all.deb
+Size: 4147172
+SHA256: 2937245bc359847f1fb334af72c5c5e038bfb71283291ba0120b4c22a0f9cebf
+SHA1: 3a2a8074aa24352e96d7439634e0c5ac424112db
+MD5sum: f426a9be0cbca0da85d35cb56f3fa4a8
 Description: architecture independent files for Zsh
  Zsh is a UNIX command interpreter (shell) usable as an
  interactive login shell and as a shell script command
@@ -1524,24 +1524,23 @@ Description: architecture independent files for Zsh
  .
  This package contains the common zsh files shared by all
  architectures.
-Dgit: 823e58ea8329b910b8f0d5f61540c484361b4b68
 
 Package: zsh-doc
 Source: zsh
-Version: 5.9-4-maruska
+Version: 5.9-8-maruska
 Architecture: all
 Maintainer: Debian Zsh Maintainers <pkg-zsh-devel@lists.alioth.debian.org>
-Installed-Size: 6076
-Depends: zsh-common (= 5.9-4-maruska)
+Installed-Size: 5943
+Depends: zsh-common (= 5.9-8-maruska)
 Multi-Arch: foreign
 Homepage: https://www.zsh.org/
 Priority: optional
 Section: doc
-Filename: pool/main/z/zsh/zsh-doc_5.9-4-maruska_all.deb
-Size: 2914856
-SHA256: 39719ecdd4b0508b5f33921954bf945f93ed522673c2a59156abdb5787734caa
-SHA1: 61f8c5e445403f71ca4afd0d258809d20ab4a6e0
-MD5sum: cd4687e39f220972f97e292997659cbc
+Filename: pool/main/z/zsh/zsh-doc_5.9-8-maruska_all.deb
+Size: 2725464
+SHA256: b535a25917a45b73cd6b15135a5aef70a6ebb3a5b397a84980402c17d67135a9
+SHA1: 2adec901e5f4a3db7677b46ca617bdf290ae7339
+MD5sum: 4282b9d7917a5abdb458572534944d30
 Description: zsh documentation - info/HTML format
  Zsh is a UNIX command interpreter (shell) usable as an
  interactive login shell and as a shell script command
@@ -1552,5 +1551,4 @@ Description: zsh documentation - info/HTML format
  host of other features.
  .
  This contains the documentation in GNU info and HTML formats.
-Dgit: 823e58ea8329b910b8f0d5f61540c484361b4b68
 
