@@ -3886,38 +3886,38 @@ Description: interactive viewer for Graphviz dot files
   * Highlights node/edge under mouse.
 
 Package: xkb-reset
-Version: 1.1.4
+Version: 1.1.5
 Architecture: amd64
 Maintainer: Michal Maruska <mmaruska@gmail.com>
 Installed-Size: 23
 Depends: libc6 (>= 2.34), libx11-6
 Priority: extra
 Section: x11
-Filename: pool/main/x/xkb-reset/xkb-reset_1.1.4_amd64.deb
-Size: 3032
-SHA256: 3b20edb72de2aaa360b383e7ce3664948f90577604a89ec49a0f9d121ac1edaa
-SHA1: 845b54b346d26ff30d5421846e43be27d52aa677
-MD5sum: a4db06721a94b8e25b9f3dae84714bba
+Filename: pool/main/x/xkb-reset/xkb-reset_1.1.5_amd64.deb
+Size: 3008
+SHA256: d886c51f49c0a736e864fff1b4adc130ca3bd9ba6909ba6fd0325972c2d30cf7
+SHA1: ba4f958a5a12d02a7a266f6781081ea08c4915e4
+MD5sum: 15ebba94d747daa046ffef6cfd1fe6e2
 Description: command to reset the X keyboard state (shift, group, mouse emulation)
-Dgit: afb3a5637d3987ad07150c4906604967e59ab654
+Dgit: 84dfee6baab95498fe086498ea47283ed0ddfa0d
 
 Package: xkb-reset-dbgsym
 Source: xkb-reset
-Version: 1.1.4
+Version: 1.1.5
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Michal Maruska <mmaruska@gmail.com>
-Installed-Size: 15
-Depends: xkb-reset (= 1.1.4)
+Installed-Size: 19
+Depends: xkb-reset (= 1.1.5)
 Priority: optional
 Section: debug
-Filename: pool/main/x/xkb-reset/xkb-reset-dbgsym_1.1.4_amd64.deb
-Size: 2240
-SHA256: e92a16a0e88da2e2bee3ea5e13e41347ee0b1c936e3673227c261e08e58666f1
-SHA1: 6c04557e2b3daa86b48b045edf5e008d3dcebdad
-MD5sum: 68f81ba86e47607877966e976931629d
+Filename: pool/main/x/xkb-reset/xkb-reset-dbgsym_1.1.5_amd64.deb
+Size: 2260
+SHA256: 193ba607391ecac66357db1ecb65e535b0752d13af48d0957cd380673b479bed
+SHA1: 2e2c60c1d81d2b312f5929efe3a1230b7ecdd5f9
+MD5sum: 1d0a4a33e11b1583603d3408bea5051c
 Description: debug symbols for xkb-reset
-Build-Ids: 7c47c27c67fbc36c6ae382cde62ac5d6c4379e23
+Build-Ids: 06b5bb28fb2dba066a8acbb1567062f0a96bca4b
 
 Package: xnest
 Source: xorg-server
