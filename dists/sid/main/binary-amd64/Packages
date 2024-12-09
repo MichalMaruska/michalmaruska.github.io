@@ -130,40 +130,41 @@ Description: debug symbols for apt-utils
 Build-Ids: 01f86a8305828c4329f892cda3bf0ecd7b71adb2 0befb9fbdc8a216fd5c950099b32acc8c2012c92 59725eda8325adaea00dff462ae66829324ae53e c5c3366486111087556dc525ea5e20b721c81945
 
 Package: colortail
-Version: 0.3.4-maruska
+Version: 0.3.4+maruska
 Architecture: amd64
 Maintainer: Elías Alejandro Año Mendoza <ealmdz@gmail.com>
-Installed-Size: 88
+Installed-Size: 87
 Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
 Homepage: http://joakimandersson.se/projects/colortail/
 Priority: optional
 Section: utils
-Filename: pool/main/c/colortail/colortail_0.3.4-maruska_amd64.deb
-Size: 23872
-SHA256: 661e98370a47b1af341822f4211fefed09f1b537030fa047e7d4810a12f21920
-SHA1: 46ed8d8248897dd671dca8913d4bb1cd49089d11
-MD5sum: 55f061e53fc96940e6ec55cab78cfa33
+Filename: pool/main/c/colortail/colortail_0.3.4+maruska_amd64.deb
+Size: 23092
+SHA256: 16b59aaaff3f54c43b5b4b64b9e9823b80086c0fb139491513d31033de6e9df5
+SHA1: a0fb73ccfeca9c4a105cbd6195a7f7114bccf93f
+MD5sum: 9044f7159e12b602f9f51561f98b40bf
 Description: log colorizer that makes log checking easier
  colortail works like tail but can optionally read one or more config
  files where it's specified which patterns results in which colors.
  Colortail uses regular expressions (see regex(7)) to determine which
  lines and parts of lines to print in which colors.
+Dgit: d2ca15e65de2d9bae2ffac3ccaab8617e5359059
 
 Package: colortail-dbgsym
 Source: colortail
-Version: 0.3.4-maruska
+Version: 0.3.4+maruska
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Elías Alejandro Año Mendoza <ealmdz@gmail.com>
 Installed-Size: 208
-Depends: colortail (= 0.3.4-maruska)
+Depends: colortail (= 0.3.4+maruska)
 Priority: optional
 Section: debug
-Filename: pool/main/c/colortail/colortail-dbgsym_0.3.4-maruska_amd64.deb
-Size: 180056
-SHA256: 8ed58c54cd3964872c71c0b1d9ed9cf1ccf1818ebc81e107890759161b94b78e
-SHA1: c5e8ce24c60510fc2fde942a0c865f9ebdcc9165
-MD5sum: fd0d3930245447e3f935bb6688fe25e3
+Filename: pool/main/c/colortail/colortail-dbgsym_0.3.4+maruska_amd64.deb
+Size: 180076
+SHA256: 2afdec70df34f95159578e05ea1931d2575dd505035415cb64ed075b13e03967
+SHA1: 8f3ed0bfef66187fc4b9d6982ef75bb2b0f54899
+MD5sum: 5bfb7cf35a5529b7477011b617efd79b
 Description: debug symbols for colortail
 Build-Ids: 8c0ec738550b0559a64f5645ef8d54222987759d
 
