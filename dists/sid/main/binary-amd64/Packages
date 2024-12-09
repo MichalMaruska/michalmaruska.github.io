@@ -129,6 +129,44 @@ MD5sum: b4d8c4950eb92a520d61966b79b9e43b
 Description: debug symbols for apt-utils
 Build-Ids: 01f86a8305828c4329f892cda3bf0ecd7b71adb2 0befb9fbdc8a216fd5c950099b32acc8c2012c92 59725eda8325adaea00dff462ae66829324ae53e c5c3366486111087556dc525ea5e20b721c81945
 
+Package: colortail
+Version: 0.3.4-maruska
+Architecture: amd64
+Maintainer: Elías Alejandro Año Mendoza <ealmdz@gmail.com>
+Installed-Size: 88
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
+Homepage: http://joakimandersson.se/projects/colortail/
+Priority: optional
+Section: utils
+Filename: pool/main/c/colortail/colortail_0.3.4-maruska_amd64.deb
+Size: 23872
+SHA256: 661e98370a47b1af341822f4211fefed09f1b537030fa047e7d4810a12f21920
+SHA1: 46ed8d8248897dd671dca8913d4bb1cd49089d11
+MD5sum: 55f061e53fc96940e6ec55cab78cfa33
+Description: log colorizer that makes log checking easier
+ colortail works like tail but can optionally read one or more config
+ files where it's specified which patterns results in which colors.
+ Colortail uses regular expressions (see regex(7)) to determine which
+ lines and parts of lines to print in which colors.
+
+Package: colortail-dbgsym
+Source: colortail
+Version: 0.3.4-maruska
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Elías Alejandro Año Mendoza <ealmdz@gmail.com>
+Installed-Size: 208
+Depends: colortail (= 0.3.4-maruska)
+Priority: optional
+Section: debug
+Filename: pool/main/c/colortail/colortail-dbgsym_0.3.4-maruska_amd64.deb
+Size: 180056
+SHA256: 8ed58c54cd3964872c71c0b1d9ed9cf1ccf1818ebc81e107890759161b94b78e
+SHA1: c5e8ce24c60510fc2fde942a0c865f9ebdcc9165
+MD5sum: fd0d3930245447e3f935bb6688fe25e3
+Description: debug symbols for colortail
+Build-Ids: 8c0ec738550b0559a64f5645ef8d54222987759d
+
 Package: debhelper
 Version: 13.20-maruska
 Architecture: all
