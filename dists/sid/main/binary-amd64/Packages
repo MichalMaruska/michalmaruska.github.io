@@ -2454,6 +2454,22 @@ SHA1: 9e17fae88484ed916cec0869bbf506025a07be22
 MD5sum: 2c69d3cada7a09bd0c97248f2a844c22
 Description: collection of shell scripts
 
+Package: mod-languagesubdomain
+Version: 2.3-maruska2
+Architecture: amd64
+Maintainer: Michal Maruska <michal@ruska.it>
+Installed-Size: 7
+Depends: apache2
+Priority: extra
+Section: httpd
+Filename: pool/main/m/mod-languagesubdomain/mod-languagesubdomain_2.3-maruska2_amd64.deb
+Size: 1700
+SHA256: abd6cfbbcb7fd4a4f46a0c657ffd714510ef2ad666b153de92a32984b2eebd2c
+SHA1: 0342556528cc4285d269dcb341a2a30d2bed072c
+MD5sum: 5072dbea6fa30867ffeb93832d2d75b8
+Description: Based on hostname, decide the priority of languages.
+Dgit: 830a3b0ec9dde51b9cee4d32a1733e426eca5253
+
 Package: pg-15-char-in-set
 Source: maruska-pg-modules
 Version: 3.2
