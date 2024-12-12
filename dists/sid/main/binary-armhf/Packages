@@ -865,7 +865,7 @@ MD5sum: 598603e11480c2a13b54731e63fbbaa4
 Description: Things I use for work from home.
 
 Package: mmc-build-system
-Version: 4.24
+Version: 4.24+b
 Architecture: all
 Maintainer: Michal Maruska <mmaruska@gmail.com>
 Installed-Size: 93
@@ -873,13 +873,13 @@ Depends: git-buildpackage, zsh, mmc-shell (>> 2.8), libapt-pkg-perl, libgetopt-l
 Conflicts: mmc-shell (= 2.8)
 Priority: extra
 Section: misc
-Filename: pool/main/m/mmc-build-system/mmc-build-system_4.24_all.deb
+Filename: pool/main/m/mmc-build-system/mmc-build-system_4.24+b_all.deb
 Size: 23232
-SHA256: aceb74f926d72bc6587d13e0b5767eddbcb6a951900acaefca66506e09cd8fa6
-SHA1: d759de32c2cec8d1fc4347d111737eca0d0730d1
-MD5sum: 949f64dc740206190ba7e9b50fd36b6c
+SHA256: 025412d3a9bc2955edf1e1b1cfef05b81baa7d96f27c93aaeabdcb6251001d5f
+SHA1: ca9bafc90331e4c6c3b90b48ab25e81354b2db8c
+MD5sum: d45ad2eae126a7bd7a9d2e7121fe070e
 Description: collection of shell scripts
-Dgit: ad9c3d529d580004113eb3687fb5a84c95797786
+Dgit: 9170d425fd84e79c85786a366ebe99fb2913be58
 
 Package: mmc-emacs
 Version: 2.13
