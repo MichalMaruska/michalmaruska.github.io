@@ -364,34 +364,6 @@ SHA1: b7b3681f1384c54f54d666c425a8d1ce9e15734f
 MD5sum: 32226a5245923f0256b3bf0bb11e2677
 Description: Tools to maintain extensions for upstream, in git
 
-Package: git-man
-Source: git
-Version: 1:2.45.2-1-maruska
-Architecture: all
-Maintainer: Jonathan Nieder <jrnieder@gmail.com>
-Installed-Size: 2208
-Multi-Arch: foreign
-Homepage: https://git-scm.com/
-Priority: optional
-Section: doc
-Filename: pool/main/g/git/git-man_2.45.2-1-maruska_all.deb
-Size: 2159316
-SHA256: f6d795ab75cb378f89749faea81ce2706c8a53b8203773793ff0d6da08dfca58
-SHA1: 7363d0ea9247b4c1bec335966c012c16d0d4f270
-MD5sum: 4a51639f81a626344e1919c260acaee6
-Description: fast, scalable, distributed revision control system (manual pages)
- Git is popular version control system designed to handle very large
- projects with speed and efficiency; it is used for many high profile
- open source projects, most notably the Linux kernel.
- .
- Git falls in the category of distributed source code management tools.
- Every Git working directory is a full-fledged repository with full
- revision tracking capabilities, not dependent on network access or a
- central server.
- .
- This package provides reference documentation for use by the 'man'
- utility and the 'git help' command.
-
 Package: git-mediawiki
 Source: git
 Version: 1:2.45.2-1-maruska
