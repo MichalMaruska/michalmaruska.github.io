@@ -2,7 +2,7 @@ Origin: maruska
 Suite: unstable
 Codename: sid
 Version: 20.3
-Date: Fri, 13 Dec 2024 11:07:31 UTC
+Date: Fri, 13 Dec 2024 11:27:54 UTC
 Architectures: amd64 i386 armhf x32 arm64
 Components: main
 Description: My releases (improved & my own packages) for Sid.
@@ -27,8 +27,8 @@ MD5Sum:
  7bebc092bb5a2d59858fa226db47e369 145 main/binary-x32/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-x32/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-x32/Packages.gz
- 457d50b2ad2378d7ada4c8912bf3ddda 616 main/binary-arm64/Packages
- d5a06822a3cab42827a80587cfbe4f29 436 main/binary-arm64/Packages.gz
+ d0108bcd2200410d026e989ca5d58f43 61135 main/binary-arm64/Packages
+ a4fbf96d0c113695c06e20e2328d853e 16612 main/binary-arm64/Packages.gz
  2425dfd8d62d6e1bbef9d90b86394def 147 main/binary-arm64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-arm64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-arm64/Packages.gz
@@ -56,8 +56,8 @@ SHA1:
  99d70aaf695636d88ffd58cd9c259a170098c56f 145 main/binary-x32/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-x32/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-x32/Packages.gz
- 01cb8cd2ff2b487e14ef8662876fcbca2f3c57cc 616 main/binary-arm64/Packages
- b5c7d74ff12d7c426de96415a93e6b608f88831b 436 main/binary-arm64/Packages.gz
+ f59c4fe1efc5e67435b91cf08f11e13bfb3a01e1 61135 main/binary-arm64/Packages
+ 8717e4721ef61b2a05851ec80ecc882e34c77ea7 16612 main/binary-arm64/Packages.gz
  361422f5a6f938c10f9ed36b21fefe5d3a402960 147 main/binary-arm64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-arm64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-arm64/Packages.gz
@@ -85,8 +85,8 @@ SHA256:
  05dddf54c3cea930ad99b14292c38849698933744cfaece55f5b56dcf0c532ee 145 main/binary-x32/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-x32/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-x32/Packages.gz
- 762c3cc0ba3e86080284bbf12c42f79d676dae6bccb0fbf278aa341ce4c517ab 616 main/binary-arm64/Packages
- 912e1b1d3ec16b2945ce46e69be799959dbc718774cc33b8cdd320f5eed97e0b 436 main/binary-arm64/Packages.gz
+ ca3570ea5ba730cd4c76e95bd8880870a6294c025f09b46eb7a2de53ea4c9d5a 61135 main/binary-arm64/Packages
+ 0b9769efae9d90a55bede770420b23c1015a6d979544629fcffe57fc4d8f0e65 16612 main/binary-arm64/Packages.gz
  b875f06c64e4cfcd655accc17396237b1185d2a0ed0065ee0159a8f342b006b3 147 main/binary-arm64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-arm64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-arm64/Packages.gz
