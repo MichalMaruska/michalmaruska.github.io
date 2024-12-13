@@ -1,5 +1,5 @@
 Package: mmc-build-system
-Version: 4.25
+Version: 4.26
 Architecture: all
 Maintainer: Michal Maruska <mmaruska@gmail.com>
 Installed-Size: 93
@@ -7,11 +7,11 @@ Depends: git-buildpackage, zsh, mmc-shell (>> 2.8), libapt-pkg-perl, libgetopt-l
 Conflicts: mmc-shell (= 2.8)
 Priority: extra
 Section: misc
-Filename: pool/main/m/mmc-build-system/mmc-build-system_4.25_all.deb
-Size: 23272
-SHA256: 158e2f80f6431908c0954799b540a4d320adef74f080d5e303d791d501e4a168
-SHA1: fcbcb4df144345b95c0e7f0b75dc4d9cdb14a874
-MD5sum: 4a97cfa1cc1d59769d280bc1aa34bee3
+Filename: pool/main/m/mmc-build-system/mmc-build-system_4.26_all.deb
+Size: 23316
+SHA256: 35bfa77ef70085948e6fa114e88ba23409195922dbe2b347491ce8d02cfb1dc2
+SHA1: 4f9fecbbc6000b043b92dbc1f757ebfa35b3db6d
+MD5sum: 130182fff90873b59d72f9d0e2156080
 Description: collection of shell scripts
-Dgit: e42f498d9e03378bafd5b5c19d1972f25546d370
+Dgit: 1ccd41f97d35a1b6315f678594a274ea17b02d25
 
