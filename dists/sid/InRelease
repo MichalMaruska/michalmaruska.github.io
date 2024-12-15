@@ -5,7 +5,7 @@ Origin: maruska
 Suite: unstable
 Codename: sid
 Version: 20.3
-Date: Sun, 15 Dec 2024 00:52:02 UTC
+Date: Sun, 15 Dec 2024 00:52:44 UTC
 Architectures: amd64 i386 armhf x32 arm64
 Components: main
 Description: My releases (improved & my own packages) for Sid.
@@ -98,15 +98,15 @@ SHA256:
  beb3ce8d28e5a86a77829602a63a28ff56b581abb02adf826b6c9bce5ee0250a 148 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCAAdFiEEj5ld3379Nuk8fyGZPAkJW65/ICgFAmdeKDIACgkQPAkJW65/
-ICggnwv/Ykneyv5wmt3UMCOKL9m/LibHexWY9OhPKlB42RcMwL2rtNMYfGvZ9M1O
-JEKuz7zug9GbfiVI3gSs2sAoQ6wAatB50zbG16GkM1uawrlGdVWBVZApqhyaXiU1
-DCouc5VuFZxY1cvSLaQlmtutFUigmM2C1IOiaVzO/XoBHgx0U80OO8uVdKD9aPjN
-Y3kNpoSPMYZIFRY5whg2d03FotZ1jPH6k0GuQ9bzAsF62nbXv/D0YIhrWQgmADyQ
-l6G5pF/o3r7rTEeCuLehMJe2MB2BEY6KuBDMW6gNh8GidOPX0JUrJmu78Io/c2gz
-77/EpyJyJtoewUhsfxK3HSTju/iU2/jhAV7o2Oq2NXU6BBCcAAqEFVB3OVf9zVtn
-2pjyW6x4LhT9xJjT4dc6ordqeCPqxvEPLJplbBqdmzme5JBKi4GnL1pqKa172QOg
-r0vRDNggRRxE8+TQyo0yBzhrmDvP3CxLNqoWRKJle94x/v2c0IpdY9DkFZOWRE/6
-Th1p3YOr
-=Xue5
+iQGzBAEBCAAdFiEEj5ld3379Nuk8fyGZPAkJW65/ICgFAmdeKF0ACgkQPAkJW65/
+IChLfgv/VWuyRs8HT825PhBA1YN/220iXUaVNWn5pjyegBytvWf5LRx1zbv41+fh
+jaLtwHuX5+CQvpBA4lwVrabvZgdgkj0nEtSLqfHZJsdmuA0fuQFUxMtXjE/SSwsX
+I9ZLg6jCxg780sJFemCkX7Bb15fznOAizXZzlDFct5wR/jYbPvZxtQm1T5LQ/yzr
+9i5ehxqWzroG8ZI7QVmOxzB2Q4bZkhrBBZSm9LOGG/aUfd50kIFTD/NZXbmHjAj0
+bAFxFitA+n0JC+umh4wF/FA+OLg2+z6X26JeiZnFPDEgelLTEUeNB/zBG1qZky9I
+uS06AR3tx51zAucTqKUOOHodWJewjx/KCgoOhe0txS87W5ZiCI/8IIAE7v6M8kLE
+skCKGRtrT1pxIdPCCty8cZYSotIeIS9wWf16lfzxN86SS4NzW9olweZPLMAuw7ED
+xtQAPPbfQLMeVUGRSHWfWfvR1snoAVd5wmSWrQaDfgKheVa/IvvBosAmAarnneE8
+Z8h9w5Gs
+=dmC5
 -----END PGP SIGNATURE-----
