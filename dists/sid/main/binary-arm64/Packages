@@ -157,6 +157,40 @@ SHA1: cc9f825cbaed3dba9992bd5dcc138c56449cdcb6
 MD5sum: e8414b95a2d9226f7ca99276831bc14d
 Description: mmc's (simple) applications in Gauche
 
+Package: git
+Version: 1:2.45.2-1-maruska
+Architecture: arm64
+Maintainer: Jonathan Nieder <jrnieder@gmail.com>
+Installed-Size: 48995
+Depends: libc6 (>= 2.38), libcurl3t64-gnutls (>= 7.56.1), libexpat1 (>= 2.0.1), libpcre2-8-0 (>= 10.34), zlib1g (>= 1:1.2.2), perl, liberror-perl, git-man (>> 1:2.45.2-1), git-man (<< 1:2.45.2-1-.)
+Recommends: ca-certificates, patch, less, ssh-client
+Suggests: gettext-base, git-daemon-run | git-daemon-sysvinit, git-doc, git-email, git-gui, gitk, gitweb, git-cvs, git-mediawiki, git-svn
+Breaks: bash-completion (<< 1:1.90-1), cogito (<= 0.18.2+), dgit (<< 5.1~), git-buildpackage (<< 0.6.5), git-el (<< 1:2.32.0~rc2-1~), gitosis (<< 0.2+20090917-7), gitpkg (<< 0.15), guilt (<< 0.33), openssh-client (<< 1:6.8), stgit (<< 0.15), stgit-contrib (<< 0.15)
+Provides: git-completion, git-core
+Multi-Arch: foreign
+Homepage: https://git-scm.com/
+Priority: optional
+Section: vcs
+Filename: pool/main/g/git/git_2.45.2-1-maruska_arm64.deb
+Size: 8543664
+SHA256: ec345c5873a3a1499d40cf653b785d0ca9b70d48a6c58d15fe02aca7d798a6b1
+SHA1: b21ecb1b296aa41a259736f084d2046309e19563
+MD5sum: 4b2542ced5dde2403983aec222d0a6b9
+Description: fast, scalable, distributed revision control system
+ Git is popular version control system designed to handle very large
+ projects with speed and efficiency; it is used for many high profile
+ open source projects, most notably the Linux kernel.
+ .
+ Git falls in the category of distributed source code management tools.
+ Every Git working directory is a full-fledged repository with full
+ revision tracking capabilities, not dependent on network access or a
+ central server.
+ .
+ This package provides the git main components with minimal dependencies.
+ Additional functionality, e.g. a graphical user interface and revision
+ tree visualizer, tools for interoperating with other VCS's, or a web
+ interface, is provided as separate git* packages.
+
 Package: git-all
 Source: git
 Version: 1:2.45.2-1-maruska
@@ -253,6 +287,24 @@ Description: fast, scalable, distributed revision control system (git-daemon ser
  for running git-daemon permanently.  Unlike git-daemon-run, this
  package provides the usual sysvinit service management commands
  ("service git-daemon start/stop") for git-daemon.
+
+Package: git-dbgsym
+Source: git
+Version: 1:2.45.2-1-maruska
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Jonathan Nieder <jrnieder@gmail.com>
+Installed-Size: 69649
+Depends: git (= 1:2.45.2-1-maruska)
+Priority: optional
+Section: debug
+Filename: pool/main/g/git/git-dbgsym_2.45.2-1-maruska_arm64.deb
+Size: 43970584
+SHA256: f9cba16e54501f387ad79926014c1e49f644dadffde00aa253fa404fec1bf330
+SHA1: 8241d3b057c3963d1c90b32bf3610ca5da11fd02
+MD5sum: f7d01fa5507adf6f80b98c07cc079b36
+Description: debug symbols for git
+Build-Ids: 31a54d503c827141790e0ea6407e19686892a5da 3a3397a2a2a55f1295c0ec59b464a45b94613208 45134747f05ba44faa3f60ff384af773818571e8 6dcef16785fa08e069c2e26a400b3e203ccc15ec 713464ebae2e6804bf18f40817c7edeffbe0d5f7 82596b35fa2a5b5e35d1f297730638b685d8ca59 96eeb5fd3b6945e9c3656f79320e83ba6485f07e a5ce74ee861ead87db8c7b659ea0a2911f508cef c9b7fca0223601c5bb8819e43f09399ea6b619b1 fca3b583398eaef2457dcc6b6d6a9545b3081eeb
 
 Package: git-doc
 Source: git
