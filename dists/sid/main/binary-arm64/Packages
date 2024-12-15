@@ -1160,6 +1160,22 @@ SHA1: 9e17fae88484ed916cec0869bbf506025a07be22
 MD5sum: 2c69d3cada7a09bd0c97248f2a844c22
 Description: collection of shell scripts
 
+Package: mod-languagesubdomain
+Version: 2.3-maruska2
+Architecture: arm64
+Maintainer: Michal Maruska <michal@ruska.it>
+Installed-Size: 7
+Depends: apache2
+Priority: extra
+Section: httpd
+Filename: pool/main/m/mod-languagesubdomain/mod-languagesubdomain_2.3-maruska2_arm64.deb
+Size: 1704
+SHA256: 62d8453a312b41b683d13098eb58913ab25b2107099551d3333a1e92901b9d97
+SHA1: 17e62c55e2f7aec1ecdc88c94f42741dbd3485e9
+MD5sum: d3bb1117470162d2024b9914f519d392
+Description: Based on hostname, decide the priority of languages.
+Dgit: 256c64e796883e5c5f44a79cb0d5ef9ca254018c
+
 Package: postgresql-doc-15
 Source: postgresql-15
 Version: 15.4-3-maruska2
