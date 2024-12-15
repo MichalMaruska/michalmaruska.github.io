@@ -5,7 +5,7 @@ Origin: maruska
 Suite: unstable
 Codename: sid
 Version: 20.3
-Date: Sun, 15 Dec 2024 21:54:02 UTC
+Date: Sun, 15 Dec 2024 23:20:04 UTC
 Architectures: amd64 i386 armhf x32 arm64
 Components: main
 Description: My releases (improved & my own packages) for Sid.
@@ -30,8 +30,8 @@ MD5Sum:
  7bebc092bb5a2d59858fa226db47e369 145 main/binary-x32/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-x32/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-x32/Packages.gz
- a6660ecdf891f1efacc0b2c844f8a50f 80240 main/binary-arm64/Packages
- 7401c6f437c1dd87dfe73a432236135e 22875 main/binary-arm64/Packages.gz
+ 28cabb46d3635ec1b98ec5de4bffa30d 81796 main/binary-arm64/Packages
+ 199c9339745f3722d81687ca0e20ef37 23383 main/binary-arm64/Packages.gz
  2425dfd8d62d6e1bbef9d90b86394def 147 main/binary-arm64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-arm64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-arm64/Packages.gz
@@ -56,8 +56,8 @@ SHA1:
  99d70aaf695636d88ffd58cd9c259a170098c56f 145 main/binary-x32/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-x32/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-x32/Packages.gz
- 342fbc18bb0554437a886a3f70de9d3bf1752d38 80240 main/binary-arm64/Packages
- d5c635d262c2035975e489953e725aae4fdc27ad 22875 main/binary-arm64/Packages.gz
+ b1d311bc822fd54a62bde891b9762bc05a867466 81796 main/binary-arm64/Packages
+ 7f5207217009a2a14a5064d7fe8fd438eae72fb9 23383 main/binary-arm64/Packages.gz
  361422f5a6f938c10f9ed36b21fefe5d3a402960 147 main/binary-arm64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-arm64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-arm64/Packages.gz
@@ -82,22 +82,22 @@ SHA256:
  05dddf54c3cea930ad99b14292c38849698933744cfaece55f5b56dcf0c532ee 145 main/binary-x32/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-x32/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-x32/Packages.gz
- a36d946fb2e9f87e76ffa79c99ee92001ae39c97c0ff154d726c3754c42aaad8 80240 main/binary-arm64/Packages
- b4b7b0d53a0575f8d4fc6a25a3f76863bab155dd015ae0c2ec10d155d5f6fa95 22875 main/binary-arm64/Packages.gz
+ 385e6b0fd2c2bbfc1512e71d827046a583f86f433e0967acc9b54d736979fdca 81796 main/binary-arm64/Packages
+ 053a0aadc1c188e8336226f9e6a4e0d0f255b50f28681f73320aadc2859cf331 23383 main/binary-arm64/Packages.gz
  b875f06c64e4cfcd655accc17396237b1185d2a0ed0065ee0159a8f342b006b3 147 main/binary-arm64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-arm64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-arm64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQGyBAEBCgAdFiEEj5ld3379Nuk8fyGZPAkJW65/ICgFAmdfT/4ACgkQPAkJW65/
-ICjsKgv4jV1KOhFogHKuWKrkr03e/W7TVbRVOazIwgJIPPV3S2dKr0UovOK/dGIU
-FnD3rfMrvyet+seCeCXK9Cd1r2x8WFuFXor1BQ5wEY5L/riBeiKyreyhjJQzvO4z
-FARJ9stMqrMGjE6YSRUaYKdYqiNZhOdahT/xeWWpJqEEWbYGOwUqe5E9I87piX23
-7MI6xuXb94c0lgZdjSRa0shlyCGAJSsAOaTZ7iJezjieFOVd6PgkiymQlqjgaW9a
-hH43hGUvCSYKGXV0QeAPWd1PbwN/zWtyqYbh+82KcMbbA0STBIBWtNPHUaLEZO9g
-uqbJhTvA/gs5wVbwnwyti6vFFZMvs43LdMF2IXdAR7M76wY8SXtUzJ7x5d1i8qgQ
-JgmiinL9NrKpLq+X67TWjRauqUnZePz+clbim+wTI7ZkyA+6jlMDMaWfPeTsW/iH
-wvi/wUy3EUjTQpbLTUmJmPZcq/bFVIrP2+6+dng6pwhsDp3Bw2pJQdL0hbzywo7p
-6U0MITA=
-=9NZ2
+iQGzBAEBCgAdFiEEj5ld3379Nuk8fyGZPAkJW65/ICgFAmdfZDYACgkQPAkJW65/
+ICh2ewwArrLVEKJ7CSMmVOgIwZLmdvI/VzvCYBuV2kF0FfyLYwakb/Be6ffjBm1C
+MXBFk2m1wjLWepgSMRRy9Qex6ClkNy/7qSf3Kjy3Cl+pctiyVnXUNeOMtYtoCUyw
+gNwftamjW/u4VqUQFZxs02lNdQsgIZr3J/+7vT2mLC1VG98RH31OLZ5XJcU1n/Sf
+/Qq8Xohmpm14gTp1XPclFIwtsCv3yByBT7M0N8JsNyngBDGlqfeBH9zr7t8By2Ws
+2zw/cbvdZzVEZ2n77sC8gSTZpSWxYJTmpQ3NagysKCXMD2KkqyoEzOiiXiU/RBoM
+dCuvEbFThefDSiXiAQuZbm+u/ttVLadRUXTWWvSiSc7N+9173zbNMUNi0Ivcj0kl
+WI3ao3rrLol8eSFi6pOlfTucQTvUPb/37d3VsXLCO7cX6c0hzm/fxAmV+SwG527c
+Zd+lIPqPXMishMGRVO2t4cJzUskXTSRp0vTl1MlttC4BQB4nXBBzsJrGZq9vjdcz
+iFaqu1z5
+=X2Z+
 -----END PGP SIGNATURE-----

@@ -648,6 +648,47 @@ MD5sum: d3838fbaa06c3bc7baaae10f427f0523
 Description: debug symbols for human
 Build-Ids: b9681d9c86c00df21820bd2d1c49b640d70a3cd0
 
+Package: libapache-mod-fastcgi
+Version: 2.4.8-maruska
+Architecture: arm64
+Maintainer: Sam Vilain <sam@vilain.net>
+Installed-Size: 243
+Depends: apache2, libc6 (>= 2.38)
+Priority: optional
+Section: non-free/web
+Filename: pool/main/liba/libapache-mod-fastcgi/libapache-mod-fastcgi_2.4.8-maruska_arm64.deb
+Size: 59660
+SHA256: 2ccf072d2c7eb283d0387b018ebd2926aef1222cb4e56e580e1966984a8341ba
+SHA1: 12d8b0e739700fa93c192eece2e8295d45a2001f
+MD5sum: ddeca7d755f3a330dddf4c4f82274771
+Description: FastCGI module for Apache
+ This package contains a FastCGI module for the Apache (2.x) web
+ server.
+ .
+ FastCGI is an open standard for communicating between a web server
+ and a web application, supported by many free and closed source web
+ servers.  It provides CGI-like functionality, without the need to
+ program to a particular server API.
+Dgit: 0a1ffae8d732f0c2c63ea27a5f0edbcc5b88fc04
+
+Package: libapache-mod-fastcgi-dbgsym
+Source: libapache-mod-fastcgi
+Version: 2.4.8-maruska
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Sam Vilain <sam@vilain.net>
+Installed-Size: 118
+Depends: libapache-mod-fastcgi (= 2.4.8-maruska)
+Priority: optional
+Section: non-free/debug
+Filename: pool/main/liba/libapache-mod-fastcgi/libapache-mod-fastcgi-dbgsym_2.4.8-maruska_arm64.deb
+Size: 96396
+SHA256: 479c3d56af3eb75fb8f0aba7f6092c2ae6bdf7bcdf03307e55513c3a3ee6d47c
+SHA1: 3a4202aadb4c28e6c5f84592222fcca442587a81
+MD5sum: 8d44ceaaf507fe4ee0b6624b3b25f62f
+Description: debug symbols for libapache-mod-fastcgi
+Build-Ids: cbacec0aa7582d31a944923df84eb18ae8b4362b
+
 Package: libapt-pkg-doc
 Source: apt
 Version: 2.9.17-maruska
