@@ -1679,6 +1679,40 @@ Description: interactive viewer for Graphviz dot files
   * Animated jumping between nodes.
   * Highlights node/edge under mouse.
 
+Package: xkb-reset
+Version: 1.1.5
+Architecture: arm64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 75
+Depends: libc6 (>= 2.34), libx11-6
+Priority: extra
+Section: x11
+Filename: pool/main/x/xkb-reset/xkb-reset_1.1.5_arm64.deb
+Size: 3072
+SHA256: b7465daaae6b45ac741e8d1f505db71ae1d880dbf0c05282bef5bfb5e3150534
+SHA1: 4c0770bb4a9ca17ff9a2d575860bbdcfd0511e73
+MD5sum: bdaa7639d3ae02b204e1ddc4bc89e70c
+Description: command to reset the X keyboard state (shift, group, mouse emulation)
+Dgit: 1a0a3bb23da922294649a00d0d32cdd1551957f2
+
+Package: xkb-reset-dbgsym
+Source: xkb-reset
+Version: 1.1.5
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 18
+Depends: xkb-reset (= 1.1.5)
+Priority: optional
+Section: debug
+Filename: pool/main/x/xkb-reset/xkb-reset-dbgsym_1.1.5_arm64.deb
+Size: 2400
+SHA256: 984c8e3586c326cd18a2a6c80ee48a959326c5eee7b18e1d787186c00b18c93e
+SHA1: 5d2701cf6729687c70352ab278f58cf38e4c6c44
+MD5sum: 9c6e15a49c3b4cb80ee723bfd1aa5935
+Description: debug symbols for xkb-reset
+Build-Ids: 0a9d67f65647c72d4437ce276b7edf0aaf81e98b
+
 Package: xorg-server-source
 Source: xorg-server
 Version: 2:21.1.14-1-maruska2
