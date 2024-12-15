@@ -6,7 +6,7 @@ Label: reprepro
 Suite: gauche-0.9.4-rc2
 Codename: gauche-new
 Version: 5.0
-Date: Sun, 15 Dec 2024 01:05:08 UTC
+Date: Sun, 15 Dec 2024 11:43:32 UTC
 Architectures: i386 amd64 x32
 Components: main
 Description: release for SID, and Gauche C-api version 0.9.4-rc2
@@ -42,15 +42,15 @@ SHA256:
  e64a8158ad0df05ab2635c8f43dcf42d450a5bbf762f244313cd4055f87d9ffb 170 main/binary-x32/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCAAdFiEEj5ld3379Nuk8fyGZPAkJW65/ICgFAmdeK0QACgkQPAkJW65/
-ICiDtgv/ejVBv8abVwnl5EYXWn5t6z4XQ6qYCnAuiN02LECa6e78RykNB+76Qlwa
-tlF6kUaR/+a914kmzpGMTiuvzjtO5SqXAuSq9GnF6KNYro4pMIsEdU1aEgubkc5s
-PKIHBJHMxvrtAGWe7EOZdMp+95NnbD+czl8jU4XJz/o/b/pk+w1K8eKWX0S7ez38
-fWZwuTdwC1gZZW64CUWwhF+uQSuGMDsJ2iCgxgfrDy814Btip2hpi7V6FAJdIxTf
-3W2FWvZgx0RAxrsYsohju+6U3G+CmU+5DfMwpyHTNENmdlyj8khCP8RzXuH/KiNW
-XZNsV7NFKTMIrlFr7q0b3jaxqt/9bo8NbsUsZyaLyTqCV8Iwfq8LYut7T3MMHpgH
-1mw6glGWP2lK8Arlyn96HCGj34il8wlpb8p7+yjWcQNTUadtz0Hihiub7T1MzV+Y
-gZk/90rOVFoE3MlCp+YDihZU7gzGw7/sm+F92T1VtQphAb7za7i08994QsBH/M17
-izUwtezm
-=dpjR
+iQGzBAEBCAAdFiEEj5ld3379Nuk8fyGZPAkJW65/ICgFAmdewOUACgkQPAkJW65/
+ICi4kwv+MrVDFtz0BUhW5tt/DqJRzeENyBXn4fLXQCK+h5+TKxWN+o7x0229DeXY
+G33TC6SMtmnnfw4cuyWiQ9+sKGop5ZiGIzkE2iqUhQQ80/f7yVlmszGJEMeQpqoy
+Rp65ApWyxjUmlSAQIByVER+++/7rAy5svVwus/1GYXLCoDqtLNAaDR3WuuQcxxP2
+HLHN5pPIHUXXWrBioMspoPBJJD/0PVF5SxfS0JzUsNTblMf9n8xCBR6tIJwo7uMk
+E40KMluNV8KCXRaAtAZOTusu9RZZpsbK4vL9kPEU8yjRzWMJHCCbFf7u4aVpem36
+cni723ALoa6BsqZn8b8P+tMVFViTzuxNogP/hJ0gOVlJY/gFfoxVay1W7YmTFfA6
+vJxGctN5eO9vrDPlYjTXdFkq07MlYDIBEY9mxeFp9YkwYUYyaFGX8F2hJHQThmuV
+Ch55akXPhpuHAlLw170UG5+9wx6c/fqAxI3K19+pPGfrlzVGGuQjr/AX3Iuekoxa
+xbMYE1Ob
+=lNQr
 -----END PGP SIGNATURE-----
