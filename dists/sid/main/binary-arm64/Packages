@@ -35,6 +35,45 @@ Description: transitional package for https support
  This is a dummy transitional package - https support has been moved into
  the apt package in 1.5. It can be safely removed.
 
+Package: colortail
+Version: 0.3.4+maruska
+Architecture: arm64
+Maintainer: Elías Alejandro Año Mendoza <ealmdz@gmail.com>
+Installed-Size: 102
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
+Homepage: http://joakimandersson.se/projects/colortail/
+Priority: optional
+Section: utils
+Filename: pool/main/c/colortail/colortail_0.3.4+maruska_arm64.deb
+Size: 21508
+SHA256: 1dd9090e3794b183c91c60efdffba558776544aae3147f5f7d4927242d939a71
+SHA1: 7d93830d79c25cea2e4a9ca1bbed07f7ef2ef14e
+MD5sum: 0ab4d29bc8ea2d46027d9ff50dc21a2f
+Description: log colorizer that makes log checking easier
+ colortail works like tail but can optionally read one or more config
+ files where it's specified which patterns results in which colors.
+ Colortail uses regular expressions (see regex(7)) to determine which
+ lines and parts of lines to print in which colors.
+Dgit: ae24c0d2561951203c60422d76fbb6f48a35f3eb
+
+Package: colortail-dbgsym
+Source: colortail
+Version: 0.3.4+maruska
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Elías Alejandro Año Mendoza <ealmdz@gmail.com>
+Installed-Size: 230
+Depends: colortail (= 0.3.4+maruska)
+Priority: optional
+Section: debug
+Filename: pool/main/c/colortail/colortail-dbgsym_0.3.4+maruska_arm64.deb
+Size: 177292
+SHA256: 57250e5feb67ddb0772026a702d75f4c20f92eab6310ae76c277e973316d9588
+SHA1: d5b7336c7492e6e1c20de687e932eb277dad70df
+MD5sum: 3154f0ce8647f0a2f4efb29f2067a56f
+Description: debug symbols for colortail
+Build-Ids: 860d1e803292196106c48596ce66eb41de4f74c8
+
 Package: debhelper
 Version: 13.20-maruska
 Architecture: all
@@ -1117,6 +1156,52 @@ Description: documentation for the PostgreSQL database management system
  .
  PostgreSQL is an object-relational SQL database management system.
 Dgit: 375a467ab3dfaa40feaa3ebc70eacb0c0e229637
+
+Package: reprepro
+Version: 5.4.1-1maruska
+Architecture: arm64
+Maintainer: Bastian Germann <bage@debian.org>
+Installed-Size: 1358
+Depends: libarchive13t64 (>= 3.0.4), libbz2-1.0, libc6 (>= 2.38), libdb5.3t64, libgpg-error0 (>= 1.14), libgpgme11t64 (>= 1.23.2), liblzma5 (>= 5.1.1alpha+20120614), zlib1g (>= 1:1.2.0.2), zstd
+Recommends: apt (>= 0.9.4)
+Suggests: pinentry-curses, gnupg-agent, inoticoming, lzip (>= 1.11-2)
+Priority: optional
+Section: utils
+Filename: pool/main/r/reprepro/reprepro_5.4.1-1maruska_arm64.deb
+Size: 431548
+SHA256: b2c440a7e3d6077b9fd5b0b3278f25a6f753296d06a34c7ea74242879b0ff460
+SHA1: 80b57e72fd141b54c8f101fda8138716009a28e9
+MD5sum: fc5f97ebc00333a5604edda719fc8995
+Description: Debian package repository producer
+ reprepro is a tool to manage a repository of Debian packages
+ (.deb, .udeb, .dsc, ...). It stores files either being
+ injected manually or downloaded from some other repository
+ (partially) mirrored into one pool/ hierarchy.
+ Managed packages and files are stored in a Berkeley DB,
+ so no database server is needed.
+ Checking signatures of mirrored repositories and creating
+ signatures of the generated Package indices is supported.
+ .
+ This package also contains the changestool and rredtool helpers.
+Dgit: dd3b42ede4c1877673e51fcf6330f5653b561c41
+
+Package: reprepro-dbgsym
+Source: reprepro
+Version: 5.4.1-1maruska
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Bastian Germann <bage@debian.org>
+Installed-Size: 2091
+Depends: reprepro (= 5.4.1-1maruska)
+Priority: optional
+Section: debug
+Filename: pool/main/r/reprepro/reprepro-dbgsym_5.4.1-1maruska_arm64.deb
+Size: 1122248
+SHA256: 20507f5a184de228692210042beedf62845456f6e5accd74ebf958c14f54e5eb
+SHA1: d63ba071b8abca4e34133d51184791ab1bc7b6cd
+MD5sum: fc8f1a55231ff179574057c5cf13ef92
+Description: debug symbols for reprepro
+Build-Ids: 0cc1d09dab18e8be7f1e571e0df4a52a59a93601 4fa86e69df60fee769453fccf13607f40515f938 c74c0d261ed6755d52f437ce529092b5d978ece2
 
 Package: sawfish-data
 Source: sawfish
