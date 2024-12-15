@@ -1,52 +1,52 @@
 -----BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA256
+Hash: SHA512
 
 Origin: maruska
 Suite: focal
 Codename: focal
 Version: 20.3
-Date: Thu, 12 Dec 2024 23:55:13 UTC
+Date: Sun, 15 Dec 2024 00:19:16 UTC
 Architectures: amd64
 Components: main
 Description: My releases (improved & my own packages) for Ubuntu focal
 MD5Sum:
- 9f304084c71f015af8d2f3bce89098e2 23318 main/binary-amd64/Packages
- 520062729aa2b270287701d123d8ed5d 6082 main/binary-amd64/Packages.gz
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-amd64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-amd64/Packages.gz
  904b1d078aa86172b972ddb8d5a110c4 152 main/binary-amd64/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/debian-installer/binary-amd64/Packages
  7029066c27ac6f5ef18d660d5741979a 20 main/debian-installer/binary-amd64/Packages.gz
- d74f123ff0e83816392495515bd47900 931 main/debug/binary-amd64/Packages
- 069cc142030899d071cb24a2569d96fd 623 main/debug/binary-amd64/Packages.gz
+ d41d8cd98f00b204e9800998ecf8427e 0 main/debug/binary-amd64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/debug/binary-amd64/Packages.gz
  904b1d078aa86172b972ddb8d5a110c4 152 main/debug/binary-amd64/Release
 SHA1:
- f4c08dcd2d648e1988c025a1aa7281ff13cd104d 23318 main/binary-amd64/Packages
- c73cc82f23e6d815af4011670e5d553d43ab12a2 6082 main/binary-amd64/Packages.gz
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-amd64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-amd64/Packages.gz
  9c9cc9b476825d3cdefb6fe34a58510766ef2dfa 152 main/binary-amd64/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debian-installer/binary-amd64/Packages
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debian-installer/binary-amd64/Packages.gz
- d81ca2e1e0133c90d0f24bcfefd2b08e38f05f4b 931 main/debug/binary-amd64/Packages
- 8fbed9d1f7899669ce7736a4d022223a47d6003a 623 main/debug/binary-amd64/Packages.gz
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/debug/binary-amd64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/debug/binary-amd64/Packages.gz
  9c9cc9b476825d3cdefb6fe34a58510766ef2dfa 152 main/debug/binary-amd64/Release
 SHA256:
- 8f7b8332ff7011fc3a7d5acbcbd4f315b83992aa3efaece93e21e44a60ce0273 23318 main/binary-amd64/Packages
- e554dd7049561be63f9d421a9f1a96a322ac1d44ac44a56cef015b612598fa7a 6082 main/binary-amd64/Packages.gz
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-amd64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-amd64/Packages.gz
  0692f318dc280ebc9e9f6be05506ac629b69d8e964e565e351b0fcc9d0a4baff 152 main/binary-amd64/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debian-installer/binary-amd64/Packages
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debian-installer/binary-amd64/Packages.gz
- 23914ff43549bd2aeeedba16624064194e11c5e499078df33d6ff5cc794124f2 931 main/debug/binary-amd64/Packages
- f32d05d6320474c6755d834eed4ef0ae45dfd1c775798c41d8d788013f74dce4 623 main/debug/binary-amd64/Packages.gz
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/debug/binary-amd64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/debug/binary-amd64/Packages.gz
  0692f318dc280ebc9e9f6be05506ac629b69d8e964e565e351b0fcc9d0a4baff 152 main/debug/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCAAdFiEEj5ld3379Nuk8fyGZPAkJW65/ICgFAmdbd+EACgkQPAkJW65/
-ICjj5Qv+M5tf6lULADHXa8j3kLv6IWjMjuAfMCPdt1Loo98xtk3r1f0Gobnbk0TW
-mt3lFGtCBvKXEO+gu2nFYRO1Jz/Cyde5gVEIwQrpCmbU/iJPHmKeWEW3r18cfugW
-mHfiZY64+MMVEZzgROsI82XQhwf2G1KY2qDY3rD3c9uatWR/twld0nzaEmvJRRZh
-QaPewCUUH7h+b8iSiAf8vSYMFX6uOlvnHlA1k0i33bj36JUA5zVbfJ38+3zkD23r
-WU44DX3DdFQ7X2xM4ubuorGxqgpVqxLxjaIjifv9t24nWNTd3oZ7/T1uE3Z4AMcz
-rKP0Fw5R0kpgWePkh8jCd3s+OfQQYzIK3TR+Q5V+YIeuG6/sOv2JNFvzNsoWCvIS
-RxckaTlL4pxGNgchDNzfXc5G5cTbpHPWKFB8lNsoDwrLsP59A0+9qY7XX1jmSmIs
-KCJJqFwgt+Yzgxtmc39X93eFU/RTvwRJv9WEI/hy1v+qeHOu/cmu2/SKKV/3R875
-q4ehwUBV
-=F0Fc
+iQGzBAEBCgAdFiEEj5ld3379Nuk8fyGZPAkJW65/ICgFAmdeIIUACgkQPAkJW65/
+ICjphwv/RLymZHAOpatcW4S7VmLdJZ6WnlBs6DLC/hOgVit9DdORkHeTurGPKK7b
+s6PVUzGpX13XwHbph+ZrIHEd6DNQw5TIcsGw+t9Nnq5Km5hik9AJCXdMERjS7nov
+UcxpE0E/k+TQCLAdk5E2ZAWtdfzknDs7r/CO95K4UWWkEosAXAmQpZayVNb1bqPK
+GpMRa7PKYLg9E41IZ4rX2lqY74FAzHNJuLmvqo9yCM6DFqy4y5tmA5Dm+rOoW3Hu
+B1zwMtFDffDiKxMxbbdZjlwl9bBCiM93Y3XeRZfBqPi4nQ2gV9FeafmZBVIskvB+
+J6dpNmtSDfwGduG5M71WBtbsJUbglbBWy5BxBIDIHY+1kIFZMQffHMDr0OrLKcZe
+F+SKhin1TPszSLgh/QXCQ6aBNOOnCq/SqBtGXJ1mkK299HhzQ1gjhTDgFG2U1qj5
+yA9kBUhnMxOwMSIEuSYuEk6UkInPA1NXMesTPnlF3CkLW3VB1XNM4dhtwMI2MvrX
+SkXXzFcZ
+=9i5G
 -----END PGP SIGNATURE-----
