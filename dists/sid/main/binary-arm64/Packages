@@ -614,6 +614,40 @@ Description: fast, scalable, distributed revision control system (web interface)
  If libcgi-fast-perl is installed, gitweb can also be run over FastCGI
  (and served by nginx, for example).
 
+Package: human
+Version: 1.5
+Architecture: arm64
+Maintainer: Michal Maruska <maruska@gmail.com>
+Installed-Size: 75
+Depends: libc6 (>= 2.34)
+Priority: extra
+Section: utils
+Filename: pool/main/h/human/human_1.5_arm64.deb
+Size: 4568
+SHA256: 5d079f015ab8a9dcb286cbd966704e761e73f32d045e182fb91ab9652b3e38a3
+SHA1: 0ad24b280dee476bbba356e0171d98527b37fed0
+MD5sum: 5ad1b9b78fb39aa653437bcd62a77cfa
+Description: filter - replace numbers on each line with human notation
+ stolen from some GNU utility  ls(1) maybe
+
+Package: human-dbgsym
+Source: human
+Version: 1.5
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Michal Maruska <maruska@gmail.com>
+Installed-Size: 29
+Depends: human (= 1.5)
+Priority: optional
+Section: debug
+Filename: pool/main/h/human/human-dbgsym_1.5_arm64.deb
+Size: 9932
+SHA256: fd98f4dc8fd3e3a2632e3fa78aaa255337d9280ab06bfc1034a6eadf73217604
+SHA1: 06f94d35572bb99a2ef154f65e197dd3901ee029
+MD5sum: d3838fbaa06c3bc7baaae10f427f0523
+Description: debug symbols for human
+Build-Ids: b9681d9c86c00df21820bd2d1c49b640d70a3cd0
+
 Package: libapt-pkg-doc
 Source: apt
 Version: 2.9.17-maruska
@@ -1005,6 +1039,40 @@ SHA1: e9003896f15adef96b5bd0e217e605dfb3692d1a
 MD5sum: de94cfe223017f4854bcb53acf424bea
 Description: Things I use for work from home.
 Dgit: 76036ad2e0bb8b0419adb36cabfabb96d9849edd
+
+Package: mempeak
+Version: 0.29
+Architecture: arm64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 81
+Depends: libc6 (>= 2.34)
+Priority: extra
+Section: utils
+Filename: pool/main/m/mempeak/mempeak_0.29_arm64.deb
+Size: 12156
+SHA256: 1e2de5379dc82d5a3fb3f0c92366c2ad899add00437ab5da4191a2ccc3c3ac00
+SHA1: 3272fe1a80d2736dfd2867fe1662231590cc248e
+MD5sum: 0219084f5549d37cb392c72426ab2020
+Description: memory usage monitor
+ colorful, text-terminal based.
+
+Package: mempeak-dbgsym
+Source: mempeak
+Version: 0.29
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 60
+Depends: mempeak (= 0.29)
+Priority: optional
+Section: debug
+Filename: pool/main/m/mempeak/mempeak-dbgsym_0.29_arm64.deb
+Size: 15384
+SHA256: e393b4c981102c3cd3ed58fcb662bbd9d98d299badfb427df31adc93c94fe301
+SHA1: 5bc7022600c8a8837f3b56f58ad634d17ebb5f04
+MD5sum: 6b427747a1cea27b8b6073188cc092d1
+Description: debug symbols for mempeak
+Build-Ids: 1b5d3056ec3ca80b2804c609c102ba2aae6f0f6b
 
 Package: mmc-build-system
 Version: 4.27
