@@ -922,22 +922,39 @@ Description: Michal Maruska handy elisp function (general utility)
  This should probably be only generically useful code, without
  anything strictly personal.
 
-Package: mmc-emacs-devel
-Version: 2.18
+Package: mmc-emacs-config
+Version: 1.17
 Architecture: all
 Maintainer: Michal Maruska <mmaruska@gmail.com>
-Installed-Size: 229
+Installed-Size: 95
+Depends: emacsen
+Priority: extra
+Section: editors
+Filename: pool/main/m/mmc-emacs-config/mmc-emacs-config_1.17_all.deb
+Size: 20076
+SHA256: 70dbcc40c8b3c84f6c6fe2d5fb24331eb8411a321a1de1f1a93ef89e30f90662
+SHA1: 84bc7f81772103edd50dbf55bc38e5cbd40ee89c
+MD5sum: e100010cd83ffcad951c80c57bc389f3
+Description: mmc's configuration. not for general use!?
+Dgit: e408a44bbadb8ba359c705c1210a9e7e5d1c864f
+
+Package: mmc-emacs-devel
+Version: 2.19
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 236
 Depends: emacsen, mmc-shell, cscope-el | xcscope-el, mmc-emacs (>= 2.3), mmc-emacs-config, elpa-paredit, elpa-yaml-mode, cmake-data
 Recommends: pylint
 Enhances: python-mode
 Priority: extra
 Section: editors
-Filename: pool/main/m/mmc-emacs-devel/mmc-emacs-devel_2.18_all.deb
-Size: 45964
-SHA256: a40b7a5183e06fcbd3e82875c19828190f38b70bc8987aee3c96e3a2a2621a85
-SHA1: c06cd54bd500c6db7a348dcd2084d6036a4ecfec
-MD5sum: 8f8e80856a1f2cca786838551e53681e
+Filename: pool/main/m/mmc-emacs-devel/mmc-emacs-devel_2.19_all.deb
+Size: 47728
+SHA256: 55a4c89513a91735d5a8873439c108e71fa15812e60060306bd25ad61190eea0
+SHA1: c04f109837716b32228dddfe2c3397f9c0cefc14
+MD5sum: 68696e9569f095ccab715ae761944e0c
 Description: mmc's elisp, handy for "development", programming
+Dgit: a9bd77645b099aeb36e98253af081cad9e22a266
 
 Package: mmc-shell
 Version: 3.66
