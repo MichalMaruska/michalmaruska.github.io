@@ -35,6 +35,45 @@ Description: transitional package for https support
  This is a dummy transitional package - https support has been moved into
  the apt package in 1.5. It can be safely removed.
 
+Package: colortail
+Version: 0.3.4+maruska
+Architecture: arm64
+Maintainer: Elías Alejandro Año Mendoza <ealmdz@gmail.com>
+Installed-Size: 102
+Depends: libc6 (>= 2.38), libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
+Homepage: http://joakimandersson.se/projects/colortail/
+Priority: optional
+Section: utils
+Filename: pool/main/c/colortail/colortail_0.3.4+maruska_arm64.deb
+Size: 21508
+SHA256: 1dd9090e3794b183c91c60efdffba558776544aae3147f5f7d4927242d939a71
+SHA1: 7d93830d79c25cea2e4a9ca1bbed07f7ef2ef14e
+MD5sum: 0ab4d29bc8ea2d46027d9ff50dc21a2f
+Description: log colorizer that makes log checking easier
+ colortail works like tail but can optionally read one or more config
+ files where it's specified which patterns results in which colors.
+ Colortail uses regular expressions (see regex(7)) to determine which
+ lines and parts of lines to print in which colors.
+Dgit: ae24c0d2561951203c60422d76fbb6f48a35f3eb
+
+Package: colortail-dbgsym
+Source: colortail
+Version: 0.3.4+maruska
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Elías Alejandro Año Mendoza <ealmdz@gmail.com>
+Installed-Size: 230
+Depends: colortail (= 0.3.4+maruska)
+Priority: optional
+Section: debug
+Filename: pool/main/c/colortail/colortail-dbgsym_0.3.4+maruska_arm64.deb
+Size: 177292
+SHA256: 57250e5feb67ddb0772026a702d75f4c20f92eab6310ae76c277e973316d9588
+SHA1: d5b7336c7492e6e1c20de687e932eb277dad70df
+MD5sum: 3154f0ce8647f0a2f4efb29f2067a56f
+Description: debug symbols for colortail
+Build-Ids: 860d1e803292196106c48596ce66eb41de4f74c8
+
 Package: debhelper
 Version: 13.20-maruska
 Architecture: all
@@ -157,6 +196,40 @@ SHA1: cc9f825cbaed3dba9992bd5dcc138c56449cdcb6
 MD5sum: e8414b95a2d9226f7ca99276831bc14d
 Description: mmc's (simple) applications in Gauche
 
+Package: git
+Version: 1:2.45.2-1-maruska
+Architecture: arm64
+Maintainer: Jonathan Nieder <jrnieder@gmail.com>
+Installed-Size: 48995
+Depends: libc6 (>= 2.38), libcurl3t64-gnutls (>= 7.56.1), libexpat1 (>= 2.0.1), libpcre2-8-0 (>= 10.34), zlib1g (>= 1:1.2.2), perl, liberror-perl, git-man (>> 1:2.45.2-1), git-man (<< 1:2.45.2-1-.)
+Recommends: ca-certificates, patch, less, ssh-client
+Suggests: gettext-base, git-daemon-run | git-daemon-sysvinit, git-doc, git-email, git-gui, gitk, gitweb, git-cvs, git-mediawiki, git-svn
+Breaks: bash-completion (<< 1:1.90-1), cogito (<= 0.18.2+), dgit (<< 5.1~), git-buildpackage (<< 0.6.5), git-el (<< 1:2.32.0~rc2-1~), gitosis (<< 0.2+20090917-7), gitpkg (<< 0.15), guilt (<< 0.33), openssh-client (<< 1:6.8), stgit (<< 0.15), stgit-contrib (<< 0.15)
+Provides: git-completion, git-core
+Multi-Arch: foreign
+Homepage: https://git-scm.com/
+Priority: optional
+Section: vcs
+Filename: pool/main/g/git/git_2.45.2-1-maruska_arm64.deb
+Size: 8543664
+SHA256: ec345c5873a3a1499d40cf653b785d0ca9b70d48a6c58d15fe02aca7d798a6b1
+SHA1: b21ecb1b296aa41a259736f084d2046309e19563
+MD5sum: 4b2542ced5dde2403983aec222d0a6b9
+Description: fast, scalable, distributed revision control system
+ Git is popular version control system designed to handle very large
+ projects with speed and efficiency; it is used for many high profile
+ open source projects, most notably the Linux kernel.
+ .
+ Git falls in the category of distributed source code management tools.
+ Every Git working directory is a full-fledged repository with full
+ revision tracking capabilities, not dependent on network access or a
+ central server.
+ .
+ This package provides the git main components with minimal dependencies.
+ Additional functionality, e.g. a graphical user interface and revision
+ tree visualizer, tools for interoperating with other VCS's, or a web
+ interface, is provided as separate git* packages.
+
 Package: git-all
 Source: git
 Version: 1:2.45.2-1-maruska
@@ -253,6 +326,24 @@ Description: fast, scalable, distributed revision control system (git-daemon ser
  for running git-daemon permanently.  Unlike git-daemon-run, this
  package provides the usual sysvinit service management commands
  ("service git-daemon start/stop") for git-daemon.
+
+Package: git-dbgsym
+Source: git
+Version: 1:2.45.2-1-maruska
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Jonathan Nieder <jrnieder@gmail.com>
+Installed-Size: 69649
+Depends: git (= 1:2.45.2-1-maruska)
+Priority: optional
+Section: debug
+Filename: pool/main/g/git/git-dbgsym_2.45.2-1-maruska_arm64.deb
+Size: 43970584
+SHA256: f9cba16e54501f387ad79926014c1e49f644dadffde00aa253fa404fec1bf330
+SHA1: 8241d3b057c3963d1c90b32bf3610ca5da11fd02
+MD5sum: f7d01fa5507adf6f80b98c07cc079b36
+Description: debug symbols for git
+Build-Ids: 31a54d503c827141790e0ea6407e19686892a5da 3a3397a2a2a55f1295c0ec59b464a45b94613208 45134747f05ba44faa3f60ff384af773818571e8 6dcef16785fa08e069c2e26a400b3e203ccc15ec 713464ebae2e6804bf18f40817c7edeffbe0d5f7 82596b35fa2a5b5e35d1f297730638b685d8ca59 96eeb5fd3b6945e9c3656f79320e83ba6485f07e a5ce74ee861ead87db8c7b659ea0a2911f508cef c9b7fca0223601c5bb8819e43f09399ea6b619b1 fca3b583398eaef2457dcc6b6d6a9545b3081eeb
 
 Package: git-doc
 Source: git
@@ -522,6 +613,81 @@ Description: fast, scalable, distributed revision control system (web interface)
  .
  If libcgi-fast-perl is installed, gitweb can also be run over FastCGI
  (and served by nginx, for example).
+
+Package: human
+Version: 1.5
+Architecture: arm64
+Maintainer: Michal Maruska <maruska@gmail.com>
+Installed-Size: 75
+Depends: libc6 (>= 2.34)
+Priority: extra
+Section: utils
+Filename: pool/main/h/human/human_1.5_arm64.deb
+Size: 4568
+SHA256: 5d079f015ab8a9dcb286cbd966704e761e73f32d045e182fb91ab9652b3e38a3
+SHA1: 0ad24b280dee476bbba356e0171d98527b37fed0
+MD5sum: 5ad1b9b78fb39aa653437bcd62a77cfa
+Description: filter - replace numbers on each line with human notation
+ stolen from some GNU utility  ls(1) maybe
+
+Package: human-dbgsym
+Source: human
+Version: 1.5
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Michal Maruska <maruska@gmail.com>
+Installed-Size: 29
+Depends: human (= 1.5)
+Priority: optional
+Section: debug
+Filename: pool/main/h/human/human-dbgsym_1.5_arm64.deb
+Size: 9932
+SHA256: fd98f4dc8fd3e3a2632e3fa78aaa255337d9280ab06bfc1034a6eadf73217604
+SHA1: 06f94d35572bb99a2ef154f65e197dd3901ee029
+MD5sum: d3838fbaa06c3bc7baaae10f427f0523
+Description: debug symbols for human
+Build-Ids: b9681d9c86c00df21820bd2d1c49b640d70a3cd0
+
+Package: libapache-mod-fastcgi
+Version: 2.4.8-maruska
+Architecture: arm64
+Maintainer: Sam Vilain <sam@vilain.net>
+Installed-Size: 243
+Depends: apache2, libc6 (>= 2.38)
+Priority: optional
+Section: non-free/web
+Filename: pool/main/liba/libapache-mod-fastcgi/libapache-mod-fastcgi_2.4.8-maruska_arm64.deb
+Size: 59660
+SHA256: 2ccf072d2c7eb283d0387b018ebd2926aef1222cb4e56e580e1966984a8341ba
+SHA1: 12d8b0e739700fa93c192eece2e8295d45a2001f
+MD5sum: ddeca7d755f3a330dddf4c4f82274771
+Description: FastCGI module for Apache
+ This package contains a FastCGI module for the Apache (2.x) web
+ server.
+ .
+ FastCGI is an open standard for communicating between a web server
+ and a web application, supported by many free and closed source web
+ servers.  It provides CGI-like functionality, without the need to
+ program to a particular server API.
+Dgit: 0a1ffae8d732f0c2c63ea27a5f0edbcc5b88fc04
+
+Package: libapache-mod-fastcgi-dbgsym
+Source: libapache-mod-fastcgi
+Version: 2.4.8-maruska
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Sam Vilain <sam@vilain.net>
+Installed-Size: 118
+Depends: libapache-mod-fastcgi (= 2.4.8-maruska)
+Priority: optional
+Section: non-free/debug
+Filename: pool/main/liba/libapache-mod-fastcgi/libapache-mod-fastcgi-dbgsym_2.4.8-maruska_arm64.deb
+Size: 96396
+SHA256: 479c3d56af3eb75fb8f0aba7f6092c2ae6bdf7bcdf03307e55513c3a3ee6d47c
+SHA1: 3a4202aadb4c28e6c5f84592222fcca442587a81
+MD5sum: 8d44ceaaf507fe4ee0b6624b3b25f62f
+Description: debug symbols for libapache-mod-fastcgi
+Build-Ids: cbacec0aa7582d31a944923df84eb18ae8b4362b
 
 Package: libapt-pkg-doc
 Source: apt
@@ -915,6 +1081,40 @@ MD5sum: de94cfe223017f4854bcb53acf424bea
 Description: Things I use for work from home.
 Dgit: 76036ad2e0bb8b0419adb36cabfabb96d9849edd
 
+Package: mempeak
+Version: 0.29
+Architecture: arm64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 81
+Depends: libc6 (>= 2.34)
+Priority: extra
+Section: utils
+Filename: pool/main/m/mempeak/mempeak_0.29_arm64.deb
+Size: 12156
+SHA256: 1e2de5379dc82d5a3fb3f0c92366c2ad899add00437ab5da4191a2ccc3c3ac00
+SHA1: 3272fe1a80d2736dfd2867fe1662231590cc248e
+MD5sum: 0219084f5549d37cb392c72426ab2020
+Description: memory usage monitor
+ colorful, text-terminal based.
+
+Package: mempeak-dbgsym
+Source: mempeak
+Version: 0.29
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 60
+Depends: mempeak (= 0.29)
+Priority: optional
+Section: debug
+Filename: pool/main/m/mempeak/mempeak-dbgsym_0.29_arm64.deb
+Size: 15384
+SHA256: e393b4c981102c3cd3ed58fcb662bbd9d98d299badfb427df31adc93c94fe301
+SHA1: 5bc7022600c8a8837f3b56f58ad634d17ebb5f04
+MD5sum: 6b427747a1cea27b8b6073188cc092d1
+Description: debug symbols for mempeak
+Build-Ids: 1b5d3056ec3ca80b2804c609c102ba2aae6f0f6b
+
 Package: mmc-build-system
 Version: 4.28
 Architecture: all
@@ -1001,6 +1201,22 @@ SHA1: 9e17fae88484ed916cec0869bbf506025a07be22
 MD5sum: 2c69d3cada7a09bd0c97248f2a844c22
 Description: collection of shell scripts
 
+Package: mod-languagesubdomain
+Version: 2.3-maruska2
+Architecture: arm64
+Maintainer: Michal Maruska <michal@ruska.it>
+Installed-Size: 7
+Depends: apache2
+Priority: extra
+Section: httpd
+Filename: pool/main/m/mod-languagesubdomain/mod-languagesubdomain_2.3-maruska2_arm64.deb
+Size: 1704
+SHA256: 62d8453a312b41b683d13098eb58913ab25b2107099551d3333a1e92901b9d97
+SHA1: 17e62c55e2f7aec1ecdc88c94f42741dbd3485e9
+MD5sum: d3bb1117470162d2024b9914f519d392
+Description: Based on hostname, decide the priority of languages.
+Dgit: 256c64e796883e5c5f44a79cb0d5ef9ca254018c
+
 Package: postgresql-doc-15
 Source: postgresql-15
 Version: 15.4-3-maruska2
@@ -1065,6 +1281,52 @@ Description: documentation for the PostgreSQL database management system
  .
  PostgreSQL is an object-relational SQL database management system.
 Dgit: 375a467ab3dfaa40feaa3ebc70eacb0c0e229637
+
+Package: reprepro
+Version: 5.4.1-1maruska
+Architecture: arm64
+Maintainer: Bastian Germann <bage@debian.org>
+Installed-Size: 1358
+Depends: libarchive13t64 (>= 3.0.4), libbz2-1.0, libc6 (>= 2.38), libdb5.3t64, libgpg-error0 (>= 1.14), libgpgme11t64 (>= 1.23.2), liblzma5 (>= 5.1.1alpha+20120614), zlib1g (>= 1:1.2.0.2), zstd
+Recommends: apt (>= 0.9.4)
+Suggests: pinentry-curses, gnupg-agent, inoticoming, lzip (>= 1.11-2)
+Priority: optional
+Section: utils
+Filename: pool/main/r/reprepro/reprepro_5.4.1-1maruska_arm64.deb
+Size: 431548
+SHA256: b2c440a7e3d6077b9fd5b0b3278f25a6f753296d06a34c7ea74242879b0ff460
+SHA1: 80b57e72fd141b54c8f101fda8138716009a28e9
+MD5sum: fc5f97ebc00333a5604edda719fc8995
+Description: Debian package repository producer
+ reprepro is a tool to manage a repository of Debian packages
+ (.deb, .udeb, .dsc, ...). It stores files either being
+ injected manually or downloaded from some other repository
+ (partially) mirrored into one pool/ hierarchy.
+ Managed packages and files are stored in a Berkeley DB,
+ so no database server is needed.
+ Checking signatures of mirrored repositories and creating
+ signatures of the generated Package indices is supported.
+ .
+ This package also contains the changestool and rredtool helpers.
+Dgit: dd3b42ede4c1877673e51fcf6330f5653b561c41
+
+Package: reprepro-dbgsym
+Source: reprepro
+Version: 5.4.1-1maruska
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Bastian Germann <bage@debian.org>
+Installed-Size: 2091
+Depends: reprepro (= 5.4.1-1maruska)
+Priority: optional
+Section: debug
+Filename: pool/main/r/reprepro/reprepro-dbgsym_5.4.1-1maruska_arm64.deb
+Size: 1122248
+SHA256: 20507f5a184de228692210042beedf62845456f6e5accd74ebf958c14f54e5eb
+SHA1: d63ba071b8abca4e34133d51184791ab1bc7b6cd
+MD5sum: fc8f1a55231ff179574057c5cf13ef92
+Description: debug symbols for reprepro
+Build-Ids: 0cc1d09dab18e8be7f1e571e0df4a52a59a93601 4fa86e69df60fee769453fccf13607f40515f938 c74c0d261ed6755d52f437ce529092b5d978ece2
 
 Package: sawfish-data
 Source: sawfish
@@ -1474,6 +1736,40 @@ Description: interactive viewer for Graphviz dot files
   * Animated jumping between nodes.
   * Highlights node/edge under mouse.
 
+Package: xkb-reset
+Version: 1.1.5
+Architecture: arm64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 75
+Depends: libc6 (>= 2.34), libx11-6
+Priority: extra
+Section: x11
+Filename: pool/main/x/xkb-reset/xkb-reset_1.1.5_arm64.deb
+Size: 3072
+SHA256: b7465daaae6b45ac741e8d1f505db71ae1d880dbf0c05282bef5bfb5e3150534
+SHA1: 4c0770bb4a9ca17ff9a2d575860bbdcfd0511e73
+MD5sum: bdaa7639d3ae02b204e1ddc4bc89e70c
+Description: command to reset the X keyboard state (shift, group, mouse emulation)
+Dgit: 1a0a3bb23da922294649a00d0d32cdd1551957f2
+
+Package: xkb-reset-dbgsym
+Source: xkb-reset
+Version: 1.1.5
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 18
+Depends: xkb-reset (= 1.1.5)
+Priority: optional
+Section: debug
+Filename: pool/main/x/xkb-reset/xkb-reset-dbgsym_1.1.5_arm64.deb
+Size: 2400
+SHA256: 984c8e3586c326cd18a2a6c80ee48a959326c5eee7b18e1d787186c00b18c93e
+SHA1: 5d2701cf6729687c70352ab278f58cf38e4c6c44
+MD5sum: 9c6e15a49c3b4cb80ee723bfd1aa5935
+Description: debug symbols for xkb-reset
+Build-Ids: 0a9d67f65647c72d4437ce276b7edf0aaf81e98b
+
 Package: xorg-server-source
 Source: xorg-server
 Version: 2:21.1.14-1-maruska2
@@ -1585,6 +1881,31 @@ Description: XV Documentation in Postscript and HTML formats
  .
  This package contains the xv documentation in postscript and HTML formats.
 
+Package: zsh
+Version: 5.9-8-maruska1
+Architecture: arm64
+Maintainer: Debian Zsh Maintainers <pkg-zsh-devel@lists.alioth.debian.org>
+Installed-Size: 4108
+Depends: zsh-common (= 5.9-8-maruska1), libc6 (>= 2.38), libcap2 (>= 1:2.10), libtinfo6 (>= 6), debianutils (>= 5.3-1~)
+Recommends: libgdbm6t64 (>= 1.16), libncursesw6 (>= 6), libpcre2-8-0 (>= 10.22)
+Suggests: zsh-doc
+Homepage: https://www.zsh.org/
+Priority: optional
+Section: shells
+Filename: pool/main/z/zsh/zsh_5.9-8-maruska1_arm64.deb
+Size: 844288
+SHA256: d251fa396d068e8ffdd2fcf990253880eb7a2c0ff9c24d07ea0ec7945bb5c972
+SHA1: 394cb05fd102ad2a04e7f26f71ca8777bef0375e
+MD5sum: c0fcb942dc7f1e9a8569cab6491c8605
+Description: shell with lots of features
+ Zsh is a UNIX command interpreter (shell) usable as an
+ interactive login shell and as a shell script command
+ processor. Of the standard shells, zsh most closely resembles
+ ksh but includes many enhancements. Zsh has command-line editing,
+ built-in spelling correction, programmable command completion,
+ shell functions (with autoloading), a history mechanism, and a
+ host of other features.
+
 Package: zsh-common
 Source: zsh
 Version: 5.9-8-maruska1
@@ -1617,6 +1938,51 @@ Description: architecture independent files for Zsh
  architectures.
 Dgit: 831ca64ad134595e35ea3e421822f4429d3d5cae
 
+Package: zsh-dbgsym
+Source: zsh
+Version: 5.9-8-maruska1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Zsh Maintainers <pkg-zsh-devel@lists.alioth.debian.org>
+Installed-Size: 3058
+Depends: zsh (= 5.9-8-maruska1)
+Priority: optional
+Section: debug
+Filename: pool/main/z/zsh/zsh-dbgsym_5.9-8-maruska1_arm64.deb
+Size: 1849660
+SHA256: 07a678bbf816ba4e2208cebd60c823a3a13c1a076d0251992ce5cb1c87f6d4e2
+SHA1: 6592edd1140a5fb569ad2c468f59e28ae7da4173
+MD5sum: 18eec23a35fe42b3752ca17347660c5e
+Description: debug symbols for zsh
+Build-Ids: 00fbde6e0fe8d14ac913975ccc8cae50d1e52e4a 0234876f5fc3d6bd05abcb79114db91412a56bfb 0ab683cdec8e47a355cb59de3bb0c8ea1cd15afb 110f9f1276db584eb0ea73ce250be3294af6bcf9 14aadbcee4a4aeefcd63dcfb0af7e11ffda11ef8 182223c3c33393c84522c685ae4e32a9ef5150ff 209f723a6557f4675b5c974555f08e00c034a901 2353ade64f2d2de2037fd585046ef7c61e749ace 27c1a5649e6c4bb35bfcd667640229e226f86e9e 316efdbed53a93f0a506fb3548dd50b7f9d19d61 377473d329d908406a4d71755be86e8c0a2d6491 37a7e66cf03f5d8db3db3b4d0db5a01de5c89fae 3bce9053a570fe1fa97f24d8830236af496c4f52 3c300798c77f45f3392dea6cc4a77b350c2a1325 3f7037457a2dfec818619877b836dc6f85d5916b 48e53432b29639fffeac0cb5f319e7ff61e865c5 54f2f7437cbfc596ce53c93cd427fb1f8224d376 5a6ade4b5c4ce63814f4897fffaab3f067568c31 5bbd32bbd4c3f347b77265ef5becc8f7153702ad 5dc3421f19f1ebd3da76ca279b8d60bbf606ea06 6f1fc6d454100d1e64374f111568bd35f3146553 83d14c448768f01a378c075207d859a1ce6e8b0b 8686318b1f4cfa196d96055aa34a3cfa498bf662 8db06b033bddd0fc85c6c38d2f56e8f8880ec98b 8e81f294ec021da2778068bb6ef9caf6e3f30e21 92833240bd6d30749843f3a9965a40d2f21f7a6a 92db5386aadcd7437939abdc42f2981ef4f02b57 968af5fbe88a6a62e986a6be367495a44e3b9e06 98abe64935ed24a32b128fab24741883aec5d087 9b7e3f2562a329a853e27510c360baea2a4a5ce1 a09b3e6ea31e6bd8ed09cb425933ae46095cfeda a5cfb8d6269ce06ad1e987bfe4743c71ab690841 bb44aa94789326811f6af82a1320433b04d51f0b d4a940bc230dc65f9f7ea78e2e12ad4c0f1c91b2 dad2712a1e387bb2d0cd566fac6bc43e00c490fb e33f700fbe5051cd0df0da3b1fe43c077421f9a1 e5bfa6ea0a370b3a1e20e7f2d33a27f61701d708 ecef8c827e2be89c72f602e6fcb36e8ab5ddf0a2 ed29d0355fa4c49a043cc7704b9267b25221148d
+
+Package: zsh-dev
+Source: zsh
+Version: 5.9-8-maruska1
+Architecture: arm64
+Maintainer: Debian Zsh Maintainers <pkg-zsh-devel@lists.alioth.debian.org>
+Installed-Size: 684
+Depends: zsh-common (= 5.9-8-maruska1)
+Homepage: https://www.zsh.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/z/zsh/zsh-dev_5.9-8-maruska1_arm64.deb
+Size: 273204
+SHA256: 6e97f3e8f7e8620c52495ac9e5856d10e31095692276f169a060791e68794baf
+SHA1: 0b387b06df92bb3a56cd6c1b29fdbf6c19c46925
+MD5sum: 6c85db8c63a860914c65cd4d86bbe592
+Description: shell with lots of features (development files)
+ Zsh is a UNIX command interpreter (shell) usable as an
+ interactive login shell and as a shell script command
+ processor. Of the standard shells, zsh most closely resembles
+ ksh but includes many enhancements. Zsh has command-line editing,
+ built-in spelling correction, programmable command completion,
+ shell functions (with autoloading), a history mechanism, and a
+ host of other features.
+ .
+ This package contains headers and scripts necessary to compile
+ third-party modules.
+
 Package: zsh-doc
 Source: zsh
 Version: 5.9-8-maruska1
@@ -1644,4 +2010,59 @@ Description: zsh documentation - info/HTML format
  .
  This contains the documentation in GNU info and HTML formats.
 Dgit: 831ca64ad134595e35ea3e421822f4429d3d5cae
+
+Package: zsh-static
+Source: zsh
+Version: 5.9-8-maruska1
+Architecture: arm64
+Maintainer: Debian Zsh Maintainers <pkg-zsh-devel@lists.alioth.debian.org>
+Installed-Size: 2582
+Depends: debianutils (>= 5.3-1~)
+Recommends: zsh-common
+Suggests: zsh-doc
+Built-Using: glibc (= 2.40-4), libcap2 (= 1:2.66-5), ncurses (= 6.5-2), pcre2 (= 10.44-5)
+Homepage: https://www.zsh.org/
+Priority: optional
+Section: shells
+Filename: pool/main/z/zsh/zsh-static_5.9-8-maruska1_arm64.deb
+Size: 1070432
+SHA256: d7defa92dad050f4a496df493bb8268c049a402d7f581cabb85c5ec789404509
+SHA1: 6e8795c585044bfe5e9a39264da6d6ec16bd2d64
+MD5sum: 09d8f0a9898fd415d815084e0e71e37d
+Description: shell with lots of features (static link)
+ Zsh is a UNIX command interpreter (shell) usable as an
+ interactive login shell and as a shell script command
+ processor. Of the standard shells, zsh most closely resembles
+ ksh but includes many enhancements. Zsh has command-line editing,
+ built-in spelling correction, programmable command completion,
+ shell functions (with autoloading), a history mechanism, and a
+ host of other features.
+ .
+ This is the statically-compiled version of the shell, i.e. it doesn't
+ require any dynamically loaded libraries to be present and will work
+ even if libraries zsh (in general) needs are broken on the system. So
+ it's more robust in case of a broken system.
+ .
+ It though also has a few limitations compared to the normal,
+ dynamically linked, e.g. it can't use NSS related functionality which
+ might result in minor imperfections like e.g. user names being shown
+ in the prompt.
+
+Package: zsh-static-dbgsym
+Source: zsh
+Version: 5.9-8-maruska1
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Debian Zsh Maintainers <pkg-zsh-devel@lists.alioth.debian.org>
+Installed-Size: 3935
+Depends: zsh-static (= 5.9-8-maruska1)
+Priority: optional
+Section: debug
+Filename: pool/main/z/zsh/zsh-static-dbgsym_5.9-8-maruska1_arm64.deb
+Size: 1513764
+SHA256: df925de008329778dfdfb90f84c80c12c190096b1c91515f953b071c0ccc2ab8
+SHA1: 961fa6a9793dc1a542e2c1074648ec690603c580
+MD5sum: 5e1d8e43571d9c2b5c2e5e722d4148e0
+Description: debug symbols for zsh-static
+Build-Ids: b55ef9fad47e6fa83d8e04fc4b2a38b0eb0da4e8
 
