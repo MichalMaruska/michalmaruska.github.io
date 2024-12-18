@@ -221,6 +221,22 @@ Description: Build in nspawn containers
  Debspawn is designed to be both easy to use by humans, as well as easy
  to integrate into an automated package build workflow.
 
+Package: dircolors
+Version: 1.7
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 35
+Depends: emacs22 | emacsen, emacsen-common (>= 2.0.8)
+Priority: extra
+Section: editors
+Filename: pool/main/d/dircolors/dircolors_1.7_all.deb
+Size: 5736
+SHA256: 87308ce29da356a0a0dcb441d284ff793fd5e96be974990f4c39e82dbbd4fd03
+SHA1: ac0f4b6ed8defd18f1b8a46f0ac96590bfa94bdd
+MD5sum: 83833fa9bebcca120b695c95c033050d
+Description: ls --color inside emacs
+Dgit: d380871952ca7f608ad024a8857836ab12e7088d
+
 Package: fork-plugin
 Version: 3.0.1
 Architecture: amd64
