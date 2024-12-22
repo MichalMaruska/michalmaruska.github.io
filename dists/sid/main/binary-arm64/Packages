@@ -2302,18 +2302,18 @@ Build-Ids: 0a9d67f65647c72d4437ce276b7edf0aaf81e98b
 
 Package: xorg-server-source
 Source: xorg-server
-Version: 2:21.1.14-1-maruska2
+Version: 2:21.1.15-2-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 106
 Homepage: https://www.x.org/
 Priority: optional
 Section: x11
-Filename: pool/main/x/xorg-server/xorg-server-source_21.1.14-1-maruska2_all.deb
-Size: 16252
-SHA256: 160f8a63f2309476924e941764873943c1cc6cb68f2ba0bdfa0b0fbed4956fc7
-SHA1: 16d1fe04878df7a4b080429ce20d7054759004d1
-MD5sum: 2a4a6e7b6ce3036dddca179d3c52e9f0
+Filename: pool/main/x/xorg-server/xorg-server-source_21.1.15-2-maruska_all.deb
+Size: 16496
+SHA256: eb172b991ebc67fd5011cda27577730aa042c237d2c7dcec94710a5d33f9f358
+SHA1: a6803ea5a169ee6dd41eae9fc750067f575eed93
+MD5sum: e37a89068caa4c9b793bab81829a12eb
 Description: Xorg X server - source files
  This package provides original Debian (with Debian patches already
  applied, and autotools files updated) sources for the X.Org ('Xorg')
@@ -2323,10 +2323,11 @@ Description: Xorg X server - source files
  .
  Unless you are building a software product using X server sources,
  you probably want xserver-xorg and/or xserver-xorg-core instead.
+Dgit: a769ec703640de4dedb5437b42b1b281efa4ec6c
 
 Package: xserver-common
 Source: xorg-server
-Version: 2:21.1.14-1-maruska2
+Version: 2:21.1.15-2-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 149
@@ -2337,13 +2338,14 @@ Multi-Arch: foreign
 Homepage: https://www.x.org/
 Priority: optional
 Section: x11
-Filename: pool/main/x/xorg-server/xserver-common_21.1.14-1-maruska2_all.deb
-Size: 31964
-SHA256: 07c4e0af5545b903cfbf7a13083886208ace7d679c8367f85244e568164b475b
-SHA1: ffeb623776aaadcdc6f067797353a56bfd6cde60
-MD5sum: fed3d26010e5787703b20851996ac005
+Filename: pool/main/x/xorg-server/xserver-common_21.1.15-2-maruska_all.deb
+Size: 32184
+SHA256: ad4454ef93cc3526b8d2d86d85d0054c18544d3261f322a0f8ae77f3043b0ba5
+SHA1: 4a33e12b2136239b5788240627f7c7c5fca1bc5c
+MD5sum: 74a26eab999e2c18adb85878a2dc6e63
 Description: common files used by various X servers
  This package provides files necessary for all X.Org based X servers.
+Dgit: a769ec703640de4dedb5437b42b1b281efa4ec6c
 
 Package: xserver-xorg-input-evdev-dev
 Source: xserver-xorg-input-evdev
