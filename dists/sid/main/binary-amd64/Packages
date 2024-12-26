@@ -2123,19 +2123,19 @@ Build-Ids: f79147acc4e38f8037b07ca88be187fac2f4f581
 
 Package: make
 Source: make-color
-Version: 4.3-4.1maruska1
+Version: 4.4.1-maruska
 Architecture: amd64
 Maintainer: Michal Maruska <mmaruska@gmail.com>
-Installed-Size: 1491
-Depends: libc6 (>= 2.34)
+Installed-Size: 1666
+Depends: libc6 (>= 2.38)
 Suggests: make-doc
 Priority: standard
 Section: devel
-Filename: pool/main/m/make-color/make_4.3-4.1maruska1_amd64.deb
-Size: 293192
-SHA256: fd63e0d7fad0fae57ee12be73ef777c01ae38d2aede52b7ae2b242af67565cba
-SHA1: 93939cc53361aa08ea303c8419f71a7591f3b803
-MD5sum: 236ca59bee123000eea9e059cea50a69
+Filename: pool/main/m/make-color/make_4.4.1-maruska_amd64.deb
+Size: 321264
+SHA256: 259a5cb0b104ef7a973a332bc40b99cea8a936783432ab6869aa5ce894ce442f
+SHA1: 414f3169984da017d9606264d34f4829bdea34ed
+MD5sum: 957cfd977b27f9c8c090c2c4bafde4dd
 Description: Utility for Directing compilation.
  GNU Make is an utility which controls the generation of executables and
  other target files of a program from the program's source files. It
@@ -2145,25 +2145,25 @@ Description: Utility for Directing compilation.
  where a set of target files must be created based on a set of input
  files, based on dependency and processing rules. Indeed, Make is a
  general purpose dependency solver.
-Dgit: 982657e976689e11cf3fa03b75e841d78ae934fb
+Dgit: 47a214d450b1d7ad510d1b664b58736baf274004
 
 Package: make-dbgsym
 Source: make-color
-Version: 4.3-4.1maruska1
+Version: 4.4.1-maruska
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Michal Maruska <mmaruska@gmail.com>
-Installed-Size: 325
-Depends: make (= 4.3-4.1maruska1)
+Installed-Size: 406
+Depends: make (= 4.4.1-maruska)
 Priority: optional
 Section: debug
-Filename: pool/main/m/make-color/make-dbgsym_4.3-4.1maruska1_amd64.deb
-Size: 297248
-SHA256: 1c48c156acd1789767677b9c9f41e4efba25e87fd557ef68c9d2033b676c7428
-SHA1: 9c7ede7c2624a6c85eadabb4b955294a414c370e
-MD5sum: ad34985e4ebe1827c4365dd4d3652c23
+Filename: pool/main/m/make-color/make-dbgsym_4.4.1-maruska_amd64.deb
+Size: 326696
+SHA256: 01fff4256f76103418d0f820915daebfd0a0a4b4ebcd0b90daaf6cd838ca6f31
+SHA1: 5cbd778f0b3af54e5b30b5e07a861e8342f79976
+MD5sum: 1e5c1dc8881907edc37036d6a3786fa1
 Description: debug symbols for make
-Build-Ids: be52d445cd97199c5aac2bf932415484d012e32e
+Build-Ids: 0b0655a42d86cbae3de7984e3e05bb165e1efa45
 
 Package: maruska-base-graphics
 Source: maruska-top
