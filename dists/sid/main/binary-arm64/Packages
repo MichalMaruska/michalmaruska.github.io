@@ -218,24 +218,24 @@ MD5sum: e8414b95a2d9226f7ca99276831bc14d
 Description: mmc's (simple) applications in Gauche
 
 Package: git
-Version: 1:2.45.2-1-maruska
+Version: 1:2.47.1-1-maruska
 Architecture: arm64
 Maintainer: Jonathan Nieder <jrnieder@gmail.com>
-Installed-Size: 48995
-Depends: libc6 (>= 2.38), libcurl3t64-gnutls (>= 7.56.1), libexpat1 (>= 2.0.1), libpcre2-8-0 (>= 10.34), zlib1g (>= 1:1.2.2), perl, liberror-perl, git-man (>> 1:2.45.2-1), git-man (<< 1:2.45.2-1-.)
+Installed-Size: 49478
+Depends: libc6 (>= 2.38), libcurl3t64-gnutls (>= 7.56.1), libexpat1 (>= 2.0.1), libpcre2-8-0 (>= 10.34), zlib1g (>= 1:1.2.2), perl, liberror-perl, git-man (>> 1:2.47.1-1), git-man (<< 1:2.47.1-1-.)
 Recommends: ca-certificates, patch, less, ssh-client
-Suggests: gettext-base, git-daemon-run | git-daemon-sysvinit, git-doc, git-email, git-gui, gitk, gitweb, git-cvs, git-mediawiki, git-svn
+Suggests: gettext-base, git-doc, git-email, git-gui, gitk, gitweb, git-cvs, git-mediawiki, git-svn
 Breaks: bash-completion (<< 1:1.90-1), cogito (<= 0.18.2+), dgit (<< 5.1~), git-buildpackage (<< 0.6.5), git-el (<< 1:2.32.0~rc2-1~), gitosis (<< 0.2+20090917-7), gitpkg (<< 0.15), guilt (<< 0.33), openssh-client (<< 1:6.8), stgit (<< 0.15), stgit-contrib (<< 0.15)
 Provides: git-completion, git-core
 Multi-Arch: foreign
 Homepage: https://git-scm.com/
 Priority: optional
 Section: vcs
-Filename: pool/main/g/git/git_2.45.2-1-maruska_arm64.deb
-Size: 8543664
-SHA256: ec345c5873a3a1499d40cf653b785d0ca9b70d48a6c58d15fe02aca7d798a6b1
-SHA1: b21ecb1b296aa41a259736f084d2046309e19563
-MD5sum: 4b2542ced5dde2403983aec222d0a6b9
+Filename: pool/main/g/git/git_2.47.1-1-maruska_arm64.deb
+Size: 8663188
+SHA256: bf00db9f098b342b37335ba71c5ef58cbcd0eb561fb19fce45399fb8ba33126c
+SHA1: 8c39ea368187fa77043bd9f7ce053360c53b7976
+MD5sum: 352eb1d15907e5d281da10feaabae7c1
 Description: fast, scalable, distributed revision control system
  Git is popular version control system designed to handle very large
  projects with speed and efficiency; it is used for many high profile
@@ -250,6 +250,7 @@ Description: fast, scalable, distributed revision control system
  Additional functionality, e.g. a graphical user interface and revision
  tree visualizer, tools for interoperating with other VCS's, or a web
  interface, is provided as separate git* packages.
+Dgit: 769a172ead2bd8d46568c1156d52c56e9126be4a
 
 Package: git-all
 Source: git
@@ -350,21 +351,21 @@ Description: fast, scalable, distributed revision control system (git-daemon ser
 
 Package: git-dbgsym
 Source: git
-Version: 1:2.45.2-1-maruska
+Version: 1:2.47.1-1-maruska
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Jonathan Nieder <jrnieder@gmail.com>
-Installed-Size: 69649
-Depends: git (= 1:2.45.2-1-maruska)
+Installed-Size: 70272
+Depends: git (= 1:2.47.1-1-maruska)
 Priority: optional
 Section: debug
-Filename: pool/main/g/git/git-dbgsym_2.45.2-1-maruska_arm64.deb
-Size: 43970584
-SHA256: f9cba16e54501f387ad79926014c1e49f644dadffde00aa253fa404fec1bf330
-SHA1: 8241d3b057c3963d1c90b32bf3610ca5da11fd02
-MD5sum: f7d01fa5507adf6f80b98c07cc079b36
+Filename: pool/main/g/git/git-dbgsym_2.47.1-1-maruska_arm64.deb
+Size: 44428816
+SHA256: 81ad95c4873c9af2b539c7c4c189edd97fa2c584a4e1f8d0e695ce96f40b560a
+SHA1: 8bb5e4187e6a87ed367c3bd36017e2ed5346b81a
+MD5sum: 22e6cdabc2219f2e9f051a43f86b95fb
 Description: debug symbols for git
-Build-Ids: 31a54d503c827141790e0ea6407e19686892a5da 3a3397a2a2a55f1295c0ec59b464a45b94613208 45134747f05ba44faa3f60ff384af773818571e8 6dcef16785fa08e069c2e26a400b3e203ccc15ec 713464ebae2e6804bf18f40817c7edeffbe0d5f7 82596b35fa2a5b5e35d1f297730638b685d8ca59 96eeb5fd3b6945e9c3656f79320e83ba6485f07e a5ce74ee861ead87db8c7b659ea0a2911f508cef c9b7fca0223601c5bb8819e43f09399ea6b619b1 fca3b583398eaef2457dcc6b6d6a9545b3081eeb
+Build-Ids: 23d9ccf1955405148cf112ebfa06bc30ad2b3903 2ebd83414049fd3bbe256fa462280737189d2254 3ca89f52a97026190a9f0c922de875d07c631047 555a90a94495c167b243f6243581f5435cfc1600 9b7146fae560df0549460afd2183146af7b5836e a589a08be3d05ed655819b52082d9a7bf4145525 a9f8df751296dc8788440cb89583df4bd25455ff c6104f07ca0c233ed2656842fc46e73d9ef7f579 e154ca895bb7b93ee6b27555553b2d88099bcf29 e9ee95ed69acefb4b36fb10df69724349edc0559
 
 Package: git-doc
 Source: git
