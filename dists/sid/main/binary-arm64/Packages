@@ -1433,7 +1433,7 @@ Description: debug symbols for mempeak
 Build-Ids: 1b5d3056ec3ca80b2804c609c102ba2aae6f0f6b
 
 Package: mmc-build-system
-Version: 4.28
+Version: 4.29
 Architecture: all
 Maintainer: Michal Maruska <mmaruska@gmail.com>
 Installed-Size: 93
@@ -1441,13 +1441,13 @@ Depends: git-buildpackage, zsh, mmc-shell (>> 2.8), libapt-pkg-perl, libgetopt-l
 Conflicts: mmc-shell (= 2.8)
 Priority: extra
 Section: misc
-Filename: pool/main/m/mmc-build-system/mmc-build-system_4.28_all.deb
-Size: 23420
-SHA256: 11373c58b70ebb992bf4c995a7fbb587b97db25168b1f425076b87f92d91755c
-SHA1: b70e8396c943b1e41e9051ea2aebf91c70d70650
-MD5sum: 04735e46db40bd8304d7b730ae49ef39
+Filename: pool/main/m/mmc-build-system/mmc-build-system_4.29_all.deb
+Size: 23536
+SHA256: 14aceca15658b1f9d511e5384df3fee4bee1659429f0d13eefd858fe9e7bf02b
+SHA1: a4707ed2f80ef733d5d5acaf2a5d372399860b3f
+MD5sum: 582d1e341d9aa11c9a896860efdf9824
 Description: collection of shell scripts
-Dgit: 918bccd2912974f1fcb7f4adaf08c299e41efad6
+Dgit: 70fdfc5452739276b06023ee835761ea981e03aa
 
 Package: mmc-emacs
 Version: 2.13
