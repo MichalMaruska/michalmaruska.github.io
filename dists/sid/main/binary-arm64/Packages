@@ -2408,25 +2408,27 @@ Dgit: a769ec703640de4dedb5437b42b1b281efa4ec6c
 
 Package: xserver-xorg-input-evdev-dev
 Source: xserver-xorg-input-evdev
-Version: 1:2.10.6-3maruska
+Version: 1:2.11.0-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 103
+Multi-Arch: foreign
 Homepage: https://www.x.org
 Priority: optional
 Section: libdevel
-Filename: pool/main/x/xserver-xorg-input-evdev/xserver-xorg-input-evdev-dev_2.10.6-3maruska_all.deb
-Size: 89080
-SHA256: 219d12931d9855d13f8108ba2056c06528847b3776ea68695c44ba8c66196c64
-SHA1: 30212bc203dd99568b74ae1b46aa2cc321f1b809
-MD5sum: ab11cee21ac1225ae70f43e4865b93ee
+Filename: pool/main/x/xserver-xorg-input-evdev/xserver-xorg-input-evdev-dev_2.11.0-1-maruska_all.deb
+Size: 89076
+SHA512: d45f87df3ea378a598d501e7c0eab62c0d2958075e4e081215c5ec829c1a8a40c5a6f896c0c5aadaedeb85c4d560c2ed666b8374a3d055d829f40770b4f3bdc4
+SHA256: 7290a3f95c69d5b47cc58a55194df8eed62d447645cf194f237fcdb5bb2dad6f
+SHA1: bfcd1855323b732f523b1e10a00aa64e3be98348
+MD5sum: 9c20d9f2a35b63590a2c608e78ed741f
 Description: X.Org X server -- evdev input driver (development headers)
  This package provides the development headers for the evdev input driver
  found in xserver-xorg-input-evdev. Non-developers likely have little use
  for this package.
  .
  This package is built from the X.org xf86-input-evdev driver module.
-Dgit: 14d3c269673ef0efc7513594d4eeb597b87674bc
+Dgit: acfc8bde7991305a611fcbd8f7864495636a1f7d
 
 Package: xserver-xorg-input-synaptics-dev
 Source: xserver-xorg-input-synaptics
