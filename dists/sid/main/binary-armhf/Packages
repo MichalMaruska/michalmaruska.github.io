@@ -950,21 +950,22 @@ Description: Things I use for work from home.
 Dgit: 76036ad2e0bb8b0419adb36cabfabb96d9849edd
 
 Package: mmc-build-system
-Version: 4.29
+Version: 4.30
 Architecture: all
 Maintainer: Michal Maruska <mmaruska@gmail.com>
-Installed-Size: 93
+Installed-Size: 95
 Depends: git-buildpackage, zsh, mmc-shell (>> 2.8), libapt-pkg-perl, libgetopt-long-descriptive-perl
 Conflicts: mmc-shell (= 2.8)
 Priority: extra
 Section: misc
-Filename: pool/main/m/mmc-build-system/mmc-build-system_4.29_all.deb
-Size: 23536
-SHA256: 14aceca15658b1f9d511e5384df3fee4bee1659429f0d13eefd858fe9e7bf02b
-SHA1: a4707ed2f80ef733d5d5acaf2a5d372399860b3f
-MD5sum: 582d1e341d9aa11c9a896860efdf9824
+Filename: pool/main/m/mmc-build-system/mmc-build-system_4.30_all.deb
+Size: 23760
+SHA512: 0764ab2d829d76bb9d3751fa7b25def434476b5736068958358d1c21d975a8380df3a32186fb40ef94908ec409cced2b91471c0677be04ee2d7a82abc936f7de
+SHA256: 03f722d0e36c09515b783c7ac3941d3c17511e9771f146158dbd55e4b77c9dd1
+SHA1: 44b44077441821e5c34c6e69d658ef8610576d61
+MD5sum: 81cd5002703a3876f1b78a66c3c70d9b
 Description: collection of shell scripts
-Dgit: 70fdfc5452739276b06023ee835761ea981e03aa
+Dgit: 48cb5b40703ec314058ea3a8c5166a061d525573
 
 Package: mmc-emacs
 Version: 2.13
