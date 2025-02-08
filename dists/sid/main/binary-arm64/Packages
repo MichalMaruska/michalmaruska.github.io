@@ -852,11 +852,11 @@ Multi-Arch: foreign
 Priority: optional
 Section: doc
 Filename: pool/main/a/apt/libapt-pkg-doc_2.9.28-maruska_all.deb
-Size: 966984
-SHA512: 3aef55f216edc81f2f8823be8314bef60f97418c6c650bf1cacf31fdb62f0f0442da0f8da41ea724c7018d6caed1ca6d9930fb052a24ca30f3b4fb08d204cdbc
-SHA256: 495f0b621661b4ff242a4f46242f4d90036522dbd4f93e44f3b9cc8ab3f398d1
-SHA1: d70011861dc045aa34994d256889e5c419cf3613
-MD5sum: 6ca6b8a7876aa07f175ae60d14f76afc
+Size: 967124
+SHA512: d7755bb0de45cf4aacbdff57551aab0e1058abfc1c079973ce86f2f278424a433474ba92d70f6e7552c7e173716557aa6a70b869ae8f6889672dc97e1e9ccdb1
+SHA256: 21a3e81d4f14163dafdd722207c99a801c152b1e66866dee3343edc34cfbcba9
+SHA1: e74f7af140d0cab7b651aedec9a9b6e53322f432
+MD5sum: 6b745c1d711e46521fdeeb395b926fa8
 Description: documentation for APT development
  This package contains documentation for development of the APT
  Debian package manipulation program and its libraries.
@@ -2597,8 +2597,8 @@ Homepage: https://www.x.org
 Priority: optional
 Section: libdevel
 Filename: pool/main/x/xserver-xorg-input-evdev/xserver-xorg-input-evdev-dev_2.11.0-1-maruska_all.deb
-SHA512: d45f87df3ea378a598d501e7c0eab62c0d2958075e4e081215c5ec829c1a8a40c5a6f896c0c5aadaedeb85c4d560c2ed666b8374a3d055d829f40770b4f3bdc4
 Size: 89076
+SHA512: d45f87df3ea378a598d501e7c0eab62c0d2958075e4e081215c5ec829c1a8a40c5a6f896c0c5aadaedeb85c4d560c2ed666b8374a3d055d829f40770b4f3bdc4
 SHA256: 7290a3f95c69d5b47cc58a55194df8eed62d447645cf194f237fcdb5bb2dad6f
 SHA1: bfcd1855323b732f523b1e10a00aa64e3be98348
 MD5sum: 9c20d9f2a35b63590a2c608e78ed741f

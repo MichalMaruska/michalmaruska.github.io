@@ -62,8 +62,8 @@ Provides: xorg-driver-input
 Priority: optional
 Section: debian-installer
 Filename: pool/main/x/xserver-xorg-input-evdev/xserver-xorg-input-evdev-udeb_2.11.0-1-maruska_amd64.udeb
-SHA512: aae10883fe5c1df40381d9e5266bcd34dbc5cbb6d0cd0007ff122f894606302baa24260756574abdb3c055493944960a2e2320d7d2ac206c7551897fef384b2a
 Size: 95340
+SHA512: aae10883fe5c1df40381d9e5266bcd34dbc5cbb6d0cd0007ff122f894606302baa24260756574abdb3c055493944960a2e2320d7d2ac206c7551897fef384b2a
 SHA256: 632106580645dfa48f8fcfa1a81bb52d925fba4fa3fd38d7c58028fc3b8b1d09
 SHA1: fab5aae5b726e8ed38c0ff984fd57263f200a623
 MD5sum: 6cf79369c185fdc40932128ec76143d8

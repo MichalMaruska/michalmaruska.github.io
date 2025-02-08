@@ -1,11 +1,11 @@
 -----BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA512
+Hash: SHA256
 
 Origin: maruska
 Suite: focal
 Codename: focal
 Version: 20.3
-Date: Sat, 08 Feb 2025 11:55:09 UTC
+Date: Sat, 08 Feb 2025 13:07:52 UTC
 Architectures: amd64
 Components: main
 Description: My releases (improved & my own packages) for Ubuntu focal
@@ -47,15 +47,15 @@ SHA512:
  e55430906fb1b3e5350d15f009e75ca30bb2d6fea460dc7fddcd71daebcbebdc6a90d219d7cf5a306116c9352f0b96098a36f85744bb808e3389f6a6c59e07e9 152 main/debug/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEj5ld3379Nuk8fyGZPAkJW65/ICgFAmenRh4ACgkQPAkJW65/
-IChFNAv+JVl/y+TutUy+wMIoB01J3DahLuvgQ1oTemSFbWMx68PEt/06665SXp/+
-7Z2xTdisbhQZEuh5oE8YyutpHRVnuxiKh0Ex5FxTVEF9aNOts/t8fa1ezp5Y6Omf
-JtgBsD6BBb3C+UDBUALNNyTfU+oPzibVQyig6WLsDnauQMVFByNwUOMjh07pqecE
-XJ5ytqIVNzeULyezy9pTi0JsqAa6tIQZgCI2fmqmWGpXixe2zYUlEhdCjp5t+IaL
-M+ZRh1uPwX0tJvyTZk8O//IeerBePqQBfeQ9s4aKAE70XwvMFts7LmBGxv78mR4q
-d+W/88JXWAGoZRHjVfWtakmiu59OtQV05JVu+4beh7M7Toi07uqxLq5uQevbe6Q+
-FRI+th3yWEQuWpHv8Cvm2ajpzaSw0B9xlL9q2RVkUSuSf6jIOId8Pb1/f5gpy3xG
-iSeWppZgMhxlx27h0Pm7+wvuMsFGRAobkLVwaMQdl5B1EKMGeQNc5gAl+jNbXPPh
-sbApC6n7
-=qWFm
+iQGzBAEBCAAdFiEEj5ld3379Nuk8fyGZPAkJW65/ICgFAmenVygACgkQPAkJW65/
+ICiTgAv/cmmEEzOb44uppsbJMPhgB6N5s/kJKYJHb0ESDmvqaYnsn6Dtw5XfScnX
+C9nuE1q9RzwMvSRkO5vLR8zYzTEmjPcB4XNkR9L3MoyG9fxi73Xe17a2l0YIMJKg
+tZl5xzZ+U8S8ko+9R/DT+wXX8NOv40Fgj1ssQVQ9IpL6YOin37kC7Sj5K+sBVWcU
+65WSLk0rLcXY0pdUVGSJhdOMylNXOimLyj4Wzh8b18zNH3pGD68VA4Gm4J8kW/ND
+NNQzIi9cxZrU/lczD/l936BOQk5ZPI815yC9Kk2oUsmi+nluzXfkDwbs5ZQyTyqY
+6OAZ46jfHL9HLIR7QjtodifeULIqclzRQV5D4mXJbxiyvoqd6wuTDwSPEPgnMV7A
+pPGmJAOOsxAt53ZkfilKdnoO6iaMgX9RMKiDMdQroV3UgiLQA2OEepJPjPncvVsY
+LzCBTJZIR1grJZMT4tK+PUNhKOkgugQP4l+mJDku2q36a2aUkj8ths/B+otaAX2g
+Mz/tHRCl
+=z6Ic
 -----END PGP SIGNATURE-----
