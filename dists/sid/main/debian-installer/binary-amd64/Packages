@@ -19,20 +19,22 @@ Dgit: 4e79f28575832b02efe2d3c593da1639acf4f3ae
 
 Package: libx11-6-udeb
 Source: libx11
-Version: 2:1.8.10-1-maruska
+Version: 2:1.8.12-1-maruska
 Architecture: amd64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 1365
-Depends: libc6-udeb (>= 2.40), libxcb1-udeb (>= 1.12)
+Depends: libc6-udeb (>= 2.41), libxcb1-udeb (>= 1.12)
 Priority: optional
 Section: debian-installer
-Filename: pool/main/libx/libx11/libx11-6-udeb_1.8.10-1-maruska_amd64.udeb
-Size: 577240
-SHA256: c73624e60a457cb242dcab53f578593e2ca67972fdf6dfb4feb5ed32b64ace8e
-SHA1: e580d5f2d8a9916abf2989ac13a88075218ff4a7
-MD5sum: 93f5b3369711e627892db7d1acf5d671
+Filename: pool/main/libx/libx11/libx11-6-udeb_1.8.12-1-maruska_amd64.udeb
+Size: 574236
+SHA512: e7fdcf707733393def5a714c7199bad6de52403a5dbc2027a4eaa0709eda47fa9578094bb54a606264a6c802712658b3dc07af90ff00f93dbe6a20cbd86aacce
+SHA256: b919b37302260a1a54c2cd24df697f31fd6cd4736a99beb240db2baf2a00a443
+SHA1: 713cecee0008aaff963eac8e0c4dc993c494c231
+MD5sum: 936d987390a6c894f010779c2f3b7971
 Description: X11 client-side library
  This is a udeb, or a microdeb, for the debian-installer.
+Dgit: 9533476ee50eba5a6e354758977cd382fdc19f46
 
 Package: xserver-xorg-core-udeb
 Source: xorg-server

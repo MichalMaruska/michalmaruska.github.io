@@ -1190,18 +1190,19 @@ Build-Ids: 7bc4c1bb8cf9f0f250d4a83df85e1be6067574e6
 
 Package: libx11-data
 Source: libx11
-Version: 2:1.8.10-1-maruska
+Version: 2:1.8.12-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 1345
 Multi-Arch: foreign
 Priority: optional
 Section: x11
-Filename: pool/main/libx/libx11/libx11-data_1.8.10-1-maruska_all.deb
-Size: 106956
-SHA256: 4248f110c09677d12fa82056cbfcdcbc914cc55e699f54da5cf17aed4b2672a3
-SHA1: bac78409d124798cef45d84f4037a5d23d381944
-MD5sum: dcd26a9374b753fec1ef53e60d6ce768
+Filename: pool/main/libx/libx11/libx11-data_1.8.12-1-maruska_all.deb
+Size: 107008
+SHA512: b84d544d00fb1c1e7078e92e2f895475b3f7ec5ac285cf6419a1db0fff14f8fb815bde6c5dba5e14dfd6c346dfad9d69e79df0d707c1e3f25ba800fb580e7878
+SHA256: 2563b359dd6a62b8419cc60015e76de63de32a197bf55bf5eae9325b7b4e1e17
+SHA1: d162cd0332dd09e559ab5490b741487d5d563239
+MD5sum: ea8f0ca52fda4f5236304e137babcefe
 Description: X11 client-side library
  This package provides the locale data files for libx11.
  .
@@ -1210,21 +1211,23 @@ Description: X11 client-side library
  .
  This module can be found at
  https://gitlab.freedesktop.org/xorg/lib/libX11
+Dgit: 9533476ee50eba5a6e354758977cd382fdc19f46
 
 Package: libx11-doc
 Source: libx11
-Version: 2:1.8.10-1-maruska
+Version: 2:1.8.12-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 9914
 Multi-Arch: foreign
 Priority: optional
 Section: doc
-Filename: pool/main/libx/libx11/libx11-doc_1.8.10-1-maruska_all.deb
-Size: 1995356
-SHA256: e996f9da71a2cc56477f0d203544df9a0782389e780804d52df7be0b498bb661
-SHA1: 3224b036326ab4265e74476ae22ac2c4915a268f
-MD5sum: 750315a2652000e5484871953fe351de
+Filename: pool/main/libx/libx11/libx11-doc_1.8.12-1-maruska_all.deb
+Size: 1994316
+SHA512: 3422635d79784bb9de0a2fb2d4b06e5538d8ad8d07d61579045bfc37715a65e1e194123e50983dd9b3b7e79b9fdfebf4d6bef7b4aa498481bf8ccc0cd74f84c4
+SHA256: 942b0015bf8a3c763ec1a245bfcae8c3d40d3b85c668703b5fd6cac7131d0b6a
+SHA1: 2e03d6cd064cc633f6949329bcc470fa643c485c
+MD5sum: d3ff268cebf8bd08eb0a923856cc5d54
 Description: X11 client-side library (development documentation)
  This package provides a client interface to the X Window System, otherwise
  known as 'Xlib'.  It provides a complete API for the basic functions of the
@@ -1238,6 +1241,7 @@ Description: X11 client-side library (development documentation)
  .
  This module can be found at
  https://gitlab.freedesktop.org/xorg/lib/libX11
+Dgit: 9533476ee50eba5a6e354758977cd382fdc19f46
 
 Package: make
 Source: make-color
