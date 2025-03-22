@@ -2702,6 +2702,24 @@ SHA1: 9e17fae88484ed916cec0869bbf506025a07be22
 MD5sum: 2c69d3cada7a09bd0c97248f2a844c22
 Description: collection of shell scripts
 
+Package: mmc-zsh
+Version: 2.10
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 104
+Depends: zsh, zsh-syntax-highlighting, lsb-release
+Priority: extra
+Section: shells
+Filename: pool/main/m/mmc-zsh/mmc-zsh_2.10_all.deb
+Size: 28736
+SHA512: efe38807dd060169b8a2aaa75d2c8826d1e52b99f70a066cf45706d994226828339d4b1816ab2e81ceef62f9261d345a4734d1130b7745949a2473d2fa05b0ab
+SHA256: 5f4d90ca59dc08fb07bf7cd4fee89560bfa0cb7cf8f0ac81d2028321d077100e
+SHA1: bb476ac1fc64843a582d122d25c01b89571b3147
+MD5sum: b5cdaefd8284384e655d6f4e9e0bcf0b
+Description: Michal Maruska's convenient zsh files
+ My site-wise configs for zsh (line editing widgets)...
+Dgit: ce6feee43ac1383065216e5f7cc513e3a30f4271
+
 Package: mod-languagesubdomain
 Version: 2.3-maruska2
 Architecture: amd64
