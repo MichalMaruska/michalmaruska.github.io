@@ -1865,25 +1865,26 @@ Description: documentation for the PostgreSQL database management system
 
 Package: postgresql-doc-17
 Source: postgresql-17
-Version: 17.2-1-maruska
+Version: 17.4-1-maruska
 Architecture: all
 Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
-Installed-Size: 16865
+Installed-Size: 16917
 Multi-Arch: foreign
 Homepage: http://www.postgresql.org/
 Priority: optional
 Section: doc
-Filename: pool/main/p/postgresql-17/postgresql-doc-17_17.2-1-maruska_all.deb
-Size: 2118336
-SHA256: b699c763602c1c20f9896616888413293c177e49c197725ca8528d35aa77f9fe
-SHA1: 84fb1def08f5773fd823749cb6b113e554553cf3
-MD5sum: 19187b59cc3f6b5dca71f99ce1443ace
+Filename: pool/main/p/postgresql-17/postgresql-doc-17_17.4-1-maruska_all.deb
+Size: 2127680
+SHA512: 0de51b0309d7b3d94d67e9c5a6bbab84717c21a81c61f93f08665dccde20c968ad9fd0dea85ca53049b765ba588520d0664886a3cc048d0f99253b7254d77648
+SHA256: d09e686332ac1bd9b0498e0f248f906f2f8cbab263003da16ffac8f84f4e2e38
+SHA1: 7f71c138885a2d3442c0be45b6831b444edc1f7d
+MD5sum: 11ce96945020c377ee5af2146e51ee76
 Description: documentation for the PostgreSQL database management system
  This package contains all README files, user manual, and examples for
  PostgreSQL 17. The manual is in HTML format.
  .
  PostgreSQL is an object-relational SQL database management system.
-Dgit: 375a467ab3dfaa40feaa3ebc70eacb0c0e229637
+Dgit: 08377f4760c037b8ba166c3c3f9483edf6a9296d
 
 Package: postgresql-plperl-17
 Source: postgresql-17
