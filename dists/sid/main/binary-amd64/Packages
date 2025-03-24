@@ -2668,7 +2668,7 @@ Description: mmc's configuration. not for general use!?
 Dgit: e408a44bbadb8ba359c705c1210a9e7e5d1c864f
 
 Package: mmc-emacs-devel
-Version: 2.19
+Version: 2.20
 Architecture: all
 Maintainer: Michal Maruska <mmaruska@gmail.com>
 Installed-Size: 236
@@ -2677,13 +2677,14 @@ Recommends: pylint
 Enhances: python-mode
 Priority: extra
 Section: editors
-Filename: pool/main/m/mmc-emacs-devel/mmc-emacs-devel_2.19_all.deb
-Size: 47728
-SHA256: 55a4c89513a91735d5a8873439c108e71fa15812e60060306bd25ad61190eea0
-SHA1: c04f109837716b32228dddfe2c3397f9c0cefc14
-MD5sum: 68696e9569f095ccab715ae761944e0c
+Filename: pool/main/m/mmc-emacs-devel/mmc-emacs-devel_2.20_all.deb
+Size: 47868
+SHA512: a5805f46fafa916742181323efc6cbf6a48c5cc49b82cecedec7b0fefda495c4a42c9bea57032ea93fd410cd767bf6b10f3358712a77806820d032550707e5f9
+SHA256: 7628d7f2ce39c875fd4b4ae5340d41e591300e0002eea09d680c2c43c626ade4
+SHA1: 24978b87aabad21d108d5fd9b8aabfa123dfbebb
+MD5sum: 827824bdd85953cfb645b56423869cae
 Description: mmc's elisp, handy for "development", programming
-Dgit: a9bd77645b099aeb36e98253af081cad9e22a266
+Dgit: 195707c224b753e4c7c787502cac733baebd0927
 
 Package: mmc-shell
 Version: 3.66
