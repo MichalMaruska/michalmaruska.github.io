@@ -1637,7 +1637,7 @@ Description: collection of shell scripts
 Dgit: 31d5a437c7b1fd535698492a464298b75b502d45
 
 Package: mmc-emacs
-Version: 2.13
+Version: 2.14
 Architecture: all
 Maintainer: Michal Maruska <mmaruska@gmail.com>
 Installed-Size: 527
@@ -1645,14 +1645,16 @@ Depends: emacsen
 Enhances: gnuserv
 Priority: extra
 Section: editors
-Filename: pool/main/m/mmc-emacs/mmc-emacs_2.13_all.deb
-Size: 113208
-SHA256: bb138d9874e12e915f21f333c3acc235a9913be18a381e3376fa27a33cd79446
-SHA1: d7cb5a5840be4622e454feeec208dffec3acbd7b
-MD5sum: 9b649660f1467779917dbb51467e5d05
+Filename: pool/main/m/mmc-emacs/mmc-emacs_2.14_all.deb
+Size: 113400
+SHA512: 4ddaefe93dc10cb0076468230aeeabb4eb45ecff159b8a15a429567e37052fc9c2963d5a44a407d0541e7d35c916f78e2bef6d2283789f48b241ac70ebddb9d3
+SHA256: 2a81df7f6c0dd00b89ab210c600378c824550f20ef5249806251ea36e503c5dc
+SHA1: 64af565be2e6ec5e1f0e8b98607c5dea9eebc037
+MD5sum: aa5d01fb95ee900a8da93de4903a7ef2
 Description: Michal Maruska handy elisp function (general utility)
  This should probably be only generically useful code, without
  anything strictly personal.
+Dgit: 6bd7325edd7de751c88cc4e97107d3257f3f8528
 
 Package: mmc-emacs-config
 Version: 1.17
