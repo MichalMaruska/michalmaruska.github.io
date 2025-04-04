@@ -1,21 +1,21 @@
 Package: libinput10-udeb
 Source: libinput
-Version: 1.27.1-1-maruska
+Version: 1.28.1-1-maruska
 Architecture: amd64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 513
-Depends: libc6-udeb (>= 2.40), libevdev2-udeb (>= 1.13.3+dfsg), libmtdev1-udeb (>= 1.1.7), libudev1-udeb (>= 247)
+Installed-Size: 541
+Depends: libc6-udeb (>= 2.41), libevdev2-udeb (>= 1.13.4+dfsg), libmtdev1-udeb (>= 1.1.7), libudev1-udeb (>= 247)
 Priority: optional
 Section: debian-installer
-Filename: pool/main/libi/libinput/libinput10-udeb_1.27.1-1-maruska_amd64.udeb
-Size: 141436
-SHA512: a1c4e178e0ca835897d9c4c853b10d165f9f3c796d5ff6f402117c12d49d1e8d1a6d1c84476b5f34dc66f79b0a232f01913004d31cdd0b8a3c8e36860bed869d
-SHA256: 85aac742a0d75217450caab1c78235ee278971382c4abedfd7c71f0874bba97d
-SHA1: 07a80e47a33e5b06fc0ecccf0e7da64823ee7d72
-MD5sum: de4553c8c67c9bb59f37e1b396469a09
+Filename: pool/main/libi/libinput/libinput10-udeb_1.28.1-1-maruska_amd64.udeb
+Size: 149864
+SHA512: b7ea1d567db413768bc0640ac22888889a39481a5c2decb26936597333c06d5b3472c8435d063adce7ac968d0f895b54afc481ccda0a2692da5dba2cd339c1bd
+SHA256: d0e1bdf932cc7ddebacdddf9d4354b6db65fbd22cbbe6339878956731219bce4
+SHA1: d5dbeb57e56aa47857a7a3d16efebd501df069da
+MD5sum: 17473c760349696b3f97e5706221ba7a
 Description: input device management and event handling library - shared library
  This is a udeb, or a microdeb, for the debian-installer.
-Dgit: 4e79f28575832b02efe2d3c593da1639acf4f3ae
+Dgit: fd07af69f7ccdc999e3c7aade644e8d97f7a468f
 
 Package: libx11-6-udeb
 Source: libx11
