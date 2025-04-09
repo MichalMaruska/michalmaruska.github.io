@@ -4210,20 +4210,21 @@ Description: debug symbols for postgresql-server-dev-17
 Build-Ids: f4798b816998e9e7dc1d5d5b15219828ca89aa79
 
 Package: reprepro
-Version: 5.4.1-1maruska
+Version: 5.4.6-maruska
 Architecture: amd64
 Maintainer: Bastian Germann <bage@debian.org>
-Installed-Size: 1222
-Depends: libarchive13 (>= 3.0.4), libbz2-1.0, libc6 (>= 2.34), libdb5.3, libgpg-error0 (>= 1.14), libgpgme11 (>= 1.2.0), liblzma5 (>= 5.1.1alpha+20120614), zlib1g (>= 1:1.2.0.2), zstd
+Installed-Size: 1269
+Depends: libarchive13t64 (>= 3.0.4), libbz2-1.0, libc6 (>= 2.38), libdb5.3t64, libgpg-error0 (>= 1.14), libgpgme11t64 (>= 1.23.2), liblzma5 (>= 5.1.1alpha+20120614), zlib1g (>= 1:1.2.0.2), zstd
 Recommends: apt (>= 0.9.4)
-Suggests: pinentry-curses, gnupg-agent, inoticoming, lzip (>= 1.11-2)
+Suggests: pinentry-curses, gpg-agent, inoticoming, lzip (>= 1.11-2)
 Priority: optional
 Section: utils
-Filename: pool/main/r/reprepro/reprepro_5.4.1-1maruska_amd64.deb
-Size: 459356
-SHA256: 65c976daef5ac404dc62b8f2ffe7206ad3f6740c063502cc4d43bc99b16becb8
-SHA1: f76604541f469c792fcf1830676230ad2e70dd04
-MD5sum: d4dfc3df09bccea5e1c8a05998ac3f74
+Filename: pool/main/r/reprepro/reprepro_5.4.6-maruska_amd64.deb
+Size: 468664
+SHA512: 714a661febca9f086f43b8ca4da590d5b26d20e8a0150982a94019fa0bade6681dc2e6ab8de90c3f55dde2919b8d7dc65efa595b3e47eecb1539c25da0cd101d
+SHA256: 4fc189ec2c66a408b4ccc37dce041e8bd8b0a43742781782bf8ac7e1789bf978
+SHA1: 061f2ebaa980d4ab5ae6a51fa51658b58949f023
+MD5sum: ba0ce334697b7ef0a27299e17ec9b0da
 Description: Debian package repository producer
  reprepro is a tool to manage a repository of Debian packages
  (.deb, .udeb, .dsc, ...). It stores files either being
@@ -4235,25 +4236,26 @@ Description: Debian package repository producer
  signatures of the generated Package indices is supported.
  .
  This package also contains the changestool and rredtool helpers.
-Dgit: 0580842dfa8849ef718ff572039a1fa0ba71af62
+Dgit: 839d150d7bcbf6484c8b56670cd79ec79f086390
 
 Package: reprepro-dbgsym
 Source: reprepro
-Version: 5.4.1-1maruska
+Version: 5.4.6-maruska
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Bastian Germann <bage@debian.org>
-Installed-Size: 1174
-Depends: reprepro (= 5.4.1-1maruska)
+Installed-Size: 1471
+Depends: reprepro (= 5.4.6-maruska)
 Priority: optional
 Section: debug
-Filename: pool/main/r/reprepro/reprepro-dbgsym_5.4.1-1maruska_amd64.deb
-Size: 1101364
-SHA256: ef0c696e2debaca7374f8eefd32d9e3d571dc6cfd8de54b1e2c167b67835b876
-SHA1: e3655da8c0bbd2247f1a93d66013759695913f45
-MD5sum: 626d09dda34640557c5477a1bbf46fd7
+Filename: pool/main/r/reprepro/reprepro-dbgsym_5.4.6-maruska_amd64.deb
+Size: 1125676
+SHA512: 92407c429c8599534f6799955789b5b6616101d5f3cb52281aaa85764d5c17ad20ff4cc981ce7f09d9f8ed7d503b10f26cab3f5d6364e846fc31d4ae463e2b75
+SHA256: 403473b67357edfa42fcad1a6446089d0e27b096880eb5d4167f9b8568cefa54
+SHA1: 4c226643c8fdeca30d6f61e7d94cccfa4f703852
+MD5sum: 861aa587fe5aa613f78e3d6c570d58be
 Description: debug symbols for reprepro
-Build-Ids: 2c3233f00d12ab33e1d8752f0f1cc99aa620ddd5 b80b74681bb34823f311fc08633c4ec426f28924 e80e1c4d81959ae74fb31bd7b20de6c219056482
+Build-Ids: 17d29a26f317d54a735d064ad1573b82096b2f47 728c0327b2f32f563c6933d2e1f65c7c55871836 7f0a870110e323c8741f15449e5dbd4f9a98d731
 
 Package: rxvt-beta
 Version: 2.7.20-maruska
