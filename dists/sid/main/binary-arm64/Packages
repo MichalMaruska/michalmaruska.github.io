@@ -1712,21 +1712,23 @@ Description: mmc's elisp, handy for "development", programming
 Dgit: 195707c224b753e4c7c787502cac733baebd0927
 
 Package: mmc-shell
-Version: 3.66
+Version: 3.67
 Architecture: all
 Maintainer: Michal Maruska <mmaruska@gmail.com>
-Installed-Size: 215
+Installed-Size: 216
 Depends: zsh, gawk, git, mp3info, mpg123
 Recommends: gst123, systemd-container, alsa-utils, tdb-tools
 Conflicts: tt-tools (<< 1.13)
 Priority: extra
 Section: misc
-Filename: pool/main/m/mmc-shell/mmc-shell_3.66_all.deb
-Size: 54052
-SHA256: c0364bb4ad5625594ca13b924531085c7a0ad52dd7b3484ea8ccc4ba805f7e4d
-SHA1: 9e17fae88484ed916cec0869bbf506025a07be22
-MD5sum: 2c69d3cada7a09bd0c97248f2a844c22
+Filename: pool/main/m/mmc-shell/mmc-shell_3.67_all.deb
+Size: 54216
+SHA512: 0b66121501eaaac5ffae357c91770de0794a6d8cd1a5ece2038177c5e4853dd7d753fd25b09e4ad56f3762e79aa1c43997a86e424a6a41a57c508c31dc931bc6
+SHA256: 49e0eebdd95a92897c5a9d3998a41cf2c7e13d7166ffb3f85ecee9195e5dca57
+SHA1: 52de063ce4142c3dc2516126e8dbbe21aa620bf2
+MD5sum: 8de4ea02a081cd97bb6b037526fbd4e6
 Description: collection of shell scripts
+Dgit: 8f5038dd616fff7ffd49bf28ea688c83845670f8
 
 Package: mmc-zsh
 Version: 2.11
