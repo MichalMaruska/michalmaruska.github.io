@@ -1311,7 +1311,7 @@ Description: This should be enough to make maruska happy with the desktop.
 Dgit: 5ff2e72457295f53640915d3780f657f19af0be7
 
 Package: maruska-preference
-Version: 3.60
+Version: 3.61
 Architecture: all
 Maintainer: Michal Maruska <mmaruska@gmail.com>
 Installed-Size: 228
@@ -1319,14 +1319,14 @@ Depends: zsh, mmc-zsh, mmc-shell (>= 3.28), file, eza
 Recommends: gauche-eog, git-core, gitk, rlwrap, devscripts, mempeak, human, less, highlight, sudo, acpi-support-base, acpi-support, acpi-fakekey, brightnessctl, python3-docutils
 Priority: extra
 Section: shells
-Filename: pool/main/m/maruska-preference/maruska-preference_3.60_all.deb
-Size: 35112
-SHA512: f57d6032cb1183d1109619caa9b112330a1daddb51d13a21f9510ea58f8dc54001f4c5bcccbeda0e386761bc02bbe636109aa889a931d41253e975e978861280
-SHA256: c9c3e586dcd1dd4ba72cc07ba7d0f3dae73a41ae76da3bd679b3e4019fe81615
-SHA1: 726dfb2a550b7d767a75b7d6b826f15d08cbafbd
-MD5sum: fcdeb7e3474fed0e808bfe3e9c656608
+Filename: pool/main/m/maruska-preference/maruska-preference_3.61_all.deb
+Size: 35208
+SHA512: 966fc9d6537c252d6f6178ecc32186b2d9deb0b480dfa4536a1ef7766eaa4959568a3fb68853f83123df3a3626f3d436faf7d9595657b8da0e5762b36590ad5a
+SHA256: 515f0ff5fad65be62175abefb0f179ca044282e8dbcb01d52d734a039ba9aee4
+SHA1: dcf4b78fb7b7ebc214b2a3695070a23e0c82335e
+MD5sum: 2a7fc7de20a5dc071558816c0dc4cb8f
 Description: some configs.
-Dgit: 2d91d1628550c0b6697344fb20e67d98a8b5bc8f
+Dgit: e21f544d426d4f83d3dcf0fddad4b3716683b4b5
 
 Package: maruska-top-android
 Source: maruska-top
