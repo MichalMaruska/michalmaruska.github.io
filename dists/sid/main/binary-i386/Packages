@@ -680,7 +680,7 @@ Description: This should be enough to make maruska happy with the desktop.
 Dgit: 5ff2e72457295f53640915d3780f657f19af0be7
 
 Package: maruska-preference
-Version: 3.61
+Version: 3.62
 Architecture: all
 Maintainer: Michal Maruska <mmaruska@gmail.com>
 Installed-Size: 228
@@ -688,14 +688,14 @@ Depends: zsh, mmc-zsh, mmc-shell (>= 3.28), file, eza
 Recommends: gauche-eog, git-core, gitk, rlwrap, devscripts, mempeak, human, less, highlight, sudo, acpi-support-base, acpi-support, acpi-fakekey, brightnessctl, python3-docutils
 Priority: extra
 Section: shells
-Filename: pool/main/m/maruska-preference/maruska-preference_3.61_all.deb
-Size: 35208
-SHA512: 966fc9d6537c252d6f6178ecc32186b2d9deb0b480dfa4536a1ef7766eaa4959568a3fb68853f83123df3a3626f3d436faf7d9595657b8da0e5762b36590ad5a
-SHA256: 515f0ff5fad65be62175abefb0f179ca044282e8dbcb01d52d734a039ba9aee4
-SHA1: dcf4b78fb7b7ebc214b2a3695070a23e0c82335e
-MD5sum: 2a7fc7de20a5dc071558816c0dc4cb8f
+Filename: pool/main/m/maruska-preference/maruska-preference_3.62_all.deb
+Size: 35276
+SHA512: ef62297173232f40566e3344b314af777337c7452b269531491f42a0b2546e7e751957dc03e248657914df66e16ffb4ae4adc05d7229c94cd687e8788504b9f4
+SHA256: da11c0e383b4acb97a7010c94b8fec7158b2626e4a3a1df888caec76c3c3b53f
+SHA1: 68a10f5e68271a4531a4653a66c16a579e92de1f
+MD5sum: 96d284a5cbff69f301ca283b2f087629
 Description: some configs.
-Dgit: e21f544d426d4f83d3dcf0fddad4b3716683b4b5
+Dgit: c5eb281452ae3a4ada2fe049ca06cf1cc8e32d24
 
 Package: maruska-top-android
 Source: maruska-top
@@ -1028,7 +1028,7 @@ Description: mmc's configuration. not for general use!?
 Dgit: e408a44bbadb8ba359c705c1210a9e7e5d1c864f
 
 Package: mmc-emacs-devel
-Version: 2.20
+Version: 2.21
 Architecture: all
 Maintainer: Michal Maruska <mmaruska@gmail.com>
 Installed-Size: 236
@@ -1037,14 +1037,14 @@ Recommends: pylint
 Enhances: python-mode
 Priority: extra
 Section: editors
-Filename: pool/main/m/mmc-emacs-devel/mmc-emacs-devel_2.20_all.deb
-Size: 47868
-SHA512: a5805f46fafa916742181323efc6cbf6a48c5cc49b82cecedec7b0fefda495c4a42c9bea57032ea93fd410cd767bf6b10f3358712a77806820d032550707e5f9
-SHA256: 7628d7f2ce39c875fd4b4ae5340d41e591300e0002eea09d680c2c43c626ade4
-SHA1: 24978b87aabad21d108d5fd9b8aabfa123dfbebb
-MD5sum: 827824bdd85953cfb645b56423869cae
+Filename: pool/main/m/mmc-emacs-devel/mmc-emacs-devel_2.21_all.deb
+Size: 47948
+SHA512: 180e6be43dd5c07640b271051b8cdaeb01951193148be35a5a1bff6b242dbf6dda963d3d94085cdbdcd994f0cc6d919b702561aa22900d24450308a6236ee8e7
+SHA256: 729004d656d4f7e1375d042c9487e034535f3d0b82ef597fff00b302e0715aa7
+SHA1: d187a1910c0d1ed9e6586b36a659f16fcd404780
+MD5sum: aecff5b117a598fd2b9e1350c2eb0969
 Description: mmc's elisp, handy for "development", programming
-Dgit: 195707c224b753e4c7c787502cac733baebd0927
+Dgit: a5cfe67e6eb7b381290dff734c7a9b0a25a78970
 
 Package: mmc-shell
 Version: 3.67
