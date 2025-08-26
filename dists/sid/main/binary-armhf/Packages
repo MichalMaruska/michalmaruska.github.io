@@ -1,50 +1,48 @@
 Package: apt-doc
 Source: apt
-Version: 3.1.0-maruska
+Version: 3.1.4-maruska
 Architecture: all
 Maintainer: APT Development Team <deity@lists.debian.org>
-Installed-Size: 811
+Installed-Size: 812
 Multi-Arch: foreign
 Priority: optional
 Section: doc
-Filename: pool/main/a/apt/apt-doc_3.1.0-maruska_all.deb
-Size: 267700
-SHA512: 67d7754461e2a060481ca6eb63fc76cef80848c2edf78bc938f63ed5d70f8b3799621015a90dcd897855afa54bb8056dee24ebd19b71e0e77a1adcbab26eaefe
-SHA256: fa1ab7c59e76320c513d3458911cb72f7ad2c382ec75fa6eebcb8ea641a32591
-SHA1: e61bb8329b06464d384306de6a220866bd911ac1
-MD5sum: 726b134fe8bf0029681087313ddd6ec9
+Filename: pool/main/a/apt/apt-doc_3.1.4-maruska_all.deb
+Size: 268812
+SHA512: 22126114917a72e4ef25bbacf87060aa188c371d8730ded52b0e69ba1d021ea18b05262f7810db329d529c0130ac7b13992562febb0e9c9dabf27ffcfed91813
+SHA256: ff6c857ec220eefbd30f91c5723e095b744bc3b53bfbc4e79f8de955fba5a387
+SHA1: f1d20300f8a068f12b3713cd5e457efc824c6fc1
+MD5sum: 582170d363055da89f7fe5b123231829
 Description: documentation for APT
  This package contains the user guide and offline guide for various
  APT tools which are provided in a html and a text-only version.
-Dgit: 55a34feadf987eb127904c9fba6bc94c72d98327
 
 Package: apt-transport-https
 Source: apt
-Version: 3.1.0-maruska
+Version: 3.1.4-maruska
 Architecture: all
 Maintainer: APT Development Team <deity@lists.debian.org>
-Installed-Size: 49
+Installed-Size: 50
 Depends: apt (>= 1.5~alpha4)
 Multi-Arch: foreign
 Priority: optional
 Section: oldlibs
-Filename: pool/main/a/apt/apt-transport-https_3.1.0-maruska_all.deb
-Size: 39648
-SHA512: 41fbca8b4478361c38f8eb2578c54a726e6228ea6128b57bed2b883061da0a2add6fe223308cfb3f001bd86dc8bab0265e22e2ccdcce7bc335c3788c8c2effe4
-SHA256: 7032bb67cd35676d3960ed490185a10b2e382596db6d97198be7c7baed7aac86
-SHA1: 18413da124b7911688632e52a87620497d7e7599
-MD5sum: 4c57ea178034bbd15a88ce042f966be6
+Filename: pool/main/a/apt/apt-transport-https_3.1.4-maruska_all.deb
+Size: 40292
+SHA512: 505ffd3c967d1c77fa0c08961b08b4a3f918da08b80f86630a19a1d7ed959383e63ca5bc235254817ae2117feb5e1834095d2dba075a925c805d9a32ffb4f828
+SHA256: ecabf1ea8488909b52c5e266fd4921bd86bbe457bf7f338cf98fc256dd4cf613
+SHA1: f638df72dcec302062bd2265bf5e8fa0b97a9442
+MD5sum: 8f5f41739779b324ec25af0aae4a9ce7
 Description: transitional package for https support
  This is a dummy transitional package - https support has been moved into
  the apt package in 1.5. It can be safely removed.
-Dgit: 55a34feadf987eb127904c9fba6bc94c72d98327
 
 Package: debhelper
-Version: 13.24.2-maruska
+Version: 13.26-maruska
 Architecture: all
 Maintainer: Debhelper Maintainers <debhelper@packages.debian.org>
-Installed-Size: 1448
-Depends: dh-autoreconf (>= 17~), dh-strip-nondeterminism (>= 0.028~), dpkg-dev (>= 1.18.2~), autotools-dev, dpkg (>= 1.18.0~), dwz (>= 0.12.20190711), file (>= 3.23), libdebhelper-perl (= 13.24.2-maruska), libdpkg-perl (>= 1.17.14), man-db, po-debconf, perl:any
+Installed-Size: 1509
+Depends: dh-autoreconf (>= 17~), dh-strip-nondeterminism (>= 0.028~), dpkg-dev (>= 1.18.2~), autotools-dev, dpkg (>= 1.18.0~), dwz (>= 0.12.20190711), file (>= 3.23), libdebhelper-perl (= 13.26-maruska), libdpkg-perl (>= 1.17.14), man-db, po-debconf, perl:any
 Suggests: dh-make
 Conflicts: dh-buildinfo
 Breaks: cmake (<< 3.9~), dh-debputy (<< 0.1.36~), meson (<< 0.40.0~)
@@ -53,12 +51,12 @@ Provides: debhelper-compat (= 9), debhelper-compat (= 10), debhelper-compat (= 1
 Multi-Arch: foreign
 Priority: optional
 Section: devel
-Filename: pool/main/d/debhelper/debhelper_13.24.2-maruska_all.deb
-Size: 921004
-SHA512: 9a88e35f357011ded24dd151c8f2c24fe7600061d69e8647dda3c67b2aa06b6914ff71a4914e9f9fac80fd51726f7d482ef9eaf6a321c3d5345e90140eda6a5e
-SHA256: 0b41967e32eafb89bf4c1538c2aaa053b38b84a7f38f6a77deae74f5d744fd72
-SHA1: beb2d8073c80e7bd7b7e51ecd0b3f11cf2a9f9a5
-MD5sum: baeeb7577441b64c5f881dcb8c2e0e15
+Filename: pool/main/d/debhelper/debhelper_13.26-maruska_all.deb
+Size: 940752
+SHA512: 23221789c164033aad15e8e94cae0d58c19c80eaad23000d2f1d1c952e20ece095860e41f5e280701d0418264ae8bd49654ee7a98481f40ce9dd1f8d592ba2ab
+SHA256: fa0e2b326a197bbd37c787772c39588c602a311a28e1fddd671f773fc95c62c8
+SHA1: b490d81aa124660217cfc19b9401e6b4d85acfe5
+MD5sum: 562c0db6da051e1d3754e9f704dcb596
 Description: helper programs for debian/rules
  A collection of programs that can be used in a debian/rules file to
  automate common tasks related to building Debian packages. Programs
@@ -66,7 +64,8 @@ Description: helper programs for debian/rules
  files, fix file permissions, integrate your package with the Debian
  menu system, debconf, doc-base, etc. Most Debian packages use debhelper
  as part of their build process.
-Dgit: f3b5aafea382d4ef6c5ca26eb7795bcafd1c94dc
+Commands: dh, dh_assistant, dh_auto_build, dh_auto_clean, dh_auto_configure, dh_auto_install, dh_auto_test, dh_bugfiles, dh_builddeb, dh_clean, dh_compress, dh_computeautosubstvars, dh_dwz, dh_fixperms, dh_gencontrol, dh_icons, dh_install, dh_installalternatives, dh_installcatalogs, dh_installchangelogs, dh_installcron, dh_installdeb, dh_installdebconf, dh_installdirs, dh_installdocs, dh_installemacsen, dh_installexamples, dh_installgsettings, dh_installifupdown, dh_installinfo, dh_installinit, dh_installinitramfs, dh_installlogcheck, dh_installlogrotate, dh_installman, dh_installmanpages, dh_installmenu, dh_installmime, dh_installmodules, dh_installpam, dh_installppp, dh_installsystemd, dh_installsystemduser, dh_installsysusers, dh_installtmpfiles, dh_installudev, dh_installwm, dh_installxfonts, dh_link, dh_lintian, dh_listpackages, dh_makeshlibs, dh_md5sums, dh_missing, dh_movefiles, dh_movetousr, dh_perl, dh_prep, dh_shlibdeps, dh_strip, dh_systemd_enable, dh_systemd_start, dh_testdir, dh_testroot, dh_ucf, dh_update_autotools_config, dh_usrlocal
+Dgit: 4d23d7818d7f438855bfd73534e59c55de8a52de
 
 Package: debspawn
 Version: 0.6.4-maruska2
@@ -557,51 +556,50 @@ Dgit: 60f00ee7e253ff06122ebded5174d101f65270a4
 
 Package: libapt-pkg-doc
 Source: apt
-Version: 3.1.0-maruska
+Version: 3.1.4-maruska
 Architecture: all
 Maintainer: APT Development Team <deity@lists.debian.org>
-Installed-Size: 18979
+Installed-Size: 18995
 Multi-Arch: foreign
 Priority: optional
 Section: doc
-Filename: pool/main/a/apt/libapt-pkg-doc_3.1.0-maruska_all.deb
-Size: 1007636
-SHA512: 35e4142d38308dc6ab4369f9100c59a638d8008f37ddbbe705c0dc5337d3b5972c7e79da3a58166a0ee4a434af7ece85512659831913f90e309c34516bd8322a
-SHA256: 60abcaebc0037a7d548d07b9fc6af667eea8171a9f5d0deaf2d3f6bc66431e0d
-SHA1: e915c7f998635d0e8fc911a26225e83eb6fda984
-MD5sum: e8e858ab8a7221423c6946915f5ab862
+Filename: pool/main/a/apt/libapt-pkg-doc_3.1.4-maruska_all.deb
+Size: 1007992
+SHA512: db80692e30bd1f049f6ac089b365d1e372fc523d7d567d374a2cbd01f5a058e566b0a84ecc1e419810698613203560ba275ed6cf6e8c486c69d7a0c1f3054ecd
+SHA256: c6dd89101bfd36f3e747c8d04338e7aff5ff715be5e6aeb11ec22650f0106e58
+SHA1: 95374bcf45225e95d83829a812539918de134f71
+MD5sum: c4a8ea160ddbf4eca523ca441f5b993c
 Description: documentation for APT development
  This package contains documentation for development of the APT
  Debian package manipulation program and its libraries.
  .
  This includes the source code documentation generated by doxygen
  in html format.
-Dgit: 55a34feadf987eb127904c9fba6bc94c72d98327
 
 Package: libdebhelper-perl
 Source: debhelper
-Version: 13.24.2-maruska
+Version: 13.26-maruska
 Architecture: all
 Maintainer: Debhelper Maintainers <debhelper@packages.debian.org>
-Installed-Size: 352
+Installed-Size: 354
 Depends: perl:any
 Breaks: debhelper (<< 12.6~)
 Replaces: debhelper (<< 12.6~)
 Multi-Arch: foreign
 Priority: optional
 Section: perl
-Filename: pool/main/d/debhelper/libdebhelper-perl_13.24.2-maruska_all.deb
-Size: 90984
-SHA512: 7d8752b777fc5bda68ef011d12b93ec60038ed93b02e9a84672f6f8eb3692eeb87daee112188c3aadf02a9136dc7c375f07de22eddf4d9783efc26ecce306c10
-SHA256: 832f66314685a5bfbde407177581dddd893e169f0d4f86918d18851b2c138c5b
-SHA1: d39e4b5fda04dd2364129917169e81b913524edf
-MD5sum: 0d0b65872100e6468b3107a7d773047e
+Filename: pool/main/d/debhelper/libdebhelper-perl_13.26-maruska_all.deb
+Size: 91888
+SHA512: 49519f4d6230f46233e9d7805f0074ac9c7c5ef6c59ce29a6c7c4eb4d2b56a34cacf9f16495f1e207b6ab8cbba07755558a32f37d9f804f2dc6bcd8da0092c70
+SHA256: ba585c151073bd55b91c6ea9c0ef93d5a9f3d689d6facb09aa2db2f325025b0e
+SHA1: 6f3ea19906deb97dc7c47d541b5aaa5f73f345fc
+MD5sum: 0ae243419e7a3ffd4430363e55944912
 Description: debhelper perl modules
  A collection of programs that can be used in a debian/rules file to
  automate common tasks related to building Debian packages.
  .
  This package provides the perl modules used by the scripts in debhelper.
-Dgit: f3b5aafea382d4ef6c5ca26eb7795bcafd1c94dc
+Dgit: 4d23d7818d7f438855bfd73534e59c55de8a52de
 
 Package: libx11-data
 Source: libx11
@@ -1028,7 +1026,7 @@ Description: mmc's configuration. not for general use!?
 Dgit: e408a44bbadb8ba359c705c1210a9e7e5d1c864f
 
 Package: mmc-emacs-devel
-Version: 2.21
+Version: 2.22
 Architecture: all
 Maintainer: Michal Maruska <mmaruska@gmail.com>
 Installed-Size: 236
@@ -1037,14 +1035,14 @@ Recommends: pylint
 Enhances: python-mode
 Priority: extra
 Section: editors
-Filename: pool/main/m/mmc-emacs-devel/mmc-emacs-devel_2.21_all.deb
-Size: 47948
-SHA512: 180e6be43dd5c07640b271051b8cdaeb01951193148be35a5a1bff6b242dbf6dda963d3d94085cdbdcd994f0cc6d919b702561aa22900d24450308a6236ee8e7
-SHA256: 729004d656d4f7e1375d042c9487e034535f3d0b82ef597fff00b302e0715aa7
-SHA1: d187a1910c0d1ed9e6586b36a659f16fcd404780
-MD5sum: aecff5b117a598fd2b9e1350c2eb0969
+Filename: pool/main/m/mmc-emacs-devel/mmc-emacs-devel_2.22_all.deb
+Size: 48004
+SHA512: ad475c3d5b34f6d72128938b8c5b6f4dccc47ade665f919bc36c721e0e506f80ada86a1f65fca96457aea9ed90e3c78cf7aa1058233ba69b5b793b442b331472
+SHA256: 7983148779e6d6ed1966f0e2d3ad1114dc44a40503b4eba4cf2ca8d550f177d1
+SHA1: 58b10ebab7ff16648c28c84a5986a9273685061e
+MD5sum: 6325b27693abd8d4968f608e0df244c7
 Description: mmc's elisp, handy for "development", programming
-Dgit: a5cfe67e6eb7b381290dff734c7a9b0a25a78970
+Dgit: 230a129d14abe394d3add6f5e060f3ab668b7a3b
 
 Package: mmc-shell
 Version: 3.67
