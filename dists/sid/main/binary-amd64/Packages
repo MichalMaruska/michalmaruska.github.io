@@ -2314,6 +2314,22 @@ Description: This should be enough to make maruska happy with the desktop.
  A container package -- pulling in dependencies which I am accustomed to.
 Dgit: 5ff2e72457295f53640915d3780f657f19af0be7
 
+Package: maruska-misc
+Version: 2.7.2
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 69
+Priority: extra
+Section: misc
+Filename: pool/main/m/maruska-misc/maruska-misc_2.7.2_all.deb
+Size: 8776
+SHA512: 0067662ed22a6f39e927076935f9e6d097fc3c03fa346c468098f56e046874d4eae121b67524270e6696a1f93879bf04ac8f722745ae9c4c7fb7f3e843cf7ae4
+SHA256: abaf6eab7124d72587308bd6a536c2182637b110a9ec1b1990174189e81d2d90
+SHA1: d757856144ff35bd6d297ed686b8ae55602665b8
+MD5sum: 59f30dfe8078949ca8500e34b56d5064
+Description: various data files (sed, awk, keymaps...)
+Dgit: e3dc845a2229c294a1137a0b73978c48b7e4e3fe
+
 Package: maruska-preference
 Version: 3.62
 Architecture: all
