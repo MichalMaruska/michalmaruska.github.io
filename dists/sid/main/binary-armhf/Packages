@@ -1166,6 +1166,29 @@ Description: documentation for the PostgreSQL database management system
  PostgreSQL is an object-relational SQL database management system.
 Dgit: da7926ad0ac9ce197fde721fb969ef980119f8fd
 
+Package: postgresql-doc-18
+Source: postgresql-18
+Version: 18~rc1-1-maruska
+Architecture: all
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Installed-Size: 17261
+Multi-Arch: foreign
+Homepage: http://www.postgresql.org/
+Priority: optional
+Section: doc
+Filename: pool/main/p/postgresql-18/postgresql-doc-18_18~rc1-1-maruska_all.deb
+Size: 2168112
+SHA512: 990e288e11df3534b5a41583981e0780c299a3750b09caa177f02247df89da1378d0acd3a2b6dbbdd85a2e9dde73afcf0120fd1a962d0e2c01046fba57e55387
+SHA256: 4c028cc60aba2b2461bf5643670eded804158d9d70201a2466d6f7ea6348cf62
+SHA1: ac2c6d2df81ef71359d8ed56462a6cb9ccd31024
+MD5sum: d6f382157142d955acc70d01b5238b3f
+Description: documentation for the PostgreSQL database management system
+ This package contains all README files, user manual, and examples for
+ PostgreSQL 18. The manual is in HTML format.
+ .
+ PostgreSQL is an object-relational SQL database management system.
+Dgit: c93eb67df50b69500cea0e0dae2f70688245c5b7
+
 Package: sawfish-data
 Source: sawfish
 Version: 1:1.12.0-maruska
