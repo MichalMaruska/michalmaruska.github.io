@@ -1452,7 +1452,7 @@ Dgit: 07a79bb69d2727c750d6cc6d549294962a690200
 
 Package: libecpg-compat3
 Source: postgresql-18
-Version: 18~rc1-1-maruska
+Version: 18.0-1-maruska
 Architecture: amd64
 Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
 Installed-Size: 51
@@ -1461,55 +1461,54 @@ Multi-Arch: same
 Homepage: http://www.postgresql.org/
 Priority: optional
 Section: libs
-Filename: pool/main/p/postgresql-18/libecpg-compat3_18~rc1-1-maruska_amd64.deb
-Size: 12988
-SHA512: f75c7485d923784b48ac4478f967649c9dcffba173356ce05b5de25d182fa3e1435335118e0e41d6c663233336b392656a785a405140b00344f8ed6dfdf1f01f
-SHA256: 97d12a6c36ec42dea7a3dd6492ed298ed77cdfe86029504ec32684a2dca9b371
-SHA1: 420f9fde73ab8f5ea25ca189d652cd9e3992115f
-MD5sum: cfcd523c7260eaad6f95db35cad1f52f
+Filename: pool/main/p/postgresql-18/libecpg-compat3_18.0-1-maruska_amd64.deb
+Size: 12976
+SHA512: 7cb01792a27e5069cb9a06c4ca5d12a4519359f9722a9e367d058ab84032ceb25e63adb7406ca0b5f67bae8d17a2dcfa05bec2ed567aecdd5f35f8e08bf15dbc
+SHA256: b851172db3a03fcaa64193c124aa07ba60d23e11ee222294f9a6cd21aa106718
+SHA1: bdaafb8ad6232efd4017bf13fa292ca7fe785b28
+MD5sum: 120c01d58a05f8d0021280321ab32e10
 Description: older version of run-time library for ECPG programs
  The libecpg_compat shared library is used by programs built with ecpg.
  (Embedded PostgreSQL for C).
  .
  PostgreSQL is an object-relational SQL database management system.
-Dgit: c93eb67df50b69500cea0e0dae2f70688245c5b7
 
 Package: libecpg-compat3-dbgsym
 Source: postgresql-18
-Version: 18~rc1-1-maruska
+Version: 18.0-1-maruska
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
 Installed-Size: 31
-Depends: libecpg-compat3 (= 18~rc1-1-maruska)
+Depends: libecpg-compat3 (= 18.0-1-maruska)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/p/postgresql-18/libecpg-compat3-dbgsym_18~rc1-1-maruska_amd64.deb
-Size: 16624
-SHA512: d7aae603619d234afb687a0aefeb44bb2259b5866a4878bf66ba06dc336b493850442934222ee03fb3386bfd50e70d0590a6da09368219dd88f38b5d95e0930d
-SHA256: af7629f6e3bc7e8cf10184a50bf203a5a96cbc9f64d33c10f0a962b75ab8c437
-SHA1: 12bbe5760655857e581fae8232d073c4f024ec9f
-MD5sum: 13f43dd175d5f9dfccd1143ab9eb2e64
+Filename: pool/main/p/postgresql-18/libecpg-compat3-dbgsym_18.0-1-maruska_amd64.deb
+Size: 16620
+SHA512: b0833197c8b91ed44919f53c073a23044b608afc226f8eb00528096e59a72b924bcb2cc0268d89f0fa086e68c677f5dc72a95667de67f0a5e82a33edc047a28d
+SHA256: 5435a20eb0bbb9c319c2dbce54ba4b7dbe8afa5126718a61d548f50566e24be1
+SHA1: 6ab391f8d50fb97c724ba69fc908998bc74eedb6
+MD5sum: 0ddee6051ebea3d60597f34dce01fda6
 Description: debug symbols for libecpg-compat3
 Build-Ids: 74a7298c0dcdc4db72a47f08301c810d963a5a67
 
 Package: libecpg-dev
 Source: postgresql-18
-Version: 18~rc1-1-maruska
+Version: 18.0-1-maruska
 Architecture: amd64
 Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
 Installed-Size: 1549
-Depends: libecpg-compat3 (= 18~rc1-1-maruska), libecpg6 (= 18~rc1-1-maruska), libpgtypes3 (= 18~rc1-1-maruska), libpq-dev, libc6 (>= 2.38)
+Depends: libecpg-compat3 (= 18.0-1-maruska), libecpg6 (= 18.0-1-maruska), libpgtypes3 (= 18.0-1-maruska), libpq-dev, libc6 (>= 2.38)
 Homepage: http://www.postgresql.org/
 Priority: optional
 Section: libdevel
-Filename: pool/main/p/postgresql-18/libecpg-dev_18~rc1-1-maruska_amd64.deb
-Size: 258700
-SHA512: 13b3910a41a571634a8d6904e32d0ef8d41c94da4aa9fdcff03d4c1eaaa8f18708390d24fd0914f96a216fee283d6b242f93a59588398de5ba8b9f79fb349586
-SHA256: b4a9d41ff5fcf132b487108a0dfcc954583b33400ccede4af18f75e6e7f474fa
-SHA1: 4731bd055d7d88053995e26bd7b5d6b9e8193a82
-MD5sum: 11e69714875d8023c74d8c7e3969ce1c
+Filename: pool/main/p/postgresql-18/libecpg-dev_18.0-1-maruska_amd64.deb
+Size: 258900
+SHA512: c7e4c76eec4a070866cf3d078d634dc4a8d575a71071baa1cbfee1e147d950a4d0c16a2b0cd4729098c27a5e3d8e1987f794e760f37006108ab2f44a2d3a095d
+SHA256: 3b9938a62bbf057342586c74ef71a679ee8e104de9f39dff2a4b5b18d5d9e9f0
+SHA1: 2a7c344dc302f3f797f01241fabe8fefc4fde23e
+MD5sum: 280405a9f047af370d4f8f04dbef96dc
 Description: development files for ECPG (Embedded PostgreSQL for C)
  This package contains the necessary files to build ECPG (Embedded
  PostgreSQL for C) programs.  It includes the development libraries
@@ -1519,30 +1518,29 @@ Description: development files for ECPG (Embedded PostgreSQL for C)
  .
  Install this package if you want to write C programs with SQL statements
  embedded in them (rather than run by an external process).
-Dgit: c93eb67df50b69500cea0e0dae2f70688245c5b7
 
 Package: libecpg-dev-dbgsym
 Source: postgresql-18
-Version: 18~rc1-1-maruska
+Version: 18.0-1-maruska
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
 Installed-Size: 963
-Depends: libecpg-dev (= 18~rc1-1-maruska)
+Depends: libecpg-dev (= 18.0-1-maruska)
 Priority: optional
 Section: debug
-Filename: pool/main/p/postgresql-18/libecpg-dev-dbgsym_18~rc1-1-maruska_amd64.deb
-Size: 170868
-SHA512: 1215c87fad298f375e2cc65bab1d59bf8ee91bc0989e95c59c77b44b66af1e26b217c65875d5302fd8cbd01c5bead5e08c4f6b55adb44895a6bb1a3cf59717e5
-SHA256: b9126f39a368aaab3531899e6925f548035a696420647a243f03406c4ddf2bcd
-SHA1: 4cba78294c3bf83936a862e0fabf9791ad6dd26b
-MD5sum: 6345376c39ca0ded0470be7889f5ba6c
+Filename: pool/main/p/postgresql-18/libecpg-dev-dbgsym_18.0-1-maruska_amd64.deb
+Size: 170844
+SHA512: cf4307b371368291c3b59b9b426b4f77f801e371b7c7bc727a7e06b2614b1024cacfc6df506b93c1051a299c2b47fb064e1abbe7b542873e5476825e9034ff1e
+SHA256: 9cddfd47ce60c6a15dd3d472f1262fcb9041955ad965f7045f881b4c5a9e5463
+SHA1: b03a5ac8355b01f3cc7d57a77ae233adb8ac6535
+MD5sum: 9738c7d4b1ef88ecd9aba92cc3586bb1
 Description: debug symbols for libecpg-dev
-Build-Ids: 6da3503fef8e63acc94d7bff753bd575505519c7
+Build-Ids: ce8ea8433c2146a63041fce15053a6f416f276ad
 
 Package: libecpg6
 Source: postgresql-18
-Version: 18~rc1-1-maruska
+Version: 18.0-1-maruska
 Architecture: amd64
 Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
 Installed-Size: 242
@@ -1551,38 +1549,37 @@ Multi-Arch: same
 Homepage: http://www.postgresql.org/
 Priority: optional
 Section: libs
-Filename: pool/main/p/postgresql-18/libecpg6_18~rc1-1-maruska_amd64.deb
-Size: 57868
-SHA512: f9a20e7c4cb5d5f606b85bb3d327a89c7f36252f203d81f3c47aff529bcf4f81bde92050109a29fcf6a8065bc237fa09f55d8ba174c9d4e02fb580dad9e15b2a
-SHA256: afe4febff59e9f66f310611efd6d5b9ee12df32c8eb90750d7df4044259a4d8e
-SHA1: 5d4de3d08a2167c631b1b774c712859a6f1d921b
-MD5sum: 64a55d551e2e0e2dca5d6768901de857
+Filename: pool/main/p/postgresql-18/libecpg6_18.0-1-maruska_amd64.deb
+Size: 57880
+SHA512: ef68c71a017ac06743bc9131f6720105077a0af53531cf0d6cd43241f2e580f3a118b7264257d909a3a11c985fad53134b9ab41e98d7085c59fa4dceaf06fc57
+SHA256: 406d892384cbbbb6596a18ecc6f7fe51dceed22044d3f570d21e46d62718ccf2
+SHA1: 052e8cabaf49419b6354fa043eece738cb8c2816
+MD5sum: e224b066a5464ff34865fea1c5612df5
 Description: run-time library for ECPG programs
  The libecpg shared library is used by programs built with ECPG
  (Embedded PostgreSQL for C).
  .
  PostgreSQL is an object-relational SQL database management system.
-Dgit: c93eb67df50b69500cea0e0dae2f70688245c5b7
 
 Package: libecpg6-dbgsym
 Source: postgresql-18
-Version: 18~rc1-1-maruska
+Version: 18.0-1-maruska
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
 Installed-Size: 131
-Depends: libecpg6 (= 18~rc1-1-maruska)
+Depends: libecpg6 (= 18.0-1-maruska)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/p/postgresql-18/libecpg6-dbgsym_18~rc1-1-maruska_amd64.deb
-Size: 113284
-SHA512: 189d120b00eb2f302c400a6461ae61e7f98754ed87b9fa0a7fe80d61b37267c9bb10f3343540e7e738541a34e2c93aebd6f318dcb01d82daba1b8307e7f7a996
-SHA256: 1ed94058d6bbf72832ac97d4b33813ea1ea8b10158f35ef6071d2ba6f4c7dcf0
-SHA1: 09131c322cb2fe41a7e1c4f4a3111cbbb15fab0c
-MD5sum: f288b1edef31d3dcc17aa74912326a67
+Filename: pool/main/p/postgresql-18/libecpg6-dbgsym_18.0-1-maruska_amd64.deb
+Size: 113280
+SHA512: 22c2f6308f22d6d879e4f1d578ce55a81231bfc262267258b1ddd69c89841d373acdac02df5b026a3cd0acd771a1e73e8cc915d8ea9dfc8f96302e2017c03a38
+SHA256: 2ee419027e267251089a1f83938c5439f50a80bec1c618a84545ef89e28bdc69
+SHA1: ba6ed44a6032d77ceeb55878e7e51946eeabccad
+MD5sum: 935402d1d679dbc3c5746d3b0602ffa2
 Description: debug symbols for libecpg6
-Build-Ids: 544540aab0466b6bcc47a9dde8ff31de2ab5261c
+Build-Ids: 6f0bdb7009b9196c9fa7bc78acce762f03428b66
 
 Package: libfork
 Version: 1.7.4
@@ -1837,7 +1834,7 @@ Build-Ids: 98aa6157911a0e22295260cd7a33689b25b39a8f
 
 Package: libpgtypes3
 Source: postgresql-18
-Version: 18~rc1-1-maruska
+Version: 18.0-1-maruska
 Architecture: amd64
 Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
 Installed-Size: 112
@@ -1846,82 +1843,80 @@ Multi-Arch: same
 Homepage: http://www.postgresql.org/
 Priority: optional
 Section: libs
-Filename: pool/main/p/postgresql-18/libpgtypes3_18~rc1-1-maruska_amd64.deb
-Size: 41480
-SHA512: 9370b133fac5827466e33d4d3eff4d1cf5a9a39d5c3dd8c21febe28bb10a7279e4244d42474595b63fe70c873fbcf61aeb47aca8c78bb7deb41a43eda53a343e
-SHA256: 55c03378c0ea90a8d0653079fa1959b7a722b4784b5c1361c58a5adbaa92e163
-SHA1: a4be689df81494ca2131ccbb19773f1e7bbd1168
-MD5sum: 7d1878c43073e4cd68fc212053057544
+Filename: pool/main/p/postgresql-18/libpgtypes3_18.0-1-maruska_amd64.deb
+Size: 41460
+SHA512: 9a5554a0e95a0cc6d3e402f5aa6098dc9e4047b3003088e13cf080d19300d39f6572f25ca003ea6e50b108f1b5f247373831c00b4ed11fa6887ba252108fbe60
+SHA256: af98860f279e1cb69bbc7c2e41777fbcdefaf61b67ef460453941a31716eb850
+SHA1: 1a237eb7e582d8c8e8a5234a49625cde91717cdb
+MD5sum: ad222d52162265c98d0cd67b8b0e2d33
 Description: shared library libpgtypes for PostgreSQL 18
  The libpgtypes shared library is used by programs built with ecpg.
  (Embedded PostgreSQL for C).
  .
  PostgreSQL is an object-relational SQL database management system.
-Dgit: c93eb67df50b69500cea0e0dae2f70688245c5b7
 
 Package: libpgtypes3-dbgsym
 Source: postgresql-18
-Version: 18~rc1-1-maruska
+Version: 18.0-1-maruska
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
 Installed-Size: 106
-Depends: libpgtypes3 (= 18~rc1-1-maruska)
+Depends: libpgtypes3 (= 18.0-1-maruska)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/p/postgresql-18/libpgtypes3-dbgsym_18~rc1-1-maruska_amd64.deb
-Size: 91180
-SHA512: dca5869ead350834d63b402d068f7d2ccad44439035d08c0483f4bed9540b6bd72e5ef445c6c63d58c9ec0fa8129a7e2e1a1fd826461ad11df1d3c3d77c5b215
-SHA256: 57f7542262a5e5db0a483f183dba667b90cb28baf5794532c4b7cf303c16781c
-SHA1: 46e3fab1490e584e6b4b8f93024fcc8e27627219
-MD5sum: b9e61507181e4171bfadc2aee730a3f3
+Filename: pool/main/p/postgresql-18/libpgtypes3-dbgsym_18.0-1-maruska_amd64.deb
+Size: 91176
+SHA512: c5eaf4de7c247dccc3a3452dd93134cf3c1c9695c81b9c557c97e65ea180462b4125919e62108c87dd5ff5bae34b4530c48c6e00b4571c4b1d2ad51c5c4f8db0
+SHA256: 24b67bc2a991a9cac5b3322f41adc255bbc3f64ebd346f23bfb2273145de7f52
+SHA1: b2ad84ac27e44d26e5439e17276ba6673f138913
+MD5sum: a7ac44e5f2e6dd588d85d91be78d297f
 Description: debug symbols for libpgtypes3
 Build-Ids: dd65485efc0c91b334ae2d4e7bff25257a1c81c3
 
 Package: libpq-dev
 Source: postgresql-18
-Version: 18~rc1-1-maruska
+Version: 18.0-1-maruska
 Architecture: amd64
 Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
 Installed-Size: 673
-Depends: libpq5 (= 18~rc1-1-maruska), libssl-dev
+Depends: libpq5 (= 18.0-1-maruska), libssl-dev
 Suggests: postgresql-doc-18
 Homepage: http://www.postgresql.org/
 Priority: optional
 Section: libdevel
-Filename: pool/main/p/postgresql-18/libpq-dev_18~rc1-1-maruska_amd64.deb
-Size: 163900
-SHA512: 8f4fa2b514aa6f06dc0d9461cbf804cffea9e958a647ea48f82503d74b2725041f8131178e95d3d87ce6252c6f930c60d2673e7ed0b6dd57c15bd596d9cf32ae
-SHA256: c1034a76d9b15b718b0c831f8524acf30ea7653e0e3a72155f7349ca99cce650
-SHA1: 5d1c13f9a6e898b67db8b2ecd7a8f7373d0de667
-MD5sum: ccf67ba6fcc6b59d3cd31aa220232d47
+Filename: pool/main/p/postgresql-18/libpq-dev_18.0-1-maruska_amd64.deb
+Size: 163940
+SHA512: 107e52d6a8a5e89d38bba365c7f5f3c89bc901e9427bfbd74461b9eb730c950148d176d03c682d673315cc495e8bad66d456d03eba83eae5687851daee2b4748
+SHA256: e9eeee2240261f6e67c35d81b66280fd1dabdfb1a8fc2c5b4f2ff3e1445cc226
+SHA1: f2bf5a54ed1a7cdb429f79ea72624ded4a4f1dc3
+MD5sum: a566da3116c3c1d4a163cfc3509355a9
 Description: header files for libpq5 (PostgreSQL library)
  Header files and static library for compiling C programs to link
  with the libpq library in order to communicate with a PostgreSQL
  database backend.
  .
  PostgreSQL is an object-relational SQL database management system.
-Dgit: c93eb67df50b69500cea0e0dae2f70688245c5b7
 
 Package: libpq-oauth
 Source: postgresql-18
-Version: 18~rc1-1-maruska
+Version: 18.0-1-maruska
 Architecture: amd64
 Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
 Installed-Size: 113
-Depends: libpq5 (= 18~rc1-1-maruska), libc6 (>= 2.38), libcurl4t64 (>= 7.16.3)
+Depends: libpq5 (= 18.0-1-maruska), libc6 (>= 2.38), libcurl4t64 (>= 7.16.3)
 Provides: libpq-oauth-18
 Multi-Arch: same
 Homepage: http://www.postgresql.org/
 Priority: optional
 Section: libs
-Filename: pool/main/p/postgresql-18/libpq-oauth_18~rc1-1-maruska_amd64.deb
-Size: 36072
-SHA512: f584d908037e13c5259fc46a5e98b9e35ebae183d718d4e398c4e9e5998f828a96d9fa9a1629b9195a03b0771e948f2745d815b3cb13adc983d6ca1eb27d588c
-SHA256: 77807e31f9e28edea38e8bdad94ba4fc053c232e76d6cc3ea914024f0db5ad3c
-SHA1: 9b5f438f86f2ee7060369470b5f1b3324ccfce06
-MD5sum: 818b630e68a3ae0e7acf551818cde7fc
+Filename: pool/main/p/postgresql-18/libpq-oauth_18.0-1-maruska_amd64.deb
+Size: 36056
+SHA512: 7ebbffc03380b1f1ec249b7057168e5331282c761fe7812331cf5bc158e69d3bb8163efaf126e7c78fa63620831df3d6226edb1505e496b9f4674a4b0b37a64c
+SHA256: 9bddd036d798f1882e3e5ded17147a2db474963a74e6f6a4344ebcade81cbc8b
+SHA1: 556b83da01d0864b79019e0ab69fb890e967c0e7
+MD5sum: bd888f20728fe4b069c9a1b5ae266f72
 Description: PostgreSQL C client library - OAuth flow
  libpq-oauth is an optional module for libpq5 implementing the Device
  Authorization flow for OAuth clients (RFC 8628). It is maintained as
@@ -1935,34 +1930,33 @@ Description: PostgreSQL C client library - OAuth flow
  the following ABI. Failure to load results in a failed connection.
  .
  PostgreSQL is an object-relational SQL database management system.
-Dgit: c93eb67df50b69500cea0e0dae2f70688245c5b7
 
 Package: libpq-oauth-dbgsym
 Source: postgresql-18
-Version: 18~rc1-1-maruska
+Version: 18.0-1-maruska
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
 Installed-Size: 117
-Depends: libpq-oauth (= 18~rc1-1-maruska)
+Depends: libpq-oauth (= 18.0-1-maruska)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/p/postgresql-18/libpq-oauth-dbgsym_18~rc1-1-maruska_amd64.deb
-Size: 99496
-SHA512: a566d26dbcfa36e61676ad837d4e07dbf07a2afcbc3c357c9f5c03065c3de0d4205c2af8d01a494d11cfab9ece5c1f50ae641493995e1e722f37272b2527397b
-SHA256: 27e858634062cc9639294927bc1b2bb914344bd2fdd6dfc07d5c8341232df4b7
-SHA1: 805beb3d7ce88511a1b252f7ad58a437bc643d1f
-MD5sum: e498ab93100fa5ab6fbdb03b16858776
+Filename: pool/main/p/postgresql-18/libpq-oauth-dbgsym_18.0-1-maruska_amd64.deb
+Size: 99476
+SHA512: 5b79457ff122646d7ff0dc0099775778b0aa15d8bc62f9219e10ad113c2c5b7328ee3fa5126b74856f2b7fc09d72fe3a26673f01aed838a374326ef10e16442c
+SHA256: 3d5e1cb254da9ec42fd2bc9f1e819a4c42e81ff0c4f324abe0561db744c6496c
+SHA1: 172f1756445b85940f1772c769c421d6cc432a2d
+MD5sum: 8aba41b22503b250c1b1e225a1f90590
 Description: debug symbols for libpq-oauth
-Build-Ids: aaee97fdf9a39bc5bda49b8d905c5cc264115fbd
+Build-Ids: 4f86b79eafdd4172d629a13deb29b4ca2a3cdf5e
 
 Package: libpq5
 Source: postgresql-18
-Version: 18~rc1-1-maruska
+Version: 18.0-1-maruska
 Architecture: amd64
 Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
-Installed-Size: 1158
+Installed-Size: 1194
 Depends: libc6 (>= 2.38), libgssapi-krb5-2 (>= 1.17), libldap2 (>= 2.6.2), libssl3t64 (>= 3.0.0)
 Recommends: ca-certificates
 Suggests: libpq-oauth
@@ -1970,12 +1964,12 @@ Multi-Arch: same
 Homepage: http://www.postgresql.org/
 Priority: optional
 Section: libs
-Filename: pool/main/p/postgresql-18/libpq5_18~rc1-1-maruska_amd64.deb
-Size: 245708
-SHA512: f767a9ad2590966f0129e0930de517e1030faed6754c5b344e1c4b6cd4d149c759588f941e5fe4b7759013a262c6d923a00e7b0b69fa73f1dac64c0b912b24c1
-SHA256: 478c7380ea279f3866b432f9ff95abaec29d64c5a446d9e9fbda7fedf664039d
-SHA1: 4ae8ac2f832f65f8d898f35d7a0e3eb82ac6662b
-MD5sum: c6b6b79bea74d3642e94d07582501d5d
+Filename: pool/main/p/postgresql-18/libpq5_18.0-1-maruska_amd64.deb
+Size: 250996
+SHA512: 12e3900093152d9a174f5cbeb0f78204600276a34aabe38daecbb42fd7af9abc2675b57bc8f309f109ed36e6707ab647647ca535096ec61508d5fd3fc8fcd745
+SHA256: ae5216d80fa132feaa714fa3e3a8a976adbe79b0b8ed21974b023a4f70cea42d
+SHA1: c57f9794c3a67adc7fef4ba3feb7bc431419bef9
+MD5sum: d9b0a3b950e46e85754a9691df27bdcc
 Description: PostgreSQL C client library
  libpq is a C library that enables user programs to communicate with
  the PostgreSQL database server.  The server can be on another machine
@@ -1987,27 +1981,26 @@ Description: PostgreSQL C client library
  option) requires the ca-certificates package.
  .
  PostgreSQL is an object-relational SQL database management system.
-Dgit: c93eb67df50b69500cea0e0dae2f70688245c5b7
 
 Package: libpq5-dbgsym
 Source: postgresql-18
-Version: 18~rc1-1-maruska
+Version: 18.0-1-maruska
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
 Installed-Size: 372
-Depends: libpq5 (= 18~rc1-1-maruska)
+Depends: libpq5 (= 18.0-1-maruska)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/p/postgresql-18/libpq5-dbgsym_18~rc1-1-maruska_amd64.deb
-Size: 338584
-SHA512: 1ba5667ba603234f18e9f7f9aacdd12ce7656ad9925b3cc5eedd2cee8911be06a2ed4d8b84c4099d413874d9659e773024c8defd5c6ce2bc5ce578af25f97cca
-SHA256: 61d3014cb44ffdee7bf11d30999d7246928b2cd5ebbb0d9648adccc0a6f96f90
-SHA1: b25e1b6c314783adceb13af1617352e0212b2344
-MD5sum: 9c9c86ce473cf7e634b3487698a63b43
+Filename: pool/main/p/postgresql-18/libpq5-dbgsym_18.0-1-maruska_amd64.deb
+Size: 339004
+SHA512: 4613d7fcdb699b62c59953de575a05392d96d58235b098771f09cc5ecc158c8dd730b040673ad3ae504f09e29df752d0dcd42fdff18a0fde4610233c12aa095a
+SHA256: 6d646ef83cd3566e29c52e24e2906ccade9da81384372a115784223700528520
+SHA1: 766d245937227aca92df6e1cb60c6d1de72236e3
+MD5sum: 9e047adcff665bf4c35dd5531fe8a316
 Description: debug symbols for libpq5
-Build-Ids: 02fa44d62866ad19846a83c19764ef8cec707ad4
+Build-Ids: 1991f4bbe05cbfa7c7e9c14104209f75f8fc84bd
 
 Package: libweston-14-0
 Source: weston
@@ -3616,23 +3609,23 @@ Build-Ids: 014be51608411284ff10a888c87d24153dc9d14a 034623422f459cf2fb9b05d56eac
 Postgresql-Catversion: 202406281-1700
 
 Package: postgresql-18
-Version: 18~rc1-1-maruska
+Version: 18.0-1-maruska
 Architecture: amd64
 Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
-Installed-Size: 34656
-Depends: locales | locales-all, postgresql-client-18 (= 18~rc1-1-maruska), postgresql-common (>= 275~), ssl-cert, tzdata, debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.38), libgssapi-krb5-2 (>= 1.14+dfsg), libicu76 (>= 76.1-1~), libldap2 (>= 2.6.2), liblz4-1 (>= 0.0~r130), libnuma1 (>= 2.0.11), libpam0g (>= 0.99.7.1), libpq5 (>= 17~~), libselinux1 (>= 3.1~), libssl3t64 (>= 3.4.0), libsystemd0, liburing2 (>= 2.3), libuuid1 (>= 2.16), libxml2-16 (>= 2.14.1), libxslt1.1 (>= 1.1.25), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)
+Installed-Size: 34884
+Depends: locales | locales-all, postgresql-client-18 (= 18.0-1-maruska), postgresql-common (>= 275~), ssl-cert, tzdata, debconf (>= 0.5) | debconf-2.0, libc6 (>= 2.38), libgssapi-krb5-2 (>= 1.14+dfsg), libicu76 (>= 76.1-1~), libldap2 (>= 2.6.2), liblz4-1 (>= 0.0~r130), libnuma1 (>= 2.0.11), libpam0g (>= 0.99.7.1), libpq5 (>= 17~~), libselinux1 (>= 3.1~), libssl3t64 (>= 3.4.0), libsystemd0, liburing2 (>= 2.3), libuuid1 (>= 2.16), libxml2-16 (>= 2.14.1), libxslt1.1 (>= 1.1.25), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)
 Recommends: postgresql-18-jit, sysstat
 Breaks: dbconfig-common (<< 2.0.22~)
 Provides: postgresql-contrib-18
 Homepage: http://www.postgresql.org/
 Priority: optional
 Section: database
-Filename: pool/main/p/postgresql-18/postgresql-18_18~rc1-1-maruska_amd64.deb
-Size: 7248208
-SHA512: 08dc3748a6df18031fb523c1aeb22c5f56a8eaccdbda9a8ca7c4fc0dba95b6c1e66eeb9b4e95f25c733ce746a53f07b831903cf38af62863d3ff20e2e0c551ef
-SHA256: 44a68648548ad7d0d939c1ce68d05963ea8a9918da87578a65eb1327a79765ad
-SHA1: ed3a619dd39ea710d960bddb1f6321daa3ef7b16
-MD5sum: 74624fe3f5baab8767c8a4bbe89c3c3a
+Filename: pool/main/p/postgresql-18/postgresql-18_18.0-1-maruska_amd64.deb
+Size: 7236504
+SHA512: 3492bbb9fcb7652c56f16f27dc88ea44af24a21f7a7cb7b1923dd7ec2034cd2a3f55426b6fb09a4b144aa54810bcaa93f0ee53cf2c37f2b2b9479404d2ba338d
+SHA256: 0655ada8ac6bb42b751502372cc27653f3f0ed7600588721c462b7281668a6f2
+SHA1: 1ee37209e357054f1366c8fd2ea28017f10d2cd0
+MD5sum: 0ec1448153e0f331aad255b5c15f40dc
 Description: The World's Most Advanced Open Source Relational Database
  PostgreSQL, also known as Postgres, is a free and open-source relational
  database management system (RDBMS) emphasizing extensibility and SQL
@@ -3643,46 +3636,45 @@ Description: The World's Most Advanced Open Source Relational Database
  with many concurrent users.
  .
  This package provides the database server for PostgreSQL 18.
-Dgit: c93eb67df50b69500cea0e0dae2f70688245c5b7
 Postgresql-Catversion: 202506291-1800
 
 Package: postgresql-18-dbgsym
 Source: postgresql-18
-Version: 18~rc1-1-maruska
+Version: 18.0-1-maruska
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
-Installed-Size: 24944
-Depends: postgresql-18 (= 18~rc1-1-maruska)
+Installed-Size: 24946
+Depends: postgresql-18 (= 18.0-1-maruska)
 Priority: optional
 Section: debug
-Filename: pool/main/p/postgresql-18/postgresql-18-dbgsym_18~rc1-1-maruska_amd64.deb
-Size: 19540868
-SHA512: 43eae4d208208f22419fe7a88ab934c264f29c361fc84e57b159ba1ad5a5ad3a2db65f28fe9fc4e3f2376257f4ea9e70b1cc10542ff00062459739eb3584695b
-SHA256: de69e9109b7316eb2a5d3752c968d1a9d95040c01ce12cba2b290ce5652ea317
-SHA1: abc304cefa7dfa4d6cf2833b8fb520d1c29574f4
-MD5sum: 53deaa4ea9a1fa04fc9763ea3eb88721
+Filename: pool/main/p/postgresql-18/postgresql-18-dbgsym_18.0-1-maruska_amd64.deb
+Size: 19539892
+SHA512: fc63f89a7f33a4cec5e42e2eebfcd8f427fae3c49f662144683979b9a39f14e2420f1a7e65326684726ad2ef2aa77afe0dc5ffd16f31d7a217ffb6fc0de1fde4
+SHA256: b27ce60ae6414759b1833a7a1ebaff8d04648ad6907afd9b32dc2e4d6c978617
+SHA1: 62ffd6c61333a0e2f7f97ba0d5a9c4d9eacb880d
+MD5sum: 8b89a5f4a448c0f245e676b8d756eead
 Description: debug symbols for postgresql-18
-Build-Ids: 00807553de45778293c6c1060810d4285575c333 04f0bb4490a51d4f0d1252b437cb84ddc8596c16 06c0b5eb928ca24e82dd8e2a0226eff16ed20d72 0953d74590d7695676ff127cd1ad4a177e0d15ef 0a14aa00b78a1afbed499d4e221332276ffb6f6f 0dc2bedd79b2e8c546c5d26cafe02ae8bd493614 0e226e941a8ccefca4dc997a227db1a38fd10c86 0e5811e3a50964df2640ec019fed0b9c8936605b 11d27e3a2e38f87ba0455c832613ae093c7bcb45 1214afc839820679754387d7dcff42915df5788f 1364505a0ea4136dbdf3ce7debbb2e4458a12054 13d07473312d165b40282b56ce06c0c9ba2dfee7 1465d16c2d0cd999a037a33d284718e8b3208aad 149c523f141607d9c3fc02e38be4845e20bfe97e 17e467774ffe7927fc48f6947aefbdce17349548 1fa43b6ab28b67d3fa69ed6ca0485d88baee76aa 24c23ec47535b5b77f1057a12d8286e41945cb41 266362967067fa47a26cf2e947c455373d02cfd4 26961e8dd7b787392eb22ad99a6cb3a6f9e5a83c 338546eed5b91c825b0d5d4fecf7c8e6d1028ac0 35d42b089cb2441446ef7669d0ebcf75ddd57104 37b297e48c0bcacba05452c9ce745322286f0ede 402abf0b96afcbc80f9d0947431c32dd684147db 43ed4feb74ace1c2c9379b2801fa789555b770de 4510e7c7d17fa51f8f11bdff81610568cf34f143 45ebdb44115709a4f794a05f85e527491897e1e5 4d2033c9f16db4676daee53107690d88a8bc99d0 4f8bd4d2f31cbe9c51cf0e0c3c4b9943cf34c003 4fc426dd9a67a7d520a87f259bfcf40b049a0bdb 50faaf02d24164c059e3023da28c4c3f17eb5733 52b7ca221211b88c631dc4caaca63451a2665b16 53baf356f427550db761c072c5e3088a13cf36c8 56cd8b542b29d95dd43b6844951343a7ab7278ba 583b8c8658cb847e77e33259942f61d211dcf96e 594f452f37f52cd9f0b2b236730de0f3cd344d5e 59511438717839b051dcbccee4e9b604e73c7155 5ca08a3cbd8d712601818136cae967dcde9ad9fe 5cd33a59e74846d4897afb4e32f72470e194c071 5e66d341a1fa0ff7036977c7cc71ae95dc73eceb 5f9751e8fb101272462259d21f6883c16d7e41cc 5fa8dfa43179c60bad7cdef95cb33e73107f01f0 628081bfdfe8920b8c7254354635cc1f8682ad13 62c3992b9f89525c8063138d755ec54c124dfe08 67a2ffe924e24c37e9ebf2d480b078c04117d97d 6b87add874f8b2491fb873ce086f72892296d753 70a4778b6c0b15a83563f25d824973d3436a8ba4 7570ccd50523d33960f89d387529704cf3621086 7bccbc508c1a7008b4fb2bc1c237db11c1a9ff5c 7eec592dac3cadf9107a50afac977bd8d9d73c80 80138a633395324df1ad708181230ba167d0e82a 83ba700c9df1e48acbc8798f229f4658a54a7cc9 848dc40986e2b66e273ba8b7ac0511b420ed9fa5 87c0f64c8571f1d8fc4d179bf937b0e8f6cb2ef3 893e79723a621953526a3c7632583de8fb174ff5 8b341880bfdc59ec35e3d1ba82442eff8dc3ee12 92270c273debb7f05aee3819cbe3e1b4cfbd5d72 9431ee193e450175d83d5c2d3570367c5906e9ad 9551478fcfebced9e38fbd380ba1048de064a754 9960616f111fbd9442e86afcc9a9784b3be829ee 9b5e183610216951d31c0326b8048a2f869eb62a 9e7a7c25b9acbd1f0fb86c1d5909aa996c776a0c a3c00d02bc1726eb3e17df008e21978c79e65f95 a4f60a561d5ee91171068037accec0da0ad43a10 a713b633876d31367a8a209ba55fe378262e5e9e a7d96b4b06ec3fd9b0aab9908a296d67f5be01a4 a94177d6249250b7b020bda0d779f7f96ffd6901 ac9fd98113196b543cf818cb30720fc4261f4906 ad334745ca6096d18281e5fc8213399b3a977893 b1f6378d64559032dc31193d4abbc17dae58b7df b214fa3de5ee8ca1733e0dc77e21bc9117be0f7a b5524e7ea092ac2ac913b98d78595684fd00135d b6581f7023f0c98a1e856b4c4df95e072e648d67 b74cded43eafea1f3899d2a2711f178e98876213 bb46f004115126e065ad262d9038b152eb7cfaf0 bd77e068731c901ead0a7dcaa82dca4e226e9e59 be57aa9c5c56768f090ce1d1494a0a16dc1de5c0 c02acd44d0adee1a7fc07a81d7ecebe4cdf74c12 c740c70df372be431be539dbbdc371824209fa59 c77c9fefa614a54887746aa2b19793186354793c c78e2b02a9b01180ca59d123947864ce99055480 c7f8a9e8da9410f628eba5ee3b7081bd252f95f4 ca5e289a98284a4592b05353a90bda73e7c1961f cbe955fbfdcbabbb4524d47953be98932712b551 cc18e6ba0aef5ca9659706e84081f1e76d66d803 cf59a32f72c98c3da4e86477e68d839e99917f77 cf91c9e47eb3c8153ceb39a57e8018ba33912e79 d09ab620804fa4e354bc847dff67916316492c67 de5106e1ecaf28a01954dad43591e724871a4a58 e092dffaffea978096c58a5557dcc84cd038e25f e275efc9b9b645cabc96062ed972f5386413251b e3335234c7103b796a84b9a120d4a95348feb59e e9e739ed695d946c63d380133e0024729afd2dd6 ee4b1f48b575165f11f26cc9e6e83fd091e8606d ef8817164171749f8b968fc2a75c0ef04119f96d f4bd9cf66dfa0aa14781d8dc53a64d6b8db6886c f818a9792700cd4d827f812cba62d3ac88d57127 ff4d983cc29e011a6c94ca91d3d6b08df2ab654b
+Build-Ids: 023434d398cfa34e990a88315e455f3c491e7fa4 067d5f1de1eac09714c62e5a960aae8996df5248 0a3c0fa6b1cbe3349f3a06e6352814beb0bf6dcc 0c82a5dbd9f3dade52a67b03a4281481b797c156 0cd2b1a406c37b961e6dad55640a175281d98880 0d1157da796a43ecd744ecf043a5cfcff18f33d9 114c149b64d959da5cb6779d3c31d62ffa2187bb 150d44ee5e756e0378a326691f5de9f91f36fa6c 179ba4383ac939b7abc2090ed557f5e7420e996a 1f607e6fd1ff1d0e726f5e96a6f30615ac0293c0 20212d1819b4cef1a4d4ce0505b180632ef2e8dc 213524a0899267568164ea0f001cc87018493599 2301eb7983263180373d5909f1e615c2bb975a6d 255ef544b630cd538f9b5e74759f4a29a6c9447e 267be8088818e3d00899bd424c6f7a3ba8ccc49f 2a56c30308dc1250b6b544dce5e0749dd35d9057 2ce5d9a3773cb68a836487fe8e0c3c458afd65e0 2fdebcad70871860a281bd8bfd18ec3844713a7b 349c7c1586d56d62ee54439b079aa1ace7bc1f2c 36ce86f3db04d0111dd9d0c010bd63f386f3645b 3ae3e78f8ff4fd1fd1c78294db6c819d6dcb9244 3b9b4b62d7b1528feea4e57f8f2863cada64dc93 449fd4adfcc3022055094c3f217935350c24c3dd 44e9b54ed9d1d39c0f47be311e608177793e6d8d 4664a546bf280daed5b53e9d02c0a0f84c60af66 4d1214f0aa9548cfd9f5136bd4ef977f10b0b1ab 4e186052b7a2dda625459b26c665daa40faee66f 4ef0b727f48e8cf8c8058ed380f89feb9bd896f6 508ab62eace01291a00d91fdf245a28fecc28724 50f95e12e691908021503aa8dd3a92a865da79e3 51b10ba1fe7de6543a851fe8cf07080a31352c24 5324d7f679e90326647825afe732c3c2f2237d96 55a24f2b536ee75e95dd20536ec8e4d4b673ac37 55ca7a478d1edd714dad68f5ac61401ccf6be632 571d5d392b869dd4760c639e39f932ae26fbee39 57ca14c2017d4f14896952ee050b4ee7505a5529 5a03a6bfd666f3c752e8aa9eab08846746519f2d 63351073a8292d4fdd28dcf83ab07839b88a5f28 6950a59b6f9cf6db1a9d0fe82e1d881989a889f0 6aab735f3b22cf53bfcffc5656e320f43f5f28ac 6ba2b5f48c05926dd0b6fa7cd6cd3808a883da87 6ded5bf13cc9f41b8a3085bb03b3a2dad80097d4 6f605ffd1f48d5d8bb082348eb173b4d61b48f4f 7c033d995494e375d1b4ea4ecc63412e5351334f 7d21f5c796ee8ea3154490499fe5419e7bd69ac8 7eef53ae13978e414d596f7f98106feb9315fe7b 865279a368f29ca4e51c6db39d83504d3b7e5418 8852b4fec84376f0114d4e8c9e88b9fea89212db 89dac6e04ae652d7a2932474029e0767eb1576a6 8a9b459e394d759e4b949f031e6d597648de1a2f 8aa4bd96967300a76b7ce32a283d3d3ed3196e3e 912b998f9262bb018cb886cd0fe9293718ac5370 91a9bfa1d30dee68ed00a68c6ca9ddf5bf48f1e8 98753ff5fabe10f94ededafb2bf69178dcb568a5 9950bed642afe0db3747bac52c5965fd586f8958 9abbe57f5558fc956681bab30290f449fc66bbdc 9bc82bcf016eb4048552735a417e467c07b50d18 9cf81cfd371335b27cc4db16b4fb2887425e723a 9df1c4f34de3635d186712457564a095410685c0 a093582214c7e55bec3d6004e49a90c19632197a a3a689b23c602a6afd335a68e8e902664bebe772 a51252c751c9fa9232f2b9ffb2c90e31184b7e1c aa6ee0d5a6cab9db535bc30534b73d7b43683706 ab77ea5eaec02e01bfb8bdf78acdc8c9391f9629 ac5d37995cf34a34648d0f8049239ac9d2c18b71 ae8d63451b481b8fa17edaaebb01d8f7ece892bf b1bf742c62d07eb94579de7e2e9445be83525483 b6875fe1f611e09bebe698e1267b6b20b8a92527 b76e76cf4b0cee7ba537e18d9c184adbfdd94916 b793459ae33f66b3f454321bec3cec49abb90c02 b96960c5a1de653e04b8f14cc82ecc1ab03eb796 b9ffc3dabeb4cdd016947820d67b84a8dfcde988 bc4fdff52e948283bb408ac939a806dcd2e3ed10 c1ff5972a2a39abc90a60f2502850c8f0bcc735a c31d7016f6fd871a42d0e54e39dff9fb4733f91c c616e7bd0919742763bf99a5a59c1dd7c400e511 c72ba2b20cc969c2ecf03c61cb183c5b66cde4cd c7b45874de94ccda67358195d7c26ca807ea551d cebbd30f686e59fdfdd1680be123ee0359cc9776 cffe89e238813b98337791243a1f9e3158d492b0 d33f40d71b7dcf9398d23b01f7436d4e73bd183a d409fcaa63d53465e4306a41594593306ce1005e d8d6732f8f86843bc8474ad74d83805120d95a9a db90482e9ef54ae3dc6b302c5f18189c60f4325e dbc1c69833b9538f2f26e0bb4844ceea36ec760b df6b190e45d667adca08a634d0bddf74da029a2e dfe9a84d1c2177135adcd9a5f71fe2165c9661c4 e0be9186c60e65eac5070548f1ad393631168b2a e3c0c40056e1fd9757050b191b7f53cdb8df0a2c e6d22bdc44666529e5c5f57218fd4004c42d1098 e737d42c38d09481f58b156fe57b13d1dd55cb85 ec9e4ef9ed233ffde89eb8599b96693f6742cc66 f1a31c632850bc7915f49b2d9630da45ad194419 f59b5d63e3202b7373901d9104a8d54cfe9582a6 f91f36b2771d005b8e586ed5516259201278c01b f9da33efd479f43a46b544a30a70128ef65313f0 fe883a9ee78cfc8b78be064c38a6ee23d2887bd4
 Postgresql-Catversion: 202506291-1800
 
 Package: postgresql-18-jit
 Source: postgresql-18
-Version: 18~rc1-1-maruska
+Version: 18.0-1-maruska
 Architecture: amd64
 Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
-Installed-Size: 24225
-Depends: postgresql-18 (= 18~rc1-1-maruska), libc6 (>= 2.17), libgcc-s1 (>= 3.0), libllvm19 (>= 1:19.1.0), libstdc++6 (>= 5.2)
+Installed-Size: 24232
+Depends: postgresql-18 (= 18.0-1-maruska), libc6 (>= 2.17), libgcc-s1 (>= 3.0), libllvm19 (>= 1:19.1.0), libstdc++6 (>= 5.2)
 Provides: postgresql-18-jit-llvm (= 19)
 Homepage: http://www.postgresql.org/
 Priority: optional
 Section: database
-Filename: pool/main/p/postgresql-18/postgresql-18-jit_18~rc1-1-maruska_amd64.deb
-Size: 9835136
-SHA512: be5403d3f266f9d4209d9b83637161f97be51a7d3f3143c25cad88883f5f279115819ea26e79fbb7990135fccf31907d2e56fa7ef21c40f0536b623919f42f02
-SHA256: c505d52cdef211662a00ab01574fea9f9b706c35d0438b894da02d8a6300812a
-SHA1: ee0a052d9c5da75700fae84b23b98dd98681e2f4
-MD5sum: 34725549d701da7dba1709ec9b805143
+Filename: pool/main/p/postgresql-18/postgresql-18-jit_18.0-1-maruska_amd64.deb
+Size: 9837724
+SHA512: f05d7dcdad2c73f412c941d6c48d613ceebbf4fc8881748f540d8ce5e0b75d3f14efd005cfc51d479882a6bc7abcbf1313688106f4163e63d7a9fc343593bfb5
+SHA256: 6f46a1d884512ab5e754511773df2a20b7f37ec8ce5602eb431e096529319388
+SHA1: 7c76cdd2182f0ad0e41b36f9eb1be4e152461653
+MD5sum: 4d7f48c3052a00856fc9f57f4364295d
 Description: LLVM JIT support for PostgreSQL 18
  PostgreSQL, also known as Postgres, is a free and open-source relational
  database management system (RDBMS) emphasizing extensibility and SQL
@@ -3693,26 +3685,25 @@ Description: LLVM JIT support for PostgreSQL 18
  with many concurrent users.
  .
  This package provides LLVM-based query JITing for PostgreSQL 18.
-Dgit: c93eb67df50b69500cea0e0dae2f70688245c5b7
 
 Package: postgresql-18-jit-dbgsym
 Source: postgresql-18
-Version: 18~rc1-1-maruska
+Version: 18.0-1-maruska
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
 Installed-Size: 1307
-Depends: postgresql-18-jit (= 18~rc1-1-maruska)
+Depends: postgresql-18-jit (= 18.0-1-maruska)
 Priority: optional
 Section: debug
-Filename: pool/main/p/postgresql-18/postgresql-18-jit-dbgsym_18~rc1-1-maruska_amd64.deb
-Size: 1303744
-SHA512: 5b25dc1ae980c12b703c361aebfb8f36a98076e6062eab46831e1b10a4f7992bbf74e6555d26e2ecb432cf23117e173224299e0b0d0e05768af68384a013e8ea
-SHA256: 1ca5bd32ec63820912ff3c20c138a8dac42687de9f37ec8559e4c9bde0956c9c
-SHA1: 29fe3acdb6267acbe530c1d56b2534a518bee41d
-MD5sum: 2ac9f761f7eeec5a48dcba7de91534a0
+Filename: pool/main/p/postgresql-18/postgresql-18-jit-dbgsym_18.0-1-maruska_amd64.deb
+Size: 1303808
+SHA512: f9728e5f2867a09d40831929f5c0e9053acc683f723b9b1e8243679ef575ac4c00c45b0bce7997acc2268a32102a54dab2839e1d0f09eb62d5f4aa20a1cd2958
+SHA256: 1365aa70504c4a647746098cf1b8fc57d25e4e687b1aba9f3b811e2272845bff
+SHA1: dfc60cb277a9f8fd5ed874cb44d4fe0e45bb5539
+MD5sum: 4cc0781ffad84c267f0d077f312e7698
 Description: debug symbols for postgresql-18-jit
-Build-Ids: a0055df88f0a58d4b622e9583ecaa208db101f9e
+Build-Ids: 4d56e1b4c478ec899178e944e1313870bb154317
 
 Package: postgresql-client-15
 Source: postgresql-15
@@ -3866,23 +3857,23 @@ Build-Ids: 029017967c94bf4d19e50579db678ca906e384b8 13b943af604c7c024cecdd6261cb
 
 Package: postgresql-client-18
 Source: postgresql-18
-Version: 18~rc1-1-maruska
+Version: 18.0-1-maruska
 Architecture: amd64
 Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
-Installed-Size: 10902
-Depends: libpq5 (>= 18~rc1-1), postgresql-client-common (>= 182~), sensible-utils, libc6 (>= 2.38), liblz4-1 (>= 0.0~r127), libreadline8t64 (>= 6.0), libssl3t64 (>= 3.0.0), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)
+Installed-Size: 11005
+Depends: libpq5 (>= 18.0-1), postgresql-client-common (>= 182~), sensible-utils, libc6 (>= 2.38), liblz4-1 (>= 0.0~r127), libreadline8t64 (>= 6.0), libssl3t64 (>= 3.0.0), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.1.4)
 Suggests: postgresql-18, postgresql-doc-18
 Provides: postgresql-client
 Multi-Arch: foreign
 Homepage: http://www.postgresql.org/
 Priority: optional
 Section: database
-Filename: pool/main/p/postgresql-18/postgresql-client-18_18~rc1-1-maruska_amd64.deb
-Size: 2120892
-SHA512: 9433c34c2ef42f68256800964266b52c0fc9de66b4720fde4ff111b510ff3c62299d21ad047b16427304b9491a89bad17992c009f1eb18d9a370d83b4eb323a8
-SHA256: 3e838cdedc4f9fcd113ae2a1194e9079527b565a3723568c860d2f27235cfa99
-SHA1: 43f48b4086b08b77ec41d042eae8983a62b6a00d
-MD5sum: 709e1114a9ff40db98384d58574bd6d7
+Filename: pool/main/p/postgresql-18/postgresql-client-18_18.0-1-maruska_amd64.deb
+Size: 2114144
+SHA512: 9100826e01a98ff415b99e5332876bbe953575fb89e1fdb942cf377e04e75fd63a579e375298074047db59a2589de82dc5074658a16a1b76936d9a5d88d62785
+SHA256: 19a477188b44b5730c65272ed539a4e29fe23359765fa17ff188ab66f93e5705
+SHA1: f8d98804ebda0e9a9258fc8150dd049116929481
+MD5sum: 9db3fce9433fa010f0afa8010f52d9f8
 Description: front-end programs for PostgreSQL 18
  This package contains client and administrative programs for
  PostgreSQL: these are the interactive terminal client psql and
@@ -3895,26 +3886,25 @@ Description: front-end programs for PostgreSQL 18
  only one machine.
  .
  PostgreSQL is an object-relational SQL database management system.
-Dgit: c93eb67df50b69500cea0e0dae2f70688245c5b7
 
 Package: postgresql-client-18-dbgsym
 Source: postgresql-18
-Version: 18~rc1-1-maruska
+Version: 18.0-1-maruska
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
-Installed-Size: 4965
-Depends: postgresql-client-18 (= 18~rc1-1-maruska)
+Installed-Size: 4963
+Depends: postgresql-client-18 (= 18.0-1-maruska)
 Priority: optional
 Section: debug
-Filename: pool/main/p/postgresql-18/postgresql-client-18-dbgsym_18~rc1-1-maruska_amd64.deb
-Size: 3266372
-SHA512: 41958f9d078088aff5403465308c584ae1a032bf76a4729c0b33b6b248c92e180ed4b08c62fdb966fc675cc897681e763532a2bfa3afc4a96efbaad187c6b03d
-SHA256: 6c6fac6ae9e7f15ef86ea5b0647386a295f3b0fbbc4a57b0cd6d63e4f5c8c68d
-SHA1: 12f49179063eb4ce35e83911bd4216222a6b7744
-MD5sum: c5ded2a5acea81ff2251b3e73be4af19
+Filename: pool/main/p/postgresql-18/postgresql-client-18-dbgsym_18.0-1-maruska_amd64.deb
+Size: 3268536
+SHA512: c2ddb0b8afbfdc3eb0c3a237b6160b3046203d9f12bd2e886ac125bac9e923f5adf91ce85b5485b1f6e9503ef7f76315f5a12e8147b8c84882aeb43174a6fd85
+SHA256: 5f31b5b451bad13d3f9fbd58d95cda1119c6b62703847be483c0dcd9d18cd1e4
+SHA1: 6141454d8ab117377f216aba9893ce26db4fefae
+MD5sum: 0ae5424d9c8dc676b365b9bd291e8aac
 Description: debug symbols for postgresql-client-18
-Build-Ids: 042a6ec17db1949c30926700e223be051afcee2f 09f04ee90862f1b1d2ae67888f755acc717aa613 11ce1474340b39d3851cac4c2dfa5d3c528e10c4 1f9ea4a563a447fcfbed08d39972e916d1a03b47 22061510a85b876f6e2501dee9f782354e5caac4 2d2dd8e88a915e78caca291d62f55d735db7b422 2f933411fb51084045ca093132702789c420b4ea 5bbed4e90af9031b43e4294f60ded79e0d7a9a26 5f4d84d01e9db4c13f772dca43ccfef7bac7bcf6 6f833f6ad220a092005cf496411ae4e055c49546 701d9d43f65ec103612e08fa3bbdd3983c83cbdc 9a471c7d11691eab4dd84c5bd2cedf0046333509 9f70bf1dd99786750b69e6d118c16b5ea1ed7c12 a068f011c7a3f5c4a857442bbdf648d5a7edd516 aba66c0881dbe33249a4ab27bf8f66de09abee63 af05ce1681fad87c918b8794d2b6e0236b517aec b600d0f3426e3822737646775d91b03afe3fa15f b830fdf0a5cd05bcac24e4e9d2c7d50192485ca0 cde2066081be74dde6f9128544f5a36939eff3b8 dba0ec84338ebaa3f20e3166bed9881976d6ce66 e57272e2458946e6866a18efd85e113bb587a8ae f290f4830b1b886c9f09ad0dec217f6fb236f714
+Build-Ids: 137acdce1c29bbabbe6d1b7771a7f28897ef286c 15bfc544104884581b7d6ee1a7daa35df1695bc3 203f505e216643627e04b74a1fe2c8c6afde3356 2e788a97f5b810bdc268eafb9e17395508d3024d 3957b3687882994541ed76747d48f73faa688075 3ee478fa4ec37e32df01519b55b81b57375c3546 50283f0eb8ec360474e66e93fce1f5018a9eba71 5517469ef00f80c67972c0db16ee5bf207ca7947 551c5ae2cbe76c1caf629b9b02dfa26115ac8554 5977074646f5c0d5ff9c509c499af4206e467d41 5d1883a2e42bb12eb7d4b4ba5f6752cf0d03c41e 62c06a3a70572f2d45618b46f362fd6e163e674b 64795463070f10738887e3e527ffaad9fb2b3919 780b02fd267a05357fc1589f5785de6ca92746b5 7ca9abbf6b9d3221a401d84839e37c562c070fff 8dffe93f6eec3ee07a80a8ba520525387f2e99f3 9ae83ac4be9fce298c4a8dea3affe23f6e86971f 9e8701af68265c8fe771d6267654445653984187 a558fd898a8cc632595b6ca9f407489161f6c057 b4959bab02b8d52af33c32d9d22221817bdb6001 c4c6d5bdbc1b77da01f0de47b8fe2262993c3185 d1404f7d1bd7f4f8db6f7d1f2a62c50e265c8ca2
 
 Package: postgresql-doc-15
 Source: postgresql-15
@@ -3984,26 +3974,25 @@ Dgit: da7926ad0ac9ce197fde721fb969ef980119f8fd
 
 Package: postgresql-doc-18
 Source: postgresql-18
-Version: 18~rc1-1-maruska
+Version: 18.0-1-maruska
 Architecture: all
 Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
-Installed-Size: 17261
+Installed-Size: 17279
 Multi-Arch: foreign
 Homepage: http://www.postgresql.org/
 Priority: optional
 Section: doc
-Filename: pool/main/p/postgresql-18/postgresql-doc-18_18~rc1-1-maruska_all.deb
-Size: 2168112
-SHA512: 990e288e11df3534b5a41583981e0780c299a3750b09caa177f02247df89da1378d0acd3a2b6dbbdd85a2e9dde73afcf0120fd1a962d0e2c01046fba57e55387
-SHA256: 4c028cc60aba2b2461bf5643670eded804158d9d70201a2466d6f7ea6348cf62
-SHA1: ac2c6d2df81ef71359d8ed56462a6cb9ccd31024
-MD5sum: d6f382157142d955acc70d01b5238b3f
+Filename: pool/main/p/postgresql-18/postgresql-doc-18_18.0-1-maruska_all.deb
+Size: 2172160
+SHA512: c8e6d7b97a0c952ae98f800d687932d3e82059ab9dbd0f961af115fa3e27de045811e3c4dca89c6e15c4ab47f980a5e98a185e4d5c06b68f57022c3cb7659193
+SHA256: e52c490c6a3f2f5eacee724c869454c150bd175348f63b8cd3dd26cc70993c5b
+SHA1: 1a19b6b31d536d7c304210adaa79e32b28ba1c36
+MD5sum: dbd5d3da0f51acf66e242832c61cf8f5
 Description: documentation for the PostgreSQL database management system
  This package contains all README files, user manual, and examples for
  PostgreSQL 18. The manual is in HTML format.
  .
  PostgreSQL is an object-relational SQL database management system.
-Dgit: c93eb67df50b69500cea0e0dae2f70688245c5b7
 
 Package: postgresql-plperl-15
 Source: postgresql-15
@@ -4133,47 +4122,46 @@ Build-Ids: 094036fd5b7e0658e5be012eaddf11520cc775f5 59d58c862744b42f6c156c1b74e8
 
 Package: postgresql-plperl-18
 Source: postgresql-18
-Version: 18~rc1-1-maruska
+Version: 18.0-1-maruska
 Architecture: amd64
 Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
 Installed-Size: 347
-Depends: perl, postgresql-18 (= 18~rc1-1-maruska), libc6 (>= 2.34), libperl5.40 (>= 5.40.0)
+Depends: perl, postgresql-18 (= 18.0-1-maruska), libc6 (>= 2.34), libperl5.40 (>= 5.40.0)
 Provides: postgresql-plperl
 Homepage: http://www.postgresql.org/
 Priority: optional
 Section: database
-Filename: pool/main/p/postgresql-18/postgresql-plperl-18_18~rc1-1-maruska_amd64.deb
-Size: 66328
-SHA512: a0666c7e0d07e7df783335a1a5f3788d7f1d1277b004969f46632eb7f8bfb00d5a883e673db5696b089ad829ed6f731a21aca4d30a87b786e4201e9ddf3b53e3
-SHA256: 45ff90c7469dce2e130f07399f06f6c400186c564ad7dc7769c14d8b1250e237
-SHA1: 18184cd482a96ee532b0d840f301e9e7372dada3
-MD5sum: f832642f3ee8fb96bd782a02b4546276
+Filename: pool/main/p/postgresql-18/postgresql-plperl-18_18.0-1-maruska_amd64.deb
+Size: 66180
+SHA512: 4af867a8ad63ee1eb545162bb12d2abc8b370a417a97dbb04e3379efc97bd0c44bea94c01edb057ce551fccc5c96cf53ed8bec9160fab357d136c03ce8b5ebc6
+SHA256: 8effa29dfdee865bc3bbe519a83c7ee1c9c432cb9b3a896377968b51f6ef993a
+SHA1: fdd429c278b31134d19494981367e94b03218c93
+MD5sum: 0f2c520b1f8804f2b73f2dd6cb169e2a
 Description: PL/Perl procedural language for PostgreSQL 18
  PL/Perl enables an SQL developer to write procedural language functions
  for PostgreSQL 18 in Perl.  You need this package if you have any
  PostgreSQL 18 functions that use the languages plperl or plperlu.
  .
  PostgreSQL is an object-relational SQL database management system.
-Dgit: c93eb67df50b69500cea0e0dae2f70688245c5b7
 
 Package: postgresql-plperl-18-dbgsym
 Source: postgresql-18
-Version: 18~rc1-1-maruska
+Version: 18.0-1-maruska
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
 Installed-Size: 248
-Depends: postgresql-plperl-18 (= 18~rc1-1-maruska)
+Depends: postgresql-plperl-18 (= 18.0-1-maruska)
 Priority: optional
 Section: debug
-Filename: pool/main/p/postgresql-18/postgresql-plperl-18-dbgsym_18~rc1-1-maruska_amd64.deb
-Size: 205592
-SHA512: 9bb0dde9b71875c5396353a4363694f57530f2b1a961004eabf89deac34274e4104aff39e78d45084c4eebb2808c7c1eb7b9117b9cd3ac34dc660ed82081b6e9
-SHA256: 3a4e76d5fdb66008d0197084d9a989a15c8ccf41251bd34e8aff81088c89fe18
-SHA1: c6821ac67d333b26cd44d7b8eb9ad89cf214a60a
-MD5sum: 4d8c8272380bfa5cefe5fc6819949bce
+Filename: pool/main/p/postgresql-18/postgresql-plperl-18-dbgsym_18.0-1-maruska_amd64.deb
+Size: 205596
+SHA512: b6c4ee41dcc02f5821099aa8ead335a252d84f2a1092d912d47716239d3b2357916c93a61dc25ae13eb15a6d4274c05e396eb5f832f8063e5ee28099297459c6
+SHA256: e721a4244b6ecff89f3714a27c3cbb038479d74714a2d62f3f6ac0af6df16e03
+SHA1: e4ff418bb324eda436cceae6cbf7815a7ba1688f
+MD5sum: 9b04b4005d824250a6ae209332752c8d
 Description: debug symbols for postgresql-plperl-18
-Build-Ids: 0b75735471c0df97956d66c907ee280b6c4db7fc 4ea76640fd31a2555ee433f74575c0ce15868d48 8492ed8fa9d842a61b09dff933e98f55dc1e821f 8be3fab74b0340b5b6ad358a8c9393af5c23bba0
+Build-Ids: 2700541c881c6392999dd09971bfdee80653462f 2eb0b81b4b617bc7dc5334f2c55f6030f2a87833 87ccf33d027619ee944ceeadc07835aefb9c6a65 8d5ecd057d2e730d39b746a9f2d1e8773e07cf21
 
 Package: postgresql-plpython3-15
 Source: postgresql-15
@@ -4303,47 +4291,46 @@ Build-Ids: 420bd02ccc8779be8d4ad5f868208e14bdee637b 59f5e8da22092b0d699cbf862022
 
 Package: postgresql-plpython3-18
 Source: postgresql-18
-Version: 18~rc1-1-maruska
+Version: 18.0-1-maruska
 Architecture: amd64
 Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
 Installed-Size: 488
-Depends: postgresql-18 (= 18~rc1-1-maruska), libc6 (>= 2.14), libpython3.13 (>= 3.13.0~rc3)
+Depends: postgresql-18 (= 18.0-1-maruska), libc6 (>= 2.14), libpython3.13 (>= 3.13.0~rc3)
 Provides: postgresql-plpython3
 Homepage: http://www.postgresql.org/
 Priority: optional
 Section: database
-Filename: pool/main/p/postgresql-18/postgresql-plpython3-18_18~rc1-1-maruska_amd64.deb
-Size: 89904
-SHA512: b894297db03815602729153d9563fbfeb53001c680715e67bc82f9dcf8a4789094e155a8dce5dce97a02e103f7ec99e3c6a55e721668f2598b130b7844a724f5
-SHA256: 12f143442af0cedb8bd9e20b45f74ce87cff06b29f91d6ccf85f23627b697395
-SHA1: a2d1017245e694a819c6931eb5d55d3e33a4e8a5
-MD5sum: 5dd220ed376cc6b97e3fe691aeea46ac
+Filename: pool/main/p/postgresql-18/postgresql-plpython3-18_18.0-1-maruska_amd64.deb
+Size: 89648
+SHA512: 52a917f1fe6db3fbfbd68ab7a265bcee1b2f39e58b4ddf706da2a7aece78bad88efbe203f3dc09a07baa2729d22af993c0672073655b6b11a7a52101f6242d18
+SHA256: f03e5fc6efb422d7b2589443b4014f3389cc8ed03362949b45c1ed38c702bd77
+SHA1: 40139453e832453f95a0fcc9e47be52a7d6769ad
+MD5sum: 8b1ff66627ce6453ffecc35496d9feca
 Description: PL/Python 3 procedural language for PostgreSQL 18
  PL/Python 3 enables an SQL developer to write procedural language functions
  for PostgreSQL 18 in Python 3.  You need this package if you have any
  PostgreSQL 18 functions that use the languages plpython3 or plpython3u.
  .
  PostgreSQL is an object-relational SQL database management system.
-Dgit: c93eb67df50b69500cea0e0dae2f70688245c5b7
 
 Package: postgresql-plpython3-18-dbgsym
 Source: postgresql-18
-Version: 18~rc1-1-maruska
+Version: 18.0-1-maruska
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
 Installed-Size: 240
-Depends: postgresql-plpython3-18 (= 18~rc1-1-maruska)
+Depends: postgresql-plpython3-18 (= 18.0-1-maruska)
 Priority: optional
 Section: debug
-Filename: pool/main/p/postgresql-18/postgresql-plpython3-18-dbgsym_18~rc1-1-maruska_amd64.deb
-Size: 191160
-SHA512: 61299f153aaee12a37f8e4c372c9e058562df76879bf6d5d8756efa1e71ec77f3ee313936449516a8b72c9f02c0eee6d5cf445a9ade5691d940bcdf4c0d0e5fe
-SHA256: 263a89d8c0b293d598333ede2c6f4c3e7e3cfe3b451c852fae5b7e406ef189dc
-SHA1: 973895c428b7c12e97d5e39c675366de0fa5832c
-MD5sum: d8293a2fe7ff9f29e1b96b72962ee69f
+Filename: pool/main/p/postgresql-18/postgresql-plpython3-18-dbgsym_18.0-1-maruska_amd64.deb
+Size: 190896
+SHA512: 2ae71b6795e13074ab2130a643beb2742ac610055f86561b7d13bbe785182494e49963e6a7b1ab881dfce0052210c63f0e85dd9b77e3a35d7526d8a5acfa9d2b
+SHA256: 0db1ab5676e1233f8e695db015940e6c57318a259e1c293498a5d46440440230
+SHA1: c6eb7e939852adb908bd2aa024e80ce900b96e2b
+MD5sum: 9f79d9c2275ee19e851713501761df76
 Description: debug symbols for postgresql-plpython3-18
-Build-Ids: 881fa20d32e4751578c14fc2979dc98df4117476 bec1ef034547cef0bfb08a72e5931d2dcccce32e ecc57a0271b8404e628dce7cf39a37797892bd81 f77bba184b281e76d169be8e76284b8247565273
+Build-Ids: 266a04833deffaefd3b5c616b1307e28863f0f56 95e09a3b134abd617e580fcaea1833d58da11ce8 be3e29cb50bbd00daf56dbeec698b8e699054ff7 ec48a51f359756723811f898b88a079a351ce0ca
 
 Package: postgresql-pltcl-15
 Source: postgresql-15
@@ -4473,47 +4460,46 @@ Build-Ids: 9da0c788e3c5690ff59fc5c520b25e720f7c04af
 
 Package: postgresql-pltcl-18
 Source: postgresql-18
-Version: 18~rc1-1-maruska
+Version: 18.0-1-maruska
 Architecture: amd64
 Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
 Installed-Size: 207
-Depends: postgresql-18 (= 18~rc1-1-maruska), libc6 (>= 2.4), libtcl8.6 (>= 8.6.0)
+Depends: postgresql-18 (= 18.0-1-maruska), libc6 (>= 2.4), libtcl8.6 (>= 8.6.0)
 Provides: postgresql-pltcl
 Homepage: http://www.postgresql.org/
 Priority: optional
 Section: database
-Filename: pool/main/p/postgresql-18/postgresql-pltcl-18_18~rc1-1-maruska_amd64.deb
-Size: 39392
-SHA512: 8e08cc34c85cea22bf5eb88e95ff2834e13bf732c75cfc9f13771d567cf6bd687ad65ff8ff336eb1c3aa0df84fe5ccd24db16f24d47295e33d92b076fed7866f
-SHA256: 55a7ab277f18ed07194595955dfdb7d3cdf3135908704f1f7bf8c4e217979434
-SHA1: 5cea47ad55cd30c84668893e65637c6f870553bf
-MD5sum: aec090efed350dab9b7453f89df965da
+Filename: pool/main/p/postgresql-18/postgresql-pltcl-18_18.0-1-maruska_amd64.deb
+Size: 39336
+SHA512: e2cb8d4ef1f8e63dd1f416facef684b413396d6f929ededf616b198d6fe1fddac9f95ce252b71b8edaa3668c2724c6d09d11736142d96a209005d107b8fa0a1f
+SHA256: 024d3c0daa3621ff1cc43d11f37f00259b46142febc0c0d0581c45f84e8962b3
+SHA1: 364559c43f48acfd60371213e78f43a0a9686c52
+MD5sum: 0c78532ff63ef2415732e148c47e5bf6
 Description: PL/Tcl procedural language for PostgreSQL 18
  PL/Tcl enables an SQL developer to write procedural language functions
  for PostgreSQL 18 in Tcl.  You need this package if you have any
  PostgreSQL 18 functions that use the languages pltcl or pltclu.
  .
  PostgreSQL is an object-relational SQL database management system.
-Dgit: c93eb67df50b69500cea0e0dae2f70688245c5b7
 
 Package: postgresql-pltcl-18-dbgsym
 Source: postgresql-18
-Version: 18~rc1-1-maruska
+Version: 18.0-1-maruska
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
 Installed-Size: 105
-Depends: postgresql-pltcl-18 (= 18~rc1-1-maruska)
+Depends: postgresql-pltcl-18 (= 18.0-1-maruska)
 Priority: optional
 Section: debug
-Filename: pool/main/p/postgresql-18/postgresql-pltcl-18-dbgsym_18~rc1-1-maruska_amd64.deb
-Size: 89000
-SHA512: 9bacb35a6fd1cddb5930a8b0227e83be3861eb2275e3db9dad5f34c48ba5428537eebf817cb0c9f163e52b63fb68caee67e52c03fdc9420ecd58c55be5ac5eb5
-SHA256: a37e569b27fc636a5a8371e941c0807cf85a0a0d74627beb913d53d1f92c3c0f
-SHA1: 3b78cbd818bc2734908999b5fe4f4aa5eadbde18
-MD5sum: f4875be60a3b2789354365567375a40b
+Filename: pool/main/p/postgresql-18/postgresql-pltcl-18-dbgsym_18.0-1-maruska_amd64.deb
+Size: 88964
+SHA512: 0afa6d4e27065297aa6acc17bdd46143a114278d792527de2e6693633e24ddd88aa10036e3c490aeff8cf3268fac3465c7e1238c1ca958dc8ed575f55ac1da41
+SHA256: adf3f465d0f5c60194e5373a0b738fce8b6caaa1e305693dd891dbe27744f900
+SHA1: 2a2cfa0c20ddd17d2d3966dd630dfd3a259c6785
+MD5sum: b25093e12e94b1b56f626e13ec593cfb
 Description: debug symbols for postgresql-pltcl-18
-Build-Ids: 8992e5a2b054e96fce93e32c34055b4525403c81
+Build-Ids: 5cb8cc4ff2474547b7493a78a2b3f6257b1b602b
 
 Package: postgresql-server-dev-15
 Source: postgresql-15
@@ -4613,20 +4599,20 @@ Build-Ids: 18f875698ed4dfb4e6fd2b46e5268ed4f70708c7
 
 Package: postgresql-server-dev-18
 Source: postgresql-18
-Version: 18~rc1-1-maruska
+Version: 18.0-1-maruska
 Architecture: amd64
 Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
 Installed-Size: 8649
-Depends: clang-19, libpq-dev (>= 18~~), llvm-19-dev, postgresql-client-18 (= 18~rc1-1-maruska), postgresql-common (>= 142~), libc6 (>= 2.38)
+Depends: clang-19, libpq-dev (>= 18~~), llvm-19-dev, postgresql-client-18 (= 18.0-1-maruska), postgresql-common (>= 142~), libc6 (>= 2.38)
 Homepage: http://www.postgresql.org/
 Priority: optional
 Section: libdevel
-Filename: pool/main/p/postgresql-18/postgresql-server-dev-18_18~rc1-1-maruska_amd64.deb
-Size: 1382860
-SHA512: 2f5b9a8a4b107e8758952729efb343f1e453305be63102098553de61341d7db1cf1a0d1190a65d2e08c7ae881e119e6f7f12de5b21d7e70db8fff6c45a79d51b
-SHA256: 43b7fd9c83031ba609291d66560162c67c727fb9db64cfe260ec227457081043
-SHA1: cea0349aeb81780f0b8db2e7f020d3b822a829b0
-MD5sum: e41f18240e812b995a9c93b739424f9f
+Filename: pool/main/p/postgresql-18/postgresql-server-dev-18_18.0-1-maruska_amd64.deb
+Size: 1381932
+SHA512: 4b4f623154aecadb6ca9b4960a39d80cb78e28fe7c6bb3bfa98a7ae8d0e64427262be41c9a4152ef6bd4386fc19f65fc38ea207909e52989daadb83a0bb6e825
+SHA256: d905a938452d026818898d2feb8f6562456b2ec8745d1153f9a7c5d303859982
+SHA1: 27ebc436463b859e549f45be9845685d21dea645
+MD5sum: 047be31c8524f95cc6e59b49d882d2e6
 Description: development files for PostgreSQL 18 server-side programming
  Header files for compiling SPI code to link into PostgreSQL's backend; for
  example, for C functions to be called from SQL.
@@ -4636,24 +4622,23 @@ Description: development files for PostgreSQL 18 server-side programming
  PostgreSQL source-code tree.
  .
  PostgreSQL is an object-relational SQL database management system.
-Dgit: c93eb67df50b69500cea0e0dae2f70688245c5b7
 
 Package: postgresql-server-dev-18-dbgsym
 Source: postgresql-18
-Version: 18~rc1-1-maruska
+Version: 18.0-1-maruska
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
 Installed-Size: 82
-Depends: postgresql-server-dev-18 (= 18~rc1-1-maruska)
+Depends: postgresql-server-dev-18 (= 18.0-1-maruska)
 Priority: optional
 Section: debug
-Filename: pool/main/p/postgresql-18/postgresql-server-dev-18-dbgsym_18~rc1-1-maruska_amd64.deb
-Size: 56108
-SHA512: 9d070bcf2fc7d7cd74ba9529726ea52e181b7e80e8478475ff5d85dd38699a320bc5801079c0ab35f92b5b9bb6fb807fdc77fa980099b20929b6f8e81dcae1bc
-SHA256: 375af220553c77193689f109138c709f3cba13688d75d733cb7585d7294a3864
-SHA1: 6c1a4d8e4a3dddb8f5c5a0cb64e14ea90add68d2
-MD5sum: c771e977c486d3a66e66d9f8a2cf0d45
+Filename: pool/main/p/postgresql-18/postgresql-server-dev-18-dbgsym_18.0-1-maruska_amd64.deb
+Size: 56104
+SHA512: 07956fa99aae9985fe259b2c8fda94a47a6f476ba3dcd81354aef18ba7f71109c15a2d93cb18717476677db16d330a52a03179142a3f559004d03c8cc14dcca8
+SHA256: 59cf92ed750cae55450d06c80cce4715d225bcdf235ac6346465626eb6bf08e1
+SHA1: 197053f52f8cd43f29685862fa3490a48cd4ac81
+MD5sum: c57afc8de480b24cbbc350210af33cb3
 Description: debug symbols for postgresql-server-dev-18
 Build-Ids: 91cf92b1f17ffad621ac3560efe6c2431b57c784
 
