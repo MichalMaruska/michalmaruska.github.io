@@ -40,11 +40,11 @@ Description: transitional package for https support
 Dgit: 4c7693805bbd4585499dcb4d550f56fc727aeb86
 
 Package: debhelper
-Version: 13.27-maruska
+Version: 13.28-maruska
 Architecture: all
 Maintainer: Debhelper Maintainers <debhelper@packages.debian.org>
-Installed-Size: 1510
-Depends: dh-autoreconf (>= 17~), dh-strip-nondeterminism (>= 0.028~), dpkg-dev (>= 1.18.2~), autotools-dev, dpkg (>= 1.18.0~), dwz (>= 0.12.20190711), file (>= 3.23), libdebhelper-perl (= 13.27-maruska), libdpkg-perl (>= 1.17.14), man-db, po-debconf, perl:any
+Installed-Size: 1513
+Depends: dh-autoreconf (>= 17~), dh-strip-nondeterminism (>= 0.028~), dpkg-dev (>= 1.18.2~), autotools-dev, dpkg (>= 1.18.0~), dwz (>= 0.12.20190711), file (>= 3.23), libdebhelper-perl (= 13.28-maruska), libdpkg-perl (>= 1.17.14), man-db, po-debconf, perl:any
 Suggests: dh-make
 Conflicts: dh-buildinfo
 Breaks: cmake (<< 3.9~), dh-debputy (<< 0.1.36~), meson (<< 0.40.0~)
@@ -53,12 +53,12 @@ Provides: debhelper-compat (= 9), debhelper-compat (= 10), debhelper-compat (= 1
 Multi-Arch: foreign
 Priority: optional
 Section: devel
-Filename: pool/main/d/debhelper/debhelper_13.27-maruska_all.deb
-Size: 940944
-SHA512: 15ae6bd72e76172180af633286f746d839db8cba9f2d2101e28db1e4c768082422f22984335aab660bc93c8337aad31f6ddf1f02ea569e0017ed4adb5544715c
-SHA256: d5d80279a2faff5be957318142309f09ed70676725ba958598136eb2f44b6a22
-SHA1: 844e9e1a124f2a0f0e2a7894d0b1cce0ed690cf2
-MD5sum: 4963061dbd494bdd2d92865fd7c6b117
+Filename: pool/main/d/debhelper/debhelper_13.28-maruska_all.deb
+Size: 942744
+SHA512: f8f84ac4ce309c0844c707c5d6e122148c27a665bd874d38252be7a55aea89a401f232b2970b2e62a508184198e04f735e41c64d2cab45d1b3992f4c61c71045
+SHA256: bafc5e12bfed5b4c320f85aa6100cbab63c7768ab617b3b936273d55b76c5309
+SHA1: 25cce3e3bb66b2015eaf7a9ae150a8235bb755ad
+MD5sum: cc6503508f1c51066cbb4bd272c36e95
 Description: helper programs for debian/rules
  A collection of programs that can be used in a debian/rules file to
  automate common tasks related to building Debian packages. Programs
@@ -67,7 +67,7 @@ Description: helper programs for debian/rules
  menu system, debconf, doc-base, etc. Most Debian packages use debhelper
  as part of their build process.
 Commands: dh, dh_assistant, dh_auto_build, dh_auto_clean, dh_auto_configure, dh_auto_install, dh_auto_test, dh_bugfiles, dh_builddeb, dh_clean, dh_compress, dh_computeautosubstvars, dh_dwz, dh_fixperms, dh_gencontrol, dh_icons, dh_install, dh_installalternatives, dh_installcatalogs, dh_installchangelogs, dh_installcron, dh_installdeb, dh_installdebconf, dh_installdirs, dh_installdocs, dh_installemacsen, dh_installexamples, dh_installgsettings, dh_installifupdown, dh_installinfo, dh_installinit, dh_installinitramfs, dh_installlogcheck, dh_installlogrotate, dh_installman, dh_installmanpages, dh_installmenu, dh_installmime, dh_installmodules, dh_installpam, dh_installppp, dh_installsystemd, dh_installsystemduser, dh_installsysusers, dh_installtmpfiles, dh_installudev, dh_installwm, dh_installxfonts, dh_link, dh_lintian, dh_listpackages, dh_makeshlibs, dh_md5sums, dh_missing, dh_movefiles, dh_movetousr, dh_perl, dh_prep, dh_shlibdeps, dh_strip, dh_systemd_enable, dh_systemd_start, dh_testdir, dh_testroot, dh_ucf, dh_update_autotools_config, dh_usrlocal
-Dgit: 07a79bb69d2727c750d6cc6d549294962a690200
+Dgit: 50e3ecd0b92e0ccc8dfc8c1a92e5166b03bce8ef
 
 Package: debspawn
 Version: 0.6.4-maruska2
@@ -581,28 +581,28 @@ Dgit: 4c7693805bbd4585499dcb4d550f56fc727aeb86
 
 Package: libdebhelper-perl
 Source: debhelper
-Version: 13.27-maruska
+Version: 13.28-maruska
 Architecture: all
 Maintainer: Debhelper Maintainers <debhelper@packages.debian.org>
-Installed-Size: 355
+Installed-Size: 356
 Depends: perl:any
 Breaks: debhelper (<< 12.6~)
 Replaces: debhelper (<< 12.6~)
 Multi-Arch: foreign
 Priority: optional
 Section: perl
-Filename: pool/main/d/debhelper/libdebhelper-perl_13.27-maruska_all.deb
-Size: 92288
-SHA512: 65df7398f281ca754d3e17c7e4b8bfa82c5c530daddb260dd09163d8fcb636fa11225a022a3586a3fca19d2a2269a43257ec32f1bc3dc9f7ed9925860be12603
-SHA256: 8d2a2917bf2de6220fe42b2814811d5e512ae9ffb7504a203dc9579c6df15831
-SHA1: 9901d23570e5d13130570bd06f1a01b4e0d52875
-MD5sum: 7779fba261314adcddf17c60244f4979
+Filename: pool/main/d/debhelper/libdebhelper-perl_13.28-maruska_all.deb
+Size: 92516
+SHA512: 54c2164a4753db233e1ca8360fc276cf7e0bc6fda9fedfb105e96a3ff25b1300e9f3d7b2d06b52ee8dc850a8f43a75a642572996ee7e7d40a40b83698657d185
+SHA256: fbe915427c53c12e402a53d386f8322bba61a0b99cd529ad802692e421cdcb52
+SHA1: 9f2975712ec162fe7a36efc53d5f8ff815c427ab
+MD5sum: 863d24e96e14e37fc1267351322cdef4
 Description: debhelper perl modules
  A collection of programs that can be used in a debian/rules file to
  automate common tasks related to building Debian packages.
  .
  This package provides the perl modules used by the scripts in debhelper.
-Dgit: 07a79bb69d2727c750d6cc6d549294962a690200
+Dgit: 50e3ecd0b92e0ccc8dfc8c1a92e5166b03bce8ef
 
 Package: libx11-data
 Source: libx11
