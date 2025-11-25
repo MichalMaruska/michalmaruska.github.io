@@ -1599,19 +1599,19 @@ Description: interactive viewer for Graphviz dot files
 
 Package: xorg-server-source
 Source: xorg-server
-Version: 2:21.1.20-1-maruska
+Version: 2:21.1.21-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 107
 Homepage: https://www.x.org/
 Priority: optional
 Section: x11
-Filename: pool/main/x/xorg-server/xorg-server-source_21.1.20-1-maruska_all.deb
-Size: 17352
-SHA512: 4ed3ca3b0a5aaa1fb64a449309620d55c1f3eb60dc720c0b18e70b3e8a15b977013cd1091d8f94544b572f38c02a3111ee81bbd3a1788cb1a0de91cea2d606ae
-SHA256: 65ec4ed5649a629cbd0c9a18c22f9ccf941b34d9327d6dc985677460b6f3cf0a
-SHA1: bdfa4739549bbd966802123da8355b0a5434597a
-MD5sum: be719c566e43403bd9582225ccd0e1e6
+Filename: pool/main/x/xorg-server/xorg-server-source_21.1.21-1-maruska_all.deb
+Size: 17344
+SHA512: 1908cff41d67f8a7948e5a407fd6b91c41104a4e411e087781699283fb59794d1993b20f270cc977cd7a855def2422a459458b8d52c825b4537459141eaccaf3
+SHA256: c2cf06ccebe8cc587aeb202c3e6296c3ec4eae3995067dca441434cdb0c402ca
+SHA1: caaf5a4a931ea25eacc8c0798ad1a97bd5b17fd1
+MD5sum: f2996b5330734dc2fab2750b1de5cd28
 Description: Xorg X server - source files
  This package provides original Debian (with Debian patches already
  applied, and autotools files updated) sources for the X.Org ('Xorg')
@@ -1621,11 +1621,11 @@ Description: Xorg X server - source files
  .
  Unless you are building a software product using X server sources,
  you probably want xserver-xorg and/or xserver-xorg-core instead.
-Dgit: 9507f965f6068c049451b61100cdffe9d0949a49
+Dgit: 857d82427837565bd76fe601f26d43a9a13afcdd
 
 Package: xserver-common
 Source: xorg-server
-Version: 2:21.1.20-1-maruska
+Version: 2:21.1.21-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 150
@@ -1636,15 +1636,15 @@ Multi-Arch: foreign
 Homepage: https://www.x.org/
 Priority: optional
 Section: x11
-Filename: pool/main/x/xorg-server/xserver-common_21.1.20-1-maruska_all.deb
-Size: 32880
-SHA512: d252e7a44b5352e1f717b375aef8701a6a858753698b814d64439c4df678cba97eb62c0a0de8cfad7aec0240f59be8a294d20e676de9bd6bafae7291041231ec
-SHA256: 05a7ca167ef7c8ea7ded44025f92bed0ad0dbc4f0d8b65e7919b378b271a0074
-SHA1: 48f7ed5d5159a2fdce74d1c9be3878b5be1fdf22
-MD5sum: 52e4660b0bd7d59eeca6092fd4108790
+Filename: pool/main/x/xorg-server/xserver-common_21.1.21-1-maruska_all.deb
+Size: 32884
+SHA512: 9b59b5d1b98b8da91a544704432ba453a787478625c6ff34975805a35fba9558aa47bb2a594613edd30c953e2257d556116ea6467ec73da12f8857154148b21c
+SHA256: 9473ef12aa215f5adca84481cc1448f28586310e066ec8ef4792418b7f81ddb7
+SHA1: fa074c25c7d12d8a76b8f67a07b3ac48e0ec57ce
+MD5sum: 62987d6506db0ad55462094520f6cd7a
 Description: common files used by various X servers
  This package provides files necessary for all X.Org based X servers.
-Dgit: 9507f965f6068c049451b61100cdffe9d0949a49
+Dgit: 857d82427837565bd76fe601f26d43a9a13afcdd
 
 Package: xserver-xorg-input-evdev-dev
 Source: xserver-xorg-input-evdev

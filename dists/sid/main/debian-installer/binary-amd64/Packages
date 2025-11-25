@@ -38,7 +38,7 @@ Dgit: 9533476ee50eba5a6e354758977cd382fdc19f46
 
 Package: xserver-xorg-core-udeb
 Source: xorg-server
-Version: 2:21.1.20-1-maruska
+Version: 2:21.1.21-1-maruska
 Architecture: amd64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 2706
@@ -46,15 +46,15 @@ Depends: xkb-data-udeb, x11-xkb-utils-udeb, udev-udeb (>= 149), libc6-udeb (>= 2
 Provides: xorg-input-abi-24, xorg-video-abi-25
 Priority: optional
 Section: debian-installer
-Filename: pool/main/x/xorg-server/xserver-xorg-core-udeb_21.1.20-1-maruska_amd64.udeb
-Size: 1016180
-SHA512: bcd808effb9d0c290a2faabfe5257a5922b108e39cd12208f8de5a084bc8cb2488173cd1d8273c6b0e856bb5aaf4bc38b535bc744dbcaf728c54e718d0920aef
-SHA256: ba051687ab2f648e8192571fd5f153840b48410a5be933ce5221402ccc943310
-SHA1: d9ff9b76d968ddc45de075c12453f84643a1969d
-MD5sum: 6d235dbd8e79e54b8af0451e1b8fd880
+Filename: pool/main/x/xorg-server/xserver-xorg-core-udeb_21.1.21-1-maruska_amd64.udeb
+Size: 1017144
+SHA512: 594ddee84826bee94b0385379fc331b304fe02c307487d7fe56db91073cb54c55ea55cb8593ec7867929c7136138b338c8461d830f98e1f80ea3ea9529e1c761
+SHA256: 3e00586dd749584f5b7839cf9bfe07a67291e757833d0b97d689c8a8ed0b76cb
+SHA1: 4e2c23c694e654451fb7e8d39bd34f6e9aca05d5
+MD5sum: b78ae6532930cc6f7755fb5ba5e6c147
 Description: Xorg X server - core server
  This is a udeb, or a microdeb, for the debian-installer.
-Dgit: 9507f965f6068c049451b61100cdffe9d0949a49
+Dgit: 857d82427837565bd76fe601f26d43a9a13afcdd
 
 Package: xserver-xorg-input-evdev-udeb
 Source: xserver-xorg-input-evdev
