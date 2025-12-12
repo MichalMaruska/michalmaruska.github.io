@@ -2806,22 +2806,22 @@ Description: collection of shell scripts
 Dgit: 8f5038dd616fff7ffd49bf28ea688c83845670f8
 
 Package: mmc-zsh
-Version: 2.11
+Version: 2.12
 Architecture: all
 Maintainer: Michal Maruska <mmaruska@gmail.com>
 Installed-Size: 104
 Depends: zsh, zsh-syntax-highlighting, lsb-release
 Priority: extra
 Section: shells
-Filename: pool/main/m/mmc-zsh/mmc-zsh_2.11_all.deb
-Size: 28764
-SHA512: 87d61a4e7d7ef319f6000bfae36727d51e838de9b3f438efd8bd0b391c1db140a946e57e2b7af7cff93e089622c06de0172250aed13533b67e490cc8c7618f6b
-SHA256: f6f078fd2d3dd989a4af35b2c2c4b65f8af6385c7c51a18f92c5300ee6f96b81
-SHA1: 33373e7515d3fd091a37bef1a34b33fa3c54f0ec
-MD5sum: b727f827702e14aded370e0c7a0f76e5
+Filename: pool/main/m/mmc-zsh/mmc-zsh_2.12_all.deb
+Size: 28908
+SHA512: 631d530a9c69f2a1e67770f567f07bf5750d952d3cae305661cfc8b7a70dd59bfa2725c93c06c8270c2e015fa20ad2f5afc900a49970d1f07c11705658b2ca98
+SHA256: 2ffe805a4ef8e3c95058d9b69589350af0ac428101ff9186738810bc90dcff64
+SHA1: ad4ecdaa9ada8a8f36a48e8c7112b1e7a35946fa
+MD5sum: d6c7b1a2dfb3d24ee17056a3d5b83869
 Description: Michal Maruska's convenient zsh files
  My site-wise configs for zsh (line editing widgets)...
-Dgit: bab6dadc2638dde1cff43c0fe22cc7b3f94745e2
+Dgit: 2273ddd3a751a147fffa406d0f77728e824d4516
 
 Package: mod-languagesubdomain
 Version: 2.3-maruska2
