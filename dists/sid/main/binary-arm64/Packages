@@ -2565,19 +2565,20 @@ Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
 
 Package: xdot
-Version: 1.4-maruska
+Version: 1.6-1-maruska
 Architecture: all
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Installed-Size: 170
+Installed-Size: 173
 Depends: gir1.2-gtk-3.0, graphviz, python3-gi, python3-gi-cairo, python3-numpy, python3-packaging, python3:any
 Homepage: https://github.com/jrfonseca/xdot.py
 Priority: optional
 Section: python
-Filename: pool/main/x/xdot/xdot_1.4-maruska_all.deb
-Size: 30000
-SHA256: 42bfbd2e1eb0f8a641d5f54603758fb88a71307e26eef138da63c21c43a2684e
-SHA1: 6fafa10b975f370fe797b217ddfb21c883e09589
-MD5sum: 6abc001eea9d9e22dc8f0ad22fe7bc44
+Filename: pool/main/x/xdot/xdot_1.6-1-maruska_all.deb
+Size: 30932
+SHA512: cdc9a36096d151051c31c4518eb3157a0764e581eb6f04cd0b08f276232bdf0e4cf91703901bf980a4c18c92358c1dbe2d8bbe29c581741eb129c691e877b4b7
+SHA256: e3bcfbaa34db2e3b2baa9bd30ae4273429869899f65001d660354b59f9617a7f
+SHA1: 063ed56c3accfe6a26a54587247948fb8ce98b2d
+MD5sum: 3034a887cd28cc6d92510636ebca3f23
 Description: interactive viewer for Graphviz dot files
  xdot is an interactive viewer for graphs written in Graphviz's dot language.
  It uses internally the graphviz's xdot output format as an intermediate
@@ -2592,6 +2593,7 @@ Description: interactive viewer for Graphviz dot files
   * Supports events on the nodes with URLs.
   * Animated jumping between nodes.
   * Highlights node/edge under mouse.
+Dgit: 15a6318c8a99cc05857a64325c3a42c7ba231b4f
 
 Package: xkb-reset
 Version: 1.1.5
