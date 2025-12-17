@@ -1063,6 +1063,23 @@ MD5sum: 6325b27693abd8d4968f608e0df244c7
 Description: mmc's elisp, handy for "development", programming
 Dgit: 230a129d14abe394d3add6f5e060f3ab668b7a3b
 
+Package: mmc-sawfish
+Version: 1.6.12
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 208
+Depends: sawfish
+Priority: extra
+Section: x11
+Filename: pool/main/m/mmc-sawfish/mmc-sawfish_1.6.12_all.deb
+Size: 40720
+SHA512: acaafff6b08173d2627b8c34eb7cc5276f26cfcb4d0ec6cb4288a37cf3d504ca79e45dee82ea3e6f6448d17e70b605254e19c16ed90899d5beb7a741024723ee
+SHA256: ad6266d5d09b512f53a53335b37c74289ee13154c3c0ec6ac68d9f5ddabd5918
+SHA1: 76a437c3d4fcf9531d16717fd1db935140e322bc
+MD5sum: f14a954d84096ba5fcd6311168f83b79
+Description: collection of Lisp add-ons for the window manager.
+Dgit: e1d4abcbf8c60d94e53f87c7963222f48f819ce0
+
 Package: mmc-shell
 Version: 3.67
 Architecture: all
