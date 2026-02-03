@@ -4965,7 +4965,7 @@ Dgit: ea4a249a905d5a33925a59b489d46ba873aa4e86
 
 Package: x11proto-core-dev
 Source: xorgproto
-Version: 2024.1-1-maruska
+Version: 2025.1-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 11
@@ -4974,33 +4974,36 @@ Multi-Arch: foreign
 Homepage: https://www.x.org/
 Priority: optional
 Section: oldlibs
-Filename: pool/main/x/xorgproto/x11proto-core-dev_2024.1-1-maruska_all.deb
-Size: 3460
-SHA256: 569ecd659a378fe4def750aa2ed4fe43199b874ab092e03b54a0faa2fe9523e2
-SHA1: 277af53e8343cf34ea2f85e0e80249a69891d320
-MD5sum: 2860ca61c030b2d14b56457ee22c4206
+Filename: pool/main/x/xorgproto/x11proto-core-dev_2025.1-1-maruska_all.deb
+Size: 3520
+SHA512: 8ca896e47f5087b200ce69154c4ccac67ceaab9e9b4d579da9d7e65fd76d8b66f3e6a0f4c46406e4f005acd96c2cf448fa75e92916975db328ad3690205d5db2
+SHA256: 6894c6390d1dda6197a2fbd28c12b6bc07020196aeea02dfc9e69376cbe98778
+SHA1: 7baf6348bd7c2cd3ad35606a663af1e9121a78ec
+MD5sum: afd8f080721ae06ad78160ebb23281ce
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
+Dgit: edbc97a5a1998304ef2f68c25284bed32521eefe
 
 Package: x11proto-dev
 Source: xorgproto
-Version: 2024.1-1-maruska
+Version: 2025.1-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 1351
+Installed-Size: 1364
 Depends: xorg-sgml-doctools (>= 1:1.5)
 Breaks: x11proto-core-dev (<< 2018.3), x11proto-dri2-dev (<< 2018.3), x11proto-fonts-dev (<< 2018.3), x11proto-gl-dev (<< 2018.3), x11proto-input-dev (<< 2018.3), x11proto-kb-dev (<< 2018.3), x11proto-present-dev (<< 2018.3), x11proto-randr-dev (<< 2018.3), x11proto-record-dev (<< 2018.3), x11proto-render-dev (<< 2:2018.3), x11proto-scrnsaver-dev (<< 2018.3), x11proto-video-dev (<< 2018.3), x11proto-xext-dev (<< 2018.3), x11proto-xf86dga-dev (<< 2018.3), x11proto-xf86dri-dev (<< 2018.3), x11proto-xf86vidmode-dev (<< 2018.3), x11proto-xinerama-dev (<< 2018.3)
 Replaces: x11proto-core-dev (<< 2018.3), x11proto-dri2-dev (<< 2018.3), x11proto-fonts-dev (<< 2018.3), x11proto-gl-dev (<< 2018.3), x11proto-input-dev (<< 2018.3), x11proto-kb-dev (<< 2018.3), x11proto-present-dev (<< 2018.3), x11proto-randr-dev (<< 2018.3), x11proto-record-dev (<< 2018.3), x11proto-render-dev (<< 2:2018.3), x11proto-scrnsaver-dev (<< 2018.3), x11proto-video-dev (<< 2018.3), x11proto-xext-dev (<< 2018.3), x11proto-xf86dga-dev (<< 2018.3), x11proto-xf86dri-dev (<< 2018.3), x11proto-xf86vidmode-dev (<< 2018.3), x11proto-xinerama-dev (<< 2018.3)
-Provides: x11proto-core-dev (= 2024.1-1-maruska), x11proto-dri2-dev (= 2024.1-1-maruska), x11proto-fonts-dev (= 2024.1-1-maruska), x11proto-gl-dev (= 2024.1-1-maruska), x11proto-input-dev (= 2024.1-1-maruska), x11proto-kb-dev (= 2024.1-1-maruska), x11proto-present-dev (= 2024.1-1-maruska), x11proto-randr-dev (= 2024.1-1-maruska), x11proto-record-dev (= 2024.1-1-maruska), x11proto-render-dev (= 2024.1-1-maruska), x11proto-scrnsaver-dev (= 2024.1-1-maruska), x11proto-video-dev (= 2024.1-1-maruska), x11proto-xext-dev (= 2024.1-1-maruska), x11proto-xf86dga-dev (= 2024.1-1-maruska), x11proto-xf86dri-dev (= 2024.1-1-maruska), x11proto-xf86vidmode-dev (= 2024.1-1-maruska), x11proto-xinerama-dev (= 2024.1-1-maruska)
+Provides: x11proto-core-dev (= 2025.1-1-maruska), x11proto-dri2-dev (= 2025.1-1-maruska), x11proto-fonts-dev (= 2025.1-1-maruska), x11proto-gl-dev (= 2025.1-1-maruska), x11proto-input-dev (= 2025.1-1-maruska), x11proto-kb-dev (= 2025.1-1-maruska), x11proto-present-dev (= 2025.1-1-maruska), x11proto-randr-dev (= 2025.1-1-maruska), x11proto-record-dev (= 2025.1-1-maruska), x11proto-render-dev (= 2025.1-1-maruska), x11proto-scrnsaver-dev (= 2025.1-1-maruska), x11proto-video-dev (= 2025.1-1-maruska), x11proto-xext-dev (= 2025.1-1-maruska), x11proto-xf86dga-dev (= 2025.1-1-maruska), x11proto-xf86dri-dev (= 2025.1-1-maruska), x11proto-xf86vidmode-dev (= 2025.1-1-maruska), x11proto-xinerama-dev (= 2025.1-1-maruska)
 Multi-Arch: foreign
 Homepage: https://www.x.org/
 Priority: optional
 Section: x11
-Filename: pool/main/x/xorgproto/x11proto-dev_2024.1-1-maruska_all.deb
-Size: 252776
-SHA256: 1794058a78e7003cba6e7e3fc0fff9aa83e0c92a15a99adc7ccf4a624e05f23c
-SHA1: 88d58cf4663b7662eb52b8e0d85064577657ad1e
-MD5sum: 93d5960d2eaa713ab236092f293716e4
+Filename: pool/main/x/xorgproto/x11proto-dev_2025.1-1-maruska_all.deb
+Size: 254900
+SHA512: 3f71145a7196f8d405172e05a1b12292387dd451173cf1ede7911856bd9cba641a71cfd20205ec521028d82f71811cda18180ac9c0bbf1f75d85e361af6039a9
+SHA256: 72d71e53886112ac9a687139310be6abc218d1dab2e385575ab8134c8a5775b8
+SHA1: b2fb11584f204b8fa702f3521501d3047eded44e
+MD5sum: 0c3798a29dbd9d87f7c72a9aa39ce4e6
 Description: X11 extension protocols and auxiliary headers
  This package provides development headers describing the wire protocol
  for the X11 core and extension protocols, and also provides a number of
@@ -5010,10 +5013,11 @@ Description: X11 extension protocols and auxiliary headers
  <URL:https://www.X.org>
  .
  This package is built from the X.org xorgproto module.
+Dgit: edbc97a5a1998304ef2f68c25284bed32521eefe
 
 Package: x11proto-dri2-dev
 Source: xorgproto
-Version: 2024.1-1-maruska
+Version: 2025.1-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 11
@@ -5022,17 +5026,19 @@ Multi-Arch: foreign
 Homepage: https://www.x.org/
 Priority: optional
 Section: oldlibs
-Filename: pool/main/x/xorgproto/x11proto-dri2-dev_2024.1-1-maruska_all.deb
-Size: 3460
-SHA256: a0d3b76b151be824d3390556fd26c17978c50f0d3e709d8305a22f4e129300bb
-SHA1: b19731d1fd73a4202d99689130806c77384fcb5c
-MD5sum: 5f992aaafba0f4bd9ff8d9c172ff649a
+Filename: pool/main/x/xorgproto/x11proto-dri2-dev_2025.1-1-maruska_all.deb
+Size: 3528
+SHA512: 7e9b962cb8e0c8470fa2537d56f69b7ebb54e2e7b0c647f6516e036c72f6b1872c7910a07ed98bc30d711ab46e2a802fa2bb28e56522af45b41150792db268e5
+SHA256: e7e14f72181dda966ef9fe0b7ef7d76b6faa7c8478a45000a07ff159e979675a
+SHA1: 2e556dd777d552e9085f8900a414c3298fc94c6d
+MD5sum: b5525d81fc51b566a8111c5426235622
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
+Dgit: edbc97a5a1998304ef2f68c25284bed32521eefe
 
 Package: x11proto-fonts-dev
 Source: xorgproto
-Version: 2024.1-1-maruska
+Version: 2025.1-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 11
@@ -5041,17 +5047,19 @@ Multi-Arch: foreign
 Homepage: https://www.x.org/
 Priority: optional
 Section: oldlibs
-Filename: pool/main/x/xorgproto/x11proto-fonts-dev_2024.1-1-maruska_all.deb
-Size: 3464
-SHA256: ec49f5cfacb9c7fb8daa541baf89bedc129fb70988e4df61ccb71086daa57a3b
-SHA1: 14deeb0a9e6d392a676887291bb4d6d3a9a347aa
-MD5sum: e4f30ec8016c0cfa4bc1975a707757c8
+Filename: pool/main/x/xorgproto/x11proto-fonts-dev_2025.1-1-maruska_all.deb
+Size: 3528
+SHA512: 36402389eeb0348c27f520bf44d52dc267ca5a7c239ad983bbb18a746138837046bd8531ac5bac94f3ded4fac0823a48c9c08b2eebbeed06a45fe65622a41149
+SHA256: bb2f1c40a72247443e614d92c22466ab40b7087ea145a6f0284c6e45855c1b72
+SHA1: cde6d59568b84b7376d9918602931e5635c67c9f
+MD5sum: 68c8aec5833e1e89b78f6d6ebb2b0fda
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
+Dgit: edbc97a5a1998304ef2f68c25284bed32521eefe
 
 Package: x11proto-gl-dev
 Source: xorgproto
-Version: 2024.1-1-maruska
+Version: 2025.1-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 11
@@ -5060,17 +5068,19 @@ Multi-Arch: foreign
 Homepage: https://www.x.org/
 Priority: optional
 Section: oldlibs
-Filename: pool/main/x/xorgproto/x11proto-gl-dev_2024.1-1-maruska_all.deb
-Size: 3456
-SHA256: cd485ce085be8c2cf61cb0a0778ae4afe40efb87c1d8c4f55ea456afe70a935e
-SHA1: dbd64c2a34aba285b4650791499a7914d412b723
-MD5sum: aee3960fed913567384a4d36e7efff29
+Filename: pool/main/x/xorgproto/x11proto-gl-dev_2025.1-1-maruska_all.deb
+Size: 3516
+SHA512: 97a17b60aab7e0bee530a90936e135b21710782a3d87645f7f3a3027f16eab8bcd50b3f637e3831ed2f6d9ca05bef204e13268dce01e08f42c0ca3d721edb699
+SHA256: a1316dc43edd3c6222e7768c3d36b5a5ad34bd18f8b818f2d9d6298941e934e4
+SHA1: 4f0b9f5042d57e786f7b978c2546695b8171d061
+MD5sum: 4db6fe096a1cd15eb3d839f31ab563bf
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
+Dgit: edbc97a5a1998304ef2f68c25284bed32521eefe
 
 Package: x11proto-input-dev
 Source: xorgproto
-Version: 2024.1-1-maruska
+Version: 2025.1-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 11
@@ -5079,17 +5089,19 @@ Multi-Arch: foreign
 Homepage: https://www.x.org/
 Priority: optional
 Section: oldlibs
-Filename: pool/main/x/xorgproto/x11proto-input-dev_2024.1-1-maruska_all.deb
-Size: 3464
-SHA256: 2ddb7a1ef313bcb845eae938ba1c5a21a95afd08a4f459ba290dc5d960c820f4
-SHA1: 33a12f5eca46f54542a709b54c115e77075a6888
-MD5sum: 7545070e294f95aa29dcf791563842f3
+Filename: pool/main/x/xorgproto/x11proto-input-dev_2025.1-1-maruska_all.deb
+Size: 3528
+SHA512: a0e4704f5ee897a6939ef2fcc2ee3fc17059da35ff4c2ee4a44cbe0afa73b733087f5ddbda84d62c485bfb04aa26a6fc8cfb6c998dd331ee9d80645b6aa26069
+SHA256: c9f55f6c004edd6aa7d105c1fa391faf9bccb98f292b4ed5de37d40256250800
+SHA1: c30da6dd69035d11940cb72e8abf94e7b0f027c3
+MD5sum: 04764a07caf85b2ed3512211b6a6e7c0
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
+Dgit: edbc97a5a1998304ef2f68c25284bed32521eefe
 
 Package: x11proto-kb-dev
 Source: xorgproto
-Version: 2024.1-1-maruska
+Version: 2025.1-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 11
@@ -5098,17 +5110,19 @@ Multi-Arch: foreign
 Homepage: https://www.x.org/
 Priority: optional
 Section: oldlibs
-Filename: pool/main/x/xorgproto/x11proto-kb-dev_2024.1-1-maruska_all.deb
-Size: 3460
-SHA256: afcd744eb5e2a78a1de86a86db4938360647859affe0ade2884c26efac3b7e2d
-SHA1: 1f3f8d13fd4f145c6b043170b3582204442b5317
-MD5sum: dcf2c10c72daed66c13c41a57757b0ed
+Filename: pool/main/x/xorgproto/x11proto-kb-dev_2025.1-1-maruska_all.deb
+Size: 3524
+SHA512: 082fb38e0923789537137005b2124592bc690da0ff1aa04ffaa4e4049598782379df59bafafa056d575eb92fcb948deca92413cc5bee3f1a6f6a3f3bba7732a3
+SHA256: 055b1e4a622dd758fcc4b6a9c3a17a98fafa18563a5e71e865390fcc931559ce
+SHA1: 80a6164476cdb27c4e037b046e929ed8e756d1fe
+MD5sum: 3b81a3f1faa7d18873bde34d6d8c3c2f
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
+Dgit: edbc97a5a1998304ef2f68c25284bed32521eefe
 
 Package: x11proto-present-dev
 Source: xorgproto
-Version: 2024.1-1-maruska
+Version: 2025.1-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 11
@@ -5117,17 +5131,19 @@ Multi-Arch: foreign
 Homepage: https://www.x.org/
 Priority: optional
 Section: oldlibs
-Filename: pool/main/x/xorgproto/x11proto-present-dev_2024.1-1-maruska_all.deb
-Size: 3468
-SHA256: 30d3af4b78ae7e10854f5ad99bd68a5f95c36ccda35ae130587d8c9d4f379c06
-SHA1: 64216ab3ad586bf097144bf6a099b96f8d52617c
-MD5sum: 5b2a9f15b17613ef289422af4cc0807b
+Filename: pool/main/x/xorgproto/x11proto-present-dev_2025.1-1-maruska_all.deb
+Size: 3528
+SHA512: f919f61e38210b47209f893187c7e1973293eed68cd5448b703ff5e33d8d9391af73a0aa6332fe1e8cf76f2420dd2b45e39dc2aea827c22e80d1245f32b155e0
+SHA256: 552ae481295ae911f3c793d0d1d798b96372e581f8b74791640859eb77ceeb82
+SHA1: 64cfbc370f183e8730d920a906736da217d80c9c
+MD5sum: 3bd4a5ccfbe10d59fe724059944e2297
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
+Dgit: edbc97a5a1998304ef2f68c25284bed32521eefe
 
 Package: x11proto-randr-dev
 Source: xorgproto
-Version: 2024.1-1-maruska
+Version: 2025.1-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 11
@@ -5136,17 +5152,19 @@ Multi-Arch: foreign
 Homepage: https://www.x.org/
 Priority: optional
 Section: oldlibs
-Filename: pool/main/x/xorgproto/x11proto-randr-dev_2024.1-1-maruska_all.deb
-Size: 3464
-SHA256: 1fb76ed8e12ac2fc835f2efa2cfb2efe84999e3ae56eae59ef20f19721f1d35c
-SHA1: 4c66a0f006483b64884d40d226ce91731facc183
-MD5sum: 643f1ee2f07cf6247b23eaba9a0c2e1a
+Filename: pool/main/x/xorgproto/x11proto-randr-dev_2025.1-1-maruska_all.deb
+Size: 3528
+SHA512: 6b7a00f9737b6ad3fa87cb0fa4e84f8193bdc408ab5f95d1ede62ea8b3114b53a40955e010c3667e336d27488dbefcf26f455c684670538a16a6fa3851a2b5fb
+SHA256: b2ae925477868ffd5c52db1912a3b67a844c16645e868aefefd1b04521497215
+SHA1: e6b05ed742e67308925494217258fe5a6af1fe8c
+MD5sum: e70dbff1df472a1304af65de0a56cf64
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
+Dgit: edbc97a5a1998304ef2f68c25284bed32521eefe
 
 Package: x11proto-record-dev
 Source: xorgproto
-Version: 2024.1-1-maruska
+Version: 2025.1-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 11
@@ -5155,17 +5173,19 @@ Multi-Arch: foreign
 Homepage: https://www.x.org/
 Priority: optional
 Section: oldlibs
-Filename: pool/main/x/xorgproto/x11proto-record-dev_2024.1-1-maruska_all.deb
-Size: 3464
-SHA256: b471ebd8d539af8c0a225c2bc815d6e111e4357e47f48386df07f80e7f0286a6
-SHA1: 498803dd76cdf2011ebc1539440e341943dfd5a7
-MD5sum: 37aca3f438e006902cffad5b6f347059
+Filename: pool/main/x/xorgproto/x11proto-record-dev_2025.1-1-maruska_all.deb
+Size: 3528
+SHA512: aac9310fbf31ebcd915fb0f79ba4626a0ddab101680a3353004f8520205f854dc963a19e44063c1f8ba3f15d873532f0a9de7f0b346f4c56e360ecd64ed77c25
+SHA256: a4909ad239c606a1190f637c8eb190f36b57f024177dcb0e743d769a8eb534a3
+SHA1: 19ed14309a56e4880fa24d4ebc73fe3ef38aa158
+MD5sum: 926e11a01bcb647724b98fb1c485017b
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
+Dgit: edbc97a5a1998304ef2f68c25284bed32521eefe
 
 Package: x11proto-render-dev
-Source: xorgproto (2024.1-1-maruska)
-Version: 2:2024.1-1-maruska
+Source: xorgproto (2025.1-1-maruska)
+Version: 2:2025.1-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 11
@@ -5174,17 +5194,19 @@ Multi-Arch: foreign
 Homepage: https://www.x.org/
 Priority: optional
 Section: oldlibs
-Filename: pool/main/x/xorgproto/x11proto-render-dev_2024.1-1-maruska_all.deb
-Size: 3472
-SHA256: 047a3257dc2627d78f3a5c392703fb1c3a59b941499840eb63d90c0e12bda49e
-SHA1: baa1a423aadb4d101a8fa88dec2674aeb9f81dc8
-MD5sum: 10ca063dfa67b0d74f2ee810472048b8
+Filename: pool/main/x/xorgproto/x11proto-render-dev_2025.1-1-maruska_all.deb
+Size: 3536
+SHA512: 1fc36ae1ceac636b67ecd1d09f79ef6c0302ce57f334c87e45b537889fd0001ac1b05f5d6f79aa738022e90658dbb5b5ec43ca97d192ef3e920fc8962d853369
+SHA256: 268d028c63ed5434696a0ef7a2ceaadb0e6e13ff58d469f8ad9161fb535a7b12
+SHA1: 32463142ddfdee0c2613dc090c5b9a1469be833c
+MD5sum: d39b663dfec0b2369b95f00d4b083552
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
+Dgit: edbc97a5a1998304ef2f68c25284bed32521eefe
 
 Package: x11proto-scrnsaver-dev
 Source: xorgproto
-Version: 2024.1-1-maruska
+Version: 2025.1-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 11
@@ -5193,17 +5215,19 @@ Multi-Arch: foreign
 Homepage: https://www.x.org/
 Priority: optional
 Section: oldlibs
-Filename: pool/main/x/xorgproto/x11proto-scrnsaver-dev_2024.1-1-maruska_all.deb
-Size: 3468
-SHA256: 4b25dccd003edef46e329be3bca512c817d799653ec67d834ef9dc2306a453fa
-SHA1: 91f9d748aacf253882d3e90bfbacf56360b0701b
-MD5sum: 41e65ed26d8e34a568252c2e42175b71
+Filename: pool/main/x/xorgproto/x11proto-scrnsaver-dev_2025.1-1-maruska_all.deb
+Size: 3532
+SHA512: f8a67ba74efb82e7b79f6f0820239c4ad73a4a3a88a3e327b035d08d65a69a6cc7ccdeaeb29e9cb8bb1a6a57debd120274a0cfcf9128eb82048152cab967264e
+SHA256: 5558351149234f65049cb12969a43df8a1c208bac6aea19ed9adb2e54ee14a6a
+SHA1: 595d0a979841fe4ac417cfb08bdb510b9baf43a2
+MD5sum: 35683b6040b69d0ec86afbbe63327b44
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
+Dgit: edbc97a5a1998304ef2f68c25284bed32521eefe
 
 Package: x11proto-video-dev
 Source: xorgproto
-Version: 2024.1-1-maruska
+Version: 2025.1-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 11
@@ -5212,17 +5236,19 @@ Multi-Arch: foreign
 Homepage: https://www.x.org/
 Priority: optional
 Section: oldlibs
-Filename: pool/main/x/xorgproto/x11proto-video-dev_2024.1-1-maruska_all.deb
-Size: 3468
-SHA256: 33b36c77392c4155d676e9b283bf086ff19185cd66abbb1819f072ee49e4740c
-SHA1: e65bca8b7cf67530649e7e5ad80d76ac0b73515f
-MD5sum: b9f01ea6567dabc21f4fe6271332509b
+Filename: pool/main/x/xorgproto/x11proto-video-dev_2025.1-1-maruska_all.deb
+Size: 3528
+SHA512: 7e5e24d4e1ce8ba99362919940219e01555960e30eef19a97f4a3bca163bc534ddf4d5b2ca786dcc7142fd0e16971a4c19c56e3d70969cabdab306bb8d208e2c
+SHA256: 1e42c516014e95e15c85ff754488c0ec2e98a07e4ebe66df9255fd47f231f89c
+SHA1: 76959061a6178326d8f6a8567366dacbd1783400
+MD5sum: c4911dada4616eab13ad0be6c4260148
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
+Dgit: edbc97a5a1998304ef2f68c25284bed32521eefe
 
 Package: x11proto-xext-dev
 Source: xorgproto
-Version: 2024.1-1-maruska
+Version: 2025.1-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 11
@@ -5231,17 +5257,19 @@ Multi-Arch: foreign
 Homepage: https://www.x.org/
 Priority: optional
 Section: oldlibs
-Filename: pool/main/x/xorgproto/x11proto-xext-dev_2024.1-1-maruska_all.deb
-Size: 3464
-SHA256: a981f777f632a01a481a97378ef52bd599836aafb112c622d66a34cd8945e184
-SHA1: 4d8477cc237a3ad3f5f2e6c48b347894a8abed98
-MD5sum: 2d3c7c4936bb0f081f7f5658e7fe619b
+Filename: pool/main/x/xorgproto/x11proto-xext-dev_2025.1-1-maruska_all.deb
+Size: 3520
+SHA512: 5536d27ba58d33338c003f55cd1892b59fc046970401c0d965d14eebd6d9afef0fbb57aea19b21441bd166ddc76f8b0cc79b7bb55b9dc1bb1ee85ea3fe8b4645
+SHA256: 4eaa2ac368d150315259b83e2fbb40bca65e616c58ff3111ef4f3544dfd94f62
+SHA1: f14178fc2fa6fe9f12dcce104957a3a960db8d1d
+MD5sum: 375228b5ca5d25c40cbd0b2a011b045a
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
+Dgit: edbc97a5a1998304ef2f68c25284bed32521eefe
 
 Package: x11proto-xf86dri-dev
 Source: xorgproto
-Version: 2024.1-1-maruska
+Version: 2025.1-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 11
@@ -5250,17 +5278,19 @@ Multi-Arch: foreign
 Homepage: https://www.x.org/
 Priority: optional
 Section: oldlibs
-Filename: pool/main/x/xorgproto/x11proto-xf86dri-dev_2024.1-1-maruska_all.deb
-Size: 3464
-SHA256: 639e18927fb5c5918de593e2fb9a9b47f9969430c67d9ae3939ad3bed2f59d56
-SHA1: 64ffbc3b0e884d7278e886b76da93c3a7bdde9c4
-MD5sum: 9813f3ffb7d5a892b49f0b994a13d0a9
+Filename: pool/main/x/xorgproto/x11proto-xf86dri-dev_2025.1-1-maruska_all.deb
+Size: 3524
+SHA512: c9ff35d1728d5b6a343db3144ef6ba091f3147ed635a50215da54ed2af5d59e3821cd96023d0456584bd3a3aa4f5174ef62d4a319ab6b4f65c5d6ead9e02c9a6
+SHA256: 25c840bfad02091312a962ef192932bcb128157a58ab21fd1988dc16fb28a0e7
+SHA1: 3847264fa65d59aaf0e3e14b9f55376cbaa9b9e5
+MD5sum: 76c1b4f0c33da0c062edae73da09124e
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
+Dgit: edbc97a5a1998304ef2f68c25284bed32521eefe
 
 Package: x11proto-xf86vidmode-dev
 Source: xorgproto
-Version: 2024.1-1-maruska
+Version: 2025.1-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 11
@@ -5269,17 +5299,19 @@ Multi-Arch: foreign
 Homepage: https://www.x.org/
 Priority: optional
 Section: oldlibs
-Filename: pool/main/x/xorgproto/x11proto-xf86vidmode-dev_2024.1-1-maruska_all.deb
-Size: 3468
-SHA256: ce156be59e3838199a7e09418155a90c1a5af5257d7a734d9cc65a9e7fb5043d
-SHA1: ff04814609735acdeea23018de26c5df3a8a6795
-MD5sum: 7b531fe723458a818ae563df793be06a
+Filename: pool/main/x/xorgproto/x11proto-xf86vidmode-dev_2025.1-1-maruska_all.deb
+Size: 3540
+SHA512: 3ae360e6dac61cd4e35b6ec8dc7b8d57172d4c5a5ff33a2f9043f9688b453f3a30b5164e0c0cac7f2c6c47fa125d1b288d730b9f42da3ada5fe5ca759f6fd7be
+SHA256: adad80c71b60db360e807a57c8bba72fbc87802fd77d9999f47ef1e639f74a81
+SHA1: bd045a87664779dcf33ee7a680fc643a824d5be5
+MD5sum: d08cde7d883459fb3d61d90a921b76b6
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
+Dgit: edbc97a5a1998304ef2f68c25284bed32521eefe
 
 Package: x11proto-xinerama-dev
 Source: xorgproto
-Version: 2024.1-1-maruska
+Version: 2025.1-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 11
@@ -5288,13 +5320,15 @@ Multi-Arch: foreign
 Homepage: https://www.x.org/
 Priority: optional
 Section: oldlibs
-Filename: pool/main/x/xorgproto/x11proto-xinerama-dev_2024.1-1-maruska_all.deb
-Size: 3464
-SHA256: 70b6d083ac282423d8a2f488d34b09c40747232f2885e3e6c8f8e1930c5306b6
-SHA1: c0e234b4ac88e93cdc324f9600d947e2dca3e68e
-MD5sum: 832dde88d0fcbf368ce6c7b7ca45e4e9
+Filename: pool/main/x/xorgproto/x11proto-xinerama-dev_2025.1-1-maruska_all.deb
+Size: 3532
+SHA512: 6cdff630792cd8fb153d5543ecffb4625ee5cda043cc510641b7ccf6d151bccefd2ca18c292cae0db4e9bfdb34ff5eada47a80ad2238bbcfd2b2063f85d28618
+SHA256: 81a58416ecefec6d8c246f4d13813274f9ed5c6c29d061f5ce66ad179421e6e5
+SHA1: aa8060e3b4d9be1c60e9582d18a27bae5ffe1b1f
+MD5sum: 697fb310b806d340c112d067b1c6f8e6
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
+Dgit: edbc97a5a1998304ef2f68c25284bed32521eefe
 
 Package: xdot
 Version: 1.6-1-maruska
