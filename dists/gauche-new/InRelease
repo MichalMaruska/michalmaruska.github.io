@@ -1,12 +1,12 @@
 -----BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA512
+Hash: SHA256
 
 Origin: maruska
 Label: reprepro
 Suite: gauche-0.9.4-rc2
 Codename: gauche-new
 Version: 5.0
-Date: Sat, 08 Feb 2025 11:55:10 UTC
+Date: Sun, 08 Feb 2026 13:52:23 UTC
 Architectures: i386 amd64 x32
 Components: main
 Description: release for SID, and Gauche C-api version 0.9.4-rc2
@@ -52,15 +52,15 @@ SHA512:
  4b2deea3aafa3dde1614d87a2dd0ae211bd2d0b171a6e1beda189600712572335a2ee206843b53f7203fba16bc9a01a0ad60f4219cea4f0122773c75b0958a8e 170 main/binary-x32/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEj5ld3379Nuk8fyGZPAkJW65/ICgFAmenRh4ACgkQPAkJW65/
-ICjD9wv+KoZUJSU7fdpPaohYscrr3NrK5LPjDCXnFADWaQgtSza0JNnnHnO/Cr/e
-Eqk1clYTP94ROA1gKFBKFQsXkUd5EGrxIs0MR0lVhtDChgnnVpb5qLYVgANaK/DR
-vqpjsrPfP10+WtTg/GvVs5XHfTbm1OTOuGwV5AMKh5j1GU17j0HrjiyzaQ3J5ZEi
-yxBkB7yMuoyT2jGq/B1m29NNE2eOF1UMRWogBMf3X3OSAedV0u14W67vfAfXu9Qc
-fbbcZrn89eelbwO0w9bfXBAwj1y8AjpSRtvQw7yHmKHJg7rzUUvUzwos4y46w1gK
-wX2OE/1E29iIcoi9ZNgXL7GmMjQ0JO3FOuspiyrwVYz8o/SeaQET/un0SHgXQo79
-bOwS4QhCwtTeqjO0GhEIHdqfoI5rcaKXHnW8gooXPZ6u77P25+K666AFYvGkma3p
-02G+XSG7k5EtirFiSg0x24t0aTNwIe7uthPUJ5RgUMLqxjFC3o37AiAyO/5zX5TV
-nTUAeGsy
-=1bro
+iQGzBAEBCAAdFiEEj5ld3379Nuk8fyGZPAkJW65/ICgFAmmIlRgACgkQPAkJW65/
+ICinFQv+OtlmzIb9Kt1NykoAnSsmGBC9YeuQOGInXndEdxQzpSNbGr6bZsPY9Riy
+LVrypdFf8AS8iDoojTyj5zGoENHGODne2Vr16FST31KIKFvXbEziT75Vhuhw2BT0
+0Wq/HJFOQ/+4cZekx1XRi2oB0Oj+UEBlt2qK38KVSzAbJgpdxHCz6F1oUKdV16xX
+mCcXZOdGpwz6+25gSu5TTb8URz+dySnN95K+2ECsSaWJ+/5Kd3eqRjEIsJlaLOdZ
+NiDpiJvVpd0aINjEzuRZLVERD2Q6/AEb+L9MycJzUkqAp+1UBEyThpUuBBMw8Myh
+yRpwWGqqzN/ddupfS+Lusk8VRLrrLd/+5TmHA6sru8HuHZQom6H3/2LJBgdFUxUN
+T8G95bfErsqguwQ3yzqd1TXi4cn0Spv+Y2JWepYg7BPaSDnHLvp7lHklSdNtf2pC
+Zh3oMlDoYbJdP/ktz2PB0niFwIs3aumruK5D9VVVPz1qnU9ucEfS5JdEpk2+IVTL
+7taejCDF
+=EDRe
 -----END PGP SIGNATURE-----

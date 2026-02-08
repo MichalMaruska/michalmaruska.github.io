@@ -1,11 +1,11 @@
 -----BEGIN PGP SIGNED MESSAGE-----
-Hash: SHA512
+Hash: SHA256
 
 Origin: maruska
 Suite: release
 Codename: release
 Version: 20.3
-Date: Sat, 08 Feb 2025 11:55:05 UTC
+Date: Sun, 08 Feb 2026 13:52:16 UTC
 Architectures: amd64 i386 armhf x32 arm64
 Components: main
 Description: Development Snapshots from my sources in Git.
@@ -87,15 +87,15 @@ SHA512:
  5f2b6d65a995a3bee71d8f71ffec9bc1e31c454d96e7160142a8eaf56d3cf3dd8704baa0f1ce307f979674c616443c29d2ab038fe8fe2c0077e2d8d046156f5b 143 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEj5ld3379Nuk8fyGZPAkJW65/ICgFAmenRhwACgkQPAkJW65/
-ICiY4gwAh61wT7Mwn26ZfwjvCYRngF0FsH2biCCr7ydx4dcsOUqrHUM3i3NhdEFj
-jVQYsOltGb+OjPmKyZKGJ/TCtn7bhte6ea+vQdoqLav9Bs9NyO0hq6pwBn/pP4oM
-cYxRPYityr7o1PzEPbnIaTlipN4GLFRIKCIPvAwOC+8dnHLw5IlGI8s42K1B/XQU
-ncb9w/e/RfcrmejYalRHNdmb7dQaxpaV77nCx4p2UwNinylLj4GigEDYT3/u+Tfa
-5W/srzGIK5jGQoPmIrR/WeI8nKvbqj1y5ZZB6pFbxWZKJZdNU2ld4ESy+16VFmE2
-klDiDOI44SVVe8F6R5va859AQg5jwYNFBkrLdIQr3kckQLvAwYTEblLEQyvz/u0w
-DjGakPOdv+MKWECyyv4hy+ILqS3W1Kox2wYWWdrobF77CQcTpKfo07keWlTFf8Ze
-9M4ePp6jnNlJ+wbte9OU0usnqpzjSPaSVkYI74nsu9DUQ3EC28/T2z5i7uAFhLoD
-/bqT6PXN
-=naCO
+iQGzBAEBCAAdFiEEj5ld3379Nuk8fyGZPAkJW65/ICgFAmmIlREACgkQPAkJW65/
+IChNQgv9GU0IRtNC/y39mMJ1gDJNSsHEM4GH+Gwc3vpcvjUsEq/9r+UhS6cBheht
+LGs39DfDhfinfHrXwRMwF0HDz3boOlx9yllsvmyWlAwLqHmTZnU3yP0xAa2oxdnB
+VA/BHk9IZTe+NRlSTzAAOw48jWg3q1rAqNGGBss9o0Qr6rHd999JpVYNqnklSEpc
+FLCF3ug/IW1uRD+P/ToT2h7QaHzGuIVXkQ8uqr47dct419P1xMTNBENgvXn6sss+
+yx2z0MxVCTKRGGaU05QbScYz89XqwcAV2LNgwBFnosfRag19cWL3Tm30bxe7uCqn
+a+3B3NB2UwU2/QasU1Yp+ccyhG1x5oPe+AZq3iGKolMlt5jo13UDzovqxaO7bWam
+/uy2dLpIgwcRNt/E5Nnou58y8LEF6dvin9hIAG5CxIzJU5lWJ5i62TlLNedsBhlR
+TmFLKzedHJCD4ibhvglWOvmcewSxHhdvtBA1H+yFjSv/M13cmCscfa2jTXYx3AqU
+dt7RUrfW
+=EEBM
 -----END PGP SIGNATURE-----
