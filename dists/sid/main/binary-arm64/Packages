@@ -1,23 +1,23 @@
 Package: apt
-Version: 2.9.28-maruska
+Version: 3.1.15-maruska
 Architecture: arm64
 Maintainer: APT Development Team <deity@lists.debian.org>
-Installed-Size: 4807
-Depends: base-passwd (>= 3.6.1) | adduser, sqv, libapt-pkg6.0t64 (>= 2.9.28-maruska), debian-archive-keyring, libc6 (>= 2.38), libgcc-s1 (>= 3.0), libseccomp2 (>= 2.4.2), libssl3t64 (>= 3.0.0), libstdc++6 (>= 13.1), libsystemd0
+Installed-Size: 5070
+Depends: base-passwd (>= 3.6.1) | adduser, sqv (>= 1.3.0), libapt-pkg7.0 (>= 3.1.15-maruska), debian-archive-keyring, libc6 (>= 2.38), libgcc-s1 (>= 3.0), libseccomp2 (>= 2.4.2), libssl3t64 (>= 3.0.0), libstdc++6 (>= 13.1), libsystemd0
 Recommends: ca-certificates
 Suggests: apt-doc, aptitude | synaptic | wajig, dpkg-dev (>= 1.17.2), gnupg | gnupg2 | gnupg1, powermgmt-base
 Conflicts: apt-verify, libnettle8 (<< 3.9.1-2.2~)
 Breaks: apt-transport-https (<< 1.5~alpha4~), apt-utils (<< 1.3~exp2~), aptitude (<< 0.8.10)
 Replaces: apt-transport-https (<< 1.5~alpha4~), apt-utils (<< 1.3~exp2~)
-Provides: apt-transport-https (= 2.9.28-maruska)
+Provides: apt-transport-https (= 3.1.15-maruska)
 Priority: required
 Section: admin
-Filename: pool/main/a/apt/apt_2.9.28-maruska_arm64.deb
-Size: 1353568
-SHA512: 168019217fee72afb5ceec967c404be30e8df4199554624e418d6236272e960b75559d7b62ea0d57ad9157fcda84ff36fdfc146cae6d4061908cc9e22e5c81a5
-SHA256: bcf1db36c2ba9c5b44e2f72d49a6dbc4f6a1a2e93580ae6089c74a3c00211d6a
-SHA1: 64aa84872eb5bb6428082e25060be53aced35bc1
-MD5sum: b8b1218d8d62a72854076954a5b836a0
+Filename: pool/main/a/apt/apt_3.1.15-maruska_arm64.deb
+Size: 1421144
+SHA512: da054f4df60a90841d5c60003726ee4495490ffbe3d8132acdf123858151cf20d5718454f3d88a87aff67666cff2c159d08d8c58c8f9fe6a4c84c1903899a5e2
+SHA256: 821b88934eca6ef48dd69374a2629d236dedfcb9f230bf6cc88be7d4204a590e
+SHA1: e1bb70dabc24bdfd62db5a3a1f631291c1640f0a
+MD5sum: 3a358c209b67c3c092a98e2b8b4a1b00
 Description: commandline package manager
  This package provides commandline tools for searching and
  managing as well as querying information about packages
@@ -33,83 +33,83 @@ Description: commandline package manager
   * apt-config as an interface to the configuration settings
   * apt-extracttemplates is used by debconf to prompt for configuration
     questions before installation.
-Dgit: 31e3bb54c47661fc3335c807b640ec7299bb5859
+Dgit: 044630e3b8dad153c4077e91878d2a31af176b86
 
 Package: apt-dbgsym
 Source: apt
-Version: 2.9.28-maruska
+Version: 3.1.15-maruska
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: APT Development Team <deity@lists.debian.org>
-Installed-Size: 10158
-Depends: apt (= 2.9.28-maruska)
+Installed-Size: 11225
+Depends: apt (= 3.1.15-maruska)
 Priority: optional
 Section: debug
-Filename: pool/main/a/apt/apt-dbgsym_2.9.28-maruska_arm64.deb
-Size: 8734516
-SHA512: d44f0490892f70cb3ce93a395eb8aada2f3139afaec4ee54446e1c817d211797f34d781bfffb2a0fc201fea4e83d7431b8be96fee5ad84b019a1767f7f47d2ce
-SHA256: bd5007bfea8d7ebc9e535b27e2ff77060af670af1cc69cea963534c9e503025c
-SHA1: 8891e98d657d93929f81897182bc846204e8850e
-MD5sum: fb2c8c4e8e6bb9c6bb8590eaf288aa67
+Filename: pool/main/a/apt/apt-dbgsym_3.1.15-maruska_arm64.deb
+Size: 9138772
+SHA512: ca7a02fb5fbbb3e4b32ecdaf2aa591bfc8afbdeddcbefdc98e0b3af790fd054d31ef8e93b30e4b96cd19126e3cb0526e2732cdf91e6b6607319749dfa3c3510e
+SHA256: 3e232dac7135936d1986a9cd5b6f892aae0520e69a31eb7ac8a3c13db4a16d4e
+SHA1: 73f4e657ccea0bc1eee6aff16e97f0ab75732495
+MD5sum: 03747412ede2e2d1866d51f4d58cd55c
 Description: debug symbols for apt
-Build-Ids: 0c379eab630573d6d7218899702ad49a6b83b350 0e8e4242f130b03d07b4721ca5ed360afc438121 1fbc0c488b9c04fecbcf417bdad1db32387be715 2ac38e511321f7b55750cea9c844fef258f3fa07 4a599c108aef4a133ec9a9f1c982098ee26d1882 4fc787d29d9bdce7c2b88ec3d9246e413277ff9c 700328efbb8fc262fe545626df28259c263026b6 76cb600ffa06d7cd3f0d7a422aacf0d3744b72fa 8410e525d2a2f2757d30149aa47b5bca03039313 88c26ff50290046f90a958e8e6a6f7fa18aa8bcc 89062ae473bab871927da30a5cb0616f1378ffa8 96dfd6d2ba36a00d6690e707d89ac73d2e938c23 9809bb2585e15a9356024805818ce758837be341 cd1b6182c43e8d3d6408949f290a6865fb936159 cfe4cfd36b448b99c7125158188dab8f8d4a96c6 d7e388312ab636d07e44032ef5424b2a4d98da95 d9572a231e926780942c7b10811734e05c283b52 e201153d201910288235f0f02c983c1a2d0e5300 fcf24c7f059101a4c474000c97c438006f8fcbf3
+Build-Ids: 170705fce28de5e30da9e0edfa395874781be77e 17aaaac1f0f92dcbb5f14a6f07d037e0ed8cf1fb 2daa4237c07f90e7039d63ed041988bd555615e3 38246f9c69654dc22083d1d538b8b04406162c2b 5651f5722cf78360b3ca17a31cb9aea4f2b2d122 7b1b751e1c6716a5f4b02db70986c891260e49cc 83ad115bf0d4cb7b9b06f39d379e2fe863eca9fb 8a494d975d17f7b2803481c73eb55e729520b25f 9793d61ca064f942f82e614d2eeaa962644efe12 a4a939bc22eb542c4255d87f1ff0a01770862562 a58148be2171a208593a99f331aa8c2843517201 ad8a07aa1417d6bf84b3f3af16aa0b26df9aa402 cbdba7572074f87d055d756dcf64e67171abece2 cdf55dd03241726b872933606918a2d9b80280d8 d3b971a0a4e3e3f9e15f129df2b747ad449017b2 e145631675e8dd84825c67f1ff6e82220c7b0ace ec46f7a691e9f85c37c6bdaeb2b62b674c82177c f2116fef4e2ec06eb4184ec711659218e8eff5d6 feae6fff27a586ade0259460f8af7bcffdb32871
 
 Package: apt-doc
 Source: apt
-Version: 2.9.28-maruska
+Version: 3.1.15-maruska
 Architecture: all
 Maintainer: APT Development Team <deity@lists.debian.org>
-Installed-Size: 807
+Installed-Size: 814
 Multi-Arch: foreign
 Priority: optional
 Section: doc
-Filename: pool/main/a/apt/apt-doc_2.9.28-maruska_all.deb
-Size: 263784
-SHA512: 9567414928b8cf2f29433b1fb93d439e12d6a3fbb311dc81f19bd0ce65c201624e07c51ec033951a433d254f1218624be196286557b0e35a4cb474daf72beffb
-SHA256: 17641c8143940712705738e30548a605ad489912a73dba91065dda5e82d13efe
-SHA1: 23b0cfc39c684ce4b4e9ad7158ae0d79d27c6e74
-MD5sum: 1edc28fd2ab08797daf40b847c2b28e4
+Filename: pool/main/a/apt/apt-doc_3.1.15-maruska_all.deb
+Size: 270648
+SHA512: 722fe207b82388bc9902c3e3fa649ce57c2ee8d62700b869d9d079ee1409c743849698c2b58a6037388e1e88eb152980b9986371cf72497caf6b58cf7cd4ec46
+SHA256: c5d746753f378cfd989b0ade143fd92f3b590eef7dc860d677f2b54ddf220334
+SHA1: d5e1449a30b8261d5c0df4b2f29045169181798d
+MD5sum: 11bbc0759fd1251a594d0cb506a3a7a1
 Description: documentation for APT
  This package contains the user guide and offline guide for various
  APT tools which are provided in a html and a text-only version.
-Dgit: 31e3bb54c47661fc3335c807b640ec7299bb5859
+Dgit: 044630e3b8dad153c4077e91878d2a31af176b86
 
 Package: apt-transport-https
 Source: apt
-Version: 2.9.28-maruska
+Version: 3.1.15-maruska
 Architecture: all
 Maintainer: APT Development Team <deity@lists.debian.org>
-Installed-Size: 46
+Installed-Size: 52
 Depends: apt (>= 1.5~alpha4)
 Multi-Arch: foreign
 Priority: optional
 Section: oldlibs
-Filename: pool/main/a/apt/apt-transport-https_2.9.28-maruska_all.deb
-Size: 35832
-SHA512: 9001bb01d7e7ef171647e29f5a64e43b26b85a9c4b560c27d3776e69e9255c92995d2e21feafabc55cebe5596fe0ddefd81102a28d278a09bf5b8546bd272002
-SHA256: 775715cab63ed5934f99d0065f6d6028f72e503b1b6e6cfdcd9916832bdcc237
-SHA1: 01583de3d1ed841a48f64c86e5aef8ee268a95bd
-MD5sum: 59ea0632c7fc4d860c5fb33d7ae5b2fd
+Filename: pool/main/a/apt/apt-transport-https_3.1.15-maruska_all.deb
+Size: 42200
+SHA512: 82f9ffc735778fd66a998364dcf08a000497bd6b1bf15e62a070d4453654a849c96f863b8e8050086706cf23989efef4e02192afdf095d58139d7368787a83b8
+SHA256: 89c987848a95feb7cd6fb305eaa15f2984733a9b85239bbd6e7b22d0421c7780
+SHA1: 1406cf2a39510df034ed47e7f0df3c963e161644
+MD5sum: 8311eb497285b7049a6ebaf3b93a8eaa
 Description: transitional package for https support
  This is a dummy transitional package - https support has been moved into
  the apt package in 1.5. It can be safely removed.
-Dgit: 31e3bb54c47661fc3335c807b640ec7299bb5859
+Dgit: 044630e3b8dad153c4077e91878d2a31af176b86
 
 Package: apt-utils
 Source: apt
-Version: 2.9.28-maruska
+Version: 3.1.15-maruska
 Architecture: arm64
 Maintainer: APT Development Team <deity@lists.debian.org>
-Installed-Size: 1151
-Depends: apt (= 2.9.28-maruska), libapt-pkg6.0t64 (>= 2.6.1), libc6 (>= 2.34), libdb5.3t64, libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
+Installed-Size: 1181
+Depends: apt (= 3.1.15-maruska), libapt-pkg7.0 (>= 2.9.27+exp1), libc6 (>= 2.34), libdb5.3t64, libgcc-s1 (>= 3.0), libstdc++6 (>= 13.1)
 Priority: required
 Section: admin
-Filename: pool/main/a/apt/apt-utils_2.9.28-maruska_arm64.deb
-Size: 311680
-SHA512: 8ee6394fb18cedb8d852d2aa3f3a1a622a9899ca723d108c6f1121ed4e289b508907b907ee45a100aed8852112ef0cef451758ecb2bcf79b2e49c238416c6bcd
-SHA256: cea5d6aa6c9cfd02bdc1fe622ecd88e723f1bcbf16a36276040c32731fc1f0d8
-SHA1: 72a40c887f4a98a5f1acd6204a5f641f9db4ecdb
-MD5sum: dd28edf32dadec8bc511291f3cfad317
+Filename: pool/main/a/apt/apt-utils_3.1.15-maruska_arm64.deb
+Size: 338732
+SHA512: 777dfa5e29fe2296bf56ee1981b71c6b9d26ce1976719cbce7258f391c358d69ddca50e02966f5ea618be18bcedccc4857d9c63ad5291b0df6baa5f499839bea
+SHA256: 70229f097d6233aa516802490310f74f4d96d4e8958ce8d89515a0c92f90e74b
+SHA1: 47869eacef191cc73056743a7c8169e08d08e3e3
+MD5sum: f0ef3f180416d9c844abe9baa4e2bac9
 Description: package management related utility programs
  This package contains some less used commandline utilities related
  to package management with APT.
@@ -117,26 +117,26 @@ Description: package management related utility programs
   * apt-ftparchive is used to create Packages and other index files
     needed to publish an archive of Debian packages
   * apt-sortpkgs is a Packages/Sources file normalizer.
-Dgit: 31e3bb54c47661fc3335c807b640ec7299bb5859
+Dgit: 044630e3b8dad153c4077e91878d2a31af176b86
 
 Package: apt-utils-dbgsym
 Source: apt
-Version: 2.9.28-maruska
+Version: 3.1.15-maruska
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: APT Development Team <deity@lists.debian.org>
-Installed-Size: 2051
-Depends: apt-utils (= 2.9.28-maruska)
+Installed-Size: 2175
+Depends: apt-utils (= 3.1.15-maruska)
 Priority: optional
 Section: debug
-Filename: pool/main/a/apt/apt-utils-dbgsym_2.9.28-maruska_arm64.deb
-Size: 1687684
-SHA512: 1cbbbeb620650c404650671b3f90434abc9ee40199dc9500e2e023434aa01bf888dd6a6d254e93b6f409afc5f217bc413b0886ed568e37d4868b30cbd8c09b23
-SHA256: 4bce0ead1bef38086bf349187ffbabe1fd7bd68175f6c8b2df9d9cd3329f7448
-SHA1: 2fe05ad41b57f3169387a60a202b85f6076cb125
-MD5sum: d24a473f697b9e65f7a1116d8708e8ea
+Filename: pool/main/a/apt/apt-utils-dbgsym_3.1.15-maruska_arm64.deb
+Size: 1805672
+SHA512: 02fe0e5d85b4a9330ff480e4386f65aeabbba1f13424295e23d9c4379bd6569d477de57a8c6d51e81d503f38046fe349f2d4dd29b04092f8973555603d8d49bc
+SHA256: a3ccf307005b049952da6b3d208fee600d6853858dff3a16e37a6afb51865170
+SHA1: 9224d066f1be09ce17e886d8e08f09e59fd6c667
+MD5sum: 93f1f5ef8bbf5a728dc1bfa514546a09
 Description: debug symbols for apt-utils
-Build-Ids: 36c9109e431940951d62f94c61516640f21a9edb 382cbc4e05c2b1c7a9738243489464d8a262410d 7607bfc797eaf4effdac0bc3d4e2c1e2a7cc77ad 937b7625c9abdedbd4725f956779a73eaa4d69e3
+Build-Ids: 2448291b84bfb03926d1a9fa903d3a35bd1becee 48902b02090faa58bd87688500ae423b1c775116 d030a01638b983d04a47f454c139083246d0c15f f617af6545a480b9f24c51279b353c7a97f5d2a8
 
 Package: colortail
 Version: 0.3.4+maruska
@@ -178,24 +178,25 @@ Description: debug symbols for colortail
 Build-Ids: 860d1e803292196106c48596ce66eb41de4f74c8
 
 Package: debhelper
-Version: 13.24.1-maruska
+Version: 13.29-maruska
 Architecture: all
 Maintainer: Debhelper Maintainers <debhelper@packages.debian.org>
-Installed-Size: 1448
-Depends: dh-autoreconf (>= 17~), dh-strip-nondeterminism (>= 0.028~), dpkg-dev (>= 1.18.2~), autotools-dev, dpkg (>= 1.18.0~), dwz (>= 0.12.20190711), file (>= 3.23), libdebhelper-perl (= 13.24.1-maruska), libdpkg-perl (>= 1.17.14), man-db, po-debconf, perl:any
+Installed-Size: 1518
+Depends: dh-autoreconf (>= 17~), dh-strip-nondeterminism (>= 0.028~), dpkg-dev (>= 1.18.2~), autotools-dev, dpkg (>= 1.18.0~), dwz (>= 0.12.20190711), file (>= 3.23), libdebhelper-perl (= 13.29-maruska), libdpkg-perl (>= 1.17.14), man-db, po-debconf, perl:any
 Suggests: dh-make
 Conflicts: dh-buildinfo
 Breaks: cmake (<< 3.9~), dh-debputy (<< 0.1.36~), meson (<< 0.40.0~)
 Replaces: dh-buildinfo
-Provides: debhelper-compat (= 9), debhelper-compat (= 10), debhelper-compat (= 11), debhelper-compat (= 12), debhelper-compat (= 13), dh-buildinfo, dh-sequence-dwz, dh-sequence-elf-tools, dh-sequence-installinitramfs, dh-sequence-installsysusers, dh-sequence-movetousr, dh-sequence-single-binary, dh-sequence-systemd
+Provides: debhelper-compat (= 9), debhelper-compat (= 10), debhelper-compat (= 11), debhelper-compat (= 12), debhelper-compat (= 13), dh-sequence-dwz, dh-sequence-elf-tools, dh-sequence-installinitramfs, dh-sequence-installsysusers, dh-sequence-movetousr, dh-sequence-single-binary, dh-sequence-systemd
 Multi-Arch: foreign
 Priority: optional
 Section: devel
-Filename: pool/main/d/debhelper/debhelper_13.24.1-maruska_all.deb
-Size: 921776
-SHA256: 8efd49fba08828316b4c75de5acdb81b05b42a187fd5a0b521feb4de15b0870c
-SHA1: 8b8b84a4b408a04086a1e109a513ebe749653797
-MD5sum: ba5f8698bf0e4be11c1d18984761ed24
+Filename: pool/main/d/debhelper/debhelper_13.29-maruska_all.deb
+Size: 944036
+SHA512: 6d0597d926811a1effdb32147ae2b486b75a3e1440f256e67d7a37c27b144a7a86b564f5ec128337f1e9488c6f8215ede216bb50673c0233136015615c33e8bb
+SHA256: 93ec28db1fc55e8ba888671eaac3d56f4c2b85ab119a1387cd611c56fc909579
+SHA1: b71d9767c916b9655b944bc4c2a4826e37c64a11
+MD5sum: 3487bca238a5a774553bf5a280c49a83
 Description: helper programs for debian/rules
  A collection of programs that can be used in a debian/rules file to
  automate common tasks related to building Debian packages. Programs
@@ -203,7 +204,8 @@ Description: helper programs for debian/rules
  files, fix file permissions, integrate your package with the Debian
  menu system, debconf, doc-base, etc. Most Debian packages use debhelper
  as part of their build process.
-Dgit: c313b22aff330f459686fe2dca0e736aaf668ea8
+Commands: dh, dh_assistant, dh_auto_build, dh_auto_clean, dh_auto_configure, dh_auto_install, dh_auto_test, dh_bugfiles, dh_builddeb, dh_clean, dh_compress, dh_computeautosubstvars, dh_dwz, dh_fixperms, dh_gencontrol, dh_icons, dh_install, dh_installalternatives, dh_installcatalogs, dh_installchangelogs, dh_installcron, dh_installdeb, dh_installdebconf, dh_installdirs, dh_installdocs, dh_installemacsen, dh_installexamples, dh_installgsettings, dh_installifupdown, dh_installinfo, dh_installinit, dh_installinitramfs, dh_installlogcheck, dh_installlogrotate, dh_installman, dh_installmanpages, dh_installmenu, dh_installmime, dh_installmodules, dh_installpam, dh_installppp, dh_installsystemd, dh_installsystemduser, dh_installsysusers, dh_installtmpfiles, dh_installudev, dh_installwm, dh_installxfonts, dh_link, dh_lintian, dh_listpackages, dh_makeshlibs, dh_md5sums, dh_missing, dh_movefiles, dh_movetousr, dh_perl, dh_prep, dh_shlibdeps, dh_strip, dh_systemd_enable, dh_systemd_start, dh_testdir, dh_testroot, dh_ucf, dh_update_autotools_config, dh_usrlocal
+Dgit: 6f86f64104418a2ce18f97776f6af30f2aea469d
 
 Package: debspawn
 Version: 0.6.4-maruska2
@@ -355,20 +357,21 @@ Dgit: 769a172ead2bd8d46568c1156d52c56e9126be4a
 
 Package: git-all
 Source: git
-Version: 1:2.47.1-1-maruska
+Version: 1:2.51.0-1-maruska
 Architecture: all
 Maintainer: Jonathan Nieder <jrnieder@gmail.com>
-Installed-Size: 1060
-Depends: git (>> 1:2.47.1-1), git (<< 1:2.47.1-1-.), git-doc, git-cvs, git-mediawiki, git-svn, git-email, git-gui, gitk, gitweb
+Installed-Size: 1099
+Depends: git (>> 1:2.51.0-1), git (<< 1:2.51.0-1-.), git-doc, git-cvs, git-svn, git-email, git-gui, gitk, gitweb
 Multi-Arch: foreign
 Homepage: https://git-scm.com/
 Priority: optional
 Section: vcs
-Filename: pool/main/g/git/git-all_2.47.1-1-maruska_all.deb
-Size: 1067484
-SHA256: 9e6332b4855a33a790c1e574eeb1492df1f1e3005ebefa9f4bebadfed9a3cc63
-SHA1: 54e4940ab6c0efd3fea497f064c0b7e24c419221
-MD5sum: ff1f03d530b838cdadfe6f0892e154d6
+Filename: pool/main/g/git/git-all_2.51.0-1-maruska_all.deb
+Size: 1106968
+SHA512: 4fcf20da9eb6a8add577fbb693e65df9e640703683c55ae262a71f9240afdd9df4e5691126233838a692a45b9b391b3327d8724df7eedc08e82667b1ac167350
+SHA256: 15060b92c1c73a2ebaff454eba447de157992b2385a06f8b056f789ada6362b9
+SHA1: 7d8980c40faa6fc84e7b5c9817f9c112b946b390
+MD5sum: dd137d1a81084e96522432f44b3726d5
 Description: fast, scalable, distributed revision control system (all subpackages)
  Git is popular version control system designed to handle very large
  projects with speed and efficiency; it is used for many high profile
@@ -380,7 +383,46 @@ Description: fast, scalable, distributed revision control system (all subpackage
  central server.
  .
  This is a dummy package which brings in all subpackages.
-Dgit: 60f00ee7e253ff06122ebded5174d101f65270a4
+Dgit: 0da226ff81353bf732e66cc32c805a739242945c
+
+Package: git-cvs
+Source: git
+Version: 1:2.51.0-1-maruska
+Architecture: all
+Maintainer: Jonathan Nieder <jrnieder@gmail.com>
+Installed-Size: 1482
+Depends: git (>> 1:2.51.0-1), git (<< 1:2.51.0-1-.), cvsps, libdbd-sqlite3-perl
+Suggests: git-doc, cvs
+Multi-Arch: foreign
+Homepage: https://git-scm.com/
+Priority: optional
+Section: vcs
+Filename: pool/main/g/git/git-cvs_2.51.0-1-maruska_all.deb
+Size: 1171344
+SHA512: 351aa516959126cb86bceeb2eee167ecd7f94e87772c07f2b0eef2013c1f171bc67231226ca1db5e8cc03fac038a9b3bfcb8db3d22609f71eee8886bea2e22e9
+SHA256: fbcdb6a037d3a08c6b0be4a4e96429874779ca692f8eea8ac4bd554b2b4ba59e
+SHA1: 3293676359980821bdfc62357cb7287202c0ff54
+MD5sum: 2acaec87b51fbbd698bd879ccec4f02d
+Description: fast, scalable, distributed revision control system (cvs interoperability)
+ Git is popular version control system designed to handle very large
+ projects with speed and efficiency; it is used for many high profile
+ open source projects, most notably the Linux kernel.
+ .
+ Git falls in the category of distributed source code management tools.
+ Every Git working directory is a full-fledged repository with full
+ revision tracking capabilities, not dependent on network access or a
+ central server.
+ .
+ This package provides the git cvsimport, cvsexportcommit, and cvsserver
+ tools, which allow Git to read from and write to CVS repositories and
+ offer access over CVS protocol to Git repositories.
+ .
+ The git cvsimport tool can incrementally import from a repository that
+ is being actively developed and only requires remote access over CVS
+ protocol. Unfortunately, in many situations the import leads to
+ incorrect results. For reliable, one-shot imports, cvs2git from the
+ cvs2svn package or parsecvs may be a better fit.
+Dgit: 0da226ff81353bf732e66cc32c805a739242945c
 
 Package: git-daemon-run
 Source: git
@@ -470,20 +512,21 @@ Build-Ids: 23d9ccf1955405148cf112ebfa06bc30ad2b3903 2ebd83414049fd3bbe256fa46228
 
 Package: git-doc
 Source: git
-Version: 1:2.47.1-1-maruska
+Version: 1:2.51.0-1-maruska
 Architecture: all
 Maintainer: Jonathan Nieder <jrnieder@gmail.com>
-Installed-Size: 13708
+Installed-Size: 12392
 Suggests: git, git-cvs, git-svn, git-email, gitk, gitweb
 Multi-Arch: foreign
 Homepage: https://git-scm.com/
 Priority: optional
 Section: doc
-Filename: pool/main/g/git/git-doc_2.47.1-1-maruska_all.deb
-Size: 2306804
-SHA256: c48235229f865f9191f8e7a0241bd84304d252ceaf4e05968e38773474f7b96a
-SHA1: c1c8c64be2321d53e87c388bf5d315e284743a5c
-MD5sum: cbaca01cd2ea1e7d52fd01490d4a119c
+Filename: pool/main/g/git/git-doc_2.51.0-1-maruska_all.deb
+Size: 3142764
+SHA512: 7ec63aad47e175db6ed9b8e3e298a8a7d541884c1008311c610a74af3cefc363ca2b24f8b69dbbfc94fa1e5b7e08b3f0a57ee61dbd7babd1a2cc23509ffb9348
+SHA256: 023c8edb2b05b955b5042e8f47240b78d5bab1f7c1210161f4bd535357b01559
+SHA1: 86ef8e693a33fef39bdcee31e70da407f5459cf2
+MD5sum: 54e12c722261c281f1df37e4f21cd210
 Description: fast, scalable, distributed revision control system (documentation)
  Git is popular version control system designed to handle very large
  projects with speed and efficiency; it is used for many high profile
@@ -495,26 +538,27 @@ Description: fast, scalable, distributed revision control system (documentation)
  central server.
  .
  This package provides the documentation.
-Dgit: 60f00ee7e253ff06122ebded5174d101f65270a4
+Dgit: 0da226ff81353bf732e66cc32c805a739242945c
 
 Package: git-email
 Source: git
-Version: 1:2.47.1-1-maruska
+Version: 1:2.51.0-1-maruska
 Architecture: all
 Maintainer: Jonathan Nieder <jrnieder@gmail.com>
-Installed-Size: 1138
-Depends: git (>> 1:2.47.1-1), git (<< 1:2.47.1-1-.)
+Installed-Size: 1183
+Depends: git (>> 1:2.51.0-1), git (<< 1:2.51.0-1-.)
 Recommends: libemail-valid-perl, libmailtools-perl, perl (>> 5.21.5) | libnet-smtp-ssl-perl, libauthen-sasl-perl, libio-socket-ssl-perl (>= 1.951)
 Suggests: git-doc
 Multi-Arch: foreign
 Homepage: https://git-scm.com/
 Priority: optional
 Section: vcs
-Filename: pool/main/g/git/git-email_2.47.1-1-maruska_all.deb
-Size: 1096616
-SHA256: 5ddd46e996c22d559013199b4b215f91eca77b4a4586bf75f1fac07184586cbe
-SHA1: 95847ccf2bd992f739b0a60cd32434c82e76ebe8
-MD5sum: 1582a175d86e65e89e4ca7a4fe052507
+Filename: pool/main/g/git/git-email_2.51.0-1-maruska_all.deb
+Size: 1139560
+SHA512: db01e17e5c295cd2c8847d8871c62fd1b7c225c7bf3a72ebeebceb2b5d31c255edd9d0b7c169e912602de56e98865b015235ead3029940abcdb265e0af6e7494
+SHA256: 2191ef1021c9e184399388c78d67cbc7ae1280a085262d467cba4c7c5536abae
+SHA1: 852263c02ebcbfb1d1d7c5f95cb8009b819e6d17
+MD5sum: 7711f41383ca7df13795ba355f2253c1
 Description: fast, scalable, distributed revision control system (email add-on)
  Git is popular version control system designed to handle very large
  projects with speed and efficiency; it is used for many high profile
@@ -527,26 +571,27 @@ Description: fast, scalable, distributed revision control system (email add-on)
  .
  This package provides the git-send-email program for sending series of
  patch emails.
-Dgit: 60f00ee7e253ff06122ebded5174d101f65270a4
+Dgit: 0da226ff81353bf732e66cc32c805a739242945c
 
 Package: git-gui
 Source: git
-Version: 1:2.47.1-1-maruska
+Version: 1:2.51.0-1-maruska
 Architecture: all
 Maintainer: Jonathan Nieder <jrnieder@gmail.com>
-Installed-Size: 2483
-Depends: git (>> 1:2.47.1-1), git (<< 1:2.47.1-1-.), tk
+Installed-Size: 2504
+Depends: git (>> 1:2.51.0-1), git (<< 1:2.51.0-1-.), tk
 Recommends: gitk
 Suggests: git-doc, aspell, meld
 Multi-Arch: foreign
 Homepage: https://git-scm.com/
 Priority: optional
 Section: vcs
-Filename: pool/main/g/git/git-gui_2.47.1-1-maruska_all.deb
-Size: 1285848
-SHA256: f6a0774a72de57036ccd2e6433420e26ed8b1188add47c90a6e4acb7cb17f3eb
-SHA1: 29281f0199204ab5c8d94eb48ece6c6c24557745
-MD5sum: 370a83167ae3915df42008b3528850f0
+Filename: pool/main/g/git/git-gui_2.51.0-1-maruska_all.deb
+Size: 1323900
+SHA512: 7279d207653a823e47c50edbf779a9a9431a1eaf9da9c152b0a7c2f62b2d32207a95be50511bcaf8f90b4f180f417d0966c0bdb3dd3014233ad9c4e14b6b012b
+SHA256: 60926c1d428c1eb0888d7589f2d20c1defc9ab76b781adc5418e552e6fa2b924
+SHA1: bfa95be859a935c085ec87ad51de17c7c389d8dc
+MD5sum: d54a163dab45f29840e934fa9844e245
 Description: fast, scalable, distributed revision control system (GUI)
  Git is popular version control system designed to handle very large
  projects with speed and efficiency; it is used for many high profile
@@ -564,7 +609,7 @@ Description: fast, scalable, distributed revision control system (GUI)
  .
  If meld is installed, it can be used for displaying diffs and for
  interactive merge conflict resolution.
-Dgit: 60f00ee7e253ff06122ebded5174d101f65270a4
+Dgit: 0da226ff81353bf732e66cc32c805a739242945c
 
 Package: git-hierarchy
 Version: 5.50
@@ -583,19 +628,20 @@ Description: Tools to maintain extensions for upstream, in git
 
 Package: git-man
 Source: git
-Version: 1:2.47.1-1-maruska
+Version: 1:2.51.0-1-maruska
 Architecture: all
 Maintainer: Jonathan Nieder <jrnieder@gmail.com>
-Installed-Size: 2250
+Installed-Size: 2325
 Multi-Arch: foreign
 Homepage: https://git-scm.com/
 Priority: optional
 Section: doc
-Filename: pool/main/g/git/git-man_2.47.1-1-maruska_all.deb
-Size: 2205224
-SHA256: 0d5e63f3479ceb9108d75af0c27c31831139f0a33a3bed3dfd7012b0408dc552
-SHA1: afb2b9fb513f3b5f2f96e14045e5571e26b3709f
-MD5sum: 3fdc2463d954a3c08a2d0b92c61f527b
+Filename: pool/main/g/git/git-man_2.51.0-1-maruska_all.deb
+Size: 2282504
+SHA512: f6b7e31df8837af1f9a244ada66b10f598d3cc63b8f9ae4793f23e4432023499571dab0cf56af1e3e4e04cabad0eb14f0f7f2f196260b5d3759f6f52629eb983
+SHA256: 6fb4c654c90b66ffcc86b6d0e72337993b1dde1e0f6ab37a0060f253ad5a9f58
+SHA1: 5b1f673722ad82e6bd3e4b8d89c456c7132e328b
+MD5sum: 11e117e4a0af65199f1c3396871d4f6b
 Description: fast, scalable, distributed revision control system (manual pages)
  Git is popular version control system designed to handle very large
  projects with speed and efficiency; it is used for many high profile
@@ -608,7 +654,7 @@ Description: fast, scalable, distributed revision control system (manual pages)
  .
  This package provides reference documentation for use by the 'man'
  utility and the 'git help' command.
-Dgit: 60f00ee7e253ff06122ebded5174d101f65270a4
+Dgit: 0da226ff81353bf732e66cc32c805a739242945c
 
 Package: git-mediawiki
 Source: git
@@ -645,11 +691,11 @@ Dgit: 60f00ee7e253ff06122ebded5174d101f65270a4
 
 Package: git-svn
 Source: git
-Version: 1:2.47.1-1-maruska
+Version: 1:2.51.0-1-maruska
 Architecture: all
 Maintainer: Jonathan Nieder <jrnieder@gmail.com>
-Installed-Size: 1309
-Depends: git (>> 1:2.47.1-1), git (<< 1:2.47.1-1-.), libsvn-perl, libyaml-perl, libterm-readkey-perl
+Installed-Size: 1348
+Depends: git (>> 1:2.51.0-1), git (<< 1:2.51.0-1-.), libsvn-perl, libyaml-perl, libterm-readkey-perl
 Suggests: git-doc, subversion
 Breaks: git (<< 1:1.8.3~rc1-1.)
 Replaces: git (<< 1:1.8.3~rc1-1.)
@@ -657,11 +703,12 @@ Multi-Arch: foreign
 Homepage: https://git-scm.com/
 Priority: optional
 Section: vcs
-Filename: pool/main/g/git/git-svn_2.47.1-1-maruska_all.deb
-Size: 1143160
-SHA256: afef3f071df2d973ecd29a0e0da2fb4483ae7120ad39eb07fed0af6ef3bf9dda
-SHA1: 000759af080a511f4234fed63f426d7b39891ea6
-MD5sum: a9e1f4e0a0bc000aa9a93f27ef506ada
+Filename: pool/main/g/git/git-svn_2.51.0-1-maruska_all.deb
+Size: 1183460
+SHA512: 17bec509b063578c4027f9ac7c3e8969dd7774bed40c08c774f325b569a9479455925cb925f421eb2e13a2bae08ea5f0f310d69a81b4fe50484d5e7ea86d0ba2
+SHA256: 55846ef6666dafdc78a76ee7cb843469a7571eba9b762266d784c4bb9ec7b693
+SHA1: 1184119b7df742a9dd00a273f8450339f5a62f8c
+MD5sum: 75309ae4e2616531178f47bdf034c974
 Description: fast, scalable, distributed revision control system (svn interoperability)
  Git is popular version control system designed to handle very large
  projects with speed and efficiency; it is used for many high profile
@@ -674,25 +721,26 @@ Description: fast, scalable, distributed revision control system (svn interopera
  .
  This package provides tools for interoperating with Subversion repositories,
  and importing SVN development history.
-Dgit: 60f00ee7e253ff06122ebded5174d101f65270a4
+Dgit: 0da226ff81353bf732e66cc32c805a739242945c
 
 Package: gitk
 Source: git
-Version: 1:2.47.1-1-maruska
+Version: 1:2.51.0-1-maruska
 Architecture: all
 Maintainer: Jonathan Nieder <jrnieder@gmail.com>
-Installed-Size: 1903
-Depends: git (>> 1:2.47.1-1), git (<< 1:2.47.1-1-.), tk
+Installed-Size: 2014
+Depends: git (>> 1:2.51.0-1), git (<< 1:2.51.0-1-.), tk
 Suggests: git-doc
 Multi-Arch: foreign
 Homepage: https://git-scm.com/
 Priority: optional
 Section: vcs
-Filename: pool/main/g/git/gitk_2.47.1-1-maruska_all.deb
-Size: 1207172
-SHA256: 756cabcf456614c59822ad285b606eb68ca6e848ed3094f5e94067bf434d7b2a
-SHA1: 81d2794d68e2118d4bc975d57a09e59c7f0e9d93
-MD5sum: 654131bfd2a99a46f244692d9f00b59f
+Filename: pool/main/g/git/gitk_2.51.0-1-maruska_all.deb
+Size: 1253880
+SHA512: 6b8c49a806b78c42f4c2d19d54ddd558898264f4bd9e7d70608117ef4437a37e1084101b61a1fc59c6a5b978f1630edfa0f77c76b2246634a430e4b081bd98fd
+SHA256: 97e3add832127b7e19a3af710a2b57c8c9de2b7b922b464304029bc2e4f65cab
+SHA1: 5f21e58a52332ab9d35a912b2785dc12309f2c45
+MD5sum: 6948686c1deba52dd94b45f01bc40d7e
 Description: fast, scalable, distributed revision control system (revision tree visualizer)
  Git is popular version control system designed to handle very large
  projects with speed and efficiency; it is used for many high profile
@@ -704,15 +752,15 @@ Description: fast, scalable, distributed revision control system (revision tree 
  central server.
  .
  This package provides the gitk program, a tcl/tk revision tree visualizer.
-Dgit: 60f00ee7e253ff06122ebded5174d101f65270a4
+Dgit: 0da226ff81353bf732e66cc32c805a739242945c
 
 Package: gitweb
 Source: git
-Version: 1:2.47.1-1-maruska
+Version: 1:2.51.0-1-maruska
 Architecture: all
 Maintainer: Jonathan Nieder <jrnieder@gmail.com>
-Installed-Size: 1081
-Depends: git (>> 1:2.47.1-1), git (<< 1:2.47.1-1-.), perl, libcgi-pm-perl
+Installed-Size: 1120
+Depends: git (>> 1:2.51.0-1), git (<< 1:2.51.0-1-.), perl, libcgi-pm-perl
 Recommends: apache2 (>= 2.4.6-4~) | lynx | httpd, libhttp-date-perl | libtime-parsedate-perl
 Suggests: httpd-cgi | libcgi-fast-perl, git-doc
 Breaks: apache2.2-common (<< 2.3~)
@@ -720,11 +768,12 @@ Multi-Arch: foreign
 Homepage: https://git-scm.com/
 Priority: optional
 Section: vcs
-Filename: pool/main/g/git/gitweb_2.47.1-1-maruska_all.deb
-Size: 1071092
-SHA256: c626f32dd2bb8fe338a57488f712191c2ef8627c1b017a8fbb392473e70bb008
-SHA1: 894e9f2b7f0613ffa2666ff5d9fd9b2f3917bb5f
-MD5sum: ce906410ad45eae8358c488e29e7484e
+Filename: pool/main/g/git/gitweb_2.51.0-1-maruska_all.deb
+Size: 1110592
+SHA512: 8086fea6509bdaa11e9c137caf341c236eb87dbb133667ef7ad2d45af490725e9a024f3338775164e6519dd869576622d5dbde3df9da022631ef4dff5d7bf12e
+SHA256: 0112485d533012b73ec10a2276e1596592f829003ff969a2075b1461fc173e49
+SHA1: 337dd613a692a7107d9084d34bb4c89fc623b900
+MD5sum: de14f9263f3a4390c51d2180ee4817dc
 Description: fast, scalable, distributed revision control system (web interface)
  Git is popular version control system designed to handle very large
  projects with speed and efficiency; it is used for many high profile
@@ -743,7 +792,7 @@ Description: fast, scalable, distributed revision control system (web interface)
  .
  If libcgi-fast-perl is installed, gitweb can also be run over FastCGI
  (and served by nginx, for example).
-Dgit: 60f00ee7e253ff06122ebded5174d101f65270a4
+Dgit: 0da226ff81353bf732e66cc32c805a739242945c
 
 Package: human
 Version: 1.5
@@ -822,48 +871,48 @@ Build-Ids: cbacec0aa7582d31a944923df84eb18ae8b4362b
 
 Package: libapt-pkg-dev
 Source: apt
-Version: 2.9.28-maruska
+Version: 3.1.15-maruska
 Architecture: arm64
 Maintainer: APT Development Team <deity@lists.debian.org>
-Installed-Size: 547
-Depends: libapt-pkg (= 2.9.28-maruska)
+Installed-Size: 558
+Depends: libapt-pkg (= 3.1.15-maruska)
 Multi-Arch: same
 Priority: optional
 Section: libdevel
-Filename: pool/main/a/apt/libapt-pkg-dev_2.9.28-maruska_arm64.deb
-Size: 132392
-SHA512: b4a8ffacb6e78b4d5d7e4d606b3410f81e4bc88912e2de6feac4b99d1a997437bb4b21eed378d36c06e17c6336f816a705737c038ea8324137fb353f22c03f63
-SHA256: 80d7a8a40a151e2d34cac1e520cc22cee76ed6fc536c98b7a523f14018eacbd0
-SHA1: c98dcb46b57a630d6f16c367524c4391942163e2
-MD5sum: cbb681a0ccba5f1c158f00f1da63434a
+Filename: pool/main/a/apt/libapt-pkg-dev_3.1.15-maruska_arm64.deb
+Size: 140180
+SHA512: a5f3865930d609b697ddb59d5dfbae0512636f4505baca48f464cfaac609f8f00b095092676c37d0f662e3a39679de50ff69f79b2aa2b5fe73069c7abfe80e6b
+SHA256: fd18e2d6e5da48b8257847b0095775015ae28ee5f56667053196e21414469dd8
+SHA1: aa065c7365819f8efd1ad185500dd4a336219f37
+MD5sum: d9ab1e91a3a9a2bbe26a11a9c77d8c47
 Description: development files for APT's libapt-pkg and libapt-inst
  This package contains the header files and libraries for
  developing with APT's libapt-pkg Debian package manipulation
  library and the libapt-inst deb/tar/ar library.
-Dgit: 31e3bb54c47661fc3335c807b640ec7299bb5859
+Dgit: 044630e3b8dad153c4077e91878d2a31af176b86
 
 Package: libapt-pkg-doc
 Source: apt
-Version: 2.9.28-maruska
+Version: 3.1.15-maruska
 Architecture: all
 Maintainer: APT Development Team <deity@lists.debian.org>
-Installed-Size: 18745
+Installed-Size: 24679
 Multi-Arch: foreign
 Priority: optional
 Section: doc
-Filename: pool/main/a/apt/libapt-pkg-doc_2.9.28-maruska_all.deb
-Size: 966984
-SHA512: 3aef55f216edc81f2f8823be8314bef60f97418c6c650bf1cacf31fdb62f0f0442da0f8da41ea724c7018d6caed1ca6d9930fb052a24ca30f3b4fb08d204cdbc
-SHA256: 495f0b621661b4ff242a4f46242f4d90036522dbd4f93e44f3b9cc8ab3f398d1
-SHA1: d70011861dc045aa34994d256889e5c419cf3613
-MD5sum: 6ca6b8a7876aa07f175ae60d14f76afc
+Filename: pool/main/a/apt/libapt-pkg-doc_3.1.15-maruska_all.deb
+Size: 1281640
+SHA512: 94819adbe149635985ffadea16fbfb13b7cfedabb30dbad5e23d37d0231e8fc1149b5ee50034d9e4d57cb6995a016bd50e3e9cb9c274972d464d7af3625cfefa
+SHA256: 04b573aff7b84f3c725f095652bc08b4ee7860c007e400317dd40d4ffec3bae8
+SHA1: 3799a6ca755a9f8b42b2896bf53c2fdf6d0109e6
+MD5sum: 9513e56713bd63e54fffacf8725de8de
 Description: documentation for APT development
  This package contains documentation for development of the APT
  Debian package manipulation program and its libraries.
  .
  This includes the source code documentation generated by doxygen
  in html format.
-Dgit: 31e3bb54c47661fc3335c807b640ec7299bb5859
+Dgit: 044630e3b8dad153c4077e91878d2a31af176b86
 
 Package: libapt-pkg6.0t64
 Source: apt
@@ -923,29 +972,87 @@ MD5sum: db6494b04a9e6d46635416870bf3081b
 Description: debug symbols for libapt-pkg6.0t64
 Build-Ids: 96511d4c155d107a3da07c6c0af78d5e04fc7cf3
 
+Package: libapt-pkg7.0
+Source: apt
+Version: 3.1.15-maruska
+Architecture: arm64
+Maintainer: APT Development Team <deity@lists.debian.org>
+Installed-Size: 3820
+Depends: libbz2-1.0, libc6 (>= 2.38), libgcc-s1 (>= 3.0), liblz4-1 (>= 0.0~r127), liblzma5 (>= 5.1.1alpha+20120614), libssl3t64 (>= 3.0.0), libstdc++6 (>= 14), libsystemd0 (>= 221), libudev1 (>= 183), libxxhash0 (>= 0.8), libzstd1 (>= 1.5.5), zlib1g (>= 1:1.2.2.3)
+Recommends: apt (>= 3.1.15-maruska)
+Conflicts: libnettle8 (<< 3.9.1-2.2~)
+Breaks: appstream (<< 0.9.0-3~), apt (<< 1.6~), aptitude (<< 0.8.9), dpkg (<< 1.20.8), libapt-inst1.5 (<< 0.9.9~)
+Provides: libapt-pkg (= 3.1.15-maruska)
+Multi-Arch: same
+Priority: optional
+Section: libs
+Filename: pool/main/a/apt/libapt-pkg7.0_3.1.15-maruska_arm64.deb
+Size: 1058144
+SHA512: 596f22ccd7f4669c300ed74aaf2e30c4f6588206130f7817c3baa809a0e8020d144bab86ecaae3b7d9bf434f119f1a2337d31c8fdc154fc6b58916f35e4d959b
+SHA256: 87e3cda4bed12b1d52bd8e83d6f12e543cdbb3951e1f7870f93511960c76c4aa
+SHA1: 3c5c29896b4a13be348a717a942a55ea09915295
+MD5sum: 9b42b13a7cf669b1800627345590bd8f
+Description: package management runtime library
+ This library provides the common functionality for searching and
+ managing packages as well as information about packages.
+ Higher-level package managers can depend upon this library.
+ .
+ This includes:
+  * retrieval of information about packages from multiple sources
+  * retrieval of packages and all dependent packages
+    needed to satisfy a request either through an internal
+    solver or by interfacing with an external one
+  * authenticating the sources and validating the retrieved data
+  * installation and removal of packages in the system
+  * providing different transports to retrieve data over cdrom and
+    http(s) as well as an interface to add more transports like
+    tor+http(s) (apt-transport-tor).
+Dgit: 044630e3b8dad153c4077e91878d2a31af176b86
+
+Package: libapt-pkg7.0-dbgsym
+Source: apt
+Version: 3.1.15-maruska
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: APT Development Team <deity@lists.debian.org>
+Installed-Size: 15839
+Depends: libapt-pkg7.0 (= 3.1.15-maruska)
+Multi-Arch: same
+Priority: optional
+Section: debug
+Filename: pool/main/a/apt/libapt-pkg7.0-dbgsym_3.1.15-maruska_arm64.deb
+Size: 13369268
+SHA512: f460bc01196982abd250a4d56fccbf3b8ee789f137c079266892e1a28072f90608e6197bd5fa5c78236f6ac48150ccddbaf4b67719972e25d8140285923fee7a
+SHA256: 9a5cd2b0a83e64a27eeec37dfcda42c0a93f1cf68e534e6929bf3c3f4e261de6
+SHA1: 6ca958e8e3b07af81b75170cb34f6430c5805170
+MD5sum: 3cf987ceaa677ad54430e1bd6d6cef43
+Description: debug symbols for libapt-pkg7.0
+Build-Ids: 4609dc6b0130b24136c19dc76b07dff80336ede8
+
 Package: libdebhelper-perl
 Source: debhelper
-Version: 13.24.1-maruska
+Version: 13.29-maruska
 Architecture: all
 Maintainer: Debhelper Maintainers <debhelper@packages.debian.org>
-Installed-Size: 352
+Installed-Size: 356
 Depends: perl:any
 Breaks: debhelper (<< 12.6~)
 Replaces: debhelper (<< 12.6~)
 Multi-Arch: foreign
 Priority: optional
 Section: perl
-Filename: pool/main/d/debhelper/libdebhelper-perl_13.24.1-maruska_all.deb
-Size: 90996
-SHA256: f730b11c2dbb5db3914db57d512579aa6224d71e05af5134c80c69e49af20eb1
-SHA1: a210c456fcb49b73e462fa6f2e1dc1041d1030a9
-MD5sum: f085fcc63890fa78f784bd093335b6bc
+Filename: pool/main/d/debhelper/libdebhelper-perl_13.29-maruska_all.deb
+Size: 92744
+SHA512: 449817e92959d2f099cade3ceb40d0f89e0b530e6c6577cbb9920c12a3b47ce151d67f85225958f28be811b54cfd68d7dcb33389faef1b75c82188cf0cab1cf0
+SHA256: 12324c4acc9379208b88be9378f37c317a2820735e981c703534979d23cc304f
+SHA1: a174fd2fba0f4c0dc0d065a0f4d2597d0d799067
+MD5sum: 279fab395311292ce368d4d94dbed7ef
 Description: debhelper perl modules
  A collection of programs that can be used in a debian/rules file to
  automate common tasks related to building Debian packages.
  .
  This package provides the perl modules used by the scripts in debhelper.
-Dgit: c313b22aff330f459686fe2dca0e736aaf668ea8
+Dgit: 6f86f64104418a2ce18f97776f6af30f2aea469d
 
 Package: libecpg-compat3
 Source: postgresql-17
@@ -1190,18 +1297,19 @@ Build-Ids: 7bc4c1bb8cf9f0f250d4a83df85e1be6067574e6
 
 Package: libx11-data
 Source: libx11
-Version: 2:1.8.10-1-maruska
+Version: 2:1.8.12-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 1345
 Multi-Arch: foreign
 Priority: optional
 Section: x11
-Filename: pool/main/libx/libx11/libx11-data_1.8.10-1-maruska_all.deb
-Size: 106956
-SHA256: 4248f110c09677d12fa82056cbfcdcbc914cc55e699f54da5cf17aed4b2672a3
-SHA1: bac78409d124798cef45d84f4037a5d23d381944
-MD5sum: dcd26a9374b753fec1ef53e60d6ce768
+Filename: pool/main/libx/libx11/libx11-data_1.8.12-1-maruska_all.deb
+Size: 107008
+SHA512: b84d544d00fb1c1e7078e92e2f895475b3f7ec5ac285cf6419a1db0fff14f8fb815bde6c5dba5e14dfd6c346dfad9d69e79df0d707c1e3f25ba800fb580e7878
+SHA256: 2563b359dd6a62b8419cc60015e76de63de32a197bf55bf5eae9325b7b4e1e17
+SHA1: d162cd0332dd09e559ab5490b741487d5d563239
+MD5sum: ea8f0ca52fda4f5236304e137babcefe
 Description: X11 client-side library
  This package provides the locale data files for libx11.
  .
@@ -1210,21 +1318,23 @@ Description: X11 client-side library
  .
  This module can be found at
  https://gitlab.freedesktop.org/xorg/lib/libX11
+Dgit: 9533476ee50eba5a6e354758977cd382fdc19f46
 
 Package: libx11-doc
 Source: libx11
-Version: 2:1.8.10-1-maruska
+Version: 2:1.8.12-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 9914
 Multi-Arch: foreign
 Priority: optional
 Section: doc
-Filename: pool/main/libx/libx11/libx11-doc_1.8.10-1-maruska_all.deb
-Size: 1995356
-SHA256: e996f9da71a2cc56477f0d203544df9a0782389e780804d52df7be0b498bb661
-SHA1: 3224b036326ab4265e74476ae22ac2c4915a268f
-MD5sum: 750315a2652000e5484871953fe351de
+Filename: pool/main/libx/libx11/libx11-doc_1.8.12-1-maruska_all.deb
+Size: 1994316
+SHA512: 3422635d79784bb9de0a2fb2d4b06e5538d8ad8d07d61579045bfc37715a65e1e194123e50983dd9b3b7e79b9fdfebf4d6bef7b4aa498481bf8ccc0cd74f84c4
+SHA256: 942b0015bf8a3c763ec1a245bfcae8c3d40d3b85c668703b5fd6cac7131d0b6a
+SHA1: 2e03d6cd064cc633f6949329bcc470fa643c485c
+MD5sum: d3ff268cebf8bd08eb0a923856cc5d54
 Description: X11 client-side library (development documentation)
  This package provides a client interface to the X Window System, otherwise
  known as 'Xlib'.  It provides a complete API for the basic functions of the
@@ -1238,6 +1348,7 @@ Description: X11 client-side library (development documentation)
  .
  This module can be found at
  https://gitlab.freedesktop.org/xorg/lib/libX11
+Dgit: 9533476ee50eba5a6e354758977cd382fdc19f46
 
 Package: make
 Source: make-color
@@ -1285,7 +1396,7 @@ Build-Ids: abe2df4d4b07f8e10211cce92816e334af6bc7f1
 
 Package: maruska-base-graphics
 Source: maruska-top
-Version: 1.31
+Version: 1.34
 Architecture: all
 Maintainer: Michal Maruska <mmaruska@gmail.com>
 Installed-Size: 8
@@ -1294,291 +1405,325 @@ Recommends: plocate
 Conflicts: exim4-base
 Priority: extra
 Section: shells
-Filename: pool/main/m/maruska-top/maruska-base-graphics_1.31_all.deb
-Size: 2932
-SHA256: 719c4d4bf6f838560835569bff026d9fbbb0ed4b939e05ccf83797b7469dbaeb
-SHA1: e9d3c8c68a648f9ffe5d5daa3351e0c297399c0c
-MD5sum: e1ed405e08c4278f139409bbbc499478
+Filename: pool/main/m/maruska-top/maruska-base-graphics_1.34_all.deb
+Size: 3092
+SHA512: 00785009495fdc3e6ffd898660a8527d364036362bf91e62df1160cf332b69e23119a3510f0ca3635a6143f9b4202ec2fa6459a871eefc8f08525ee585a5782b
+SHA256: d17841697615149a0982103b927a7ba50d5bd62d6cbc227dce5dafffd860d820
+SHA1: 64f35ca5e685464d73611d446bf3f3895c05ad06
+MD5sum: e44792fa0a64f3e0b359174507a1a0eb
 Description: This should be enough to make maruska happy with the desktop.
  A container package -- pulling in dependencies which I am accustomed to.
-Dgit: 76036ad2e0bb8b0419adb36cabfabb96d9849edd
+Dgit: 5ff2e72457295f53640915d3780f657f19af0be7
 
-Package: maruska-preference
-Version: 3.58
+Package: maruska-misc
+Version: 2.7.2
 Architecture: all
 Maintainer: Michal Maruska <mmaruska@gmail.com>
-Installed-Size: 227
-Depends: zsh, mmc-zsh, mmc-shell (>= 3.28), file
+Installed-Size: 69
+Priority: extra
+Section: misc
+Filename: pool/main/m/maruska-misc/maruska-misc_2.7.2_all.deb
+Size: 8776
+SHA512: 0067662ed22a6f39e927076935f9e6d097fc3c03fa346c468098f56e046874d4eae121b67524270e6696a1f93879bf04ac8f722745ae9c4c7fb7f3e843cf7ae4
+SHA256: abaf6eab7124d72587308bd6a536c2182637b110a9ec1b1990174189e81d2d90
+SHA1: d757856144ff35bd6d297ed686b8ae55602665b8
+MD5sum: 59f30dfe8078949ca8500e34b56d5064
+Description: various data files (sed, awk, keymaps...)
+Dgit: e3dc845a2229c294a1137a0b73978c48b7e4e3fe
+
+Package: maruska-preference
+Version: 3.64
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 228
+Depends: zsh, mmc-zsh, mmc-shell (>= 3.28), file, eza
 Recommends: gauche-eog, git-core, gitk, rlwrap, devscripts, mempeak, human, less, highlight, sudo, acpi-support-base, acpi-support, acpi-fakekey, brightnessctl, python3-docutils
 Priority: extra
 Section: shells
-Filename: pool/main/m/maruska-preference/maruska-preference_3.58_all.deb
-Size: 34932
-SHA256: b9b7be1b4cd40572aa27ab1dcac6813ca877f9bcacfc132343a0fbd82a623e26
-SHA1: d2a62263e0b997377dc79715de375f30bd9d5c37
-MD5sum: 898ebfdc0c3c54c83b4497078d253e1c
+Filename: pool/main/m/maruska-preference/maruska-preference_3.64_all.deb
+Size: 35392
+SHA512: 8373060e3358a851ca6c13aecb595e6c85087ffabfd7e6cecabad7551f6cdfaf8c2df9ba321299b6aeb436cb544aefeefb3ff521a20cf7a01bda4952ea2381bf
+SHA256: 8c01997354ff2a549714bbaf903eae3569bf55e793130b378cb805f23cd2bfe3
+SHA1: 710143af8ac937ce481f0b712f62d7b32b70f9a2
+MD5sum: 6c24070c03b0764643a1e25d1a1fa1c9
 Description: some configs.
+Dgit: 7505dc4d5554b4080752c3783a3856993e19c018
 
 Package: maruska-top-android
 Source: maruska-top
-Version: 1.31
+Version: 1.34
 Architecture: all
 Maintainer: Michal Maruska <mmaruska@gmail.com>
 Installed-Size: 8
 Depends: maruska-top-developer, adb, fastboot, pidcat, heimdall-flash, mkbootimg, abootimg
 Priority: extra
 Section: shells
-Filename: pool/main/m/maruska-top/maruska-top-android_1.31_all.deb
-Size: 2804
-SHA256: 009d82109701758178cc8b95424c63299e4aadd23364d06bec586747d4fd9740
-SHA1: af0f5cc5486605479e4e31d6184a1b22d4e90ebd
-MD5sum: 9d8419971426e5f3d773b17c6d49cc69
+Filename: pool/main/m/maruska-top/maruska-top-android_1.34_all.deb
+Size: 2964
+SHA512: 05c213d04bf2228f0bc9ade23b088820602b5dbb928185daafd350e29bef016973b056827a76fd40f0bb76d6ac4c6aeb0ebb57f78a3f4a2fe283cd958b3f5991
+SHA256: 123ebb6bd1cb3dd66e0b647a33bd1c1e120e0d2c58f291d9769f8b985980e0d7
+SHA1: 87eaf56f58962b884efa3cb0280305c1375b304d
+MD5sum: c3333877b80b518b0c7fd4122e4d229e
 Description: Things I use for development with Android gadgets
-Dgit: 76036ad2e0bb8b0419adb36cabfabb96d9849edd
+Dgit: 5ff2e72457295f53640915d3780f657f19af0be7
 
 Package: maruska-top-base
 Source: maruska-top
-Version: 1.31
+Version: 1.34
 Architecture: all
 Maintainer: Michal Maruska <mmaruska@gmail.com>
 Installed-Size: 8
-Depends: maruska-preference, maruska-misc, mmc-emacs, dircolors, mmc-emacs-config, mmc-zsh, elinks, lsof, xdelta, human, mempeak, rlwrap, git-core, gitk, emacs, man, strace, zsh-syntax-highlighting, highlight, python3-docutils, nocache, cron, fwupd, psmisc
+Depends: maruska-preference, maruska-misc, emacs, mmc-emacs, dircolors, mmc-emacs-config, mmc-zsh, elinks, lsof, xdelta, human, mempeak, git-core, gitk, man, strace, zsh-syntax-highlighting, highlight, python3-docutils, nocache, cron, fwupd, psmisc
 Recommends: plocate
 Conflicts: exim4-base
 Priority: extra
 Section: shells
-Filename: pool/main/m/maruska-top/maruska-top-base_1.31_all.deb
-Size: 2976
-SHA256: 9712b698e66ec4ec6255d0ca7683f97c794203548642450ad9ab47d610b69470
-SHA1: efe5066621bb3b623ef51dd52edd51eddf9834a3
-MD5sum: 7fc99dfea7784717d7a234ceb99d7a7c
+Filename: pool/main/m/maruska-top/maruska-top-base_1.34_all.deb
+Size: 3136
+SHA512: f64d73a7ff6798e462fd3a1b4f8a15cbb43f2a0d4304ab9922cd3df712f0f2914a46dc5c06ba8fe6b186748cab9f05872a9b5c7094a30155376587c8598c5902
+SHA256: 8f4cf7ef4cf210c83aab3f3255aeb0ac0a61e774d0358f767d01644fdadcdbff
+SHA1: 92aef38729b4705f7cce5b015e4c8e911eb78229
+MD5sum: 1f0c135a98c34f1c9f74a6f5fac19ede
 Description: This should be enough to make maruska happy with the desktop.
  A container package -- pulling in dependencies which I am accustomed to.
-Dgit: 76036ad2e0bb8b0419adb36cabfabb96d9849edd
+Dgit: 5ff2e72457295f53640915d3780f657f19af0be7
 
 Package: maruska-top-commercial
 Source: maruska-top
-Version: 1.31
+Version: 1.34
 Architecture: all
 Maintainer: Michal Maruska <mmaruska@gmail.com>
 Installed-Size: 8
 Depends: google-chrome-stable | google-chrome-unstable
 Priority: extra
 Section: shells
-Filename: pool/main/m/maruska-top/maruska-top-commercial_1.31_all.deb
-Size: 2772
-SHA256: 5b64fd1459ab040ddcf21228a6c58795854f33afde26723445dcb35326a128d9
-SHA1: 609838bbfdda2b9eee9938fc33f2d77bf8f466bb
-MD5sum: 4b0f2af4bfd633ac290d9fd12ccc5a2b
+Filename: pool/main/m/maruska-top/maruska-top-commercial_1.34_all.deb
+Size: 2936
+SHA512: 4fe4ade58efa49afadbff8412902d449433c4da484b74fe05975ec0326de54b9aa67b74ea2376faa7b2a0c1da61edfadb6b996e6fa30032e7539bc90b5233f63
+SHA256: 1e80206afeaf6d6be5376ed58b49eab1eaaee2783235b37937b67609a5dc0467
+SHA1: 5a355135aa26f2ab2df8326dc70ea61d6b39116a
+MD5sum: 238f24429745dd0da32a657b64ab302d
 Description: Commercial sw from external repositories
-Dgit: 76036ad2e0bb8b0419adb36cabfabb96d9849edd
+Dgit: 5ff2e72457295f53640915d3780f657f19af0be7
 
 Package: maruska-top-corporate
 Source: maruska-top
-Version: 1.31
+Version: 1.34
 Architecture: all
 Maintainer: Michal Maruska <mmaruska@gmail.com>
 Installed-Size: 8
 Depends: maruska-top-desktop, slack-desktop, teams-insiders
 Priority: extra
 Section: shells
-Filename: pool/main/m/maruska-top/maruska-top-corporate_1.31_all.deb
-Size: 2776
-SHA256: 82fde4f4898c42678bffdd0b22965e87af06f910676f417fd3f2af1b0cd8ed48
-SHA1: 391680ba4ee8d520bec095d18ce1837de87e18e6
-MD5sum: 0d09c797495c5f0d4cae172354ede846
+Filename: pool/main/m/maruska-top/maruska-top-corporate_1.34_all.deb
+Size: 2936
+SHA512: 10cb767c438b1fdfde6d151a8cba1739efdbb963f825a02cd243b6b8a9625d34bf7c426e5f280ddba06193dc110760fb243ef9c9c4702e5516a9a702eca43576
+SHA256: f1ccb501596e590c5d676b36f0030d152b674459fb12d5244ae4e4a47c40a1cc
+SHA1: 129c0f37e1569ead2b7b5def89c7e7760d96bc2a
+MD5sum: 9605abe33b69f5cb06b9ba92027f5899
 Description: Things I need on GUI workstation.
-Dgit: 76036ad2e0bb8b0419adb36cabfabb96d9849edd
+Dgit: 5ff2e72457295f53640915d3780f657f19af0be7
 
 Package: maruska-top-debian
 Source: maruska-top
-Version: 1.31
+Version: 1.34
 Architecture: all
 Maintainer: Michal Maruska <mmaruska@gmail.com>
 Installed-Size: 8
 Depends: equivs, packaging-dev, dlocate, mmc-build-system, devscripts, libdistro-info-perl, debspawn
 Priority: extra
 Section: shells
-Filename: pool/main/m/maruska-top/maruska-top-debian_1.31_all.deb
-Size: 2808
-SHA256: 6c7eb32e2af7ce03eff3d3c67ce3db07b43be26dc90a16851aab0481c5d7a23a
-SHA1: 872333189e6d61084c815c760fb41ad6202b3b1d
-MD5sum: 3f88ead3b97846eb53ea04b1da9f7dfd
-Description: Things I use for processing email.
-Dgit: 76036ad2e0bb8b0419adb36cabfabb96d9849edd
+Filename: pool/main/m/maruska-top/maruska-top-debian_1.34_all.deb
+Size: 2968
+SHA512: d9038e3d395dcd42527fc2613cf9ba376e5662819af6db468def6e9ae4fd7612bdbe9e1a5ead061543e130cb23434d1d4340b74f8734c29d82a92046bced954c
+SHA256: f1031a54e25e6d3075ada57c15fbb517443c387c14bdbdfb07a67f3c3b1c7574
+SHA1: a403177d28f5d5168690bd39cc18c12a755a3970
+MD5sum: 0072418ee3f0db720a576b2f58762668
+Description: Things I need to produce debian packages
+Dgit: 5ff2e72457295f53640915d3780f657f19af0be7
 
 Package: maruska-top-desktop
 Source: maruska-top
-Version: 1.31
+Version: 1.34
 Architecture: all
 Maintainer: Michal Maruska <mmaruska@gmail.com>
 Installed-Size: 8
-Depends: unclutter, powertop, lshw, maruska-top-base, maruska-base-graphics, x11-xserver-utils, xinput, mate-panel, claws-mail, claws-mail-newmail-plugin, claws-mail-multi-notifier, network-manager-gnome, firefox, mplayer, evince, pavucontrol, pulseaudio, mpg123, pulsemixer, gnome-settings-daemon, gnome-keyring, gst123
+Depends: unclutter, powertop, lshw, maruska-top-base, maruska-base-graphics, x11-xserver-utils, xinput, mate-panel, mate-themes, gnome-settings-daemon, gnome-keyring, claws-mail, claws-mail-newmail-plugin, claws-mail-multi-notifier, network-manager-gnome, firefox, mplayer, evince, pavucontrol, pulseaudio, mpg123, pulsemixer, gst123, gthumb
 Recommends: chromium, chromium-browser
 Priority: extra
 Section: shells
-Filename: pool/main/m/maruska-top/maruska-top-desktop_1.31_all.deb
-Size: 2944
-SHA256: dce03d19c1f0d884e0e77040e1c8abc5eeabc714e7d0980a294abc7e597707e7
-SHA1: dc9f891a8226956aaee8a175a5f4a44d5fee03aa
-MD5sum: 4ef13c07f30283918a6a7d4c668efbd5
+Filename: pool/main/m/maruska-top/maruska-top-desktop_1.34_all.deb
+Size: 3124
+SHA512: f251dfa3d9b972fab207b5c6d5b0dea2d63593b90443b57256c94e64ab79adc8b1027e5056788e1adfdb5438da29e27b7cf143655ea357daf436506a14b6dd02
+SHA256: 1bbbe6fa4fd511820f77cb0b75a9896146fd67699e1119aabd511b25f02a714d
+SHA1: f51f92aaaf64fb33837b9553c2c303b58aa9cd67
+MD5sum: afafc8036f9b85b2d1958416934deff6
 Description: Things I need on GUI workstation.
-Dgit: 76036ad2e0bb8b0419adb36cabfabb96d9849edd
+Dgit: 5ff2e72457295f53640915d3780f657f19af0be7
 
 Package: maruska-top-developer
 Source: maruska-top
-Version: 1.31
+Version: 1.34
 Architecture: all
 Maintainer: Michal Maruska <mmaruska@gmail.com>
 Installed-Size: 8
-Depends: maruska-top-desktop, mmc-emacs-devel, emacs-goodies-el, debian-el, magit, zsh-doc, elpa-paredit, git-hierarchy, gdb, colortail, manpages, manpages-dev, gawk-doc, gcc-doc, cmake-doc, cmake, gcc
+Depends: maruska-top-desktop, mmc-emacs-devel, emacs-goodies-el, elpa-debian-el, elpa-magit, zsh-doc, elpa-paredit, git-hierarchy, gdb, colortail, manpages, manpages-dev, gawk-doc, gcc, gcc-doc, cmake, cmake-doc, ninja-build, pkg-config, googletest, libgtest-dev, google-mock, gh, clangd
 Priority: extra
 Section: shells
-Filename: pool/main/m/maruska-top/maruska-top-developer_1.31_all.deb
-Size: 2856
-SHA256: b694d64c1c04f9217b926e033e1e6f92f44e73aab15c0e4612e03b49320361d1
-SHA1: 6f3e6be1087def3c2ab4e544377d5953d261ba39
-MD5sum: 0437d3a064d07a82dfe1697a940fedf0
+Filename: pool/main/m/maruska-top/maruska-top-developer_1.34_all.deb
+Size: 3072
+SHA512: cd2024558115fe9ad2a7da8ea01eb4e7e1c861b7cc3e4530c04f55ec91e2d37d22df4970e063363ea0dc9390c0d9ba2f1f6cdb327b06c5408ba3bf774f5334a7
+SHA256: 36af71712642f4d97b2bc9f83912db6240663038f403076cef505bb7ebe297db
+SHA1: 862eb71e1c4f1a875412f52ba1ff29108aee8f8c
+MD5sum: cb090c5e0f50b2eafa7db4ea30b615d9
 Description: Things I use for development/work. Android gadgets
-Dgit: 76036ad2e0bb8b0419adb36cabfabb96d9849edd
+Dgit: 5ff2e72457295f53640915d3780f657f19af0be7
 
 Package: maruska-top-mail-server
 Source: maruska-top
-Version: 1.31
+Version: 1.34
 Architecture: all
 Maintainer: Michal Maruska <mmaruska@gmail.com>
 Installed-Size: 8
 Depends: postfix, fetchmail, maildrop, mutt, dovecot, bsd-mailx
 Priority: extra
 Section: shells
-Filename: pool/main/m/maruska-top/maruska-top-mail-server_1.31_all.deb
-Size: 2792
-SHA256: 9fade7f5ab6eb4a97b221343fcd87039e8a0a7c8deb50a6c1fd84057a174df3d
-SHA1: 5f848d91e35aa22f4cebd6dabf60f8685d5d2da8
-MD5sum: 18b91bb1e08df1bbf49c79f5c2d5056a
+Filename: pool/main/m/maruska-top/maruska-top-mail-server_1.34_all.deb
+Size: 2956
+SHA512: a040d4e0083fe6e2975d4858cc58dfeac2f2e7e4a1df1a021b4249bae7524f795b0a6e3b1deb6232cd3b716cb53ca3a97f5c9b0a2a765642f18779eaae532db9
+SHA256: 3142815b97e0d01bc1ff4a11e56960c7551c92eef40e2e1eccf7ac525f0f3aba
+SHA1: 8010f6d822e77f5a11d62441965f3eb328f1d3d7
+MD5sum: e2cf0dc74f56d68123c06e68fbe4d599
 Description: Things I use for processing email.
-Dgit: 76036ad2e0bb8b0419adb36cabfabb96d9849edd
+Dgit: 5ff2e72457295f53640915d3780f657f19af0be7
 
 Package: maruska-top-network
 Source: maruska-top
-Version: 1.31
+Version: 1.34
 Architecture: all
 Maintainer: Michal Maruska <mmaruska@gmail.com>
 Installed-Size: 8
 Depends: openvpn, dnsmasq, ncat, macchanger
 Priority: extra
 Section: shells
-Filename: pool/main/m/maruska-top/maruska-top-network_1.31_all.deb
-Size: 2760
-SHA256: 57fd48ffd693f1bd60da3f7511904c6f097f5db7eb7a512e1a0ab1d66ecc9571
-SHA1: 9ed67f9454a8dce4125d04057631e5bad9c8df82
-MD5sum: f77ab96831f07f23f2f5d2b1f3345eb8
+Filename: pool/main/m/maruska-top/maruska-top-network_1.34_all.deb
+Size: 2924
+SHA512: e31aad9da37e3a38646019065afb819329a6e76c7ad6887838e5ecbe1052d08b2840ffdcb91b70bb632ea329e09abd55a984ac8fc1ce327d389a7dc5142ffc18
+SHA256: ed0eba38875fcaa9c693594844f3cf42c103159e1c9c53c18b08349c66b36f45
+SHA1: c2bfe759d4274edb9f0c6dc9568c55797134cb2d
+MD5sum: 27088bfd97759b0247d7ce1846da6013
 Description: Things I use for networking
-Dgit: 76036ad2e0bb8b0419adb36cabfabb96d9849edd
+Dgit: 5ff2e72457295f53640915d3780f657f19af0be7
 
 Package: maruska-top-pg
 Source: maruska-top
-Version: 1.31
+Version: 1.34
 Architecture: all
 Maintainer: Michal Maruska <mmaruska@gmail.com>
 Installed-Size: 8
 Depends: pg-natural-sex, char-in-set, pg-human, thumbsize, sadd
 Priority: extra
 Section: shells
-Filename: pool/main/m/maruska-top/maruska-top-pg_1.31_all.deb
-Size: 2828
-SHA256: 4b08b0b97567fbc76856769ec1d4e9cdffe7f31e59147792dea10eb02e1babfc
-SHA1: d9b5e6be999446d67f8b5509b956c15f52509600
-MD5sum: cd69e109ae12269e72b08567cac9f864
+Filename: pool/main/m/maruska-top/maruska-top-pg_1.34_all.deb
+Size: 2988
+SHA512: f3bccf4f343137a907327de46da9bdbac034771b42d5df93762245cc84a8dbc5d3b038d63671d5ccd7b53f3ffd1e7c531b04b7eb4adc665270a899b5833e1168
+SHA256: 4bed9edcda29c33a93aa498bd52adce3ff611f325b5ecf00eb9112dcafb3055b
+SHA1: 3d9c7fd9028466938b391e605e94f076ba1d9370
+MD5sum: 5dd95bb3db3a467ad525d2a886a2bed3
 Description: This should be enough to make maruska PG databse work.
  A container package -- pulling in dependencies for database work.
-Dgit: 76036ad2e0bb8b0419adb36cabfabb96d9849edd
+Dgit: 5ff2e72457295f53640915d3780f657f19af0be7
 
 Package: maruska-top-podman
 Source: maruska-top
-Version: 1.31
+Version: 1.34
 Architecture: all
 Maintainer: Michal Maruska <mmaruska@gmail.com>
 Installed-Size: 8
 Depends: runc, fuse-overlayfs, podman, slirp4netns, uidmap
 Priority: extra
 Section: shells
-Filename: pool/main/m/maruska-top/maruska-top-podman_1.31_all.deb
-Size: 2780
-SHA256: c0ed8577fb937041c52d3ea9307afd2140b55ad5e0e53a9ef2a64e928f0a6614
-SHA1: 9e1d2155e101a6d2f60b4817593fe5427b979c58
-MD5sum: 7416a66bc4e9fbb953a57e734810e4f1
+Filename: pool/main/m/maruska-top/maruska-top-podman_1.34_all.deb
+Size: 2944
+SHA512: 5f7602d0e5968cca628297190664fbe2bcca34116105396981e1e6f961ed346d6d29d2f0525557808a068e6bde7d63b1ca60d3f9098d726575ee7a5aae37c1bd
+SHA256: a61201a464993bcefe628e2b45b737e78573daf5f2fc40ac1a43e83107c2e2fc
+SHA1: 965b013a2a5199ab1b0899ee50e8db307ed4bc21
+MD5sum: 6fd5befddfbbd5772d41ff631c697106
 Description: Things I need on GUI workstation.
-Dgit: 76036ad2e0bb8b0419adb36cabfabb96d9849edd
+Dgit: 5ff2e72457295f53640915d3780f657f19af0be7
 
 Package: maruska-top-scheme
 Source: maruska-top
-Version: 1.31
+Version: 1.34
 Architecture: all
 Maintainer: Michal Maruska <mmaruska@gmail.com>
 Installed-Size: 8
-Depends: gauche, gauche-mmc-apps, chezscheme
+Depends: rlwrap, gauche, gauche-mmc-apps, chezscheme
 Priority: extra
 Section: shells
-Filename: pool/main/m/maruska-top/maruska-top-scheme_1.31_all.deb
-Size: 2756
-SHA256: fe2aa1f0bf2bfda4da7965bf9dc4f2913a100f78505b8f7a02c8b2d37d77ae42
-SHA1: 52b635b8e40b11fbbae9cab1fb867e8c519e7d9a
-MD5sum: 8e794f0b292ea445862646388d20ede0
+Filename: pool/main/m/maruska-top/maruska-top-scheme_1.34_all.deb
+Size: 2924
+SHA512: 8c4045644b4dd4ab0acea3232d601ec4d5fabf00243c51273c8c7a9d95364d5e61f0ef48c00aa493798d24c2031b93b4e81243220a6e3fcf182461f63e79d275
+SHA256: c6d2af6e4fc26f75a7af1f3a45a5802e518d836cb9407f2467b7be3834eecacf
+SHA1: 8a2454d0aa2cda3d3b146688bba2818e4870cf9c
+MD5sum: 4ada661163821fa57866e341343ea163
 Description: My favourite scheme environments
-Dgit: 76036ad2e0bb8b0419adb36cabfabb96d9849edd
+Dgit: 5ff2e72457295f53640915d3780f657f19af0be7
 
 Package: maruska-top-server
 Source: maruska-top
-Version: 1.31
+Version: 1.34
 Architecture: all
 Maintainer: Michal Maruska <mmaruska@gmail.com>
 Installed-Size: 8
 Depends: maruska-top-base, libapache2-mod-fastcgi | libapache2-mod-fcgid, postgresql-17, libpq5, reprepro, mod-languagesubdomain, easy-rsa
 Priority: extra
 Section: shells
-Filename: pool/main/m/maruska-top/maruska-top-server_1.31_all.deb
-Size: 2880
-SHA256: 4a079ee41ed62cbca4872c18f3ac10ea9f695bf6d964f36a1ff2111eb1aa1343
-SHA1: 58cbb40825d68e2e7c4cadb7a443fe0943c833d3
-MD5sum: 5de4366873e24f41c25a4db70a6858e5
+Filename: pool/main/m/maruska-top/maruska-top-server_1.34_all.deb
+Size: 3048
+SHA512: b485d45e2d86c7bb8f997ffe14e2b5b7b759e6666e3a4566b9e14c3cd4962c7ed6b83c0ec4f63a1611bc5bb1d96a5a13e705a966be5b732febb63d21d77e5857
+SHA256: c1a9c643a929fd7c3d1d78a1b2cc0b45c4c11017c38ff84ea3ecf22c3a0b87d5
+SHA1: 8f1ccdb79741ac58909ef4edea5e5700d25d92dd
+MD5sum: 590f29fbb2be631366c983e0262c2c88
 Description: This should be enough to make maruska happy with the Server.
  A container package -- pulling in dependencies which I am accustomed to.
-Dgit: 76036ad2e0bb8b0419adb36cabfabb96d9849edd
+Dgit: 5ff2e72457295f53640915d3780f657f19af0be7
 
 Package: maruska-top-techno
 Source: maruska-top
-Version: 1.31
+Version: 1.34
 Architecture: all
 Maintainer: Michal Maruska <mmaruska@gmail.com>
 Installed-Size: 8
-Depends: usbutils, pciutils, ddcutil, wakeonlan, bluez-firmware, pulseaudio-module-bluetooth, firmware-iwlwifi, firmware-realtek, brightnessctl, acpi-support-base, acpi-support, acpi-fakekey, sispmctl
+Depends: usbutils, pciutils, ddcutil, wakeonlan, bluez-firmware, pulseaudio-module-bluetooth, firmware-iwlwifi, firmware-realtek, brightnessctl, acpi-support-base, acpi-support, acpi-fakekey, sispmctl, cheese
 Priority: extra
 Section: shells
-Filename: pool/main/m/maruska-top/maruska-top-techno_1.31_all.deb
-Size: 2856
-SHA256: 3e0e10226e0ceb8189fb9d605665eb6ff6c6c450f4721539dfc552492f8a4121
-SHA1: cce83515ed26b0bf55e8d38a2e99979f6d9b16ae
-MD5sum: 261627548837016805a93120b499c0b3
+Filename: pool/main/m/maruska-top/maruska-top-techno_1.34_all.deb
+Size: 3028
+SHA512: 11f699ad83265ef38f854f49c5a2e9c2212f74ed6f529128ec74b62923ca1cb88428dc0bd2bdb6a443a65008be21351414112a11af8cec6e793ffe16fc2eece7
+SHA256: d60bdffb4555d3818face3a94e38a38e72b37a3b1ee2293662fab8c1c398f979
+SHA1: 161dd4e579bf5e8295dbc4c50922ed927f22aa9f
+MD5sum: 38b0ef406f1f0ec3a4ae37441507e907
 Description: Things I need for hardware investigations.
-Dgit: 76036ad2e0bb8b0419adb36cabfabb96d9849edd
+Dgit: 5ff2e72457295f53640915d3780f657f19af0be7
 
 Package: maruska-top-work
 Source: maruska-top
-Version: 1.31
+Version: 1.34
 Architecture: all
 Maintainer: Michal Maruska <mmaruska@gmail.com>
 Installed-Size: 8
 Depends: maruska-top-desktop, openvpn, dnsmasq
 Priority: extra
 Section: shells
-Filename: pool/main/m/maruska-top/maruska-top-work_1.31_all.deb
-Size: 2764
-SHA256: 2114d7ca61011f759a98164d66439d4be0cbea1a69947cab58203a0087f48e6b
-SHA1: e9003896f15adef96b5bd0e217e605dfb3692d1a
-MD5sum: de94cfe223017f4854bcb53acf424bea
+Filename: pool/main/m/maruska-top/maruska-top-work_1.34_all.deb
+Size: 2924
+SHA512: 4032b48f37b7f8664c29d478e764049b57bcc5ca7cac29f8214ae5f76889a20a9f182dcd7c215dac8f3dfc54e037855fcd08c1ac4637c07349741e7530400fdb
+SHA256: de4bdf299ccf06b46c109838709e414cd5696cd7b1200aa1034772750186e4ce
+SHA1: 366af7c161da3d3de4e18d813720b29d6f5a9ba5
+MD5sum: 71c79c45b01407b665eff4894d028981
 Description: Things I use for work from home.
-Dgit: 76036ad2e0bb8b0419adb36cabfabb96d9849edd
+Dgit: 5ff2e72457295f53640915d3780f657f19af0be7
 
 Package: mempeak
 Version: 0.29
@@ -1615,7 +1760,7 @@ Description: debug symbols for mempeak
 Build-Ids: 1b5d3056ec3ca80b2804c609c102ba2aae6f0f6b
 
 Package: mmc-build-system
-Version: 4.33
+Version: 4.36
 Architecture: all
 Maintainer: Michal Maruska <mmaruska@gmail.com>
 Installed-Size: 95
@@ -1623,32 +1768,34 @@ Depends: git-buildpackage, zsh, mmc-shell (>> 2.8), libapt-pkg-perl, libgetopt-l
 Conflicts: mmc-shell (= 2.8)
 Priority: extra
 Section: misc
-Filename: pool/main/m/mmc-build-system/mmc-build-system_4.33_all.deb
-Size: 23984
-SHA512: ded5fbaf52eebe9822d321a2888504017b77417f582f3f4a3246b47e24809a3efcbe864b6507b71a6f9978e6ee5d0149a47a0683f0878320a9d9e1eb6817bf28
-SHA256: 56070e6ad6d7c001c98947461b155849e02884b9b0c77ecfd4b0a01e8f609645
-SHA1: 1d1eb1c0ada7ab2b274b5f475a15e126f264d560
-MD5sum: b7d3e78cc89e982f3fa55057db258923
+Filename: pool/main/m/mmc-build-system/mmc-build-system_4.36_all.deb
+Size: 24104
+SHA512: b3623c937002ec01eee1688c6ddfbee81f12d56b098ea1755973919bf82b7f3e789674dcdf6e6ef538a0dcca07b949113dbd5d782a708d8ff88fdf79888a0cfb
+SHA256: 7775cb74e1ebc4f99c4748027cb9ac53182a34d4f044824ec7f4a8500bcc19b4
+SHA1: f09c53ef1bf77b1fc4c84f3c6ca57358b84d10c9
+MD5sum: bf6ea157b98f2a2da92bb2e2ca073962
 Description: collection of shell scripts
-Dgit: 685d095a9614e6a07d7b5f34d7ad2630c8a70097
+Dgit: a037927ce4d2a2314e07ea591f2c04c1d75d9350
 
 Package: mmc-emacs
-Version: 2.13
+Version: 2.16
 Architecture: all
 Maintainer: Michal Maruska <mmaruska@gmail.com>
-Installed-Size: 527
+Installed-Size: 528
 Depends: emacsen
 Enhances: gnuserv
 Priority: extra
 Section: editors
-Filename: pool/main/m/mmc-emacs/mmc-emacs_2.13_all.deb
-Size: 113208
-SHA256: bb138d9874e12e915f21f333c3acc235a9913be18a381e3376fa27a33cd79446
-SHA1: d7cb5a5840be4622e454feeec208dffec3acbd7b
-MD5sum: 9b649660f1467779917dbb51467e5d05
+Filename: pool/main/m/mmc-emacs/mmc-emacs_2.16_all.deb
+Size: 113564
+SHA512: 3597ca276ee9fffef29d60249cd026df5f7425ef9460a60e3af073b3a2b9a74ba2e21bc588aeca7e53b38b4d2f773032830429f299697beb4ac2c1ad0163ef4e
+SHA256: d96a1666fb5cc6a3788379940a26256bbe9431d387aaaf3c6dcbe95f232a5912
+SHA1: b84b3a60c6b5d0a85d81d96120a537df52f475c7
+MD5sum: 6157758da5bfcc2616ac451502ed50c9
 Description: Michal Maruska handy elisp function (general utility)
  This should probably be only generically useful code, without
  anything strictly personal.
+Dgit: 93f91fdd2570235ead6a80638957a8c9d2a4bffc
 
 Package: mmc-emacs-config
 Version: 1.17
@@ -1667,7 +1814,7 @@ Description: mmc's configuration. not for general use!?
 Dgit: e408a44bbadb8ba359c705c1210a9e7e5d1c864f
 
 Package: mmc-emacs-devel
-Version: 2.19
+Version: 2.22
 Architecture: all
 Maintainer: Michal Maruska <mmaruska@gmail.com>
 Installed-Size: 236
@@ -1676,30 +1823,68 @@ Recommends: pylint
 Enhances: python-mode
 Priority: extra
 Section: editors
-Filename: pool/main/m/mmc-emacs-devel/mmc-emacs-devel_2.19_all.deb
-Size: 47728
-SHA256: 55a4c89513a91735d5a8873439c108e71fa15812e60060306bd25ad61190eea0
-SHA1: c04f109837716b32228dddfe2c3397f9c0cefc14
-MD5sum: 68696e9569f095ccab715ae761944e0c
+Filename: pool/main/m/mmc-emacs-devel/mmc-emacs-devel_2.22_all.deb
+Size: 48004
+SHA512: ad475c3d5b34f6d72128938b8c5b6f4dccc47ade665f919bc36c721e0e506f80ada86a1f65fca96457aea9ed90e3c78cf7aa1058233ba69b5b793b442b331472
+SHA256: 7983148779e6d6ed1966f0e2d3ad1114dc44a40503b4eba4cf2ca8d550f177d1
+SHA1: 58b10ebab7ff16648c28c84a5986a9273685061e
+MD5sum: 6325b27693abd8d4968f608e0df244c7
 Description: mmc's elisp, handy for "development", programming
-Dgit: a9bd77645b099aeb36e98253af081cad9e22a266
+Dgit: 230a129d14abe394d3add6f5e060f3ab668b7a3b
 
-Package: mmc-shell
-Version: 3.66
+Package: mmc-sawfish
+Version: 1.6.12
 Architecture: all
 Maintainer: Michal Maruska <mmaruska@gmail.com>
-Installed-Size: 215
+Installed-Size: 208
+Depends: sawfish
+Priority: extra
+Section: x11
+Filename: pool/main/m/mmc-sawfish/mmc-sawfish_1.6.12_all.deb
+Size: 40720
+SHA512: acaafff6b08173d2627b8c34eb7cc5276f26cfcb4d0ec6cb4288a37cf3d504ca79e45dee82ea3e6f6448d17e70b605254e19c16ed90899d5beb7a741024723ee
+SHA256: ad6266d5d09b512f53a53335b37c74289ee13154c3c0ec6ac68d9f5ddabd5918
+SHA1: 76a437c3d4fcf9531d16717fd1db935140e322bc
+MD5sum: f14a954d84096ba5fcd6311168f83b79
+Description: collection of Lisp add-ons for the window manager.
+Dgit: e1d4abcbf8c60d94e53f87c7963222f48f819ce0
+
+Package: mmc-shell
+Version: 3.67
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 216
 Depends: zsh, gawk, git, mp3info, mpg123
 Recommends: gst123, systemd-container, alsa-utils, tdb-tools
 Conflicts: tt-tools (<< 1.13)
 Priority: extra
 Section: misc
-Filename: pool/main/m/mmc-shell/mmc-shell_3.66_all.deb
-Size: 54052
-SHA256: c0364bb4ad5625594ca13b924531085c7a0ad52dd7b3484ea8ccc4ba805f7e4d
-SHA1: 9e17fae88484ed916cec0869bbf506025a07be22
-MD5sum: 2c69d3cada7a09bd0c97248f2a844c22
+Filename: pool/main/m/mmc-shell/mmc-shell_3.67_all.deb
+Size: 54216
+SHA512: 0b66121501eaaac5ffae357c91770de0794a6d8cd1a5ece2038177c5e4853dd7d753fd25b09e4ad56f3762e79aa1c43997a86e424a6a41a57c508c31dc931bc6
+SHA256: 49e0eebdd95a92897c5a9d3998a41cf2c7e13d7166ffb3f85ecee9195e5dca57
+SHA1: 52de063ce4142c3dc2516126e8dbbe21aa620bf2
+MD5sum: 8de4ea02a081cd97bb6b037526fbd4e6
 Description: collection of shell scripts
+Dgit: 8f5038dd616fff7ffd49bf28ea688c83845670f8
+
+Package: mmc-zsh
+Version: 2.12
+Architecture: all
+Maintainer: Michal Maruska <mmaruska@gmail.com>
+Installed-Size: 104
+Depends: zsh, zsh-syntax-highlighting, lsb-release
+Priority: extra
+Section: shells
+Filename: pool/main/m/mmc-zsh/mmc-zsh_2.12_all.deb
+Size: 28908
+SHA512: 631d530a9c69f2a1e67770f567f07bf5750d952d3cae305661cfc8b7a70dd59bfa2725c93c06c8270c2e015fa20ad2f5afc900a49970d1f07c11705658b2ca98
+SHA256: 2ffe805a4ef8e3c95058d9b69589350af0ac428101ff9186738810bc90dcff64
+SHA1: ad4ecdaa9ada8a8f36a48e8c7112b1e7a35946fa
+MD5sum: d6c7b1a2dfb3d24ee17056a3d5b83869
+Description: Michal Maruska's convenient zsh files
+ My site-wise configs for zsh (line editing widgets)...
+Dgit: 2273ddd3a751a147fffa406d0f77728e824d4516
 
 Package: mod-languagesubdomain
 Version: 2.3-maruska2
@@ -1861,25 +2046,49 @@ Description: documentation for the PostgreSQL database management system
 
 Package: postgresql-doc-17
 Source: postgresql-17
-Version: 17.2-1-maruska
+Version: 17.7-3-maruska
 Architecture: all
 Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
-Installed-Size: 16865
+Installed-Size: 17042
 Multi-Arch: foreign
 Homepage: http://www.postgresql.org/
 Priority: optional
 Section: doc
-Filename: pool/main/p/postgresql-17/postgresql-doc-17_17.2-1-maruska_all.deb
-Size: 2118336
-SHA256: b699c763602c1c20f9896616888413293c177e49c197725ca8528d35aa77f9fe
-SHA1: 84fb1def08f5773fd823749cb6b113e554553cf3
-MD5sum: 19187b59cc3f6b5dca71f99ce1443ace
+Filename: pool/main/p/postgresql-17/postgresql-doc-17_17.7-3-maruska_all.deb
+Size: 2149456
+SHA512: 44eab18e04b82d93397edac73d5c332cf7ac939c6565e9abac76ea1169bcfd5dc5efdbaccc1007d1aa3df322325556ae13a7e6d84269da52b30a2db3dbda895d
+SHA256: 30fdef47929f1e452633584a9957cdaa8de2bf1ea3b1f390e350a4e46e45a307
+SHA1: aa6ddc4ce4d3c925d9512f5cef4f3815d30c6dcd
+MD5sum: f5eaa4ca139ba6fda7b5f95621d39035
 Description: documentation for the PostgreSQL database management system
  This package contains all README files, user manual, and examples for
  PostgreSQL 17. The manual is in HTML format.
  .
  PostgreSQL is an object-relational SQL database management system.
-Dgit: 375a467ab3dfaa40feaa3ebc70eacb0c0e229637
+Dgit: b7a377f5e8ded30532e957a03116e0dcbb6f7986
+
+Package: postgresql-doc-18
+Source: postgresql-18
+Version: 18.1-1-maruska
+Architecture: all
+Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
+Installed-Size: 17307
+Multi-Arch: foreign
+Homepage: http://www.postgresql.org/
+Priority: optional
+Section: doc
+Filename: pool/main/p/postgresql-18/postgresql-doc-18_18.1-1-maruska_all.deb
+Size: 2177224
+SHA512: c9cb01dcc6b1c631fb12fc63ca71fbf72ca3115b05ed292e5f2118db8301a952b2a54d6b8bdb9f1ea0275156dc9ca0ce9f9963a41bf1f8c5612b4adc1916417d
+SHA256: ba82e2508a8803ac5129898d95df343cb1cc62282666ffbeb24e92a3b1dbcded
+SHA1: 482313c09675a59e6014d3c01b612ddcd682f181
+MD5sum: b1d0da9691d89a133c595a828476bc3e
+Description: documentation for the PostgreSQL database management system
+ This package contains all README files, user manual, and examples for
+ PostgreSQL 18. The manual is in HTML format.
+ .
+ PostgreSQL is an object-relational SQL database management system.
+Dgit: 66f6a1ee2d8d2fcb50af6e212a57298b1a6d3225
 
 Package: postgresql-plperl-17
 Source: postgresql-17
@@ -2145,7 +2354,7 @@ Dgit: 62070677b0f810bff12d43aa6c269af0332e9597
 
 Package: x11proto-core-dev
 Source: xorgproto
-Version: 2024.1-1-maruska
+Version: 2025.1-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 11
@@ -2154,33 +2363,36 @@ Multi-Arch: foreign
 Homepage: https://www.x.org/
 Priority: optional
 Section: oldlibs
-Filename: pool/main/x/xorgproto/x11proto-core-dev_2024.1-1-maruska_all.deb
-Size: 3460
-SHA256: 569ecd659a378fe4def750aa2ed4fe43199b874ab092e03b54a0faa2fe9523e2
-SHA1: 277af53e8343cf34ea2f85e0e80249a69891d320
-MD5sum: 2860ca61c030b2d14b56457ee22c4206
+Filename: pool/main/x/xorgproto/x11proto-core-dev_2025.1-1-maruska_all.deb
+Size: 3520
+SHA512: 8ca896e47f5087b200ce69154c4ccac67ceaab9e9b4d579da9d7e65fd76d8b66f3e6a0f4c46406e4f005acd96c2cf448fa75e92916975db328ad3690205d5db2
+SHA256: 6894c6390d1dda6197a2fbd28c12b6bc07020196aeea02dfc9e69376cbe98778
+SHA1: 7baf6348bd7c2cd3ad35606a663af1e9121a78ec
+MD5sum: afd8f080721ae06ad78160ebb23281ce
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
+Dgit: edbc97a5a1998304ef2f68c25284bed32521eefe
 
 Package: x11proto-dev
 Source: xorgproto
-Version: 2024.1-1-maruska
+Version: 2025.1-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 1351
+Installed-Size: 1364
 Depends: xorg-sgml-doctools (>= 1:1.5)
 Breaks: x11proto-core-dev (<< 2018.3), x11proto-dri2-dev (<< 2018.3), x11proto-fonts-dev (<< 2018.3), x11proto-gl-dev (<< 2018.3), x11proto-input-dev (<< 2018.3), x11proto-kb-dev (<< 2018.3), x11proto-present-dev (<< 2018.3), x11proto-randr-dev (<< 2018.3), x11proto-record-dev (<< 2018.3), x11proto-render-dev (<< 2:2018.3), x11proto-scrnsaver-dev (<< 2018.3), x11proto-video-dev (<< 2018.3), x11proto-xext-dev (<< 2018.3), x11proto-xf86dga-dev (<< 2018.3), x11proto-xf86dri-dev (<< 2018.3), x11proto-xf86vidmode-dev (<< 2018.3), x11proto-xinerama-dev (<< 2018.3)
 Replaces: x11proto-core-dev (<< 2018.3), x11proto-dri2-dev (<< 2018.3), x11proto-fonts-dev (<< 2018.3), x11proto-gl-dev (<< 2018.3), x11proto-input-dev (<< 2018.3), x11proto-kb-dev (<< 2018.3), x11proto-present-dev (<< 2018.3), x11proto-randr-dev (<< 2018.3), x11proto-record-dev (<< 2018.3), x11proto-render-dev (<< 2:2018.3), x11proto-scrnsaver-dev (<< 2018.3), x11proto-video-dev (<< 2018.3), x11proto-xext-dev (<< 2018.3), x11proto-xf86dga-dev (<< 2018.3), x11proto-xf86dri-dev (<< 2018.3), x11proto-xf86vidmode-dev (<< 2018.3), x11proto-xinerama-dev (<< 2018.3)
-Provides: x11proto-core-dev (= 2024.1-1-maruska), x11proto-dri2-dev (= 2024.1-1-maruska), x11proto-fonts-dev (= 2024.1-1-maruska), x11proto-gl-dev (= 2024.1-1-maruska), x11proto-input-dev (= 2024.1-1-maruska), x11proto-kb-dev (= 2024.1-1-maruska), x11proto-present-dev (= 2024.1-1-maruska), x11proto-randr-dev (= 2024.1-1-maruska), x11proto-record-dev (= 2024.1-1-maruska), x11proto-render-dev (= 2024.1-1-maruska), x11proto-scrnsaver-dev (= 2024.1-1-maruska), x11proto-video-dev (= 2024.1-1-maruska), x11proto-xext-dev (= 2024.1-1-maruska), x11proto-xf86dga-dev (= 2024.1-1-maruska), x11proto-xf86dri-dev (= 2024.1-1-maruska), x11proto-xf86vidmode-dev (= 2024.1-1-maruska), x11proto-xinerama-dev (= 2024.1-1-maruska)
+Provides: x11proto-core-dev (= 2025.1-1-maruska), x11proto-dri2-dev (= 2025.1-1-maruska), x11proto-fonts-dev (= 2025.1-1-maruska), x11proto-gl-dev (= 2025.1-1-maruska), x11proto-input-dev (= 2025.1-1-maruska), x11proto-kb-dev (= 2025.1-1-maruska), x11proto-present-dev (= 2025.1-1-maruska), x11proto-randr-dev (= 2025.1-1-maruska), x11proto-record-dev (= 2025.1-1-maruska), x11proto-render-dev (= 2025.1-1-maruska), x11proto-scrnsaver-dev (= 2025.1-1-maruska), x11proto-video-dev (= 2025.1-1-maruska), x11proto-xext-dev (= 2025.1-1-maruska), x11proto-xf86dga-dev (= 2025.1-1-maruska), x11proto-xf86dri-dev (= 2025.1-1-maruska), x11proto-xf86vidmode-dev (= 2025.1-1-maruska), x11proto-xinerama-dev (= 2025.1-1-maruska)
 Multi-Arch: foreign
 Homepage: https://www.x.org/
 Priority: optional
 Section: x11
-Filename: pool/main/x/xorgproto/x11proto-dev_2024.1-1-maruska_all.deb
-Size: 252776
-SHA256: 1794058a78e7003cba6e7e3fc0fff9aa83e0c92a15a99adc7ccf4a624e05f23c
-SHA1: 88d58cf4663b7662eb52b8e0d85064577657ad1e
-MD5sum: 93d5960d2eaa713ab236092f293716e4
+Filename: pool/main/x/xorgproto/x11proto-dev_2025.1-1-maruska_all.deb
+Size: 254900
+SHA512: 3f71145a7196f8d405172e05a1b12292387dd451173cf1ede7911856bd9cba641a71cfd20205ec521028d82f71811cda18180ac9c0bbf1f75d85e361af6039a9
+SHA256: 72d71e53886112ac9a687139310be6abc218d1dab2e385575ab8134c8a5775b8
+SHA1: b2fb11584f204b8fa702f3521501d3047eded44e
+MD5sum: 0c3798a29dbd9d87f7c72a9aa39ce4e6
 Description: X11 extension protocols and auxiliary headers
  This package provides development headers describing the wire protocol
  for the X11 core and extension protocols, and also provides a number of
@@ -2190,10 +2402,11 @@ Description: X11 extension protocols and auxiliary headers
  <URL:https://www.X.org>
  .
  This package is built from the X.org xorgproto module.
+Dgit: edbc97a5a1998304ef2f68c25284bed32521eefe
 
 Package: x11proto-dri2-dev
 Source: xorgproto
-Version: 2024.1-1-maruska
+Version: 2025.1-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 11
@@ -2202,17 +2415,19 @@ Multi-Arch: foreign
 Homepage: https://www.x.org/
 Priority: optional
 Section: oldlibs
-Filename: pool/main/x/xorgproto/x11proto-dri2-dev_2024.1-1-maruska_all.deb
-Size: 3460
-SHA256: a0d3b76b151be824d3390556fd26c17978c50f0d3e709d8305a22f4e129300bb
-SHA1: b19731d1fd73a4202d99689130806c77384fcb5c
-MD5sum: 5f992aaafba0f4bd9ff8d9c172ff649a
+Filename: pool/main/x/xorgproto/x11proto-dri2-dev_2025.1-1-maruska_all.deb
+Size: 3528
+SHA512: 7e9b962cb8e0c8470fa2537d56f69b7ebb54e2e7b0c647f6516e036c72f6b1872c7910a07ed98bc30d711ab46e2a802fa2bb28e56522af45b41150792db268e5
+SHA256: e7e14f72181dda966ef9fe0b7ef7d76b6faa7c8478a45000a07ff159e979675a
+SHA1: 2e556dd777d552e9085f8900a414c3298fc94c6d
+MD5sum: b5525d81fc51b566a8111c5426235622
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
+Dgit: edbc97a5a1998304ef2f68c25284bed32521eefe
 
 Package: x11proto-fonts-dev
 Source: xorgproto
-Version: 2024.1-1-maruska
+Version: 2025.1-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 11
@@ -2221,17 +2436,19 @@ Multi-Arch: foreign
 Homepage: https://www.x.org/
 Priority: optional
 Section: oldlibs
-Filename: pool/main/x/xorgproto/x11proto-fonts-dev_2024.1-1-maruska_all.deb
-Size: 3464
-SHA256: ec49f5cfacb9c7fb8daa541baf89bedc129fb70988e4df61ccb71086daa57a3b
-SHA1: 14deeb0a9e6d392a676887291bb4d6d3a9a347aa
-MD5sum: e4f30ec8016c0cfa4bc1975a707757c8
+Filename: pool/main/x/xorgproto/x11proto-fonts-dev_2025.1-1-maruska_all.deb
+Size: 3528
+SHA512: 36402389eeb0348c27f520bf44d52dc267ca5a7c239ad983bbb18a746138837046bd8531ac5bac94f3ded4fac0823a48c9c08b2eebbeed06a45fe65622a41149
+SHA256: bb2f1c40a72247443e614d92c22466ab40b7087ea145a6f0284c6e45855c1b72
+SHA1: cde6d59568b84b7376d9918602931e5635c67c9f
+MD5sum: 68c8aec5833e1e89b78f6d6ebb2b0fda
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
+Dgit: edbc97a5a1998304ef2f68c25284bed32521eefe
 
 Package: x11proto-gl-dev
 Source: xorgproto
-Version: 2024.1-1-maruska
+Version: 2025.1-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 11
@@ -2240,17 +2457,19 @@ Multi-Arch: foreign
 Homepage: https://www.x.org/
 Priority: optional
 Section: oldlibs
-Filename: pool/main/x/xorgproto/x11proto-gl-dev_2024.1-1-maruska_all.deb
-Size: 3456
-SHA256: cd485ce085be8c2cf61cb0a0778ae4afe40efb87c1d8c4f55ea456afe70a935e
-SHA1: dbd64c2a34aba285b4650791499a7914d412b723
-MD5sum: aee3960fed913567384a4d36e7efff29
+Filename: pool/main/x/xorgproto/x11proto-gl-dev_2025.1-1-maruska_all.deb
+Size: 3516
+SHA512: 97a17b60aab7e0bee530a90936e135b21710782a3d87645f7f3a3027f16eab8bcd50b3f637e3831ed2f6d9ca05bef204e13268dce01e08f42c0ca3d721edb699
+SHA256: a1316dc43edd3c6222e7768c3d36b5a5ad34bd18f8b818f2d9d6298941e934e4
+SHA1: 4f0b9f5042d57e786f7b978c2546695b8171d061
+MD5sum: 4db6fe096a1cd15eb3d839f31ab563bf
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
+Dgit: edbc97a5a1998304ef2f68c25284bed32521eefe
 
 Package: x11proto-input-dev
 Source: xorgproto
-Version: 2024.1-1-maruska
+Version: 2025.1-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 11
@@ -2259,17 +2478,19 @@ Multi-Arch: foreign
 Homepage: https://www.x.org/
 Priority: optional
 Section: oldlibs
-Filename: pool/main/x/xorgproto/x11proto-input-dev_2024.1-1-maruska_all.deb
-Size: 3464
-SHA256: 2ddb7a1ef313bcb845eae938ba1c5a21a95afd08a4f459ba290dc5d960c820f4
-SHA1: 33a12f5eca46f54542a709b54c115e77075a6888
-MD5sum: 7545070e294f95aa29dcf791563842f3
+Filename: pool/main/x/xorgproto/x11proto-input-dev_2025.1-1-maruska_all.deb
+Size: 3528
+SHA512: a0e4704f5ee897a6939ef2fcc2ee3fc17059da35ff4c2ee4a44cbe0afa73b733087f5ddbda84d62c485bfb04aa26a6fc8cfb6c998dd331ee9d80645b6aa26069
+SHA256: c9f55f6c004edd6aa7d105c1fa391faf9bccb98f292b4ed5de37d40256250800
+SHA1: c30da6dd69035d11940cb72e8abf94e7b0f027c3
+MD5sum: 04764a07caf85b2ed3512211b6a6e7c0
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
+Dgit: edbc97a5a1998304ef2f68c25284bed32521eefe
 
 Package: x11proto-kb-dev
 Source: xorgproto
-Version: 2024.1-1-maruska
+Version: 2025.1-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 11
@@ -2278,17 +2499,19 @@ Multi-Arch: foreign
 Homepage: https://www.x.org/
 Priority: optional
 Section: oldlibs
-Filename: pool/main/x/xorgproto/x11proto-kb-dev_2024.1-1-maruska_all.deb
-Size: 3460
-SHA256: afcd744eb5e2a78a1de86a86db4938360647859affe0ade2884c26efac3b7e2d
-SHA1: 1f3f8d13fd4f145c6b043170b3582204442b5317
-MD5sum: dcf2c10c72daed66c13c41a57757b0ed
+Filename: pool/main/x/xorgproto/x11proto-kb-dev_2025.1-1-maruska_all.deb
+Size: 3524
+SHA512: 082fb38e0923789537137005b2124592bc690da0ff1aa04ffaa4e4049598782379df59bafafa056d575eb92fcb948deca92413cc5bee3f1a6f6a3f3bba7732a3
+SHA256: 055b1e4a622dd758fcc4b6a9c3a17a98fafa18563a5e71e865390fcc931559ce
+SHA1: 80a6164476cdb27c4e037b046e929ed8e756d1fe
+MD5sum: 3b81a3f1faa7d18873bde34d6d8c3c2f
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
+Dgit: edbc97a5a1998304ef2f68c25284bed32521eefe
 
 Package: x11proto-present-dev
 Source: xorgproto
-Version: 2024.1-1-maruska
+Version: 2025.1-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 11
@@ -2297,17 +2520,19 @@ Multi-Arch: foreign
 Homepage: https://www.x.org/
 Priority: optional
 Section: oldlibs
-Filename: pool/main/x/xorgproto/x11proto-present-dev_2024.1-1-maruska_all.deb
-Size: 3468
-SHA256: 30d3af4b78ae7e10854f5ad99bd68a5f95c36ccda35ae130587d8c9d4f379c06
-SHA1: 64216ab3ad586bf097144bf6a099b96f8d52617c
-MD5sum: 5b2a9f15b17613ef289422af4cc0807b
+Filename: pool/main/x/xorgproto/x11proto-present-dev_2025.1-1-maruska_all.deb
+Size: 3528
+SHA512: f919f61e38210b47209f893187c7e1973293eed68cd5448b703ff5e33d8d9391af73a0aa6332fe1e8cf76f2420dd2b45e39dc2aea827c22e80d1245f32b155e0
+SHA256: 552ae481295ae911f3c793d0d1d798b96372e581f8b74791640859eb77ceeb82
+SHA1: 64cfbc370f183e8730d920a906736da217d80c9c
+MD5sum: 3bd4a5ccfbe10d59fe724059944e2297
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
+Dgit: edbc97a5a1998304ef2f68c25284bed32521eefe
 
 Package: x11proto-randr-dev
 Source: xorgproto
-Version: 2024.1-1-maruska
+Version: 2025.1-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 11
@@ -2316,17 +2541,19 @@ Multi-Arch: foreign
 Homepage: https://www.x.org/
 Priority: optional
 Section: oldlibs
-Filename: pool/main/x/xorgproto/x11proto-randr-dev_2024.1-1-maruska_all.deb
-Size: 3464
-SHA256: 1fb76ed8e12ac2fc835f2efa2cfb2efe84999e3ae56eae59ef20f19721f1d35c
-SHA1: 4c66a0f006483b64884d40d226ce91731facc183
-MD5sum: 643f1ee2f07cf6247b23eaba9a0c2e1a
+Filename: pool/main/x/xorgproto/x11proto-randr-dev_2025.1-1-maruska_all.deb
+Size: 3528
+SHA512: 6b7a00f9737b6ad3fa87cb0fa4e84f8193bdc408ab5f95d1ede62ea8b3114b53a40955e010c3667e336d27488dbefcf26f455c684670538a16a6fa3851a2b5fb
+SHA256: b2ae925477868ffd5c52db1912a3b67a844c16645e868aefefd1b04521497215
+SHA1: e6b05ed742e67308925494217258fe5a6af1fe8c
+MD5sum: e70dbff1df472a1304af65de0a56cf64
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
+Dgit: edbc97a5a1998304ef2f68c25284bed32521eefe
 
 Package: x11proto-record-dev
 Source: xorgproto
-Version: 2024.1-1-maruska
+Version: 2025.1-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 11
@@ -2335,17 +2562,19 @@ Multi-Arch: foreign
 Homepage: https://www.x.org/
 Priority: optional
 Section: oldlibs
-Filename: pool/main/x/xorgproto/x11proto-record-dev_2024.1-1-maruska_all.deb
-Size: 3464
-SHA256: b471ebd8d539af8c0a225c2bc815d6e111e4357e47f48386df07f80e7f0286a6
-SHA1: 498803dd76cdf2011ebc1539440e341943dfd5a7
-MD5sum: 37aca3f438e006902cffad5b6f347059
+Filename: pool/main/x/xorgproto/x11proto-record-dev_2025.1-1-maruska_all.deb
+Size: 3528
+SHA512: aac9310fbf31ebcd915fb0f79ba4626a0ddab101680a3353004f8520205f854dc963a19e44063c1f8ba3f15d873532f0a9de7f0b346f4c56e360ecd64ed77c25
+SHA256: a4909ad239c606a1190f637c8eb190f36b57f024177dcb0e743d769a8eb534a3
+SHA1: 19ed14309a56e4880fa24d4ebc73fe3ef38aa158
+MD5sum: 926e11a01bcb647724b98fb1c485017b
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
+Dgit: edbc97a5a1998304ef2f68c25284bed32521eefe
 
 Package: x11proto-render-dev
-Source: xorgproto (2024.1-1-maruska)
-Version: 2:2024.1-1-maruska
+Source: xorgproto (2025.1-1-maruska)
+Version: 2:2025.1-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 11
@@ -2354,17 +2583,19 @@ Multi-Arch: foreign
 Homepage: https://www.x.org/
 Priority: optional
 Section: oldlibs
-Filename: pool/main/x/xorgproto/x11proto-render-dev_2024.1-1-maruska_all.deb
-Size: 3472
-SHA256: 047a3257dc2627d78f3a5c392703fb1c3a59b941499840eb63d90c0e12bda49e
-SHA1: baa1a423aadb4d101a8fa88dec2674aeb9f81dc8
-MD5sum: 10ca063dfa67b0d74f2ee810472048b8
+Filename: pool/main/x/xorgproto/x11proto-render-dev_2025.1-1-maruska_all.deb
+Size: 3536
+SHA512: 1fc36ae1ceac636b67ecd1d09f79ef6c0302ce57f334c87e45b537889fd0001ac1b05f5d6f79aa738022e90658dbb5b5ec43ca97d192ef3e920fc8962d853369
+SHA256: 268d028c63ed5434696a0ef7a2ceaadb0e6e13ff58d469f8ad9161fb535a7b12
+SHA1: 32463142ddfdee0c2613dc090c5b9a1469be833c
+MD5sum: d39b663dfec0b2369b95f00d4b083552
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
+Dgit: edbc97a5a1998304ef2f68c25284bed32521eefe
 
 Package: x11proto-scrnsaver-dev
 Source: xorgproto
-Version: 2024.1-1-maruska
+Version: 2025.1-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 11
@@ -2373,17 +2604,19 @@ Multi-Arch: foreign
 Homepage: https://www.x.org/
 Priority: optional
 Section: oldlibs
-Filename: pool/main/x/xorgproto/x11proto-scrnsaver-dev_2024.1-1-maruska_all.deb
-Size: 3468
-SHA256: 4b25dccd003edef46e329be3bca512c817d799653ec67d834ef9dc2306a453fa
-SHA1: 91f9d748aacf253882d3e90bfbacf56360b0701b
-MD5sum: 41e65ed26d8e34a568252c2e42175b71
+Filename: pool/main/x/xorgproto/x11proto-scrnsaver-dev_2025.1-1-maruska_all.deb
+Size: 3532
+SHA512: f8a67ba74efb82e7b79f6f0820239c4ad73a4a3a88a3e327b035d08d65a69a6cc7ccdeaeb29e9cb8bb1a6a57debd120274a0cfcf9128eb82048152cab967264e
+SHA256: 5558351149234f65049cb12969a43df8a1c208bac6aea19ed9adb2e54ee14a6a
+SHA1: 595d0a979841fe4ac417cfb08bdb510b9baf43a2
+MD5sum: 35683b6040b69d0ec86afbbe63327b44
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
+Dgit: edbc97a5a1998304ef2f68c25284bed32521eefe
 
 Package: x11proto-video-dev
 Source: xorgproto
-Version: 2024.1-1-maruska
+Version: 2025.1-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 11
@@ -2392,17 +2625,19 @@ Multi-Arch: foreign
 Homepage: https://www.x.org/
 Priority: optional
 Section: oldlibs
-Filename: pool/main/x/xorgproto/x11proto-video-dev_2024.1-1-maruska_all.deb
-Size: 3468
-SHA256: 33b36c77392c4155d676e9b283bf086ff19185cd66abbb1819f072ee49e4740c
-SHA1: e65bca8b7cf67530649e7e5ad80d76ac0b73515f
-MD5sum: b9f01ea6567dabc21f4fe6271332509b
+Filename: pool/main/x/xorgproto/x11proto-video-dev_2025.1-1-maruska_all.deb
+Size: 3528
+SHA512: 7e5e24d4e1ce8ba99362919940219e01555960e30eef19a97f4a3bca163bc534ddf4d5b2ca786dcc7142fd0e16971a4c19c56e3d70969cabdab306bb8d208e2c
+SHA256: 1e42c516014e95e15c85ff754488c0ec2e98a07e4ebe66df9255fd47f231f89c
+SHA1: 76959061a6178326d8f6a8567366dacbd1783400
+MD5sum: c4911dada4616eab13ad0be6c4260148
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
+Dgit: edbc97a5a1998304ef2f68c25284bed32521eefe
 
 Package: x11proto-xext-dev
 Source: xorgproto
-Version: 2024.1-1-maruska
+Version: 2025.1-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 11
@@ -2411,17 +2646,19 @@ Multi-Arch: foreign
 Homepage: https://www.x.org/
 Priority: optional
 Section: oldlibs
-Filename: pool/main/x/xorgproto/x11proto-xext-dev_2024.1-1-maruska_all.deb
-Size: 3464
-SHA256: a981f777f632a01a481a97378ef52bd599836aafb112c622d66a34cd8945e184
-SHA1: 4d8477cc237a3ad3f5f2e6c48b347894a8abed98
-MD5sum: 2d3c7c4936bb0f081f7f5658e7fe619b
+Filename: pool/main/x/xorgproto/x11proto-xext-dev_2025.1-1-maruska_all.deb
+Size: 3520
+SHA512: 5536d27ba58d33338c003f55cd1892b59fc046970401c0d965d14eebd6d9afef0fbb57aea19b21441bd166ddc76f8b0cc79b7bb55b9dc1bb1ee85ea3fe8b4645
+SHA256: 4eaa2ac368d150315259b83e2fbb40bca65e616c58ff3111ef4f3544dfd94f62
+SHA1: f14178fc2fa6fe9f12dcce104957a3a960db8d1d
+MD5sum: 375228b5ca5d25c40cbd0b2a011b045a
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
+Dgit: edbc97a5a1998304ef2f68c25284bed32521eefe
 
 Package: x11proto-xf86dri-dev
 Source: xorgproto
-Version: 2024.1-1-maruska
+Version: 2025.1-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 11
@@ -2430,17 +2667,19 @@ Multi-Arch: foreign
 Homepage: https://www.x.org/
 Priority: optional
 Section: oldlibs
-Filename: pool/main/x/xorgproto/x11proto-xf86dri-dev_2024.1-1-maruska_all.deb
-Size: 3464
-SHA256: 639e18927fb5c5918de593e2fb9a9b47f9969430c67d9ae3939ad3bed2f59d56
-SHA1: 64ffbc3b0e884d7278e886b76da93c3a7bdde9c4
-MD5sum: 9813f3ffb7d5a892b49f0b994a13d0a9
+Filename: pool/main/x/xorgproto/x11proto-xf86dri-dev_2025.1-1-maruska_all.deb
+Size: 3524
+SHA512: c9ff35d1728d5b6a343db3144ef6ba091f3147ed635a50215da54ed2af5d59e3821cd96023d0456584bd3a3aa4f5174ef62d4a319ab6b4f65c5d6ead9e02c9a6
+SHA256: 25c840bfad02091312a962ef192932bcb128157a58ab21fd1988dc16fb28a0e7
+SHA1: 3847264fa65d59aaf0e3e14b9f55376cbaa9b9e5
+MD5sum: 76c1b4f0c33da0c062edae73da09124e
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
+Dgit: edbc97a5a1998304ef2f68c25284bed32521eefe
 
 Package: x11proto-xf86vidmode-dev
 Source: xorgproto
-Version: 2024.1-1-maruska
+Version: 2025.1-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 11
@@ -2449,17 +2688,19 @@ Multi-Arch: foreign
 Homepage: https://www.x.org/
 Priority: optional
 Section: oldlibs
-Filename: pool/main/x/xorgproto/x11proto-xf86vidmode-dev_2024.1-1-maruska_all.deb
-Size: 3468
-SHA256: ce156be59e3838199a7e09418155a90c1a5af5257d7a734d9cc65a9e7fb5043d
-SHA1: ff04814609735acdeea23018de26c5df3a8a6795
-MD5sum: 7b531fe723458a818ae563df793be06a
+Filename: pool/main/x/xorgproto/x11proto-xf86vidmode-dev_2025.1-1-maruska_all.deb
+Size: 3540
+SHA512: 3ae360e6dac61cd4e35b6ec8dc7b8d57172d4c5a5ff33a2f9043f9688b453f3a30b5164e0c0cac7f2c6c47fa125d1b288d730b9f42da3ada5fe5ca759f6fd7be
+SHA256: adad80c71b60db360e807a57c8bba72fbc87802fd77d9999f47ef1e639f74a81
+SHA1: bd045a87664779dcf33ee7a680fc643a824d5be5
+MD5sum: d08cde7d883459fb3d61d90a921b76b6
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
+Dgit: edbc97a5a1998304ef2f68c25284bed32521eefe
 
 Package: x11proto-xinerama-dev
 Source: xorgproto
-Version: 2024.1-1-maruska
+Version: 2025.1-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 11
@@ -2468,28 +2709,31 @@ Multi-Arch: foreign
 Homepage: https://www.x.org/
 Priority: optional
 Section: oldlibs
-Filename: pool/main/x/xorgproto/x11proto-xinerama-dev_2024.1-1-maruska_all.deb
-Size: 3464
-SHA256: 70b6d083ac282423d8a2f488d34b09c40747232f2885e3e6c8f8e1930c5306b6
-SHA1: c0e234b4ac88e93cdc324f9600d947e2dca3e68e
-MD5sum: 832dde88d0fcbf368ce6c7b7ca45e4e9
+Filename: pool/main/x/xorgproto/x11proto-xinerama-dev_2025.1-1-maruska_all.deb
+Size: 3532
+SHA512: 6cdff630792cd8fb153d5543ecffb4625ee5cda043cc510641b7ccf6d151bccefd2ca18c292cae0db4e9bfdb34ff5eada47a80ad2238bbcfd2b2063f85d28618
+SHA256: 81a58416ecefec6d8c246f4d13813274f9ed5c6c29d061f5ce66ad179421e6e5
+SHA1: aa8060e3b4d9be1c60e9582d18a27bae5ffe1b1f
+MD5sum: 697fb310b806d340c112d067b1c6f8e6
 Description: transitional dummy package
  This is a transitional dummy package, it can be safely removed.
+Dgit: edbc97a5a1998304ef2f68c25284bed32521eefe
 
 Package: xdot
-Version: 1.4-maruska
+Version: 1.6-1-maruska
 Architecture: all
 Maintainer: Debian Python Team <team+python@tracker.debian.org>
-Installed-Size: 170
+Installed-Size: 173
 Depends: gir1.2-gtk-3.0, graphviz, python3-gi, python3-gi-cairo, python3-numpy, python3-packaging, python3:any
 Homepage: https://github.com/jrfonseca/xdot.py
 Priority: optional
 Section: python
-Filename: pool/main/x/xdot/xdot_1.4-maruska_all.deb
-Size: 30000
-SHA256: 42bfbd2e1eb0f8a641d5f54603758fb88a71307e26eef138da63c21c43a2684e
-SHA1: 6fafa10b975f370fe797b217ddfb21c883e09589
-MD5sum: 6abc001eea9d9e22dc8f0ad22fe7bc44
+Filename: pool/main/x/xdot/xdot_1.6-1-maruska_all.deb
+Size: 30932
+SHA512: cdc9a36096d151051c31c4518eb3157a0764e581eb6f04cd0b08f276232bdf0e4cf91703901bf980a4c18c92358c1dbe2d8bbe29c581741eb129c691e877b4b7
+SHA256: e3bcfbaa34db2e3b2baa9bd30ae4273429869899f65001d660354b59f9617a7f
+SHA1: 063ed56c3accfe6a26a54587247948fb8ce98b2d
+MD5sum: 3034a887cd28cc6d92510636ebca3f23
 Description: interactive viewer for Graphviz dot files
  xdot is an interactive viewer for graphs written in Graphviz's dot language.
  It uses internally the graphviz's xdot output format as an intermediate
@@ -2504,6 +2748,7 @@ Description: interactive viewer for Graphviz dot files
   * Supports events on the nodes with URLs.
   * Animated jumping between nodes.
   * Highlights node/edge under mouse.
+Dgit: 15a6318c8a99cc05857a64325c3a42c7ba231b4f
 
 Package: xkb-reset
 Version: 1.1.5
@@ -2541,18 +2786,19 @@ Build-Ids: 0a9d67f65647c72d4437ce276b7edf0aaf81e98b
 
 Package: xorg-server-source
 Source: xorg-server
-Version: 2:21.1.15-2-maruska
+Version: 2:21.1.21-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 106
+Installed-Size: 107
 Homepage: https://www.x.org/
 Priority: optional
 Section: x11
-Filename: pool/main/x/xorg-server/xorg-server-source_21.1.15-2-maruska_all.deb
-Size: 16496
-SHA256: eb172b991ebc67fd5011cda27577730aa042c237d2c7dcec94710a5d33f9f358
-SHA1: a6803ea5a169ee6dd41eae9fc750067f575eed93
-MD5sum: e37a89068caa4c9b793bab81829a12eb
+Filename: pool/main/x/xorg-server/xorg-server-source_21.1.21-1-maruska_all.deb
+Size: 17344
+SHA512: 1908cff41d67f8a7948e5a407fd6b91c41104a4e411e087781699283fb59794d1993b20f270cc977cd7a855def2422a459458b8d52c825b4537459141eaccaf3
+SHA256: c2cf06ccebe8cc587aeb202c3e6296c3ec4eae3995067dca441434cdb0c402ca
+SHA1: caaf5a4a931ea25eacc8c0798ad1a97bd5b17fd1
+MD5sum: f2996b5330734dc2fab2750b1de5cd28
 Description: Xorg X server - source files
  This package provides original Debian (with Debian patches already
  applied, and autotools files updated) sources for the X.Org ('Xorg')
@@ -2562,14 +2808,14 @@ Description: Xorg X server - source files
  .
  Unless you are building a software product using X server sources,
  you probably want xserver-xorg and/or xserver-xorg-core instead.
-Dgit: a769ec703640de4dedb5437b42b1b281efa4ec6c
+Dgit: 857d82427837565bd76fe601f26d43a9a13afcdd
 
 Package: xserver-common
 Source: xorg-server
-Version: 2:21.1.15-2-maruska
+Version: 2:21.1.21-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 149
+Installed-Size: 150
 Depends: x11-common, xkb-data, x11-xkb-utils
 Recommends: xfonts-base, xauth
 Replaces: xserver-xorg-core (<< 2:1.5.2)
@@ -2577,14 +2823,15 @@ Multi-Arch: foreign
 Homepage: https://www.x.org/
 Priority: optional
 Section: x11
-Filename: pool/main/x/xorg-server/xserver-common_21.1.15-2-maruska_all.deb
-Size: 32184
-SHA256: ad4454ef93cc3526b8d2d86d85d0054c18544d3261f322a0f8ae77f3043b0ba5
-SHA1: 4a33e12b2136239b5788240627f7c7c5fca1bc5c
-MD5sum: 74a26eab999e2c18adb85878a2dc6e63
+Filename: pool/main/x/xorg-server/xserver-common_21.1.21-1-maruska_all.deb
+Size: 32884
+SHA512: 9b59b5d1b98b8da91a544704432ba453a787478625c6ff34975805a35fba9558aa47bb2a594613edd30c953e2257d556116ea6467ec73da12f8857154148b21c
+SHA256: 9473ef12aa215f5adca84481cc1448f28586310e066ec8ef4792418b7f81ddb7
+SHA1: fa074c25c7d12d8a76b8f67a07b3ac48e0ec57ce
+MD5sum: 62987d6506db0ad55462094520f6cd7a
 Description: common files used by various X servers
  This package provides files necessary for all X.Org based X servers.
-Dgit: a769ec703640de4dedb5437b42b1b281efa4ec6c
+Dgit: 857d82427837565bd76fe601f26d43a9a13afcdd
 
 Package: xserver-xorg-input-evdev-dev
 Source: xserver-xorg-input-evdev
