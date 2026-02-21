@@ -2349,6 +2349,32 @@ Description: sawfish lisp files
  space in small systems.
 Dgit: 62070677b0f810bff12d43aa6c269af0332e9597
 
+Package: weston-doc
+Source: weston
+Version: 15.0.0-1-maruska
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 5088
+Multi-Arch: foreign
+Homepage: https://wayland.pages.freedesktop.org/weston/
+Priority: optional
+Section: doc
+Filename: pool/main/w/weston/weston-doc_15.0.0-1-maruska_all.deb
+Size: 3243528
+SHA512: 7dea010675e0d01a43e06625921ca21faf9cddd73d07f2fbb7dec283ef93a8773154301e02db412bd118f1d7d340dbde05948fd2641f5d813fd8efde0048603e
+SHA256: 6db2ff40b4b020fdeaca3a3842f677447903bf3376bbd427f08ce876dc0174bf
+SHA1: 8960c642a1db54f5df9c0a3ac4875ad981f9694f
+MD5sum: 3a23f1811dab007ff234388d7c2fb6c5
+Description: reference implementation of a wayland compositor (doc)
+ Part of the Wayland project is also the Weston reference implementation
+ of a Wayland compositor. Weston can run as an X client or under Linux
+ KMS and ships with a few demo clients. The Weston compositor is a minimal
+ and fast compositor and is suitable for many embedded and mobile use
+ cases.
+ .
+ This package contains the Weston documentation.
+Dgit: 20deeff2681438ec167dee770cc9f68d6186eaee
+
 Package: x11proto-core-dev
 Source: xorgproto
 Version: 2025.1-1-maruska
