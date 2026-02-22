@@ -172,11 +172,11 @@ Description: debug symbols for colortail
 Build-Ids: 860d1e803292196106c48596ce66eb41de4f74c8
 
 Package: debhelper
-Version: 13.29-maruska
+Version: 13.30-maruska
 Architecture: all
 Maintainer: Debhelper Maintainers <debhelper@packages.debian.org>
-Installed-Size: 1518
-Depends: dh-autoreconf (>= 17~), dh-strip-nondeterminism (>= 0.028~), dpkg-dev (>= 1.18.2~), autotools-dev, dpkg (>= 1.18.0~), dwz (>= 0.12.20190711), file (>= 3.23), libdebhelper-perl (= 13.29-maruska), libdpkg-perl (>= 1.17.14), man-db, po-debconf, perl:any
+Installed-Size: 1535
+Depends: dh-autoreconf (>= 17~), dh-strip-nondeterminism (>= 0.028~), dpkg-dev (>= 1.18.2~), autotools-dev, dpkg (>= 1.18.0~), dwz (>= 0.12.20190711), file (>= 3.23), libdebhelper-perl (= 13.30-maruska), libdpkg-perl (>= 1.17.14), man-db, po-debconf, perl:any
 Suggests: dh-make
 Conflicts: dh-buildinfo
 Breaks: cmake (<< 3.9~), dh-debputy (<< 0.1.36~), meson (<< 0.40.0~)
@@ -185,12 +185,12 @@ Provides: debhelper-compat (= 9), debhelper-compat (= 10), debhelper-compat (= 1
 Multi-Arch: foreign
 Priority: optional
 Section: devel
-Filename: pool/main/d/debhelper/debhelper_13.29-maruska_all.deb
-Size: 944036
-SHA512: 6d0597d926811a1effdb32147ae2b486b75a3e1440f256e67d7a37c27b144a7a86b564f5ec128337f1e9488c6f8215ede216bb50673c0233136015615c33e8bb
-SHA256: 93ec28db1fc55e8ba888671eaac3d56f4c2b85ab119a1387cd611c56fc909579
-SHA1: b71d9767c916b9655b944bc4c2a4826e37c64a11
-MD5sum: 3487bca238a5a774553bf5a280c49a83
+Filename: pool/main/d/debhelper/debhelper_13.30-maruska_all.deb
+SHA512: 1f72179942d09adc98afbf8278da7c203213e8a3121e283347e222fc61011801f21a003a04089f1820bc6ab1f321db46001700c137f4b15e2f7e22caca316b83
+Size: 951028
+SHA256: 79a54be1a1fb8593a14b11b80b268e7aa2f11c2f03ef4b8970563ec1f9b0cb40
+SHA1: 0fe07789376cbc9f0ce290315934ecd84728472e
+MD5sum: b80b01e5722aa2b65cb8979764302ba3
 Description: helper programs for debian/rules
  A collection of programs that can be used in a debian/rules file to
  automate common tasks related to building Debian packages. Programs
@@ -199,7 +199,7 @@ Description: helper programs for debian/rules
  menu system, debconf, doc-base, etc. Most Debian packages use debhelper
  as part of their build process.
 Commands: dh, dh_assistant, dh_auto_build, dh_auto_clean, dh_auto_configure, dh_auto_install, dh_auto_test, dh_bugfiles, dh_builddeb, dh_clean, dh_compress, dh_computeautosubstvars, dh_dwz, dh_fixperms, dh_gencontrol, dh_icons, dh_install, dh_installalternatives, dh_installcatalogs, dh_installchangelogs, dh_installcron, dh_installdeb, dh_installdebconf, dh_installdirs, dh_installdocs, dh_installemacsen, dh_installexamples, dh_installgsettings, dh_installifupdown, dh_installinfo, dh_installinit, dh_installinitramfs, dh_installlogcheck, dh_installlogrotate, dh_installman, dh_installmanpages, dh_installmenu, dh_installmime, dh_installmodules, dh_installpam, dh_installppp, dh_installsystemd, dh_installsystemduser, dh_installsysusers, dh_installtmpfiles, dh_installudev, dh_installwm, dh_installxfonts, dh_link, dh_lintian, dh_listpackages, dh_makeshlibs, dh_md5sums, dh_missing, dh_movefiles, dh_movetousr, dh_perl, dh_prep, dh_shlibdeps, dh_strip, dh_systemd_enable, dh_systemd_start, dh_testdir, dh_testroot, dh_ucf, dh_update_autotools_config, dh_usrlocal
-Dgit: 6f86f64104418a2ce18f97776f6af30f2aea469d
+Dgit: 7e6e603d323bb1ff426a96776bc5dfc5159b78d0
 
 Package: debspawn
 Version: 0.6.4-maruska2
@@ -1021,28 +1021,28 @@ Build-Ids: 99c38c8842c39150f6bd13f8c4c81941b7142b3d
 
 Package: libdebhelper-perl
 Source: debhelper
-Version: 13.29-maruska
+Version: 13.30-maruska
 Architecture: all
 Maintainer: Debhelper Maintainers <debhelper@packages.debian.org>
-Installed-Size: 356
+Installed-Size: 357
 Depends: perl:any
 Breaks: debhelper (<< 12.6~)
 Replaces: debhelper (<< 12.6~)
 Multi-Arch: foreign
 Priority: optional
 Section: perl
-Filename: pool/main/d/debhelper/libdebhelper-perl_13.29-maruska_all.deb
-Size: 92744
-SHA512: 449817e92959d2f099cade3ceb40d0f89e0b530e6c6577cbb9920c12a3b47ce151d67f85225958f28be811b54cfd68d7dcb33389faef1b75c82188cf0cab1cf0
-SHA256: 12324c4acc9379208b88be9378f37c317a2820735e981c703534979d23cc304f
-SHA1: a174fd2fba0f4c0dc0d065a0f4d2597d0d799067
-MD5sum: 279fab395311292ce368d4d94dbed7ef
+Filename: pool/main/d/debhelper/libdebhelper-perl_13.30-maruska_all.deb
+SHA512: 8e4556e5eabc3833efa1b22743de5d83384b06734543075f2acc724d2ec8f414f168a67721e57599362456e40388719b45c38609a9e23598a259df267625d974
+Size: 93108
+SHA256: 89914bcb79cfd20a7c9edf329fd4cd6efa6b0bfee511d180df0ad9ee00e32dfa
+SHA1: 42a9efefec86d7c7ad99b6c776feb1a1498e9c12
+MD5sum: 3f1678b162ebf21c4b991dd4d715720b
 Description: debhelper perl modules
  A collection of programs that can be used in a debian/rules file to
  automate common tasks related to building Debian packages.
  .
  This package provides the perl modules used by the scripts in debhelper.
-Dgit: 6f86f64104418a2ce18f97776f6af30f2aea469d
+Dgit: 7e6e603d323bb1ff426a96776bc5dfc5159b78d0
 
 Package: libecpg-compat3
 Source: postgresql-17
@@ -1750,7 +1750,7 @@ Description: debug symbols for mempeak
 Build-Ids: 1b5d3056ec3ca80b2804c609c102ba2aae6f0f6b
 
 Package: mmc-build-system
-Version: 4.36
+Version: 4.37
 Architecture: all
 Maintainer: Michal Maruska <mmaruska@gmail.com>
 Installed-Size: 95
@@ -1758,14 +1758,14 @@ Depends: git-buildpackage, zsh, mmc-shell (>> 2.8), libapt-pkg-perl, libgetopt-l
 Conflicts: mmc-shell (= 2.8)
 Priority: extra
 Section: misc
-Filename: pool/main/m/mmc-build-system/mmc-build-system_4.36_all.deb
-Size: 24104
-SHA512: b3623c937002ec01eee1688c6ddfbee81f12d56b098ea1755973919bf82b7f3e789674dcdf6e6ef538a0dcca07b949113dbd5d782a708d8ff88fdf79888a0cfb
-SHA256: 7775cb74e1ebc4f99c4748027cb9ac53182a34d4f044824ec7f4a8500bcc19b4
-SHA1: f09c53ef1bf77b1fc4c84f3c6ca57358b84d10c9
-MD5sum: bf6ea157b98f2a2da92bb2e2ca073962
+Filename: pool/main/m/mmc-build-system/mmc-build-system_4.37_all.deb
+SHA512: 83a5e97b7cb662b7d2e808bdd8c33976b4d24b7a261329a0d39565f2b3c2b3cb1fef324b084ab4a4ed4c620902e9d2868a140a427b355088cc0d4807a76daba1
+Size: 24172
+SHA256: d61d966624eb202622367b06cff27727146604cc4da93c695f854a471e9ea505
+SHA1: f1c038bbf526d84f3e7a44926f6a98e13f2b7084
+MD5sum: 296c187051cdf90684ccdda218f79404
 Description: collection of shell scripts
-Dgit: a037927ce4d2a2314e07ea591f2c04c1d75d9350
+Dgit: ae90096a3afd829d62af6144979948c528dc9883
 
 Package: mmc-emacs
 Version: 2.16
@@ -2059,26 +2059,26 @@ Dgit: b7a377f5e8ded30532e957a03116e0dcbb6f7986
 
 Package: postgresql-doc-18
 Source: postgresql-18
-Version: 18.1-1-maruska
+Version: 18.2-1-maruska
 Architecture: all
 Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
-Installed-Size: 17307
+Installed-Size: 17360
 Multi-Arch: foreign
 Homepage: http://www.postgresql.org/
 Priority: optional
 Section: doc
-Filename: pool/main/p/postgresql-18/postgresql-doc-18_18.1-1-maruska_all.deb
-Size: 2177224
-SHA512: c9cb01dcc6b1c631fb12fc63ca71fbf72ca3115b05ed292e5f2118db8301a952b2a54d6b8bdb9f1ea0275156dc9ca0ce9f9963a41bf1f8c5612b4adc1916417d
-SHA256: ba82e2508a8803ac5129898d95df343cb1cc62282666ffbeb24e92a3b1dbcded
-SHA1: 482313c09675a59e6014d3c01b612ddcd682f181
-MD5sum: b1d0da9691d89a133c595a828476bc3e
+Filename: pool/main/p/postgresql-18/postgresql-doc-18_18.2-1-maruska_all.deb
+SHA512: 30d97d51c32ce6d5a706b2f7fb1d32fdb95b606be9ad8dc7d649e718cc6b28acbe8e94411c852044157bb93f7933ba2b12d50136e0c562a31896406cd672204f
+Size: 2186048
+SHA256: 5434320bc2e8f3ca6682242a0952457e958c7d94fa32bb6f6f55552484de7225
+SHA1: 2406bdc4378df9d2992ba7cf20e4b02f522673ef
+MD5sum: 641b9e32de05b8283dd47f418b84c495
 Description: documentation for the PostgreSQL database management system
  This package contains all README files, user manual, and examples for
  PostgreSQL 18. The manual is in HTML format.
  .
  PostgreSQL is an object-relational SQL database management system.
-Dgit: 66f6a1ee2d8d2fcb50af6e212a57298b1a6d3225
+Dgit: e48122759d863ab8b98bedf95878eb9ebb11d036
 
 Package: postgresql-plperl-17
 Source: postgresql-17
@@ -2341,6 +2341,32 @@ Description: sawfish lisp files
  It is not required for normal use of sawfish and not installing it will save
  space in small systems.
 Dgit: 62070677b0f810bff12d43aa6c269af0332e9597
+
+Package: weston-doc
+Source: weston
+Version: 15.0.0-1-maruska
+Architecture: all
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 5088
+Multi-Arch: foreign
+Homepage: https://wayland.pages.freedesktop.org/weston/
+Priority: optional
+Section: doc
+Filename: pool/main/w/weston/weston-doc_15.0.0-1-maruska_all.deb
+SHA512: 7dea010675e0d01a43e06625921ca21faf9cddd73d07f2fbb7dec283ef93a8773154301e02db412bd118f1d7d340dbde05948fd2641f5d813fd8efde0048603e
+Size: 3243528
+SHA256: 6db2ff40b4b020fdeaca3a3842f677447903bf3376bbd427f08ce876dc0174bf
+SHA1: 8960c642a1db54f5df9c0a3ac4875ad981f9694f
+MD5sum: 3a23f1811dab007ff234388d7c2fb6c5
+Description: reference implementation of a wayland compositor (doc)
+ Part of the Wayland project is also the Weston reference implementation
+ of a Wayland compositor. Weston can run as an X client or under Linux
+ KMS and ships with a few demo clients. The Weston compositor is a minimal
+ and fast compositor and is suitable for many embedded and mobile use
+ cases.
+ .
+ This package contains the Weston documentation.
+Dgit: 20deeff2681438ec167dee770cc9f68d6186eaee
 
 Package: x11proto-core-dev
 Source: xorgproto
