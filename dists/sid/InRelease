@@ -5,7 +5,7 @@ Origin: maruska
 Suite: unstable
 Codename: sid
 Version: 20.3
-Date: Sun, 22 Feb 2026 11:18:31 UTC
+Date: Sun, 22 Feb 2026 11:20:43 UTC
 Architectures: amd64 i386 armhf x32 arm64
 Components: main
 Description: My releases (improved & my own packages) for Sid.
@@ -115,15 +115,15 @@ SHA512:
  7e8e93f4a89ce7fae011403e14a1d53544c6e6f6b6010d61129dc27937806d2b03802610d7999eab33a4c36b0f9e001d9d76001b8354087634c1aa9c740c536f 20 main/debian-installer/binary-arm64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCAAdFiEEj5ld3379Nuk8fyGZPAkJW65/ICgFAmma5gcACgkQPAkJW65/
-ICj09QwAnBvyJVl4UxyS3d2lx+Yc/X8lObQFvoJRadf/TyHSwjmRE13XPtZppv+k
-Fo63UqxbBO59nwbmYJJ7HqtVYESpH1TbD3JUyWgy2G5y2zMyGOAXCGQgs+Ftmp+I
-IcrSmhdwYGVyf+hU1jKgdVGBuGIvJDrVOPRD/uAqVXfdBL0G0DIVuJUgJM4V3Ygn
-80RxEMEWS1V2ebd6pH3IiFLOUQwbdIugW5Q6klVtgk6ZAP/y6uKolf5EsHv58EAp
-N9vUhroMeEHImUfqg8FI9b+hJQsANyK/J8iF5cXCUqBzw6pMH1DN+iol2PU+P9cn
-t7G1DNtjXbcLPQltyQLnYqr9LHSUAXWJBZpD0dQRRkul8DvJg02mA5LxzIpJjpGT
-VMRg2kQfis0EaZ+SWpxMo2JK3yvvxJpY44+n5bRgENEsgESU0sEEEAWSjfw8sOfd
-ksG368eTJOh7luo0VOn4zJ9af4WnYZfYBMb4kXhXZ7XnMNLeZGBgmjf5VZ4FLsg+
-YCmG/+QW
-=dAtJ
+iQGzBAEBCAAdFiEEj5ld3379Nuk8fyGZPAkJW65/ICgFAmma5osACgkQPAkJW65/
+ICjspQwAgiQ52+k3Xrpq8Enh98N9iK2NwXA2ubyNwp5rrxPCUammD2cjIx0OtAWB
+m6iTMLr8tXfsxKH+GYA13zm+LUsPFc1OlvS+x4Prxelyxn1xOCAhhBYWjvjw/vYC
+Mv5uZVVSv+uVNloocaTfQgApgM9BVWA7g7rrHDemBncuCCnyQLOnfVKrtAdZnF89
+EF8fU/Rq9vm0nnjaAhYb4tqqthmSDxvS7DzQNNDSHxHDM3YEDJeA63hqgSWKx+5R
+mjeVm5ym3lsZHBOXPDyS3DpnQj+uCJ78PW5VvEI1ifJCJ/KeLpb6bqCJ4xusdAGy
+sNTzVndMf1or/YQrniCFqup+Tc3ZsP5nBcPktorKxQO16fHyMEEe6PJH/+rQW1Wo
+EYFR2nvuU5pwciazgmOOCtYdodIifAQbrns8DFWO2NBPYRGIrAk3NaJKl1YjGVO9
+b3QUPCd0dlLJmfTSfWaoD2YjHJeWjbQoaAYh8nMyYZ2cr8vmWRcCULcUaU4U7hoz
+j3tm7OkR
+=dliR
 -----END PGP SIGNATURE-----
