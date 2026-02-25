@@ -2201,21 +2201,21 @@ Dgit: 20deeff2681438ec167dee770cc9f68d6186eaee
 
 Package: libx11-6
 Source: libx11
-Version: 2:1.8.12-1-maruska
+Version: 2:1.8.13-1-maruska
 Architecture: amd64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 1412
+Installed-Size: 1421
 Depends: libc6 (>= 2.38), libxcb1 (>= 1.11.1), libx11-data
 Breaks: libx11-xcb1 (<< 2:1.7.0-2)
 Multi-Arch: same
 Priority: optional
 Section: libs
-Filename: pool/main/libx/libx11/libx11-6_1.8.12-1-maruska_amd64.deb
-Size: 580260
-SHA512: c507b9807f5eb7c5f3de369444c752d31f776de197c41c2fdca9b8ed2a9d1a9965005c67e2bef9388784a7bb2f41c5d3f3f4bfb3b9780aeb9a8609853758ef77
-SHA256: 5ca101ce8c161dcf698bbeb946e71563948bb551b6f5c0ed2ef7f7905b896733
-SHA1: 0cb3119b8bd7c7c3c785894122b3cca54764e5d1
-MD5sum: eff99516c6287d5da5721b950308b933
+Filename: pool/main/libx/libx11/libx11-6_1.8.13-1-maruska_amd64.deb
+Size: 589360
+SHA512: 97ee1628dd9ab3cc9d0a452afe88a721ba37661e61673355f1d5ae5174bf4455eefb40e603a717cad8f3b0a7111e394276650280306d3085ea81ff6fba3998c5
+SHA256: 1fdc3c0a3193ba3c95eea7488ebbc740b6877b8d756c0025ce2d50c8fbc1890f
+SHA1: 5ecb9fe7bf8e4a963402a21eedc81cb3dc8a4bf5
+MD5sum: 9c60b8ed83a1027e11dd0bfeb8127b2b
 Description: X11 client-side library
  This package provides a client interface to the X Window System, otherwise
  known as 'Xlib'.  It provides a complete API for the basic functions of the
@@ -2226,43 +2226,43 @@ Description: X11 client-side library
  .
  This module can be found at
  https://gitlab.freedesktop.org/xorg/lib/libX11
-Dgit: 9533476ee50eba5a6e354758977cd382fdc19f46
+Dgit: 89945bd96835b33eddfecb91ad621b8f207d3ed6
 
 Package: libx11-6-dbgsym
 Source: libx11
-Version: 2:1.8.12-1-maruska
+Version: 2:1.8.13-1-maruska
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 1230
-Depends: libx11-6 (= 2:1.8.12-1-maruska)
+Installed-Size: 1235
+Depends: libx11-6 (= 2:1.8.13-1-maruska)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/libx/libx11/libx11-6-dbgsym_1.8.12-1-maruska_amd64.deb
-Size: 1145256
-SHA512: a0fd3817ad4f79b9aacdf7c909425cac58953f41d8dc08201a3f820663d9f234c9fc35de6a6094316519b4a580fac589c103318f447d90d7cbfd451bf0615618
-SHA256: 20a217b51a9fdcae44da7c169e56e8cf9c0360a29fe0f5e7ec179db419216491
-SHA1: 1f102564cb7b6b1147936a0626c5ada89be2eeeb
-MD5sum: 178e43ac6c3b8b52f97c59706cb0ae03
+Filename: pool/main/libx/libx11/libx11-6-dbgsym_1.8.13-1-maruska_amd64.deb
+Size: 1150220
+SHA512: 355184c8c85f9ee033e718340ca74635a1c2863bdd457c3bf76c59d001165a5b203f3f0de0aedd629485c56cda593a29931ccdcf0976a289ab6c57422b45dd73
+SHA256: 36ec725096267c59454d2ba1718a071812421d1ea3e3b00be9e16e63493d015a
+SHA1: 89fe414b91dd0865664c911b80d0c0d3cab41765
+MD5sum: 5ed9815f41828ecd65b71124dcd068c3
 Description: debug symbols for libx11-6
-Build-Ids: 26bc231406db0daab6f919f6764d5c1f5ccfa11a
+Build-Ids: 9c81c9498d6ac1bf9fbb0475724ec4b4c3416480
 
 Package: libx11-data
 Source: libx11
-Version: 2:1.8.12-1-maruska
+Version: 2:1.8.13-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 1345
 Multi-Arch: foreign
 Priority: optional
 Section: x11
-Filename: pool/main/libx/libx11/libx11-data_1.8.12-1-maruska_all.deb
-Size: 107008
-SHA512: b84d544d00fb1c1e7078e92e2f895475b3f7ec5ac285cf6419a1db0fff14f8fb815bde6c5dba5e14dfd6c346dfad9d69e79df0d707c1e3f25ba800fb580e7878
-SHA256: 2563b359dd6a62b8419cc60015e76de63de32a197bf55bf5eae9325b7b4e1e17
-SHA1: d162cd0332dd09e559ab5490b741487d5d563239
-MD5sum: ea8f0ca52fda4f5236304e137babcefe
+Filename: pool/main/libx/libx11/libx11-data_1.8.13-1-maruska_all.deb
+Size: 106956
+SHA512: 7512f98a7c250d87748144af487761b0383b1dc153c880ed8a3106e49ab7a6a11339e3a135f5dde7be8f14cf25f28641af9f5cd58a9f69693ca93f641abf00c3
+SHA256: 71999f57e86c1c04b10a884b22ba4c0b346f0c45a93053e8688083430b372a4a
+SHA1: f926d635216a8ab062849eac615e31757019e751
+MD5sum: 3a4a012396737a467f0357ed7c378669
 Description: X11 client-side library
  This package provides the locale data files for libx11.
  .
@@ -2271,26 +2271,26 @@ Description: X11 client-side library
  .
  This module can be found at
  https://gitlab.freedesktop.org/xorg/lib/libX11
-Dgit: 9533476ee50eba5a6e354758977cd382fdc19f46
+Dgit: 89945bd96835b33eddfecb91ad621b8f207d3ed6
 
 Package: libx11-dev
 Source: libx11
-Version: 2:1.8.12-1-maruska
+Version: 2:1.8.13-1-maruska
 Architecture: amd64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 2507
-Depends: libx11-6 (= 2:1.8.12-1-maruska), libxau-dev, libxdmcp-dev, x11proto-dev (>= 2019.2-1), xtrans-dev, libxcb1-dev
+Installed-Size: 2518
+Depends: libx11-6 (= 2:1.8.13-1-maruska), libxau-dev, libxdmcp-dev, x11proto-dev (>= 2019.2-1), xtrans-dev, libxcb1-dev
 Suggests: libx11-doc
 Replaces: x11proto-dev (<< 2019.2)
 Multi-Arch: same
 Priority: optional
 Section: libdevel
-Filename: pool/main/libx/libx11/libx11-dev_1.8.12-1-maruska_amd64.deb
-Size: 662316
-SHA512: 510606aa5182302d88dcc7706552c5c75d91559fe83a470221ef0308b17e6baf00d30476254ffaf3d216688fb2558ce919c1700b6a3dddc51d67df6df3abc261
-SHA256: 928577a4f8dab57a98f0cd26f7d461c1748d918e1a2f1c8578c48c530f8304a9
-SHA1: 499efd95ae84ee2c45648c62b1034b39f77af814
-MD5sum: f40bcc93032d38c8b137565e8da0fd77
+Filename: pool/main/libx/libx11/libx11-dev_1.8.13-1-maruska_amd64.deb
+Size: 667700
+SHA512: 16b4c617475e59508fc4670c51c6030be7d2a7868376f7cff8869e4750bf3ec334f441bd6fc7c38890f3d1345c19e3afb6262025317f6db9bd4976e49f427572
+SHA256: d5e37d25756e7d94f9ec25fb2d41f220ddeb0155cc9f35593cd3532d53abde42
+SHA1: f9591f1b5fff8767e806250b6ce4aeaf5bd54774
+MD5sum: b06ff1b340a025d36a844dcfcda70230
 Description: X11 client-side library (development headers)
  This package provides a client interface to the X Window System, otherwise
  known as 'Xlib'.  It provides a complete API for the basic functions of the
@@ -2304,23 +2304,23 @@ Description: X11 client-side library (development headers)
  .
  This module can be found at
  https://gitlab.freedesktop.org/xorg/lib/libX11
-Dgit: 9533476ee50eba5a6e354758977cd382fdc19f46
+Dgit: 89945bd96835b33eddfecb91ad621b8f207d3ed6
 
 Package: libx11-doc
 Source: libx11
-Version: 2:1.8.12-1-maruska
+Version: 2:1.8.13-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 9914
+Installed-Size: 9904
 Multi-Arch: foreign
 Priority: optional
 Section: doc
-Filename: pool/main/libx/libx11/libx11-doc_1.8.12-1-maruska_all.deb
-Size: 1994316
-SHA512: 3422635d79784bb9de0a2fb2d4b06e5538d8ad8d07d61579045bfc37715a65e1e194123e50983dd9b3b7e79b9fdfebf4d6bef7b4aa498481bf8ccc0cd74f84c4
-SHA256: 942b0015bf8a3c763ec1a245bfcae8c3d40d3b85c668703b5fd6cac7131d0b6a
-SHA1: 2e03d6cd064cc633f6949329bcc470fa643c485c
-MD5sum: d3ff268cebf8bd08eb0a923856cc5d54
+Filename: pool/main/libx/libx11/libx11-doc_1.8.13-1-maruska_all.deb
+Size: 1991676
+SHA512: 9f5a66432e7f813e266cd75e0947f4337b227eefeb029291c7038815f7138b20cb9fa56022c84a254944a17a085d37ae446b28b2a3c7abe6efdc76caaa36aba5
+SHA256: c97f3d01fd5f39c5a4651f92c30fcb5d3dcc1614ef6927954e5e5e66eae13118
+SHA1: b59b2457a2836c23f54c595e68ee0817dce21491
+MD5sum: 0de292e041e7854759cfbe185aa427bd
 Description: X11 client-side library (development documentation)
  This package provides a client interface to the X Window System, otherwise
  known as 'Xlib'.  It provides a complete API for the basic functions of the
@@ -2334,24 +2334,24 @@ Description: X11 client-side library (development documentation)
  .
  This module can be found at
  https://gitlab.freedesktop.org/xorg/lib/libX11
-Dgit: 9533476ee50eba5a6e354758977cd382fdc19f46
+Dgit: 89945bd96835b33eddfecb91ad621b8f207d3ed6
 
 Package: libx11-xcb-dev
 Source: libx11
-Version: 2:1.8.12-1-maruska
+Version: 2:1.8.13-1-maruska
 Architecture: amd64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 71
-Depends: libx11-xcb1 (= 2:1.8.12-1-maruska), libxcb1-dev, libx11-dev
+Depends: libx11-xcb1 (= 2:1.8.13-1-maruska), libxcb1-dev, libx11-dev
 Multi-Arch: same
 Priority: optional
 Section: libdevel
-Filename: pool/main/libx/libx11/libx11-xcb-dev_1.8.12-1-maruska_amd64.deb
-Size: 12360
-SHA512: 8af0fc03cfbf623142b0c67c51d7a2eece40dd9374c7b1d24ee67384e1ba8e9d203f79a5e4297a0e8937193ec3de368686598ab6bbff64ec64c3bdce3ff5e56c
-SHA256: 4858d85874a7a78a851ad89f6f6bb70219d9970d2a2a8ea7926bdaf9cffb79f4
-SHA1: ba5704010aa1891cd75ec9a163a1f00502aca949
-MD5sum: 737d14d439e226f0f60920d13e7497ca
+Filename: pool/main/libx/libx11/libx11-xcb-dev_1.8.13-1-maruska_amd64.deb
+Size: 12376
+SHA512: fd244728bff4e34f82f53a938ba08e9cc85aa7b57c55d84b3fed1934bee08b779255d04b6d72947bcb7c97dba276c42a1b9d9d172a2a31db0cc58994b658f21d
+SHA256: 6546b1d20f1e3b89bd3537c725535d4a8b5ce51ded5c70b14dc9f720c13b9de2
+SHA1: 2dcddd5be9db83cf03ab98684f8feb4f85d6ab3b
+MD5sum: 32f2ab5c1b930b217d3ea68f7bb23199
 Description: Xlib/XCB interface library (development headers)
  libX11-xcb provides functions needed by clients which take advantage of
  Xlib/XCB to mix calls to both Xlib and XCB over the same X connection.
@@ -2367,24 +2367,24 @@ Description: Xlib/XCB interface library (development headers)
  .
  This module can be found at
  https://gitlab.freedesktop.org/xorg/lib/libX11
-Dgit: 9533476ee50eba5a6e354758977cd382fdc19f46
+Dgit: 89945bd96835b33eddfecb91ad621b8f207d3ed6
 
 Package: libx11-xcb1
 Source: libx11
-Version: 2:1.8.12-1-maruska
+Version: 2:1.8.13-1-maruska
 Architecture: amd64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 75
-Depends: libx11-6 (= 2:1.8.12-1-maruska)
+Depends: libx11-6 (= 2:1.8.13-1-maruska)
 Multi-Arch: same
 Priority: optional
 Section: libs
-Filename: pool/main/libx/libx11/libx11-xcb1_1.8.12-1-maruska_amd64.deb
-Size: 10212
-SHA512: edb58e518e118660100753ddaeba72991a0b2d8f4cc7e459563901a5c275b0df94d25b527fb36416140aa2052cef68a0f5073b467cb7a501053642e04bf7ee23
-SHA256: 282850a046adc6248c92cc9b1da747d4c41fbc52cbdb3c04d2ca024dbc9c9755
-SHA1: dcc3fc14765d3f654f254f9091ec694893eaebc6
-MD5sum: 6efe34b43135de5269fbd69a1e24dda2
+Filename: pool/main/libx/libx11/libx11-xcb1_1.8.13-1-maruska_amd64.deb
+Size: 10224
+SHA512: bd7a3c3b3578ce0099186e2d8d03b728da919bf2286d5e62341d6328f919bf307f01f7586f03165e7b337e63de937d90b0d1a43a51247eee8c1578f1b70b90a7
+SHA256: e340da6bdd683d3da118b8b97d28f4a0e773cd7104e6cb173f8ff41f779956b2
+SHA1: dd7391582f7a760ad04be2f4a118cdf8b30fdd92
+MD5sum: 64e084f1eae442b8f823ba1a6be1e54b
 Description: Xlib/XCB interface library
  libX11-xcb provides functions needed by clients which take advantage of
  Xlib/XCB to mix calls to both Xlib and XCB over the same X connection.
@@ -2397,27 +2397,27 @@ Description: Xlib/XCB interface library
  .
  This module can be found at
  https://gitlab.freedesktop.org/xorg/lib/libX11
-Dgit: 9533476ee50eba5a6e354758977cd382fdc19f46
+Dgit: 89945bd96835b33eddfecb91ad621b8f207d3ed6
 
 Package: libx11-xcb1-dbgsym
 Source: libx11
-Version: 2:1.8.12-1-maruska
+Version: 2:1.8.13-1-maruska
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 29
-Depends: libx11-xcb1 (= 2:1.8.12-1-maruska)
+Depends: libx11-xcb1 (= 2:1.8.13-1-maruska)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/libx/libx11/libx11-xcb1-dbgsym_1.8.12-1-maruska_amd64.deb
-Size: 16776
-SHA512: d087114309021b28bd7986aec4cb8a16c4f0c4e64cf0aeb66f65e6d8c179e73a803c0ef05626eca5f814952cecae8ba86eb6d0e05736b0274d8b91c888a0f048
-SHA256: c2e5c3f2b9e1933227c444e57ab7732b99b08fdf25f0763c7dc42f89b24cbecc
-SHA1: a0ef384c286a37f27627f6f97b5af7912e4e76a7
-MD5sum: c7dec035e6bd18ba14c350f05de35558
+Filename: pool/main/libx/libx11/libx11-xcb1-dbgsym_1.8.13-1-maruska_amd64.deb
+Size: 16812
+SHA512: 314630ebf0e74175e0cc31c6d2faadb8276ba56cd18cf45dd71c56b47e8f46e8c681124895d3d868bdb049118b891e3ca261e97b49aaec698384555b8bae7742
+SHA256: 774639035fa328de04bff9718ef134e24385aafcf78f588f37c24a2cc127ed4e
+SHA1: 83b4f13262a8fe97d77905b5e6f4575a655c70c1
+MD5sum: a9f6f8778b6969586a71b37bbf10e424
 Description: debug symbols for libx11-xcb1
-Build-Ids: 71f865a3d5e3848cd4e162cb04d166fc23f8426f
+Build-Ids: 9a52f81cfeb1ca65da453705ae6b6ad50b5eb85f
 
 Package: make
 Source: make-color

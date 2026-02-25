@@ -650,19 +650,19 @@ Dgit: 7e6e603d323bb1ff426a96776bc5dfc5159b78d0
 
 Package: libx11-data
 Source: libx11
-Version: 2:1.8.12-1-maruska
+Version: 2:1.8.13-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 1345
 Multi-Arch: foreign
 Priority: optional
 Section: x11
-Filename: pool/main/libx/libx11/libx11-data_1.8.12-1-maruska_all.deb
-Size: 107008
-SHA512: b84d544d00fb1c1e7078e92e2f895475b3f7ec5ac285cf6419a1db0fff14f8fb815bde6c5dba5e14dfd6c346dfad9d69e79df0d707c1e3f25ba800fb580e7878
-SHA256: 2563b359dd6a62b8419cc60015e76de63de32a197bf55bf5eae9325b7b4e1e17
-SHA1: d162cd0332dd09e559ab5490b741487d5d563239
-MD5sum: ea8f0ca52fda4f5236304e137babcefe
+Filename: pool/main/libx/libx11/libx11-data_1.8.13-1-maruska_all.deb
+Size: 106956
+SHA512: 7512f98a7c250d87748144af487761b0383b1dc153c880ed8a3106e49ab7a6a11339e3a135f5dde7be8f14cf25f28641af9f5cd58a9f69693ca93f641abf00c3
+SHA256: 71999f57e86c1c04b10a884b22ba4c0b346f0c45a93053e8688083430b372a4a
+SHA1: f926d635216a8ab062849eac615e31757019e751
+MD5sum: 3a4a012396737a467f0357ed7c378669
 Description: X11 client-side library
  This package provides the locale data files for libx11.
  .
@@ -671,23 +671,23 @@ Description: X11 client-side library
  .
  This module can be found at
  https://gitlab.freedesktop.org/xorg/lib/libX11
-Dgit: 9533476ee50eba5a6e354758977cd382fdc19f46
+Dgit: 89945bd96835b33eddfecb91ad621b8f207d3ed6
 
 Package: libx11-doc
 Source: libx11
-Version: 2:1.8.12-1-maruska
+Version: 2:1.8.13-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 9914
+Installed-Size: 9904
 Multi-Arch: foreign
 Priority: optional
 Section: doc
-Filename: pool/main/libx/libx11/libx11-doc_1.8.12-1-maruska_all.deb
-Size: 1994316
-SHA512: 3422635d79784bb9de0a2fb2d4b06e5538d8ad8d07d61579045bfc37715a65e1e194123e50983dd9b3b7e79b9fdfebf4d6bef7b4aa498481bf8ccc0cd74f84c4
-SHA256: 942b0015bf8a3c763ec1a245bfcae8c3d40d3b85c668703b5fd6cac7131d0b6a
-SHA1: 2e03d6cd064cc633f6949329bcc470fa643c485c
-MD5sum: d3ff268cebf8bd08eb0a923856cc5d54
+Filename: pool/main/libx/libx11/libx11-doc_1.8.13-1-maruska_all.deb
+Size: 1991676
+SHA512: 9f5a66432e7f813e266cd75e0947f4337b227eefeb029291c7038815f7138b20cb9fa56022c84a254944a17a085d37ae446b28b2a3c7abe6efdc76caaa36aba5
+SHA256: c97f3d01fd5f39c5a4651f92c30fcb5d3dcc1614ef6927954e5e5e66eae13118
+SHA1: b59b2457a2836c23f54c595e68ee0817dce21491
+MD5sum: 0de292e041e7854759cfbe185aa427bd
 Description: X11 client-side library (development documentation)
  This package provides a client interface to the X Window System, otherwise
  known as 'Xlib'.  It provides a complete API for the basic functions of the
@@ -701,7 +701,7 @@ Description: X11 client-side library (development documentation)
  .
  This module can be found at
  https://gitlab.freedesktop.org/xorg/lib/libX11
-Dgit: 9533476ee50eba5a6e354758977cd382fdc19f46
+Dgit: 89945bd96835b33eddfecb91ad621b8f207d3ed6
 
 Package: maruska-base-graphics
 Source: maruska-top
