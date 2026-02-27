@@ -1229,26 +1229,26 @@ Dgit: b7a377f5e8ded30532e957a03116e0dcbb6f7986
 
 Package: postgresql-doc-18
 Source: postgresql-18
-Version: 18.2-1-maruska
+Version: 18.3-1-maruska
 Architecture: all
 Maintainer: Debian PostgreSQL Maintainers <team+postgresql@tracker.debian.org>
-Installed-Size: 17360
+Installed-Size: 17371
 Multi-Arch: foreign
 Homepage: http://www.postgresql.org/
 Priority: optional
 Section: doc
-Filename: pool/main/p/postgresql-18/postgresql-doc-18_18.2-1-maruska_all.deb
-Size: 2186048
-SHA512: 30d97d51c32ce6d5a706b2f7fb1d32fdb95b606be9ad8dc7d649e718cc6b28acbe8e94411c852044157bb93f7933ba2b12d50136e0c562a31896406cd672204f
-SHA256: 5434320bc2e8f3ca6682242a0952457e958c7d94fa32bb6f6f55552484de7225
-SHA1: 2406bdc4378df9d2992ba7cf20e4b02f522673ef
-MD5sum: 641b9e32de05b8283dd47f418b84c495
+Filename: pool/main/p/postgresql-18/postgresql-doc-18_18.3-1-maruska_all.deb
+Size: 2187640
+SHA512: e55ebb632ec74ed1c7b96c4efbc60e83da683c5c9c3e1ac30fbf6ff61609c784c9b19ace04784d0bc71789a15dbc7a8eaead0ce9ef1b8d27424c7d80c05a8686
+SHA256: 343409580341ed70c0b22a8ecb0d6fe9b863350660dd800e8e07ffddd7031a13
+SHA1: 886783caffc0d3b3f55900e5311cae5552deea5f
+MD5sum: 062b4621730aeac2011dcc9a517bcd0f
 Description: documentation for the PostgreSQL database management system
  This package contains all README files, user manual, and examples for
  PostgreSQL 18. The manual is in HTML format.
  .
  PostgreSQL is an object-relational SQL database management system.
-Dgit: e48122759d863ab8b98bedf95878eb9ebb11d036
+Dgit: 3e7dacfe32771878d444462ed1cb19862bfb0ad8
 
 Package: sawfish-data
 Source: sawfish
