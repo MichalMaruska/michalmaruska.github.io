@@ -1840,23 +1840,23 @@ Description: collection of Lisp add-ons for the window manager.
 Dgit: e1d4abcbf8c60d94e53f87c7963222f48f819ce0
 
 Package: mmc-shell
-Version: 3.67
+Version: 3.68
 Architecture: all
 Maintainer: Michal Maruska <mmaruska@gmail.com>
-Installed-Size: 216
+Installed-Size: 212
 Depends: zsh, gawk, git, mp3info, mpg123
 Recommends: gst123, systemd-container, alsa-utils, tdb-tools
 Conflicts: tt-tools (<< 1.13)
 Priority: extra
 Section: misc
-Filename: pool/main/m/mmc-shell/mmc-shell_3.67_all.deb
-Size: 54216
-SHA512: 0b66121501eaaac5ffae357c91770de0794a6d8cd1a5ece2038177c5e4853dd7d753fd25b09e4ad56f3762e79aa1c43997a86e424a6a41a57c508c31dc931bc6
-SHA256: 49e0eebdd95a92897c5a9d3998a41cf2c7e13d7166ffb3f85ecee9195e5dca57
-SHA1: 52de063ce4142c3dc2516126e8dbbe21aa620bf2
-MD5sum: 8de4ea02a081cd97bb6b037526fbd4e6
+Filename: pool/main/m/mmc-shell/mmc-shell_3.68_all.deb
+Size: 49820
+SHA512: 1962056d72a7ce7b29bbebd6ad2898ba0f69caa651d2ead71ca31c7dfc19fd69fe58ddfd25864b02a436721a12c65e295fb350d1e47fcc295865540bcb09ee9a
+SHA256: 4cfa348b10649dfcd96824c7dba9f417c832b1bbc239cb75e0aa5b6f5c1c0cd7
+SHA1: 62179363a28a8a0a044d457c0415df28e17da453
+MD5sum: 5d2d5e50d028e23a0306093ea09e8915
 Description: collection of shell scripts
-Dgit: 8f5038dd616fff7ffd49bf28ea688c83845670f8
+Dgit: 426c99f297a0906c5513112a3e2ae2016a5c5d8a
 
 Package: mmc-zsh
 Version: 2.12
