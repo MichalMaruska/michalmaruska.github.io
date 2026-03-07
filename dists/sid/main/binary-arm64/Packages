@@ -14,7 +14,6 @@ Priority: required
 Section: admin
 Filename: pool/main/a/apt/apt_3.1.16-maruska_arm64.deb
 Size: 1426072
-SHA512: 3aead70e591a407bdabf094a74ae3f285fccb9467f38c7acbbd60a4b74d57b6b6fb176f1e8a0f4dab647a9160a6e1f0848e77fbcd0e4b40f640a2639d41e7918
 SHA256: 87fca906466ad9e31e49e8dd5897a84121ae20c2d89b69aecf1555dc241873ed
 SHA1: e5f682b549847d4df60ddaf6d065bd5f0efbc6b9
 MD5sum: 849c44b871d12bc532eb9b1bea95ef6a
@@ -47,7 +46,6 @@ Priority: optional
 Section: debug
 Filename: pool/main/a/apt/apt-dbgsym_3.1.16-maruska_arm64.deb
 Size: 9141892
-SHA512: 44f9f136c479f7b7e7ac7d7609dce1a3722ebaa919b6b54e37cb3faf654e1f78ef87501dfa0c77cd3f9688a6455df8a9ccabd2fc89053f7455dcf74beb5d916b
 SHA256: 596002a2a3f87a8dfce2b6b1affe0cda720d4d2246810248253c6b661f941bac
 SHA1: dbe501e0bface9a192938fee59b18d291e736eca
 MD5sum: 986e37ed753d03c1db2a36f270c1eaf5
@@ -64,14 +62,14 @@ Multi-Arch: foreign
 Priority: optional
 Section: doc
 Filename: pool/main/a/apt/apt-doc_3.1.16-maruska_all.deb
-Size: 270772
-SHA512: bfc91dab95ea2133915a74e5ebffb940df33a5ba06ff3d93fa2bca071127698a70bbb9a509497b531115d7a0a5515d6eb3d4d939642f6105abf2f3d95e4d9d1f
-SHA256: 419469a468f68caeb9bbd672e7fcae39236ac8e56d3117ad23477a86141871c0
-SHA1: 258fe146f37c97f905281f445139604253acbba4
-MD5sum: a3ba978a3f36b073427b19e5771353ce
+Size: 270812
+SHA256: 76eeae0044ecec8e33769cd0b4203f2bcba2d270e6b6a2ae4bf01b984b7e7b93
+SHA1: 504602984c9b6b0e55cf1dd34b6704aee786bed3
+MD5sum: 61a4a6fe94e12f939562aa2bda2c4db8
 Description: documentation for APT
  This package contains the user guide and offline guide for various
  APT tools which are provided in a html and a text-only version.
+Dgit: 9f34c2a290ab3c1bd968095ccff2db73edee63a5
 
 Package: apt-transport-https
 Source: apt
@@ -84,14 +82,14 @@ Multi-Arch: foreign
 Priority: optional
 Section: oldlibs
 Filename: pool/main/a/apt/apt-transport-https_3.1.16-maruska_all.deb
-Size: 42356
-SHA512: 984bd7be228b70a7a975aeb4ae389f75ad7ff2bdd874acc5adcecc797ecf2ed3fa133eee49cc6530be670338bd308cbcb27e80a6c1b7fe28a2d93c2b56d01c95
-SHA256: db7151eb702264adf33761e09be3610460bb2cdfe2350b2755e8053615b6e5bd
-SHA1: 20c7fe85b1ff924769f67e4c0d140fcded9ecb01
-MD5sum: f3e2ad5015ac95ebf5f80b54e91edc4a
+Size: 42384
+SHA256: cb79c5fbef257d40ba5a24effe6c2925a26e13b429e0448bb0334eef16046d27
+SHA1: 756ea4e3616d484cae4217fa012125075db0e91b
+MD5sum: 4efbcc2272f5079b4cd3472b06df555d
 Description: transitional package for https support
  This is a dummy transitional package - https support has been moved into
  the apt package in 1.5. It can be safely removed.
+Dgit: 9f34c2a290ab3c1bd968095ccff2db73edee63a5
 
 Package: apt-utils
 Source: apt
@@ -104,7 +102,6 @@ Priority: required
 Section: admin
 Filename: pool/main/a/apt/apt-utils_3.1.16-maruska_arm64.deb
 Size: 339172
-SHA512: ba46bd5337b9be31c95f8323c356e68deacc7e41f2dba40f5e57049ebf47023fb9436dd934d0064826fca25e95e09f4ee7a69c9f26d31ce393cd44e3cc3e11a2
 SHA256: d043c85ace796f549fd815a20eedcc2b8caf445ee43d8733698383e3d02990fe
 SHA1: 3bf7b1051da3d412e9bcce1904585988e89b207b
 MD5sum: 0ed214c3612c76e71fd0dd9179d0ea2c
@@ -129,7 +126,6 @@ Priority: optional
 Section: debug
 Filename: pool/main/a/apt/apt-utils-dbgsym_3.1.16-maruska_arm64.deb
 Size: 1804992
-SHA512: f402a8c612aadfc929a790b87164f3c1132f264f74503888d7828b2106aba66aa645d01b8e96a4b45d1b6d7c6df856758061753b5c6a0bb3e281d79a94087655
 SHA256: a289cfd86c76ffcab2aee638843b2e1bb903b3c15d807c7d1940d6fea335fb66
 SHA1: e663a3847c6b397e49f45807a51065ee61cda9a1
 MD5sum: fa062c92529c86b4aa9576b665964f29
@@ -190,8 +186,8 @@ Multi-Arch: foreign
 Priority: optional
 Section: devel
 Filename: pool/main/d/debhelper/debhelper_13.30-maruska_all.deb
-Size: 951028
 SHA512: 1f72179942d09adc98afbf8278da7c203213e8a3121e283347e222fc61011801f21a003a04089f1820bc6ab1f321db46001700c137f4b15e2f7e22caca316b83
+Size: 951028
 SHA256: 79a54be1a1fb8593a14b11b80b268e7aa2f11c2f03ef4b8970563ec1f9b0cb40
 SHA1: 0fe07789376cbc9f0ce290315934ecd84728472e
 MD5sum: b80b01e5722aa2b65cb8979764302ba3
@@ -879,7 +875,6 @@ Priority: optional
 Section: libdevel
 Filename: pool/main/a/apt/libapt-pkg-dev_3.1.16-maruska_arm64.deb
 Size: 141676
-SHA512: e9c100a1e3eaf996534c9a44dad70d371c3da03be1f3970d53c22d45f97d5eab5da3d737e3e0f85df3d3764425687e26e39a7cd22c51a3abda1a6ba0ff3e87c0
 SHA256: 12ede733c52a86f234240c47a86d2d2c29d396027e9f80ba3191588fc7ba9928
 SHA1: e40876f9b01323b347421f7b932d5c7944456487
 MD5sum: 01b92dac0307d77cf6f104c3043fab7c
@@ -899,17 +894,17 @@ Multi-Arch: foreign
 Priority: optional
 Section: doc
 Filename: pool/main/a/apt/libapt-pkg-doc_3.1.16-maruska_all.deb
-Size: 1290176
-SHA512: 5a981268b413f9c4d575cd21dfceb1c6b9c9a5a31f380649a358eb3a3e31833cff47fc33e590dafa3d3eca5473c22e6ff476d5ca973fb1b9992717bca2b62e9b
-SHA256: d3bd898972970013a671b51b5275134e9fd182003cb7227d21f55970ebebe9ea
-SHA1: b694dbd864b35540a0a9ea7052edd69cb8515fd6
-MD5sum: e8bd1204af740ffff9cfcef1d275edb2
+Size: 1290244
+SHA256: fc834b509be8baecd3172fdd7a7d64d6eacdf98adf6f5e7b849405d362777d4e
+SHA1: e6569d409b5fc8c57d5bbd39ae158275b5e4872f
+MD5sum: 3447cbe11a83f8523582e4a94f5385ee
 Description: documentation for APT development
  This package contains documentation for development of the APT
  Debian package manipulation program and its libraries.
  .
  This includes the source code documentation generated by doxygen
  in html format.
+Dgit: 9f34c2a290ab3c1bd968095ccff2db73edee63a5
 
 Package: libapt-pkg6.0t64
 Source: apt
@@ -985,7 +980,6 @@ Priority: optional
 Section: libs
 Filename: pool/main/a/apt/libapt-pkg7.0_3.1.16-maruska_arm64.deb
 Size: 1060572
-SHA512: cb40e4e8dd1712d2875941f7f79717cc186dfa83705702133e7f517c0f03f1dff6b9a009a19a065fe9465fa7a2c15d2b91cdc79008f5b4c5c979416a8ca5d492
 SHA256: cf484c567f475a95a17b576e9bda19a6fe34fd8ba0212776df05ff6febcc3f06
 SHA1: 6c22990deffb40d855975edee2e64440eae28288
 MD5sum: fe6ef4b0428bb839fef263e1d7c9803a
@@ -1019,7 +1013,6 @@ Priority: optional
 Section: debug
 Filename: pool/main/a/apt/libapt-pkg7.0-dbgsym_3.1.16-maruska_arm64.deb
 Size: 13411068
-SHA512: 888000cb70d1be90bb66cefde6b89695ed3ca83f543729a3d9019a2e1394a188b9fc9b11cee1b2acb14c2c6af7b1c9d21f11c707a1db6e1032e6196369a36541
 SHA256: 84c9850d5d9e056df1bf61bec56b7d063f56eb420c5791e4d5f1ea30fbf0f204
 SHA1: c658a03e4e701da228b32de368da4ccb4ae8cdd0
 MD5sum: 41cd1635249470aea7f0e5710b40ebf5
@@ -1039,8 +1032,8 @@ Multi-Arch: foreign
 Priority: optional
 Section: perl
 Filename: pool/main/d/debhelper/libdebhelper-perl_13.30-maruska_all.deb
-Size: 93108
 SHA512: 8e4556e5eabc3833efa1b22743de5d83384b06734543075f2acc724d2ec8f414f168a67721e57599362456e40388719b45c38609a9e23598a259df267625d974
+Size: 93108
 SHA256: 89914bcb79cfd20a7c9edf329fd4cd6efa6b0bfee511d180df0ad9ee00e32dfa
 SHA1: 42a9efefec86d7c7ad99b6c776feb1a1498e9c12
 MD5sum: 3f1678b162ebf21c4b991dd4d715720b
@@ -1766,8 +1759,8 @@ Conflicts: mmc-shell (= 2.8)
 Priority: extra
 Section: misc
 Filename: pool/main/m/mmc-build-system/mmc-build-system_4.37_all.deb
-Size: 24172
 SHA512: 83a5e97b7cb662b7d2e808bdd8c33976b4d24b7a261329a0d39565f2b3c2b3cb1fef324b084ab4a4ed4c620902e9d2868a140a427b355088cc0d4807a76daba1
+Size: 24172
 SHA256: d61d966624eb202622367b06cff27727146604cc4da93c695f854a471e9ea505
 SHA1: f1c038bbf526d84f3e7a44926f6a98e13f2b7084
 MD5sum: 296c187051cdf90684ccdda218f79404
@@ -2075,8 +2068,8 @@ Homepage: http://www.postgresql.org/
 Priority: optional
 Section: doc
 Filename: pool/main/p/postgresql-18/postgresql-doc-18_18.2-1-maruska_all.deb
-Size: 2186048
 SHA512: 30d97d51c32ce6d5a706b2f7fb1d32fdb95b606be9ad8dc7d649e718cc6b28acbe8e94411c852044157bb93f7933ba2b12d50136e0c562a31896406cd672204f
+Size: 2186048
 SHA256: 5434320bc2e8f3ca6682242a0952457e958c7d94fa32bb6f6f55552484de7225
 SHA1: 2406bdc4378df9d2992ba7cf20e4b02f522673ef
 MD5sum: 641b9e32de05b8283dd47f418b84c495
@@ -2258,20 +2251,20 @@ Description: debug symbols for postgresql-server-dev-17
 Build-Ids: 341d1007b4f06f5ba60dedb3f84b46c549993781
 
 Package: reprepro
-Version: 5.4.1-1maruska
+Version: 5.4.6-maruska
 Architecture: arm64
 Maintainer: Bastian Germann <bage@debian.org>
-Installed-Size: 1358
-Depends: libarchive13t64 (>= 3.0.4), libbz2-1.0, libc6 (>= 2.38), libdb5.3t64, libgpg-error0 (>= 1.14), libgpgme11t64 (>= 1.23.2), liblzma5 (>= 5.1.1alpha+20120614), zlib1g (>= 1:1.2.0.2), zstd
+Installed-Size: 1360
+Depends: libarchive13t64 (>= 3.0.4), libbz2-1.0, libc6 (>= 2.38), libdb5.3t64, libgpg-error0 (>= 1.14), libgpgme45 (>= 1.23.2), liblzma5 (>= 5.1.1alpha+20120614), zlib1g (>= 1:1.2.0.2), zstd
 Recommends: apt (>= 0.9.4)
-Suggests: pinentry-curses, gnupg-agent, inoticoming, lzip (>= 1.11-2)
+Suggests: pinentry-curses, gpg-agent, inoticoming, lzip (>= 1.11-2)
 Priority: optional
 Section: utils
-Filename: pool/main/r/reprepro/reprepro_5.4.1-1maruska_arm64.deb
-Size: 431548
-SHA256: b2c440a7e3d6077b9fd5b0b3278f25a6f753296d06a34c7ea74242879b0ff460
-SHA1: 80b57e72fd141b54c8f101fda8138716009a28e9
-MD5sum: fc5f97ebc00333a5604edda719fc8995
+Filename: pool/main/r/reprepro/reprepro_5.4.6-maruska_arm64.deb
+Size: 431780
+SHA256: 6dbfd1e18f64a84aae4844cc0842d8d38814eb21512d1a694611e96478d70109
+SHA1: 6b379707b80992062d44951a6c23bf1e530fb4da
+MD5sum: db48a9aa46f00de1e5cb117be4a7268a
 Description: Debian package repository producer
  reprepro is a tool to manage a repository of Debian packages
  (.deb, .udeb, .dsc, ...). It stores files either being
@@ -2283,25 +2276,25 @@ Description: Debian package repository producer
  signatures of the generated Package indices is supported.
  .
  This package also contains the changestool and rredtool helpers.
-Dgit: dd3b42ede4c1877673e51fcf6330f5653b561c41
+Dgit: 839d150d7bcbf6484c8b56670cd79ec79f086390
 
 Package: reprepro-dbgsym
 Source: reprepro
-Version: 5.4.1-1maruska
+Version: 5.4.6-maruska
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: Bastian Germann <bage@debian.org>
-Installed-Size: 2091
-Depends: reprepro (= 5.4.1-1maruska)
+Installed-Size: 2081
+Depends: reprepro (= 5.4.6-maruska)
 Priority: optional
 Section: debug
-Filename: pool/main/r/reprepro/reprepro-dbgsym_5.4.1-1maruska_arm64.deb
-Size: 1122248
-SHA256: 20507f5a184de228692210042beedf62845456f6e5accd74ebf958c14f54e5eb
-SHA1: d63ba071b8abca4e34133d51184791ab1bc7b6cd
-MD5sum: fc8f1a55231ff179574057c5cf13ef92
+Filename: pool/main/r/reprepro/reprepro-dbgsym_5.4.6-maruska_arm64.deb
+Size: 1106732
+SHA256: 96be579bda313fc7e95d1f712785d3b7e3dc5aae7ab2662770653f0c48457887
+SHA1: cd79c6cafef2fbef0c04e4732706f7ae8ad101f3
+MD5sum: a682c72001701d6848f58b62dccebe94
 Description: debug symbols for reprepro
-Build-Ids: 0cc1d09dab18e8be7f1e571e0df4a52a59a93601 4fa86e69df60fee769453fccf13607f40515f938 c74c0d261ed6755d52f437ce529092b5d978ece2
+Build-Ids: 33675ff924381baa9b5e3cb000cf91234736de0a ceb42fb650c56a1148603cce21670ed2fd452f52 db44aab4fc8732f1e87769a59968d9c8be510f91
 
 Package: sawfish-data
 Source: sawfish
@@ -2360,8 +2353,8 @@ Homepage: https://wayland.pages.freedesktop.org/weston/
 Priority: optional
 Section: doc
 Filename: pool/main/w/weston/weston-doc_15.0.0-1-maruska_all.deb
-Size: 3243528
 SHA512: 7dea010675e0d01a43e06625921ca21faf9cddd73d07f2fbb7dec283ef93a8773154301e02db412bd118f1d7d340dbde05948fd2641f5d813fd8efde0048603e
+Size: 3243528
 SHA256: 6db2ff40b4b020fdeaca3a3842f677447903bf3376bbd427f08ce876dc0174bf
 SHA1: 8960c642a1db54f5df9c0a3ac4875ad981f9694f
 MD5sum: 3a23f1811dab007ff234388d7c2fb6c5
@@ -2867,8 +2860,8 @@ Homepage: https://www.x.org
 Priority: optional
 Section: libdevel
 Filename: pool/main/x/xserver-xorg-input-evdev/xserver-xorg-input-evdev-dev_2.11.0-1-maruska_all.deb
-Size: 89076
 SHA512: d45f87df3ea378a598d501e7c0eab62c0d2958075e4e081215c5ec829c1a8a40c5a6f896c0c5aadaedeb85c4d560c2ed666b8374a3d055d829f40770b4f3bdc4
+Size: 89076
 SHA256: 7290a3f95c69d5b47cc58a55194df8eed62d447645cf194f237fcdb5bb2dad6f
 SHA1: bfcd1855323b732f523b1e10a00aa64e3be98348
 MD5sum: 9c20d9f2a35b63590a2c608e78ed741f
