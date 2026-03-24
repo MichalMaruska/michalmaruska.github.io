@@ -2548,24 +2548,6 @@ SHA1: 31ce771c69769859d36988c2cf6d85d760f7d25f
 MD5sum: a2fa1a5a3b9082e032b48f5f8114361e
 Description: Things I use for processing email.
 
-Package: maruska-top-network
-Source: maruska-top
-Version: 1.34
-Architecture: all
-Maintainer: Michal Maruska <mmaruska@gmail.com>
-Installed-Size: 8
-Depends: openvpn, dnsmasq, ncat, macchanger
-Priority: extra
-Section: shells
-Filename: pool/main/m/maruska-top/maruska-top-network_1.34_all.deb
-Size: 2924
-SHA512: e31aad9da37e3a38646019065afb819329a6e76c7ad6887838e5ecbe1052d08b2840ffdcb91b70bb632ea329e09abd55a984ac8fc1ce327d389a7dc5142ffc18
-SHA256: ed0eba38875fcaa9c693594844f3cf42c103159e1c9c53c18b08349c66b36f45
-SHA1: c2bfe759d4274edb9f0c6dc9568c55797134cb2d
-MD5sum: 27088bfd97759b0247d7ce1846da6013
-Description: Things I use for networking
-Dgit: 5ff2e72457295f53640915d3780f657f19af0be7
-
 Package: maruska-top-pg
 Source: maruska-top
 Version: 1.34
@@ -2576,14 +2558,13 @@ Depends: pg-natural-sex, char-in-set, pg-human, thumbsize, sadd
 Priority: extra
 Section: shells
 Filename: pool/main/m/maruska-top/maruska-top-pg_1.34_all.deb
-Size: 2988
-SHA512: f3bccf4f343137a907327de46da9bdbac034771b42d5df93762245cc84a8dbc5d3b038d63671d5ccd7b53f3ffd1e7c531b04b7eb4adc665270a899b5833e1168
-SHA256: 4bed9edcda29c33a93aa498bd52adce3ff611f325b5ecf00eb9112dcafb3055b
-SHA1: 3d9c7fd9028466938b391e605e94f076ba1d9370
-MD5sum: 5dd95bb3db3a467ad525d2a886a2bed3
+Size: 2734
+SHA512: bb7888dc88c19962c90e8214cfd3cf91f09bcb49b74bbc545c1816e8ab82bc487e322349933765d4f5824142e68a153fbbf9c0db9c131618d3fad1ea3a05bfc4
+SHA256: 5950b296ff9b6ead1c282aa10144e03adb456c22573d3dcb9a89e6dc5bacf8da
+SHA1: 5aa280a8d11ff572600a3e0d9c103f576d067a92
+MD5sum: b0a82f8fc1417844abe2bd86947e140d
 Description: This should be enough to make maruska PG databse work.
  A container package -- pulling in dependencies for database work.
-Dgit: 5ff2e72457295f53640915d3780f657f19af0be7
 
 Package: maruska-top-podman
 Source: maruska-top
@@ -2595,13 +2576,12 @@ Depends: runc, fuse-overlayfs, podman, slirp4netns, uidmap
 Priority: extra
 Section: shells
 Filename: pool/main/m/maruska-top/maruska-top-podman_1.34_all.deb
-Size: 2944
-SHA512: 5f7602d0e5968cca628297190664fbe2bcca34116105396981e1e6f961ed346d6d29d2f0525557808a068e6bde7d63b1ca60d3f9098d726575ee7a5aae37c1bd
-SHA256: a61201a464993bcefe628e2b45b737e78573daf5f2fc40ac1a43e83107c2e2fc
-SHA1: 965b013a2a5199ab1b0899ee50e8db307ed4bc21
-MD5sum: 6fd5befddfbbd5772d41ff631c697106
+Size: 2690
+SHA512: 680d08acf0890ee93e0608d50b97c99f93ebfc9421296e693e8b75d1e2f48b91a3da1ca2dc7d60fd16a8c8b66f0eb3ee4a8b782844ae86b25a3ddf4297236971
+SHA256: 8f122436ecab94773be030cf8d65223b7026349efd91f697d5f0a6b2395e179c
+SHA1: adccf972ad53acc7235a64f60ee966b6b1010303
+MD5sum: 298d5baee3f2a799b8fdc99f46782a5a
 Description: Things I need on GUI workstation.
-Dgit: 5ff2e72457295f53640915d3780f657f19af0be7
 
 Package: maruska-top-scheme
 Source: maruska-top
@@ -2613,13 +2593,12 @@ Depends: rlwrap, gauche, gauche-mmc-apps, chezscheme
 Priority: extra
 Section: shells
 Filename: pool/main/m/maruska-top/maruska-top-scheme_1.34_all.deb
-Size: 2924
-SHA512: 8c4045644b4dd4ab0acea3232d601ec4d5fabf00243c51273c8c7a9d95364d5e61f0ef48c00aa493798d24c2031b93b4e81243220a6e3fcf182461f63e79d275
-SHA256: c6d2af6e4fc26f75a7af1f3a45a5802e518d836cb9407f2467b7be3834eecacf
-SHA1: 8a2454d0aa2cda3d3b146688bba2818e4870cf9c
-MD5sum: 4ada661163821fa57866e341343ea163
+Size: 2678
+SHA512: 438f0dd815ee88dda7f9d03463ca04ff2ee30725ae07b6c995fb7ad74b6b0af4a36be1957344bbe7174f9da991c36c79a2560ee48207d2a70a6a08d56c31ad78
+SHA256: e8b085747627f3c01e629faca785a5a367f48b15655f69f9f34be74bbfcdac7b
+SHA1: 88786293f38766fc4b80b73f7b7b9c3ebd94011a
+MD5sum: d7d1eaca5ef7b8e4c40943d57a949fbc
 Description: My favourite scheme environments
-Dgit: 5ff2e72457295f53640915d3780f657f19af0be7
 
 Package: maruska-top-server
 Source: maruska-top
@@ -2631,14 +2610,13 @@ Depends: maruska-top-base, libapache2-mod-fastcgi | libapache2-mod-fcgid, postgr
 Priority: extra
 Section: shells
 Filename: pool/main/m/maruska-top/maruska-top-server_1.34_all.deb
-Size: 3048
-SHA512: b485d45e2d86c7bb8f997ffe14e2b5b7b759e6666e3a4566b9e14c3cd4962c7ed6b83c0ec4f63a1611bc5bb1d96a5a13e705a966be5b732febb63d21d77e5857
-SHA256: c1a9c643a929fd7c3d1d78a1b2cc0b45c4c11017c38ff84ea3ecf22c3a0b87d5
-SHA1: 8f1ccdb79741ac58909ef4edea5e5700d25d92dd
-MD5sum: 590f29fbb2be631366c983e0262c2c88
+Size: 2786
+SHA512: 72b2a7bcda0ba3d5676db0a901f27335dc0fd936bc8478882fa47db516bab0ccc81be9b06e10b8390e4be2dfab11f7a4f3bd3bdf1f94ef9989aa6f0115d465c7
+SHA256: c11b4a0d87fc6cd1d0dda64eb84e3ea02fe1fb154aa9e1eac0dfefe90ef3b8c7
+SHA1: 97c8f7efbb751164139467de52b33b4c558fd5a2
+MD5sum: 7f6893cdd2452083faff3ab2b5b54fe6
 Description: This should be enough to make maruska happy with the Server.
  A container package -- pulling in dependencies which I am accustomed to.
-Dgit: 5ff2e72457295f53640915d3780f657f19af0be7
 
 Package: maruska-top-techno
 Source: maruska-top
@@ -2650,13 +2628,12 @@ Depends: usbutils, pciutils, ddcutil, wakeonlan, bluez-firmware, pulseaudio-modu
 Priority: extra
 Section: shells
 Filename: pool/main/m/maruska-top/maruska-top-techno_1.34_all.deb
-Size: 3028
-SHA512: 11f699ad83265ef38f854f49c5a2e9c2212f74ed6f529128ec74b62923ca1cb88428dc0bd2bdb6a443a65008be21351414112a11af8cec6e793ffe16fc2eece7
-SHA256: d60bdffb4555d3818face3a94e38a38e72b37a3b1ee2293662fab8c1c398f979
-SHA1: 161dd4e579bf5e8295dbc4c50922ed927f22aa9f
-MD5sum: 38b0ef406f1f0ec3a4ae37441507e907
+Size: 2770
+SHA512: 6140626df66b70558b32d4ad058874de7633a835a08397a66ffee3d6dddfe63ae3f3a0fbd4d1e9d3c281bb7c6375a902a18d3fde1f21e8b11fc84bfd91810619
+SHA256: 71800352704b6352ec640c4cd2f67b7af022758ae7510256a837e837a5276214
+SHA1: fc2da01ec6bb378281d57d90ca929937e828c629
+MD5sum: 5a135ef7b7220bdb5933e3330e71b653
 Description: Things I need for hardware investigations.
-Dgit: 5ff2e72457295f53640915d3780f657f19af0be7
 
 Package: maruska-top-work
 Source: maruska-top
@@ -2668,13 +2645,12 @@ Depends: maruska-top-desktop, openvpn, dnsmasq
 Priority: extra
 Section: shells
 Filename: pool/main/m/maruska-top/maruska-top-work_1.34_all.deb
-Size: 2924
-SHA512: 4032b48f37b7f8664c29d478e764049b57bcc5ca7cac29f8214ae5f76889a20a9f182dcd7c215dac8f3dfc54e037855fcd08c1ac4637c07349741e7530400fdb
-SHA256: de4bdf299ccf06b46c109838709e414cd5696cd7b1200aa1034772750186e4ce
-SHA1: 366af7c161da3d3de4e18d813720b29d6f5a9ba5
-MD5sum: 71c79c45b01407b665eff4894d028981
+Size: 2676
+SHA512: 1a60ed769ca2345d7eccfadf7356a4380db4a141d02405852f62d2d82944840ca65d5786e8d60cb82606ac284c7b42caed6295b23e011369091ee84c05dd20ea
+SHA256: e6afa7b1bb2595b04c530b19ad4f2093cb4279e77b7f7adbd13dcc1f75ddfa72
+SHA1: fb617a5a903a1f01e1005d4220c1cc1fda2ca257
+MD5sum: f68d351725bab4e74546362b1e73fe7b
 Description: Things I use for work from home.
-Dgit: 5ff2e72457295f53640915d3780f657f19af0be7
 
 Package: mempeak
 Version: 0.29
