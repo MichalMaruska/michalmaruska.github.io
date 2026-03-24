@@ -5,7 +5,7 @@ Origin: maruska
 Suite: focal
 Codename: focal
 Version: 20.3
-Date: Mon, 16 Mar 2026 10:17:17 UTC
+Date: Tue, 24 Mar 2026 12:34:21 UTC
 Architectures: amd64
 Components: main
 Description: My releases (improved & my own packages) for Ubuntu focal
@@ -35,17 +35,17 @@ SHA512:
  7e8e93f4a89ce7fae011403e14a1d53544c6e6f6b6010d61129dc27937806d2b03802610d7999eab33a4c36b0f9e001d9d76001b8354087634c1aa9c740c536f 20 main/debian-installer/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEOIgIVJ0mNBtkhSlh+VQApk/CXA8FAmm32K0ACgkQ+VQApk/C
-XA/nKhAAmBYxOyM8c1SGUF/SF11r4PITBWNspzj2IP0XCh8bZHAPVDIxOpGBRxVw
-+bAOtMsUfjMfQ0ySsN/6swcSyyle1ZsGPcATcGxgC6X4WpgMovZe70XcGB2D69si
-TnUfISL2BWPIMvpySS/9BuqxJUUefOhajr+aEA2GBBl//nzV+KGWennrRJz7fPWA
-Mou8gsa3fwGdwaKb+U1ddsuzTgiU6/Dj7U7SwNBj/XAik7Yf79BMb+K/JkLpcZ8H
-MATs/VsX9tSY4g0odGKwlWhyr7xzl9U6z+nf0hW0KtaDA78F3GeKeOLEdLP1T6lt
-tOPmHML9Wpr6BSRvUTpdIIjlpgvQt8uu0qTSwnrJ/PKlBjaIlHB/+gjAOlSevTPh
-PoUPHrshe6stsc+t1QOb9GVa0E/wZrcf/9OjoEO8r9PG5CA5UcfBVp4kyIv7ugjb
-RA5wgksOVcd1H/4u7vFoYZg+QA242Tb31f3euDO2QIClm1v9xuiG2Uj/Zijz90hs
-JBSzjYK0anp4NX08StRLPkvFzRQAK42GlqlD+GjY0RsiNNwp1HMri8EyZosRXIh5
-/Nk/6PhYb0PsA5NU9zb90dFhemzvjtclUsytqIFTkkshAtIShOV73fDcpV/QYtRN
-5BKTa18+ZF0chfrDV7+KuyJJIvzjmXA6HU+PJhRmhfy1M8S46QA=
-=ifBe
+iQIzBAEBCAAdFiEEOIgIVJ0mNBtkhSlh+VQApk/CXA8FAmnChM0ACgkQ+VQApk/C
+XA+LnQ//THAQfPWtZu5xWPY8C1KF9g1Dmmon8Dr1IeKZAY6RlstjChsQbrBU+dh7
+YoFEpdOuduRxiplyF6htfh9gzd7imM/5T+80ZuT3w6jeysdE+BXqciyRF0cpi5X1
+yUPMWqlRSPCrqHLoOsHmtzGNwsDfvyRa4FUMQL1ekhQkSxFljWMojYp5nMnr2Ile
+phuU18JEnrh97dW68a6WU8OdDunsa/bzp66HrtJjuzE67HY6k6lTXBwhfuIOJyYH
+8Lc1BckwKGT2ULyIw/SySiNERmYq0bOQatHMXuPWIcLnDgAzHKCv+BhO/WaBpUrQ
+asz9laOgTmnzQkdrRJ0mQSBZd9JWdYvpWY9XTVyac81KCCjMHHkppzJCuo81iUE4
+QU7X9SFxbIxzD5wdUMINzVRq+mtqd5by649eKcL5iC4hpJx6pxJrHdufkME1pJRZ
+0U8pJ3uix5YS1DvK6DNDJt6oOI/4jk3lCCYWlPo9u60sNuTRmlXRPZh4pLnOqBh3
+aoWNqaASamMbV0Q47aYirjisxeyOD+uNd3gAiFNUo/OANnxBGTAPlo6VVuBF0CsQ
+uLFW4/PgOrDlNjR66mqJ0pHJz2rS68Mv0bsRXixAqwIwhZMwK3amlC/zZQfz/dP+
+vg389GIPY1s8qxiaoObjmrmiH88dfOUzjiGgJP1E6GUAdi7tp6M=
+=nGpK
 -----END PGP SIGNATURE-----

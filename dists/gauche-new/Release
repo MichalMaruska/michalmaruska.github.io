@@ -3,7 +3,7 @@ Label: reprepro
 Suite: gauche-0.9.4-rc2
 Codename: gauche-new
 Version: 5.0
-Date: Mon, 16 Mar 2026 10:17:17 UTC
+Date: Tue, 24 Mar 2026 12:34:21 UTC
 Architectures: i386 amd64 x32
 Components: main
 Description: release for SID, and Gauche C-api version 0.9.4-rc2
