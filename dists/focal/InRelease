@@ -5,7 +5,7 @@ Origin: maruska
 Suite: focal
 Codename: focal
 Version: 20.3
-Date: Tue, 24 Mar 2026 12:34:21 UTC
+Date: Tue, 24 Mar 2026 15:35:44 UTC
 Architectures: amd64
 Components: main
 Description: My releases (improved & my own packages) for Ubuntu focal
@@ -35,17 +35,17 @@ SHA512:
  7e8e93f4a89ce7fae011403e14a1d53544c6e6f6b6010d61129dc27937806d2b03802610d7999eab33a4c36b0f9e001d9d76001b8354087634c1aa9c740c536f 20 main/debian-installer/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEOIgIVJ0mNBtkhSlh+VQApk/CXA8FAmnChM0ACgkQ+VQApk/C
-XA+LnQ//THAQfPWtZu5xWPY8C1KF9g1Dmmon8Dr1IeKZAY6RlstjChsQbrBU+dh7
-YoFEpdOuduRxiplyF6htfh9gzd7imM/5T+80ZuT3w6jeysdE+BXqciyRF0cpi5X1
-yUPMWqlRSPCrqHLoOsHmtzGNwsDfvyRa4FUMQL1ekhQkSxFljWMojYp5nMnr2Ile
-phuU18JEnrh97dW68a6WU8OdDunsa/bzp66HrtJjuzE67HY6k6lTXBwhfuIOJyYH
-8Lc1BckwKGT2ULyIw/SySiNERmYq0bOQatHMXuPWIcLnDgAzHKCv+BhO/WaBpUrQ
-asz9laOgTmnzQkdrRJ0mQSBZd9JWdYvpWY9XTVyac81KCCjMHHkppzJCuo81iUE4
-QU7X9SFxbIxzD5wdUMINzVRq+mtqd5by649eKcL5iC4hpJx6pxJrHdufkME1pJRZ
-0U8pJ3uix5YS1DvK6DNDJt6oOI/4jk3lCCYWlPo9u60sNuTRmlXRPZh4pLnOqBh3
-aoWNqaASamMbV0Q47aYirjisxeyOD+uNd3gAiFNUo/OANnxBGTAPlo6VVuBF0CsQ
-uLFW4/PgOrDlNjR66mqJ0pHJz2rS68Mv0bsRXixAqwIwhZMwK3amlC/zZQfz/dP+
-vg389GIPY1s8qxiaoObjmrmiH88dfOUzjiGgJP1E6GUAdi7tp6M=
-=nGpK
+iQIzBAEBCAAdFiEEOIgIVJ0mNBtkhSlh+VQApk/CXA8FAmnCr1AACgkQ+VQApk/C
+XA9mwA/+NoDd9bZzGAEXcT7/qvJIvXkEFzUR4ote5KRR8AYRQmaUVVDewuY4w4GZ
+J8H2LM9yZLEhW1yb3Wr3uOxY1MnB/YdNeuigB6TWuKW6+U4wxAiyfeXR2kdodZwl
+5SvYFSeqHSRRXECQ0VPcQjF0ZELMtJratnYxChujk1gbGn3CqPA9DZllHStI93mb
+5ihO0OUdFLX/1tFQQCFUqOy3sf6vjzllsedfaVuy8jXBAdZktX29Ju2/Vf0Xigi9
+8HAYpqBxUbI/usJAtJGo1alzlxQ9fVkb69Db94bI+FPY4/EvaXPgXY5JJBtbvS2U
+hxv/cHTzAIx5ONLA/UC/O7PSJOGucZ9jZj9UsyiHOni5GGdyzJIwMnrK2dCSKx80
+k/BjWdl32aTq1QKYWefGHFa4SDCjzploEILtbcxd5lEscnqDQpjoqj2pOpwihIsa
+d0oXyOeMOLixMQoTC35+3SDSB1/W/R8zu7HWQnpy0Wn1GiRA2IM1z+DLD6jVwGBp
+AvjwWp86Aw9m4PBtDSY5Fcho3R54RnibeKcPRmBbdC3dWx1/50/MoY2RMIYXFcLX
+i38GuQie72GtIjwDuijf/H3Yb/awsnkB+jvEi6nK6NgY+DuHM9Q1P2cGVg581x96
+duVf2g7oB9MgVAo+Gk/yItosBbAsBN39ujMhATL0UxGqrZQ9Z30=
+=fxS/
 -----END PGP SIGNATURE-----
