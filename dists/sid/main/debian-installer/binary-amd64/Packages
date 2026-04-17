@@ -38,23 +38,23 @@ Dgit: 89945bd96835b33eddfecb91ad621b8f207d3ed6
 
 Package: xserver-xorg-core-udeb
 Source: xorg-server
-Version: 2:21.1.21-1-maruska
+Version: 2:21.1.22-1-maruska
 Architecture: amd64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 2706
-Depends: xkb-data-udeb, x11-xkb-utils-udeb, udev-udeb (>= 149), libc6-udeb (>= 2.41), libdrm2-udeb (>= 2.4.89), libpciaccess0-udeb (>= 0.12.902), libpixman-1-0-udeb (>= 0.40.0), libudev1-udeb (>= 247), libxau6-udeb (>= 1:1.0.11), libxcvt0-udeb (>= 0.1.3), libxfont2-udeb (>= 1:2.0.1), libxshmfence1-udeb (>= 1.3.3)
+Installed-Size: 2710
+Depends: xkb-data-udeb, x11-xkb-utils-udeb, udev-udeb (>= 149), libc6-udeb (>= 2.42), libdrm2-udeb (>= 2.4.89), libpciaccess0-udeb (>= 0.12.902), libpixman-1-0-udeb (>= 0.40.0), libudev1-udeb (>= 247), libxau6-udeb (>= 1:1.0.11), libxcvt0-udeb (>= 0.1.3), libxfont2-udeb (>= 1:2.0.1), libxshmfence1-udeb (>= 1.3.3)
 Provides: xorg-input-abi-24, xorg-video-abi-25
 Priority: optional
 Section: debian-installer
-Filename: pool/main/x/xorg-server/xserver-xorg-core-udeb_21.1.21-1-maruska_amd64.udeb
-Size: 1017144
-SHA512: 594ddee84826bee94b0385379fc331b304fe02c307487d7fe56db91073cb54c55ea55cb8593ec7867929c7136138b338c8461d830f98e1f80ea3ea9529e1c761
-SHA256: 3e00586dd749584f5b7839cf9bfe07a67291e757833d0b97d689c8a8ed0b76cb
-SHA1: 4e2c23c694e654451fb7e8d39bd34f6e9aca05d5
-MD5sum: b78ae6532930cc6f7755fb5ba5e6c147
+Filename: pool/main/x/xorg-server/xserver-xorg-core-udeb_21.1.22-1-maruska_amd64.udeb
+Size: 1017008
+SHA512: ebcdc2bd5933f74212858f0ea0c0d6451d88168499038c0a8be0e31cd4ea29e3b1fe76236786306abc9a0aa8eb7f5725e059f0b1b5bbebffaf44eb187b388627
+SHA256: 86ea15839d87bc37534971ef8bb92b40c4b2b19a57d08d7754c5ab86fc71ffc9
+SHA1: 7898ac3477ceae576eaf26bf1b3897cce1985fc7
+MD5sum: 88bbf498023f4d39f248ced785866bcf
 Description: Xorg X server - core server
  This is a udeb, or a microdeb, for the debian-installer.
-Dgit: 857d82427837565bd76fe601f26d43a9a13afcdd
+Dgit: 7839e2dbdcd51a952b70935564998a0030271c48
 
 Package: xserver-xorg-input-evdev-udeb
 Source: xserver-xorg-input-evdev

@@ -5332,22 +5332,22 @@ Build-Ids: 06b5bb28fb2dba066a8acbb1567062f0a96bca4b
 
 Package: xnest
 Source: xorg-server
-Version: 2:21.1.21-1-maruska
+Version: 2:21.1.22-1-maruska
 Architecture: amd64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 1782
-Depends: xserver-common (>= 2:21.1.21-1-maruska), libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libnettle8t64, libpixman-1-0 (>= 0.13.2), libselinux1 (>= 3.1~), libsystemd0, libunwind8, libx11-6, libxau6 (>= 1:1.0.11), libxdmcp6, libxext6, libxfont2 (>= 1:2.0.1)
+Installed-Size: 1779
+Depends: xserver-common (>= 2:21.1.22-1-maruska), libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libnettle8t64, libpixman-1-0 (>= 0.13.2), libselinux1 (>= 3.1~), libsystemd0, libunwind8, libx11-6, libxau6 (>= 1:1.0.11), libxdmcp6 (>= 1:1.1.5), libxext6, libxfont2 (>= 1:2.0.1)
 Recommends: libgl1-mesa-dri (>= 7.1~rc1)
 Provides: xserver
 Homepage: https://www.x.org/
 Priority: optional
 Section: x11
-Filename: pool/main/x/xorg-server/xnest_21.1.21-1-maruska_amd64.deb
-Size: 698188
-SHA512: c907685ff567071f527edf7e5dfaa2bd59dcfd017f8c286a7ca9bb268697a3587dd2457944e505107d6c05d79af07fbc45cb03b76ee8bd86e7ff61c2e6cf589a
-SHA256: 6e7c42ae3167f179391a84b4d6419ff87eca964f8da4d810036e10e7f7fa32aa
-SHA1: 319b3e7a50fbdc9f1f38c922e25bd84f0baed4ca
-MD5sum: 4d238ae2f1f69070172d540df189f061
+Filename: pool/main/x/xorg-server/xnest_21.1.22-1-maruska_amd64.deb
+Size: 696564
+SHA512: 6a96cfc87f47ff518c25b2a9d0efb825b8159177bd6a578fe3326a6612a327addb67cade29756f453d59b31569a2ad6e05f4fea0106d497387f791a3b2c621d6
+SHA256: bbfa92a7e7ffe86e3a80e712ec10270f55f7cb38093b262f4e13959f5102f994
+SHA1: 9a397ef010c34cacacc79400f495c4e2180f261e
+MD5sum: 061720bdeec7e645cfbd44cb0e61eb20
 Description: Nested X server
  Xnest is a nested X server that simply relays all its requests to another
  X server, where it runs as a client.  This means that it appears as another
@@ -5360,42 +5360,42 @@ Description: Nested X server
  <URL:https://www.x.org>
  .
  This package is built from the X.org xserver module.
-Dgit: 857d82427837565bd76fe601f26d43a9a13afcdd
+Dgit: 7839e2dbdcd51a952b70935564998a0030271c48
 
 Package: xnest-dbgsym
 Source: xorg-server
-Version: 2:21.1.21-1-maruska
+Version: 2:21.1.22-1-maruska
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 3268
-Depends: xnest (= 2:21.1.21-1-maruska)
+Installed-Size: 3272
+Depends: xnest (= 2:21.1.22-1-maruska)
 Priority: optional
 Section: debug
-Filename: pool/main/x/xorg-server/xnest-dbgsym_21.1.21-1-maruska_amd64.deb
-Size: 2824232
-SHA512: 2e67f67209971b33dc37f30900d37f6d19db6cc20c0f4a2d55b53a1f707918e6eaf92b6ed510b1aa2f507c5fb331b89349e655c64ab6788fdb342c678711e60b
-SHA256: 4151e1f3ce31e53befa5fcfd6b6df9931a3fd75694a2fb944a178711921d5269
-SHA1: bc496196c09498b9d9ce7b11d45b07efc8a5dbcf
-MD5sum: 3d885edb18b2c98a155ed8653689847d
+Filename: pool/main/x/xorg-server/xnest-dbgsym_21.1.22-1-maruska_amd64.deb
+Size: 2828056
+SHA512: d4ec09618e1f6a1163b52a88b62d0b6f9bb1eb9f2d542232a70ad4057534c0db110076758aa6a7373c7c9573d71f624bc9b72227fea957760ba2e16ea0e0c536
+SHA256: 46f9a06684142a512f8978147e1a7df58bdff4c5894bcdd7a4c4d846d3e9d217
+SHA1: afa1654a7371045eb76f188b79ed3a3c69c015c0
+MD5sum: caa571cd9dc018e3807ca3bfa2da39c9
 Description: debug symbols for xnest
-Build-Ids: 18f98ec8986f1536d6380a5d5f22c9bee0a2a48c
+Build-Ids: bef6718f0cf48fd1fccf49ebcbeb8f3ca60bc869
 
 Package: xorg-server-source
 Source: xorg-server
-Version: 2:21.1.21-1-maruska
+Version: 2:21.1.22-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 107
+Installed-Size: 104
 Homepage: https://www.x.org/
 Priority: optional
 Section: x11
-Filename: pool/main/x/xorg-server/xorg-server-source_21.1.21-1-maruska_all.deb
-Size: 17344
-SHA512: 1908cff41d67f8a7948e5a407fd6b91c41104a4e411e087781699283fb59794d1993b20f270cc977cd7a855def2422a459458b8d52c825b4537459141eaccaf3
-SHA256: c2cf06ccebe8cc587aeb202c3e6296c3ec4eae3995067dca441434cdb0c402ca
-SHA1: caaf5a4a931ea25eacc8c0798ad1a97bd5b17fd1
-MD5sum: f2996b5330734dc2fab2750b1de5cd28
+Filename: pool/main/x/xorg-server/xorg-server-source_21.1.22-1-maruska_all.deb
+Size: 14848
+SHA512: c6fc23f7b0a59a36737dcae8fee112c4c6e3c7757b51061a83d3f0060acc7e9d4add9b3609a175082a22503532e020bb8f61fdcc9428558aac1644bad222f4cc
+SHA256: 05fe11197c7e46b5bce376c042c7fd64297c6fe1499db46156934156d6d29b5f
+SHA1: 03bf529d15f9e86fb2172ff420fa6db41b9e0f69
+MD5sum: 07b0e1bc20cd830872478e4fc650dd80
 Description: Xorg X server - source files
  This package provides original Debian (with Debian patches already
  applied, and autotools files updated) sources for the X.Org ('Xorg')
@@ -5405,7 +5405,7 @@ Description: Xorg X server - source files
  .
  Unless you are building a software product using X server sources,
  you probably want xserver-xorg and/or xserver-xorg-core instead.
-Dgit: 857d82427837565bd76fe601f26d43a9a13afcdd
+Dgit: 7839e2dbdcd51a952b70935564998a0030271c48
 
 Package: xplugin
 Version: 1.5
@@ -5443,10 +5443,10 @@ Build-Ids: 789fffbe3ee9d87809af7a6ce8df7b9317160811
 
 Package: xserver-common
 Source: xorg-server
-Version: 2:21.1.21-1-maruska
+Version: 2:21.1.22-1-maruska
 Architecture: all
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 150
+Installed-Size: 147
 Depends: x11-common, xkb-data, x11-xkb-utils
 Recommends: xfonts-base, xauth
 Replaces: xserver-xorg-core (<< 2:1.5.2)
@@ -5454,34 +5454,34 @@ Multi-Arch: foreign
 Homepage: https://www.x.org/
 Priority: optional
 Section: x11
-Filename: pool/main/x/xorg-server/xserver-common_21.1.21-1-maruska_all.deb
-Size: 32884
-SHA512: 9b59b5d1b98b8da91a544704432ba453a787478625c6ff34975805a35fba9558aa47bb2a594613edd30c953e2257d556116ea6467ec73da12f8857154148b21c
-SHA256: 9473ef12aa215f5adca84481cc1448f28586310e066ec8ef4792418b7f81ddb7
-SHA1: fa074c25c7d12d8a76b8f67a07b3ac48e0ec57ce
-MD5sum: 62987d6506db0ad55462094520f6cd7a
+Filename: pool/main/x/xorg-server/xserver-common_21.1.22-1-maruska_all.deb
+Size: 30356
+SHA512: c4f4bfd1727f3bb81ce5fbb7c306943b53910ad4347f8ece0f68e500fd55f9a85979020ac72eff522ab2d29c4a1c2283609fcdcd30d4dcc71ee458c1786d6f88
+SHA256: 6e6ea6d5330fd2187457bb312abbae0207bcf68e2824e222253924f8fa1ad8d9
+SHA1: 943cb4ba79ec2393bd279819f7f84227134322a1
+MD5sum: 2376be422a7edb498b062cb172431a75
 Description: common files used by various X servers
  This package provides files necessary for all X.Org based X servers.
-Dgit: 857d82427837565bd76fe601f26d43a9a13afcdd
+Dgit: 7839e2dbdcd51a952b70935564998a0030271c48
 
 Package: xserver-xephyr
 Source: xorg-server
-Version: 2:21.1.21-1-maruska
+Version: 2:21.1.22-1-maruska
 Architecture: amd64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 2632
-Depends: xserver-common (>= 2:21.1.21-1-maruska), libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libepoxy0 (>= 1.0), libgl1, libnettle8t64, libpixman-1-0 (>= 0.30.0), libselinux1 (>= 3.1~), libsystemd0, libudev1 (>= 183), libunwind8, libx11-6, libx11-xcb1, libxau6 (>= 1:1.0.11), libxcb-icccm4 (>= 0.4.2), libxcb-image0 (>= 0.2.1), libxcb-keysyms1 (>= 0.4.1), libxcb-randr0 (>= 1.1), libxcb-render-util0, libxcb-render0, libxcb-shape0, libxcb-shm0 (>= 1.10), libxcb-util1 (>= 0.4.0), libxcb-xkb1, libxcb-xv0 (>= 1.2), libxcb1 (>= 1.8), libxdmcp6, libxfont2 (>= 1:2.0.1), libxshmfence1
+Installed-Size: 2629
+Depends: xserver-common (>= 2:21.1.22-1-maruska), libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libepoxy0 (>= 1.0), libgl1, libnettle8t64, libpixman-1-0 (>= 0.30.0), libselinux1 (>= 3.1~), libsystemd0, libudev1 (>= 183), libunwind8, libx11-6, libx11-xcb1, libxau6 (>= 1:1.0.11), libxcb-icccm4 (>= 0.4.2), libxcb-image0 (>= 0.2.1), libxcb-keysyms1 (>= 0.4.1), libxcb-randr0 (>= 1.1), libxcb-render-util0, libxcb-render0, libxcb-shape0, libxcb-shm0 (>= 1.10), libxcb-util1 (>= 0.4.0), libxcb-xkb1, libxcb-xv0 (>= 1.2), libxcb1 (>= 1.8), libxdmcp6 (>= 1:1.1.5), libxfont2 (>= 1:2.0.1), libxshmfence1
 Recommends: libgl1-mesa-dri (>= 7.1~rc1)
 Provides: xserver
 Homepage: https://www.x.org/
 Priority: optional
 Section: x11
-Filename: pool/main/x/xorg-server/xserver-xephyr_21.1.21-1-maruska_amd64.deb
-Size: 995736
-SHA512: 145137680362f47a4e7e6f123a2e4fe0d1964f54840db4773b1ce3502cf185d892e95b42fc42c4fb66f8d4f4d7a18885e4dcaa1c97777b4fe90bc2a17a286401
-SHA256: 369b1c5ff9c9e4eacf4a3f4cbf8577302a9b7c18f9a00fa6d64ebdd3599c7bc7
-SHA1: 79bbc69cc000cee71b57362e4a80d8be9eaa1d8d
-MD5sum: 71969cc076b15b61542cb69035279275
+Filename: pool/main/x/xorg-server/xserver-xephyr_21.1.22-1-maruska_amd64.deb
+Size: 993592
+SHA512: 2ec0bf252b96162c6dd8e9d68ece145ae781fb6efefd0229cedd963d3c3165ca5feed4e01c96c8c171aa8ea400b2548ced70768aad838c7700c73a6b851a1167
+SHA256: abc6466acdaf11fa1a6dd430c332d0bf03e1cc3afb47e10bfc45a376bd5e94f2
+SHA1: bd051e154ac38a6c25d2531134994090ad9f82a7
+MD5sum: 34a6865156bdf900816f86423f038da7
 Description: nested X server
  Xephyr is an X server that can be run inside another X server,
  much like Xnest. It is based on the kdrive X server, and as a
@@ -5492,34 +5492,34 @@ Description: nested X server
  <URL:https://www.x.org>
  .
  This package is built from the X.org xserver module.
-Dgit: 857d82427837565bd76fe601f26d43a9a13afcdd
+Dgit: 7839e2dbdcd51a952b70935564998a0030271c48
 
 Package: xserver-xephyr-dbgsym
 Source: xorg-server
-Version: 2:21.1.21-1-maruska
+Version: 2:21.1.22-1-maruska
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 4848
-Depends: xserver-xephyr (= 2:21.1.21-1-maruska)
+Installed-Size: 4851
+Depends: xserver-xephyr (= 2:21.1.22-1-maruska)
 Priority: optional
 Section: debug
-Filename: pool/main/x/xorg-server/xserver-xephyr-dbgsym_21.1.21-1-maruska_amd64.deb
-Size: 4135152
-SHA512: 2bf24a8f10b99514c8795b1757c9258e5f20c44dcfa513c83aa200071e7c7ced7a63fe56549e2c01f97cccde77088cb72433f3f8451b8951154aab9a58d4a884
-SHA256: a95c5a898226c49740f9852466dde209e8a7aab761c974bb6973449596c91762
-SHA1: 698cc8c43a5c0c9a7807485ff72e92bba3f8b3a0
-MD5sum: ebae67418952b5b65511bdeb87ff3dd4
+Filename: pool/main/x/xorg-server/xserver-xephyr-dbgsym_21.1.22-1-maruska_amd64.deb
+Size: 4138888
+SHA512: 2349b7ecf553705e3bebc0542c1bb1474976082b961bb6bdd79d8a7224827b3f9b8f4641429f1a27b99ba1a87aaab8cf2da7b6f598eda594b2eb21886dc81043
+SHA256: de4c2d15a7b8c2341f18e9b7ccd9a126335e0b7f10c18ee51bd213b968a6d28f
+SHA1: bb9c6d5515492c0c5921de2abfac0923e710ef27
+MD5sum: e4a98f5a86b8618d2bedd6c0e61c4af4
 Description: debug symbols for xserver-xephyr
-Build-Ids: 4c7ae02f083b285d3f5f28f3ae99d41368c0cdc6
+Build-Ids: 806827a8b91d042ab5c0524d3ab691356cabc830
 
 Package: xserver-xorg-core
 Source: xorg-server
-Version: 2:21.1.21-1-maruska
+Version: 2:21.1.22-1-maruska
 Architecture: amd64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 3998
-Depends: xserver-common (>= 2:21.1.21-1-maruska), keyboard-configuration, udev (>= 149), libegl1, libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libdbus-1-3 (>= 1.10), libdrm2 (>= 2.4.107-5~), libepoxy0 (>= 1.5.4), libgbm1 (>= 17.1.0~rc2), libgl1, libnettle8t64, libpciaccess0 (>= 0.12.902), libpixman-1-0 (>= 0.30.0), libselinux1 (>= 3.1~), libsystemd0, libudev1 (>= 183), libunwind8, libxau6 (>= 1:1.0.11), libxcvt0 (>= 0.1.0), libxdmcp6, libxfont2 (>= 1:2.0.1), libxshmfence1
+Installed-Size: 3995
+Depends: xserver-common (>= 2:21.1.22-1-maruska), keyboard-configuration, udev (>= 149), libegl1, libaudit1 (>= 1:2.2.1), libc6 (>= 2.42), libdbus-1-3 (>= 1.10), libdrm2 (>= 2.4.107-5~), libepoxy0 (>= 1.5.4), libgbm1 (>= 17.1.0~rc2), libgl1, libnettle8t64, libpciaccess0 (>= 0.12.902), libpixman-1-0 (>= 0.30.0), libselinux1 (>= 3.1~), libsystemd0, libudev1 (>= 183), libunwind8, libxau6 (>= 1:1.0.11), libxcvt0 (>= 0.1.0), libxdmcp6 (>= 1:1.1.5), libxfont2 (>= 1:2.0.1), libxshmfence1
 Recommends: libgl1-mesa-dri (>= 7.10.2-4), default-logind | logind, xcvt
 Suggests: xfonts-100dpi | xfonts-75dpi, xfonts-scalable
 Conflicts: xserver-xorg-input-evtouch, xserver-xorg-video-modesetting
@@ -5529,12 +5529,12 @@ Provides: xorg-input-abi-24, xorg-video-abi-25, xserver-xorg-video-modesetting
 Homepage: https://www.x.org/
 Priority: optional
 Section: x11
-Filename: pool/main/x/xorg-server/xserver-xorg-core_21.1.21-1-maruska_amd64.deb
-Size: 1434024
-SHA512: 6a66dff60804235e25efa001c820c1451792efbd3b4ee872595b6343486c4989b6dbde3a929bbc28bdee958544fe0424d3fa3a8a92190a1cc7ce8cafb1859ca3
-SHA256: 9ed682b0be158f3d30263e50cb32e4ff60abd004f4df6804d154613e92f79139
-SHA1: 8f675cdf5a071f5cec69df7bdda4e557b690ff8a
-MD5sum: a3d5c5f9c6e5131884760b73b2bc03c7
+Filename: pool/main/x/xorg-server/xserver-xorg-core_21.1.22-1-maruska_amd64.deb
+Size: 1432976
+SHA512: 4bfc9c0629264d44ec10ffec5b012eddef5d6e7a56d8af81e46f94e5ea546ed3b35edde25c2744c0bfeb9b1ac30c4f3c781b75c977de38a35b30180fcbca384b
+SHA256: f7a52e9d07386245d3d28fdde9f13ffc412589009be9802f377fbf5fa1730450
+SHA1: 4b0bf3b6e24292bea53dd49a66dc603124722f38
+MD5sum: 020854406be88f79c332eca7f56257ae
 Description: Xorg X server - core server
  The Xorg X server is an X server for several architectures and operating
  systems, which is derived from the XFree86 4.x series of X servers.
@@ -5546,43 +5546,43 @@ Description: Xorg X server - core server
  <URL:https://www.x.org>
  .
  This package is built from the X.org xserver module.
-Dgit: 857d82427837565bd76fe601f26d43a9a13afcdd
+Dgit: 7839e2dbdcd51a952b70935564998a0030271c48
 
 Package: xserver-xorg-core-dbgsym
 Source: xorg-server
-Version: 2:21.1.21-1-maruska
+Version: 2:21.1.22-1-maruska
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 6936
-Depends: xserver-xorg-core (= 2:21.1.21-1-maruska)
+Installed-Size: 6939
+Depends: xserver-xorg-core (= 2:21.1.22-1-maruska)
 Priority: optional
 Section: debug
-Filename: pool/main/x/xorg-server/xserver-xorg-core-dbgsym_21.1.21-1-maruska_amd64.deb
-Size: 6022168
-SHA512: cf9fc3134aa7d1f318a578f3af8e2a75f017d98a988ff320f29a8b44938c46e363cde80f71cc78ffe04d598281f1d567d9ab75e1763bf98e3b71d55fbe563975
-SHA256: 16f4dcfdbfbd37785d927f169b9b6b190dcf63dc7ec1849403e37a1d48e3cca5
-SHA1: b43153f069c9e9e8c5d9cca77bec782065010410
-MD5sum: 70484941675a39854da986cab8596554
+Filename: pool/main/x/xorg-server/xserver-xorg-core-dbgsym_21.1.22-1-maruska_amd64.deb
+Size: 6025232
+SHA512: 68501f17c7ca69c16fd8ee35b51406cf0ffdde254bd49cc78ca4267839f239658ae50fa8301aff3aae236fe70ccc22577addcdee525b9244aa9d7fc717fb7c3e
+SHA256: eb3ab3874ad8fc2652b5347c52d1164633bfefedd32e791e7f3a2f8befeed722
+SHA1: 8454ec8ef17f1252104af9fe0979fee0bc6d7f15
+MD5sum: 5a1e8f56c34640b0b55008a8545e85aa
 Description: debug symbols for xserver-xorg-core
-Build-Ids: 12a3066dffd8e960fb8d34ef73ea98f7814ecf43 20aa3b5a971f43fe6afe22a986de9eb97abb1261 308bc4e940802918f6c1d9cdca14306b352efb9f 3216932570ca050292bfdbccfff15c2f4f11c490 5a0c8976ec58a27f4411ad259822dcd73f0bd2f4 64081e581f68347bc2a2653070ad327e42fef9e1 7603d415f7eb2dce562250cdb4e907b8a1e1a93f 78751837338ce10a69710514e6276da7e1683d36 859a4474b43e05ee46989c5617bd3d03b096e1fa 93c582a93aab4d71eb2286de5373b27624e1acc7 d226d5ecf0919755da7256c184180245d940486c d55fe796420d1f5fd08c0adfcebf3ef2600decff eaa079f6e263aeb84ed09a97a1cd5e5a53af7b64
+Build-Ids: 03f215c47f6bce3cc349fca965e7dc8fadde4d2a 2ec6fa1df6abf5ea71ed789f8f718b2b03e1abfb 3e25a2e8a178940ec28a1435ee1e306a7910ff32 479b10e3b0b0a29eca9160ef389eb10509257abd 579e988a0196e712115c25add3c652bb850f7247 58d7ee7b1ec47402dadb4be8aa540ea8ee0aafcb 71c2703f3887e711957af0cb8562d17bcf8fe208 78d772b0f513b09d718e29a81473609dc5733da1 932300798f31070b55cebd21d62d64851acdb439 c756c4a4b847c55e23b848095d6fa53e17d19121 dd9801d4abd65f65707b9052214c8fe47694d9d0 e579a8099985e100307d86b4cc4d5965d5be5c6f fde9195cde8d667dfc34ecbff8dc2c7eefca7c1f
 
 Package: xserver-xorg-dev
 Source: xorg-server
-Version: 2:21.1.21-1-maruska
+Version: 2:21.1.22-1-maruska
 Architecture: amd64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 1355
+Installed-Size: 1352
 Depends: libpixman-1-dev (>= 0.27.2), x11proto-dev (>= 2021.5), libxcvt-dev, libxfont-dev, libxkbfile-dev, libpciaccess-dev, mesa-common-dev
 Homepage: https://www.x.org/
 Priority: optional
 Section: x11
-Filename: pool/main/x/xorg-server/xserver-xorg-dev_21.1.21-1-maruska_amd64.deb
-Size: 208036
-SHA512: 6dcd973b79d7712ae2a29649eab487d405705875d21eaa782001aeca9fda1f306af1403444e12bbfc63d4b412bf5e40b5ac186699acc85465dd3ec7593cb266e
-SHA256: e7469ce8ebbd022ce1e9ad8dc864c3132e1c77c5c2b31cd5fcb2d2a7968f9a0b
-SHA1: 1a6e0f2ce58dfc2540ef5becb3ca92d63ed99937
-MD5sum: 8365de28388ba50b0d6f0fe8f7833d41
+Filename: pool/main/x/xorg-server/xserver-xorg-dev_21.1.22-1-maruska_amd64.deb
+Size: 205496
+SHA512: c1adafb26cee68598ba109eb9687d0ddb7920c8fa2e64a188e32b17be466d12f0955831bcfc649183c035fe7cd6d810a4610f48ad2af7146af37dded34cc2147
+SHA256: e199f18b88f7a5bdea150d5e5b7febbe74bb3cd366fa97a1b541226812966de1
+SHA1: 51d1747c51d99a27fa2c7ae62c9d38d19e5f79a8
+MD5sum: 8b1b24d45cd1d06fa547d14da9bd9404
 Description: Xorg X server - development files
  This package provides development files for the X.Org ('Xorg') X server.
  This is not quite the same as the DDK (Driver Development Kit) from the
@@ -5597,7 +5597,7 @@ Description: Xorg X server - development files
  <URL:https://www.x.org>
  .
  This package is built from the X.org xserver module.
-Dgit: 857d82427837565bd76fe601f26d43a9a13afcdd
+Dgit: 7839e2dbdcd51a952b70935564998a0030271c48
 
 Package: xserver-xorg-input-evdev
 Version: 1:2.11.0-1-maruska
@@ -5754,45 +5754,45 @@ Dgit: 5942ba10e4603f0b8efb934b83f5d472f00df415
 
 Package: xserver-xorg-legacy
 Source: xorg-server
-Version: 2:21.1.21-1-maruska
+Version: 2:21.1.22-1-maruska
 Architecture: amd64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 181
-Depends: xserver-common (>= 2:21.1.21-1-maruska), libc6 (>= 2.34), debconf (>= 0.5) | debconf-2.0
+Installed-Size: 178
+Depends: xserver-common (>= 2:21.1.22-1-maruska), libc6 (>= 2.34), debconf (>= 0.5) | debconf-2.0
 Breaks: x11-common (<< 1:7.7+10~), xserver-xorg-core (<< 2:1.17.2-3~)
 Replaces: x11-common (<< 1:7.7+10~), xserver-xorg-core (<< 2:1.17.2-3~)
 Homepage: https://www.x.org/
 Priority: optional
 Section: x11
-Filename: pool/main/x/xorg-server/xserver-xorg-legacy_21.1.21-1-maruska_amd64.deb
-Size: 38544
-SHA512: 157807ee5c55b43016e5403bcc8c360a3650a6bc0be41fad026a562d9314370b517804ecd0f4b0fe27bca6c653402e32579a0503f08acb9897347f2f34df31a0
-SHA256: 18745b2c73352341b9ca3b7bf34487e6778623bf65ad2ac5ca77f8ad012ad4b9
-SHA1: e96c14df4e4f7096ed815ab6a380c953a5e69d7a
-MD5sum: 21e78103b2a156b5ad6516d5d864b83f
+Filename: pool/main/x/xorg-server/xserver-xorg-legacy_21.1.22-1-maruska_amd64.deb
+Size: 36024
+SHA512: b48645ba5fa9771f5e79538bff1c12dad595f17ac7bb626219f4b4c8f27517860b3a22174b47267b5c6500d60acd5438ee3025c11b49837e872715c570c6e4eb
+SHA256: 7dc6fadf2d4309ddf6745d67175729b86a9630e9f1e45d90b1d4eae07153b4c5
+SHA1: d16ef66218f81e3c1ea2ed7d6398c2d7895c4ed4
+MD5sum: d118403cf3b88d4dade80a065c9932a2
 Description: setuid root Xorg server wrapper
  This package provides a wrapper for the Xorg X server, which is
  necessary for legacy drivers and non-Linux kernels.
-Dgit: 857d82427837565bd76fe601f26d43a9a13afcdd
+Dgit: 7839e2dbdcd51a952b70935564998a0030271c48
 
 Package: xserver-xorg-legacy-dbgsym
 Source: xorg-server
-Version: 2:21.1.21-1-maruska
+Version: 2:21.1.22-1-maruska
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 27
-Depends: xserver-xorg-legacy (= 2:21.1.21-1-maruska)
+Depends: xserver-xorg-legacy (= 2:21.1.22-1-maruska)
 Priority: optional
 Section: debug
-Filename: pool/main/x/xorg-server/xserver-xorg-legacy-dbgsym_21.1.21-1-maruska_amd64.deb
-Size: 9092
-SHA512: 8e692beca03689cbc39a83fa8dc5fcf75241fca68f3422f9fff61bbdf51dddb7f094425962845cf231128e27a2f998ade2b4f6301a4395d1ac58d280d417063e
-SHA256: dd84b36916f29c79d68120c6229dfb3fc0c4c698a65c90951be3f9cd24912228
-SHA1: c18921bd46a11e535c563cc41536fb72806ba118
-MD5sum: b25df4ddc2ef407ffa5eb3c008017ffd
+Filename: pool/main/x/xorg-server/xserver-xorg-legacy-dbgsym_21.1.22-1-maruska_amd64.deb
+Size: 9128
+SHA512: 8a87b2ae934524924065cf66b3dff76f538cf15dfc3c64af5d2b7911122e107cba29c7d95c1b9498677e93b9c8dcf86da865b35c966082c2e4caa7a553ecc13b
+SHA256: baea9dc6719ef0d767cb792b23e53de04a1528f1b0997113bf7334ced5b96dc4
+SHA1: cf975c58af5f80c51514292bdd3d7639552a4227
+MD5sum: c2eb73526b079b1d1a38533e1729014b
 Description: debug symbols for xserver-xorg-legacy
-Build-Ids: 456839b332642aab277f5f9ce93b865fac82d42e
+Build-Ids: 4ff86a36368e5b11360a772c7d307743d2666544
 
 Package: xv
 Version: 3.10a-28maruska5
@@ -5866,23 +5866,23 @@ Description: XV Documentation in Postscript and HTML formats
 
 Package: xvfb
 Source: xorg-server
-Version: 2:21.1.21-1-maruska
+Version: 2:21.1.22-1-maruska
 Architecture: amd64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 2241
-Depends: xserver-common (>= 2:21.1.21-1-maruska), libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libgl1, libnettle8t64, libpixman-1-0 (>= 0.30.0), libselinux1 (>= 3.1~), libsystemd0, libunwind8, libxau6 (>= 1:1.0.11), libxdmcp6, libxfont2 (>= 1:2.0.1)
+Installed-Size: 2238
+Depends: xserver-common (>= 2:21.1.22-1-maruska), libaudit1 (>= 1:2.2.1), libc6 (>= 2.38), libgl1, libnettle8t64, libpixman-1-0 (>= 0.30.0), libselinux1 (>= 3.1~), libsystemd0, libunwind8, libxau6 (>= 1:1.0.11), libxdmcp6 (>= 1:1.1.5), libxfont2 (>= 1:2.0.1)
 Recommends: xauth
 Provides: xserver
 Multi-Arch: foreign
 Homepage: https://www.x.org/
 Priority: optional
 Section: x11
-Filename: pool/main/x/xorg-server/xvfb_21.1.21-1-maruska_amd64.deb
-Size: 846804
-SHA512: f82a94864607926924244fff2ef25181c6c977af198ebfb7037da12dfbd2dc84eae9d6b63dd3e002c500b3e75e321fbfc2d4e23e400b35ce6ca30c967592455b
-SHA256: 4402871708c8fe2963b87b762e28ece7423990817d570f8c6f7de85dbd090dd0
-SHA1: f4bb25e93d6e7a95df96fd29acc1a2d997d7b546
-MD5sum: 8b8c5083d497cb295a74ceeedc251494
+Filename: pool/main/x/xorg-server/xvfb_21.1.22-1-maruska_amd64.deb
+Size: 845280
+SHA512: e600648d093d4958d535bfbc2ad60d265bf0203c11f7c2553c3c99700c6e4afcb271af0f565a96a14d1a64ae3ebbea9eadfc9fcfd6c1c03de6f9f773d9455212
+SHA256: c1ac194ebc95f653a4335153d286b0e1bf9cf81fc8171aeb46f132ff489f9a45
+SHA1: 20f232cd721668572fffb20fff0500491aa03f1e
+MD5sum: 18256de17de60b22232313d1c335eae3
 Description: Virtual Framebuffer 'fake' X server
  Xvfb provides an X server that can run on machines with no display hardware
  and no physical input devices. It emulates a dumb framebuffer using virtual
@@ -5903,26 +5903,26 @@ Description: Virtual Framebuffer 'fake' X server
  <URL:https://www.x.org>
  .
  This package is built from the X.org xserver module.
-Dgit: 857d82427837565bd76fe601f26d43a9a13afcdd
+Dgit: 7839e2dbdcd51a952b70935564998a0030271c48
 
 Package: xvfb-dbgsym
 Source: xorg-server
-Version: 2:21.1.21-1-maruska
+Version: 2:21.1.22-1-maruska
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 4019
-Depends: xvfb (= 2:21.1.21-1-maruska)
+Installed-Size: 4022
+Depends: xvfb (= 2:21.1.22-1-maruska)
 Priority: optional
 Section: debug
-Filename: pool/main/x/xorg-server/xvfb-dbgsym_21.1.21-1-maruska_amd64.deb
-Size: 3440848
-SHA512: 92db64c29d1f439b911cac5d581a8cc21f209e63e85ed19488cdbe91b8beee5cbff0bb47ae00b502e9df8f6af9f8e399db0032b0b90212f45ac1941f5286fbfb
-SHA256: 47b458d3641037458611498681da17c529ec03bd7b9a5519c10b61c008743197
-SHA1: e3e0e9936312c4255c206b6e9eca199c70152980
-MD5sum: 2525217c97de0f370c095d787e3e9895
+Filename: pool/main/x/xorg-server/xvfb-dbgsym_21.1.22-1-maruska_amd64.deb
+Size: 3445052
+SHA512: 895b04353af1e7ab9159f90fc42f2fbb4d84f6b4ea7b3f358a020e9c5b1aac6946cd8b9048a5328ad3c4f0d556e40ea4f73603711ac65204cd9ce25f186dc2b5
+SHA256: 8d4da833b754ebfedb6a23e7b6c0265248981ab694dd118472bff63efaba4f6c
+SHA1: 28a655749ebcb9c118207aee66514301f078c5fa
+MD5sum: a57c1f3149a82d701b53996346acdbfa
 Description: debug symbols for xvfb
-Build-Ids: 899be5644b03e00a9c765c9db071fd8d99be9095
+Build-Ids: 1ffd13ce03fdb8baa0f7eac23bb006005206c0ac
 
 Package: zsh
 Version: 5.9-8-maruska1
