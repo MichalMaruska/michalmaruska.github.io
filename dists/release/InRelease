@@ -5,7 +5,7 @@ Origin: maruska
 Suite: release
 Codename: release
 Version: 20.3
-Date: Tue, 24 Mar 2026 15:35:44 UTC
+Date: Fri, 17 Apr 2026 10:51:48 UTC
 Architectures: amd64 i386 armhf x32 arm64
 Components: main
 Description: Development Snapshots from my sources in Git.
@@ -87,17 +87,17 @@ SHA512:
  5f2b6d65a995a3bee71d8f71ffec9bc1e31c454d96e7160142a8eaf56d3cf3dd8704baa0f1ce307f979674c616443c29d2ab038fe8fe2c0077e2d8d046156f5b 143 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEOIgIVJ0mNBtkhSlh+VQApk/CXA8FAmnCr1AACgkQ+VQApk/C
-XA8wHxAAm6eo9u3CPT5RaG2xFo562uD4EgTCkK3Pz06iURbvBt0kqu5nSBnjAzrH
-o9KkFIHFFj3zNcKGwsTtxn46KoMfYHBcPpqAg1FhcRENnnVoUj7EoBnYF/yAqeaU
-E92dzuVKOHT0FXhIZPvqi64z/HlsRlXlTi/pUIK6pJC+BgYLhWLnNnpYIbOhNEax
-vYLG+Sqhw0h2TgTuYxEjIlBBCMQsgX2JNjk4ttdzcH19mg2vtCjmaVzy+pG+eVEM
-1jgl/mJn7T+XTxoJr5sUno9Rwp9xOJxsytfN7F9yPK0Klp3kLi5X38na8PV/otJc
-9QOyrmgjcM/uiuTXHG5Sqkx/OqtqAW+r2M9zJ/AlumykCQ80VDjcAKTL/EEg0f4T
-NLG27hEgzE7jWa6M2r4cJywwnNXoaXobI/cmOPoTht7R5oW25i7d40ViJpWYGShF
-t4XAOXWMXPvnadIwD7WJOiVIEW4N1v/98HqEs6/VCtwJ3qUnCXgeGfHtPu47ttWa
-eVkK89NvGT4P4zitPBnjBgiOxYO5NUFwDCXddBFskegDgxb1lxqhOaPp9hqow1Ut
-mOtA8PXr0IK7mNp0XplKY94n4tVYcAQsqoy8HSBPmaT1GPdkL60+33dpWkeFu4NC
-0vOSGYUo8trQt3fY4D7IFNNiXHrP9RPJsMGQs+bPGXw2VYnYU9o=
-=/CkB
+iQIzBAEBCAAdFiEEOIgIVJ0mNBtkhSlh+VQApk/CXA8FAmniEMQACgkQ+VQApk/C
+XA+5Gg/9E9hJbnMX3LD/x+FS2i8xDAqrQsoObLAqUGTlch+yoWOcyjoOoYRSAz9M
+ROziODzCerHblPr9TgdUZpWq062Ue+bNDuWaFA6iutzsdvNz6QKMDPPz/LzLGVKI
+NtiUNda+0kqwQf1Q0D8ds9gqPXo4YfKtjx0OQCLhh5s35tFa+ZTI+hMG2Su22wgM
+RurZPz3sixi7ZhqzOX8omGIpoymPCr573Bm/DXuzotZAEIAGPwcIizDuxHYtTqqs
+W6wImT1MMCiknkVkCfjIJI2A+ormFx/mjDOGxfrfWj3zAH2eSjgJUjf2zytea3sQ
+BxDC7Redi/trb6viXqYzUIzsU+s8vdpmll3cVfvTAjX+npgF7BQkGNalt8LRJKK5
+GxXFfvM0OuldSeran93xwfeG4pWlNlXXtkM1XcVLswi7lq9xedV4P5ioOiOwAtof
+b8GqsvmLyPL4mZxS6G+CIKe1fcLl6zDxyvqppWlIoDKW8Jp7rps/AW+09Vati9x0
+Hxm8Ogb9ESdW1DNHlDdQJGTGMmhb1K2We6g4QqjU5VGth9jrODIH1xfVC/HOK7qj
+4DLeBFEh+67OefaxJ5zuXp0HDSPa6jvNeRbyWKEJU/lYOudPf2yR2I7Jb3mcY4HF
+Ya1aJKqb8cu8vFvQc70kJrGj7faHVCiLTQvyHWO/mRfGNQaBXMI=
+=VV89
 -----END PGP SIGNATURE-----
