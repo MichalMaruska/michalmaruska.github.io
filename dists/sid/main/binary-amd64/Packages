@@ -1601,7 +1601,7 @@ Build-Ids: 3a4b3f9dc6a3eeb8c016191cafac5a6505b2910e
 
 Package: libinput-bin
 Source: libinput
-Version: 1.31.0-1-maruska
+Version: 1.31.1-1-maruska
 Architecture: amd64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 168
@@ -1610,12 +1610,12 @@ Multi-Arch: foreign
 Homepage: https://www.freedesktop.org/wiki/Software/libinput/
 Priority: optional
 Section: libs
-Filename: pool/main/libi/libinput/libinput-bin_1.31.0-1-maruska_amd64.deb
-Size: 28892
-SHA512: 23325287078d389d1038c4f91e64b037d4ce51ed29d480686917e35f03a3a5fa869ab47334f7885413866545a265ac0839b95f2b8da5abfe51aeb88b7be76eb0
-SHA256: 6c67678cd957f003a052c8f996d2c3325b3242a07b0c94a78ee66e5658a3f9b4
-SHA1: 325afe8605f75ebf3388c1cbbaa77e5ccc850b3d
-MD5sum: da9f43b98fd0721d3b4b04d59355e3a2
+Filename: pool/main/libi/libinput/libinput-bin_1.31.1-1-maruska_amd64.deb
+Size: 27648
+SHA512: f11c3aaa2282d9a437fca60d3e324a91d6ec6d1769898280e5dfc2a9c10a15c6358fec5b2b93a13056da6ccc3904c59e3a2cbd00151589d203f68023b3242a56
+SHA256: bbcd86efc4b4205804664885b80bae65993e95ec6d26070fc2f0f14951d24dac
+SHA1: bd22f0ddbb8b2c4352b8a729f340c1036a953008
+MD5sum: d74cc768c13db0f4b58a16cff9a70eaa
 Description: input device management and event handling library - udev quirks
  libinput is a library that handles input devices for display servers and
  other applications that need to directly deal with input devices.
@@ -1626,44 +1626,44 @@ Description: input device management and event handling library - udev quirks
  functionality that users expect.
  .
  This package includes the udev quirks database and helpers.
-Dgit: 0de304bff5c0be8490b9d1f2e3f1d3feac695689
+Dgit: d5a47fea7fac2eee561ac344e0bb9f010a31428e
 
 Package: libinput-bin-dbgsym
 Source: libinput
-Version: 1.31.0-1-maruska
+Version: 1.31.1-1-maruska
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 81
-Depends: libinput-bin (= 1.31.0-1-maruska)
+Depends: libinput-bin (= 1.31.1-1-maruska)
 Priority: optional
 Section: debug
-Filename: pool/main/libi/libinput/libinput-bin-dbgsym_1.31.0-1-maruska_amd64.deb
-Size: 33600
-SHA512: 89ce06cf93fb470af784a522a9c27e456d2d627aa9ba4a8d190685a349be75edda694382655e667c7efa304dcbf22eb634254c5d8f11116063c391e07bdb51a1
-SHA256: 2f312bd24d89d8bab29adeb9c8b7338be9651a35e621f907bb8d7cce6aa26c1c
-SHA1: 2ddb081233110657cc78f13d94f0510f0a7357f8
-MD5sum: cbd4ed178f3ee2ddcdaa9837ce7a8cb4
+Filename: pool/main/libi/libinput/libinput-bin-dbgsym_1.31.1-1-maruska_amd64.deb
+Size: 33608
+SHA512: 0c80313b2a7d3736ddda46463cec08a5be227487e70a6b1facc685c0f211bf7efa599f38e3262dcddf828dc01d732ef0c19e071f628727a18dc414fca552ff9e
+SHA256: cff0138c9174be34bd997a9ba331c1489d6f58803fcec0f0b438d96bdd922991
+SHA1: c2433210603f4484fef5c90f1c0c182683dcb5b4
+MD5sum: df389683746772f395b6697ff4bd0e5f
 Description: debug symbols for libinput-bin
-Build-Ids: 777bc45ab26bfac34af38cdb5bf5499cd3ee8e02 98a011271ab218c4fa4a3fe6d600d93bf109ef62 bad984ce35be75b98891b2ef3ced49c907f1be5d
+Build-Ids: 28605d65a2eafc43f6dd2bfa0a9ccc99a1040c13 b29f775bf4657479b7c19d123617efdd3501482e d3dcb959be425ab6cb01dd56e332489aa4e28c15
 
 Package: libinput-dev
 Source: libinput
-Version: 1.31.0-1-maruska
+Version: 1.31.1-1-maruska
 Architecture: amd64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 259
-Depends: libinput10 (= 1.31.0-1-maruska), libmtdev-dev (>= 1.1.0), libudev-dev, libevdev-dev (>= 1.10.0), libwacom-dev (>= 0.20)
+Installed-Size: 258
+Depends: libinput10 (= 1.31.1-1-maruska), libmtdev-dev (>= 1.1.0), libudev-dev, libevdev-dev (>= 1.10.0), libwacom-dev (>= 0.20)
 Multi-Arch: same
 Homepage: https://www.freedesktop.org/wiki/Software/libinput/
 Priority: optional
 Section: libdevel
-Filename: pool/main/libi/libinput/libinput-dev_1.31.0-1-maruska_amd64.deb
-Size: 38668
-SHA512: 657a0920f078489379390d0a9f9de1c3d8b5244de1176c83ba75de95c7ded7fc2b62a2859d49317a32cec520a22bac64936bddfd1e43a96c1a442b6ab5010463
-SHA256: ba961839f2d5bba752e9f374a1540b24e972d793bc9917429dec20fbe3ab8e52
-SHA1: 2a13831746d3e665df8b0f45f064d0252bfb0b57
-MD5sum: b927cf282c00f93ebc2058cd3bff9405
+Filename: pool/main/libi/libinput/libinput-dev_1.31.1-1-maruska_amd64.deb
+Size: 37428
+SHA512: 5601157469c7a84434c1d27277a6de87c45a3844bf180f4d6b716cc1d1a41fc1f48a0635f6e643ca6cc2e88f27ab6ac5a575e30cac310231cc0aa0c0de52bfa4
+SHA256: da1ad08214bfdf60df40e7db75df43b27012fc5cbcf588cc1201202272a77645
+SHA1: 94aeffb344c0fcf06cd566033afc64caff9b2591
+MD5sum: 865d79195f69ca51e4789e0d57d0cba4
 Description: input device management and event handling library - development files
  libinput is a library that handles input devices for display servers and
  other applications that need to directly deal with input devices.
@@ -1674,25 +1674,25 @@ Description: input device management and event handling library - development fi
  functionality that users expect.
  .
  This package includes the development headers.
-Dgit: 0de304bff5c0be8490b9d1f2e3f1d3feac695689
+Dgit: d5a47fea7fac2eee561ac344e0bb9f010a31428e
 
 Package: libinput-tools
 Source: libinput
-Version: 1.31.0-1-maruska
+Version: 1.31.1-1-maruska
 Architecture: amd64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 1084
-Depends: libinput10 (= 1.31.0-1-maruska), libc6 (>= 2.38), libcairo2 (>= 1.2.4), libevdev2 (>= 1.10.0), libglib2.0-0t64 (>= 2.30.0), libgtk-3-0t64 (>= 3.19.12), libudev1 (>= 183), libwayland-client0 (>= 1.20.0), libx11-6, python3, python3-libevdev, python3-pyudev
+Installed-Size: 1083
+Depends: libinput10 (= 1.31.1-1-maruska), libc6 (>= 2.38), libcairo2 (>= 1.2.4), libevdev2 (>= 1.10.0), libglib2.0-0t64 (>= 2.30.0), libgtk-3-0t64 (>= 3.19.12), libudev1 (>= 183), libwayland-client0 (>= 1.20.0), libx11-6, python3, python3-libevdev, python3-pyudev
 Multi-Arch: allowed
 Homepage: https://www.freedesktop.org/wiki/Software/libinput/
 Priority: optional
 Section: libdevel
-Filename: pool/main/libi/libinput/libinput-tools_1.31.0-1-maruska_amd64.deb
-Size: 171124
-SHA512: 57d330880bcda3f87c3d2e2a9b68e6c9bf40c74b4e3788f190e408ef3d78c1edbd5ce1221993a31aa8da31d5a20524cf48771660aa5cde7cfb16fb31bf65d19f
-SHA256: bc9e1ec425b4070297ae146f78fbf46d326865a96e140204380e757828de0a33
-SHA1: a95a1ae120f856a6d8ebc27a8c31f517fa678d88
-MD5sum: 8680a049a93e14a044488c7d1be34c21
+Filename: pool/main/libi/libinput/libinput-tools_1.31.1-1-maruska_amd64.deb
+Size: 169312
+SHA512: 991f59e4cc85306a187ff422efc6754f2d5f67c7c2209d9b86b4326d085eeb9dd7910c138a4ab483ee14b62d52de754f288a68883b33e51c2547adab372e5e35
+SHA256: bf0ff6e8e7ee0356cb5b3d079e113b75f26ec1ae77708027eaa10ac2360a8a1a
+SHA1: f003a47bcb024d69af108f2b9e00e9cbb654f11c
+MD5sum: 6e705e920482f59da5c164129004b402
 Description: input device management and event handling library - command line tools
  libinput is a library that handles input devices for display servers and
  other applications that need to directly deal with input devices.
@@ -1703,44 +1703,44 @@ Description: input device management and event handling library - command line t
  functionality that users expect.
  .
  This package includes the command line tools.
-Dgit: 0de304bff5c0be8490b9d1f2e3f1d3feac695689
+Dgit: d5a47fea7fac2eee561ac344e0bb9f010a31428e
 
 Package: libinput-tools-dbgsym
 Source: libinput
-Version: 1.31.0-1-maruska
+Version: 1.31.1-1-maruska
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 1365
-Depends: libinput-tools (= 1.31.0-1-maruska)
+Depends: libinput-tools (= 1.31.1-1-maruska)
 Priority: optional
 Section: debug
-Filename: pool/main/libi/libinput/libinput-tools-dbgsym_1.31.0-1-maruska_amd64.deb
-Size: 915024
-SHA512: 1cc4a7e59e0477feaf15e1416abeda8ad12acff0d445104b78f6541da66bbd31bbfc98c431e948092359056e548b12880972f56826c9230635f38ebecdd7ad5e
-SHA256: 0bd0e8b17417ae6995968d2cd0995a4c2743315fa13761350fe1836fb8468acb
-SHA1: b8b567ce1b80908949e9b7c8cc0cbedb6f9a74f2
-MD5sum: 81216fae224d0531f35d9c471cd89e38
+Filename: pool/main/libi/libinput/libinput-tools-dbgsym_1.31.1-1-maruska_amd64.deb
+Size: 915136
+SHA512: d8a1f6f53669463682bf0fa5641773b6e7f74ff1436d7b5a05e5aec9a9fd035d0d9adaa362e5a6737037cc649467fb5cc0b41ff988bc491c3efa2931b7d04782
+SHA256: 66fcc64e09c8b0105545e92c68cf519a1a64f6aed33889d44f0e57c6b072d035
+SHA1: 55304f2b2f51fd0bbdcf6680a7be5147999fb084
+MD5sum: e3b5a70ece4d74e65b77a3ac33b7ef94
 Description: debug symbols for libinput-tools
-Build-Ids: 028b02ca4add77cd14d07c50476da74f5d8565ab 15b4811813747828e381d1b93342844fe511bf21 1cf4b0faf8c59ba0f4d192f9fe0a283c97a4adb5 383ede923db7d6b997872ca8b79ff78322415822 57871bd1464f0e4b917eb029d28cc61a966cbdc4 60eca916e5a112ff996a81fd045bc733df4b03c9 8657020a2740c5d8c4e5f2e61f203ce444361455 a2706c502396b8315c87aeff613a25115ce9298c b5ca337c8673ca6fb286f75b7e7f4e14a39cf644 d10e92d343e11c8f292d6086d3dbdc8c2f5a7090 d344b458234d7ab6d65a2e897b02b81b2ea0fcf3
+Build-Ids: 09e4da4a8e3cabc1000906eddb50945a15ff54c5 1c174a0f7a917314e8055e89515b7b39d5914a49 3dd528c674e2f94188fcd451ad4c196e9f9a9a2b 5a305baeecb5fb5d1175b06a7ea57e4456d92e87 61a842b636d7e9ac81c3d1cd3a65915a99404c6c 620467b1d258c920ef12a8fc3837d479ebca1315 7589d09a8d284a1be21a01a43fd4291ba5f1bb71 94f9efa9c30b813ccbea9b62e31a8a48b4fe666c 956316bc39e879143d8c20429620b14e1e4a884c c769ad89ebdf5e9ca827108f02751fa4ad63263d f82eea0f72272bd1cd0a247da9db30afdbe6c0d1
 
 Package: libinput10
 Source: libinput
-Version: 1.31.0-1-maruska
+Version: 1.31.1-1-maruska
 Architecture: amd64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 475
-Depends: libc6 (>= 2.38), libevdev2 (>= 1.10.0), libmtdev1t64 (>= 1.1.0), libudev1 (>= 183), libwacom9 (>= 2.18.0), libinput-bin (>= 1.31.0-1-maruska)
+Installed-Size: 474
+Depends: libc6 (>= 2.38), libevdev2 (>= 1.10.0), libmtdev1t64 (>= 1.1.0), libudev1 (>= 183), libwacom9 (>= 2.18.0), libinput-bin (>= 1.31.1-1-maruska)
 Multi-Arch: same
 Homepage: https://www.freedesktop.org/wiki/Software/libinput/
 Priority: optional
 Section: libs
-Filename: pool/main/libi/libinput/libinput10_1.31.0-1-maruska_amd64.deb
-Size: 162056
-SHA512: 25c34e7ec7899b69acae2e3154dcd1ba0aa5b32bbb35dad6bf2b15e97d5aab467f4e7a188204019549f3ae4467b427955ea1c4a8e74bcb3a7bd32eb0010ea4a3
-SHA256: dd186f2013b15a8ccd4e6bb27895fdeaf3dffd85ecd02e6c88d89e1ebba5e676
-SHA1: bc90bd2635c6eec065e2550b609040b3cc1d9746
-MD5sum: 7ea5fb41aeb3dfd72e4cb0917e883b90
+Filename: pool/main/libi/libinput/libinput10_1.31.1-1-maruska_amd64.deb
+Size: 160540
+SHA512: 1b43727b8ec5ea4177d9789d3903c69fd533b9e6227addd7d63bca4ebd88f769925b530a9e75d55798b224603b947f7425a0ae7500f17ad2614ad80949ae46e2
+SHA256: d5f1476efd98bd1d41acc7cf2c6c2ea8705bf89375230a81ea5716e75b12e279
+SHA1: 02370f6ab7443498b640478727d0fbb5fd51d1b7
+MD5sum: bb4b9f10c17d641fb41fc55f97388071
 Description: input device management and event handling library - shared library
  libinput is a library that handles input devices for display servers and
  other applications that need to directly deal with input devices.
@@ -1751,27 +1751,27 @@ Description: input device management and event handling library - shared library
  functionality that users expect.
  .
  This package includes the shared library.
-Dgit: 0de304bff5c0be8490b9d1f2e3f1d3feac695689
+Dgit: d5a47fea7fac2eee561ac344e0bb9f010a31428e
 
 Package: libinput10-dbgsym
 Source: libinput
-Version: 1.31.0-1-maruska
+Version: 1.31.1-1-maruska
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 714
-Depends: libinput10 (= 1.31.0-1-maruska)
+Depends: libinput10 (= 1.31.1-1-maruska)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/main/libi/libinput/libinput10-dbgsym_1.31.0-1-maruska_amd64.deb
-Size: 636308
-SHA512: 27d6e22925f3c5cae317305d41a1bd7254d5d0852467214278f8e67a99c8c0347f9a6d1a59a735bdfcff78160068029e3d9487f684c7f8682b22ec4d6b5b86ba
-SHA256: 7741386cd407f3d54fd2e8c99ab1418c2952395ba894f08799bcf7c20ce80220
-SHA1: 8285889bb7fa3f5118359e38bfce054f940bea4c
-MD5sum: 9463185d3b202aebadc1b901730a0ece
+Filename: pool/main/libi/libinput/libinput10-dbgsym_1.31.1-1-maruska_amd64.deb
+Size: 636200
+SHA512: ba7e60aa8e48734860cdfdbc0a11132a97548b7912fd52cd5db75d965515c110c19676c05a82187e682c3985f2098305cb3262b3a61cd183d07e21ece1a2814a
+SHA256: 0758836f80e5444b0ea9c0df8e170d07f7a6570f1eff1daa90cf7311243cec6e
+SHA1: c070e54d4519041630f5c83b48677bd8c910d93b
+MD5sum: b3feccd7b7dc1c6390f4f21ec8767f0b
 Description: debug symbols for libinput10
-Build-Ids: 7caa3d841e4751e7ced38244ac9202b084b62274
+Build-Ids: 43ba5054e5e13161dcd85cd792db42edcad93f9f
 
 Package: libpgtypes3
 Source: postgresql-18
