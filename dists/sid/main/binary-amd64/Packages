@@ -249,39 +249,42 @@ Description: ls --color inside emacs
 Dgit: d380871952ca7f608ad024a8857836ab12e7088d
 
 Package: fork-plugin
-Version: 3.0.1
+Version: 3.1.0
 Architecture: amd64
 Maintainer: Michal Maruska <mmaruska@gmail.com>
-Installed-Size: 119
+Installed-Size: 113
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libinput10 (>= 1.26.0), libstdc++6 (>= 5.2), xserver-xorg-core (>= 2:1.12.1.902-1maruska1)
 Priority: optional
 Section: x11
-Filename: pool/main/f/fork-plugin/fork-plugin_3.0.1_amd64.deb
-Size: 32464
-SHA256: d6ca8303ebe148604d3b8b2be0716548f406095e171dc1d173fc5b9bf809c212
-SHA1: 34d815e1618120eedba255405c40fc21698181f5
-MD5sum: f5941d6e1de72398ba477ea7f1612641
+Filename: pool/main/f/fork-plugin/fork-plugin_3.1.0_amd64.deb
+Size: 34632
+SHA512: e84725f7a90fa52d572597acd74ad521ece2fa50be9a405099430c2c6c4a894552ff211c7d2fb0872c51e24ff70603e203b693d322ee745a2d48080a71c7811f
+SHA256: bd4044e7158a27f7124fa282a705144eee2c800f435744b7a5f6a229d5609fed
+SHA1: a179358f0ee44541a8d943fb1d1aab61dd604eef
+MD5sum: 7ce4c1bb1fa135f995724e075b9a9167
 Description: A plugin for the input processing pipeline in Xorg server.
  Keys can be changed to other keycodes (reasonable only modifiers), when certain pattern is detected:
  parallelism, or the key is pressed for a long time, or mouse is moved.
+Dgit: c85e3e0fc7b09f61b46e0e76e31795e1353d492e
 
 Package: fork-plugin-dbgsym
 Source: fork-plugin
-Version: 3.0.1
+Version: 3.1.0
 Auto-Built-Package: debug-symbols
 Architecture: amd64
 Maintainer: Michal Maruska <mmaruska@gmail.com>
-Installed-Size: 449
-Depends: fork-plugin (= 3.0.1)
+Installed-Size: 329
+Depends: fork-plugin (= 3.1.0)
 Priority: optional
 Section: debug
-Filename: pool/main/f/fork-plugin/fork-plugin-dbgsym_3.0.1_amd64.deb
-Size: 423196
-SHA256: 4b18a1f03de53395ddeef4a4dc1ea96008e89ab1130579a2f1a0372577fe70de
-SHA1: 19db78d85ea631166e2f15e352e10eef758f0e45
-MD5sum: fb66f30785ec3bd52ecac5c8373cd672
+Filename: pool/main/f/fork-plugin/fork-plugin-dbgsym_3.1.0_amd64.deb
+Size: 301060
+SHA512: 2ddc053f396197d6dd5989ef57caa355b4b930638c1f3be45d508a89c8c8c6407bbd0a0f32cdc00deae7964f546f3d8b6a4abc0247a35db7949f68de0b64bff9
+SHA256: 8e1f50496464aaa226bd7fd9fea7ba2c2357862bf4ab3ec597d3bfb71872317f
+SHA1: c794891df15bf20a7a807fe739802613eab63d3c
+MD5sum: 394ec828486997334ea54d2654bf9e71
 Description: debug symbols for fork-plugin
-Build-Ids: bc5ca3b16822abadf287795637e85862e6583d83 f1982efc3bb852a5f3411f3c5912650a829c58cb
+Build-Ids: 23cf238e121492bccf57c462e95530ac620472cf baf7c37ef026780ddb177e68e7435a39e2f63d21
 
 Package: gauche
 Version: 0.9.15-p2-maruska
